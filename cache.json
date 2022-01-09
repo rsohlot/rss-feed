@@ -55,15 +55,6 @@
           "publishedOn": "2021-12-14T21:53:58.000Z",
           "wordCount": 2830,
           "title": "Python Classes and Their Use in Keras"
-        },
-        {
-          "id": "https://machinelearningmastery.com/?p=13124",
-          "author": "Mehreen Saeed",
-          "description": "Python is an awesome programming language! It is one of the most popular languages for developing AI and machine learning […]\nThe post More special features in Python appeared first on Machine Learning Mastery.",
-          "link": "https://machinelearningmastery.com/python-special-features/",
-          "publishedOn": "2021-12-09T21:00:48.000Z",
-          "wordCount": 3486,
-          "title": "More special features in Python"
         }
       ]
     },
@@ -7454,6 +7445,114 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/rz6kbq/d_eric_jang_on_robots_learning_at_google_and/",
+          "author": null,
+          "description": "Hi there, just want to share out latest Gradient interview with Eric Jang, a research scientist on Google AI's Robotics team. He has worked a good deal with they arm farm, and more recently on imitation learning and reinforcement learning for enabling robots to generalize to many tasks. Here's the link:\n Eric Jang on Robots Learning at Google and Generalization via Language\n As usual, we get pretty technical and most of it going over his research, as well as his recent blog posts.\n Sections:\n (00:00) Intro\n (00:50) Start in AI / Research\n (03:58) Joining Google Robotics\n (10:08) End to End Learning of Semantic Grasping\n (19:11) Off Policy RL for Robotic Grasping\n (29:33) Grasp2Vec\n (40:50) Watch, Try, Learn Meta-Learning from Demonstrations and Rewards\n (50:12) BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning\n (59:41) Just Ask for Generalization\n (01:09:02) Data for Robotics\n (01:22:10) To Understand Language is to Understand Generalization\n (01:32:38) Outro\n Papers discussed:\n  \nGrasp2Vec: Learning Object Representations from Self-Supervised Grasping\n End-to-End Learning of Semantic Grasping\n Deep reinforcement learning for vision-based robotic grasping: A simulated comparative evaluation of off-policy methods\n Watch, Try, Learn Meta-Learning from Demonstrations and Rewards\n BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning\n Just Ask for Generalization\n To Understand Language is to Understand Generalization\n Robots Must Be Ephemeralized\n  \n   submitted by    /u/regalalgorithm  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/rz6kbq/d_eric_jang_on_robots_learning_at_google_and/",
+          "publishedOn": "2022-01-08T18:36:41.000Z",
+          "wordCount": 312,
+          "title": "[D] Eric Jang on Robots Learning at Google and Generalization via Language"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/rz62v8/hypothetical_testing_a_spiked_neural_network_in/",
+          "author": null,
+          "description": "I am working on a hard sci fi project set several hundred years in the future. I'd like to show a data scientist running realistic (but interesting) tests on an android to see if it's core SNN is intact.\n Ideally, this would be some kind of behavioral simulation, a series of tests that the android has to \"pass.\"\n Thought I should come to the experts for suggestions!\n    submitted by    /u/Sensitive_Necessary7  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/rz62v8/hypothetical_testing_a_spiked_neural_network_in/",
+          "publishedOn": "2022-01-08T18:15:07.000Z",
+          "wordCount": 209,
+          "title": "Hypothetical: testing a spiked neural network in an android [D] [R] [P]"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/rz5prc/d_how_does_10shot_work/",
+          "author": null,
+          "description": "I am trying to get into contrastive learning, and I have stumbled upon benchmarks like this: https://paperswithcode.com/sota/few-shot-image-classification-on-imagenet-10\n What exactly is meant by 10-shot? Is it just training on 10 random examples (selected beforehand for fairness)? How does it work?\n    submitted by    /u/AICoderGamer  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/rz5prc/d_how_does_10shot_work/",
+          "publishedOn": "2022-01-08T18:00:10.000Z",
+          "wordCount": 138,
+          "title": "[D] How does 10-shot work?"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/rz3q9s/p_weekly_updated_open_sourced_model/",
+          "author": null,
+          "description": "Even though the popularity of JAX is increasing everyday, open sourced code implementations are still hard to find. To counter this, I have created a repository with the goal to achieve something similar to timm for torch (except for the pretrained models because I don't have the funds currently).\n Some features of jax_models: 1. Pip installable 2. Weekly / fortnightly model additions 3. Comprehensive tests 4. Model architectures are cross checked by checking original implementations if available or otherwise miscellaneous aspects of the paper such as model parameters\n The repository is currently in its pre-alpha stage with only around 6 model and layer implementations. If you are interested in this, you can contribute by either asking for specific paper implementations or by helping me train and open source weights of these models.\n If you like my work then please consider starring the repository and giving feedback. Thank you!\n Link: https://github.com/DarshanDeshpande/jax-models\n    submitted by    /u/Megixist  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/rz3q9s/p_weekly_updated_open_sourced_model/",
+          "publishedOn": "2022-01-08T16:32:15.000Z",
+          "wordCount": 240,
+          "title": "[P] Weekly updated open sourced model implementations in Flax"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/rz3ig9/r_a_5_million_source_code_file_dataset/",
+          "author": null,
+          "description": "I published a dataset of 5m source code files from 15k open source files. Its long term goal is to enable identifying causality in software engineering. \n Describing paper: End to End Software Engineering Research\n People from ML, NLP, causality, and software engineering, might find it interesting.\n The dataset enables investigating code similarity (and also text similarity in English), program difficulty, defect predictions, etc.\n The code is extracted every two months in order to investigate the difference. By the difference one can investigate if a change in a possible cause (e.g., smell removal) leads to influence (less bugs)and in which context.\n I plan to keep extending the dataset and would like to get feedback on it - ease of use, new use cases, etc.\n If you have related dataset that can be merged with, related data that you would like to obtain or ideas for research directions, please contact me.\n    submitted by    /u/idan_huji  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/rz3ig9/r_a_5_million_source_code_file_dataset/",
+          "publishedOn": "2022-01-08T16:22:35.000Z",
+          "wordCount": 243,
+          "title": "[R] A 5 million source code file dataset"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/rz1t11/r_the_pymc_devs_have_made_their_books_available/",
+          "author": null,
+          "description": "Forward: \"Bayesian modeling provides an elegant approach to many data science and decision-making problems. However, it can be hard to make it work well in practice. In particular, although there are many software packages that make it easy to specify complex hierarchical models such as Stan, PyMC3, TensorFlow Probability (TFP), and Pyro, users still need additional tools to diagnose whether the results of their computations are correct or not. They may also need advice on what to do when things do go wrong.\n This book focuses on the ArviZ library, which enables users to perform exploratory analysis of Bayesian models, for example, diagnostics of posterior samples generated by any inference method. This can be used to diagnose a variety of failure modes in Bayesian inference. The book also discusses various modeling strategies (such as centering) that can be employed to eliminate many of the most common problems. Most of the examples in the book use PyMC3, although some also use TFP; a brief comparison of other probabilistic programming languages is also included.\n The authors are all experts in the area of Bayesian software and are major contributors to the PyMC3, ArviZ, and TFP libraries. They also have significant experience applying Bayesian data analysis in practice, and this is reflected in the practical approach adopted in this book. Overall, I think this is a valuable addition to the literature, which should hopefully further the adoption of Bayesian methods.\"\n Link: https://bayesiancomputationbook.com/welcome.html\n    submitted by    /u/bikeskata  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/rz1t11/r_the_pymc_devs_have_made_their_books_available/",
+          "publishedOn": "2022-01-08T15:04:47.000Z",
+          "wordCount": 446,
+          "title": "[R] The PyMC devs have made their books available free online!"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/rz00k0/stylegan_2_and_psp_running_on_apple_neural_engine/",
+          "author": null,
+          "description": "submitted by    /u/surelyouarejoking  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/rz00k0/stylegan_2_and_psp_running_on_apple_neural_engine/",
+          "publishedOn": "2022-01-08T13:36:34.000Z",
+          "wordCount": 245,
+          "title": "‎StyleGAN 2 and PSP running on Apple Neural Engine [P]"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ryw53x/d_fourier_transform_vs_nns_as_function/",
+          "author": null,
+          "description": "So this is probably a basic question. If the main premise of neural networks is that they are global function approximators, what advantage do they have against other approximators such Fourier transform, which is also proven to be able to approximate any function. Why does not the whole supervised learning field become one of calculating Fourier coefficients\n    submitted by    /u/Hazalem  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ryw53x/d_fourier_transform_vs_nns_as_function/",
+          "publishedOn": "2022-01-08T09:33:30.000Z",
+          "wordCount": 1875,
+          "title": "[D] Fourier transform vs NNs as function approximators"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ryv05p/d_how_often_is_the_case_that_a_conference/",
+          "author": null,
+          "description": "My understanding is that if your research paper is denied from a conference, you would take the reviewer's feedback, make some changes, then submit to the next big ML conference. The process repeats until the paper is eventually accepted somewhere. But how often is it the case where the paper isn't accepted anywhere? How many papers are accepted on the first (or second) try? \n I'm an undergrad who's really new with the concept of publishing papers, so I thought it's worth asking around here. :)\n    submitted by    /u/akardashian  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ryv05p/d_how_often_is_the_case_that_a_conference/",
+          "publishedOn": "2022-01-08T08:13:45.000Z",
+          "wordCount": 777,
+          "title": "[D] How often is the case that a conference submission is rejected everywhere?"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ryqw1a/d_is_there_a_complete_list_of_modern_different_ai/",
+          "author": null,
+          "description": "Like DNN for all domains, Reinforcement learning for? Genetic algorithm for ? Symbolic AI for ? ...\n    submitted by    /u/ghosthamlet  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ryqw1a/d_is_there_a_complete_list_of_modern_different_ai/",
+          "publishedOn": "2022-01-08T04:04:47.000Z",
+          "wordCount": 282,
+          "title": "[D] Is there a complete list of modern different AI algorithms and its main application?"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ryohri/d_questions_about_paper_pay_attention_to_mlps/",
+          "author": null,
+          "description": "In Pay Attention to MLPs, \n  \nthe authors said that it is necessary for the layer s(') to contain a contraction operation over the spatial dimension. It's hard to understand why s(') should be a contraction operation. I think s(') should maintain the spatial dimension for proper calculation. Why should s(') be a contraction operation? \n Can I say transformer dynamically parameterize spatial interactions with positional encoder? I am confused whether spatial interaction already contains the meaning of positional encoding. \n  \nWhat do you think? Thank you in advance.\n    submitted by    /u/Spiritual_Fig3632  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ryohri/d_questions_about_paper_pay_attention_to_mlps/",
+          "publishedOn": "2022-01-08T02:01:57.000Z",
+          "wordCount": 182,
+          "title": "[D] Questions about paper \"Pay Attention to MLPs\""
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ryngxc/can_we_use_data_available_for_noncommercial_use/",
+          "author": null,
+          "description": "I am having a lot of difficulties getting the right data for my task since most of the datasets out there including ImageNet restrict the usage of the data to only educational and non-commercial research. In this case, should I reach out to them to get usage permission? What are the chances that they will allow/respond and would there be a significant cost associated with this? Thanks!\n    submitted by    /u/PinPitiful  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ryngxc/can_we_use_data_available_for_noncommercial_use/",
+          "publishedOn": "2022-01-08T01:11:55.000Z",
+          "wordCount": 932,
+          "title": "Can we use data available for \"non-commercial use\" for training a DL model which will be deployed as a subsystem in a commercial product? [D]"
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/ryl6pv/neural_architecture_search_nas_d/",
           "author": null,
           "description": "The goal of NAS is to find an optimal architecture of a neural network for a given problem. In my case, I am interested in creating an algorithm for finding the architecture of a Convolutional Neural Network for an Image dataset.\n The problem with any NAS algorithm is that the only true way to know if a created architecture is good is by running the model to convergence, thus increasing computational resources spent.\n There have been many possible solutions to gauge the relative trained accuracy of model. The most popular is to simply reduce the dataset, reuse training weights, and/or train for only a couple of iterations.\n I was wanting to hear some thoughts...\n I can save computational resources by only training each possible model for only 3 iterations and gauge its success using its training accuracy. The problem however with using training accuracy is that it does not gauge how well the model will generalize, only if it is capable of learning anything from the training data, if not overfitting. The problem with using the validation accuracy after 3 iterations is that most models have extremely poor validation accuracy scores early on during training, only catching up around iteration 10, therefore in order to fully gauged the validation accuracy the models would have to be trained until iteration 10, 3x more than using the training accuracy after 3 iterations.\n Would you rather train the models for only 3 iterations, using training accuracy as the metric to compare models, risking the models overfitting when trained until convergence; or, would you rather play the safe game and train models for 10 iterations using validation accuracy as a metric to compare models, but spend 3x the amount of computational resources?\n    submitted by    /u/MyActualUserName99  \n [link]   [comments]",
@@ -8591,15 +8690,6 @@
           "publishedOn": "2021-12-10T21:45:00.000Z",
           "wordCount": 1748,
           "title": "Machine learning speeds up vehicle routing"
-        },
-        {
-          "id": "https://news.mit.edu/2021/machine-learning-treatments-1209",
-          "author": "Adam Zewe | MIT News Office",
-          "description": "The system could help physicians select the least risky treatments in urgent situations, such as treating sepsis.",
-          "link": "https://news.mit.edu/2021/machine-learning-treatments-1209",
-          "publishedOn": "2021-12-09T17:00:00.000Z",
-          "wordCount": 2139,
-          "title": "Machine-learning system flags remedies that might do more harm than good"
         }
       ]
     },
@@ -8892,6 +8982,78 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/rz8ev5/coqui_introduces_yourtts_a_zerosample/",
+          "author": null,
+          "description": "Recent advancements in end-to-end deep learning models have enabled new and intriguing Text-to-Speech (TTS) use-cases with excellent natural-sounding outcomes. However, the majority of these models are trained on large datasets recorded with a single speaker in a professional setting. Expanding solutions to numerous languages and speakers is not viable for everyone in this situation. It is more challenging for low-resource languages not often studied by mainstream research.\n Coqui’s team has designed ‘YourTTS‘ to overcome these limits and provide zero-shot TTS to low-resource languages. It can synthesize voices in various languages and drastically reduce data requirements by transferring information between the training set. Continue Reading....\n Paper: https://arxiv.org/pdf/2112.02418.pdf\n Github: https://github.com/coqui-ai/TTS\n    submitted by    /u/ai-lover  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/rz8ev5/coqui_introduces_yourtts_a_zerosample/",
+          "publishedOn": "2022-01-08T19:56:45.000Z",
+          "wordCount": 215,
+          "title": "Coqui Introduces ‘YourTTS’: A Zero-Sample Text-to-Speech Model With State-of-The-Art (SOTA) Results"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/rz7us1/thislocationdoesnotexist/",
+          "author": null,
+          "description": "​\n https://preview.redd.it/d3cvvcxo1ia81.png?width=947&format=png&auto=webp&s=af6454b6f683a410f2c4b0be0fc52c1cd307ae63\n Satellite images can be easily re-purposed by using GANs that can synthesize fake aerial images. Check this out: https://mayachitra-thislocationdoesnotexist.azurewebsites.net/\n PS: GANs are getting stronger day by day. This post is just one of the million examples out there!\n    submitted by    /u/ArmadilloFabulous774  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/rz7us1/thislocationdoesnotexist/",
+          "publishedOn": "2022-01-08T19:32:14.000Z",
+          "wordCount": 218,
+          "title": "ThisLocationDoesNotExist"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/rz6la2/eric_jang_on_robots_learning_at_google_and/",
+          "author": null,
+          "description": "submitted by    /u/regalalgorithm  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/rz6la2/eric_jang_on_robots_learning_at_google_and/",
+          "publishedOn": "2022-01-08T18:37:55.000Z",
+          "wordCount": 116,
+          "title": "Eric Jang on Robots Learning at Google and Generalization via Language"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/rz62kk/what_is_the_best_ai_for_making_face_edits/",
+          "author": null,
+          "description": "submitted by    /u/xXNOdrugsForMEXx  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/rz62kk/what_is_the_best_ai_for_making_face_edits/",
+          "publishedOn": "2022-01-08T18:14:44.000Z",
+          "wordCount": 105,
+          "title": "What is the best AI for making face edits?"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ryzjha/biomedical_relationship_extraction_for_knowledge/",
+          "author": null,
+          "description": "submitted by    /u/dreadknight011  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ryzjha/biomedical_relationship_extraction_for_knowledge/",
+          "publishedOn": "2022-01-08T13:10:52.000Z",
+          "wordCount": 113,
+          "title": "Biomedical relationship extraction for knowledge graph creation using machine learning"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ryu8h5/coursera_plus_annual_subscription_is_available_at/",
+          "author": null,
+          "description": "submitted by    /u/biggbrother23  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ryu8h5/coursera_plus_annual_subscription_is_available_at/",
+          "publishedOn": "2022-01-08T07:21:08.000Z",
+          "wordCount": 125,
+          "title": "Coursera Plus Annual Subscription is available at $100 discount until 1/13 if you fancy"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ryta8d/yale_university_and_ibm_researchers_introduce/",
+          "author": null,
+          "description": "Graph kernel approaches have typically been the most popular strategy for graph classification tasks. Graph kernels can be thought of as functions that measure the similarity of two graphs. They allow kernelized learning algorithms like support vector machines to work directly on charts rather than convert them to fixed-length, real-valued feature vectors through feature extraction. \n In recent years, the use of Graph Neural Networks (GNNs) based on high-performance message-passing neural networks has exploded (MPNNs). As a result, they’ve grown increasingly popular for graph categorization. However, their performance is limited by their hand-crafted combinatorial features. \n Yale University and IBM researchers propose Kernel Graph Neural Networks (KerGNNs). KerGNNs are frameworks that combine graph kernels and the GNN message-passing procedure into one. They achieve results that are equivalent to cutting-edge approaches. Simultaneously, they vastly increase model interpretability when compared to traditional GNNs. Continue Reading....\n Paper: https://arxiv.org/pdf/2201.00491.pdf\n ​\n https://preview.redd.it/7e9twrtvpea81.png?width=1920&format=png&auto=webp&s=c96b50dac4f48ac18c913bbd0f1cf9a4cd0defc8\n    submitted by    /u/ai-lover  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ryta8d/yale_university_and_ibm_researchers_introduce/",
+          "publishedOn": "2022-01-08T06:20:21.000Z",
+          "wordCount": 252,
+          "title": "Yale University and IBM Researchers Introduce Kernel Graph Neural Networks (KerGNNs)"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ryt3eu/amazon_original_upload_are_we_inching_towards/",
+          "author": null,
+          "description": "submitted by    /u/yadavvenugopal  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ryt3eu/amazon_original_upload_are_we_inching_towards/",
+          "publishedOn": "2022-01-08T06:08:46.000Z",
+          "wordCount": 119,
+          "title": "Amazon Original Upload: Are we Inching Towards this Dystopian Reality with Metaverse?"
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/rykw46/does_anyone_know_what_ai_software_may_have_been/",
           "author": null,
@@ -9503,6 +9665,51 @@
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/rz6lr6/a_neural_network_solves_and_generates_mathematics/",
+          "author": null,
+          "description": "submitted by    /u/nickb  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/rz6lr6/a_neural_network_solves_and_generates_mathematics/",
+          "publishedOn": "2022-01-08T18:38:32.000Z",
+          "wordCount": 150,
+          "title": "A Neural Network Solves and Generates Mathematics Problems by Program Synthesis: Calculus, Differential Equations, Linear Algebra, and More"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/rz4z18/optimization_of_the_neural_network_with_the_use/",
+          "author": null,
+          "description": "Hi,\n Have any of you tried to optimize the neural network using the simulated annealing algorithm?\n I am referring to an example even on a simple neural network because I have a similar project and I will consider how to get started with the topic, so practical use would be extremely helpful ...\n Additionally, some scientific papers or hypothetical examples of use may also be helpful.\n Thanks in advance for your help.\n    submitted by    /u/theGrEaTmPm  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/rz4z18/optimization_of_the_neural_network_with_the_use/",
+          "publishedOn": "2022-01-08T17:27:34.000Z",
+          "wordCount": 197,
+          "title": "Optimization of the neural network with the use of an algorithm simulated annealing"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/rz0n65/newbie_needs_help_generating_data_charts_for/",
+          "author": null,
+          "description": "Hello guys, I am a newbie to neural nets. I need your help I have 6 data patterns in a quality control chart and I need from those 6 graphs to generate more of each of them in order to use them to train a neural net do identify them in random charts. I have tried using Gaussian distribution noise but something doesn't work well. I prefer using python to generate them.\n    submitted by    /u/aherontas  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/rz0n65/newbie_needs_help_generating_data_charts_for/",
+          "publishedOn": "2022-01-08T14:08:31.000Z",
+          "wordCount": 189,
+          "title": "Newbie needs help generating data charts for pattern recognition"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/ryta9u/yale_university_and_ibm_researchers_introduce/",
+          "author": null,
+          "description": "Graph kernel approaches have typically been the most popular strategy for graph classification tasks. Graph kernels can be thought of as functions that measure the similarity of two graphs. They allow kernelized learning algorithms like support vector machines to work directly on charts rather than convert them to fixed-length, real-valued feature vectors through feature extraction. \n In recent years, the use of Graph Neural Networks (GNNs) based on high-performance message-passing neural networks has exploded (MPNNs). As a result, they’ve grown increasingly popular for graph categorization. However, their performance is limited by their hand-crafted combinatorial features. \n Yale University and IBM researchers propose Kernel Graph Neural Networks (KerGNNs). KerGNNs are frameworks that combine graph kernels and the GNN message-passing procedure into one. They achieve results that are equivalent to cutting-edge approaches. Simultaneously, they vastly increase model interpretability when compared to traditional GNNs. Continue Reading....\n Paper: https://arxiv.org/pdf/2201.00491.pdf\n https://preview.redd.it/pe289oqwpea81.png?width=1920&format=png&auto=webp&s=31c2a51a4f57303dec5f41680a9e4517f4f662be\n    submitted by    /u/ai-lover  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/ryta9u/yale_university_and_ibm_researchers_introduce/",
+          "publishedOn": "2022-01-08T06:20:25.000Z",
+          "wordCount": 265,
+          "title": "Yale University and IBM Researchers Introduce Kernel Graph Neural Networks (KerGNNs)"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/rynzfp/image_gans_meet_differentiable_rendering_for/",
+          "author": null,
+          "description": "submitted by    /u/nickb  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/rynzfp/image_gans_meet_differentiable_rendering_for/",
+          "publishedOn": "2022-01-08T01:37:07.000Z",
+          "wordCount": 151,
+          "title": "Image GANs meet Differentiable Rendering for Inverse Graphics and Interpretable 3D Neural Rendering (aka 3D objects from a single image)"
+        },
+        {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/ryaqf6/seq2seq_learning_resources/",
           "author": null,
           "description": "I am interested in learning Seq2Seq family of ML/DL. Can you provide free learning resources to cover topics like RNN, LSTM, GRU, Transformer?\n Thanks\n    submitted by    /u/grid_world  \n [link]   [comments]",
@@ -9983,15 +10190,6 @@
           "publishedOn": "2021-12-10T20:35:00.001Z",
           "wordCount": 2448,
           "title": "A Fast WordPiece Tokenization System"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html",
-          "author": null,
-          "description": "Posted by Andrew M Dai and Nan Du, Research Scientists, Google Research, Brain Team  \nLarge language models (e.g., GPT-3) have many significant capabilities, such as performing few-shot learning across a wide array of tasks, including reading comprehension and question answering with very few or no training examples. While these models can perform better by simply using more parameters, training and serving these large models can be very computationally intensive. Is it possible to train and use these models more efficiently? \n  \nIn “GLaM: Efficient Scaling of Language Models with Mixture-of-Experts”, we introduce the Generalist Language Model (GLaM), a trillion weight model that can be trained and served efficiently (in terms of computation and energy use) thanks to sparsity, and achieves…",
-          "link": "http://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html",
-          "publishedOn": "2021-12-09T20:22:00.004Z",
-          "wordCount": 2596,
-          "title": "More Efficient In-Context Learning with GLaM"
         }
       ]
     },
@@ -10006,6 +10204,42 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/rz4wxp/hiring_my_team_is_hiring_an_2_interns_at_intel/",
+          "author": null,
+          "description": "Looking for 2 interns for summer. There are few pre-reqs.\n Must be in US.\n Must enroll in a Ph.D program (Sorry no MS and BS students)\n Must have a track record for doing RL research, i.e 2 to 3 publications at least.\n If you are interested, please send me a link to your resume. \n Thanks\n Edit: hiring 2 interns\n    submitted by    /u/schrodingershit  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/rz4wxp/hiring_my_team_is_hiring_an_2_interns_at_intel/",
+          "publishedOn": "2022-01-08T17:24:48.000Z",
+          "wordCount": 560,
+          "title": "Hiring: My team is hiring an 2 interns at Intel. Read post description"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/ryyekc/offline_rl_using_policy_gradients/",
+          "author": null,
+          "description": "I have a dataset of events that take place in football (soccer) games. This is being framed as a reinforcement learning issue by defining episodes to be the events (pass, shoot, dribble, etc) that take place when a team gains possession and loses it (by shooting, losing possession, etc). \n I have created a simple NN that estimates what the next action will be from the possible action space as a probability distribution. This NN was trained on the historical data from past matches. I would like to know if there are any good pointers into implementing Policy Gradients to nudge the probability distribution learned by the NN in the direction of some reward function that I define. Ideally the advice would be for tensorflow as that is what I am familiar with.\n    submitted by    /u/uom_questions  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/ryyekc/offline_rl_using_policy_gradients/",
+          "publishedOn": "2022-01-08T12:04:10.000Z",
+          "wordCount": 249,
+          "title": "Offline RL using Policy Gradients"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/rystbe/can_a_supervised_ann_detect_a_cat_and_a_dog_or/",
+          "author": null,
+          "description": "So a NN is good at scanning a thousand labelled pictures of a cat and then when it see's a cat it has a high likelihood of knowing it's a cat (if it is trained right).\n Can that same nn (with same or similar configuration) also determine a cat from a dog from a range of random animals, assuming weights were adjusted and training redone? Would I need two NN's for that?\n Does first NN think it's a cat? No? Okay - does 2nd NN think it's a dog? Yes!\n    submitted by    /u/Togfox  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/rystbe/can_a_supervised_ann_detect_a_cat_and_a_dog_or/",
+          "publishedOn": "2022-01-08T05:52:37.000Z",
+          "wordCount": 464,
+          "title": "Can a supervised ANN detect a cat and a dog or just a cat?"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/ryp4k7/rl_finance_focused_study_group/",
+          "author": null,
+          "description": "Hey everyone - I am looking for people (preferably MSc or PhD students/ grads) who are interested to learn applied RL in finance. I'm looking to create a group of 5-8 people to meet weekly or biweekly for around 1-2hrs to discuss papers and potential projects that we can collaborate on.\n Please let me know if interested.\n    submitted by    /u/ivan_426  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/ryp4k7/rl_finance_focused_study_group/",
+          "publishedOn": "2022-01-08T02:33:22.000Z",
+          "wordCount": 399,
+          "title": "RL (finance focused) Study Group"
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/ry84c4/reinforcement_learning_for_the_real_world/",
           "author": null,
@@ -11006,6 +11240,15 @@
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
         {
+          "id": "https://www.johndcook.com/blog/?p=93920",
+          "author": "John",
+          "description": "When does the equation x2 + 7 = 2n have integer solutions? This is an interesting question, but why would anyone ask it? This post looks at three paths that have led to this problem. Ramanujan Ramanujan [1] considered this problem in 1913. He found five solutions and conjectured that there were no more. Then […]\nThree paths converge first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/01/08/diophantine/",
+          "publishedOn": "2022-01-08T10:48:27.000Z",
+          "wordCount": 661,
+          "title": "Three paths converge"
+        },
+        {
           "id": "https://www.johndcook.com/blog/?p=93749",
           "author": "John",
           "description": "I was thumbing through a new book on causal inference, The Effect by Nick Huntington-Klein, and the following diagram caught my eye. Then it made my head hurt. It looks like a category theory diagram. What’s that doing in a book on causal inference? And if it is a category theory diagram, something’s wrong. Either […]\nOne diagram, two completely different meanings first appeared on John D. Cook.",
@@ -11247,24 +11490,6 @@
           "publishedOn": "2021-12-10T16:36:59.000Z",
           "wordCount": 363,
           "title": "Yule-Simon distribution"
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=91232",
-          "author": "John",
-          "description": "I was reading a stats book that mentioned Mahalanobis distance and that made me think of Non Nobis from Henry V, a great scene in a great movie. As far as I know, there’s no connection between Mahalanobis and Non Nobis except that both end in “nobis.” Since Mahalanobis is an Indian surname and Non […]\nMahalanobis distance and Henry V first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2021/12/09/mahalanobis-distance/",
-          "publishedOn": "2021-12-10T02:27:31.000Z",
-          "wordCount": 432,
-          "title": "Mahalanobis distance and Henry V"
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=91141",
-          "author": "John",
-          "description": "Take a permutation of the numbers 1 through n² and lay out the elements of the permutation in a square. We will call a permutation a magic permutation if the corresponding square is a magic square. What is the probability that a permutation is a magic permutation? That is, if you fill a grid randomly […]\nProbability of a magical permutation first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2021/12/09/magic-permutation/",
-          "publishedOn": "2021-12-09T13:05:50.000Z",
-          "wordCount": 942,
-          "title": "Probability of a magical permutation"
         }
       ]
     }
