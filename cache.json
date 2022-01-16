@@ -248,15 +248,6 @@
           "publishedOn": "2021-12-18T00:38:22.000Z",
           "wordCount": 4014,
           "title": "Post call analytics for your contact center with Amazon language AI services"
-        },
-        {
-          "id": "da9379ec44cc5e0492af56eff2007df098992e38",
-          "author": "Jonathan Chung",
-          "description": "In many industries, including financial services, banking, healthcare, legal, and real estate, automating document handling is an essential part of the business and customer service. In addition, strict compliance regulations make it necessary for businesses to handle sensitive documents, especially customer data, properly. Documents can come in a variety of formats, including digital forms or […]",
-          "link": "https://aws.amazon.com/blogs/machine-learning/build-custom-amazon-sagemaker-pytorch-models-for-real-time-handwriting-text-recognition/",
-          "publishedOn": "2021-12-16T20:02:18.000Z",
-          "wordCount": 3639,
-          "title": "Build custom Amazon SageMaker PyTorch models for real-time handwriting text recognition"
         }
       ]
     },
@@ -13762,6 +13753,87 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/s4w91e/p_a_tutorial_on_evolving_network_parameters_with/",
+          "author": null,
+          "description": "Hi there. I've been interested in evolutionary strategies for a while, and OpenAI's paper on them shows that they can be a pretty interesting alternative to RL. Now that I've worked with JAX a bit, I decided to put together a tutorial showcasing how I used its vectorization and parallelization to implement evolution pretty easily and get good performance on GPU/TPU devices. \n https://github.com/ttt733/nn-evolution-jax/blob/main/tutorial.md\n This isn't a tutorial on achieving results on an interesting task, but I just wanted to write about an optimization technique I think is somewhat overlooked. The focus is on walking through how I used JAX's functions to implement it. I don't go into the math behind evolutionary strategies because there are already lots of articles on particular strategies (like CMA-ES) and their performance, how they work, etc. I just use the simplistic strategies OpenAI called out in their post and used in their MuJoCo-solving code - you're free to experiment with more complex ones. And, if you know JAX better than I do, please feel free to correct me on anything I got wrong. (I know some of the vectorization stuff can get weird, so there's a chance that I vmap'd a little too aggressively.)\n Hope you enjoy!\n    submitted by    /u/kulili  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/s4w91e/p_a_tutorial_on_evolving_network_parameters_with/",
+          "publishedOn": "2022-01-15T22:33:47.000Z",
+          "wordCount": 331,
+          "title": "[P] A tutorial on evolving network parameters with JAX"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/s4tu5x/p_i_made_an_ai_twitter_bot_that_draws_peoples/",
+          "author": null,
+          "description": "submitted by    /u/maaartiin_mac  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/s4tu5x/p_i_made_an_ai_twitter_bot_that_draws_peoples/",
+          "publishedOn": "2022-01-15T20:47:13.000Z",
+          "wordCount": 502,
+          "title": "[P] I made an AI twitter bot that draws people’s dream jobs for them."
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/s4m6s3/r_matrixcalculusorg_a_tool_for_automatically/",
+          "author": null,
+          "description": "I came across this site, from Andrew Gelman's blog (https://statmodeling.stat.columbia.edu/2020/06/03/online-matrix-derivative-calculator-vs-matrix-normal-stan/): \n http://www.matrixcalculus.org/\n It'll do matrix calculus for you, and not only provide you the result, you can export it into either LaTeX or produce Python code! It's super useful for when you have to precompute things by \"hand.\"\n There's an associated NeurIPS paper if you want the gory details:\n http://www.matrixcalculus.org/matrixcalculus.pdf\n    submitted by    /u/bikeskata  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/s4m6s3/r_matrixcalculusorg_a_tool_for_automatically/",
+          "publishedOn": "2022-01-15T15:04:43.000Z",
+          "wordCount": 160,
+          "title": "[R] MatrixCalculus.org -- A tool for automatically computing Matrix Derivatives"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/s4fsxy/dare_there_any_effective_machine_learning_methods/",
+          "author": null,
+          "description": "Recently have been struck by the fact that the two most powerful machine learning methods, neural networks and genetic algorithms, are partly just copied from nature (in concept at least, obviously was a ton of work by a lot of brilliant people). I guess there is a lot of machine learning that is basically just memorization or math but are there any other deep learning algorithm paradigms out there? Do you think there could be someday?\n    submitted by    /u/naxpouse  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/s4fsxy/dare_there_any_effective_machine_learning_methods/",
+          "publishedOn": "2022-01-15T08:30:32.000Z",
+          "wordCount": 510,
+          "title": "[D]Are there any effective machine learning methods that aren't copied from nature?"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/s4f1p8/d_is_there_an_opensource_implementation_of_the/",
+          "author": null,
+          "description": "Wondering if there's an open-source implementation of the Retrieval-Enhanced Transformer (RETRO) [arxiv link]?\n I imagine that it may take some time to make its way to production libraries like Huggingface Transformers due to the external memory component. Anyone heard of people working on this?\n    submitted by    /u/bigvenn  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/s4f1p8/d_is_there_an_opensource_implementation_of_the/",
+          "publishedOn": "2022-01-15T07:40:09.000Z",
+          "wordCount": 374,
+          "title": "[D] Is there an open-source implementation of the Retrieval-Enhanced Transformer (RETRO)?"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/s4d3lv/r_detecting_twentythousand_classes_using/",
+          "author": null,
+          "description": "submitted by    /u/Illustrious_Row_9971  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/s4d3lv/r_detecting_twentythousand_classes_using/",
+          "publishedOn": "2022-01-15T05:40:29.000Z",
+          "wordCount": 116,
+          "title": "[R] Detecting Twenty-thousand Classes using Image-level Supervision"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/s4c6ob/p_built_a_dog_poop_detector_for_my_backyard/",
+          "author": null,
+          "description": "Over winter break I started poking around online for ways to track dog poop in my backyard. I don't like having to walk around and hope I picked up all of it. Where I live it snows a lot, and poops get lost in the snow come new snowfall. I found some cool concept gadgets that people have made, but nothing that worked with just a security cam. So I built this poop detector and made a video about it. When some code I wrote detects my dog pooping it will remember the location and draw a circle where my dog pooped on a picture of my backyard.\n So over the course of a couple of months I have a bunch of circle on a picture of my backyard, where all my dog's poops are. So this coming spring I will know where to look!\n Check out the video if you care: https://www.youtube.com/watch?v=uWZu3rnj-kQ\n Figured I would share here, it was fun to work on. Is this something you would hook up to a security camera if it was simple? Curious.\n Also, check out DeepLabCut. My project wouldn't have been possible without it, and it's really cool: https://github.com/DeepLabCut/DeepLabCut\n    submitted by    /u/GoochCommander  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/s4c6ob/p_built_a_dog_poop_detector_for_my_backyard/",
+          "publishedOn": "2022-01-15T04:50:15.000Z",
+          "wordCount": 680,
+          "title": "[P] Built a dog poop detector for my backyard"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/s49mjz/r_deep_symbolic_regression_for_recurrent_sequences/",
+          "author": null,
+          "description": "submitted by    /u/hardmaru  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/s49mjz/r_deep_symbolic_regression_for_recurrent_sequences/",
+          "publishedOn": "2022-01-15T02:34:42.000Z",
+          "wordCount": 102,
+          "title": "[R] Deep Symbolic Regression for Recurrent Sequences"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/s48ka1/p_simple_tensorflow_implementation_of_toward/",
+          "author": null,
+          "description": "​\n samples.gif\n  \nAbstract Recent image generation models show remarkable generation performance. However, they mirror strong location preference in datasets, which we call spatial bias. Therefore, generators render poor samples at unseen locations and scales. We argue that the generators rely on their implicit positional encoding to render spatial content. From our observations, the generator’s implicit positional encoding is translation-variant, making the generator spatially biased. To address this issue, we propose injecting explicit positional encoding at each scale of the generator. By learning the spatially unbiased generator, we facilitate the robust use of generators in multiple tasks, such as GAN inversion, multi-scale generation, generation of arbitrary sizes and aspect ratios. Furthermore, we show that our method can also be applied to denoising diffusion probabilistic models.\n  \n code : https://github.com/taki0112/Toward_spatial_unbiased-Tensorflow\n paper : https://arxiv.org/abs/2108.01285\n  \n   submitted by    /u/taki0112  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/s48ka1/p_simple_tensorflow_implementation_of_toward/",
+          "publishedOn": "2022-01-15T01:41:28.000Z",
+          "wordCount": 237,
+          "title": "[P] Simple Tensorflow Implementation of \"Toward Spatially Unbiased Generative Models (ICCV 2021)\""
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/s46602/p_sentiment_analysis_on_7000_words/",
           "author": null,
           "description": "Alright, so quick disclaimer: I'm a high-schooler, and probably biting off more than I can chew, but I'm trying this either way, so please excuse any stupid questions.\n I'm looking to do sentiment analysis on a number of 7,000+ word long reports that have been released over a period of years to look at the change in sentiment. From what I've done and from what I've seen others do, most sentiment analysis is on text that is much, much shorter (~sentence length). Is there any model that can take text of that length? If not, my other thought was to split each report up into individual sentences, feed those through the model, and average the sentiment for each report. Could that work? Or would the results be utter crap? Are there better ways of tackling this issue?\n Any advice or information would be appreciated, thank you all so much!\n    submitted by    /u/Blue_Jay89  \n [link]   [comments]",
@@ -15753,24 +15825,6 @@
           "publishedOn": "2021-12-17T21:30:00.000Z",
           "wordCount": 1619,
           "title": "Perfecting pitch perception"
-        },
-        {
-          "id": "https://news.mit.edu/2021/ai-generated-characters-for-good-1216",
-          "author": "Becky Ham | MIT Media Lab",
-          "description": "Researchers encourage positive use cases of AI-generated characters for education and well-being.",
-          "link": "https://news.mit.edu/2021/ai-generated-characters-for-good-1216",
-          "publishedOn": "2021-12-16T21:45:00.000Z",
-          "wordCount": 1718,
-          "title": "Characters for good, created by artificial intelligence"
-        },
-        {
-          "id": "https://news.mit.edu/2021/qa-cathy-wu-developing-algorithms-safely-integrate-robots-our-world-1216",
-          "author": "Kim Martineau | MIT Schwarzman College of Computing",
-          "description": "Assistant professor of civil engineering describes her career in robotics as well as challenges and promises of human-robot interactions.",
-          "link": "https://news.mit.edu/2021/qa-cathy-wu-developing-algorithms-safely-integrate-robots-our-world-1216",
-          "publishedOn": "2021-12-16T21:25:00.000Z",
-          "wordCount": 2040,
-          "title": "Q&A: Cathy Wu on developing algorithms to safely integrate robots into our world"
         }
       ]
     },
@@ -16066,33 +16120,6 @@
           "publishedOn": "2021-12-20T18:00:45.000Z",
           "wordCount": 751,
           "title": "Detect That Defect: Mariner Speeds Up Manufacturing Workflows With AI-Based Visual Inspection"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=54605",
-          "author": "Amanda Saunders",
-          "description": "2021 saw massive growth in the demand for edge computing — driven by the pandemic, the need for more efficient business processes, as well as key advances in the Internet of Things, 5G and AI. In a study published by IBM in May, for example, 94 percent of surveyed executives said their organizations will implement Read article >\nThe post Top 5 Edge AI Trends to Watch in 2022 appeared first on The Official NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2021/12/17/top-5-edge-ai-trends-2022/",
-          "publishedOn": "2021-12-17T08:01:57.000Z",
-          "wordCount": 1392,
-          "title": "Top 5 Edge AI Trends to Watch in 2022"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=54601",
-          "author": "Angie Lee",
-          "description": "The thing about inspiration is you never know where it might come from, or where it might lead.  Anderson Rohr, a 3D generalist and freelance video editor based in southern Brazil, has for more than a dozen years created content ranging from wedding videos to cinematic animation. After seeing another creator animate a sci-fi character’s Read article >\nThe post Omniverse Creator Uses AI to Make Scenes With Singing Digital Humans appeared first on The Official NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2021/12/16/omniverse-creator-anderson-rohr/",
-          "publishedOn": "2021-12-16T16:00:25.000Z",
-          "wordCount": 651,
-          "title": "Omniverse Creator Uses AI to Make Scenes With Singing Digital Humans"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=54626",
-          "author": "GeForce NOW Community",
-          "description": "The future of cloud gaming is available NOW, for everyone, with preorders closing and GeForce NOW RTX 3080 memberships moving to instant access. Gamers can sign up for a six-month GeForce NOW RTX 3080 membership and instantly stream the next generation of cloud gaming, starting today. Snag the NVIDIA SHIELD TV or SHIELD TV Pro Read article >\nThe post Get the Best of Cloud Gaming With GeForce NOW RTX 3080 Memberships Available Instantly appeared first on The Official NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2021/12/16/geforce-now-thursday-december-16/",
-          "publishedOn": "2021-12-16T14:00:23.000Z",
-          "wordCount": 1331,
-          "title": "Get the Best of Cloud Gaming With GeForce NOW RTX 3080 Memberships Available Instantly"
         }
       ]
     },
@@ -16107,6 +16134,69 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/s4v230/trained_gpt2_to_write_poems/",
+          "author": null,
+          "description": "BEHOLD! I'm presenting you... A terrible mix of Philips Sydney, William Blake and Emily Dickinson. Enjoy reading those terrible poems of GPT-2 o_o\n THE ECHOING GREEN My mistress calls me When I am in the sky, And I am just, and bright. She calls me when I am in the sky, And she sings My joys, my sorrows, To my songs you sweet child can hear. Oh! how sweet is the sound Of God! As he smiles his child appears, And smiles on me, and out of me shine. \n I previously shared the next one, but it feels nice to read. That's one of the best I guess.\n A MAN'S DIALOGUE The man's life revolves round a circle; There, in the middle, the circle of life Reveals itself, all its life, Except and within itself, The whole circle is alive. \n The AI... Oh Boy... What have you done GPT-2?\n Sweet is his wife, if sh…",
+          "link": "https://www.reddit.com/r/artificial/comments/s4v230/trained_gpt2_to_write_poems/",
+          "publishedOn": "2022-01-15T21:41:34.000Z",
+          "wordCount": 674,
+          "title": "Trained GPT-2 to write poems"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/s4ukul/i_built_an_ai_bot_that_draws_peoples_dream_jobs/",
+          "author": null,
+          "description": "submitted by    /u/maaartiin_mac  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/s4ukul/i_built_an_ai_bot_that_draws_peoples_dream_jobs/",
+          "publishedOn": "2022-01-15T21:20:01.000Z",
+          "wordCount": 191,
+          "title": "I built an AI bot that draws people’s dream jobs on Twitter"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/s4t3g5/a_science_journalists_journey_to_understand_ai/",
+          "author": null,
+          "description": "submitted by    /u/regalalgorithm  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/s4t3g5/a_science_journalists_journey_to_understand_ai/",
+          "publishedOn": "2022-01-15T20:14:06.000Z",
+          "wordCount": 104,
+          "title": "A Science Journalist’s Journey to Understand AI"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/s4rkr4/meta_ai_introduces_avhubert_a_stateoftheart/",
+          "author": null,
+          "description": "AI is used for various speech recognition and understanding activities, ranging from enabling smart speakers to designing aids for persons who are deaf or have speech impairments. However, these speech comprehension algorithms frequently fail to perform well in everyday scenarios where we need them the most: when numerous people speak simultaneously or when there is a lot of background noise. Even advanced noise-canceling techniques are frequently ineffective against, for instance, the sound of the ocean on a beach trip or the background chatter of a noisy street market.\n Humans interpret speech better than AI in these situations because we use both our ears and our sight. For example, we could watch someone’s mouth move and intuitively know the voice we’re hearing is coming from her. That is why Meta AI is developing new conversational AI systems that, like us, can discern intricate relationships between what they see and what they hear in conversation.\n Continue Reading\n Paper 1: https://arxiv.org/abs/2201.01763?\n Paper 2: https://arxiv.org/abs/2201.02184?\n Github: https://facebookresearch.github.io/av_hubert/\n ​\n https://i.redd.it/zz4piiyzgwb81.gif\n    submitted by    /u/techsucker  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/s4rkr4/meta_ai_introduces_avhubert_a_stateoftheart/",
+          "publishedOn": "2022-01-15T19:06:22.000Z",
+          "wordCount": 312,
+          "title": "Meta AI Introduces AV-HuBERT: A State-Of-The-Art Self-Supervised Framework For Understanding Speech That Learns By Both Seeing And Hearing People Speak"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/s4kcio/remove_unwanted_objects_from_highquality_images/",
+          "author": null,
+          "description": "submitted by    /u/OnlyProggingForFun  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/s4kcio/remove_unwanted_objects_from_highquality_images/",
+          "publishedOn": "2022-01-15T13:29:40.000Z",
+          "wordCount": 202,
+          "title": "Remove Unwanted Objects From High-Quality Images! (not only 256x256...!). LaMa explained"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/s4h3or/need_a_book_about_artificial_intelligenceneural/",
+          "author": null,
+          "description": "Any book will suffice for me.\n But the books that I am looking for is this-:\n https://www.amazon.com/Introduction-Neural-Networks-Matlab-6-0/dp/0070591121\n https://b-ok.asia/book/11849928/95de3e\n There is 1 book in b-ok.org but some guy has just posted the google books preview pdf of this book.\n lol.\n If you studied artificial intelligence/soft computing/neural networks in university can you share your book you used to pass university exam questions? I am from Nepal and our syllabus is copied from those Indian university colleges. So having their book would be helpful. But the thing is that Indian author's textbook are not available in Nepal lol.\n    submitted by    /u/barnyard9  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/s4h3or/need_a_book_about_artificial_intelligenceneural/",
+          "publishedOn": "2022-01-15T10:00:11.000Z",
+          "wordCount": 223,
+          "title": "Need a book about artificial intelligence/neural network/soft computing written by an Indian author. If you have pdf please share!"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/s4eyjb/ai_based_diet_and_nutrition_planner/",
+          "author": null,
+          "description": "Any app or website that has a mature AI engine to recommend diet and nutrition plan?\n Or an open source engine that does it when trained.\n    submitted by    /u/purelibran  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/s4eyjb/ai_based_diet_and_nutrition_planner/",
+          "publishedOn": "2022-01-15T07:34:08.000Z",
+          "wordCount": 123,
+          "title": "AI based diet and nutrition planner?"
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/s3zqta/looking_for_a_text_to_speech_ai/",
           "author": null,
@@ -17276,6 +17366,15 @@
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/s4h1kn/need_a_book_about_artificial_intelligenceneural/",
+          "author": null,
+          "description": "Any book will suffice for me.\n ​\n But the books that I am looking for is this-:\n ​\n [https://www.amazon.com/Introduction-Neural-Networks-Matlab-6-0/dp/0070591121](https://www.amazon.com/Introduction-Neural-Networks-Matlab-6-0/dp/0070591121)\n ​\n [https://b-ok.asia/book/11849928/95de3e](https://b-ok.asia/book/11849928/95de3e)\n ​\n There is 1 book in [b-ok.org](https://b-ok.org) but some guy has just posted the google books preview pdf of this book.\n ​\n lol.\n ​\n **If you studied artificial intelligence/soft computing/neural networks in university can you share your book you used to pass university exam questions? I am from Nepal and our syllabus is copied from those Indian university colleges. So having their book would be helpful. But the thing is that Indian author's textbook are not available in Nepal lol.**\n    submitted by    /u/barnyard9  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/s4h1kn/need_a_book_about_artificial_intelligenceneural/",
+          "publishedOn": "2022-01-15T09:56:03.000Z",
+          "wordCount": 272,
+          "title": "Need a book about artificial intelligence/neural network/soft computing written by an Indian author. If you have pdf please share!"
+        },
+        {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/s35mwx/novel_viewpoint_tennis_from_single_camera/",
           "author": null,
           "description": "submitted by    /u/Odd_Temporary_9736  \n [link]   [comments]",
@@ -17652,33 +17751,6 @@
           "publishedOn": "2021-12-17T17:03:14.000Z",
           "wordCount": 287,
           "title": "Free NLP for Semantic Search Course + Data Augmentation with SBERT (AugSBERT)"
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/ri4ps4/understanding_alphazero_neural_networks/",
-          "author": null,
-          "description": "As a common and (sometimes) proven belief, deep learning systems seem to learn uninterpretable representations and are far from human understanding. Recently, some studies have highlighted the fact that this may not always be applicable, and some networks may be able to learn human-readable representations. Unfortunately, this ability could merely come from the fact that these networks are exposed to human-generated data. So, to demonstrate their ability to learn like humans (and not that they are simply memorizing human-created labels), it is necessary to test them without any label. \n Following this idea, the DeepMind and Google Brain teams, together with the 14th world chess champion Vladimir Kramnik, studied their creature AlphaZero from this point of view. AlphaZero is the descendant of AlphaGo, the super neural network that beat the world champion Lee Sedol in a best-of-five GO match, a turning point in the history of deep learning, as can also be seen in the wonderful Netflix documentary AlphaGo. \n Unlike AlphaGo, AlphaZero is trained through self-play (i.e., it learns to play competing against itself) and masters not only GO but also chess and shogi. This trait makes AlphaZero the perfect case study to explore this idea. Moreover, given the fact that it performs at a superhuman level, understanding its functionality is also particularly useful for highlighting unknown patterns which have never been discovered by chess theorists.\n Full Paper Summary by Leonardo Tanzi: https://www.marktechpost.com/2021/12/16/understanding-alphazero-neural-networks-superhuman-chess-ability/ \n Paper: https://arxiv.org/pdf/2111.09259.pdf\n https://preview.redd.it/t4mjebrm10681.png?width=808&format=png&auto=webp&s=58fcc96e8b1ae92469c26820528d0a5b31514365\n    submitted by    /u/ai-lover  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/ri4ps4/understanding_alphazero_neural_networks/",
-          "publishedOn": "2021-12-17T00:44:05.000Z",
-          "wordCount": 385,
-          "title": "Understanding AlphaZero Neural Network’s SuperHuman Chess Ability (Summary of the Paper 'Acquisition of Chess Knowledge in AlphaZero')"
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/rhxivg/conceptualization_of_a_cnn/",
-          "author": null,
-          "description": "Hi all\n ​\n I've been reading about the differences between normal fully-connected feedforward networks and convolutional neural networks, and I'm wondering if I understand something about how they subsume one another.\n Is a CNN \"just\" an ANN where the inputs to the network are convolutions over the input?\n    submitted by    /u/snatchingthepiano  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/rhxivg/conceptualization_of_a_cnn/",
-          "publishedOn": "2021-12-16T19:01:26.000Z",
-          "wordCount": 147,
-          "title": "Conceptualization of a CNN"
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/rhv0yn/synthetic_time_series_data_generation/",
-          "author": null,
-          "description": "I want to generate time series tabular data. Most of generative deep learning models consists of VAE and/or GAN which are for most part relating to images, videos, etc.\n Can you please point me to relevant tutorial souces (if it includes code along with theory, all the more better) pertaining to synthethic time series data generation using deep learning models or other techniques?\n    submitted by    /u/grid_world  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/rhv0yn/synthetic_time_series_data_generation/",
-          "publishedOn": "2021-12-16T17:03:33.000Z",
-          "wordCount": 167,
-          "title": "Synthetic time series data generation"
         }
       ]
     },
@@ -17723,17 +17795,7 @@
       "title": "OpenAI",
       "feedUrl": "https://openai.com/blog/rss",
       "siteUrl": "https://openai.com/",
-      "articles": [
-        {
-          "id": "61bb711a2a7e63003b0a2558",
-          "author": "Jacob Hilton",
-          "description": "We've fine-tuned GPT-3 to more accurately answer open-ended questions using a text-based web browser. Our prototype copies how humans research answers to questions online – it submits search queries, follows links, and scrolls up and down web pages. It is trained to cite its sources, which makes it",
-          "link": "https://openai.com/blog/improving-factual-accuracy/",
-          "publishedOn": "2021-12-16T17:05:45.000Z",
-          "wordCount": 1371,
-          "title": "WebGPT: Improving the factual accuracy of language models through web browsing"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Microsoft Research",
@@ -17805,15 +17867,6 @@
           "publishedOn": "2022-01-11T19:01:00.006Z",
           "wordCount": 12011,
           "title": "Google Research: Themes from 2021 and Beyond"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/12/a-scalable-approach-for-partially-local.html",
-          "author": null,
-          "description": "Posted by Karan Singhal, Senior Software Engineer, Google Research  \nFederated learning enables users to train a model without sending raw data to a central server, thus avoiding the collection of privacy-sensitive data. Often this is done by learning a single global model for all users, even though the users may differ in their data distributions. For example, users of a mobile keyboard application may collaborate to train a suggestion model but have different preferences for the suggestions. This heterogeneity has motivated algorithms that can personalize a global model for each user.  \n However, in some settings privacy considerations may prohibit learning a fully global model. Consider models with user-specific embeddings, such as matrix factorization models for recommender systems. Tr…",
-          "link": "http://ai.googleblog.com/2021/12/a-scalable-approach-for-partially-local.html",
-          "publishedOn": "2021-12-16T18:11:00.000Z",
-          "wordCount": 2092,
-          "title": "A Scalable Approach for Partially Local Federated Learning"
         }
       ]
     },
@@ -17828,6 +17881,87 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/s4wyol/seeking_advice_on_my_custom_env_demo_included/",
+          "author": null,
+          "description": "Hi !\n I m looking for some advices. I created a custom gym environement and ran it with stable baseline's PPO.\n My environement is rather simple I believe. Its a 2d Space with two dots in it. One dot is the agent ( blue dot)\n Another dot (red) is freely travelling vertically or horizontally (randomly selected at env init).\n The goal is to catch the red dot. The episode is considered done when the distance between both dot is under a small value.\n The observation space is continuous (x / y between 0 and 1)\n The action space is discrete ( up down left right) \n demo\n The agent is rather good at \"chasing\" but not good at \"planning\".\n For example it could position itself on the inbound trajectory of the red dot to \"intercept\" it but it fails to do so.\n Any idea how to get to that behavior ?\n Code\n https://github.com/Ouassimf/rl-tracker-2d \n Thanks for advices !\n    submitted by    /u/Ouassimf  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/s4wyol/seeking_advice_on_my_custom_env_demo_included/",
+          "publishedOn": "2022-01-15T23:06:26.000Z",
+          "wordCount": 270,
+          "title": "Seeking advice on my custom env (demo included)"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/s4rrum/expected_returns_dont_match_with_actions_because/",
+          "author": null,
+          "description": "I am working with an environment with a continuous action space. The agent needs to output 4 continuous values for the action space. I'm using REINFORCE, so I built a small net that, given a (31,)-sized observation space, outputs a 4x1 vector (https://www.pettingzoo.ml/sisl/multiwalker).\n My loss is:\n loss= -torch.sum(torch.log(prob_batch)*expected_returns_batch) \n So it requires an array of action probabilities for the actions that were taken and the discounted rewards. For this reason, I recomputes the action probabilities for all the states in the trajectory and subsets the action-probabilities associated with the actions that were actually taken with the following two lines of code:\n  pred_batch = model(state_batch) \n prob_batch = pred_batch.gather(dim=1,index=action_batch .long().view(-1,1)).squeeze()\n However, I receive this error:\n  RuntimeError: Size does not match at dimension 0 expected index [1116, 1] to be smaller than self [279, 4] apart from dimension 1 \n So the problem seems to be that the agent emits four actions at each time step, but the code expects one action only (1116 is indeed four times bigger than 279). How do I fix this?\n Thanks!\n    submitted by    /u/No_Possibility_7588  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/s4rrum/expected_returns_dont_match_with_actions_because/",
+          "publishedOn": "2022-01-15T19:15:10.000Z",
+          "wordCount": 328,
+          "title": "Expected returns don't match with actions, because the agent ouputs a 4x1 vector action space at each time step"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/s4ojgf/outputting_a_4x1_continuous_action_space/",
+          "author": null,
+          "description": "Hi all,\n I am working with an environment with a continuous action space. The agent needs to output 4 continuous values for the action space. I'm using REINFORCE, so I built a small net that, given a (31,)-sized observation space, outputs a 4x1 vector (https://www.pettingzoo.ml/sisl/multiwalker).\n The reason why I'm getting confused is that, if the possible actions were 4 and the agent had to select 1, I could use that probability distribution to choose the one with the highest value. However, here the agent needs to output a 4x1 action space, so I'm not sure how to use the probability distribution. \n Thanks!\n    submitted by    /u/No_Possibility_7588  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/s4ojgf/outputting_a_4x1_continuous_action_space/",
+          "publishedOn": "2022-01-15T16:53:12.000Z",
+          "wordCount": 407,
+          "title": "Outputting a 4x1 continuous action space according to a probability distribution"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/s4ofb6/action_space_for_multi_units_controlled_by_a/",
+          "author": null,
+          "description": "Hi everyone, I have a gym environment where there are multiple units controlled by a single agent. These units can also create new units and the units may also die. Since the number of units may vary, I am wondering how to make an action space if my Agent have to take actions for each units in a single step.\n    submitted by    /u/Coder_Unknown  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/s4ofb6/action_space_for_multi_units_controlled_by_a/",
+          "publishedOn": "2022-01-15T16:48:04.000Z",
+          "wordCount": 226,
+          "title": "Action space for multi units controlled by a single agent"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/s4ju15/can_rainbow_learn_a_stochastic_policy/",
+          "author": null,
+          "description": "Hi, so I'm developing an RL algorithm, and I have a problem what to choosing Rainbow or PPO. According to Sutton and Barto's book, the DQN fails to learn a stochastic policy i.e. while in the state or observation 's' acting optimally would be taking action a1 with 60% probability and taking action b with 40 probability. Now since the DQN outputs always the optimal action (based on its value) and not the distribution of action probabilities I see that DQN can't learn optimal stochastic policy?\n I'm unfamiliar with Rainbow implementation, but does it solve that problem of DQN learning deterministic policy?\n    submitted by    /u/basic_r_user  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/s4ju15/can_rainbow_learn_a_stochastic_policy/",
+          "publishedOn": "2022-01-15T13:00:32.000Z",
+          "wordCount": 293,
+          "title": "Can Rainbow learn a stochastic policy?"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/s4j6tg/ppo_bipedalwalkerv3_not_converging_enough/",
+          "author": null,
+          "description": "I am training BipedalWalker-v3 agent with PPO algorithm and I cant get my agent to get reward 300 or higher.\n I implemented basic PPO with several upgrades:\n  \nGAE\n Normalized advantage\n Value Function Loss Clipping\n Overall Loss Includes Entropy Loss\n Adam Learning Rate Annealing\n Mini-batch Updates\n The Epsilon Parameter of Adam Optimizer set to 1e-5\n Normalize and clip observation\n Scale and clip reward\n One NN for policy, one for critic\n  \nResults I get are shown in table below where Y axis is reward, X is one step (2048 steps, 10 updates). \n https://preview.redd.it/kf7jpy9qfub81.png?width=1710&format=png&auto=webp&s=784e49af512ae2e8534152461ff251de701dee48\n I get really close, but never to over 300. Let alone average 300 reward over 100 episodes which is the goal.\n I tried to tune my hyperparameters but wasn't successful. I can provide other graphs, like policy loss, critic loss or mean 100 reward if that helps, but I need help to read these graphs so I can change my hyperparamaters or maybe implementation.\n Best i managed was reward of 300.1 in one step (and never again) and mean reward of 282 when test process tested NNs for 100 episodes.\n    submitted by    /u/TheGuy839  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/s4j6tg/ppo_bipedalwalkerv3_not_converging_enough/",
+          "publishedOn": "2022-01-15T12:20:31.000Z",
+          "wordCount": 555,
+          "title": "PPO BipedalWalker-v3 not converging enough"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/s4gh4a/any_tips_for_training_policy_gradient_on_solving/",
+          "author": null,
+          "description": "submitted by    /u/Mithrandir2k16  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/s4gh4a/any_tips_for_training_policy_gradient_on_solving/",
+          "publishedOn": "2022-01-15T09:17:07.000Z",
+          "wordCount": 366,
+          "title": "Any tips for training policy gradient on solving mazes?"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/s4egwk/question_about_ubers_poet_specifically_which/",
+          "author": null,
+          "description": "I'm wondering if their code used V2 or V3. I will ask them if no one here knows, but I thought I would be faster to ask here.\n Apparently V2 had a pretty terrible bug with the LIDARs, so I don't want to reuse POET's code before making sure they used the right version\n Thanks!\n    submitted by    /u/DuchessOfNull  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/s4egwk/question_about_ubers_poet_specifically_which/",
+          "publishedOn": "2022-01-15T07:01:55.000Z",
+          "wordCount": 263,
+          "title": "Question about Uber's POET (specifically, which version of BipedalWalker they used)"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/s4chfc/definition_of_an_episodic_task/",
+          "author": null,
+          "description": "Hi,\n Just wondering if anyone has come across a formal definition for episodic tasks in reinforcement learning? Sutton's (excellent) book talks about episodic tasks but seems to not formally define them. The questions I'm trying to answer are:\n (1) does episodic imply episodes are time-limited to some (known) length H (one author uses this)? \n (2) Does it just imply termination in a finite (but arbitarly large) number of steps?\n (3) Does it imply neither of these?\n My thinking is that ergodic + at least one terminal state + a finite number of states implies 2 (but an infinite number of states does not). \n Thanks\n    submitted by    /u/VirtualHat  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/s4chfc/definition_of_an_episodic_task/",
+          "publishedOn": "2022-01-15T05:06:02.000Z",
+          "wordCount": 395,
+          "title": "Definition of an Episodic Task"
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/s3zf6u/reinforcement_learning_as_a_finetuning_paradigm/",
           "author": null,
@@ -19161,33 +19295,6 @@
           "publishedOn": "2021-12-18T00:30:00.000Z",
           "wordCount": 2040,
           "title": "How data decentralization is already benefiting enterprises–and society"
-        },
-        {
-          "id": "http://www.datasciencecentral.com/xn/detail/6448529:BlogPost:1084503",
-          "author": null,
-          "description": "<p><a href=\"https://storage.ning.com/topology/rest/1.0/file/get/9926827266?profile=original\" rel=\"noopener\" target=\"_blank\"><img class=\"align-full\" src=\"https://storage.ning.com/topology/rest/1.0/file/get/9926827266?profile=RESIZE_710x\" width=\"720\"></img></a></p>\r\n<p>Almost all Software-as-a-Service (SaaS) businesses start with a \"visionary idea\" - a concept that can revolutionize the industry. Yet, the world has witnessed numerous passionate founders invest their energy, time, and money in a product that solves a problem that nobody cares about. It's the responsibility of a leader to determine if the product is…</p>",
-          "link": "http://www.datasciencecentral.com/xn/detail/6448529:BlogPost:1084503",
-          "publishedOn": "2021-12-17T07:00:00.000Z",
-          "wordCount": 2584,
-          "title": "How to Build a Minimum Viable Product (MVP): A Detailed Guide"
-        },
-        {
-          "id": "http://www.datasciencecentral.com/xn/detail/6448529:BlogPost:1084194",
-          "author": null,
-          "description": "<p><b><a href=\"https://storage.ning.com/topology/rest/1.0/file/get/9919075296?profile=original\" rel=\"noopener\" target=\"_blank\"><img class=\"align-full\" src=\"https://storage.ning.com/topology/rest/1.0/file/get/9919075296?profile=RESIZE_710x\" width=\"720\"></img></a></b></p>\r\n<p><b>Technology</b> is emerging as well as changing the future of the <b>education</b> <b>system</b> by turning the traditional methods of gaining knowledge into a comprehensive way of learning with the help of augmented reality and simulation tools. In the future, this will actively help the education as well as educators to manage time for…</p>",
-          "link": "http://www.datasciencecentral.com/xn/detail/6448529:BlogPost:1084194",
-          "publishedOn": "2021-12-17T04:30:00.000Z",
-          "wordCount": 1367,
-          "title": "Ways Technology is offering Innovative Solutions to the Education System"
-        },
-        {
-          "id": "http://www.datasciencecentral.com/xn/detail/6448529:BlogPost:1084052",
-          "author": null,
-          "description": "<p><a href=\"https://storage.ning.com/topology/rest/1.0/file/get/9916643293?profile=original\" rel=\"noopener\" target=\"_blank\"><img class=\"align-full\" src=\"https://storage.ning.com/topology/rest/1.0/file/get/9916643293?profile=RESIZE_710x\" width=\"720\"></img></a></p>\r\n<p>It is no secret that technology has evolved at a rapid pace and that this fast-paced evolution has brought about intense changes across the world. Today’s manufacturing companies need advanced services to maximize efficiency and productivity. Thanks to technology and innovation, today’s manufacturing industry today has undergone drastic changes. From…</p>",
-          "link": "http://www.datasciencecentral.com/xn/detail/6448529:BlogPost:1084052",
-          "publishedOn": "2021-12-16T13:00:00.000Z",
-          "wordCount": 1199,
-          "title": "Top Reasons Why Manufacturing Companies Need DevOps"
         }
       ]
     },
@@ -19196,6 +19303,33 @@
       "feedUrl": "https://www.johndcook.com/blog/feed",
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
+        {
+          "id": "https://www.johndcook.com/blog/?p=94481",
+          "author": "John",
+          "description": "Textbook presentations of queueing theory start by assuming that the time between customer arrivals and the time to serve a customer are both exponentially distributed. Maybe these assumptions are realistic enough, but maybe not. For example, maybe there’s a cutoff on service time. If someone takes too long, you tell them there’s no more you […]\nMultiserver queues with general probability distributions first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/01/15/ggs/",
+          "publishedOn": "2022-01-15T19:48:20.000Z",
+          "wordCount": 648,
+          "title": "Multiserver queues with general probability distributions"
+        },
+        {
+          "id": "https://www.johndcook.com/blog/?p=94476",
+          "author": "John",
+          "description": "If a single server is being pushed to the limit, adding a second server can drastically reduce wait times. This is true whether the server is a human serving food or a computer serving web pages. I first wrote about this here and I give more details here. What if you add an extra server […]\nQueueing and Economies of Scale first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/01/15/queueing-and-scale/",
+          "publishedOn": "2022-01-15T15:36:14.000Z",
+          "wordCount": 689,
+          "title": "Queueing and Economies of Scale"
+        },
+        {
+          "id": "https://www.johndcook.com/blog/?p=94430",
+          "author": "John",
+          "description": "Linear logic has connectives not used in classical logic. The connectives ⊗and & are conjunctions, ⊕ and ⅋ are disjunctions, and ! and ? are analogous to the modal operators ◻ and ◇ (necessity and possibility). Another way to classify the connectives is to say ⊕ and & are called additive, ⊗ and ⅋ are […]\nLinear logic arithmetic first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/01/15/linear-logic-arithmetic/",
+          "publishedOn": "2022-01-15T11:49:11.000Z",
+          "wordCount": 385,
+          "title": "Linear logic arithmetic"
+        },
         {
           "id": "https://www.johndcook.com/blog/?p=94271",
           "author": "John",
