@@ -151,16 +151,6 @@
           "wordCount": 4266,
           "title": "A Guide to Obtaining Time Series Datasets in Python",
           "imageUrl": "https://machinelearningmastery.com/wp-content/uploads/2022/03/IMG_0628-scaled.jpg"
-        },
-        {
-          "id": "https://machinelearningmastery.com/?p=13318",
-          "author": "Mehreen Saeed",
-          "description": "Data visualization is an important aspect of all AI and machine learning applications. You can gain key insights of your […]\nThe post Data Visualization in Python with matplotlib, Seaborn and Bokeh appeared first on Machine Learning Mastery.",
-          "link": "https://machinelearningmastery.com/data-visualization-in-python-with-matplotlib-seaborn-and-bokeh/",
-          "publishedOn": "2022-03-21T14:00:49.000Z",
-          "wordCount": 7616,
-          "title": "Data Visualization in Python with matplotlib, Seaborn and Bokeh",
-          "imageUrl": "https://machinelearningmastery.com/wp-content/uploads/2022/03/IMG_0570-scaled.jpg"
         }
       ]
     },
@@ -175,6 +165,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/machine-learning/feed",
       "siteUrl": "https://aws.amazon.com/blogs/machine-learning/",
       "articles": [
+        {
+          "id": "4d89b7000b553a0ed3675113cd8b7856b5e91b3b",
+          "author": "Ashish Lagwankar",
+          "description": "Organizations use collaborative document authoring solutions like Salesforce Quip to embed real-time, collaborative documents inside Salesforce records. Quip is Salesforce’s productivity platform that transforms the way enterprises work together, delivering modern collaboration securely and simply across any device. A Quip repository captures invaluable organizational knowledge in the form of collaborative documents and workflows. However, finding […]",
+          "link": "https://aws.amazon.com/blogs/machine-learning/search-for-knowledge-in-quip-documents-with-intelligent-search-using-the-quip-connector-for-amazon-kendra/",
+          "publishedOn": "2022-04-20T01:50:58.000Z",
+          "wordCount": 1816,
+          "title": "Search for knowledge in Quip documents with intelligent search using the Quip connector for Amazon Kendra",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/04/19/ML-8536-image001.jpg"
+        },
         {
           "id": "c724effc75362e3687819604539d3a515b9ddb13",
           "author": "Chanki Nathani",
@@ -11382,6 +11382,206 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8baf6/d_most_efficient_way_to_use_large_image_datasets/",
+          "author": null,
+          "description": "I am having trouble finding some general information on this subject. I know I am down the rabbit hole when google doesn't have an answer.\n I want to know best practices and information on using clusters for machine learning with large amounts of data. I believe I have a close to an optimal solution but wanted to get some other opinions on the subject.\n My current setup:\n  \nAWS EKS Kubernetes for a cluster\n Kubeflow for ML platform\n Katib for HPT jobs\n Pytorch for custom models\n Spot instance GPUs\n Lustre for file serving to the models\n  \nMy Data:\n  \nMillions of Images stored in S3\n ~50TB of data\n  \nWhat is the most efficient way to move my data to the cluster?\n My current approach:\n  \nPreprocess the data with a dedicated instance and store it in S3\n Master runs on a dedicated node\n Katib spins up a set number of GPU spot nodes\n A claim is made, and an FSx Lustre system is generated for the pod\n Advantages: Very fast training and data movement with spot training\n Disadvantages: I have to spin up several Lustre systems for the training\n Preprocess the data with a dedicated instance and store it in S3\n  \nPossible alternative\n  \nSame as above but use EFS as a distributed file system so I don't have to wait for Lustre\n Advantages: Potentially cheaper as I have only one FS\n Disadvantages: Slow throughput, read this was a bad idea\n Master runs on a dedicated node\n  \nOther alternatives\n  \nUseKatib spins up a PyTorch streaming function with S3(boosted transfer speed)set number of GPU spot nodes\n Every pod starts a claim is made and downloads data to an EBS\n Give up and switch to SageMakerFSx Lustre system is generated for the pod\n  \nAnyone with experience in these technologies I would really appreciate hearing your thoughts.\n    submitted by    /u/thewineiswater  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8baf6/d_most_efficient_way_to_use_large_image_datasets/",
+          "publishedOn": "2022-04-21T00:57:09.000Z",
+          "wordCount": 382,
+          "title": "[D] Most efficient way to use large image datasets with clusters for ML?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8av34/d_p_neural_network_same_prediction_for_different/",
+          "author": null,
+          "description": "I am getting the same prediction for different inputs. I am trying to use a regressional neural network. Since data is huge, I am training one example at a time. Here is a simplified version of my code.\n model = Sequential() model.add(Dense(10000, input_dim=212207, kernel_initializer='normal', activation='relu')) model.add(Dense(100, activation='relu')) model.add(Dense(1, kernel_initializer='normal')) model.compile(loss='mean_squared_error', optimizer='adam') for i in range(10000000): #X is input with 212207 values #Y is a output value if i<6000000: model.fit(X.transpose(), Y, epochs=30, batch_size=1, verbose=0) else: prediction=model.predict(X.transpose()) \n I made sure that I am training on different examples and trying predictions on different examples. I am still getting the same prediction value for all testing inputs. I think I made some mistake in defining the model for regression neural network. Can you please check if the code is correct?\n    submitted by    /u/exoplanet_hunter  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8av34/d_p_neural_network_same_prediction_for_different/",
+          "publishedOn": "2022-04-21T00:35:00.000Z",
+          "wordCount": 226,
+          "title": "[D] [P] Neural network: same prediction for different inputs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u85rh7/d_who_are_using_physics_informed_neural_networks/",
+          "author": null,
+          "description": "I stumbled upon this JD from Hitachi Energy, which mentions PINN in the section of preferred background: https://www.linkedin.com/jobs/view/2923292435/\n Is PINN gaining more attention? And are there more players?\n    submitted by    /u/Kohomologia  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u85rh7/d_who_are_using_physics_informed_neural_networks/",
+          "publishedOn": "2022-04-20T20:31:36.000Z",
+          "wordCount": 198,
+          "title": "[D] Who are using physics informed neural networks (PINN) in the industry?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u83jx5/d_is_quantum_ai_a_real_thing_from_the_software/",
+          "author": null,
+          "description": "Hi all\n I'm keeping an eye on state of the art in quantum hardware, but what about software? I can think of many questions and maybe some of you are in the field.\n  \nWhat should be the impact of quantum on ML/DL, realistically?\n What might be a roadmap for the software? And would quantum simulators do already have some benefits on AI?\n What are the best projects out there? I've seen many but haven't been very convinced\n  \n   submitted by    /u/IntelligentHat1657  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u83jx5/d_is_quantum_ai_a_real_thing_from_the_software/",
+          "publishedOn": "2022-04-20T18:50:43.000Z",
+          "wordCount": 514,
+          "title": "[D] Is quantum AI a real thing? (from the software perspective)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u82znf/d_a_more_fair_ai_freelancer_marketplace_that/",
+          "author": null,
+          "description": "Hi, ML freelancers. I'm starting a freelancing marketplace, tailored only for AI talents, and I especially care about the welfares of freelancers, and plan to add these: (1) you will be more treated as the employees of the platform, thus we provide training(for all), potentially health care plan(for people have stably worked >20 hours a week), and career advance plan, mentors from experienced freelancers where you get to learn (2) open discussion between employers and you so that you can scope the project better, set a reasonable rate, and timeline (3) we potentially provide MLOPs tool to improve your productivity. (4) we avoid global competition by matching business only with local region-freelancer or areas that are more expensive. How attractive do you think this will be? And any of these benefits already been provided by upwork, freelancer, toptal, fierr?\n    submitted by    /u/meame2010  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u82znf/d_a_more_fair_ai_freelancer_marketplace_that/",
+          "publishedOn": "2022-04-20T18:24:44.000Z",
+          "wordCount": 602,
+          "title": "[D] A more fair AI freelancer marketplace that cares freelancers' career advance and benefits",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u81xcu/d_diffusion_models_video_tutorial/",
+          "author": null,
+          "description": "Diffusion models have been behind a recent string of impressive generative results, including OpenAI's DALL-E 2. They’re powered by a simple yet expressive core mechanism. New video covering how they work: https://youtu.be/fbLgFrlTnGU\n    submitted by    /u/ariseff  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u81xcu/d_diffusion_models_video_tutorial/",
+          "publishedOn": "2022-04-20T17:36:29.000Z",
+          "wordCount": 133,
+          "title": "[D] Diffusion models video tutorial",
+          "imageUrl": "https://external-preview.redd.it/mxUM6T4HtbKZ5GSYz1fROuCkz61-3157IJ3MfBCvG04.jpg?auto=webp&s=6465d7ee8a83d360f28b3c107f86213c6a953f1e"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u81jfe/d_building_the_model_behind_doordashs_expansive/",
+          "author": null,
+          "description": "Interested in how DoorDash maintains a well performing and diverse selection in the numerous markets they operate in despite entering the delivery market relatively late ? I had the opportunity to collaborate in this project which involved building a number of models that measured customer preferences, identified market cuisine categories, and predicted merchants' performance on the platform. I wanted to share the approach and some of the technical details with the ML community to get feedback on what we can improve and to show this cool use case to others working on similar sales enablement based models. Check out the blog post I wrote and let me know what you think of our approach. \n Building the Model Behind DoorDash’s Expansive Merchant Selection\n    submitted by    /u/EfficientString7431  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u81jfe/d_building_the_model_behind_doordashs_expansive/",
+          "publishedOn": "2022-04-20T17:18:32.000Z",
+          "wordCount": 222,
+          "title": "[D] Building the Model Behind DoorDash’s Expansive Merchant Selection",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u80klz/d_whats_hot_in_deep_learning_research_at_the/",
+          "author": null,
+          "description": "I took a break from deep learning( starting from last October) , now i want to get back, start with a new project and read papers . Where should i focus ? Should i keep working on vision transformers or maybe start something on geometric deep learning . What's hot and what's going on ?\n    submitted by    /u/ovotheking  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u80klz/d_whats_hot_in_deep_learning_research_at_the/",
+          "publishedOn": "2022-04-20T16:35:25.000Z",
+          "wordCount": 333,
+          "title": "[D] What's hot in deep learning research at the moment ?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7zk6b/p_a_simple_pytorch_yolov1_training_pipeline/",
+          "author": null,
+          "description": "https://github.com/sovit-123/yolov1_pytorch_voc07\n ​\n Also, I write about Deep Learning and Machine Learning on https://debuggercafe.com/\n Please check it out and let me know if somebody wants any blog posts on a specific topic.\n    submitted by    /u/sovit-123  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7zk6b/p_a_simple_pytorch_yolov1_training_pipeline/",
+          "publishedOn": "2022-04-20T15:49:55.000Z",
+          "wordCount": 129,
+          "title": "[P] A simple PyTorch YOLOv1 training pipeline GitHub Repo",
+          "imageUrl": "https://external-preview.redd.it/_tmBGnq2RgJMCfrjhyHRWMVZ-yQ4zKGtsrSygsf0RX0.jpg?auto=webp&s=c66f31cb030075cd628cffacdd4b9d9bc1e70811"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7zg4j/p_programmatic_powerful_weak_labeling/",
+          "author": null,
+          "description": "Hi all!,\n Really excited to share a project we've been working on and get your feedback!\n We've made:\n Programmatic — an NLP annotation tool for building large labeled datasets for NLP without manual annotation\n Programmatic is like a REPL for data annotation. You:\n 1. Write simple rules/functions that can approximately label the data 2. Get near-instant feedback across your entire corpus 3. Iterate and improve your rules \n Finally, it uses a Bayesian label model [1] to convert these noisy annotations into a single, large, clean dataset, which you can then use for training machine learning models. You can programmatically label millions of datapoints in the time taken to hand-label hundreds.\n What we do differently from weak supervision packages like Snorkel/skweak[1] is to focus on UI to …",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7zg4j/p_programmatic_powerful_weak_labeling/",
+          "publishedOn": "2022-04-20T15:44:39.000Z",
+          "wordCount": 491,
+          "title": "[P] Programmatic: Powerful Weak Labeling",
+          "imageUrl": "https://external-preview.redd.it/GFDoi96pReIx0d8Fiy4PC2UbdyHgPny9UVn-tUk7wis.jpg?auto=webp&s=163ac63d5a3613bd9f1aa490b94745f5cc5b1e0e"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7wwzb/d_whats_your_opinion_on_project_promoting_posts/",
+          "author": null,
+          "description": "There are many projects promoting in this sub, you may like or dislike. And if any of my posts you dislike, allow me to apologize first.\n However, it gets me to think. Several years ago I'm a moderator in a quite large forum, because I don't have enough time to fulfill my responsibilities, then I decided to retire (yes, they can, and I remained as the vip user which only retired moderators can be).\n This is a large community, a machine learning community. Besides continuously removing some of these posts, and no clear rules on it, can we do any better? We got all the data, and we just cannot train the model?\n Here are my three proposal, and please give some excellent ideas besides my poor ones:\n  \nSelf promoting post should have values other than itself, and not having annoying contents\n Self promoting project can be used as a tool in a non self promoting posts, as long as the posts creates valuable contents and the promoting is not obvious and annoying.\n Depends on the number of new project posts, Weekly/Daily project post can be created by moderator and pinned to the top. All the promoting content goes into the comment. We can explore and upvotes.\n  \nHere are some illustrations:\n 1. Direct Promoting Post\n ​\n 2. Indirect Promoting Post\n ​\n Weekly/Daily Promoting Post by Moderator, Pinned to Top, Comments by project owner, upvotes/downvotes by us\n Which do you think is acceptable? Or you have better ideas? Leave a comment.\n It's a machine learning sub, don't make machine to solve it better than us.\n View Poll\n    submitted by    /u/Remote_Cancel_7977  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7wwzb/d_whats_your_opinion_on_project_promoting_posts/",
+          "publishedOn": "2022-04-20T13:47:15.000Z",
+          "wordCount": 950,
+          "title": "[D] What's your opinion on project promoting posts in this sub? Your vote matters.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7v4iu/r_differentiable_signal_processing_for_optical/",
+          "author": null,
+          "description": "Hey folks, I wrote a mini project based on JAX for optical communications signal processing.\n https://github.com/remifan/commplax\n I have a research article as a use case demo, https://remifan.github.io/gdbp_study/article.html\n This tool essentially\n  \nimplements adaptive DSP equalizers as stateful NN layers (thanks to Jax's explicit stateful syntax)\n implements compositor interfaces from scratch to wrap up those stateful layers with other regular NN layers so that they can be trained together\n  \nHomebrew serial compositions of stateful layers\n It is a fun project for me and I feel JAX really elegantly fits this research use.\n What do you think about JAX? I appreciate your comments:)\n    submitted by    /u/StreetPrice1909  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7v4iu/r_differentiable_signal_processing_for_optical/",
+          "publishedOn": "2022-04-20T12:15:05.000Z",
+          "wordCount": 233,
+          "title": "[R] Differentiable signal processing for optical communication with Google JAX",
+          "imageUrl": "https://external-preview.redd.it/9ZhPHXfgJjjlJ72bMygmapK0gLw3qM9dI3oQKZlJiQk.jpg?auto=webp&s=3ca68f429cce7dee640074e9426a171a068e8fbd"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7tg1w/d_tracking_the_hardware_usage_while_running_cv_nn/",
+          "author": null,
+          "description": "Hi guys,\n I've been working on a machine learning project and I wanted to see how hardware resources are being used when I run inference on let's say 1000 images.\n How could i calculate the CPU(running inference on CPU)/RAM workload in that timeframe?\n I'm running it on a Linux Ubuntu VM. Thanks in advance!\n    submitted by    /u/Fifi0912  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7tg1w/d_tracking_the_hardware_usage_while_running_cv_nn/",
+          "publishedOn": "2022-04-20T10:33:29.000Z",
+          "wordCount": 283,
+          "title": "[D] Tracking the hardware usage while running CV NN Model on a 1000 Images",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7t77t/d_running_interactive_python_notebooks_on/",
+          "author": null,
+          "description": "I'm working on a framework Mercury for converting Python notebooks into interactive web apps. It can add widgets to the notebook based on the YAML configuration. End-user can tweak widgets values and execute the notebook. The resulting notebook can be downloaded as single-file HTML. Simple.\n The framework is built on Django+React. It is easy to deploy to Heroku or other cloud services. Recently, I made it possible to deploy it to Hugging Face Spaces (faster and larger machines than on free tier Heroku). \n The process of deployment is simple. You need to create a Gradio app on Spaces (my framework is not supported, yet ;) ). You need to add the app.py file that will run the Mercury server and upload the notebook. You can check the details in the docs.\n The HF Space with example notebook https://huggingface.co/spaces/pplonski/deploy-mercury\n    submitted by    /u/pp314159  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7t77t/d_running_interactive_python_notebooks_on/",
+          "publishedOn": "2022-04-20T10:16:31.000Z",
+          "wordCount": 311,
+          "title": "[D] Running interactive Python notebooks on HuggingFace Spaces",
+          "imageUrl": "https://external-preview.redd.it/M97KEWVCpGCqVfMbFnyOXZVJO2e0a-jjDS-S5qdz-nw.jpg?auto=webp&s=d7872007d9a4fd0ddc5f39200478e36ad824b5ad"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7rmnx/d_conditional_gan_with_multiple_adversarial/",
+          "author": null,
+          "description": "I would like to test the architecture from the following paper with a different dataset:\n https://www.mdpi.com/2072-4292/13/19/3834\n The authors state that their objective function is the following:\n https://preview.redd.it/u78f27jb6nu81.png?width=1027&format=png&auto=webp&s=32790a67ec829a1e79b252edd0714b8b3b5a7f4e\n Where:\n -x is the real grayscale image.\n -s is its downsampled version, which should be used both as the initial imput of the generator performing the super-resolution and as a first conditional variable in the learning process.\n -e is another two-dimensional array containing values for a second additional conditional variable.\n The authors, however, state that this should be implemented by using two separate conditional adversarial losses, one for each of the conditional variables. To clarify, the first adversarial loss should be:\n AdvLoss1(ParametersG, ParametersD) = - Log(Discriminator(x,s) - Log(1-Discriminator(Generator(s),s)\n While the second would be:\n AdvLoss2(ParametersG, ParametersD) = - Log(Discriminator(x,e) - Log(1-Discriminator(Generator(s),e)\n Which should be then summed up for the backward pass.\n In my pytorch implementation, however, I have only been able to set up a unique adversarial loss, which could be defined as:\n CurrentAdvLoss(ParametersG, ParametersD) = - Log(Discriminator(x,(s,e)) - Log(1-Discriminator(Generator(s),(s,e)) I have tried to implement implemented as follows:(simplified version)\n which I calculate in the following training loop (simplified version, from the same question asked in the Pytorch forum) as errD and errG after conditioning the network on both s and e at the same time:\n https://discuss.pytorch.org/t/conditional-gan-with-multiple-adversarial-losses/149627\n My question is, is there a way to modify the following loop to obtain outputs that have been separately conditioned only first on s and then on e and thus calculate the two separate adversarial losses originally proposed by the authors instead?\n    submitted by    /u/Franken91  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7rmnx/d_conditional_gan_with_multiple_adversarial/",
+          "publishedOn": "2022-04-20T08:20:03.000Z",
+          "wordCount": 612,
+          "title": "[D] Conditional GAN with multiple adversarial losses - Implementation?",
+          "imageUrl": "https://external-preview.redd.it/MqJe59opigVaZuH5510R_Lq1xz5Xd-koErAoYaWVdKo.jpg?auto=webp&s=a49162b5148b40b289698f2f643412d4aa14c19c"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7qdum/d_ijcai_2022_paper_notification/",
+          "author": null,
+          "description": "This is the discussion for accepted/rejected papers in IJCAI 2022. Results are supposed to release today.\n    submitted by    /u/errohan400  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7qdum/d_ijcai_2022_paper_notification/",
+          "publishedOn": "2022-04-20T06:50:03.000Z",
+          "wordCount": 431,
+          "title": "[D] IJCAI 2022 Paper Notification",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7ouxh/r_authors_claim_to_have_solved_mnist_and_cifar/",
+          "author": null,
+          "description": "Paper: https://arxiv.org/abs/2204.07953v1\n Code: https://github.com/decurtoydiaz/learning_with_signatures\n Tangential resources of interest: https://arxiv.org/abs/1905.08494, https://en.wikipedia.org/wiki/Rough_path#Signature, and https://labelerrors.com/ \n Personally, I believe from their code on Github, they have a possible data leakage (in the same vein of the current issue raised there) as well as an accuracy of 100% on a test set is fishier than a fish market. However, I am very curious to hear from the court of public opinion. How is everyone feeling about this?\n    submitted by    /u/blingblingbeepbeep  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7ouxh/r_authors_claim_to_have_solved_mnist_and_cifar/",
+          "publishedOn": "2022-04-20T05:05:50.000Z",
+          "wordCount": 1128,
+          "title": "[R] Authors Claim to Have \"Solved\" MNIST and CIFAR",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7on82/d_how_do_i_evaluate_if_my_data_represent_the/",
+          "author": null,
+          "description": "I have a dataset of points cloud where each point in the point cloud has a variable. I am trying to relate the local geometry features to that point variable by using FPFH, This means I am generating my own features from the dataset by first using an area of n-points to compute normal-vector estimations and from x normal vector estimations to compute the FPFH. However, the numbers x and n are arbitrary and other combinations might describe the target variable better. So I wanted to know if there was a method to evaluate how good a given x and n value are at describing the target variable. I considered the correlation between the features (n,x) and the target variable but I read that this assumes linear combination redundancy. I am using scikit-learn. \n So basically I have features X(x,n) and a target variable Y. Which x and n, in the feature space X(x,n), describes the target variable, Y, best.\n I want to do it before the training because when I try to train it with my random forest regressor it takes 3-4 hours and I want to test for more combinations. \n    submitted by    /u/Neo-Rushdian  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7on82/d_how_do_i_evaluate_if_my_data_represent_the/",
+          "publishedOn": "2022-04-20T04:52:37.000Z",
+          "wordCount": 324,
+          "title": "[D] How do I evaluate if my data represent the target variable before training a machine learning algorithm?",
+          "imageUrl": "https://external-preview.redd.it/o-Yq16CmbZYLfCx_y5VsD5fcOiaoLcN-zQO1j3qX2es.jpg?auto=webp&s=546795834d06ed5ac69b13898f1acf1fe4d9f163"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7muzp/discussion_training_performance_evaluation_of/",
+          "author": null,
+          "description": "The article is reproduced from Zhihu, using deepl machine translation, for all enthusiasts to communicate\n Abstract\n Deep learning frameworks are the engines and motors for pushing the boundaries of artificial intelligence applications, and good deep learning frameworks can dramatically shorten the cycle of algorithm innovation and validation. In this report, we focus on the newly launched MindSpore framework, which has received a lot of industry attention, and systematically explore its model training speed on GPU clusters and compare it with popular international frameworks. In the evaluation experiments, we choose two classical models, ResNet and BERT-base, to test and analyze their performance with the same algorithm, the same dataset, and the same or similar performance hardware platf…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7muzp/discussion_training_performance_evaluation_of/",
+          "publishedOn": "2022-04-20T03:10:29.000Z",
+          "wordCount": 2118,
+          "title": "[Discussion] Training performance evaluation of MindSpore, a home-grown deep learning framework -- by ADSL Lab, CSU",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u7lv35/d_why_is_the_diffution_model_so_powerful_but_the/",
+          "author": null,
+          "description": "You can see the 200 lines code here: https://nn.labml.ai/diffusion/ddpm/index.html and https://github.com/cloneofsimo/minDiffusion, math is here: https://lilianweng.github.io/posts/2021-07-11-diffusion-models/\n The algo is smart and simple, but it's generation result seems more incredible than GANs, and its speed is fast, the model size is not too big: https://openai.com/dall-e-2/ , https://huggingface.co/spaces/multimodalart/latentdiffusion, https://www.reddit.com/r/dalle2\n So 1st question:\n why is diffusion model so powerful? Can someone explain it?\n 2st question:\n Has anyone used diffusion for NLP?\n ​\n UPDATED:\n ​\n \\\"A multiverse portal to a new world opening up above Tokyo\\\" by dalle2 (from r/dalle2)\n \\\"A robot painting on a canvas while playing the piano\\\" by dalle2 (from r/dalle2)\n ​\n \\\"Mona Lisa in her studio painting Leonardo da Vinci \\\" by dalle2 (from r/dalle2)\n \\\"Science fiction illustration future city in the night | impressionism\\\" by latentdiffusion\n ​\n \\\"Science fiction illustration of Beauty and monsters | impressionism\\\" by latentdiffusion\n ​\n \\\"a painting of a girl with a fox sitting in a field at sunrise in the style of Claude Monet\\\" by latentdiffusion\n    submitted by    /u/ghosthamlet  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u7lv35/d_why_is_the_diffution_model_so_powerful_but_the/",
+          "publishedOn": "2022-04-20T02:17:28.000Z",
+          "wordCount": 1175,
+          "title": "[D] Why is the diffution model so powerful? but the math behind it is so simple.",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/u7k4ep/d_questions_about_intel_12th_gen_alder_lake_cpus/",
           "author": null,
           "description": "I am looking to build a new PC but have struggled to find the info on how Intel's latest CPUs perform for data science/ML, so if anyone is using one for that purpose and can help with one or more of these questions it would be very helpful! Apologies if these questions should be directed elsewhere.\n  \nI am planning to use WSL2/Ubuntu but have heard that Intel's thread director isn't implemented well yet in Linux (or Windows 10!), so it doesn't assign tasks properly. Has anyone experienced issues with this firsthand?\n Assuming the thread director is working, are the e-cores utilised at all in any typical DS workflows? E.g. will they get used with joblib or when training scikit-learn/gbms in parallel? \n Are the e-cores good enough to handle other stuff like web browsing etc whilst the p-cores are maxed out on model training, or is it still necessary to keep at least one p-core free to avoid crashing the PC? Also I have read that in Windows 11 (where the thread director works best) that the active window/tab could be assigned p-cores as a priority, which isn't very helpful for someone who needs to train models in the background etc, but not sure whether this is actually happening in practice.\n  \nThe consensus from benchmarks/reviews is that the hybrid architecture 'just works' and is superior to AMD right now, but those benchmarks are primarily for use in gaming/video editing.\n    submitted by    /u/FightingLikeBeavers  \n [link]   [comments]",
@@ -15410,106 +15610,6 @@
           "wordCount": 302,
           "title": "[D] STUMPY v1.11.0 Released for Modern Time Series Analysis",
           "imageUrl": "https://external-preview.redd.it/TOrBn9rmbMymheLzeLdul1VhwJkAlB6tlNGtIUIYuCU.jpg?auto=webp&s=8f2e03f42519c45027dba70380d878d8b5e4f613"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tk07jt/n_call_for_submissions_foundations_of_digital/",
-          "author": null,
-          "description": "FDG2022: Foundations of Digital Games 2022Athens, Greece, September 5-8, 2022Conference website: http://fdg2022.org/\n Foundations of Digital Games (FDG) 2022 invites research contributions in the form of papers, posters and demos, doctoral consortium applications, as well as panel, competition, and workshop proposals.\n We invite contributions from within and across any discipline committed to advancing knowledge on the foundations of games: computer science and engineering, humanities and social sciences, arts and design, mathematics and natural sciences. As was the case in the previous years, we aim to publish the FDG 2022 proceedings in the ACM Digital Library. ​FDG invites authors to submit short or full papers reporting new research. Both short and full papers need to be anonymized and…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tk07jt/n_call_for_submissions_foundations_of_digital/",
-          "publishedOn": "2022-03-22T10:50:28.000Z",
-          "wordCount": 434,
-          "title": "[N] Call for submissions: Foundations of Digital Games 2022, 5-8 September (Athens, GR & hybrid)",
-          "imageUrl": "https://external-preview.redd.it/eqIK336hG76FlnFhddb_PAVBt-Uz2xOkqlsc_1CAsCM.jpg?auto=webp&s=85e97a81881e1453bee27868654a4855af123243"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tjz1wd/r_jax_meets_flower_federated_learning_with_jax/",
-          "author": null,
-          "description": "Flower and its community are growing. Since Flower is a friendly federated learning framework, the goal is always to get an easy start to federated learning for every data scientist. \n This involves having Flower coding examples for different machine learning frameworks.\n One of the frameworks is JAX which was developed by Google researchers to run NumPy programs on GPUs and TPUs. It is quickly rising in popularity and is used by DeepMind to support and accelerate its research.\n We couldn’t miss the opportunity to create a code example and a blog post about “JAX meets Flower - Federated Learning with JAX”. \n It takes always some time to get into a new machine learning framework and its syntax but it is easy to combine it with Flower. \n You can check out the blog post here: https://flower.dev/blog/2022-03-22-running-jax-federated-jax-meets-flower/ \n If you are interested in writing a blog post for our Flower community, contact me.\n    submitted by    /u/burnai  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tjz1wd/r_jax_meets_flower_federated_learning_with_jax/",
-          "publishedOn": "2022-03-22T09:28:16.000Z",
-          "wordCount": 248,
-          "title": "[R] JAX meets Flower - Federated Learning with JAX",
-          "imageUrl": "https://external-preview.redd.it/K7oVtfvZeiT84TZ-34d8ygfZdGhmH2DIOpRJIPzteQU.jpg?auto=webp&s=d7d494f4a34167a179923d7a51e6ff67d11091c3"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tjx4t5/d_with_experience_deploying_batch_models_how_to/",
-          "author": null,
-          "description": "Hi!\n I have some experience deploying batch machine learning models and now I want to learn about real-time models. More specifically, how to put them in production and what are the best practices and tools for different use-cases.\n Any ideas? I was thinking of reading the book \"Designing Event-Driven Systems\" by Ben Stopford (I think it's based on Kafka which seems quite popular), but would like to hear your thoughts or if someone has any other reference.\n Thanks and I hope this is the right sub!\n    submitted by    /u/Silver_Book_938  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tjx4t5/d_with_experience_deploying_batch_models_how_to/",
-          "publishedOn": "2022-03-22T07:04:09.000Z",
-          "wordCount": 194,
-          "title": "[D] With experience deploying batch models, how to learn about streaming?",
-          "imageUrl": "https://external-preview.redd.it/oEnqHgfPz1seuOwtaksrZRrTIotbSasFA9o5OxdvEUo.jpg?auto=webp&s=b3d69b2b1fe2e737d3cd99f3c114278d4c50a82e"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tjvttx/p_a_social_platform_to_rate_and_review_machine/",
-          "author": null,
-          "description": "We developed a social platform for everyone to rate and review machine learning research papers. One can think of it as the IMDB database for the research community.\n Link: https://doublind.com\n Features we think that are important:\n  \nSearch all machine learning related papers, old and new.\n Rate and review the paper you've just read, open or anonymous.\n A profile page is created for all users to display their paper reviews.\n Each paper has a rating score that help users find good papers to read.\n Users can like, comment and share a paper review, helping it reaching more readers.\n  \n​\n We'd love to hear your feedback and suggestions. Thank you all and we appreciate the support.\n    submitted by    /u/DouBlindDotCOM  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tjvttx/p_a_social_platform_to_rate_and_review_machine/",
-          "publishedOn": "2022-03-22T05:33:57.000Z",
-          "wordCount": 1204,
-          "title": "[P] A Social Platform to Rate and Review Machine Learning Research Papers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tjv2tl/d_always_behind_sota/",
-          "author": null,
-          "description": "How do you guys deal with the stress of developing a new models and being off from SOTA but also needing to publish papers? \n Do people publish results that aren’t quite SOTA? Do you tweak results? Do you do something else?\n    submitted by    /u/AbjectDrink3276  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tjv2tl/d_always_behind_sota/",
-          "publishedOn": "2022-03-22T04:44:21.000Z",
-          "wordCount": 966,
-          "title": "[D] always behind Sota",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tjsd7w/r_transencoder_unsupervised_sentencepair/",
-          "author": null,
-          "description": "submitted by    /u/hardmaru  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tjsd7w/r_transencoder_unsupervised_sentencepair/",
-          "publishedOn": "2022-03-22T02:10:07.000Z",
-          "wordCount": 107,
-          "title": "[R] Trans-Encoder: Unsupervised sentence-pair modelling through self- and mutual-distillations",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tjrtb9/d_will_a_phd_in_biomedical_engineering_limit/",
-          "author": null,
-          "description": "I’m a tech in an academic computational lab at a very large US flagship R1 university. My current lab is a neuroscience lab that does lots of ML theory stuff (bio inspired ML). My primary goal is to get a PhD and find a research scientist position in industry at a non-FAANG company. \n Because my PI is a neuroscientist, I might not be able to work with him as a PhD student if I apply to the EE or CS program at this university, but he has an affiliate appointment at the Biomedical Engineering department. \n Would having a biomedical engineering degree in any way affect my ability to get a research scientist ML job? As long as I have a productive PhD with ML publications etc., and get internships at relevant places, I should be fine right? Will I have a worse chance at non-biotech companies? If BME is an issue, I’m sure my PI can get affiliate status in EE, because he has multiple collaborators in EE.\n    submitted by    /u/throawaythroaway11  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tjrtb9/d_will_a_phd_in_biomedical_engineering_limit/",
-          "publishedOn": "2022-03-22T01:42:01.000Z",
-          "wordCount": 1482,
-          "title": "[D] Will a PhD in Biomedical Engineering limit opportunities if I want to become a research scientist in ML?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tjmfk6/d_how_to_compute_the_probability_of_trajectories/",
-          "author": null,
-          "description": "I asked this question on stats stackexchange, and it is posted here. I don't copy it here because formulas don't show up nicely on reddit.\n I am trying to implement this paper by Fallah et al (NIPs 2021) titled: On the Convergence Theory of Debiased Model-Agnostic Meta-Reinforcement Learning. As the title suggests, they propose an algorithm for meta RL that uses an stochastic approximation of the gradient. My problem is with the term that yields the probability of a given trajectory (a sequence of state-actions). I don't know how to estimate that term and the paper doesn't discuss that. I'd appreciate if anyone can share any insight on how to estimate that term.\n    submitted by    /u/carlml  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tjmfk6/d_how_to_compute_the_probability_of_trajectories/",
-          "publishedOn": "2022-03-21T21:24:55.000Z",
-          "wordCount": 231,
-          "title": "[D] How to compute the probability of trajectories term in Stochastic Gradient Meta Reinforcement Learning",
-          "imageUrl": "https://external-preview.redd.it/GK4J2jdDCd68cmAzq4b5v8wOyVmJzcMn471wSxWrwMY.jpg?auto=webp&s=e25be8cb5cf2448d39a7e5ffc877e4d466b776d3"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tjj23w/dp_neural_network_as_frequency_offset_corrector/",
-          "author": null,
-          "description": "Hi everyone! I'm working on a project where I'm using neural networks to overcome some RF impairments in a wireless communications system. When I introduce a frequency offset to the data, my current neural network (which is a simple 2 hidden layer feed-forward NN) can not compensate. The frequency offset is basically a phase rotation on the IQ samples. The problem is this is also time-dependent such that the amount the sample is shifted is a function of time. ie: x_out[n] = x[n]e^(j2*pi*w*n) where w is the phase shift from the frequency offset, n is the discrete sample. I know my NN needs some kind of memory (so I should use an LSTM or some RNN variant), just wondering if anyone has some recommended papers or has done some work similar to this and would be willing to help, thanks!\n    submitted by    /u/mtot10  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tjj23w/dp_neural_network_as_frequency_offset_corrector/",
-          "publishedOn": "2022-03-21T18:54:23.000Z",
-          "wordCount": 254,
-          "title": "[D][P] Neural Network as Frequency Offset Corrector",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tjd7ek/p_a_new_way_to_start_stop_and_distribute_code_on/",
-          "author": null,
-          "description": "Hi everyone!\n With a friend, we are develpoing a tool to be able to easily start pods, distribute the code (with magics) and stop them directly from your notebook.\n Pods can be started in seconds with the specifications you need: number of instances/pods, CPU, Memory, GPU and packages\n The tool makes it easy to increase computer resources quickly, code locally and consume resources only when you need it, paralelize tasks and do parameter grid search.\n If you like it, you can visit our landing page and register for early access: telekinesis.cloud\n We are giving 10 GPU hours to our first 50 registered users!\n We hope you like it! Thank you!\n Please share feedback\n    submitted by    /u/snuns90  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tjd7ek/p_a_new_way_to_start_stop_and_distribute_code_on/",
-          "publishedOn": "2022-03-21T14:34:41.000Z",
-          "wordCount": 249,
-          "title": "[P] A new way to start, stop and distribute code on cloud instances/pods - directly from any notebook, only when you need it",
-          "imageUrl": null
         }
       ]
     },
@@ -15613,6 +15713,16 @@
       "siteUrl": "https://becominghuman.ai?source=rss----5e5bef33608a---4",
       "articles": [
         {
+          "id": "https://medium.com/p/88215ec781b1",
+          "author": "MobiDev",
+          "description": "To start deeply investigating the AI app development process, it’s important to first understand how these projects differ from regular app…",
+          "link": "https://becominghuman.ai/ai-application-development-guide-for-business-owners-88215ec781b1?source=rss----5e5bef33608a---4",
+          "publishedOn": "2022-04-20T15:30:52.000Z",
+          "wordCount": 2817,
+          "title": "AI Application Development Guide for Business Owners",
+          "imageUrl": "https://miro.medium.com/max/1200/1*FP41xfegFJgv7RhOHf79iw.jpeg"
+        },
+        {
           "id": "https://medium.com/p/d3e8cac3e17c",
           "author": "Roger Brown",
           "description": "Shared duties have always been the most critical component of every successful organization, regardless of its nature or size. When it…",
@@ -15691,16 +15801,6 @@
           "wordCount": 843,
           "title": "Digit recogniser — Artificial Neural Network (ANN)",
           "imageUrl": "https://miro.medium.com/max/600/0*v-pw3r0oixadIh-2.jpg"
-        },
-        {
-          "id": "https://medium.com/p/d968ded84500",
-          "author": "A Smith",
-          "description": "The field of Artificial Intelligence (AI) continues to expand and improve by leaps and bounds. Today’s AI applications are becoming smarter…",
-          "link": "https://becominghuman.ai/artificial-intelligence-applications-for-2022-d968ded84500?source=rss----5e5bef33608a---4",
-          "publishedOn": "2022-03-21T13:03:44.000Z",
-          "wordCount": 868,
-          "title": "Artificial Intelligence Applications for 2022",
-          "imageUrl": "https://miro.medium.com/max/1091/1*Sjeq1hDQmRNgyK9dcB3xFg.png"
         }
       ]
     },
@@ -16304,6 +16404,106 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8antj/collaboration_ai_video_and_music/",
+          "author": null,
+          "description": "submitted by    /u/Recent_Coffee_2551  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8antj/collaboration_ai_video_and_music/",
+          "publishedOn": "2022-04-21T00:24:55.000Z",
+          "wordCount": 99,
+          "title": "Collaboration AI video and music",
+          "imageUrl": "https://external-preview.redd.it/Y_eldCN6JOpbpC_YENv_YSn0QxPnFndB-G04FqdlA5Y.jpg?auto=webp&s=9e717a70be47b65026e97471414298559f000428"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u85fsk/how_metas_multiverse_could_prove_our_universe_is/",
+          "author": null,
+          "description": "submitted by    /u/estasfuera  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u85fsk/how_metas_multiverse_could_prove_our_universe_is/",
+          "publishedOn": "2022-04-20T20:16:17.000Z",
+          "wordCount": 107,
+          "title": "How Meta's multiverse could prove our universe is a fake",
+          "imageUrl": "https://external-preview.redd.it/DsNE0-E8qUN9meNVbuhEnTE425OzpenTFo5id5M4u2o.jpg?auto=webp&s=48c490435839a13aeba3e0561dfd23b2feb1ecf3"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u81hue/singularagent_many_methods_make_light_work/",
+          "author": null,
+          "description": "submitted by    /u/dantheman333  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u81hue/singularagent_many_methods_make_light_work/",
+          "publishedOn": "2022-04-20T17:16:30.000Z",
+          "wordCount": 98,
+          "title": "SingularAgent - Many Methods Make Light Work",
+          "imageUrl": "https://external-preview.redd.it/INnAD5TDh2VB1h8EWzKC44A73kxhQQ6pA-Mo0FmEnrI.jpg?auto=webp&s=0a600af7f3c7bc5af8ac54c4682885169c870ed6"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u813a9/general_ai_in_healthcare_machine_learning_for/",
+          "author": null,
+          "description": "submitted by    /u/getrich_or_diemining  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u813a9/general_ai_in_healthcare_machine_learning_for/",
+          "publishedOn": "2022-04-20T16:58:30.000Z",
+          "wordCount": 124,
+          "title": "General AI In Healthcare | Machine Learning For Cardiovascular Disease | Color Night Vision",
+          "imageUrl": "https://external-preview.redd.it/De-wZxccwJFEqrmmsZjRzOWELT5D2lZO8A5k3zuymuk.jpg?auto=webp&s=c42558ab2d7266cb2819e4b0eac7c7fa7bbcae38"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u7x38l/a_realistic_image_ai_software/",
+          "author": null,
+          "description": "submitted by    /u/Eurokiwiboy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u7x38l/a_realistic_image_ai_software/",
+          "publishedOn": "2022-04-20T13:55:44.000Z",
+          "wordCount": 97,
+          "title": "A realistic image AI software",
+          "imageUrl": "https://external-preview.redd.it/JbsDTf4SAmO2SdHaC_VY9bSe5I7FCR0zWo9moIdaijE.jpg?auto=webp&s=7c3664b585db5e4b0a26dc33ac2e2da99c9c904c"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u7vj4l/ant_colony_simulation/",
+          "author": null,
+          "description": "submitted by    /u/Seitoh  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u7vj4l/ant_colony_simulation/",
+          "publishedOn": "2022-04-20T12:37:37.000Z",
+          "wordCount": 415,
+          "title": "Ant colony simulation",
+          "imageUrl": "https://external-preview.redd.it/-fHs8s9VwwMqv6VYm5CgwsKlfQtEFbHQXsxeWKjorXY.png?format=pjpg&auto=webp&s=f32b988700168737f55c6ee64fde0ddc600dcf9f"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u7r8w6/is_there_any_free_open_source_ai_model_available/",
+          "author": null,
+          "description": "A few years back I developed a very simple app just to show a few bible verses. Though it is a very simple app, it got more than 50K installs without much promotion. So, I am thinking about promoting it. But hesitate to do it as it is very simple app. So, I would like to add some useful feature before start promoting it. I would like to add a feature which will allow the users to ask any question related to bible, and it should be giving relevant answer. I assume that some bible data is open source.\n Is there any free tutorial available to know about how to implement AI based chat system for answering any bible related queries after training with bible data.\n Is there any app already providing this feature?\n    submitted by    /u/qptbook  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u7r8w6/is_there_any_free_open_source_ai_model_available/",
+          "publishedOn": "2022-04-20T07:51:49.000Z",
+          "wordCount": 253,
+          "title": "Is there any free open source AI model available for answering any bible related queries?",
+          "imageUrl": "https://external-preview.redd.it/eayHQ469wG-aR9Glgtq5PmukilhQBjG1gVHPRS5ivCU.jpg?auto=webp&s=fa2d65c79e60c391fa3fb02677129791c19da8d5"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u7ptrm/today_ai_is_becoming_ubiquitous_in_and_out_of_the/",
+          "author": null,
+          "description": "But can technology be controlled to avoid adverse outcomes? \n Let's understand how AI will help us to make a better world. \n https://us.sganalytics.com/blog/top-ethical-challenges-in-ai-the-price-of-progress/\n    submitted by    /u/JencyJane  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u7ptrm/today_ai_is_becoming_ubiquitous_in_and_out_of_the/",
+          "publishedOn": "2022-04-20T06:10:00.000Z",
+          "wordCount": 209,
+          "title": "Today, AI is becoming ubiquitous, in and out of the workplace. With artificial intelligence (AI) becoming more powerful, the questions that surround AI ethics are becoming more relevant.",
+          "imageUrl": "https://external-preview.redd.it/gpojHrxBRiyNRtS4dowCf62GHN0syOExlU8hVfJ3XUs.jpg?auto=webp&s=23fcb4c3ce2f7f5aa36daead94f7b8531000bfa7"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u7pch8/top_ethical_challenges_in_ai_the_price_of_progress/",
+          "author": null,
+          "description": "submitted by    /u/JencyJane  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u7pch8/top_ethical_challenges_in_ai_the_price_of_progress/",
+          "publishedOn": "2022-04-20T05:38:08.000Z",
+          "wordCount": 114,
+          "title": "Top Ethical Challenges in AI – The Price of Progress",
+          "imageUrl": "https://external-preview.redd.it/aJi9Dz8P0k_F4j63zzdsjmhZLTXVfVYWVwiQByiyL84.jpg?auto=webp&s=aa8556546cd821f61a872c3d317d57475ebd7f58"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u7ogsu/artificial_nightmares_dr_strange_clip_guided/",
+          "author": null,
+          "description": "submitted by    /u/Thenamessd  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u7ogsu/artificial_nightmares_dr_strange_clip_guided/",
+          "publishedOn": "2022-04-20T04:41:41.000Z",
+          "wordCount": 126,
+          "title": "Artificial Nightmares: Dr. Strange || Clip Guided Diffusion AI Art Video [4K 20 FPS]",
+          "imageUrl": "https://external-preview.redd.it/_H1fKKk02xXV582Jck7PKzfLEX5sJzRZLVo9i5g1P_c.jpg?auto=webp&s=cc98d438165684e9033ba48a6c7406fd5f316d9a"
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/u7jj2e/weekly_china_ai_news_chinese_prominent_ai_lab/",
           "author": null,
@@ -19203,186 +19403,6 @@
           "wordCount": 107,
           "title": "Unraveling the Mystery Behind Background Filters in Video Calling Apps",
           "imageUrl": "https://external-preview.redd.it/TIxIOOwPswD9jcM3ukBYN3MxcH9Fr0CO7hu6S4BODLw.jpg?auto=webp&s=430582d2c861f0c9c92a15a5a34ed86ddf49b3ac"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk1szs/artificial_intelligence_in_the_news_the_period_of/",
-          "author": null,
-          "description": "submitted by    /u/Beautiful-Credit-868  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk1szs/artificial_intelligence_in_the_news_the_period_of/",
-          "publishedOn": "2022-03-22T12:25:12.000Z",
-          "wordCount": 115,
-          "title": "Artificial Intelligence in the News (the period of March 21st, 2022)",
-          "imageUrl": "https://external-preview.redd.it/6UVcTMgdd_Csi3Bz64AGvDeiu1aZaDzYcuYHgllFQTk.jpg?auto=webp&s=e239affbac77ff4546a9eb01ea86fa8213ca5723"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk0woa/best_machine_learning_books_to_read_in_2022/",
-          "author": null,
-          "description": "submitted by    /u/sivasiriyapureddy  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk0woa/best_machine_learning_books_to_read_in_2022/",
-          "publishedOn": "2022-03-22T11:34:18.000Z",
-          "wordCount": 109,
-          "title": "Best Machine Learning Books to read in 2022 -",
-          "imageUrl": "https://external-preview.redd.it/wR9YilM7n4reCaTiQQJ0B7DlYVkbtwbvQT6O7Zs7jOc.jpg?auto=webp&s=07f167ef17cf57696b4100b439203e778619cf44"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk0w2q/could_it_be_that_people_spend_a_lot_of_money_on/",
-          "author": null,
-          "description": "submitted by    /u/xXNOdrugsForMEXx  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk0w2q/could_it_be_that_people_spend_a_lot_of_money_on/",
-          "publishedOn": "2022-03-22T11:33:17.000Z",
-          "wordCount": 152,
-          "title": "Could it be, that people spend a lot of money on AIs, which are generating realistic images and then sell the copyright of these images?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjzxm5/nebullvm_an_opensource_library_to_accelerate_ai/",
-          "author": null,
-          "description": "How does nebullvm work?\n It takes your AI model as input and outputs an optimized version that runs 5-20 times faster on your hardware. In other words, nebullvm tests multiple deep learning compilers to identify the best possible way to execute your model on your specific machine, without impacting the accuracy of your model.\n And that's it. In just a few lines of code.\n And a big thank you to everyone for supporting this open-source project! The library received 250+ Github stars⭐ on release day, and that's just amazing 🚀\n ORIENTATION MAP\n Let's learn more about nebullvm and AI optimization. Where should we start? From...\n  \nSome CONTEXT on why few developers optimize AI and related negative consequences\n An overview of how the LIBRARY works\n Some USE CASES, technology demonstrations and…",
-          "link": "https://www.reddit.com/r/artificial/comments/tjzxm5/nebullvm_an_opensource_library_to_accelerate_ai/",
-          "publishedOn": "2022-03-22T10:31:22.000Z",
-          "wordCount": 1827,
-          "title": "Nebullvm, an open-source library to accelerate AI inference by 5-20x in a few lines of code",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjzeqb/are_there_any_ais_to_try_and_recreate_the_voice/",
-          "author": null,
-          "description": "Im wondering if there is any ai that you can feed your voice to and it will try to make an approximation of what you sound like to yourself in your head?\n    submitted by    /u/alidan  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjzeqb/are_there_any_ais_to_try_and_recreate_the_voice/",
-          "publishedOn": "2022-03-22T09:54:27.000Z",
-          "wordCount": 417,
-          "title": "Are there any ai's to try and recreate the voice you hear in your head?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjwzn9/realtime_language_model/",
-          "author": null,
-          "description": "submitted by    /u/BeginningInfluence55  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjwzn9/realtime_language_model/",
-          "publishedOn": "2022-03-22T06:54:17.000Z",
-          "wordCount": 493,
-          "title": "Real-Time (Language) Model",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjwrla/looking_for_a_speaker_for_a_webinar_about/",
-          "author": null,
-          "description": "Hi guys!, we are University Students and we're currently looking for a speaker that can discuss Artificial Intelligence on an introductory level and the Opportunities it can bring for Engineering Students. Thank you! Please DM asap me for more details.\n    submitted by    /u/BigBadToilet  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjwrla/looking_for_a_speaker_for_a_webinar_about/",
-          "publishedOn": "2022-03-22T06:38:31.000Z",
-          "wordCount": 146,
-          "title": "Looking for a Speaker for a Webinar about Artificial Intelligence",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjqch7/weekly_china_ai_newsletter_cambricon_stocks/",
-          "author": null,
-          "description": "submitted by    /u/trcytony  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjqch7/weekly_china_ai_newsletter_cambricon_stocks/",
-          "publishedOn": "2022-03-22T00:27:16.000Z",
-          "wordCount": 157,
-          "title": "Weekly China AI Newsletter: Cambricon Stocks Plunge After Sudden Exit of Huawei Veteran CTO; US-Banned DeepGlint Goes Public; China-US AI Collaboration Rises Fivefold Since 2010",
-          "imageUrl": "https://external-preview.redd.it/e_zkkEIUf1JTeX9k2faegcXER3GW5f1JzkRQF8ggvTU.jpg?auto=webp&s=fbc7f0a10e2aab21b2546549700c082d350d5f36"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjpcax/a_miniconversation_with_albert_einsteins_ai/",
-          "author": null,
-          "description": "submitted by    /u/kuasha7  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjpcax/a_miniconversation_with_albert_einsteins_ai/",
-          "publishedOn": "2022-03-21T23:37:42.000Z",
-          "wordCount": 96,
-          "title": "A mini-conversation with Albert Einstein's AI persona",
-          "imageUrl": "https://external-preview.redd.it/nyFf4FepT7AlRlB5ehuE4ELkprCxmbseFn_zzzz867U.png?format=pjpg&auto=webp&s=3df508b64e82a4aa75a099a0b0d389622e65916b"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjp7lu/generate_new_designs_based_on_provided_dataset/",
-          "author": null,
-          "description": "I am looking to generate new car wheel designs based on a dataset I have of my own 30-50 wheels. I was wondering if there is a tool/GAN that would suit this?\n    submitted by    /u/jrobin51  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjp7lu/generate_new_designs_based_on_provided_dataset/",
-          "publishedOn": "2022-03-21T23:31:23.000Z",
-          "wordCount": 129,
-          "title": "Generate new designs based on provided dataset?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjmsq4/the_advantages_and_disadvantages_of_ai_in/",
-          "author": null,
-          "description": "Artificial intelligence is generally praised for their use in many sectors. One of the most notable achievements of AI in science is its breakthrough in molecular biology as it helped reduce the time to identify the structure of complicated 3D protein folds. AI has also helped advance the efficiency in quantum computers, and now AI is making a large presence in clinical/healthcare. Despite the potential of AI being revolutionary in healthcare we must be cautious utilizing it. I want to highlight the advantages and disadvantages of AI to inspire and to set forth challenges for you to approach in the future. \n The advantage of AI in healthcare is its versatile applications. You can find developments in many topics of healthcare such as drug discovery, image processing, data analysis, and mor…",
-          "link": "https://www.reddit.com/r/artificial/comments/tjmsq4/the_advantages_and_disadvantages_of_ai_in/",
-          "publishedOn": "2022-03-21T21:41:31.000Z",
-          "wordCount": 2,
-          "title": "The advantages and disadvantages of AI in healthcare",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjldtr/last_week_in_ai_ai_discovers_lethal_molecules/",
-          "author": null,
-          "description": "submitted by    /u/regalalgorithm  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjldtr/last_week_in_ai_ai_discovers_lethal_molecules/",
-          "publishedOn": "2022-03-21T20:37:10.000Z",
-          "wordCount": 151,
-          "title": "Last Week in AI: AI discovers lethal molecules, Deepfake of Ukrainian President Volodymyr Zelenskyy, All-MLP AI model is fast and efficient, and more!",
-          "imageUrl": "https://external-preview.redd.it/UwgW9JN6L9J3Ftitlyk0Hh1jcoRcj_iNSiHh733JWxo.jpg?auto=webp&s=be58c38ece182f390b9f75703f8cc7cae5974043"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjhhp5/grapes/",
-          "author": null,
-          "description": "submitted by    /u/cookingandcraft  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjhhp5/grapes/",
-          "publishedOn": "2022-03-21T17:46:13.000Z",
-          "wordCount": 87,
-          "title": "Grapes.",
-          "imageUrl": "https://external-preview.redd.it/-dbTe0ZY9tB3ZjV20XTuONU3hF1ObHG_BdEDFE5CoTE.jpg?auto=webp&s=b295f22a09d3715bcc304aea8b0fdaa19f93f569"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjfnnz/coined_in_2016_aiops_stands_for_artificial/",
-          "author": null,
-          "description": "​\n https://reddit.com/link/tjfnnz/video/e1hw1trsiro81/player\n    submitted by    /u/Nitorblog  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjfnnz/coined_in_2016_aiops_stands_for_artificial/",
-          "publishedOn": "2022-03-21T16:23:57.000Z",
-          "wordCount": 170,
-          "title": "Coined in 2016, AIOps stands for Artificial Intelligence for IT Operations which combines big data and machine learning to automate IT operation processes. Watch this video to learn all about it.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjel6a/artificial_intelligence_and_a_sense_of_time/",
-          "author": null,
-          "description": "Hi all,\n I've been interested in pattern theory for a bit, and as far as I can tell it can be viewed as a framework for artificial intelligence. In Grenander's book \"Calculus of Thoughts\" David Mumford mentions that a major issue with pattern theory is the creation of generators and modalities of bonds.\n For the bonds, has anyone tried basing their properties on a sense of time? I.e. in whatever environment a program is in, it would have a clock measuring time, and would somehow equate these bonds simply with events happening close to each other in time.\n Apologies if this is a naïve/vague/nonsensical question, I'm enthusiastic but not too knowledgeable about pattern theory. Any feedback is greatly appreciated\n    submitted by    /u/patterntheoryacc  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjel6a/artificial_intelligence_and_a_sense_of_time/",
-          "publishedOn": "2022-03-21T15:36:58.000Z",
-          "wordCount": 213,
-          "title": "Artificial Intelligence and a Sense of Time",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjdd0l/is_there_some_sort_of_ai_image_generator_that/",
-          "author": null,
-          "description": "I need an Ai image generator that takes an image and generates what is beyond the border of that image.\n for example if i have an image of the front half of a dog, it fills in the other half of the dog \n im going to use it to extend a picture of a building btw\n    submitted by    /u/Bingela_  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjdd0l/is_there_some_sort_of_ai_image_generator_that/",
-          "publishedOn": "2022-03-21T14:42:03.000Z",
-          "wordCount": 205,
-          "title": "is there some sort of Ai image generator that continues an image?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjchwc/the_case_for_humancentered_ai/",
-          "author": null,
-          "description": "submitted by    /u/bendee983  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjchwc/the_case_for_humancentered_ai/",
-          "publishedOn": "2022-03-21T14:01:21.000Z",
-          "wordCount": 97,
-          "title": "The case for human-centered AI",
-          "imageUrl": "https://external-preview.redd.it/L3V-K0s9n3fgutgTpK0h_1ikkZ3nRY6ZqxZ6MZCLjMg.jpg?auto=webp&s=54ddee3b5ecf6677f758dc8d1a7f15602f01533a"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tjblgg/weekly_metaverse_digest_3_virtual_humans_hsbc/",
-          "author": null,
-          "description": "submitted by    /u/bent_out_of_shape_  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tjblgg/weekly_metaverse_digest_3_virtual_humans_hsbc/",
-          "publishedOn": "2022-03-21T13:15:52.000Z",
-          "wordCount": 136,
-          "title": "Weekly metaverse digest #3: virtual humans, HSBC gears for the metaverse, real estate of the future, and more",
-          "imageUrl": "https://external-preview.redd.it/qOPcg9gt3eAiPD06lzJrAf5aRlWE97CMMYh0xWkZ-rA.jpg?auto=webp&s=05b16458f881d063d80f59501069949feefdcf30"
         }
       ]
     },
@@ -19391,6 +19411,46 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/u7wwrm/neural_network_gets_too_large_and_dies/",
+          "author": null,
+          "description": "Hi, I've been working on a project for my computer science class and everything has been working up until the training. I'm following a guide online that has worked fairly well. Whenever I try to train, however, I run into an overflow error and the entire network dies. I'm not sure where to go from here as I've tried a few steps to fix the issue, if anyone could offer up some advice to fixing my problem that would be amazing.\n    submitted by    /u/djm710  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/u7wwrm/neural_network_gets_too_large_and_dies/",
+          "publishedOn": "2022-04-20T13:46:57.000Z",
+          "wordCount": 583,
+          "title": "Neural Network gets too large and dies",
+          "imageUrl": "https://external-preview.redd.it/ZiAEpY_hvprgfEEpJOvIl6QIO7P1iFdUa5H0BGEeLQo.jpg?auto=webp&s=ab73127f439f3ef3e87d99be76ff2255d0e45755"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/u7u33n/7_best_books_to_learn_neural_networks_in_2022_for/",
+          "author": null,
+          "description": "submitted by    /u/maneesh123456  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/u7u33n/7_best_books_to_learn_neural_networks_in_2022_for/",
+          "publishedOn": "2022-04-20T11:14:32.000Z",
+          "wordCount": 134,
+          "title": "7+ Best Books to Learn Neural Networks in 2022 for Beginners (Updated) -",
+          "imageUrl": "https://external-preview.redd.it/6o1SHWA4Ukh7Pe8AxhxW7UxZ5d2Hr-6oB0LpJysDHEQ.jpg?auto=webp&s=2db8922d7b93dfa6ad200385940f3ecefef840c8"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/u7rs0v/question_about_sigmoid_and_heaviside/",
+          "author": null,
+          "description": "I read a paper and was a little bit confused:\n In the paper it said: \"Imagine you have a two dimensional (binary input) classification (0 or 1) problem and you use Sigmoid as an acitivation function. Since the Sigmoid gives you a real number between 0 and 1, it's not really classification anymore. \n Therefore you take the input of Sigmoid (y_Sigmoid) and put this into a modified heaviside function H(y-0.5) (so for y_Sigmoid bigger than 0.5, it gives you yHeavi = 1)\n The decision boundary is given by a straight line w1a1+w2a2+w0=0 and this whole process, it only works with the Sigmoid function as first activation function.\"\n The last paragraph confused me. Why can I assume that the decision boundary is exactly that (It's just the \"normal decision boundary\" for a SLP, why does it work here a also) \n and why does it work with only Sigmoid Function as first activation function\n    submitted by    /u/LawlHeyman  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/u7rs0v/question_about_sigmoid_and_heaviside/",
+          "publishedOn": "2022-04-20T08:31:45.000Z",
+          "wordCount": 251,
+          "title": "Question about Sigmoid and Heaviside",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/u7kwa1/starting_a_neural_network/",
+          "author": null,
+          "description": "I want to create a program that can take music i feed it and over time create its own music based on the inputs. I know i have to use a neural network and deep learning algorithms but how do i get started. Thanks.\n    submitted by    /u/Saxy-Snark  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/u7kwa1/starting_a_neural_network/",
+          "publishedOn": "2022-04-20T01:26:59.000Z",
+          "wordCount": 659,
+          "title": "Starting a neural network",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/u7c95h/overview_of_relational_graph_convolutional/",
           "author": null,
@@ -19840,26 +19900,6 @@
           "wordCount": 176,
           "title": "Ranking System",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/tjqnpb/nn_ai_vs_projectile_motion_physics/",
-          "author": null,
-          "description": "submitted by    /u/hotcodist  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/tjqnpb/nn_ai_vs_projectile_motion_physics/",
-          "publishedOn": "2022-03-22T00:43:07.000Z",
-          "wordCount": 113,
-          "title": "NN AI vs projectile motion physics",
-          "imageUrl": "https://external-preview.redd.it/fdMKEfI8oWXMxcJj3idaFxwlB9zN-3WfRmhLszDu9Kw.jpg?auto=webp&s=e98792cf02283574feecbcdf556e1b88dfd73a28"
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/tjch6j/league_of_legends_a_new_dawn_trailer_resolution/",
-          "author": null,
-          "description": "submitted by    /u/stepanmetior  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/tjch6j/league_of_legends_a_new_dawn_trailer_resolution/",
-          "publishedOn": "2022-03-21T14:00:31.000Z",
-          "wordCount": 152,
-          "title": "League of Legends A New Dawn Trailer (Resolution increased with the help of neural networks up to 8K 60FPS)",
-          "imageUrl": "https://external-preview.redd.it/DkrKHIH2MDWjvybRTqEoCLwEp4YtYHD_WvOBKXyCBng.jpg?auto=webp&s=529266e30d11a7414c7624d6df14483355a7b458"
         }
       ]
     },
@@ -19990,6 +20030,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/04/formnet-beyond-sequential-modeling-for.html",
+          "author": null,
+          "description": "Posted by Chen-Yu Lee and Chun-Liang Li, Research Scientists, Google Research, Cloud AI Team \nForm-based document understanding is a growing research topic because of its practical potential for automatically converting unstructured text data into structured information to gain insight about a document’s contents. Recent sequence modeling, which is a self-attention mechanism that directly models relationships between all words in a selection of text, has demonstrated state-of-the-art performance on natural language tasks. A natural approach to handle form document understanding tasks is to first serialize the form documents (usually in a left-to-right, top-to-bottom fashion) and then apply state-of-the-art sequence models to them.  \n However, form documents often have more complex layouts …",
+          "link": "http://ai.googleblog.com/2022/04/formnet-beyond-sequential-modeling-for.html",
+          "publishedOn": "2022-04-20T20:36:00.000Z",
+          "wordCount": 2463,
+          "title": "FormNet: Beyond Sequential Modeling for Form-Based Document Understanding",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/04/learning-to-prompt-for-continual.html",
           "author": null,
@@ -20123,6 +20173,66 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u87xtm/is_there_any_difference_between_how_ddpg_and_ppo/",
+          "author": null,
+          "description": "submitted by    /u/No_Possibility_7588  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u87xtm/is_there_any_difference_between_how_ddpg_and_ppo/",
+          "publishedOn": "2022-04-20T22:11:06.000Z",
+          "wordCount": 433,
+          "title": "Is there any difference between how DDPG and PPO use the replay buffer?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u87qu6/any_tips_for_a_prospective_graduate_student_in/",
+          "author": null,
+          "description": "Hello Everyone, I apologize ahead of time if posts like this aren't looked well upon on this sub, but I couldn't find rules against this and I also think this is the best, most niche sub for my question. I also made a new account just to be safe haha.\n ​\n Anyways, I will be graduating this spring with a BS in Computer Science and a BA in Mathematics. I have been researching Machine Learning since my sophomore year (adversarial machine learning) under a professor at my university and recently took upon a second, concurrent research position in RL since last summer.\n ​\n My goal is to get into a PhD program at a higher level than my current university (my current university is good, but doesn't really have much of an AI focus as I've already taken all the AI grad courses as an undergrad). I'm…",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u87qu6/any_tips_for_a_prospective_graduate_student_in/",
+          "publishedOn": "2022-04-20T22:02:01.000Z",
+          "wordCount": 943,
+          "title": "Any tips for a prospective graduate student in Reinforcement Learning?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u838na/task_allocation_problem_with_graph_representation/",
+          "author": null,
+          "description": "Hey everyone,\n I've recently started working on a task allocation problem using RL. I'd just like to make sure my thinking is correct on how to best approach the problem. \n At the moment, we have (effectively) a graph traversal sim for n number of agents, where the goal is to minimize the total distance over an episode, as determined by setting the correct tasks. The task supplied to each agent will determine the route that is taken, and therefore the distance. \n The current idea is to supply an input graph that also contains information on the current location of the agents. A second input would be the set of available tasks. The expected output would be done through a pointer network, where we produce a reordered set of the tasks in descending order of optimality. \n When step is called, the sim runs until a new task is needed (agent completes it's route). \n ​\n In general, does anyone know a good way to represent the inputs and output of this problem? A pointer network seems like it could work to produce actions, but if I need to do a forward pass for every agent, it seems that there would be no consideration of other agents when determining tasks (We shouldn't have 2 agents doing the same task). For the graph representation, a graph nn seems like an obvious choice, but I just wanted to see if anyone had any insight on why they may or may not be used.\n    submitted by    /u/asdfsflhasdfa  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u838na/task_allocation_problem_with_graph_representation/",
+          "publishedOn": "2022-04-20T18:36:22.000Z",
+          "wordCount": 362,
+          "title": "Task Allocation problem with graph representation",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u7usiq/universities_working_on_reinforcement_learning/",
+          "author": null,
+          "description": "Can you name any good universities (with high acceptance rate) which are working on reinforcement learning for robotics and also accept students from other branches (i.e. Electrical, Mechanical Engineering).\n    submitted by    /u/Better-Ad8608  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u7usiq/universities_working_on_reinforcement_learning/",
+          "publishedOn": "2022-04-20T11:57:05.000Z",
+          "wordCount": 398,
+          "title": "Universities working on reinforcement learning for robotics.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u7sbok/is_the_game_of_chess_a_finite_mdp/",
+          "author": null,
+          "description": "In the standard intro to RL book, I have read that any MDP that has finite actions and states is a finite MDP. But that limit is subjective. So there are approximately 1045. If I limit myself to 105 states, can I say that chess isn't a finite MDP?\n    submitted by    /u/BraveProfessional656  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u7sbok/is_the_game_of_chess_a_finite_mdp/",
+          "publishedOn": "2022-04-20T09:12:44.000Z",
+          "wordCount": 315,
+          "title": "Is the game of chess a finite MDP?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u7qaw4/reinforcement_learning_over_traditional_machine/",
+          "author": null,
+          "description": "I am currently studying use cases of RL in finance/banking/insurance and I am keen to understand what are its advantages and disadvantages than traditional methods.\n    submitted by    /u/kachua26  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u7qaw4/reinforcement_learning_over_traditional_machine/",
+          "publishedOn": "2022-04-20T06:44:11.000Z",
+          "wordCount": 208,
+          "title": "Reinforcement learning over traditional machine learning method in Finance/Banking ?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/u7ggt5/reinforcement_learning_with_actionfree/",
           "author": null,
@@ -21892,46 +22002,6 @@
           "wordCount": 347,
           "title": "Need help trying to implement a paper",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tk00hv/robotics_control_drl_vs_classical_approaches/",
-          "author": null,
-          "description": "I'm curious about your opinion on this. There are impressive recent advances in DRL for humanoid whole-body control (Deepmimic, Drecon, etc...). Do you think these methods will one day overtake the \"classical\" approaches from control theory? Or we will see more and more methods combining these two approaches?\n    submitted by    /u/thejackforest  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tk00hv/robotics_control_drl_vs_classical_approaches/",
-          "publishedOn": "2022-03-22T10:36:47.000Z",
-          "wordCount": 567,
-          "title": "Robotics control : DRL vs classical approaches",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tjld3p/recommended_materials_for_beginners_in/",
-          "author": null,
-          "description": "submitted by    /u/Rich_Beautiful  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tjld3p/recommended_materials_for_beginners_in/",
-          "publishedOn": "2022-03-21T20:36:15.000Z",
-          "wordCount": 160,
-          "title": "Recommended materials for beginners in theoretical RL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tjl6r7/how_initialize_variable_in_rl_to_reproduce_results/",
-          "author": null,
-          "description": "I am using stabel-baselines frameworks to train the model. To build an agent environment I am using Gym environment. I want to make sure that results do not change very much when I run the same model a second time. How is it possible?\n    submitted by    /u/Mariam_Dundua  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tjl6r7/how_initialize_variable_in_rl_to_reproduce_results/",
-          "publishedOn": "2022-03-21T20:28:39.000Z",
-          "wordCount": 240,
-          "title": "How initialize variable in RL to reproduce results",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tjcpxj/league_of_legends_a_new_dawn_trailer_resolution/",
-          "author": null,
-          "description": "submitted by    /u/stepanmetior  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tjcpxj/league_of_legends_a_new_dawn_trailer_resolution/",
-          "publishedOn": "2022-03-21T14:11:31.000Z",
-          "wordCount": 165,
-          "title": "League of Legends A New Dawn Trailer (Resolution increased with the help of neural networks up to 8K 60FPS)",
-          "imageUrl": "https://external-preview.redd.it/DkrKHIH2MDWjvybRTqEoCLwEp4YtYHD_WvOBKXyCBng.jpg?auto=webp&s=529266e30d11a7414c7624d6df14483355a7b458"
         }
       ]
     },
@@ -22696,36 +22766,6 @@
           "wordCount": 4905,
           "title": "How to Modernize Enterprise Data and Analytics Platform (Part 2 of 4)",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_82481652-scaled.jpeg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56708",
-          "author": "Karen Anthony",
-          "description": "AI has been making its way into the marketing world over the last few years. Businesses have touted it as the solution to their problems and a way to incorporate technology into their processes. But, how is AI changing SEO? How can you use AI to improve your business? Machine learning and artificial intelligence are… Read More »AI SEO: How AI Helps You Optimize Content for Search Results\nThe post AI SEO: How AI Helps You Optimize Content for Search Results appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/ai-seo-how-ai-helps-you-optimize-content-for-search-results/",
-          "publishedOn": "2022-03-22T04:03:00.000Z",
-          "wordCount": 1175,
-          "title": "AI SEO: How AI Helps You Optimize Content for Search Results",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_336034066.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56705",
-          "author": "Indhu",
-          "description": "Every time we think we have grasped a new technology and its use. Sometimes that shift is an increase in the technology itself that seemingly intensifies the original version. Sometimes something happens that causes a significant transformation in the technology’s nature. As the technology’s significance is increasingly understood, the name is altered to better reflect… Read More »Understanding the Role of Augmented Data Catalogs in Data Governance\nThe post Understanding the Role of Augmented Data Catalogs in Data Governance appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/understanding-the-role-of-augmented-data-catalogs-in-data-governance/",
-          "publishedOn": "2022-03-22T03:58:08.000Z",
-          "wordCount": 1113,
-          "title": "Understanding the Role of Augmented Data Catalogs in Data Governance",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/Role-of-augmented-data-catalog-in-data-governance-2.png"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56714",
-          "author": "Stephanie Glen",
-          "description": "Issues that will affect the metaverse range from hacking to cyberbullying. Proposed solutions are far from perfect. We may see end-to-end encryption disappear soon. The only real solution might be not to enter the metaverse at all. The advent of the metaverse compounds a list of existing security concerns. The addition of another dimension to… Read More »Security Issues in The Metaverse\nThe post Security Issues in The Metaverse appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/security-issues-in-the-metaverse/",
-          "publishedOn": "2022-03-22T03:15:53.000Z",
-          "wordCount": 1251,
-          "title": "Security Issues in The Metaverse",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_487606894.jpeg"
         }
       ]
     },
@@ -22734,6 +22774,26 @@
       "feedUrl": "https://www.johndcook.com/blog/feed",
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
+        {
+          "id": "https://www.johndcook.com/blog/?p=103710",
+          "author": "John",
+          "description": "I got an email from a student in France who asked about a French counterpart to my post on Morse code palindromes, and this post is a response to that email. Palindromes A palindrome is a word that remains the same when the letters are reversed, like kayak. A Morse code palindrome is a word […]\nFrench palindromes and Morse code first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/04/20/french-palindromes-and-morse-code/",
+          "publishedOn": "2022-04-20T16:31:53.000Z",
+          "wordCount": 731,
+          "title": "French palindromes and Morse code",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.johndcook.com/blog/?p=103703",
+          "author": "John",
+          "description": "Blaschke factors are complex functions with specified zeros inside the unit disk. Given a complex number a with |a| < 1, the Blaschke factor associated with a is the function Notice the semicolon in b(z; a). This is a convention that a few authors follow, and that I wish more would adopt. From a purely […]\nBlaschke factors first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/04/20/blaschke-factors/",
+          "publishedOn": "2022-04-20T14:45:11.000Z",
+          "wordCount": 747,
+          "title": "Blaschke factors",
+          "imageUrl": null
+        },
         {
           "id": "https://www.johndcook.com/blog/?p=103597",
           "author": "John",
@@ -22997,31 +23057,6 @@
             "length": "22089",
             "type": "audio/wav"
           },
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=100543",
-          "author": "John",
-          "description": "Henry Lowengard left a comment on my post Phone tones in musical notation mentioning dial tones and busy signals, so I looked these up. Tones According to this page, a dial tone in DTMF [1] is a chord of two sine waves at 350 Hz and 440 Hz. In musical notation: According to the same […]\nDial tone and busy signal first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2022/03/22/dial-tone-and-busy-signal/",
-          "publishedOn": "2022-03-22T09:23:56.000Z",
-          "wordCount": 438,
-          "title": "Dial tone and busy signal",
-          "enclosure": {
-            "url": "https://www.johndcook.com/dial2.wav",
-            "length": "2159",
-            "type": "audio/wav"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=100523",
-          "author": "John",
-          "description": "This post expands on a small part of the post Demystifying the Analemma by M. Tirado. Apparent solar declination given δ by δ = sin-1( sin(ε) sin(θ) ) where ε is axial tilt and θ is the angular position of a planet. See Tirado’s post for details. Here I want to unpack a couple things […]\nSolar declination first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2022/03/21/solar-declination/",
-          "publishedOn": "2022-03-21T19:28:13.000Z",
-          "wordCount": 447,
-          "title": "Solar declination",
           "imageUrl": null
         }
       ]
