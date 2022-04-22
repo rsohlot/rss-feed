@@ -166,6 +166,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/machine-learning/",
       "articles": [
         {
+          "id": "21a3046ba8f883173c962ba36d5d48c49efd00e8",
+          "author": "Uday Narayanan",
+          "description": "Amazon Textract is a machine learning (ML) service that automatically extracts text, handwriting, and data from any document or image. Amazon Textract now offers the flexibility to specify the data you need to extract from documents using the new Queries feature within the Analyze Document API. You don’t need to know the structure of the […]",
+          "link": "https://aws.amazon.com/blogs/machine-learning/specify-and-extract-information-from-documents-using-the-new-queries-feature-in-amazon-textract/",
+          "publishedOn": "2022-04-21T17:32:12.000Z",
+          "wordCount": 3204,
+          "title": "Specify and extract information from documents using the new Queries feature in Amazon Textract",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/04/21/specify-extract-textract.jpg"
+        },
+        {
           "id": "4d89b7000b553a0ed3675113cd8b7856b5e91b3b",
           "author": "Ashish Lagwankar",
           "description": "Organizations use collaborative document authoring solutions like Salesforce Quip to embed real-time, collaborative documents inside Salesforce records. Quip is Salesforce’s productivity platform that transforms the way enterprises work together, delivering modern collaboration securely and simply across any device. A Quip repository captures invaluable organizational knowledge in the form of collaborative documents and workflows. However, finding […]",
@@ -409,36 +419,6 @@
           "wordCount": 2153,
           "title": "Optimize customer engagement with reinforcement learning",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/03/17/ml-7771-image007.png"
-        },
-        {
-          "id": "1eb961f694869c6a2187d10121ba0a13554186d1",
-          "author": "John Heater",
-          "description": "Amazon Lex is a service for building conversational interfaces into any application using voice and text. With Amazon Lex, you can easily build sophisticated, natural language, conversational bots (chatbots), virtual agents, and interactive voice response (IVR) systems. You can now use industry grammars to accelerate IVR development on Amazon Lex as part of your IVR […]",
-          "link": "https://aws.amazon.com/blogs/machine-learning/expedite-ivr-development-with-industry-grammars-on-amazon-lex/",
-          "publishedOn": "2022-03-23T01:17:18.000Z",
-          "wordCount": 2787,
-          "title": "Expedite IVR development with industry grammars on Amazon Lex",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png"
-        },
-        {
-          "id": "229dd128c741e3f461444de5ff03100092aa8119",
-          "author": "John Heater",
-          "description": "This post was co-written by John Heater, SVP of the Contact Center Practice at NeuraFlash. NeuraFlash is an Advanced AWS Partner with over 40 collective years of experience in the voice and automation space. With a dedicated team of conversation designers, data engineers, and AWS developers, NeuraFlash helps customers take advantage of the power of Amazon […]",
-          "link": "https://aws.amazon.com/blogs/machine-learning/easily-migrate-your-ivr-flows-to-amazon-lex-using-the-ivr-migration-tool/",
-          "publishedOn": "2022-03-22T22:40:21.000Z",
-          "wordCount": 2592,
-          "title": "Easily migrate your IVR flows to Amazon Lex using the IVR migration tool",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/03/22/ML-8542-image001-1099x630.png"
-        },
-        {
-          "id": "32a555920fe3b0dc5224f950b745f309fba00220",
-          "author": "RJ",
-          "description": "Amazon Search’s vision is to enable customers to search effortlessly. Our spelling correction helps you find what you want even if you don’t know the exact spelling of the intended words. In the past, we used classical machine learning (ML) algorithms with manual feature engineering for spelling correction. To make the next generational leap in […]",
-          "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-search-achieves-low-latency-high-throughput-t5-inference-with-nvidia-triton-on-aws/",
-          "publishedOn": "2022-03-22T16:47:40.000Z",
-          "wordCount": 2218,
-          "title": "How Amazon Search achieves low-latency, high-throughput T5 inference with NVIDIA Triton on AWS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/03/21/ML-8065-image001-feature.png"
         }
       ]
     },
@@ -11382,6 +11362,226 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8zhy2/p_mgpt_model_released_a_multilingual_gpt3like/",
+          "author": null,
+          "description": "Hi everyone. Today we released the mGPT model: multilingual generative pre-trained transformer\n The checkpoints are available on Huggingface model page\n The example usage is at the Github repo https://github.com/ai-forever/mgpt \n  \nThe model has 1.3 billion parameters\n The context length is 512 tokens. \n  \nThe model can generate sequences after the input prompt, can be used for fine-tuning or for zero- and few-shot learning:\n from transformers import GPT2LMHeadModel, GPT2Tokenizer model_name = \"sberbank-ai/mGPT\" tokenizer = GPT2Tokenizer.from_pretrained(model_name) model = GPT2LMHeadModel.from_pretrained(model_name) model.cuda() model.eval() texts = [ \"My favourite holiday is \", \"Իմ սիրելի տոնն է \", \"Моє улюблене свято \", \"mi fiesta favorita es \", \"मेरी पसंदीदा छुट्टी है\", \"我最喜欢的节日是\", \"Min…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8zhy2/p_mgpt_model_released_a_multilingual_gpt3like/",
+          "publishedOn": "2022-04-21T22:37:10.000Z",
+          "wordCount": 461,
+          "title": "[P] mGPT model released: a multilingual gpt-3-like model for 61 language",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8xrhg/p_deep_learning_gpu_benchmark_a_latencybased/",
+          "author": null,
+          "description": "Hi r/MachineLearning! I want to share with you a fun side project of mine on benchmarking the GPUs for deep learning: [project page]. \n https://preview.redd.it/7olwqyze5yu81.png?width=2041&format=png&auto=webp&s=25aecb9733366720a2be5cecc2048eb2a734c9b9\n Here are some key features:\n  \nIt helps to estimate the runtime of algorithms on a different GPU.\n It measures GPU processing speed independent of GPU memory capacity.\n It contains adjustable weightings through interactive UIs.\n  \nThe project page also explains how this benchmark differs from existing ones, and why this benchmark is more relevant to academic research.\n I would love to know what you think!\n    submitted by    /u/roll-a-dice  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8xrhg/p_deep_learning_gpu_benchmark_a_latencybased/",
+          "publishedOn": "2022-04-21T21:13:36.000Z",
+          "wordCount": 179,
+          "title": "[P] Deep Learning GPU Benchmark: A Latency-Based Approach",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8xexj/d_whats_your_perfect_laptop_for_deep_learning/",
+          "author": null,
+          "description": "I'm using mbp 2015, it's a pretty solid laptop, I like it a lot, though it feels slow and I've started to look for a replacement. Given that I run all experiment on gpu dedicated servers, my laptop serves me as a typewriter, it's ok, but I'd like to get more out of it. Frankly I'm a bit disappointed by 2021 Macbooks, hope they'll be improved in 2022.\n Recently lambda labs together with razer announced their tensorbook https://lambdalabs.com/deep-learning/laptops/tensorbook , their pricing looks weird to me, the more you pay the more years of support you have, that's the only thing which differentiates base bundle from enterprise. Also there is no option to customize hardware for it, though basic bundle itself looks ok, its price is $3500 like M1 Max's. What's your opinion about this laptop in particular? would you buy it?\n generally this laptop looks like a cool thing to have for local model development even from a tent somewhere in Nepal, given that you have enough power banks to charge it. :)\n What's your choice of a laptop for DL? My biggest requirement is a durable laptop which will serve at least 5 years, better with NVIDA GPU for development and debugging.\n    submitted by    /u/taras-sereda  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8xexj/d_whats_your_perfect_laptop_for_deep_learning/",
+          "publishedOn": "2022-04-21T20:57:29.000Z",
+          "wordCount": 326,
+          "title": "[D] What's your perfect laptop for deep learning research?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8w5bq/r_deep_models_of_superficial_face_judgments_pnas/",
+          "author": null,
+          "description": "​\n Transformations that alter the perception of target faces\n Paper: https://www.pnas.org/doi/10.1073/pnas.2115228119\n Dataset: https://onemillionimpressions.com/\n    submitted by    /u/joshuacpeterson  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8w5bq/r_deep_models_of_superficial_face_judgments_pnas/",
+          "publishedOn": "2022-04-21T19:59:31.000Z",
+          "wordCount": 108,
+          "title": "[R] Deep models of superficial face judgments (PNAS)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8v92h/r_planting_undetectable_backdoors_in_machine/",
+          "author": null,
+          "description": "submitted by    /u/Wiskkey  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8v92h/r_planting_undetectable_backdoors_in_machine/",
+          "publishedOn": "2022-04-21T19:17:49.000Z",
+          "wordCount": 101,
+          "title": "[R] Planting Undetectable Backdoors in Machine Learning Models",
+          "imageUrl": "https://external-preview.redd.it/Cb_PcUygTcaeTkYhbknuR-wtPZFTuzLC2xj03KfWrwk.jpg?auto=webp&s=fd99bf3e3699fdaded3c895b6c765f548cc9b341"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8v2ox/p_vicreg_tutorial_and_lightweight_pytorch/",
+          "author": null,
+          "description": "Here's a tutorial and lightweight PyTorch implementation of VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning. Hope you find it helpful!\n    submitted by    /u/thejashGI  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8v2ox/p_vicreg_tutorial_and_lightweight_pytorch/",
+          "publishedOn": "2022-04-21T19:09:51.000Z",
+          "wordCount": 136,
+          "title": "[P] VICReg: Tutorial and Lightweight PyTorch Implementation blog post",
+          "imageUrl": "https://external-preview.redd.it/nlio8usMqy_ReFWZfdRWZzVWPAOmlaQsm5fC0fDkpO4.jpg?auto=webp&s=e7ed882487e5ed475af6d8e7f98866ba1a7d80b0"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8s9zr/p_announcing_cleanlab_20_automatically_find/",
+          "author": null,
+          "description": "Hi folks. This morning I released the new cleanlab 2.0 Python package for automatically finding errors in datasets and machine learning/analytics with real-world, messy data and labels.\n tl;dr - cleanlab provides a framework to streamline data-centric AI. \n https://preview.redd.it/hq1kyasvwwu81.png?width=2279&format=png&auto=webp&s=4fa3c82ec66d685c8fc4f95c5d9a0fc4be192d6b\n After 1.0 launch last year, engineers used cleanlab at Google to clean and train robust models on speech data), at Amazon to estimate how often the Alexa device doesn’t wake, at Wells Fargo to train reliable financial prediction models, and at Microsoft, Tesla, Facebook, etc. Joined by two good friends from grad school, we completely rebuilt cleanlab 2.0 to work for all data scientists, ML datasets, and models; and hit a…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8s9zr/p_announcing_cleanlab_20_automatically_find/",
+          "publishedOn": "2022-04-21T17:01:18.000Z",
+          "wordCount": 473,
+          "title": "[P] Announcing cleanlab 2.0: Automatically Find Errors in ML Datasets",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8s48x/p_galp_hackathon_win_10000_from_home/",
+          "author": null,
+          "description": "If you are passionate about Data & AI we have the perfect challenge for you!\n The applications for Galp’s Hackathon Retail 4.0 are OPEN! With this Hackathon, Galp is challenging the community to propose solutions to specific problems and use cases that they think could improve their typical customer journey in the service stations.\n Gather a team and come up with an innovative solution for a chance of winning 10.000€!\n Let’s shape the future of Galp's retail?\n Apply now: https://taikai.network/en/galp/hackathons/retail40\n https://preview.redd.it/wkfb6ybuwwu81.png?width=3334&format=png&auto=webp&s=deef13767df5ba607e387ce4e278ae3981d93582\n    submitted by    /u/migueldsalmeida  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8s48x/p_galp_hackathon_win_10000_from_home/",
+          "publishedOn": "2022-04-21T16:54:27.000Z",
+          "wordCount": 174,
+          "title": "[P] Galp Hackathon - Win 10.000€ from home!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8ratz/d_imbalanced_multi_class_classification/",
+          "author": null,
+          "description": "I'm working on a Machine Learning problem for multi class classification with imbalanced classes distribution, so obviously my model favours classes with more data and fails to predict classes with few data, what are the techniques I can use to help the model distinguish all the classes the same way ? P.S I'm avoiding to use SMOTE method to train the model on real used data rather than generated\n    submitted by    /u/According-Promise-23  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8ratz/d_imbalanced_multi_class_classification/",
+          "publishedOn": "2022-04-21T16:17:38.000Z",
+          "wordCount": 472,
+          "title": "[D] Imbalanced multi class classification 📌",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8qr5s/r_cvpr_2022_photorealistic_monocular_3d/",
+          "author": null,
+          "description": "submitted by    /u/SleekEagle  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8qr5s/r_cvpr_2022_photorealistic_monocular_3d/",
+          "publishedOn": "2022-04-21T15:54:05.000Z",
+          "wordCount": 111,
+          "title": "[R] CVPR 2022 - Photorealistic Monocular 3D Reconstruction of Humans Wearing Clothing",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8osxe/r_my_continuously_updated_machine_learning/",
+          "author": null,
+          "description": "Dear ML researchers,\n For the past many years, I've been updating my machine learning research notes for my PhD students and everyone online continuously. I don't like uploading to arxiv to get \"citations\", and GitHub serves me well: Hope they are useful for you:\n https://github.com/roboticcam/machine-learning-notes\n Richard,\n    submitted by    /u/MLknowledge  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8osxe/r_my_continuously_updated_machine_learning/",
+          "publishedOn": "2022-04-21T14:23:41.000Z",
+          "wordCount": 212,
+          "title": "[R] My continuously updated machine learning research notes",
+          "imageUrl": "https://external-preview.redd.it/jXbGZ4rJFm5S_5qjRLqzl6dlfbQGyZrgZeCf1as5zc4.jpg?auto=webp&s=30db4308813fd683b4c6e18df9b7ac3c3077dcb1"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8o3fd/d_correcting_for_imbalance_in_regression_datasets/",
+          "author": null,
+          "description": "Hi, I am performing a Image --> scalar regression. The output scalar I am trying to estimate follows a roughly Gaussian distribution. I notice that the DNN output is biased to output values towards the mean (makes sense). \n ​\n This seems like a problem of imbalanced data. For classification, I can oversample minority classes. What is the equivalent for regression? Is there an equivalent technique for regression where we oversample \"outliers\" and undersample central values.\n    submitted by    /u/rsandler  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8o3fd/d_correcting_for_imbalance_in_regression_datasets/",
+          "publishedOn": "2022-04-21T13:49:27.000Z",
+          "wordCount": 356,
+          "title": "[D] Correcting for imbalance in regression datasets",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8nv9n/building_dense_passage_retrievers_p/",
+          "author": null,
+          "description": "Hi, I made a video explaining the ideas behind building a Dense Passage Retriever(DPR). Whenever we talk about retrievers, we mostly refer to the DPR formulation which appeared in this paper. A lot of publicly available implementations also use this formulation. \n In a previous video, we discussed how to use the DPR End-to-End QA system which uses DPR with a QA model. In this video, we solely focus on retrievers and the ideas behind building them. The implementation is quite similar to retrievers pre-trained with Inverse Close Task.\n This video is part 8 of 9 video series on Open-domain question answering using Dense retrievers. Thanks for the support and I will appreciate any feedback.\n https://www.youtube.com/watch?v=w61p0HLo7gc\n    submitted by    /u/infiniteakashe  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8nv9n/building_dense_passage_retrievers_p/",
+          "publishedOn": "2022-04-21T13:38:00.000Z",
+          "wordCount": 217,
+          "title": "Building Dense Passage Retrievers [P]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8nfz4/d_how_do_you_usually_run_sanity_checks_when/",
+          "author": null,
+          "description": "Hi, \n I have been studying super-resolution with gans and took a look at SRGAN et ESRGAN. \n I have spent the whole day running experiments in order to find if I can manage to overfit on a single batch of 16 / 32 / 128 examples (MNIST). \n I have found out that it's almost impossible to use this tactic as a sanity check because it simply cannot generate good quality samples. \n I would like to know what are your thoughts on this, and how you would run sanity checks regarding GANs. \n ​\n Thank you !\n    submitted by    /u/Frizzoux  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8nfz4/d_how_do_you_usually_run_sanity_checks_when/",
+          "publishedOn": "2022-04-21T13:16:41.000Z",
+          "wordCount": 257,
+          "title": "[D] How do you usually run sanity checks when training GANs ?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8l3p1/d_amazon_releases_a_new_multilingual_dataset_for/",
+          "author": null,
+          "description": "https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding\n    submitted by    /u/__lawless  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8l3p1/d_amazon_releases_a_new_multilingual_dataset_for/",
+          "publishedOn": "2022-04-21T11:10:14.000Z",
+          "wordCount": 107,
+          "title": "[D] Amazon Releases a New Multilingual Dataset for NLU",
+          "imageUrl": "https://external-preview.redd.it/HL7tbrZbJvn55TAdNpFHuAjizldYc59pZoCL1Xwpj_Y.jpg?auto=webp&s=4bfac45af0c823edd59ce0782aff290631174975"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8l0yj/d_how_to_handle_features_that_apply_to_a_whole/",
+          "author": null,
+          "description": "Hi all,\n I have csv-files (~300) with a fixed set of columns (~40) but varying number of rows (sum of all rows ~300 000) and multiple labels per csv that I want to predict.\n Because of the limited number of csv-files and as a first try I am predicting the labels row-wise (attaching the label to all the rows of one csv-file) which works well for some labels but not for others.\n Currently, I am calculating some features for every row and just appending them to the row and some features for the whole csv-file and appending them to every row.\n Two problems are now arising that I would like to hear some input about:\n  \nThe number of features per csv is growing and it seems like a waste to copy them to every row.\n For some labels it is probably reasonable to throw away most of the rows and only feed in a handful.\n  \nHow would you design a structure that incorporates the limited number of csv-files and the different ways to treat features (row vs. csv)?\n    submitted by    /u/tlklk  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8l0yj/d_how_to_handle_features_that_apply_to_a_whole/",
+          "publishedOn": "2022-04-21T11:05:38.000Z",
+          "wordCount": 523,
+          "title": "[D] How to handle features that apply to a whole csv-file vs single rows?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8jy96/rp_differences_in_publishing_a_paper_at_a/",
+          "author": null,
+          "description": "Hi!\n I am an undergrad and I am going to start my MS in CS this fall. My research interest is mainly in Multimodal Learning for language and Speech.\n I have written papers before but both my papers have been peer reviewed journal papers (Knowledge-Based Systems, Elsevier) [1] [2] I now want to start publishing papers in conferences since I have noticed that it is much easier to get noticed and recieve reviews when the paper is presented at a conference.\n I want to understand how different is the publication process for conferences? I also wanted recommendations on conferences in the NLP and Speech area, considering this will be my first conference paper.\n Thanks!\n (I would also appreciate reviews on my papers if anyone has the time to look them over. Thanks!)\n    submitted by    /u/prabhav55221  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8jy96/rp_differences_in_publishing_a_paper_at_a/",
+          "publishedOn": "2022-04-21T09:55:49.000Z",
+          "wordCount": 1063,
+          "title": "[R][P] Differences in publishing a paper at a conference and in a journal?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8jsiz/d_how_do_you_get_the_maximum_of_arxiv_sanity/",
+          "author": null,
+          "description": "Basically, I don't want to phrase this as a a \"how-to\" post but arxiv-sanity-lite really bothers me.\n How do you guys find recent papers in your area of interest which are promising besides following what is published at major conferences?\n I believe the website is \"too lightweight\". For example, what if I am interested in computer vision papers and I specify that in the tags field (i.e. explicitly typing \"computer vision\"). How can I list the papers based on a score (basically goodness of the paper)?\n Why does using shortcuts (basically links) like `````recommend over last week or recommend over last 3 days always (at least for me) end up with 0 results? I've never used the original arxiv-sanity before so I strongly believe that there is something that I am missing.\n    submitted by    /u/Icy_Fisherman7187  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8jsiz/d_how_do_you_get_the_maximum_of_arxiv_sanity/",
+          "publishedOn": "2022-04-21T09:44:38.000Z",
+          "wordCount": 234,
+          "title": "[D] How do you get the maximum of arxiv sanity?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8j8vb/p_efficient_deep_learning_book/",
+          "author": null,
+          "description": "We are working on a book that focuses on deep learning efficiency techniques such as quantization, pruning, distillation, etc. for both server-side as well as on-device (smartphones, IoT, etc.) applications.\n The goal is to introduce these ideas in a single place, without having to parse many papers, try to get a working code sample, and then spend time debugging. With the accompanying codelabs, we hope that our readers can make their models 4-20x smaller, faster, and better in quality.\n We have released the first four chapter's draft PDFs, and would truly appreciate any sort of comments / feedback.\n Book: efficientdlbook.com\n Feedback: hello@efficientdlbook.com\n    submitted by    /u/EfficientDLBook  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8j8vb/p_efficient_deep_learning_book/",
+          "publishedOn": "2022-04-21T09:05:10.000Z",
+          "wordCount": 411,
+          "title": "[P] Efficient Deep Learning Book",
+          "imageUrl": "https://external-preview.redd.it/oWMg82plS_K_je4LqS3qhPS63T9YaY5hp-w2uvo9be8.jpg?auto=webp&s=012de82bd475d884d9dccf16ab837af217707e11"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8j1yz/d_interview_w_google_brain_researchers_on_sparse/",
+          "author": null,
+          "description": "https://youtu.be/ccBMRryxGog\n This video is an interview with Barret Zoph and William Fedus of Google Brain about Sparse Expert Models.\n Sparse Expert models have been hugely successful at distributing parts of models, mostly Transformers, across large array of machines and use a routing function to effectively route signals between them. This means that even though these models have a huge number of parameters, the computational load for a given signal does not increase because the model is only sparsely activated. Sparse expert models, such as Switch Transformers and GLAM can scale up to trillions of parameters and bring a number of desirable properties. We discuss everything from the fundamentals, history, strengths and weaknesses, up to the current state of the art of these models.\n ​\n OUTLINE:\n 0:00 - Intro\n 0:30 - What are sparse expert models?\n 4:25 - Start of Interview\n 5:55 - What do you mean by sparse experts?\n 8:10 - How does routing work in these models?\n 12:10 - What is the history of sparse experts?\n 14:45 - What does an individual expert learn?\n 19:25 - When are these models appropriate?\n 22:30 - How comparable are sparse to dense models?\n 26:30 - How does the pathways system connect to this?\n 28:45 - What improvements did GLAM make?\n 31:30 - The \"designing sparse experts\" paper\n 37:45 - Can experts be frozen during training?\n 41:20 - Can the routing function be improved?\n 47:15 - Can experts be distributed beyond data centers?\n 50:20 - Are there sparse experts for other domains than NLP?\n 52:15 - Are sparse and dense models in competition?\n 53:35 - Where do we go from here?\n 56:30 - How can people get started with this?\n ​\n Papers:\n Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (https://arxiv.org/abs/2101.03961)\n GLaM: Efficient Scaling of Language Models with Mixture-of-Experts (https://arxiv.org/abs/2112.06905)\n Designing Effective Sparse Expert Models (https://arxiv.org/abs/2202.08906)\n    submitted by    /u/ykilcher  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8j1yz/d_interview_w_google_brain_researchers_on_sparse/",
+          "publishedOn": "2022-04-21T08:51:22.000Z",
+          "wordCount": 398,
+          "title": "[D] Interview w/ Google Brain researchers on Sparse Expert Models (Switch Transformers, GLAM, and more...)",
+          "imageUrl": "https://external-preview.redd.it/ccj3vB9Jnic9PtdsYqEHsfolMycEL3nvIr8XujwicFo.jpg?auto=webp&s=6c0d9971b48a4126d732a0ffe51b62be0ff80a85"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8i9ei/p_interactive_semantic_map_of_iclr_2022/",
+          "author": null,
+          "description": "Next week ICLR 2022 is taking place. Fully virtual and 1000+ high quality papers. To make sense of this volume of papers we have indexed the papers and provide an interactive semantic map of #ICLR2022, check out:\n https://search.zeta-alpha.com/?q=&d=ly&doc_sources=ICLR&sort_by=authority \n To enjoy the full map, click on [Explore more] and then enter full screen mode.\n We will also discuss the program and 10 must read papers in the Zeta Alpha \"Trends in AI\" ICLR edition webinar Monday 25th, for which you can sign up here.\n https://us06web.zoom.us/webinar/register/7816505274568/WN_82DzwhXZQbOCSTWgaI9xMw\n Looking forward to meet you online at ICLR 2022! \n https://preview.redd.it/6wdqj4ru7uu81.jpg?width=2202&format=pjpg&auto=webp&s=c97417c9ea39919041949bf3aa38ad33bb6eca5a\n    submitted by    /u/EngineerZetaAlpha  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8i9ei/p_interactive_semantic_map_of_iclr_2022/",
+          "publishedOn": "2022-04-21T07:52:53.000Z",
+          "wordCount": 183,
+          "title": "[P] Interactive semantic map of ICLR 2022",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/u8d4d8/r_mindspore_paper_interpretation_miehdr_cnn_main/",
+          "author": null,
+          "description": "This article is reproduced from Zhihu and translated by DeepL for enthusiasts to communicate.\n 1. Research Background\n High dynamic range images (HDR) are mainly oriented to picture display technology. In a certain scene, if the range of high and low luminance areas exceeds the maximum luminance range of the image, the display effect will be greatly reduced, and HDR is to better solve this problem, it can record a broader range of luminance images, so as to obtain a more effective display effect.\n The current solution to the problem of generating high dynamic range images (HDR) focuses on the fusion of two low dynamic range (LDR) images of different exposures taken with the same camera. In such a solution by the camera shake or object movement during the exposure time to produce the proble…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/u8d4d8/r_mindspore_paper_interpretation_miehdr_cnn_main/",
+          "publishedOn": "2022-04-21T02:31:54.000Z",
+          "wordCount": 1003,
+          "title": "[R] MindSpore Paper Interpretation: MIEHDR CNN: Main Image Enhancement based Ghost-Free High Dynamic Range Imaging using Dual-Lens Systems",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/u8baf6/d_most_efficient_way_to_use_large_image_datasets/",
           "author": null,
           "description": "I am having trouble finding some general information on this subject. I know I am down the rabbit hole when google doesn't have an answer.\n I want to know best practices and information on using clusters for machine learning with large amounts of data. I believe I have a close to an optimal solution but wanted to get some other opinions on the subject.\n My current setup:\n  \nAWS EKS Kubernetes for a cluster\n Kubeflow for ML platform\n Katib for HPT jobs\n Pytorch for custom models\n Spot instance GPUs\n Lustre for file serving to the models\n  \nMy Data:\n  \nMillions of Images stored in S3\n ~50TB of data\n  \nWhat is the most efficient way to move my data to the cluster?\n My current approach:\n  \nPreprocess the data with a dedicated instance and store it in S3\n Master runs on a dedicated node\n Katib spins up a set number of GPU spot nodes\n A claim is made, and an FSx Lustre system is generated for the pod\n Advantages: Very fast training and data movement with spot training\n Disadvantages: I have to spin up several Lustre systems for the training\n Preprocess the data with a dedicated instance and store it in S3\n  \nPossible alternative\n  \nSame as above but use EFS as a distributed file system so I don't have to wait for Lustre\n Advantages: Potentially cheaper as I have only one FS\n Disadvantages: Slow throughput, read this was a bad idea\n Master runs on a dedicated node\n  \nOther alternatives\n  \nUseKatib spins up a PyTorch streaming function with S3(boosted transfer speed)set number of GPU spot nodes\n Every pod starts a claim is made and downloads data to an EBS\n Give up and switch to SageMakerFSx Lustre system is generated for the pod\n  \nAnyone with experience in these technologies I would really appreciate hearing your thoughts.\n    submitted by    /u/thewineiswater  \n [link]   [comments]",
@@ -15530,86 +15730,6 @@
           "wordCount": 133,
           "title": "[D] Roadmap feedback on DS open-source",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tksq25/d_is_it_possible_to_train_an_ai_to_decode/",
-          "author": null,
-          "description": "With a theoretically large enough dataset of encrypted content corresponding to their unencrypted versions, it it possible to train an AI to develop a method of decryption that’s better than brute-force? If not all, can this work with some encryption methods?\n    submitted by    /u/Plane_Bite3639  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tksq25/d_is_it_possible_to_train_an_ai_to_decode/",
-          "publishedOn": "2022-03-23T12:23:26.000Z",
-          "wordCount": 1262,
-          "title": "[D] Is It Possible to Train an AI to Decode Encrypted Content?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tkq4ou/d_why_do_gans_work_knowing_that_the_discriminator/",
-          "author": null,
-          "description": "f CNNS do not take spatial information into account since filters are looking for features in different locations and output the same feature maps, no matter where the feature is located in the input image, what makes the discriminator robust to real features appearing in random locations ?\n    submitted by    /u/Wonderful-Donut-6687  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tkq4ou/d_why_do_gans_work_knowing_that_the_discriminator/",
-          "publishedOn": "2022-03-23T09:32:57.000Z",
-          "wordCount": 809,
-          "title": "[D] Why do GANS work knowing that the discriminator does not take spatial information into account",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tkjbsw/d_how_to_check_if_a_paper_has_been_plagiarized/",
-          "author": null,
-          "description": "Any recommendations for tools to check if a paper has been plagiarized? I have an unfortunate situation that may require a thorough examination of another researcher’s work. For example, how did they determine that Siraj Raval’s work was plagiarized? I assume the big ML conferences perform some sort of automated check for plagiarism, right?\n    submitted by    /u/purplebrown_updown  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tkjbsw/d_how_to_check_if_a_paper_has_been_plagiarized/",
-          "publishedOn": "2022-03-23T02:03:43.000Z",
-          "wordCount": 924,
-          "title": "[D] How to check if a paper has been plagiarized?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tkda9c/d_relative_error_metrics_comparing_model/",
-          "author": null,
-          "description": "Is anyone aware of metrics or measures that classify the error relative the complexity of the model. If so could anyone provide some references where people have introduced such a notion?\n    submitted by    /u/AbjectDrink3276  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tkda9c/d_relative_error_metrics_comparing_model/",
-          "publishedOn": "2022-03-22T21:11:51.000Z",
-          "wordCount": 133,
-          "title": "[D] Relative error metrics comparing Model complexity versus error",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tkaihr/r_google_research_selfconsistency_improves_chain/",
-          "author": null,
-          "description": "submitted by    /u/ReasonablyBadass  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tkaihr/r_google_research_selfconsistency_improves_chain/",
-          "publishedOn": "2022-03-22T19:09:18.000Z",
-          "wordCount": 134,
-          "title": "[R] Google Research: Self-Consistency Improves Chain of Thought Reasoning in Language Models",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tk8ika/pr_hear_what_you_see_autoencoder_to_convert_video/",
-          "author": null,
-          "description": "GitHub: https://github.com/muxamilian/wysiwyh\n WYSIWHY is a neural network that transforms an input video into an audio sequence in real time. It does so by compressing each image using an autoencoder and interpreting the resulting code as a frequency range.\n This could potentially be useful for the visually impaired, helping with indoor navigation. It could also be used to transform an infrared or ultraviolet video to sound and thus enable one to perceive otherwise invisible colors.\n Demo; recommended with sound turned on\n In a usual autoencoder, the elements of the code vector are independent of each other. This makes subtle differences between adjacent elements of the code vector hard to perceive for humans. The resulting audio sequence would sound like indistinguishable white noise. For WYSIWYH thus an encoder is used which hierarchically structures the code, meaning that large differences in the input image result in large differences in the output code. This also results in adjacent elements of the code vector being correlated. This makes the autoencoder’s code more friendly to human perception.\n Overall approach\n    submitted by    /u/muxamilian  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tk8ika/pr_hear_what_you_see_autoencoder_to_convert_video/",
-          "publishedOn": "2022-03-22T17:41:16.000Z",
-          "wordCount": 486,
-          "title": "[P][R] Hear what you see: Autoencoder to convert video to audio",
-          "imageUrl": "https://external-preview.redd.it/4StmQX9gSDFuCiGvmVwd_WW19tfzM62GpihdgnzzCyM.jpg?auto=webp&s=5e58c87ba72b97439efbee4d2a453faf3be72790"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tk61vh/r_improving_anatomical_plausibility_in_medical/",
-          "author": null,
-          "description": "https://arxiv.org/abs/2203.10977\n    submitted by    /u/gaggi_94  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tk61vh/r_improving_anatomical_plausibility_in_medical/",
-          "publishedOn": "2022-03-22T15:52:00.000Z",
-          "wordCount": 129,
-          "title": "[R] Improving anatomical plausibility in medical image segmentation via hybrid graph neural networks: applications to chest x-ray analysis",
-          "imageUrl": "https://external-preview.redd.it/Cb_PcUygTcaeTkYhbknuR-wtPZFTuzLC2xj03KfWrwk.jpg?auto=webp&s=fd99bf3e3699fdaded3c895b6c765f548cc9b341"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tk41hz/d_stumpy_v1110_released_for_modern_time_series/",
-          "author": null,
-          "description": "We're happy to announce the release of STUMPY v1.11.0! This version includes the oft requested Minkowski (p-norm) Distance, support for Multi-dimensional Motif Discovery, new Annotation vector tutorials, and enhancements for Pan Matrix Profiles!\n https://github.com/TDAmeritrade/stumpy\n    submitted by    /u/slaw07  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tk41hz/d_stumpy_v1110_released_for_modern_time_series/",
-          "publishedOn": "2022-03-22T14:18:33.000Z",
-          "wordCount": 302,
-          "title": "[D] STUMPY v1.11.0 Released for Modern Time Series Analysis",
-          "imageUrl": "https://external-preview.redd.it/TOrBn9rmbMymheLzeLdul1VhwJkAlB6tlNGtIUIYuCU.jpg?auto=webp&s=8f2e03f42519c45027dba70380d878d8b5e4f613"
         }
       ]
     },
@@ -15705,13 +15825,34 @@
       "title": "The Berkeley Artificial Intelligence Research Blog",
       "feedUrl": "https://bair.berkeley.edu/blog/feed.xml",
       "siteUrl": "http://bair.berkeley.edu/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://bair.berkeley.edu/blog/2022/04/20/rvs/",
+          "author": null,
+          "description": "A demonstration of the RvS policy we learn with just supervised learning and a depth-two MLP. It uses no TD learning, advantage reweighting, or Transformers!\n\n\nOffline reinforcement learning (RL) is conventionally approached using value-based methods based on temporal difference (TD) learning. However, many recent algorithms reframe RL as a supervised learning problem. These algorithms learn conditional policies by conditioning on goal states (Lynch et al., 2019; Ghosh et al., 2021), reward-to-go (Kumar et al., 2019; Chen et al., 2021), or language descriptions of the task (Lynch and Sermanet, 2021).\nWe find the simplicity of these methods quite appealing. If supervised learning is enough to solve RL problems, then offline RL could become widely accessible and (relatively) easy to implemen…",
+          "link": "http://bair.berkeley.edu/blog/2022/04/20/rvs/",
+          "publishedOn": "2022-04-20T09:00:00.000Z",
+          "wordCount": 1515,
+          "title": "Offline RL Made Easier: No TD Learning, Advantage Reweighting, or Transformers",
+          "imageUrl": "http://bair.berkeley.edu/blog/assets/rvs/rvs-overview.png"
+        }
+      ]
     },
     {
       "title": "Becoming Human: Artificial Intelligence Magazine - Medium",
       "feedUrl": "https://becominghuman.ai/feed",
       "siteUrl": "https://becominghuman.ai?source=rss----5e5bef33608a---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/35e386bfa4bc",
+          "author": "Aminah Mardiyyah Rufai",
+          "description": "Yes! You read the heading right. There’s indeed a difference between loss functions and Metrics in the field of Machine Learning. However…",
+          "link": "https://becominghuman.ai/understanding-the-difference-between-loss-functions-and-metrics-in-machine-learning-deep-learning-35e386bfa4bc?source=rss----5e5bef33608a---4",
+          "publishedOn": "2022-04-21T16:22:10.000Z",
+          "wordCount": 568,
+          "title": "Understanding the Difference between Loss Functions and Metrics in Machine Learning/Deep Learning",
+          "imageUrl": "https://miro.medium.com/freeze/max/1200/0*eP8gmy3zzHCgClK4.gif"
+        },
         {
           "id": "https://medium.com/p/88215ec781b1",
           "author": "MobiDev",
@@ -15791,16 +15932,6 @@
           "wordCount": 910,
           "title": "How to Use AI to Write Creative Stories in Seconds (Case Study)",
           "imageUrl": "https://miro.medium.com/max/1200/1*giLIURaet54xMoicGk7wlQ.jpeg"
-        },
-        {
-          "id": "https://medium.com/p/f8ca23426478",
-          "author": "Aviral Bhardwaj",
-          "description": "Using the Artificial Neural Network (ANN) to make a churn model, we will create a model that predicts a handwritten digit. (with source…",
-          "link": "https://becominghuman.ai/digit-recogniser-artificial-neural-network-ann-f8ca23426478?source=rss----5e5bef33608a---4",
-          "publishedOn": "2022-03-22T13:14:02.000Z",
-          "wordCount": 843,
-          "title": "Digit recogniser — Artificial Neural Network (ANN)",
-          "imageUrl": "https://miro.medium.com/max/600/0*v-pw3r0oixadIh-2.jpg"
         }
       ]
     },
@@ -15809,6 +15940,26 @@
       "feedUrl": "http://news.mit.edu/rss/topic/artificial-intelligence2",
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
+        {
+          "id": "https://news.mit.edu/2022/new-unsupervised-computer-vision-algorithm-stego-0421",
+          "author": "Rachel Gordon | MIT CSAIL",
+          "description": "MIT CSAIL scientists created an algorithm to solve one of the hardest tasks in computer vision: assigning a label to every pixel in the world, without human supervision.",
+          "link": "https://news.mit.edu/2022/new-unsupervised-computer-vision-algorithm-stego-0421",
+          "publishedOn": "2022-04-21T16:20:00.000Z",
+          "wordCount": 2091,
+          "title": "A new state of the art for unsupervised vision",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202204/MIT-STEGO-2_0.png"
+        },
+        {
+          "id": "https://news.mit.edu/2022/machine-learning-anticipating-behavior-cars-0421",
+          "author": "Adam Zewe | MIT News Office",
+          "description": "A new machine-learning system may someday help driverless cars predict the next moves of nearby drivers, cyclists, and pedestrians in real-time.",
+          "link": "https://news.mit.edu/2022/machine-learning-anticipating-behavior-cars-0421",
+          "publishedOn": "2022-04-21T04:00:00.000Z",
+          "wordCount": 1951,
+          "title": "Anticipating others’ behavior on the road",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202204/MIT-Driving-Prediction-01-PRESS.jpg"
+        },
         {
           "id": "https://news.mit.edu/2022/ethical-machine-learning-course-0415",
           "author": "Adam Zewe | MIT News Office",
@@ -15976,6 +16127,26 @@
       "feedUrl": "http://feeds.feedburner.com/nvidiablog",
       "siteUrl": "https://blogs.nvidia.com",
       "articles": [
+        {
+          "id": "https://blogs.nvidia.com/?p=56679",
+          "author": "Scott Martin",
+          "description": "Your next trip to the dentist might offer a taste of AI. Pearl, a West Hollywood startup, provides AI for dental images to assist in diagnosis. It landed FDA clearance last month, the first to get such a go-ahead for dentistry AI. The approval paves the way for its use in clinics across the United Read article >\nThe post Tooth Tech: AI Takes Bite Out of Dental Slide Misses by Assisting Doctors appeared first on NVIDIA Blog.",
+          "link": "https://blogs.nvidia.com/blog/2022/04/21/tooth-tech-ai-takes-bite-out-of-dental-slide-misses-by-assisting-doctors/",
+          "publishedOn": "2022-04-21T15:28:08.000Z",
+          "wordCount": 1154,
+          "title": "Tooth Tech: AI Takes Bite Out of Dental Slide Misses by Assisting Doctors",
+          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/04/PearlBounding-scaled.jpg"
+        },
+        {
+          "id": "https://blogs.nvidia.com/?p=56671",
+          "author": "GeForce NOW Community",
+          "description": "The gods must be smiling this GFN Thursday — God of War today joins the GeForce NOW library. Sony Interactive Entertainment and Santa Monica Studios’ masterpiece is available to stream from GeForce NOW servers, across nearly all devices and at up to 1440p and 120 frames per second for RTX 3080 members. Get ready to Read article >\nThe post GFN Thursday Is Fit for the Gods: ‘God of War’ Arrives on GeForce NOW appeared first on NVIDIA Blog.",
+          "link": "https://blogs.nvidia.com/blog/2022/04/21/geforce-now-thursday-april-21/",
+          "publishedOn": "2022-04-21T13:00:54.000Z",
+          "wordCount": 859,
+          "title": "GFN Thursday Is Fit for the Gods: ‘God of War’ Arrives on GeForce NOW",
+          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/04/gfn-thursday-4-21-nv-blog-1280x680-no-cta.jpg"
+        },
         {
           "id": "https://blogs.nvidia.com/?p=56607",
           "author": "Stanley Tack",
@@ -16210,186 +16381,6 @@
           "wordCount": 1048,
           "title": "NVIDIA Inception Introduces New and Updated Benefits for Startup Members to Accelerate Computing",
           "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/Inception10.png"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=56162",
-          "author": "TJ Galda",
-          "description": "At GTC, NVIDIA announced significant updates for millions of creators using the NVIDIA Omniverse real-time 3D design collaboration platform. The announcements kicked off with updates to the Omniverse apps Create, Machinima and Showroom, with an immement View release. Powered by GeForce RTX and NVIDIA RTX GPUs, they dramatically accelerate 3D creative workflows. New Omniverse Connections Read article >\nThe post NVIDIA Omniverse Upgrade Delivers Extraordinary Benefits to 3D Content Creators appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/gtc-omniverse-create-view-machinima-update/",
-          "publishedOn": "2022-03-22T17:00:56.000Z",
-          "wordCount": 1531,
-          "title": "NVIDIA Omniverse Upgrade Delivers Extraordinary Benefits to 3D Content Creators",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/blog-1280x680.jpg.png"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=56102",
-          "author": "Gerardo Delgado",
-          "description": "Digital artists and creative professionals have plenty to be excited about at NVIDIA GTC. Impressive NVIDIA Studio laptop offerings from ASUS and MSI launch with upgraded RTX GPUs, providing more options for professional content creators to elevate and expand creative possibilities. NVIDIA Omniverse gets a significant upgrade — including updates to the Omniverse Create, Machinima Read article >\nThe post At GTC: NVIDIA RTX Professional Laptop GPUs Debut, New NVIDIA Studio Laptops, a Massive Omniverse Upgrade and NVIDIA Canvas Update appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/gtc-rtx-studio-updates/",
-          "publishedOn": "2022-03-22T17:00:39.000Z",
-          "wordCount": 1668,
-          "title": "At GTC: NVIDIA RTX Professional Laptop GPUs Debut, New NVIDIA Studio Laptops, a Massive Omniverse Upgrade and NVIDIA Canvas Update",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/nv-blog-preview-1280x680-1.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55990",
-          "author": "Brian Caulfield",
-          "description": "Promising to transform trillion-dollar industries and address the “grand challenges” of our time, NVIDIA founder and CEO Jensen Huang Tuesday shared a vision of an era where intelligence is created on an industrial scale and woven into real and virtual worlds. Kicking off NVIDIA’s GTC conference, Huang introduced new silicon — including the new Hopper Read article >\nThe post Keynote Wrap Up: Turning Data Centers into ‘AI Factories,’ NVIDIA CEO Intros Hopper Architecture, H100 GPU, New Supercomputers, Software appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/ai-factories-hopper-h100-nvidia-ceo-jensen-huang/",
-          "publishedOn": "2022-03-22T16:45:40.000Z",
-          "wordCount": 2330,
-          "title": "Keynote Wrap Up: Turning Data Centers into ‘AI Factories,’ NVIDIA CEO Intros Hopper Architecture, H100 GPU, New Supercomputers, Software",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/Hopper_1.png"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55986",
-          "author": "Anthony Costa",
-          "description": "The University of Florida’s academic health center, UF Health, has teamed up with NVIDIA to develop a neural network that generates synthetic clinical data — a powerful resource that researchers can use to train other AI models in healthcare. Trained on a decade of data representing more than 2 million patients, SynGatorTron is a language Read article >\nThe post Unlimited Data, Unlimited Possibilities: UF Health and NVIDIA Build World’s Largest Clinical Language Generator appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/uf-health-syngatortron-ai-synthetic-clinical-data/",
-          "publishedOn": "2022-03-22T16:45:38.000Z",
-          "wordCount": 1091,
-          "title": "Unlimited Data, Unlimited Possibilities: UF Health and NVIDIA Build World’s Largest Clinical Language Generator",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/UF-Blog-Press-Image.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=56037",
-          "author": "Bob Pette",
-          "description": "Remote work and hybrid workplaces are the new normal for professionals in many industries. Teams spread throughout the world are expected to create and collaborate while maintaining top productivity and performance. Businesses use the NVIDIA RTX platform to enable their workers to keep up with the most demanding workloads, from anywhere. And today, NVIDIA is Read article >\nThe post New NVIDIA RTX GPUs Tackle Demanding Professional Workflows and Hybrid Work, Enabling Creation From Anywhere appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/rtx-tackle-pro-workflows/",
-          "publishedOn": "2022-03-22T16:45:36.000Z",
-          "wordCount": 1304,
-          "title": "New NVIDIA RTX GPUs Tackle Demanding Professional Workflows and Hybrid Work, Enabling Creation From Anywhere",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/rtx-blog-header.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55987",
-          "author": "Craig Rhodes",
-          "description": "Four NVIDIA Inception members have been selected as the first cohort of startups to access Cambridge-1, the U.K.’s most powerful supercomputer. The system will help British companies Alchemab Therapeutics, InstaDeep, Peptone and Relation Therapeutics enable breakthroughs in digital biology. Officially launched in July, Cambridge-1 — an NVIDIA DGX SuperPOD cluster powered by NVIDIA DGX A100 Read article >\nThe post First Wave of Startups Harnesses UK’s Most Powerful Supercomputer to Power Digital Biology Breakthroughs appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/startups-harness-cambridge-1-supercomputer/",
-          "publishedOn": "2022-03-22T16:45:30.000Z",
-          "wordCount": 1289,
-          "title": "First Wave of Startups Harnesses UK’s Most Powerful Supercomputer to Power Digital Biology Breakthroughs",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/cambridge-1-1280x680-1.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=56065",
-          "author": "Richard Kerris",
-          "description": "When it comes to creating and connecting virtual worlds, over 150,000 individuals have downloaded NVIDIA Omniverse to make huge leaps in transforming 3D design workflows and achieve new heights of real-time, physically accurate simulations. At GTC, NVIDIA today announced new releases and updates for Omniverse — including the latest Omniverse Connectors and libraries — expanding Read article >\nThe post NVIDIA Omniverse Ecosystem Expands 10x, Amid New Features and Services for Developers, Enterprises and Creators appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/omniverse-ecosystem-expands/",
-          "publishedOn": "2022-03-22T16:31:44.000Z",
-          "wordCount": 1321,
-          "title": "NVIDIA Omniverse Ecosystem Expands 10x, Amid New Features and Services for Developers, Enterprises and Creators",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/ov-gtc-announce-amazon-corp-blog-1280x680-1.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55992",
-          "author": "Gerard Andrews",
-          "description": "Next time socks, cereal or sandpaper shows up in hours delivered to your doorstep, consider the behind-the-scenes logistics acrobatics that help get them there so fast. Order fulfillment is a massive industry of moving parts. Heavily supported by autonomous mobile robots (AMRs), warehouses can span 1 million square feet, expanding and reconfiguring to meet demands. Read article >\nThe post NVIDIA Unveils Isaac Nova Orin to Accelerate Development of Autonomous Mobile Robots appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/nvidia-isaac-nova-orin-amrs/",
-          "publishedOn": "2022-03-22T16:21:27.000Z",
-          "wordCount": 869,
-          "title": "NVIDIA Unveils Isaac Nova Orin to Accelerate Development of Autonomous Mobile Robots",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/AMR4.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55948",
-          "author": "Danny Shapiro",
-          "description": "Lucid Group may be a newcomer to the electric vehicle market, but its entrance has been grand. The electric automaker announced at GTC that its current and future fleets are built on NVIDIA DRIVE Hyperion for programmable, intelligent capabilities. By developing on the scalable, software-defined platform, Lucid ensures its vehicles are always at the cutting Read article >\nThe post Driving on Air: Lucid Group Builds Intelligent EVs on NVIDIA DRIVE appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/lucid-motors-intelligent-evs-nvidia-drive/",
-          "publishedOn": "2022-03-22T16:15:54.000Z",
-          "wordCount": 722,
-          "title": "Driving on Air: Lucid Group Builds Intelligent EVs on NVIDIA DRIVE",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/NVIDIA-Image-3.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55946",
-          "author": "Ali Kani",
-          "description": "NVIDIA DRIVE Hyperion and DRIVE Orin are gaining ground in the industry. At NVIDIA GTC, BYD, the world’s second-largest electric vehicle maker, announced it is building its next-generation fleets on the DRIVE Hyperion architecture. This platform, based on DRIVE Orin, is now in production, and powering a wide ecosystem of 25 EV makers building software-defined Read article >\nThe post NVIDIA DRIVE Continues Industry Momentum With $11 Billion Pipeline as DRIVE Orin Enters Production appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/drive-orin-byd-production/",
-          "publishedOn": "2022-03-22T16:14:54.000Z",
-          "wordCount": 863,
-          "title": "NVIDIA DRIVE Continues Industry Momentum With $11 Billion Pipeline as DRIVE Orin Enters Production",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/auto-ecosystem-byd-featured-stories-dual-cars-corporate-blog-1280x680-1.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55943",
-          "author": "Zvi Greenstein",
-          "description": "With a detailed knowledge of the world and everything in it, maps provide the foresight AI uses to make advanced and safe driving decisions. At his GTC keynote, NVIDIA founder and CEO Jensen Huang introduced NVIDIA DRIVE Map, a multimodal mapping platform designed to enable the highest levels of autonomy while improving safety. It combines Read article >\nThe post Announcing NVIDIA DRIVE Map: Scalable, Multi-Modal Mapping Engine Accelerates Deployment of Level 3 and Level 4 Autonomy appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/drive-map-multi-modal-mapping-engine/",
-          "publishedOn": "2022-03-22T16:11:16.000Z",
-          "wordCount": 1079,
-          "title": "Announcing NVIDIA DRIVE Map: Scalable, Multi-Modal Mapping Engine Accelerates Deployment of Level 3 and Level 4 Autonomy",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/auto-mapping-blog-hdr-1280x600-1.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55945",
-          "author": "Gary Hicok",
-          "description": "NVIDIA DRIVE Hyperion is taking software-defined vehicle architectures to the next level. At his GTC keynote, NVIDIA founder and CEO Jensen Huang announced DRIVE Hyperion 9, the next generation of the open platform for automated and autonomous vehicles. The programmable architecture, slated for 2026 production vehicles, is built on multiple DRIVE Atlan computers to achieve Read article >\nThe post Introducing NVIDIA DRIVE Hyperion 9: Next-Generation Platform for Software-Defined Autonomous Vehicle Fleets appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/drive-hyperion-9-atlan/",
-          "publishedOn": "2022-03-22T16:10:24.000Z",
-          "wordCount": 765,
-          "title": "Introducing NVIDIA DRIVE Hyperion 9: Next-Generation Platform for Software-Defined Autonomous Vehicle Fleets",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/Hyperion_9_blog.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55989",
-          "author": "Bhoomi Gadhia",
-          "description": "Siemens Gamesa Renewable Energy is working with NVIDIA to create physics-informed digital twins of wind farms — groups of wind turbines used to produce electricity. The company has thousands of turbines around the globe that light up schools, homes, hospitals and factories with clean energy. In total they generate over 100 gigawatts of wind power, Read article >\nThe post Siemens Gamesa Taps NVIDIA Digital Twin Platform for Scientific Computing to Accelerate Clean Energy Transition appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/siemens-gamesa-wind-farms-digital-twins/",
-          "publishedOn": "2022-03-22T15:57:21.000Z",
-          "wordCount": 909,
-          "title": "Siemens Gamesa Taps NVIDIA Digital Twin Platform for Scientific Computing to Accelerate Clean Energy Transition",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/wind-turbines.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55950",
-          "author": "Timothy Costa",
-          "description": "We’re working with leaders in quantum computing to build the tools developers will need to program tomorrow’s ultrahigh performance systems. Today’s high-performance computers are simulating quantum computing jobs at scale and with performance far beyond what’s possible on today’s smaller and error-prone quantum systems. In this way, classical HPC systems are helping quantum researchers chart Read article >\nThe post NVIDIA Unveils Onramp to Hybrid Quantum Computing appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/hybrid-quantum-computing-ecosystem/",
-          "publishedOn": "2022-03-22T15:47:16.000Z",
-          "wordCount": 855,
-          "title": "NVIDIA Unveils Onramp to Hybrid Quantum Computing",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/quantum-fb-x1280.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55977",
-          "author": "Karthikeyan Rajendran",
-          "description": "AT&T’s wireless network connects more than 100 million subscribers from the Aleutian Islands to the Florida Keys, spawning a big data sea. Abhay Dabholkar runs a research group that acts like a lighthouse on the lookout for the best tools to navigate it. “It’s fun, we get to play with new tools that can make Read article >\nThe post Speed Dialer: How AT&T Rings Up New Opportunities With Data Science appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/att-data-science-rapids/",
-          "publishedOn": "2022-03-22T15:45:47.000Z",
-          "wordCount": 958,
-          "title": "Speed Dialer: How AT&T Rings Up New Opportunities With Data Science",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/ATT-coverage-x1280.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=55985",
-          "author": "Dion Harris",
-          "description": "The NVIDIA Hopper GPU architecture unveiled today at GTC will accelerate dynamic programming — a problem-solving technique used in algorithms for genomics, quantum  computing, route optimization and more — by up to 40x with new DPX instructions. An instruction set built into NVIDIA H100 GPUs, DPX will help developers write code to achieve speedups on Read article >\nThe post NVIDIA Hopper GPU Architecture Accelerates Dynamic Programming Up to 40x Using New DPX Instructions appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/nvidia-hopper-accelerates-dynamic-programming-using-dpx-instructions/",
-          "publishedOn": "2022-03-22T15:33:11.000Z",
-          "wordCount": 1005,
-          "title": "NVIDIA Hopper GPU Architecture Accelerates Dynamic Programming Up to 40x Using New DPX Instructions",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/hopper-announcement-blog-1260x680-1.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=56129",
-          "author": "Dave Salvator",
-          "description": "The largest AI models can require months to train on today’s computing platforms. That’s too slow for businesses. AI, high performance computing and data analytics are growing in complexity with some models, like large language ones, reaching trillions of parameters. The NVIDIA Hopper architecture is built from the ground up to accelerate these next-generation AI Read article >\nThe post H100 Transformer Engine Supercharges AI Training, Delivering Up to 6x Higher Performance Without Losing Accuracy appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/h100-transformer-engine/",
-          "publishedOn": "2022-03-22T15:31:37.000Z",
-          "wordCount": 1166,
-          "title": "H100 Transformer Engine Supercharges AI Training, Delivering Up to 6x Higher Performance Without Losing Accuracy",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/h100-family-shot.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=56050",
-          "author": "Rick Champagne",
-          "description": "Everyone wants to be heard. And with more people than ever in video calls or live streaming from their home offices, rich audio free from echo hiccups and background noises like barking dogs is key to better sounding online experiences. NVIDIA Maxine offers GPU-accelerated, AI-enabled software development kits to help developers build scalable, low-latency audio Read article >\nThe post NVIDIA Maxine Reinvents Real-Time Communication With AI appeared first on NVIDIA Blog.",
-          "link": "https://blogs.nvidia.com/blog/2022/03/22/maxine-reinvents-communication-ai/",
-          "publishedOn": "2022-03-22T15:25:39.000Z",
-          "wordCount": 1466,
-          "title": "NVIDIA Maxine Reinvents Real-Time Communication With AI",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/03/Maxine2.jpg"
         }
       ]
     },
@@ -16404,6 +16395,126 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u90x16/last_week_in_ai_chip_startup_funding_doubled/",
+          "author": null,
+          "description": "submitted by    /u/regalalgorithm  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u90x16/last_week_in_ai_chip_startup_funding_doubled/",
+          "publishedOn": "2022-04-21T23:47:26.000Z",
+          "wordCount": 127,
+          "title": "Last Week in AI: Chip Startup Funding Doubled, Google Text+Image Search, Analog AI, Criminal Robotaxi",
+          "imageUrl": "https://external-preview.redd.it/GSN_6Y_ISJPFlnFKeQIO4j11y8PNxtWUoerk9AXuC1U.jpg?auto=webp&s=e87487497e998c33ab705d6bed0273ee00ffc75a"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8zf34/ai_dream_31_spaceships_galore_planet_vqgan_clip/",
+          "author": null,
+          "description": "submitted by    /u/LordPewPew777  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8zf34/ai_dream_31_spaceships_galore_planet_vqgan_clip/",
+          "publishedOn": "2022-04-21T22:33:13.000Z",
+          "wordCount": 109,
+          "title": "AI Dream 31 - Spaceships Galore Planet VQGAN CLIP",
+          "imageUrl": "https://external-preview.redd.it/Eru_2C_c2KF_cPsZwkZGqk-JVlCgmzRnx18Usqc63n8.jpg?auto=webp&s=e6dfb804d102a1a67a602a39767a314646fe34d7"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8wtb2/what_would_be_the_best_approach_to_autogenerate/",
+          "author": null,
+          "description": "I'm a software developer but I'm not really experienced in AI. Would it be best to train first for speech bubbles and separately for panel drawings? What kind of network is the best for this? Just thinking that it would be a cool project to have auto generated legible infinite comic strips for a semi niche comic strip that runs in my country.\n    submitted by    /u/dananite  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8wtb2/what_would_be_the_best_approach_to_autogenerate/",
+          "publishedOn": "2022-04-21T20:29:57.000Z",
+          "wordCount": 248,
+          "title": "What would be the best approach to auto-generate comic panels (Garfield style) with drawings and speech bubbles, assuming I have tons of scans to use as training?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8wa9d/any_recommendations_for_ai_content_generation/",
+          "author": null,
+          "description": "Content generation is such a time-suck for small businesses, and it seems like an interesting vertical to apply AI. The AI would generate the content after being given a prompt. There are already a few tools trying this, but the quality doesn't seem to be very high.\n Are there better tools that I'm missing, or is the consumer-facing software so early-stage that it would be better to hire a data scientist and train an AI system specifically for this purpose?\n https://www.reddit.com/r/MachinesWrite/comments/f45eav/list_of_ai_text_generators/?utm_source=share&utm_medium=web2x&context=3\n https://www.reddit.com/r/juststart/comments/axa8w3/ai_ml_text_generators/?utm_source=share&utm_medium=web2x&context=3\n    submitted by    /u/CliffWoolum  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8wa9d/any_recommendations_for_ai_content_generation/",
+          "publishedOn": "2022-04-21T20:05:22.000Z",
+          "wordCount": 225,
+          "title": "Any Recommendations for AI Content Generation Software?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8vmk4/looking_for_enterprise_conversational_ai_platform/",
+          "author": null,
+          "description": "submitted by    /u/sunstormfirefall  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8vmk4/looking_for_enterprise_conversational_ai_platform/",
+          "publishedOn": "2022-04-21T19:35:25.000Z",
+          "wordCount": 353,
+          "title": "Looking for enterprise conversational AI platform",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8v5yo/vicreg_tutorial_and_lightweight_pytorch/",
+          "author": null,
+          "description": "Here's a tutorial and lightweight PyTorch implementation of VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning. Hope you find it helpful!\n    submitted by    /u/thejashGI  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8v5yo/vicreg_tutorial_and_lightweight_pytorch/",
+          "publishedOn": "2022-04-21T19:13:58.000Z",
+          "wordCount": 135,
+          "title": "VICReg: Tutorial and Lightweight PyTorch Implementation blog post",
+          "imageUrl": "https://external-preview.redd.it/nlio8usMqy_ReFWZfdRWZzVWPAOmlaQsm5fC0fDkpO4.jpg?auto=webp&s=e7ed882487e5ed475af6d8e7f98866ba1a7d80b0"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8tbkf/microsoft_ai_researchers_develop_ekya_to_address/",
+          "author": null,
+          "description": "Deep neural network (DNN) models for object recognition and classification, such as Yolo, ResNet, and EfficientNet, are used in video analytics applications such as urban mobility and smart automobiles. There is a symbiotic link between edge computing and video analytics, claiming that live video analytics is the “killer app” for edge computing. Edge devices come in various sizes and designs, but they are always resource-constrained compared to the cloud. Video analytics deployments send the videos to on-premises edge servers. The article handles the difficulty of supporting inference and retraining jobs on edge servers simultaneously, which necessitates navigating the fundamental tradeoff between the accuracy of the retrained model and the accuracy of the inference. Edge computation is preferred for video analytics because it eliminates the need for expensive network lines to broadcast videos to the cloud while simultaneously preserving video privacy. Edge computation has a finite amount of resources (e.g., with weak GPUs). The mismatch between the increasing rate of model compute needs, and the total cycles of processors exacerbate this problem. As a result, model compression is used in edge deployments.\n Continue reading our bite on this research\n Paper: https://www.microsoft.com/en-us/research/uploads/prod/2021/07/nsdi22spring-final74.pdf\n Github: https://github.com/edge-video-services/ekya\n    submitted by    /u/No_Coffee_4638  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8tbkf/microsoft_ai_researchers_develop_ekya_to_address/",
+          "publishedOn": "2022-04-21T17:49:42.000Z",
+          "wordCount": 346,
+          "title": "Microsoft AI Researchers Develop ‘Ekya’ To Address The Problem Of Data Drift On The Edge Compute Box And Enables Both Retraining And Inference To Co-Exist On It",
+          "imageUrl": "https://external-preview.redd.it/fr6sTFkxPr_nxK_uM6bfbHkoEh-SBIH6kJojQNYUb74.jpg?auto=webp&s=214c6642ae7b51e469b77b058da4813078222c49"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8ou8m/is_there_a_ai_which_is_able_to_turn_normal_videos/",
+          "author": null,
+          "description": "submitted by    /u/TheblackRook3  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8ou8m/is_there_a_ai_which_is_able_to_turn_normal_videos/",
+          "publishedOn": "2022-04-21T14:25:25.000Z",
+          "wordCount": 345,
+          "title": "Is there a AI which is able to turn normal videos into sketches like the video below?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8mnva/automatic_summaries_of_your_documents_in_google/",
+          "author": null,
+          "description": "submitted by    /u/OnlyProggingForFun  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8mnva/automatic_summaries_of_your_documents_in_google/",
+          "publishedOn": "2022-04-21T12:37:26.000Z",
+          "wordCount": 131,
+          "title": "Automatic Summaries of your Documents in Google Docs !",
+          "imageUrl": "https://external-preview.redd.it/0xBUwjndLwNWttGumJ98z2kj6iEcrI9jeA8utIsy9cY.jpg?auto=webp&s=a2d2a30600e5cf86b9301a3b955148fc3cce0761"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8iurr/how_to_achieve_a_training_duration_on_mindspore/",
+          "author": null,
+          "description": "submitted by    /u/Creative_Habit_6868  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8iurr/how_to_achieve_a_training_duration_on_mindspore/",
+          "publishedOn": "2022-04-21T08:36:46.000Z",
+          "wordCount": 177,
+          "title": "How to achieve a training duration on MindSpore that's less than or equal to that on TensorFlow?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8he59/cypherzilla_the_first_encoded_nft_made_by_ai_to/",
+          "author": null,
+          "description": "CypherZilla on OpenSea\n https://reddit.com/link/u8he59/video/i9a29i5ywtu81/player\n    submitted by    /u/thecypherbeast  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8he59/cypherzilla_the_first_encoded_nft_made_by_ai_to/",
+          "publishedOn": "2022-04-21T06:49:15.000Z",
+          "wordCount": 144,
+          "title": "CypherZilla - The First Encoded NFT Made By AI To Support Trump. Upvote If You Want To Have A Huge Impact!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/u8gqe6/what_price_we_have_to_pay_for_the_progress_in_ai/",
+          "author": null,
+          "description": "https://www.sganalytics.com/blog/top-ethical-challenges-in-ai-the-price-of-progress/\n    submitted by    /u/JencyJane  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/u8gqe6/what_price_we_have_to_pay_for_the_progress_in_ai/",
+          "publishedOn": "2022-04-21T06:03:03.000Z",
+          "wordCount": 119,
+          "title": "What price we have to pay for the progress in AI, have a look-",
+          "imageUrl": "https://external-preview.redd.it/aJi9Dz8P0k_F4j63zzdsjmhZLTXVfVYWVwiQByiyL84.jpg?auto=webp&s=aa8556546cd821f61a872c3d317d57475ebd7f58"
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/u8antj/collaboration_ai_video_and_music/",
           "author": null,
@@ -19303,106 +19414,6 @@
           "wordCount": 94,
           "title": "What is Project Z-code?",
           "imageUrl": "https://external-preview.redd.it/3Rl3_TaZTTsOtuxNDmIcfVqvMH5jB7S-lY94P6f9PXw.jpg?auto=webp&s=816af5eac9f34c589f872f2b331404622a6908ca"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tkmvbd/microsoft_improves_its_ai_translations_with_zcode/",
-          "author": null,
-          "description": "submitted by    /u/nonaime7777777  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tkmvbd/microsoft_improves_its_ai_translations_with_zcode/",
-          "publishedOn": "2022-03-23T05:29:09.000Z",
-          "wordCount": 109,
-          "title": "Microsoft improves its AI translations with Z-Code – TechCrunch",
-          "imageUrl": "https://external-preview.redd.it/7bxAxja3YvI3qGRDu3ZLNA_xQGFCzseBRb67G7AR5pU.jpg?auto=webp&s=d17e69d2fde166a6c827f186e4cede155cabf0a4"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tkakgw/weve_got_incredible_potential_here_to_use_the/",
-          "author": null,
-          "description": "submitted by    /u/thedyezwfl  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tkakgw/weve_got_incredible_potential_here_to_use_the/",
-          "publishedOn": "2022-03-22T19:11:42.000Z",
-          "wordCount": 303,
-          "title": "\"We've got incredible potential here to use the Sophiaverse virtual world, not just as a fun way for people to play or make money by selling NFTs they create, but also as a way to get human values and culture and the pragmatics of human interaction across to AI.\"- Ben Goertzel, CEO at SingularityNET",
-          "imageUrl": "https://preview.redd.it/xuq0g9vynyo81.jpg?auto=webp&s=11e16e04da97aa024964a931668cfb38fb91a469"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk8emn/google_research_proposes_maskgit_a_new_deep/",
-          "author": null,
-          "description": "Generative Adversarial Networks (GANs), with their capacity of producing high-quality images, have been the leading technology in image generation for the past couple of years. Nevertheless, their minimax learning mechanism brought out different limits, such as training instability and mode collapse (i.e., when all the produced samples belong to a small set of samples).\n Recently, Generative Transformer models are beginning to match, or even surpass, the performances of GANs. The simple idea is to learn a function to encode the input image into a quantized sequence and then train an autoregressive Transformer on a sequence prediction task (i.e., predict an image token, given all the previous image tokens). This learning is based on maximum likelihood and thus not affected by the same issue…",
-          "link": "https://www.reddit.com/r/artificial/comments/tk8emn/google_research_proposes_maskgit_a_new_deep/",
-          "publishedOn": "2022-03-22T17:36:25.000Z",
-          "wordCount": 452,
-          "title": "Google Research Proposes MaskGIT: A New Deep Learning Technique Based on Bi-Directional Generative Transformers For High-Quality and Fast Image Synthesis",
-          "imageUrl": "https://external-preview.redd.it/P44rjseyjp7TqR2CQ_-Nzc57Y1RHioUHIlMR614CUSU.jpg?auto=webp&s=5da9ba113569dc16dfafcb8cc0cac456ee2deb55"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk7g4r/i_decided_to_make_roads_out_of_the_lorenz/",
-          "author": null,
-          "description": "submitted by    /u/TheRealMandelbrotSet  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk7g4r/i_decided_to_make_roads_out_of_the_lorenz/",
-          "publishedOn": "2022-03-22T16:53:49.000Z",
-          "wordCount": 130,
-          "title": "I decided to make roads out of the Lorenz attractor…",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk75y0/nvidia_unveils_latest_chip_to_speed_up_ai/",
-          "author": null,
-          "description": "submitted by    /u/nonaime7777777  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk75y0/nvidia_unveils_latest_chip_to_speed_up_ai/",
-          "publishedOn": "2022-03-22T16:40:45.000Z",
-          "wordCount": 109,
-          "title": "Nvidia unveils latest chip to speed up AI computing",
-          "imageUrl": "https://external-preview.redd.it/jyW7I7mZUJ50RWBTXw_bwJUnok-aAT88wcSc_6ISJpo.jpg?auto=webp&s=dcb9cc1993317118b0e0b728cb6512d204f17463"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk75t9/software_company_releases_chrome_extension_that/",
-          "author": null,
-          "description": "submitted by    /u/nonaime7777777  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk75t9/software_company_releases_chrome_extension_that/",
-          "publishedOn": "2022-03-22T16:40:33.000Z",
-          "wordCount": 112,
-          "title": "Software Company Releases Chrome Extension That Detects AI-Generated Profile Pictures",
-          "imageUrl": "https://external-preview.redd.it/QLUlUDkZUsgkVF0Bu4K5uIkAdt0xz34y4c7ioeQytfI.jpg?auto=webp&s=b397049cff808419af0452134d20b76d44eaa217"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk6u6j/ai_combines_with_decentralized_autonomous/",
-          "author": null,
-          "description": "submitted by    /u/getrich_or_diemining  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk6u6j/ai_combines_with_decentralized_autonomous/",
-          "publishedOn": "2022-03-22T16:26:26.000Z",
-          "wordCount": 105,
-          "title": "AI Combines With Decentralized Autonomous Organization",
-          "imageUrl": "https://external-preview.redd.it/W85lvv0Rwcy0F1DXmfx-qKlVJu2XMlT0bQ4AAOcoHqU.jpg?auto=webp&s=258c513ef2a989fdb18bc592aaf42834e4975930"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk6akk/alphabet_is_spinning_out_division_x_sandbox_aq/",
-          "author": null,
-          "description": "submitted by    /u/Beautiful-Credit-868  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk6akk/alphabet_is_spinning_out_division_x_sandbox_aq/",
-          "publishedOn": "2022-03-22T16:02:23.000Z",
-          "wordCount": 106,
-          "title": "Alphabet is Spinning out Division X 'Sandbox AQ'",
-          "imageUrl": "https://external-preview.redd.it/or-ZEWmbgRf3hgAWsZzsWQWxVfBEimqHzdm0fuhyO14.jpg?auto=webp&s=eb9b93a1b1aed08df056828d194d560f22969bdf"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk5tgc/this_is_the_reason_why_sleep_robots_are_becoming/",
-          "author": null,
-          "description": "submitted by    /u/sopadebombillas  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk5tgc/this_is_the_reason_why_sleep_robots_are_becoming/",
-          "publishedOn": "2022-03-22T15:41:06.000Z",
-          "wordCount": 121,
-          "title": "This Is The Reason Why Sleep Robots Are Becoming The Perfect Bed Mates",
-          "imageUrl": "https://external-preview.redd.it/-M0y6xYt4Fi2RZjs9XL-P8EjI-6YRjC6xBibj3D8icI.jpg?auto=webp&s=368c1cd874e6c4f024ad01df3961964a9ce9ba9a"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tk4141/unraveling_the_mystery_behind_background_filters/",
-          "author": null,
-          "description": "submitted by    /u/VikasOjha666  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tk4141/unraveling_the_mystery_behind_background_filters/",
-          "publishedOn": "2022-03-22T14:18:01.000Z",
-          "wordCount": 107,
-          "title": "Unraveling the Mystery Behind Background Filters in Video Calling Apps",
-          "imageUrl": "https://external-preview.redd.it/TIxIOOwPswD9jcM3ukBYN3MxcH9Fr0CO7hu6S4BODLw.jpg?auto=webp&s=430582d2c861f0c9c92a15a5a34ed86ddf49b3ac"
         }
       ]
     },
@@ -19411,6 +19422,36 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/u8nv3j/building_dense_passage_retrievers/",
+          "author": null,
+          "description": "Hi, I made a video explaining the ideas behind building a Dense Passage Retriever(DPR). Whenever we talk about retrievers, we mostly refer to the DPR formulation which appeared in this paper. A lot of publicly available implementations also use this formulation. \n In a previous video, we discussed how to use the DPR End-to-End QA system which uses DPR with a QA model. In this video, we solely focus on retrievers and the ideas behind building them. The implementation is quite similar to retrievers pre-trained with Inverse Close Task.\n This video is part 8 of 9 video series on Open-domain question answering using Dense retrievers. Thanks for the support and I will appreciate any feedback.\n https://www.youtube.com/watch?v=w61p0HLo7gc\n    submitted by    /u/infiniteakashe  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/u8nv3j/building_dense_passage_retrievers/",
+          "publishedOn": "2022-04-21T13:37:47.000Z",
+          "wordCount": 213,
+          "title": "Building Dense Passage Retrievers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/u8gqfy/nn_from_scratch_4_backward_propagation_kolbenkraft/",
+          "author": null,
+          "description": "submitted by    /u/cjmodi306  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/u8gqfy/nn_from_scratch_4_backward_propagation_kolbenkraft/",
+          "publishedOn": "2022-04-21T06:03:08.000Z",
+          "wordCount": 119,
+          "title": "NN from Scratch: #4 Backward Propagation | Kolbenkraft",
+          "imageUrl": "https://external-preview.redd.it/GDnb256QTkcz5l5-77Ys1KBOLyCpV-FhczyyfWFfFkc.jpg?auto=webp&s=6a5ee252a5d11d763b300637085189cc5d1e6e32"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/u8dpr7/searching_for_volunteers_for_mlbased_ukrainian/",
+          "author": null,
+          "description": "We are searching for trustworthy volunteers with some free time who would like to contribute to a digital Ukrainian volunteer project. Our system heavily relies on an image recognition system with a number of specialized filters involvg facial recognition, object recognition, logo detection, photoshop detection etc. People with professional experience with any of these things is preferred, but novice ML people are welcome to join us in a different capacity. DM to learn more about the project, glad to discuss the details with you.\n    submitted by    /u/eelgirl  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/u8dpr7/searching_for_volunteers_for_mlbased_ukrainian/",
+          "publishedOn": "2022-04-21T03:03:05.000Z",
+          "wordCount": 194,
+          "title": "Searching for volunteers for ML-based Ukrainian volunteer project.",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/u7wwrm/neural_network_gets_too_large_and_dies/",
           "author": null,
@@ -19890,16 +19931,6 @@
           "wordCount": 556,
           "title": "Using a training & testing set with Neural Networks",
           "imageUrl": "https://external-preview.redd.it/A5ofxfPWskHWXvoAS98biHA4L4t9OWxpA6mc1MYJ1Bk.jpg?auto=webp&s=0bb533929d62197bc97f21177a7c99da220e9e73"
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/tk668j/ranking_system/",
-          "author": null,
-          "description": "I am making a mobile app which contains newsfeed page, where I want to show the users post in ranking order, posts can be ranked based on the post content and the user rating count and feedback who has posted it, I don't want to spend more time on building a ranking system so what way or pathway I can take? Is there any API, system or anything already built which I can integrate into my app directly to rank post?\n    submitted by    /u/aliazlanaziz  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/tk668j/ranking_system/",
-          "publishedOn": "2022-03-22T15:57:26.000Z",
-          "wordCount": 176,
-          "title": "Ranking System",
-          "imageUrl": null
         }
       ]
     },
@@ -20002,26 +20033,6 @@
           "wordCount": 9947,
           "title": "Just Tech: Centering Community-Driven Innovation at the Margins episode 1 with Desmond Patton and Mary Gray",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.microsoft.com/en-us/research/?p=827599",
-          "author": "Brenda Potts",
-          "description": "Translator, a Microsoft Azure Cognitive Service, is adopting Z-code Mixture of Experts models, a breakthrough AI technology that significantly improves the quality of production translation models. As a component of Microsoft’s larger XYZ-code initiative to combine AI models for text, vision, audio, and language, Z-code supports the creation of AI systems that can speak, see, […]\nThe post Microsoft Translator enhanced with Z-code Mixture of Experts models appeared first on Microsoft Research.",
-          "link": "https://www.microsoft.com/en-us/research/blog/microsoft-translator-enhanced-with-z-code-mixture-of-experts-models/",
-          "publishedOn": "2022-03-22T17:00:00.000Z",
-          "wordCount": 1543,
-          "title": "Microsoft Translator enhanced with Z-code Mixture of Experts models",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.microsoft.com/en-us/research/?p=828337",
-          "author": "Brenda Potts",
-          "description": "Cloud computing is powering a new age of data and AI by democratizing access to scalable compute, storage, and networking infrastructure and services. Thanks to the cloud, organizations can now collect data at an unprecedented scale and use it to train complex models and generate insights.   While this increasing demand for data has unlocked new […]\nThe post Powering the next generation of trustworthy AI in a confidential cloud using NVIDIA GPUs appeared first on Microsoft Research.",
-          "link": "https://www.microsoft.com/en-us/research/blog/powering-the-next-generation-of-trustworthy-ai-in-a-confidential-cloud-using-nvidia-gpus/",
-          "publishedOn": "2022-03-22T17:00:00.000Z",
-          "wordCount": 2586,
-          "title": "Powering the next generation of trustworthy AI in a confidential cloud using NVIDIA GPUs",
-          "imageUrl": null
         }
       ]
     },
@@ -20030,6 +20041,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/04/hidden-interfaces-for-ambient-computing.html",
+          "author": null,
+          "description": "Posted by Alex Olwal, Research Scientist, Google Augmented Reality and Artem Dementyev, Hardware Engineer, Google Research \nAs consumer electronics and internet-connected appliances are becoming more common, homes are beginning to embrace various types of connected devices that offer functionality like music control, voice assistance, and home automation. A graceful integration of devices requires adaptation to existing aesthetics and user styles rather than simply adding screens, which can easily disrupt a visual space, especially when they become monolithic surfaces or black screens when powered down or not actively used. Thus there is an increasing desire to create connected ambient computing devices and appliances that can preserve the aesthetics of everyday materials, while providing …",
+          "link": "http://ai.googleblog.com/2022/04/hidden-interfaces-for-ambient-computing.html",
+          "publishedOn": "2022-04-21T19:59:00.001Z",
+          "wordCount": 2057,
+          "title": "Hidden Interfaces for Ambient Computing",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/04/formnet-beyond-sequential-modeling-for.html",
           "author": null,
@@ -20173,6 +20194,96 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u90m69/question_about_trained_models/",
+          "author": null,
+          "description": "Hello I have a question.\n For example, in the case of an inverted pendulum or cartpole, I train the model for the pole to be at 0 degrees (vertical) and it works. Then I want this same model to keep the pole at another position, for example, 3 degrees, do I have to train this model again for achieving this to or can I somehow use the model I already trained and what it learnt and input the new position I want it to be?\n idk if I explained myself\n I guess its mostly doubts about how to interact with the model and how to properly use a model that has already been trained. If anyone has some example of code (python, gym), on interacting with a trained model it would be really helpful.\n    submitted by    /u/Sleyck  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u90m69/question_about_trained_models/",
+          "publishedOn": "2022-04-21T23:31:41.000Z",
+          "wordCount": 245,
+          "title": "Question about trained models",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u8vhct/why_is_this_implementation_of_ppo_using_a_replay/",
+          "author": null,
+          "description": "https://github.com/marlbenchmark/on-policy/blob/main/onpolicy/algorithms/r_mappo/r_mappo.py\n    submitted by    /u/No_Possibility_7588  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u8vhct/why_is_this_implementation_of_ppo_using_a_replay/",
+          "publishedOn": "2022-04-21T19:28:37.000Z",
+          "wordCount": 282,
+          "title": "Why is this implementation of PPO using a replay buffer?",
+          "imageUrl": "https://external-preview.redd.it/NILAiM6ka0xRo4eWi6VVljKuwWMAWyxwmZ0MceK7lbk.jpg?auto=webp&s=14995e2d2ebb47523b8c24b4b0b09457e6c2c023"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u8unh1/what_is_the_role_of_masks_in_the_computation_of/",
+          "author": null,
+          "description": "submitted by    /u/No_Possibility_7588  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u8unh1/what_is_the_role_of_masks_in_the_computation_of/",
+          "publishedOn": "2022-04-21T18:50:24.000Z",
+          "wordCount": 202,
+          "title": "What is the role of masks in the computation of GAE?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u8sq20/question_about_optimal_policy_guarantees_in_pomdps/",
+          "author": null,
+          "description": "I'm working on a project where I'm trying to prove the existence of a particular set of functions by showing it can be constructed as the solution to a Markov Decision Process. However, it seems that it's much simpler to convert it to a partially observable MDP, rather than a classic one. I know it's been proven that the set of optimal policies for a classic MDP is nonempty, and intuitively I feel like the same should hold for POMDPs, but I'm having a hard time finding a particular source proving such a thing. Does anyone know where I ought to look?\n    submitted by    /u/LessPoliticalAccount  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u8sq20/question_about_optimal_policy_guarantees_in_pomdps/",
+          "publishedOn": "2022-04-21T17:21:36.000Z",
+          "wordCount": 225,
+          "title": "Question About Optimal Policy Guarantees in POMDPs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u8rprt/can_reinforcement_learning_learn_itself_a_reply/",
+          "author": null,
+          "description": "submitted by    /u/JBaloney  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u8rprt/can_reinforcement_learning_learn_itself_a_reply/",
+          "publishedOn": "2022-04-21T16:36:22.000Z",
+          "wordCount": 447,
+          "title": "Can reinforcement learning learn itself? A reply to 'Reward is enough' (PDF)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u8pyvd/what_is_this_line_in_the_suttonbarto_textbook/",
+          "author": null,
+          "description": "In the first edition of the textbook, the section on actor-critic methods (link) describes the classical approach of using the temporal difference error 𝛿 to modify the probability of selecting action a in state s:\n https://preview.redd.it/fa35vut7ewu81.png?width=238&format=png&auto=webp&s=c1b8952b065a90ecd2b8c0c30b985e36d37dbc30\n Then they briefly mention that one variation on the classical approach is to scale temporal difference error 𝛿 by the inverse of the probability of selecting the action a, where that probability is given by 𝜋(s, a):\n https://preview.redd.it/69gd3zmbdwu81.png?width=375&format=png&auto=webp&s=b66a7d5eef3c2b7bc256473aed728223921a751c\n They say: \" These issues were explored early on, primarily for the immediate reward case (Sutton, 1984; Williams, 1992) and have not been brought fully up to date.\"\n This idea is relevant to a project I'm working on, and I'd like to read more about it. But the references seem to be dead ends: Sutton 1984 is his PhD thesis, which I can't find a digital copy of, and Williams 1992 is this paper, which doesn't seem to contain this idea. Also this section doesn't seem to appear in the second edition of the textbook.\n You folks are much smarter than I am: Does modifying the update in this way mean anything to you? Are there modern approaches that do something like this? Or should I assume it was a little-explored idea in the early days that has been more-or-less forgotten?\n Thanks very much!\n    submitted by    /u/Careless-Argument-37  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u8pyvd/what_is_this_line_in_the_suttonbarto_textbook/",
+          "publishedOn": "2022-04-21T15:18:06.000Z",
+          "wordCount": 481,
+          "title": "What is this line in the Sutton/Barto textbook referring to?",
+          "imageUrl": "https://external-preview.redd.it/nvM-yG-06ytVatoSx5jmOO2dk1m54bekQ4sWGWyP13o.jpg?auto=webp&s=64b68547b2d2fffff368554156c2730c6cdb0c32"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u8pbow/reinforcement_learning_with_delays/",
+          "author": null,
+          "description": "I was wondering what methods there are for RL with time delay other than augmenting the state space with the action buffer or using a model to undelay the environment. I've seen this post How to deal with the time delay in reinforcement learning? - Artificial Intelligence Stack Exchange however it's rather brief and I wondered if there were any more recent advancements.\n I am also struggling to understand partial trajectory resampling ( 2010.02966.pdf (arxiv.org) ) and the code in the accompanying repo. GitHub - rmst/rlrd: PyTorch implementation of our paper Reinforcement Learning with Random Delays (ICLR 2020) \n I was wondering how we can resample actions in environments with constant delays if those actions are used in the state space for all subsequent chosen actions?\n    submitted by    /u/SuperDuperDooken  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u8pbow/reinforcement_learning_with_delays/",
+          "publishedOn": "2022-04-21T14:48:51.000Z",
+          "wordCount": 268,
+          "title": "Reinforcement Learning with delays",
+          "imageUrl": "https://external-preview.redd.it/MyPYjJuEdSjpldenX2HAv7ypDZ5RoSxLh1peLFH0LQY.jpg?auto=webp&s=becf24ba2bf18dec6c08b396b82b8117a41340c4"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u8g9do/is_it_stupid_to_use_rl_to_control_solar_panel/",
+          "author": null,
+          "description": "submitted by    /u/Professional_Card176  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u8g9do/is_it_stupid_to_use_rl_to_control_solar_panel/",
+          "publishedOn": "2022-04-21T05:31:42.000Z",
+          "wordCount": 408,
+          "title": "Is it stupid to use rl to control solar panel angle?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/u8e9qi/how_can_i_use_the_environment_in_emergence_of/",
+          "author": null,
+          "description": "Hi, I want to train my agent in the environment used in \"Emergence of Locomotion Behaviours in Rich Environments\". Here is a video about that https://www.youtube.com/watch?v=hx_bgoTF7bs. Is the environment released? Thanks for reading.\n    submitted by    /u/Spiritual_Fig3632  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/u8e9qi/how_can_i_use_the_environment_in_emergence_of/",
+          "publishedOn": "2022-04-21T03:33:27.000Z",
+          "wordCount": 252,
+          "title": "How can I use the environment in Emergence of Locomotion Behaviours in Rich Environments?",
+          "imageUrl": "https://external-preview.redd.it/fmJw_BqWhQgP8-1v0fvrbHkuKAsNYOg3NGiEK6vMtb0.jpg?auto=webp&s=259f0644cdbce7ce142e6a4c1a20fa095f7bb14d"
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/u87xtm/is_there_any_difference_between_how_ddpg_and_ppo/",
           "author": null,
@@ -21942,66 +22053,6 @@
           "wordCount": 319,
           "title": "Is Dueling DQN prerequisite of Prioritized Experience Replay? or which paper I have to start reading first, I already done DQN and DDQN.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tknadh/weird_vanilla_policy_gradient_behaviour_after/",
-          "author": null,
-          "description": "Hi,\n I am trying vanilla policy gradient algorithm of gym's bipedal walker. My algorithm was not converging so I added lstm to the network. I expected that somehow the agent will use the memory to converge even faster but after adding it I observed that LSTM is somehow making the agent worse. Below are the graphs of without and with lstm.\n ​\n without lstm\n ​\n with lstm\n ​\n orange-with lstm and yellow-without lstm\n Can anyone explain to me why is this happening?\n    submitted by    /u/Better-Ad8608  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tknadh/weird_vanilla_policy_gradient_behaviour_after/",
-          "publishedOn": "2022-03-23T05:58:44.000Z",
-          "wordCount": 308,
-          "title": "Weird vanilla policy gradient behaviour after adding lstm to the network.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tkcmvw/dopamine_helps_signal_to_neurons_when_to_start_a/",
-          "author": null,
-          "description": "submitted by    /u/gwern  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tkcmvw/dopamine_helps_signal_to_neurons_when_to_start_a/",
-          "publishedOn": "2022-03-22T20:43:47.000Z",
-          "wordCount": 135,
-          "title": "Dopamine Helps Signal to Neurons When to Start a Movement",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tkbc2a/lstm_encoder_in_the_policy/",
-          "author": null,
-          "description": "Hi all, I'm trying to code an actor net that consists of an LSTM followed by two fully connected layers. The policy is therefore parameterized using an LSTM. The LSTM is meant to enable agents to remember the history of states in which they have observed other agents, and improve their ability to model other agents’ policies.\n Can someone refer me to PyTorch code for such an architecture?\n Thanks!\n    submitted by    /u/No_Possibility_7588  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tkbc2a/lstm_encoder_in_the_policy/",
-          "publishedOn": "2022-03-22T19:46:03.000Z",
-          "wordCount": 184,
-          "title": "LSTM encoder in the policy?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tk5f00/how_hugging_face_can_contribute_to_the_deep/",
-          "author": null,
-          "description": "Hey there! 👋\n I'm Thomas Simonini from Hugging Face 🤗. I work on building tools, environments and integrating RL libraries to empower researchers and RL enthusiasts. I was wondering how Hugging Face can be useful to you in the Deep Reinforcement Learning Ecosystem? What do you need as RL researcher/enthusiast/engineer and how we can help you?\n For now:\n  \nWe integrated Stable-baselines3 to the Hub** such that you can: \n Easily host and test your saved models.\n Load powerful, trained models from the community\n \n  \nhttps://preview.redd.it/n0b2s1gndyo81.jpg?width=1920&format=pjpg&auto=webp&s=eb62a1f4323b12a5c1eb9d7bcb44ebbc6bae579f\n  \nWe're currently integrating more libraries (RL-Zoo, CleanRL...)\n We're working on building tools that allow you to generate a replay video of your agent and test it.\n We're building open-source RL environments such as snowball-fight\n And finally, we're working on state of the art's research with Decision Transformers, Embodied environments, etc.\n  \nBut I would love to know what do you need as RL researcher/enthusiast/engineer and how we can help you?\n Thanks for your feedback,\n 📢 To keep in touch is to join our discord server to exchange with us and with the community.\n    submitted by    /u/cranthir_  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tk5f00/how_hugging_face_can_contribute_to_the_deep/",
-          "publishedOn": "2022-03-22T15:22:31.000Z",
-          "wordCount": 947,
-          "title": "How Hugging Face 🤗 can contribute to the Deep Reinforcement Learning Ecosystem?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tk3juz/how_to_set_the_distance_threshold_value_and_make/",
-          "author": null,
-          "description": "I use the [RL Robotics library](https://github.com/Farama-Foundation/Gym-Robotics) to simulate robots. In the Fetchxxx-Env, the variable distance_threshold is set as 0.05 default to determine whether it completed successfully a task. I try to change it by using \n env.distance_threshold = 0.01(or other value) \n Because I think 0.05(m) is too rough for some tasks. But it doesn't work! (When the success_rate is 1.0, the distance between the achieved_goal and the desired_goal is 0.04x, which is larger than I set.) \n What should I do to change the conditions for determining whether a task is complete? Can anyone give me some advice or information?\n    submitted by    /u/Due_Advertising6542  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tk3juz/how_to_set_the_distance_threshold_value_and_make/",
-          "publishedOn": "2022-03-22T13:54:56.000Z",
-          "wordCount": 228,
-          "title": "how to set the distance_threshold value and make it effective",
-          "imageUrl": "https://external-preview.redd.it/SfVVamhH8mfQbVVxJi0FKvgRcXGIYltBs7JZq2hFrNA.jpg?auto=webp&s=45b8825aac3464cecc49b1a5765f7829766eb18e"
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tk2ya5/need_help_trying_to_implement_a_paper/",
-          "author": null,
-          "description": "Hello,\n I'm an undergraduate CS student trying to re-implement this paper for my University project.\n I have some experience in Machine Learning (Supervised Learning) and implemented some basic projects myself, but I'm a little bit confused about where to begin, I've found two different implementations online but I don't think that's gonna help me a lot as I'm not that experienced in this field.\n I would appreciate any suggestions on how I can understand the paper and implement it myself (not just a copy/paste from someone else's code) or the libraries that can help me, etc.\n Sorry for my bad English, I'm not a native speaker\n thanks a lot :)\n    submitted by    /u/ahmadreza_hadi  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tk2ya5/need_help_trying_to_implement_a_paper/",
-          "publishedOn": "2022-03-22T13:24:58.000Z",
-          "wordCount": 347,
-          "title": "Need help trying to implement a paper",
-          "imageUrl": null
         }
       ]
     },
@@ -22022,6 +22073,16 @@
       "feedUrl": "http://feeds.feedburner.com/FeaturedBlogPosts-DataScienceCentral?format=xml",
       "siteUrl": "https://www.datasciencecentral.com",
       "articles": [
+        {
+          "id": "https://www.datasciencecentral.com/?p=57341",
+          "author": "Vincent Granville",
+          "description": "If you are employed as a data scientist and have survived (or strived!) in your position for more than a year, chances are you are at least a good data scientist. This is particularly true if you were promoted. The difference between a mediocre and a good data scientist will be the topic of a… Read More »18 Differences Between Good and Great Data Scientists\nThe post 18 Differences Between Good and Great Data Scientists appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/18-differences-between-good-and-great-data-scientists/",
+          "publishedOn": "2022-04-21T04:53:40.000Z",
+          "wordCount": 1656,
+          "title": "18 Differences Between Good and Great Data Scientists",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/04/How-Microsoft-Power-BI-Revolutionizes-Business-scaled.jpg"
+        },
         {
           "id": "https://www.datasciencecentral.com/?p=57313",
           "author": "Ryan Williamson",
@@ -22706,66 +22767,6 @@
           "wordCount": 1563,
           "title": "DSC Weekly Newsletter 22 March 2022: The Shape of Data",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_171906322.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56771",
-          "author": "Alan Morrison",
-          "description": "The US Securities and Exchange Commission (SEC), which regulates public company securities, recently proposed its own climate impact reporting requirement. Many US public companies already voluntarily publish information on this topic for shareholders who have been asking for those details. But various state GOP attorneys general are already questioning the SEC’s ability to impose the… Read More »Avoid RegTech myopia with a data-centric approach\nThe post Avoid RegTech myopia with a data-centric approach appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/avoid-regtech-myopia-with-a-data-centric-approach/",
-          "publishedOn": "2022-03-23T03:29:31.000Z",
-          "wordCount": 1883,
-          "title": "Avoid RegTech myopia with a data-centric approach",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/a-book-g66ca555f4_1920.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56776",
-          "author": "Alan Morrison",
-          "description": "The previous post covered the problem of oversiloing. Systems thinking, I pointed out, can help reduce the practice of siloing when it’s not necessary.  In earlier posts, I’ve contrasted the difference between provincial IT and data-centric IT:  Provincial IT is no longer necessary given the advances in compute, networking and storage we’ve seen over the… Read More »The long game: Feedback loops and desiloed systems by design (Part II of II)\nThe post The long game: Feedback loops and desiloed systems by design (Part II of II) appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/the-long-game-feedback-loops-and-desiloed-systems-by-design-part-ii-of-ii/",
-          "publishedOn": "2022-03-23T03:26:26.000Z",
-          "wordCount": 1373,
-          "title": "The long game: Feedback loops and desiloed systems by design (Part II of II)",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/robot-hand-human-handshake-robotic-partner-1638452-pxhere.com_-scaled.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56737",
-          "author": "Lewis Wynne-Jones",
-          "description": "How does Spotify battle against a giant like Apple? One word: data. With machine learning and AI, Spotify creates value for its users by providing a more personalized and bespoke experience. Let’s take a quick look at the layers of aggregate information that are used to enhance their platform: Spotify uses natural language processing (NLP)… Read More »How Metadata Improves Security, Quality, and Transparency\nThe post How Metadata Improves Security, Quality, and Transparency appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/how-metadata-improves-security-quality-and-transparency/",
-          "publishedOn": "2022-03-22T22:48:54.000Z",
-          "wordCount": 1510,
-          "title": "How Metadata Improves Security, Quality, and Transparency",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_421839458.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56741",
-          "author": "Roopesh Uniyal",
-          "description": "Introduction/ Problem  Splunk is a well-known log management tool. Splunk mines log from different machines in real-time and can be used to monitor, search, and analyze gathered data. It is a Big Data log management tool that can give insight from the unstructured data stored in the Splunk indexes. Splunk analytics helps turn unstructured log… Read More »Business Analytics from Application Logs and SQL Server Database using Splunk \nThe post Business Analytics from Application Logs and SQL Server Database using Splunk  appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/business-analytics-from-application-logs-and-sql-server-database-using-splunk/",
-          "publishedOn": "2022-03-22T19:05:47.000Z",
-          "wordCount": 3358,
-          "title": "Business Analytics from Application Logs and SQL Server Database using Splunk",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_192759495.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56731",
-          "author": "Alberto Pan",
-          "description": "For years, organizations have been working steadily to consolidate their data into a single place via a data warehouse, or more recently, a data lake. Data lakes offer key advantages over data warehouses, data marts, and traditional databases that require data to be structured and organized in particular ways. However, businesses have found that they… Read More »Tips for Weaving and Implementing a Successful Data Mesh\nThe post Tips for Weaving and Implementing a Successful Data Mesh appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/tips-for-weaving-and-implementing-a-successful-data-mesh/",
-          "publishedOn": "2022-03-22T14:56:32.000Z",
-          "wordCount": 1468,
-          "title": "Tips for Weaving and Implementing a Successful Data Mesh",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_492259907.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56657",
-          "author": "Alaa Mahjoub, M.Sc. Eng.",
-          "description": "In many cases, for an enterprise to build its digital business technology platform, it must modernize its traditional data and analytics architecture. A modern data and analytics platform should be built on services-based principles and architecture. Introduction part 1, provided a conceptual-level reference architecture of a traditional Data and Analytics (D&A) platform. This part, provides… Read More »How to Modernize Enterprise Data and Analytics Platform (Part 2 of 4)\nThe post How to Modernize Enterprise Data and Analytics Platform (Part 2 of 4) appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/how-to-modernize-enterprise-data-and-analytics-platform-part-2-of-4/",
-          "publishedOn": "2022-03-22T13:06:47.000Z",
-          "wordCount": 4905,
-          "title": "How to Modernize Enterprise Data and Analytics Platform (Part 2 of 4)",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_82481652-scaled.jpeg"
         }
       ]
     },
@@ -22774,6 +22775,26 @@
       "feedUrl": "https://www.johndcook.com/blog/feed",
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
+        {
+          "id": "https://www.johndcook.com/blog/?p=103782",
+          "author": "John",
+          "description": "Introduction I was puzzled the first time I saw bilinear transformations, also known as Möbius transformations. I was in a class where everything had been abstract and general, and suddenly thing got very concrete and specific. I wondered why we had changed gears, and I wondered how there could be much to say about something […]\nFixed points of bilinear transformations first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/04/21/mobius-fixed-points/",
+          "publishedOn": "2022-04-21T21:56:00.000Z",
+          "wordCount": 524,
+          "title": "Fixed points of bilinear transformations",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.johndcook.com/blog/?p=103774",
+          "author": "John",
+          "description": "This post looks at how to partition complexity between definitions and theorems, and why it’s useful to be able to partition things more than one way. Quadratic equations Imagine the following dialog in an algebra class. “Quadratic equations always have two roots.” “But what about (x – 5)² = 0. That just has one root, […]\nPartitioning complexity first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/04/21/partitioning-complexity/",
+          "publishedOn": "2022-04-21T14:50:32.000Z",
+          "wordCount": 1119,
+          "title": "Partitioning complexity",
+          "imageUrl": null
+        },
         {
           "id": "https://www.johndcook.com/blog/?p=103710",
           "author": "John",
@@ -23042,21 +23063,6 @@
           "publishedOn": "2022-03-23T14:52:54.000Z",
           "wordCount": 936,
           "title": "Morse code numbers and abbreviations",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=100600",
-          "author": "John",
-          "description": "A few days ago I wrote about Frequency Shift Keying (FSK), a way to encode digital data in an analog signal using two frequencies. The extension to multiple frequencies is called, unsurprisingly, Multiple Frequency Shift Keying (MFSK). What is surprising is how MFSK sounds. When I first heard MFSK I immediately recognized it as an […]\nMultiple Frequency Shift Keying first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2022/03/22/multiple-frequency-shift-keying/",
-          "publishedOn": "2022-03-22T14:51:00.000Z",
-          "wordCount": 868,
-          "title": "Multiple Frequency Shift Keying",
-          "enclosure": {
-            "url": "https://www.johndcook.com/mfsk32.wav",
-            "length": "22089",
-            "type": "audio/wav"
-          },
           "imageUrl": null
         }
       ]
