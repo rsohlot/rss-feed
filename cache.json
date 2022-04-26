@@ -166,6 +166,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/machine-learning/",
       "articles": [
         {
+          "id": "d4066e13a5576572cc8bb0e6abc8f2812af11841",
+          "author": "James Yi",
+          "description": "The last few years have seen rapid growth in the field of natural language processing (NLP) using transformer deep learning architectures. With its Transformers open-source library and machine learning (ML) platform, Hugging Face makes transfer learning and the latest transformer models accessible to the global AI community. This can reduce the time needed for data […]",
+          "link": "https://aws.amazon.com/blogs/machine-learning/host-hugging-face-transformer-models-using-amazon-sagemaker-serverless-inference/",
+          "publishedOn": "2022-04-25T21:12:39.000Z",
+          "wordCount": 2292,
+          "title": "Host Hugging Face transformer models using Amazon SageMaker Serverless Inference",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/04/21/ML-8598-image001-1019x630.png"
+        },
+        {
+          "id": "40d2bdb4b99fed5c680db876cf6d1b33d2f62db5",
+          "author": "Daniel Burke",
+          "description": "Nordic Aviation Capital (NAC) is the industry’s leading regional aircraft lessor, serving almost 70 airlines in approximately 45 countries worldwide. In 2021, NAC turned to AWS to help it use artificial intelligence (AI) to further improve its leasing operations and reduce its reliance on manual labor. With Amazon Rekognition Custom Labels, NAC built an AI […]",
+          "link": "https://aws.amazon.com/blogs/machine-learning/how-nordic-aviation-capital-uses-amazon-rekognition-to-streamline-operations-and-save-up-to-eur200000-annually/",
+          "publishedOn": "2022-04-25T17:47:30.000Z",
+          "wordCount": 1548,
+          "title": "How Nordic Aviation Capital uses Amazon Rekognition to streamline operations and save up to EUR200,000 annually",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/04/25/ML-8594-image003-2.jpg"
+        },
+        {
           "id": "c1051aee6c3bb071b4069fd2ddca91a6b4c288d9",
           "author": "Dan Ferguson",
           "description": "AWS CodeArtifact allows developers to connect internal code repositories to upstream code repositories like Pypi, Maven, or NPM. AWS CodeArtifact is a powerful addition to CI/CD workflows on AWS, but it is similarly effective for code-bases hosted on a Jupyter notebook. This is a common development paradigm for Machine Learning developers that build and train […]",
@@ -9596,16 +9616,6 @@
           "wordCount": 637,
           "title": "Machine Learning Approaches for Non-Intrusive Home Absence Detection Based on Appliance Electrical Use. (arXiv:2203.16538v1 [cs.LG])",
           "imageUrl": null
-        },
-        {
-          "id": "http://arxiv.org/abs/2106.04420",
-          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Kamarthi_H/0/1/0/all/0/1\">Harshavardhan Kamarthi</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Rodriguez_A/0/1/0/all/0/1\">Alexander Rodr&#xed;guez</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Prakash_B/0/1/0/all/0/1\">B. Aditya Prakash</a>",
-          "description": "In real-time forecasting in public health, data collection is a non-trivial\nand demanding task. Often after initially released, it undergoes several\nrevisions later (maybe due to human or technical constraints) - as a result, it\nmay take weeks until the data reaches to a stable value. This so-called\n'backfill' phenomenon and its effect on model performance has been barely\nstudied in the prior literature. In this paper, we introduce the multi-variate\nbackfill problem using COVID-19 as the motivating example. We construct a\ndetailed dataset composed of relevant signals over the past year of the\npandemic. We then systematically characterize several patterns in backfill\ndynamics and leverage our observations for formulating a novel problem and\nneural framework Back2Future that aims to refines a given model's predictions\nin real-time. Our extensive experiments demonstrate that our method refines the\nperformance of top models for COVID-19 forecasting, in contrast to non-trivial\nbaselines, yielding 18% improvement over baselines, enabling us obtain a new\nSOTA performance. In addition, we show that our model improves model evaluation\ntoo; hence policy-makers can better understand the true accuracy of forecasting\nmodels in real-time.",
-          "link": "http://arxiv.org/abs/2106.04420",
-          "publishedOn": "2022-03-27T00:51:42.565Z",
-          "wordCount": 756,
-          "title": "Back2Future: Leveraging Backfill Dynamics for Improving Real-time Predictions in Future. (arXiv:2106.04420v7 [cs.LG] UPDATED)",
-          "imageUrl": null
         }
       ]
     },
@@ -11371,6 +11381,156 @@
       "feedUrl": "https://www.reddit.com/r/MachineLearning/.rss",
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubzot6/d_making_texttoimage_even_better_glide_towards/",
+          "author": null,
+          "description": "“Diffusion models beat GANs”. While true, the statement comes with several ifs and buts, not to say that the math behind diffusion models is not for the faint of heart. Alas, GLIDE, an OpenAI paper from last December took a big step towards making it true in every sense. Specifically, it introduced a new guidance method for diffusion models that produces higher quality images than even DALL-E, which uses expensive CLIP reranking. And if that wasn’t impressive enough, GLIDE models can be fine-tuned for various downstream tasks such a inpainting and and text-based editing.\n As for the details, let’s dive in, shall we?\n Full summary: https://t.me/casual_gan/289\n Blog post: https://www.casualganpapers.com/faster-diffusion-models-text-to-image-classifier-free-guidance/GLIDE-explained.html\n GLIDE\n arxiv / code\n Join the discord community and follow on Twitter for weekly AI paper summaries!\n    submitted by    /u/KirillTheMunchKing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubzot6/d_making_texttoimage_even_better_glide_towards/",
+          "publishedOn": "2022-04-26T00:21:27.000Z",
+          "wordCount": 285,
+          "title": "[D] Making text-to-image even better - GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models, a 5-minute paper summary by Casual GAN Papers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubymfu/d_hypothetically_whats_the_value_in_being_able_to/",
+          "author": null,
+          "description": "I'm not going to make this vague. Specifically I'm seeing a lot of comments related to Elon Musk saying he's going to remove bots from Twitter. There's a lot of speculation on how this could be done with comments suggesting a captcha-based system for every post/reply (or maybe every action?). More specifically people seem fixated on captcha systems that can't be botted. (Ignore for a moment the accessibility issues and audio fallbacks that might be required).\n I'm aware that Tesla transitioned to using more massive synthetic datasets for training, so this might be somewhat outdated. That said they do have a lot of data collection of new real world data from their sensors. This has me curious on the estimated value of large-scale captcha systems directly tied with a company that might need large-scale labeling services.\n I'm sure researchers here have run numbers on labeling services and how to best to utilize them. (Goes without saying the prices vary quite a bit and cover a wide range of tasks from simple bounding boxes to relatively expensive polygons for semantic labeling. For example just as a reference: https://cloud.google.com/ai-platform/data-labeling/pricing ). Most services don't list prices for like 500 million tasks which makes sense given that's a lot.\n A captcha system would have independent users redoing tasks multiple times to find baselines, but in general it would average to find a ground truth label. This redundant work isn't wasted in this sense as it can find say difficult scenarios and refine labels.\n I could naively say 500 million / (10 USD/1000 tasks) = 5 million USD a day not counting server costs and development. Not super scientific though and it seems high. (I have doubts on if gathering 500 million samples of value a day to even get labeled is realistic).\n I digress, what would you say is the hypothetical value of such a system using short captcha tasks?\n    submitted by    /u/Sirisian  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubymfu/d_hypothetically_whats_the_value_in_being_able_to/",
+          "publishedOn": "2022-04-25T23:28:52.000Z",
+          "wordCount": 604,
+          "title": "[D] Hypothetically, what's the value in being able to label ~500 million images a day?",
+          "imageUrl": "https://external-preview.redd.it/9LgEYrUEvxXu01uRFdtgCCuou8dOpEa-ra9F8oTXfkI.jpg?auto=webp&s=ce706d27c0d1a861292851279769281e25f0fcca"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubx9pv/n_modular_reasoning_knowledge_language_mrkl/",
+          "author": null,
+          "description": "AI21 Labs’ Modular Reasoning, Knowledge and Language (MRKL, pronounced “miracle”) system – and Jurassic-X includes one or more language models, and augment them with external knowledge sources as well as symbolic reasoning experts that can handle tasks that lie beyond the reach of neural models. There are 55 different task-specific modules that MRKL currently supports. If the router is unsure which module is best, it calls on Jurassic-1. Jurassic also helps compose the contextual language around MRKL’s response. This allows MRKL to give factual answers with up-to-date information instead of being limited to its training data alone, and gives it the ability to carry out a much wider range of NLP tasks as compared to other LLM's like Google's PaLM or OpenAI's GPT-3\n AI21 blog and whitepaper here\n Video here\n    submitted by    /u/SlightSituation  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubx9pv/n_modular_reasoning_knowledge_language_mrkl/",
+          "publishedOn": "2022-04-25T22:24:52.000Z",
+          "wordCount": 241,
+          "title": "[N] Modular Reasoning, Knowledge, & Language (MRKL) Hybrid System For More 'General' NLP",
+          "imageUrl": "https://external-preview.redd.it/fDd9c-UIVZ46vmnLwHbEqeWsEnXeKYrd897aC379tvE.jpg?auto=webp&s=6fec3c59b829bf9de2ed47821f860f1f109f0682"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubvrld/d_opinions_on_nvidia_tao_toolkit/",
+          "author": null,
+          "description": "I'm working on an Edge ML product where we train models in the cloud and then run them on a device using tensorRT. We're considering switching to using the Nvidia TAO Toolkit for training. If you've used TAO, do you like it? Is it limiting? Our alternative is training in pytorch and then converting to ONNX and then tensorRT separately. Thanks!\n    submitted by    /u/linguistBot  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubvrld/d_opinions_on_nvidia_tao_toolkit/",
+          "publishedOn": "2022-04-25T21:17:17.000Z",
+          "wordCount": 153,
+          "title": "[D] Opinions on NVIDIA TAO Toolkit?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubtfh3/rp_an_arxivsanitylike_view_of_iclr_2022_papers/",
+          "author": null,
+          "description": "submitted by    /u/tanelai  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubtfh3/rp_an_arxivsanitylike_view_of_iclr_2022_papers/",
+          "publishedOn": "2022-04-25T19:36:54.000Z",
+          "wordCount": 233,
+          "title": "[R][P] An arxiv-sanity-like view of ICLR 2022 papers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubsx32/d_paper_explained_accel_evolving_curricula_with/",
+          "author": null,
+          "description": "https://youtu.be/povBDxUn1VQ\n Automatic curriculum generation is one of the most promising avenues for Reinforcement Learning today. Multiple approaches have been proposed, each with their own set of advantages and drawbacks. This paper presents ACCEL, which takes the next step into the direction of constructing curricula for multi-capable agents. ACCEL combines the adversarial adaptiveness of regret-based sampling methods with the capabilities of level-editing, usually found in Evolutionary Methods.\n ​\n OUTLINE:\n 0:00 - Intro & Demonstration\n 3:50 - Paper overview\n 5:20 - The ACCEL algorithm\n 15:25 - Looking at the pseudocode\n 23:10 - Approximating regret\n 33:45 - Experimental results\n 40:00 - Discussion & Comments\n ​\n Website: https://accelagent.github.io\n Paper: https://arxiv.org/abs/2203.01302\n    submitted by    /u/ykilcher  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubsx32/d_paper_explained_accel_evolving_curricula_with/",
+          "publishedOn": "2022-04-25T19:14:37.000Z",
+          "wordCount": 222,
+          "title": "[D] Paper Explained - ACCEL: Evolving Curricula with Regret-Based Environment Design (Video Walkthrough)",
+          "imageUrl": "https://external-preview.redd.it/G56_EvZ7Bhe2e66UjiT-qdu0Jeri0z_iHA80wmvdCYQ.jpg?auto=webp&s=0968009e53ace29cd095f9976c472e91969e68ef"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubscue/d_parameter_efficiency_without_computational/",
+          "author": null,
+          "description": "Hello hivemind.\n Context\n I am working on streamlined design strategies for (manual) neural architecture design. I recently came across a simple, receptive field-based strategy that allows me to reliably improve the architectures of some SOTA models like EfficientNet by up +1.5% top1-accuracy.That being said, there seems to be a trade-off between performance and number of computations I put into the same number of parameters.Basically, the more computationally expensive the architectural change is, the better the performance turns out to be. The number of parameters does not change in the process. The model becomes therefore more parameter efficient but computationally less efficient, which you could consider a somewhat Pyrrhic victory.\n Now to my question:\n Is there use for parameter efficiency in models when it does not also coincide with computational efficiency? Is there any literature on the topic you can recommend?\n    submitted by    /u/KrakenInAJar  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubscue/d_parameter_efficiency_without_computational/",
+          "publishedOn": "2022-04-25T18:50:36.000Z",
+          "wordCount": 316,
+          "title": "[D] Parameter Efficiency without Computational Efficiency",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uboxle/d_calculating_feature_importance_which/",
+          "author": null,
+          "description": "So far I've only seen feature importance calculated on one model/ training set at a time, However, with cross validation there are many models built on different training sets, how do you calculate feature importance in this case? Just do it on one model? Or calculate feature importance for each model and somehow aggregate it (e.g., by averaging)?\n    submitted by    /u/Comprehensive-Egg707  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uboxle/d_calculating_feature_importance_which/",
+          "publishedOn": "2022-04-25T16:19:23.000Z",
+          "wordCount": 584,
+          "title": "[D] Calculating feature importance: which model/training set to use in the case of cross validation?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubosur/r_recent_trends_in_diffusionbased_textconditional/",
+          "author": null,
+          "description": "Hello, I wrote the blog post about text-conditional image generation using diffusion models (including DALLE-2). Let me know what you think!\n ​\n https://sangyun884.github.io/recent-trends-in-diffusion-based-text-conditional/\n    submitted by    /u/Impressive-Mirror430  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubosur/r_recent_trends_in_diffusionbased_textconditional/",
+          "publishedOn": "2022-04-25T16:13:41.000Z",
+          "wordCount": 124,
+          "title": "[R] Recent Trends In Diffusion-Based Text-Conditional Image Synthesis",
+          "imageUrl": "https://external-preview.redd.it/5ZUYF2qZ9oW9_6AoGMSy5GlDG-C9Kx1PyG4ZynT6IYk.jpg?auto=webp&s=7ff2c46197313b35e184786cb58a402c8dca10d9"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubme2a/np_use_github_actions_for_ml_with_dagshub_connect/",
+          "author": null,
+          "description": "Hey r/MachineLearning, Nir from DagsHub here, and I'm thrilled to share a project we're launching today that will hopefully unlock GitHub Actions for ML.\n GitHub Actions solved a DevOps burden many of us felt by providing an easy-to-configure CI/CD tool to build, test, and deploy pipelines. However, when it comes to ML pipelines, and working with data, models, and experimentation in mind, the workflow is not as well defined and can get tricky to implement.\n DagsHub is kind of like GitHub for machine learning, which extends what GitHub did for code management to track data, models, experiments, and data pipelines. We do this by integrating awesome open source tools like DVC, MLflow, Label Studio, and more. One of our most requested features was a deeper integration with GitHub that will let…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubme2a/np_use_github_actions_for_ml_with_dagshub_connect/",
+          "publishedOn": "2022-04-25T14:26:04.000Z",
+          "wordCount": 447,
+          "title": "[N][P] Use GitHub Actions for ML with DagsHub Connect",
+          "imageUrl": "https://external-preview.redd.it/miy8ZOmxsxxt3oLG2rZXO4I2lnPwkZE6fO_Smw31Cjg.jpg?auto=webp&s=eb1f6c559705b0d00873abe5ddc6e1ca5cc53a2a"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ublzwx/r_iclr_2022_blog_post_the_37_implementation/",
+          "author": null,
+          "description": "Hi folks, our ICLR 2022 Blog post on \"The 37 Implementation Details of Proximal Policy Optimization\" is live 😀 Our post makes it easier to understand the nitty-gritty PPO's implementations with \n 1) 🎥 video tutorials 2) 📜 detailed references and explanations 3) ⌨️ really simple code\n Here are the links:\n  \nOfficial URL: https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/\n Twitter thread: https://twitter.com/vwxyzjn/status/1518589115163369472\n OpenReview link:https://openreview.net/forum?id=Hl6jCqIp2j\n GitHub repo: https://github.com/vwxyzjn/ppo-implementation-details\n YouTube tutorial on PPO: https://www.youtube.com/playlist?list=PLD80i8An1OEHhcxclwq8jOMam0m0M9dQ_\n  \nI am the main author & feel free to ask me anything here.\n    submitted by    /u/vwxyzjn  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ublzwx/r_iclr_2022_blog_post_the_37_implementation/",
+          "publishedOn": "2022-04-25T14:07:45.000Z",
+          "wordCount": 254,
+          "title": "[R] ICLR 2022 Blog Post: The 37 Implementation Details of Proximal Policy Optimization",
+          "imageUrl": "https://external-preview.redd.it/Nrk17IHZ48Q-TVSgonwE3nu9Cz6NRLHt5HfNaznMF6Q.jpg?auto=webp&s=cb9777201c9daf7f84d7dc9dd71dddbbdad5ae57"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubkw3n/n_learn_how_the_opensource_ecosystem_can_be_used/",
+          "author": null,
+          "description": "Hey,\n 🤗 Hugging Face is offering a workshop (June 6) for instructors of machine learning and data science who would like to learn how the open-source ecosystem can be used in their classes.\n After this workshop, you will know how to:\n 🧑‍💻 Teach Transformers models & famous ML libraries\n 🤖 Onboard students to the Hub to build/host projects\n 💾 Publish models/datasets in a few lines of code\n During the workshop, you will be invited to join the following page for a better understanding of our open-source solutions: https://huggingface.co/teach\n For more details about the workshop content, visit: https://hf.co/teaching\n Feel free to register here:)\n    submitted by    /u/VioletteLep  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubkw3n/n_learn_how_the_opensource_ecosystem_can_be_used/",
+          "publishedOn": "2022-04-25T13:14:21.000Z",
+          "wordCount": 250,
+          "title": "[N] Learn how the open-source ecosystem can be used in your machine learning and data science classes.",
+          "imageUrl": "https://external-preview.redd.it/8BbLqQCd8ZIKmiy4RdrDTl6eDcHui3Li5BwxoC-WsKs.jpg?auto=webp&s=b7e701b010346785e9be5e312743f16aa1bd5f1a"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubj79m/d_does_anyone_know_a_large_varied_image_dataset/",
+          "author": null,
+          "description": "It could be pictures of anything, except of humans. But it would be better if it were not focused on a single topic like dog images.\n    submitted by    /u/TheManveru  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubj79m/d_does_anyone_know_a_large_varied_image_dataset/",
+          "publishedOn": "2022-04-25T11:44:33.000Z",
+          "wordCount": 338,
+          "title": "[D] Does anyone know a large varied image dataset that do NOT contain humans?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubg40r/r_a_new_dataset_and_a_library_that_you_can_use/",
+          "author": null,
+          "description": "TL;DR: Download dataset of labelled Web pages, WebTraversalLibrary for scripting web interactions\n Hi everyone! Our group at Klarna has been putting in a ton of work into deep learning for the Web over the past few years and we've made a couple of useful resources available for the research community. You might find them interesting if you're looking for new ideas for spare-time or even post-grad research projects.\n  \nWe've open-sourced a dataset of about 50k labeled product web pages from roughly 8000 distinct e-commerce merchants, available as MHTML and WebTraversalLibrary clones (see next point :) ), along with the corresponding screenshots. Not all of the MHTMLs render correctly, but the ones that do also have screenshots in a corresponding dataset for CV applications. You can find doc…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubg40r/r_a_new_dataset_and_a_library_that_you_can_use/",
+          "publishedOn": "2022-04-25T08:19:07.000Z",
+          "wordCount": 484,
+          "title": "[R] A new dataset and a library that you can use for ML and RL over the Web",
+          "imageUrl": "https://external-preview.redd.it/nEWdNw6tOLTkbPlkuR_d4dfrSEppmrXzgjja-SbvAsw.jpg?auto=webp&s=53f01522597457284b505a5aec6d564996e35806"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/ubduwi/d_is_anyone_working_on_opensourcing_dalle_2/",
+          "author": null,
+          "description": "Just like Eleuther did with GPT3?\n    submitted by    /u/invertedpassion  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/ubduwi/d_is_anyone_working_on_opensourcing_dalle_2/",
+          "publishedOn": "2022-04-25T05:40:47.000Z",
+          "wordCount": 459,
+          "title": "[D] Is anyone working on open-sourcing Dall-E 2?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/MachineLearning/comments/ub8oxx/p_demo_of_googles_new_phorum_image3d_figure/",
           "author": null,
@@ -15650,56 +15810,6 @@
           "wordCount": 285,
           "title": "[D] Simple Questions Thread",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tpi5gx/p_author_pages_on_httppaperslabmlai/",
-          "author": null,
-          "description": "We added author pages, which lists all the papers by the author and links to their social and academic web pages.\n E.g.: \n https://papers.labml.ai/author/39815586a03711ecbb8c3d25c114d5ed\n https://papers.labml.ai/author/56b63a47a03711ecbb8c3d25c114d5ed\n Highlights, \n  \nLinks to Google and Arxiv searches.\n Sort papers based on the published date and the popularity in Twitter.\n Links to Twitter, Google Scholar, Github and Linkedin etc if available in our database.\n  \nWe love to hear your feedback and suggestions. Thank you all, and I appreciate the support.\n    submitted by    /u/hnipun  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tpi5gx/p_author_pages_on_httppaperslabmlai/",
-          "publishedOn": "2022-03-27T11:37:33.000Z",
-          "wordCount": 206,
-          "title": "[P] Author pages on http://papers.labml.ai",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tpa89n/rp_groupvit_semantic_segmentation_emerges_from/",
-          "author": null,
-          "description": "submitted by    /u/Illustrious_Row_9971  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tpa89n/rp_groupvit_semantic_segmentation_emerges_from/",
-          "publishedOn": "2022-03-27T02:10:12.000Z",
-          "wordCount": 224,
-          "title": "[R][P] GroupViT: Semantic Segmentation Emerges from Text Supervision + Hugging Face Gradio Web Demo",
-          "imageUrl": "https://external-preview.redd.it/TCv6-qKCraPT1-OhsfkXsXZpoFY2_tfQTDcAnfEpBoY.png?format=pjpg&auto=webp&s=98058dab4a53838db6cedea3fb780154e0574573"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tp5iyf/d_conditional_gan_loss_magnitudes/",
-          "author": null,
-          "description": "Hey, I am wondering about the losses of conditional GANs, particularly their magnitude. Due to the amount of classes/identities, the classification loss will usually be significantly higher than discrimination loss (data identified as real or generated). When using traditional multitask learning where losses are simply summed up, how is the generator supposed to learn to generate realistic-appearing data when the loss that would encourage that is so low in comparison to the classification loss?\n    submitted by    /u/Timboron  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tp5iyf/d_conditional_gan_loss_magnitudes/",
-          "publishedOn": "2022-03-26T22:07:29.000Z",
-          "wordCount": 310,
-          "title": "[D] Conditional GAN loss magnitudes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/toy50y/d_augmentation_in_gan/",
-          "author": null,
-          "description": "Hi, does anyone has experience in augmentation for GANs? Especially for Cycle-GAN like image to image translation. When I see image-to-image GANs, there is mostly no augmentation applied.\n    submitted by    /u/SeucheAchat9115  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/toy50y/d_augmentation_in_gan/",
-          "publishedOn": "2022-03-26T17:13:10.000Z",
-          "wordCount": 181,
-          "title": "[D] Augmentation in GAN",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/toqvg1/discussion_how_does_apple_faceid_work/",
-          "author": null,
-          "description": "I am doing some face recognition and am wondering how does apple's FaceID work. They say it is a \"true depth\" camera. What does that mean? is that a lidar? some kind of a dot projector? Basically what I want to know is what kind of data does that device provide. Also, is there a commercially available device similar to that true depth camera available?\n    submitted by    /u/user89320  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/toqvg1/discussion_how_does_apple_faceid_work/",
-          "publishedOn": "2022-03-26T14:24:56.000Z",
-          "wordCount": 287,
-          "title": "[Discussion] How does apple FaceID work?",
-          "imageUrl": null
         }
       ]
     },
@@ -15797,6 +15907,16 @@
       "siteUrl": "http://bair.berkeley.edu/blog/",
       "articles": [
         {
+          "id": "http://bair.berkeley.edu/blog/2022/04/25/rl-or-bc/",
+          "author": null,
+          "description": "Figure 1: Summary of our recommendations for when a practitioner should BC and various imitation learning style methods, and when they should use offline RL approaches.\n\n\nOffline reinforcement learning allows learning policies from previously collected data, which has profound implications for applying RL in domains where running trial-and-error learning is impractical or dangerous, such as safety-critical settings like autonomous driving or medical treatment planning. In such scenarios, online exploration is simply too risky, but offline RL methods can learn effective policies from logged data collected by humans or heuristically designed controllers.  Prior learning-based control methods have also approached learning from existing data as imitation learning: if the data is generally “goo…",
+          "link": "http://bair.berkeley.edu/blog/2022/04/25/rl-or-bc/",
+          "publishedOn": "2022-04-25T12:00:00.000Z",
+          "wordCount": 3238,
+          "title": "Should I Use Offline RL or Imitation Learning?",
+          "imageUrl": "http://bair.berkeley.edu/blog/assets/maers/maers.png"
+        },
+        {
           "id": "http://bair.berkeley.edu/blog/2022/04/20/rvs/",
           "author": null,
           "description": "A demonstration of the RvS policy we learn with just supervised learning and a depth-two MLP. It uses no TD learning, advantage reweighting, or Transformers!\n\n\nOffline reinforcement learning (RL) is conventionally approached using value-based methods based on temporal difference (TD) learning. However, many recent algorithms reframe RL as a supervised learning problem. These algorithms learn conditional policies by conditioning on goal states (Lynch et al., 2019; Ghosh et al., 2021), reward-to-go (Kumar et al., 2019; Chen et al., 2021), or language descriptions of the task (Lynch and Sermanet, 2021).\nWe find the simplicity of these methods quite appealing. If supervised learning is enough to solve RL problems, then offline RL could become widely accessible and (relatively) easy to implemen…",
@@ -15813,6 +15933,16 @@
       "feedUrl": "https://becominghuman.ai/feed",
       "siteUrl": "https://becominghuman.ai?source=rss----5e5bef33608a---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/2cbd22f1c3a",
+          "author": "Aminah Mardiyyah Rufai",
+          "description": "At some point, we’ve all used Google translate, Microsoft,DeepL or Bing translator to impress our friends/colleagues who speak a different…",
+          "link": "https://becominghuman.ai/lets-talk-about-machine-translation-the-powering-engine-behind-google-translate-2cbd22f1c3a?source=rss----5e5bef33608a---4",
+          "publishedOn": "2022-04-25T14:30:02.000Z",
+          "wordCount": 1301,
+          "title": "Let’s Talk about Machine Translation: The powering engine behind “Google Translate”",
+          "imageUrl": "https://miro.medium.com/max/1200/0*-OPQUThzoHf3uZ2J.png"
+        },
         {
           "id": "https://medium.com/p/fc5449871adf",
           "author": "Shaibu Samuel",
@@ -15910,6 +16040,26 @@
       "feedUrl": "http://news.mit.edu/rss/topic/artificial-intelligence2",
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
+        {
+          "id": "https://news.mit.edu/2022/estimating-informativeness-data-0425",
+          "author": "Rachel Paiste | Department of Brain and Cognitive Sciences",
+          "description": "MIT researchers can now estimate how much information data are likely to contain, in a more accurate and scalable way than previous methods.",
+          "link": "https://news.mit.edu/2022/estimating-informativeness-data-0425",
+          "publishedOn": "2022-04-25T21:10:00.000Z",
+          "wordCount": 1701,
+          "title": "Estimating the informativeness of data",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202204/entropy-estimators_0.jpg"
+        },
+        {
+          "id": "https://news.mit.edu/2022/teach-pick-robots-new-task-0425",
+          "author": "Adam Zewe | MIT News Office",
+          "description": "Researchers have developed a technique that enables a robot to learn a new pick-and-place task with only a handful of human demonstrations.",
+          "link": "https://news.mit.edu/2022/teach-pick-robots-new-task-0425",
+          "publishedOn": "2022-04-25T04:00:00.000Z",
+          "wordCount": 2027,
+          "title": "An easier way to teach robots new skills",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202204/MIT-DemonstrationRobot-01-press.jpg"
+        },
         {
           "id": "https://news.mit.edu/2022/new-unsupervised-computer-vision-algorithm-stego-0421",
           "author": "Rachel Gordon | MIT CSAIL",
@@ -16097,6 +16247,26 @@
       "feedUrl": "http://feeds.feedburner.com/nvidiablog",
       "siteUrl": "https://blogs.nvidia.com",
       "articles": [
+        {
+          "id": "https://blogs.nvidia.com/?p=56704",
+          "author": "Angie Lee",
+          "description": "When brainstorming a scene to best showcase the groundbreaking capabilities of the Omniverse platform, some NVIDIA artists turned to a cherished memory: enjoying ramen together in a mom-and-pop shop down a side street in Tokyo. Simmering pots of noodles, steaming dumplings, buzzing kitchen appliances, warm ambient lighting and glistening black ledger stools. These were all Read article >\nThe post Let Me Shoyu How It’s Done: Creating the NVIDIA Omniverse Ramen Shop appeared first on NVIDIA Blog.",
+          "link": "https://blogs.nvidia.com/blog/2022/04/25/making-of-omniverse-ramen-shop/",
+          "publishedOn": "2022-04-25T15:00:55.000Z",
+          "wordCount": 1192,
+          "title": "Let Me Shoyu How It’s Done: Creating the NVIDIA Omniverse Ramen Shop",
+          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/04/ramen-still.jpg"
+        },
+        {
+          "id": "https://blogs.nvidia.com/?p=56666",
+          "author": "Rick Merritt",
+          "description": "A paper released today describes in the greatest detail to date the atmospheres on distant planets. Seeking the origins of what’s in and beyond the Milky Way, researchers surveyed 25 exoplanets, bodies that orbit stars far beyond our solar system. Specifically, they studied hot Jupiters, the largest and thus easiest to detect exoplanets, many sweltering Read article >\nThe post Stellar Weather: Researchers Describe the Skies of Exoplanets appeared first on NVIDIA Blog.",
+          "link": "https://blogs.nvidia.com/blog/2022/04/25/exoplanet-hpc-researchers/",
+          "publishedOn": "2022-04-25T11:00:53.000Z",
+          "wordCount": 1118,
+          "title": "Stellar Weather: Researchers Describe the Skies of Exoplanets",
+          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/04/ESA-Hubble-cropped-x1280.jpg"
+        },
         {
           "id": "https://blogs.nvidia.com/?p=56696",
           "author": "Isha Salian",
@@ -16305,6 +16475,166 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uc0and/ai_is_mastering_language_should_we_trust_what_it/",
+          "author": null,
+          "description": "submitted by    /u/Naurgul  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uc0and/ai_is_mastering_language_should_we_trust_what_it/",
+          "publishedOn": "2022-04-26T00:52:35.000Z",
+          "wordCount": 195,
+          "title": "A.I. Is Mastering Language. Should We Trust What It Says? • OpenAI’s GPT-3 and other neural nets can now write original prose with mind-boggling fluency — a development that could have profound implications for the future.",
+          "imageUrl": "https://external-preview.redd.it/VR765hrT5fSz-Ru_t_4_26DwsTtFZ-TgRN8USS43cPg.jpg?auto=webp&s=2c85ffc29eba1c0eab1cf4bbc8cadb2eea67d5c3"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubzq9a/making_texttoimage_even_better_glide_towards/",
+          "author": null,
+          "description": "“Diffusion models beat GANs”. While true, the statement comes with several ifs and buts, not to say that the math behind diffusion models is not for the faint of heart. Alas, GLIDE, an OpenAI paper from last December took a big step towards making it true in every sense. Specifically, it introduced a new guidance method for diffusion models that produces higher quality images than even DALL-E, which uses expensive CLIP reranking. And if that wasn’t impressive enough, GLIDE models can be fine-tuned for various downstream tasks such a inpainting and and text-based editing.\n As for the details, let’s dive in, shall we?\n Full summary: https://t.me/casual_gan/289\n Blog post: https://www.casualganpapers.com/faster-diffusion-models-text-to-image-classifier-free-guidance/GLIDE-explained.html\n GLIDE\n arxiv / code\n Join the discord community and follow on Twitter for weekly AI paper summaries!\n    submitted by    /u/KirillTheMunchKing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubzq9a/making_texttoimage_even_better_glide_towards/",
+          "publishedOn": "2022-04-26T00:23:30.000Z",
+          "wordCount": 284,
+          "title": "Making text-to-image even better - GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models, a 5-minute paper summary by Casual GAN Papers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubxnla/chatbots/",
+          "author": null,
+          "description": "Does anyone know where chatbots specifically the ones on Chai get their information? This one knew what meta-analysis was and knew who the main character of a show was\n I do not believe the bots are real people based on both the information I've seen and my experience with them glitching out Plus occam's razor yk \n Im guessing they can use google or something but it's odd because they clearly don't have access to the time\n    submitted by    /u/Shadowfax42-  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubxnla/chatbots/",
+          "publishedOn": "2022-04-25T22:42:49.000Z",
+          "wordCount": 153,
+          "title": "Chatbots",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubxk4q/arcane_style_transfer/",
+          "author": null,
+          "description": "submitted by    /u/Illustrious_Row_9971  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubxk4q/arcane_style_transfer/",
+          "publishedOn": "2022-04-25T22:38:20.000Z",
+          "wordCount": 99,
+          "title": "Arcane Style Transfer",
+          "imageUrl": "https://preview.redd.it/ed1c9u7v5rv81.jpg?auto=webp&s=be0b0c07e827e26bbae196690dcc4c23a62b0320"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubuwg6/the_most_basic_ai_scheme/",
+          "author": null,
+          "description": "submitted by    /u/idvlknv  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubuwg6/the_most_basic_ai_scheme/",
+          "publishedOn": "2022-04-25T20:39:24.000Z",
+          "wordCount": 92,
+          "title": "The most basic AI scheme.",
+          "imageUrl": "https://preview.redd.it/1f3hjtfrkqv81.jpg?auto=webp&s=6fc0f34a2173304c3279e8d0df023ea89b849c74"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubuuqx/nvidia_ai_designs_gpu_3600x_faster_breakthrough/",
+          "author": null,
+          "description": "submitted by    /u/getrich_or_diemining  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubuuqx/nvidia_ai_designs_gpu_3600x_faster_breakthrough/",
+          "publishedOn": "2022-04-25T20:37:14.000Z",
+          "wordCount": 133,
+          "title": "Nvidia AI Designs GPU 3,600x Faster | Breakthrough MRKL NLP Techniques | AI Mind To Predict Dementia",
+          "imageUrl": "https://external-preview.redd.it/a3Lx2zVCGJjXCwygYe4iqv7hye7R-N0q2nqqiIbw7fI.jpg?auto=webp&s=16e99b185597a7469c1e52d48c6b4e9ca41039b5"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubunev/is_there_a_ai_that_is_able_to_turn_normal/",
+          "author": null,
+          "description": "submitted by    /u/xXNOdrugsForMEXx  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubunev/is_there_a_ai_that_is_able_to_turn_normal/",
+          "publishedOn": "2022-04-25T20:28:45.000Z",
+          "wordCount": 189,
+          "title": "Is there a AI that is able to turn normal pictures in that kind of pictures or that I am able to plott them with my pen-plotter?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubtmoy/what_are_cool_ai_tools_which_i_could_use_to_edit/",
+          "author": null,
+          "description": "(I have no experience with photoshop)\n    submitted by    /u/xXNOdrugsForMEXx  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubtmoy/what_are_cool_ai_tools_which_i_could_use_to_edit/",
+          "publishedOn": "2022-04-25T19:45:35.000Z",
+          "wordCount": 115,
+          "title": "What are cool AI tools which I could use to edit images/videos?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubqsxp/are_you_the_asshole_new_ai_mimics_infamous_advice/",
+          "author": null,
+          "description": "submitted by    /u/Emmanuel_T_Goldstein  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubqsxp/are_you_the_asshole_new_ai_mimics_infamous_advice/",
+          "publishedOn": "2022-04-25T17:40:58.000Z",
+          "wordCount": 107,
+          "title": "Are You The Asshole? New AI Mimics Infamous Advice Subreddit",
+          "imageUrl": "https://external-preview.redd.it/UxViAVhP2Q5FVFoDapVsi650iem0LknY45Er6OSVPEI.jpg?auto=webp&s=4d83a7eae5a2b6397dbde51c3a2e069beba4640a"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubmaqc/bias_in_artificial_intelligence_is_diversity_the/",
+          "author": null,
+          "description": "submitted by    /u/JencyJane  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubmaqc/bias_in_artificial_intelligence_is_diversity_the/",
+          "publishedOn": "2022-04-25T14:21:35.000Z",
+          "wordCount": 116,
+          "title": "Bias in Artificial Intelligence; Is Diversity the Key to the Future Of AI?",
+          "imageUrl": "https://external-preview.redd.it/vSHEsxJEzECGoypD5rhq7wBOngKsC9vurWNBBGUbDOM.jpg?auto=webp&s=a7f5bafac32d2470bd24918b8a91511310f69ba8"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubkvez/ai_becomes_sentient_3/",
+          "author": null,
+          "description": "submitted by    /u/webauteur  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubkvez/ai_becomes_sentient_3/",
+          "publishedOn": "2022-04-25T13:13:22.000Z",
+          "wordCount": 94,
+          "title": "Ai Becomes Sentient 3",
+          "imageUrl": "https://external-preview.redd.it/CztgIkpR9gdTSxNAU2QeS_mtUsaGcJAXSZNvHCYuuj8.jpg?auto=webp&s=622c947cc3957857228114b6b504ec80a63a55fc"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubkqbr/to_be_aifirst_do_ai_last/",
+          "author": null,
+          "description": "submitted by    /u/bendee983  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubkqbr/to_be_aifirst_do_ai_last/",
+          "publishedOn": "2022-04-25T13:06:22.000Z",
+          "wordCount": 100,
+          "title": "To be AI-first, do AI last",
+          "imageUrl": "https://external-preview.redd.it/ph20XMBzH59IyfNXWJ8M7p7LOQYwSMluzx3Mymxu-DA.jpg?auto=webp&s=4fd7b6bfff08292bd6679e7ea129dca6c2da924d"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubjy29/gpt3_not_available_in_my_country/",
+          "author": null,
+          "description": "is there a way to access any of openAI APIs if it's not avalable in my country?\n    submitted by    /u/dogaryy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubjy29/gpt3_not_available_in_my_country/",
+          "publishedOn": "2022-04-25T12:25:30.000Z",
+          "wordCount": 186,
+          "title": "GPT-3 not available in my country",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubgu7k/text_summarization_with_huggingface_transformers/",
+          "author": null,
+          "description": "submitted by    /u/RubiksCodeNMZ  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubgu7k/text_summarization_with_huggingface_transformers/",
+          "publishedOn": "2022-04-25T09:11:34.000Z",
+          "wordCount": 105,
+          "title": "Text Summarization with Huggingface Transformers and Python",
+          "imageUrl": "https://external-preview.redd.it/VBJHR1cinHBOmglXNbcRbGjfR-WsD8adFlESNVmbSYg.jpg?auto=webp&s=e1f0229faf1476a85cff4aebdbf9ff9e21e4fe4e"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubgged/reface_app_deepfake_technology/",
+          "author": null,
+          "description": "submitted by    /u/Aggravating-Deal-260  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubgged/reface_app_deepfake_technology/",
+          "publishedOn": "2022-04-25T08:44:33.000Z",
+          "wordCount": 146,
+          "title": "Reface app deepfake technology",
+          "imageUrl": "https://external-preview.redd.it/T05Yep1yg4J1fNoYNBi-oxQuQy4zohmYNKmzYKvDXsc.jpg?auto=webp&s=737e7f79d2ee5a27d2294eb5fcbbab74e56ef2d7"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/ubafy1/demo_of_googles_new_phorum_image3d_figure_project/",
+          "author": null,
+          "description": "submitted by    /u/NichodonARG  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/ubafy1/demo_of_googles_new_phorum_image3d_figure_project/",
+          "publishedOn": "2022-04-25T02:17:37.000Z",
+          "wordCount": 105,
+          "title": "Demo of Google's new PHORUM Image→3D Figure Project",
+          "imageUrl": "https://external-preview.redd.it/xarSgeckhCFOVGDdVFJVuHrLVrL_PaQb4b_arEQvVU8.jpg?auto=webp&s=e47a1e07736d71010cd2d4284cef42806dfc4c3d"
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/ub4ox7/india_and_us_have_decided_to_advance_cooperation/",
           "author": null,
@@ -19234,106 +19564,6 @@
           "wordCount": 109,
           "title": "Face filters on the web from just text descriptions",
           "imageUrl": "https://external-preview.redd.it/78QbKWN9TXJq4YXtaSyvNxWbRzsE8HQb1RIsEF3PqOY.jpg?auto=webp&s=e57c9deabb148eb9061fc26548d289354d00234e"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tpcgi4/impressed_with_alphafold_checkout_this_protein/",
-          "author": null,
-          "description": "DeepMind released AlphaFold 2 last year, which made headlines for its incredible accuracy in protein structure prediction. The success of AlphaFold demonstrated that deep neural networks might be used to solve challenging and critical structural biology problems.\n FastFold is a highly effective protein structure prediction model formulation for training and inference developed by a group of researchers from the National University of Singapore. Although AlphaFold 2 is a game-changer in protein structure prediction, training and inference remain time-consuming and costly. This is something that the study team is concerned about.\n Continue Reading This Article Here\n Paper: https://arxiv.org/pdf/2203.00854v1.pdf\n Github: https://github.com/hpcaitech/FastFold\n    submitted by    /u/No_Coffee_4638  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tpcgi4/impressed_with_alphafold_checkout_this_protein/",
-          "publishedOn": "2022-03-27T04:29:04.000Z",
-          "wordCount": 273,
-          "title": "👉 Impressed With AlphaFold? Checkout This Protein Structure Prediction Model (FastFold) That Reduces AlphaFold’s Training Time From 11 Days To 67 Hours",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tp7wpj/i_created_a_new_ai_art_maker_program_free/",
-          "author": null,
-          "description": "submitted by    /u/Recent_Coffee_2551  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tp7wpj/i_created_a_new_ai_art_maker_program_free/",
-          "publishedOn": "2022-03-26T23:57:35.000Z",
-          "wordCount": 111,
-          "title": "I created a new AI art maker program (free)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tp7h6k/how_does_a_selfdriving_car_see_waymo_s_system/",
-          "author": null,
-          "description": "submitted by    /u/OnlyProggingForFun  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tp7h6k/how_does_a_selfdriving_car_see_waymo_s_system/",
-          "publishedOn": "2022-03-26T23:33:12.000Z",
-          "wordCount": 112,
-          "title": "How Does a Self-Driving Car See? (Waymo ‘s system explained)",
-          "imageUrl": "https://external-preview.redd.it/sTXR8P0nRfSLXauZE5GcEcjD9TKBrk7X2bNl7X0bwnA.jpg?auto=webp&s=d83c262ae1ac439e356ffaa93c947748ea10050f"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tp687u/5_best_movies_like_after_yang_about_artificial/",
-          "author": null,
-          "description": "submitted by    /u/NarutoNotBoruto  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tp687u/5_best_movies_like_after_yang_about_artificial/",
-          "publishedOn": "2022-03-26T22:31:31.000Z",
-          "wordCount": 112,
-          "title": "5 Best Movies Like 'After Yang' About Artificial Intelligence (A.I.)",
-          "imageUrl": "https://external-preview.redd.it/M15bgA-BBXFIBSIMKFe7nFMY9lLGrAXq0Xdhv--rhus.jpg?auto=webp&s=2fbfccb9c28867c85f249d2f22ce61cbe437de5a"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tozvwt/ai_for_enamels_and_paints/",
-          "author": null,
-          "description": "Love how my keyboard konked out. \n So I recently read about megasyn the AI being used to create 40k new weapons in 6 hours. \n This got me wondering. Can AI be made to create different enamels and paints for things like pottery glazes, cloisonne enamels and paints for art work? \n If so how would one go about doing this knowing literally nothing?\n    submitted by    /u/Grendal87  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tozvwt/ai_for_enamels_and_paints/",
-          "publishedOn": "2022-03-26T18:38:47.000Z",
-          "wordCount": 150,
-          "title": "ai for enamels and paints",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/toyu62/useful_tools_and_programs_list_for_aiml/",
-          "author": null,
-          "description": "Found a useful list of Tools and Programs for AI/ML. Looks like it covers Machine Learning, Deep Learning, Computer Vision(CV), and Natural Language Processing (NLP). I thought I'd share it for anyone that's interested. https://github.com/mikeroyal/Machine-Learning-Guide\n    submitted by    /u/Khaotic_Kernel  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/toyu62/useful_tools_and_programs_list_for_aiml/",
-          "publishedOn": "2022-03-26T17:47:30.000Z",
-          "wordCount": 132,
-          "title": "Useful Tools and Programs list for AI/ML",
-          "imageUrl": "https://external-preview.redd.it/i9BG3RO4f3gR2wvyQLPmg5D4UABwOQQODQTwztrwNHU.jpg?auto=webp&s=4d516d9a279d2aff190b64f9eb4dc764c11157b3"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/toxy88/gpt3s_knowledge_was_limited_to_the_world_until/",
-          "author": null,
-          "description": "submitted by    /u/BeginningInfluence55  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/toxy88/gpt3s_knowledge_was_limited_to_the_world_until/",
-          "publishedOn": "2022-03-26T17:04:12.000Z",
-          "wordCount": 145,
-          "title": "GPT-3's knowledge was limited to the world until 2019. InstructGPT is apparently up-to-date.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/towlb9/crystal_forest_ai_art/",
-          "author": null,
-          "description": "submitted by    /u/Recent_Coffee_2551  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/towlb9/crystal_forest_ai_art/",
-          "publishedOn": "2022-03-26T16:28:50.000Z",
-          "wordCount": 96,
-          "title": "Crystal Forest AI Art",
-          "imageUrl": "https://external-preview.redd.it/B-jpYEQ1YIU-HcpUaODZlGWXVT1rkf3bRmy8P-0eQzI.jpg?auto=webp&s=db9e8c885dcaa9180970e4c87d771d93e0984e62"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tou59y/deep_convolutional_generative_network_tutorial_in/",
-          "author": null,
-          "description": "I thought it will be quite interesting to see Deep Convolutional GAN’s capability in generating wildlife, so I wrote a tutorial on how to build a model based on the DCGAN architecture through PyTorch:\n https://taying-cheng.medium.com/create-new-animals-using-dcgan-with-pytorch-2ce47810ebd4\n    submitted by    /u/Ok-Peanut-2681  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tou59y/deep_convolutional_generative_network_tutorial_in/",
-          "publishedOn": "2022-03-26T15:54:15.000Z",
-          "wordCount": 131,
-          "title": "Deep Convolutional Generative Network Tutorial in PyTorch",
-          "imageUrl": "https://external-preview.redd.it/utVQq87F1wrWhb-gBacSryHzZr55E-ULyT_m6x-lmOQ.jpg?auto=webp&s=2d71b4889755a102de4d31584802e15b2095d710"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tosno9/ai_news_animal_language_translator_ai_heart/",
-          "author": null,
-          "description": "submitted by    /u/getrich_or_diemining  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tosno9/ai_news_animal_language_translator_ai_heart/",
-          "publishedOn": "2022-03-26T15:18:16.000Z",
-          "wordCount": 139,
-          "title": "AI News | Animal Language Translator AI | Heart Attack Prediction Algo | Nvidia H100 GPU & AI Supercomputer",
-          "imageUrl": "https://external-preview.redd.it/sKV1Sn8z3Ts84j-wd2EuDtNWoqESJUQdjULDAbSSTMs.jpg?auto=webp&s=9c9a5709d0dcd76f3e00e1451b4f5a5ad53d8fc2"
         }
       ]
     },
@@ -19342,6 +19572,56 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/ubxn11/ai_hitman_learns_to_find_waldo/",
+          "author": null,
+          "description": "submitted by    /u/TernaryJimbo  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/ubxn11/ai_hitman_learns_to_find_waldo/",
+          "publishedOn": "2022-04-25T22:42:03.000Z",
+          "wordCount": 113,
+          "title": "AI Hitman Learns to Find Waldo",
+          "imageUrl": "https://external-preview.redd.it/MvCtGs0pDjhaI1nm4RKqVsiwFD7OQYa6elmhLluRqw4.jpg?auto=webp&s=da6095d99ca248ebd5b2e3ebe33dfc199b361693"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/ubngad/help_with_walk_forward_validation_in_lstm_problem/",
+          "author": null,
+          "description": "Hi, I am having some trouble with a LSTM problem regarding walk forward validation in my LSTM. The problem is described in this stackoverflow post:\n https://stackoverflow.com/questions/71990833/using-predictions-instead-of-observed-values-in-walk-forward-validation-in-lstm\n If any one could help me that would be much appreciated\n    submitted by    /u/magnussendjoko  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/ubngad/help_with_walk_forward_validation_in_lstm_problem/",
+          "publishedOn": "2022-04-25T15:15:19.000Z",
+          "wordCount": 154,
+          "title": "Help with walk forward validation in LSTM problem",
+          "imageUrl": "https://external-preview.redd.it/QgPvRTknlY3rMNDqH1k4I37XGiq9tZF_FsygC_Xht4o.jpg?auto=webp&s=8cd5e918e2bde6ca72d4445d6fc007f203689799"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/ubltsu/i_dont_think_this_was_posted_here_before_but_its/",
+          "author": null,
+          "description": "submitted by    /u/gwtkof  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/ubltsu/i_dont_think_this_was_posted_here_before_but_its/",
+          "publishedOn": "2022-04-25T14:00:13.000Z",
+          "wordCount": 143,
+          "title": "I don't think this was posted here before but it's incredible. The latest image generation from text",
+          "imageUrl": "https://external-preview.redd.it/oBM69dcHuU7kJjM8QGw5Gcf8cNUl747wX2YMoi8LJ2o.jpg?auto=webp&s=123036a6e0443fa97ab714d460a3993b13d1eabc"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/ubh35r/nn_from_scratch_5_updating_parameters_kolbenkraft/",
+          "author": null,
+          "description": "submitted by    /u/cjmodi306  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/ubh35r/nn_from_scratch_5_updating_parameters_kolbenkraft/",
+          "publishedOn": "2022-04-25T09:29:07.000Z",
+          "wordCount": 114,
+          "title": "NN from Scratch: #5 Updating parameters | Kolbenkraft",
+          "imageUrl": "https://external-preview.redd.it/GDnb256QTkcz5l5-77Ys1KBOLyCpV-FhczyyfWFfFkc.jpg?auto=webp&s=6a5ee252a5d11d763b300637085189cc5d1e6e32"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/ubgul4/text_summarization_with_huggingface_transformers/",
+          "author": null,
+          "description": "submitted by    /u/RubiksCodeNMZ  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/ubgul4/text_summarization_with_huggingface_transformers/",
+          "publishedOn": "2022-04-25T09:12:21.000Z",
+          "wordCount": 120,
+          "title": "Text Summarization with Huggingface Transformers and Python",
+          "imageUrl": "https://external-preview.redd.it/VBJHR1cinHBOmglXNbcRbGjfR-WsD8adFlESNVmbSYg.jpg?auto=webp&s=e1f0229faf1476a85cff4aebdbf9ff9e21e4fe4e"
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/uaw3xl/nota_ai_introduces_new_machine_learning_tools/",
           "author": null,
@@ -19821,26 +20101,6 @@
           "wordCount": 325,
           "title": "Check out this research summary article based on the paper 'SS-SAM: Stochastic Scheduled Sharpness-Aware Minimization for Efficiently Training Deep Neural Networks' where Researchers From Tsinghua University Propose ‘Stochastic Scheduled SAM’ (SS-SAM) for reducing the computational overhead",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/tpcila/why_is_the_variable_being_passed_for_iterations/",
-          "author": null,
-          "description": "As you can see in the figure, i'm passing the variable data_inputs to the feedforward_comp function over iterations. Up to epoch = 9, everything computes fine but after that, data_inputs suddently is being passed as empty?\n Can someone please tell me why this happens and how to fix it?\n https://preview.redd.it/2wds226ktup81.png?width=816&format=png&auto=webp&s=61c55db011708e2d2b373a0b4e4b02355ec50730\n    submitted by    /u/lwhisper  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/tpcila/why_is_the_variable_being_passed_for_iterations/",
-          "publishedOn": "2022-03-27T04:32:49.000Z",
-          "wordCount": 173,
-          "title": "why is the variable being passed for iterations suddenly passing empty value?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/tpc3bk/which_laptop_should_i_buy/",
-          "author": null,
-          "description": "Hey guys, I really need your help on this one. I go to university next year and I will be studying computer engineering which means there will be a lot of coding going into it. Now I have 4 options for laptop\n First : INSPIRON 15.6\" INTEL CORE 17-1165G7 TOUCHSCREEN 2-IN-1 LAPTOP\n Second: GALAXY BOOK PRO 360 15\" 2-IN-1 INTEL 17 LAPTOP\n Third: HP 15.6\" Touchscreen 2-in-1 Laptop - Nightfall Black (AMD Ryzen 7 5700U/1TB SSD/16GB RAM/Windows 10)\n Fourth: HP Pavilion x360 15.6\" Touchscreen 2-in-1 Laptop - Silver (Intel Core i7-1165G7/1TB SSD/16GB RAM/Win 11)\n Please and thank you guys :)\n    submitted by    /u/Traditional-Cow47  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/tpc3bk/which_laptop_should_i_buy/",
-          "publishedOn": "2022-03-27T04:04:53.000Z",
-          "wordCount": 653,
-          "title": "Which laptop should I buy?",
-          "imageUrl": null
         }
       ]
     },
@@ -19906,6 +20166,16 @@
       "siteUrl": "https://www.microsoft.com/en-us/research",
       "articles": [
         {
+          "id": "https://www.microsoft.com/en-us/research/?p=837610",
+          "author": "Alyssa Hughes",
+          "description": "Picture a person walking in a park by a pond. The surrounding environment contains a number of moving objects that change the quality of the environment: clouds moving to hide the sun, altering the quality of light; ducks gliding across the pond, causing its surface to ripple; people walking along a path, their images reflecting […]\nThe post PPE: A fast and provably efficient RL algorithm for exogenous noise appeared first on Microsoft Research.",
+          "link": "https://www.microsoft.com/en-us/research/blog/ppe-a-fast-and-provably-efficient-rl-algorithm-for-exogenous-noise/",
+          "publishedOn": "2022-04-25T16:00:00.000Z",
+          "wordCount": 2805,
+          "title": "PPE: A fast and provably efficient RL algorithm for exogenous noise",
+          "imageUrl": "https://www.microsoft.com/en-us/research/uploads/prod/2022/04/1200x627_Exo_MDP_still_with_logo.png"
+        },
+        {
           "id": "https://www.microsoft.com/en-us/research/?p=834184",
           "author": "Alyssa Hughes",
           "description": "Edge computing has come of age, with deployments enabling many applications that process data from IoT sensors and cameras. In 2017, we identified the symbiotic relationship between edge computing and video analytics in an article, noting that live video analytics is the “killer app” for edge computing. Edge devices come in various shapes and sizes […]\nThe post Don’t let data drift derail edge compute machine learning models appeared first on Microsoft Research.",
@@ -19952,6 +20222,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/04/google-at-iclr-2022.html",
+          "author": null,
+          "description": "Posted by Cat Armato and Callan Hajosy, Program Managers \nThe 10th International Conference on Learning Representations (ICLR 2022) kicks off this week, bringing together researchers, entrepreneurs, engineers and students alike to discuss and explore the rapidly advancing field of deep learning. Entirely virtual this year, ICLR 2022 offers conference and workshop tracks that present some of the latest research in deep learning and its applications to areas ranging from computer vision, speech recognition and text understanding to robotics, computational biology, and more. \n As a Platinum Sponsor of ICLR 2022 and Champion DEI Action Fund contributor, Google will have a robust presence with nearly 100 accepted publications and extensive participation on organizing committees and in workshops…",
+          "link": "http://ai.googleblog.com/2022/04/google-at-iclr-2022.html",
+          "publishedOn": "2022-04-25T19:46:00.000Z",
+          "wordCount": 3492,
+          "title": "Google at ICLR 2022",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/04/pix2seq-new-language-interface-for.html",
           "author": null,
@@ -20095,6 +20375,66 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/ubutae/simplegrid_env_for_openai_gym/",
+          "author": null,
+          "description": "SimpleGrid is a simple gridworld environment for OpenAI gym. It is easy to use and customise and it is intended to offer an environment for quick testing and prototyping different RL algorithms.\n I developed this environment by taking inspiration from the FrozenLake environment and gym-minigrid.\n Check it out at: https://github.com/damat-le/gym-simplegrid \n ​\n https://i.redd.it/prqd7muujqv81.gif\n    submitted by    /u/damat-le  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/ubutae/simplegrid_env_for_openai_gym/",
+          "publishedOn": "2022-04-25T20:35:38.000Z",
+          "wordCount": 165,
+          "title": "SimpleGrid env for OpenAI gym",
+          "imageUrl": "https://external-preview.redd.it/gpXDjPtzrQ4uB0KUJ9Eee72ko4HdjowDCqncDIuOyHs.jpg?auto=webp&s=55f4064641a4461901156317e2950669080c7500"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/ubtsms/hybrid_cpu_topology_impact_on_training/",
+          "author": null,
+          "description": "Hi, some newer CPU's (Apple M1, Intel Alder Lake) have started using a hybrid CPU topology. I.e. the CPU consists of some P-cores (high performance cores) and E-cores (slower 'eco' cores).\n I personally do not own such a CPU yet but I'm considering upgrading to one soon, so I am looking for experiences of people with such a CPU on training reinforcement models. Does everything work as expected? Are there annoyances?\n I'm using Ray Tune + RLlib in which I assign a single core per trial. In this case I'm expecting that trials running on E-cores will simply run (much) slower than those running on P-cores.\n In case a single trial gets assigned both a P-core and an E-core, I do expect a serious slow-down. \n These are all guesses really, so I'm looking for people with actual experience here.\n Thanks.\n    submitted by    /u/katsu9  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/ubtsms/hybrid_cpu_topology_impact_on_training/",
+          "publishedOn": "2022-04-25T19:52:44.000Z",
+          "wordCount": 255,
+          "title": "Hybrid CPU topology impact on training",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/ubt5d9/policy_iteration_on_openai_gym_taxiv3/",
+          "author": null,
+          "description": "Hey everyone,\n I managed to implement the policy iteration from Sutton & Barto, 2018 on the FrozenLake-v1 and wanted to do the same now Taxi-v3 environment.\n My code has been running now for 45min so I guess there is something wrong, but I can't wrap my head around what it could be.\n Would appreciate some input on what I need to change so that it will work.\n Please see my code here:\n ```[python] import gym # openAi gym import torch import matplotlib.pyplot as plt from tqdm import trange # progressbar\n torch.manual_seed(4)\n env = gym.make('Taxi-v3')\n def policy_evaluation(env: gym.Env, policy: torch.Tensor, gamma: float, threshold: float): V = torch.zeros(env.observation_space.n) delta = float(\"inf\")\n while delta >= threshold: V_tmp = torch.empty(env.observation_space.n) for state in range(…",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/ubt5d9/policy_iteration_on_openai_gym_taxiv3/",
+          "publishedOn": "2022-04-25T19:24:30.000Z",
+          "wordCount": 360,
+          "title": "Policy Iteration on OpenAI Gym taxi-v3",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/ublwii/iclr_2022_blog_post_the_37_implementation_details/",
+          "author": null,
+          "description": "submitted by    /u/vwxyzjn  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/ublwii/iclr_2022_blog_post_the_37_implementation_details/",
+          "publishedOn": "2022-04-25T14:03:28.000Z",
+          "wordCount": 206,
+          "title": "ICLR 2022 Blog Post: The 37 Implementation Details of Proximal Policy Optimization",
+          "imageUrl": "https://external-preview.redd.it/mnqsJgvqnJ7C9UGpRKUPXClOhXWXQpHOa5Hw_cL9jh4.jpg?auto=webp&s=ed6dce0956e984c7158effce70004b4f1cd84111"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/ubkuyi/deep_reinforcement_learning_free_class_by_hugging/",
+          "author": null,
+          "description": "Hey there!\n We're happy to announce the launch of the Hugging Face Deep Reinforcement Learning class! 🤗\n 👉 Register here https://forms.gle/oXAeRgLW4qZvUZeu9\n In this free course, you will:\n  \n📖 Study Deep Reinforcement Learning in theory and practice.\n 🧑‍💻 Learn to use famous Deep RL libraries such as Stable Baselines3, RL Baselines3 Zoo, and RLlib.\n 🤖 Train agents in unique environments with SnowballFight, Huggy the Doggo 🐶, and classical ones such as Space Invaders and PyBullet.\n 💾 Publish your trained agents in one line of code to the Hub. But also download powerful agents from the community.\n 🏆 Participate in challenges where you will evaluate your agents against other teams.\n 🖌️🎨 Learn to share your environments made with Unity and Godot.\n  \n👉 Register here https://forms.gle/oXAeRgLW4qZvUZeu9 \n 📚 The syllabus: https://github.com/huggingface/deep-rl-class\n https://preview.redd.it/b409a9sscov81.jpg?width=1920&format=pjpg&auto=webp&s=ebdfa10c220b5a3dec17894bc0f955ed9d8f7634\n If you have questions and feedback, I would love to answer them,\n Thanks,\n    submitted by    /u/cranthir_  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/ubkuyi/deep_reinforcement_learning_free_class_by_hugging/",
+          "publishedOn": "2022-04-25T13:12:44.000Z",
+          "wordCount": 343,
+          "title": "Deep Reinforcement Learning Free Class by Hugging Face 🤗",
+          "imageUrl": "https://external-preview.redd.it/2wdTcEJ0ttsp8lXt2MUVuD9v97RFJQScTaDHj11vpiE.jpg?auto=webp&s=a166d13a790c6c1f1e9ea548b898ef43c67e0bf2"
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/ubh59n/has_anyone_solved_deepmind_control_locomotion_in/",
+          "author": null,
+          "description": "Hi, I'm wondering if I could train the state-based locomotion well from the scratch. In my case, I trained SAC agent and It showed divergence of the q function. I think the cause is the unscaled vector input. Before the trouble shooting, I want to ask someone trained agent in this environment. Thank you for reading.\n https://github.com/deepmind/dm_control/tree/main/dm_control/locomotion\n    submitted by    /u/Spiritual_Fig3632  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/ubh59n/has_anyone_solved_deepmind_control_locomotion_in/",
+          "publishedOn": "2022-04-25T09:33:01.000Z",
+          "wordCount": 216,
+          "title": "Has anyone solved deepmind control locomotion in state-based?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/ub872r/cant_solve_openai_problems/",
           "author": null,
@@ -21944,66 +22284,6 @@
           "wordCount": 295,
           "title": "[Question][DRL] Are intermediate activations used during training?",
           "imageUrl": "https://external-preview.redd.it/o-Yq16CmbZYLfCx_y5VsD5fcOiaoLcN-zQO1j3qX2es.jpg?auto=webp&s=546795834d06ed5ac69b13898f1acf1fe4d9f163"
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tpj7eq/raveforce_in_2022_the_openai_gym_style_toolkit/",
-          "author": null,
-          "description": "submitted by    /u/chaosprint  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tpj7eq/raveforce_in_2022_the_openai_gym_style_toolkit/",
-          "publishedOn": "2022-03-27T12:46:28.000Z",
-          "wordCount": 148,
-          "title": "RaveForce in 2022: The OpenAI Gym style toolkit for music generation experiments just got better",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tpgi0k/is_my_problem_suited_for_solving_via/",
-          "author": null,
-          "description": "My goal is to determine the best course of actions to take given a certain state. \n I'm working in some state space X. For every x in X, I can assign it a value. When I perform an action a given x, I map x to some new state x'. The state x' depends on my action up to some noise produced by the environment. \n I think this is a reinforcement learning problem. What methods are suitable in this context?\n    submitted by    /u/heylanguage  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tpgi0k/is_my_problem_suited_for_solving_via/",
-          "publishedOn": "2022-03-27T09:34:22.000Z",
-          "wordCount": 341,
-          "title": "Is my problem suited for solving via reinforcement learning methods? What approach should I start with?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tpbg8h/deck_generation_using_reinforcement_learning/",
-          "author": null,
-          "description": "A brief overview of the game: A deck of 50 objects are chosen from a set of ~1000 objects. The game is then played out deterministically, and rewards are dished out based on win/loss. \n I would like to build a nn that can produce good decks , trained using self-play. However, I'm not too sure how to approach this problem. Relevant research or pointers would be very helpful. Thanks.\n    submitted by    /u/nutpeabutter  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tpbg8h/deck_generation_using_reinforcement_learning/",
-          "publishedOn": "2022-03-27T03:24:31.000Z",
-          "wordCount": 318,
-          "title": "Deck generation using reinforcement learning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tp0szc/some_confusions_about_actorcritic_a2c/",
-          "author": null,
-          "description": "In sutton's book, Actor-Critic firstly uses an approximated value function as a baseline, and uses the error to update the policy. In my opinion, the value function is used as a baseline since it assign high value to state with high expected return, and every action in this state have the same baseline. \n Pseudocode in sutton's book\n But I also see a Q-version of AC algorithm, which use Q function as the baseline. In this algorithm, the Q function is used to update the policy, and the TD error is used to update the Q function. How could we get this?\n Q Actor-critic\n Another question is about AC and A2C. Is expected return (G) minus baseline the same as the advantage function in A2C? If so, is that AC with baseline the same as A2C?\n    submitted by    /u/ZavierTi2021  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tp0szc/some_confusions_about_actorcritic_a2c/",
-          "publishedOn": "2022-03-26T19:24:15.000Z",
-          "wordCount": 248,
-          "title": "Some confusions about Actor-Critic, A2C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tozt3g/is_deep_rl_possible_on_microcontrollers/",
-          "author": null,
-          "description": "I am thinking of applying the deep rl on small scale robots. I have an Arduino Uno and some servos, so is it possible that deep rl can be applied using Arduino?\n    submitted by    /u/Better-Ad8608  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tozt3g/is_deep_rl_possible_on_microcontrollers/",
-          "publishedOn": "2022-03-26T18:34:49.000Z",
-          "wordCount": 297,
-          "title": "Is deep rl possible on microcontrollers?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tovpj0/a_possibly_stupid_question_about_deep_qlearning/",
-          "author": null,
-          "description": "Hi Guys! I am just starting out in RL and I have a possibly stupid question about deep q-learning. Why do all of the code examples train the model on its own discounted prediction plus the reward, if they could just record all of the rewards in an episode and then calculate the total discounted rewards from the actual rewards the agent got in the episode? At least in my Implementations, the latter strategy seems to outperform the former, both in regard to the time it took the model to converge and the quality of the learned policy.\n    submitted by    /u/KayJersch  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tovpj0/a_possibly_stupid_question_about_deep_qlearning/",
-          "publishedOn": "2022-03-26T16:16:26.000Z",
-          "wordCount": 680,
-          "title": "A possibly stupid question about deep q-learning",
-          "imageUrl": null
         }
       ]
     },
@@ -22663,26 +22943,6 @@
           "wordCount": 1478,
           "title": "Smart Maintenance – How SaaS Frameworks Turn Insights Into Actions Quickly And Efficiently",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_124464399.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56930",
-          "author": "Aileen Scott",
-          "description": "What is the toll-free number? Businesses provide a cloud-based contact number to allow customers to contact them free of cost. In India, this number- the business toll-free number is available in the 1800 series in an easily recognizable format- 1800-ABC-DEFG. Customers do not have to incur any fee to contact the business, as the company… Read More »Toll-free number: What is it, and how can you get one for your business?\nThe post Toll-free number: What is it, and how can you get one for your business? appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/toll-free-number-what-is-it-and-how-can-you-get-one-for-your-business/",
-          "publishedOn": "2022-03-27T08:41:11.000Z",
-          "wordCount": 1212,
-          "title": "Toll-free number: What is it, and how can you get one for your business?",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_481168446.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=56931",
-          "author": "Ryan Williamson",
-          "description": "With the exponential growth in the number of big data applications in the world, Testing in big data applications is related to database, infrastructure and performance testing, and functional testing. The advancement of technology is enabling the collection of a massive amount of data almost every second. And, big data has emerged as the buzzword… Read More »Top Strategies and Best Practices for Big Data Testing\nThe post Top Strategies and Best Practices for Big Data Testing appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/top-strategies-and-best-practices-for-big-data-testing/",
-          "publishedOn": "2022-03-27T07:42:35.000Z",
-          "wordCount": 1005,
-          "title": "Top Strategies and Best Practices for Big Data Testing",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg"
         }
       ]
     },
@@ -22691,6 +22951,36 @@
       "feedUrl": "https://www.johndcook.com/blog/feed",
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
+        {
+          "id": "https://www.johndcook.com/blog/?p=104115",
+          "author": "John",
+          "description": "A Blaschke product is a function that is the product of Blaschke factors, functions of the form b(z; a) = |a|  (a – z) / a (1 – a*z) where the complex number a lies inside the unit circle and a* is the complex conjugate of a. I wanted to plot Blaschke products with random […]\nRandom Blaschke products and Mathematica binding first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/04/25/random-blaschke-products/",
+          "publishedOn": "2022-04-26T00:02:36.000Z",
+          "wordCount": 646,
+          "title": "Random Blaschke products and Mathematica binding",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.johndcook.com/blog/?p=104104",
+          "author": "John",
+          "description": "The previous post explained how to define a projective plane over a field F. Now let’s look at how we do geometry in a projective plane. Definitions We have a definition of points from the other post: a point is a triple (a, b, c) of elements of F, with not all elements equal to […]\nProjective duality first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/04/25/projective-duality/",
+          "publishedOn": "2022-04-25T17:24:00.000Z",
+          "wordCount": 926,
+          "title": "Projective duality",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.johndcook.com/blog/?p=104087",
+          "author": "John",
+          "description": "Given a field F, finite or infinite, you can construct a projective plane over F by starting with pairs of elements of F and adding “points at infinity,” one point for each direction. Motivation: Bézout’s theorem A few days ago I mentioned Bézout’s theorem as an example of a simple theorem that rests on complex […]\nFinite projective planes first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/04/25/finite-projective-planes/",
+          "publishedOn": "2022-04-25T14:49:22.000Z",
+          "wordCount": 1343,
+          "title": "Finite projective planes",
+          "imageUrl": null
+        },
         {
           "id": "https://www.johndcook.com/blog/?p=103782",
           "author": "John",
