@@ -2,10 +2,623 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rsohlot.github.io/rss-feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-02T00:57:36.718Z</updated>
+    <updated>2022-05-03T00:59:02.107Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://rsohlot.github.io/rss-feed/index.html"/>
     <link rel="self" href="https://rsohlot.github.io/rss-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[D] How to do unsupervised anomaly detection in a principled way?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/uh2rhp/d_how_to_do_unsupervised_anomaly_detection_in_a/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/uh2rhp/d_how_to_do_unsupervised_anomaly_detection_in_a/"/>
+        <updated>2022-05-02T23:31:31.000Z</updated>
+        <summary type="html"><![CDATA[I have terabytes of tabular and image data. I want to determine what data points are novel/anomalous. I have a couple anchor data points for entities that are known and features about said entities.
+ Effectively I want to find things that are novel relative to my anchors without any labels for if something is actually interesting and not noise to train on.
+ Here's an analogy:
+  
+I have driving footage of a reference driver who is "perfectly" driving. I also have all of the sensor data: accelerometers, where the human is looking, etc.
+ I simulate 1000s of self-driving cars that are running their own agent models. I get data on all of these as well.
+ I deploy an agent to the real world that is expected to do better/comparable to the reference driver while having different model parameters. I don't know how this driving agent will do in the real world. I want to choose agent instantiations that are different from the rest in some regard (anomaly)
+ I'm constrained by how many deployments I can make. It's expensive and dangerous.
+  
+​
+ An issue I face with this is that there are dozens of models that will give me anomalous points, but sometimes they don't overlap at all. There's no consistency. Ideally I want to find data points that are novel in feature space (far away?), but expected to be functional... on non-labeled data.
+ So yea... after writing this it kind of sounds like just a screwed situation, but maybe someone here has an idea/experience of how to build a system that can enable this kind of parameter selection engine (suggesting novel parameters that are functional without any labeled data).
+    submitted by    /u/memproc  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Robert Magno (Run:AI) - Building the Best AI Infrastructure Stack to Accelerate Your Data Science]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/uh2m4b/robert_magno_runai_building_the_best_ai/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/uh2m4b/robert_magno_runai_building_the_best_ai/"/>
+        <updated>2022-05-02T23:23:52.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Dracutela  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[P] Transfer Learning with BERT, number of examples.]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/uh1wf9/p_transfer_learning_with_bert_number_of_examples/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/uh1wf9/p_transfer_learning_with_bert_number_of_examples/"/>
+        <updated>2022-05-02T22:48:23.000Z</updated>
+        <summary type="html"><![CDATA[I'm looking to make a review classifier (3 classification). It sounds like transfer learning is standard these days. But how many examples would generally be needed to make an improvement on the out of the box result? Would 1,000 be sufficient or realistically would it make to be in the 10's of thousands. Or is it a "how long is a piece of string question" edit: sorry wrong tag
+    submitted by    /u/mldude8  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What background knowledge is needed to understand traditional exploration methods?]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/uh1ick/what_background_knowledge_is_needed_to_understand/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/uh1ick/what_background_knowledge_is_needed_to_understand/"/>
+        <updated>2022-05-02T22:29:30.000Z</updated>
+        <summary type="html"><![CDATA[I can understand most traditional and current methods of reinforcement learning, however when it comes to traditional exploration methods such as UCB or PUCB I am mostly lost. I can understand the algorithms intuitively when explained, but when I go over the papers and look at the proofs/explanations there seems to be some background knowledge I am not privy to. The book Reinforcement Learning: An Introduction doesn't seem to go over these in-depth as well.
+ BTW I have a bachelor's and master's degree in Computer Science and have taken math classes such as statistics, calculus, LA, algorithms, ect.
+    submitted by    /u/Stochastic_Machine  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly China AI News: Beijing Issues First-Ever Driverless Robotaxi Permits; Huawei Anticipates AI Compute to Jump 500 Times by 2030; CogView2 Challenges DALL-E-2 With Better Results]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/uh13ip/weekly_china_ai_news_beijing_issues_firstever/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/uh13ip/weekly_china_ai_news_beijing_issues_firstever/"/>
+        <updated>2022-05-02T22:09:55.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/trcytony  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How many years away do you think we are from AI that can turn our old games into something that looks like UE5?]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/uh0z2d/how_many_years_away_do_you_think_we_are_from_ai/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/uh0z2d/how_many_years_away_do_you_think_we_are_from_ai/"/>
+        <updated>2022-05-02T22:04:01.000Z</updated>
+        <summary type="html"><![CDATA[To me it seems to make sense that we would begin relying more and more on AI to improve our old games. For example, ffxiv won't be getting raytracing anytime soon, but I imagine it's only a matter of time before I could download some AI-based image software (like Dall-E) that lets me tweak my gameplay experience to look much more realistic.
+  
+Do you think I'm right in assuming this is the likely trajectory of AI's use in game graphics?
+ And if the answer to 1 is yes, how far away do you think such technology is?
+  
+Thank you!
+    submitted by    /u/solidwhetstone  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Achieve hyperscale performance for model serving using NVIDIA Triton Inference Server on Amazon SageMaker]]></title>
+        <id>ca41bfb156ca03da3041d19681f4f8e3f26aefa2</id>
+        <link href="https://aws.amazon.com/blogs/machine-learning/achieve-hyperscale-performance-for-model-serving-using-nvidia-triton-inference-server-on-amazon-sagemaker/"/>
+        <updated>2022-05-02T20:30:50.000Z</updated>
+        <summary type="html"><![CDATA[Machine learning (ML) applications are complex to deploy and often require multiple ML models to serve a single inference request. A typical request may flow across multiple models with steps like preprocessing, data transformations, model selection logic, model aggregation, and postprocessing. This has led to the evolution of common design patterns such as serial inference […]]]></summary>
+        <author>
+            <name>Vikram Elango</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do you usually build neural networks from scratch or do you use a library dedicated to it?]]></title>
+        <id>https://www.reddit.com/r/neuralnetworks/comments/ugyi4y/do_you_usually_build_neural_networks_from_scratch/</id>
+        <link href="https://www.reddit.com/r/neuralnetworks/comments/ugyi4y/do_you_usually_build_neural_networks_from_scratch/"/>
+        <updated>2022-05-02T20:11:20.000Z</updated>
+        <summary type="html"><![CDATA[I´´m curious, I´ve seen both and while the ones using libraries sound harder to make, the ones made from scratch sound slightly sloppier. For context, I mean for predator-prey simulations and such, not image to text recognition or anything that hard.
+    submitted by    /u/HesAMagicalPoney55  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Neural Networks, Deep Learning and Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do you think that AI will ever be as smart as humans (AGI)? If you do think so, when or around what time period?]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugxpxv/do_you_think_that_ai_will_ever_be_as_smart_as/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugxpxv/do_you_think_that_ai_will_ever_be_as_smart_as/"/>
+        <updated>2022-05-02T19:35:55.000Z</updated>
+        <summary type="html"><![CDATA[Hey guys. I'm working on a project for school and would like to hear your guy's opinions as the leading AI subreddit on whether or not AGI will be achieved, and if so, when. I'd greatly appreciate your input!
+    submitted by    /u/SurroundSwimming3494  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build a corporate credit ratings classifier using graph machine learning in Amazon SageMaker JumpStart]]></title>
+        <id>f8814a9c31f9794fc4534fa3c01cde7f24d7586e</id>
+        <link href="https://aws.amazon.com/blogs/machine-learning/build-a-corporate-credit-ratings-classifier-using-graph-machine-learning-in-amazon-sagemaker-jumpstart/"/>
+        <updated>2022-05-02T18:52:21.000Z</updated>
+        <summary type="html"><![CDATA[Today, we’re releasing a new solution for financial graph machine learning (ML) in Amazon SageMaker JumpStart. JumpStart helps you quickly get started with ML and provides a set of solutions for the most common use cases that can be trained and deployed with just a few clicks. The new JumpStart solution (Graph-Based Credit Scoring) demonstrates […]]]></summary>
+        <author>
+            <name>Sanjiv Das</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Increase your content reach with automated document-to-speech conversion using Amazon AI services]]></title>
+        <id>3f85ab1c3652913c9223c17b0f6d3eec4a8a7b50</id>
+        <link href="https://aws.amazon.com/blogs/machine-learning/increase-your-content-reach-with-automated-document-to-speech-conversion-using-amazon-ai-services/"/>
+        <updated>2022-05-02T18:40:37.000Z</updated>
+        <summary type="html"><![CDATA[Reading the printed word opens up a world of information, imagination, and creativity. However, scanned books and documents may be difficult for people with vision impairment and learning disabilities to consume. In addition, some people prefer to listen to text-based content versus reading it. A document-to-speech solution extends the reach of digital content by giving […]]]></summary>
+        <author>
+            <name>Harry Pan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Help needed to understand Rllib attention model parameters]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/ugw4yy/help_needed_to_understand_rllib_attention_model/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/ugw4yy/help_needed_to_understand_rllib_attention_model/"/>
+        <updated>2022-05-02T18:24:19.000Z</updated>
+        <summary type="html"><![CDATA[Hi!
+ I recently started to learn about using attention (transformers). I use rllib implementation (https://docs.ray.io/en/latest/rllib/rllib-models.html#default-model-config-settings) which follows some paper. So far I have some understanding of transformers but I still don't understand everything. When playing with parameters I saw couple which I don't understand how these affect the learning and what they exactly do ( I looked at code and paper but still don't understand).
+ Can somebody explain what are these and how these affect the learning:
+ 1) attention_memory_inference
+ 2) attention_memory_training
+ (also related to previous point: when training why attention_memory_training and input sequence are concated? https://github.com/ray-project/ray/blob/master/rllib/models/torch/attention_net.py#L91 )
+ Many thanks :D
+    submitted by    /u/HBlackwooder  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Last Week in AI: AI helps model volcanoes, Anthropic gets $580M for more explainable AI, AI algorithms that screen for child neglect, and more!]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugw044/last_week_in_ai_ai_helps_model_volcanoes/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugw044/last_week_in_ai_ai_helps_model_volcanoes/"/>
+        <updated>2022-05-02T18:18:23.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/regalalgorithm  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is this how a simple parallel environment training works in DDPG/TD3 model?]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/ugv1vc/is_this_how_a_simple_parallel_environment/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/ugv1vc/is_this_how_a_simple_parallel_environment/"/>
+        <updated>2022-05-02T17:36:02.000Z</updated>
+        <summary type="html"><![CDATA[I tried to figure out how to do parallel environment training using TD3 or DDPG but just got bits and pieces of information, so this is what I came up with. This is what I have (a Unity "ant" environment):
+ One ant in one environment
+ But I want this:
+ Parallel ants in multiple environments
+ As a result, I can learn faster because I have more data. So here's how I envision parallel training:
+  
+Agents collect actions from one TD3/DDPG model.
+ Collect observations from all agents and put them into the memory buffer. Do 1 and 2 steps until every agent finishes its episode. If the agent finished its episode ahead of other agents, it simply waits.
+ Then comes the training DDPG/TD3 step. And repeat.
+  
+Would this type of training even work?
+    submitted by    /u/Dougller  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Present ML classification model results for non technical]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugui1v/d_present_ml_classification_model_results_for_non/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugui1v/d_present_ml_classification_model_results_for_non/"/>
+        <updated>2022-05-02T17:11:23.000Z</updated>
+        <summary type="html"><![CDATA[I wanna include Machine Learning classification (str target) results into a web platform, what informations that I can show and will be meaningful , I can already think of (Predicted value, Accuracy, Probability) what else I can include, graphics or anything useful to present my results for non technical people (clients)?
+    submitted by    /u/According-Promise-23  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Question] Interval Branch and Bound]]></title>
+        <id>https://www.reddit.com/r/neuralnetworks/comments/ugtr4i/question_interval_branch_and_bound/</id>
+        <link href="https://www.reddit.com/r/neuralnetworks/comments/ugtr4i/question_interval_branch_and_bound/"/>
+        <updated>2022-05-02T16:38:41.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone,
+ I'm studying the Branch and Bound algorithm, and I got a question (Reddit looks like the perfect place to ask other experienced people).
+ I already have a working Branch and Bound algorithm but I want to adapt it to be working with intervals instead of one single value. And how do I do it?
+ ​
+ On Branch and Bound I have something like:
+ For each sample, I'm calculating the costs and then running the bab algorithm with those and my values.
+ if (x - y < 0) then keep going with the tree
+ else stop with the search
+ But when adapting for Interval Branch and Bound would be something like:
+ if ((x + ∆x) - (y+∆y) < 0) keep going with the tree
+ else stop with the search
+ and then I still need to check for the other bound (x - ∆x).
+ ​
+ I will need to calculate twice the costs (once for each bound) and search the tree one time also for each cost? I can be saying a really big mistake, but that's why I'm here. Someone can help be clarifying my problem?
+ Thank you for your attention.
+    submitted by    /u/Zarathos_PT  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Neural Networks, Deep Learning and Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why target ads at pregnant women]]></title>
+        <id>https://www.johndcook.com/blog/?p=104738</id>
+        <link href="https://www.johndcook.com/blog/2022/05/02/pregnant/"/>
+        <updated>2022-05-02T16:13:18.000Z</updated>
+        <summary type="html"><![CDATA[I’m listening to a podcast interviewing Neil Richards, the author of Why Privacy Matters. Richards makes a couple interesting points about the infamous example of Target figuring out which women were pregnant based on their purchase history. First, pregnancy is a point at which women are open to trying new things. So if a company […]
+Why target ads at pregnant women first appeared on John D. Cook.]]></summary>
+        <author>
+            <name>John</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mown Away: Startup Rolls Out Autonomous Lawnmower With Cutting-Edge Tech]]></title>
+        <id>https://blogs.nvidia.com/?p=56823</id>
+        <link href="https://blogs.nvidia.com/blog/2022/05/02/scythe-autonomous-lawnmower/"/>
+        <updated>2022-05-02T16:00:28.000Z</updated>
+        <summary type="html"><![CDATA[Jack Morrison and Isaac Roberts, co-founders of Replica Labs, were restless two years after their 3D vision startup was acquired, seeking another adventure. Then, in 2018, when Morrison was mowing his lawn, it struck him: autonomous lawn mowers. The two, along with Davis Foster, co-founded Scythe Robotics. The company, based in Boulder, Colo., has a Read article >
+The post Mown Away: Startup Rolls Out Autonomous Lawnmower With Cutting-Edge Tech appeared first on NVIDIA Blog.]]></summary>
+        <author>
+            <name>Scott Martin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Business Model Transformation: Keys to Monetizing the Edge]]></title>
+        <id>https://www.datasciencecentral.com/?p=57443</id>
+        <link href="https://www.datasciencecentral.com/datastrategist-datamanagement-datascience/"/>
+        <updated>2022-05-02T15:42:06.000Z</updated>
+        <summary type="html"><![CDATA[I was conducting a Tech Talk at a client when I mentioned the astronomical growth of data at “the edge”; that data creation at the edge is growing almost as fast as that in the cloud according to IDC. This sent a noticeable ripple across the executive team audience.  The executives immediately began debating “How… Read More »Business Model Transformation: Keys to Monetizing the Edge
+The post Business Model Transformation: Keys to Monetizing the Edge appeared first on Data Science Central.]]></summary>
+        <author>
+            <name>Bill Schmarzo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Ways Technology is Changing Healthcare: How Innovation is Impacting the Medical Industry]]></title>
+        <id>https://medium.com/p/f405f0d31981</id>
+        <link href="https://becominghuman.ai/10-ways-technology-is-changing-healthcare-how-innovation-is-impacting-the-medical-industry-f405f0d31981?source=rss----5e5bef33608a---4"/>
+        <updated>2022-05-02T15:38:50.000Z</updated>
+        <summary type="html"><![CDATA[Source: Managed Healthcare Executive]]></summary>
+        <author>
+            <name>Amyra Sheldon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] How do some people publish so much in this field?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugrucs/d_how_do_some_people_publish_so_much_in_this_field/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugrucs/d_how_do_some_people_publish_so_much_in_this_field/"/>
+        <updated>2022-05-02T15:12:56.000Z</updated>
+        <summary type="html"><![CDATA[I'm not talking about PIs necessarily, but sometimes I search up other grad students in my department or people who email me and some of them have 10+ first author papers a year? I don't really understand how this is possible; I don't think I'm the best implementer out there but it would take me at least 2-3 months to read the literature, come up with a new research question, run experiments, iterate and write up. I mostly work with just me and my advisor though, maybe that's the difference?
+ If you're one of these people, are you just hyper-productive? Already supervising students? Or collaborating with a ton of people and not doing a high proportion of work on any project?
+    submitted by    /u/IPvIV  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's the involvement of AI in Transforming the Media & Entertainment]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugrt3y/whats_the_involvement_of_ai_in_transforming_the/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugrt3y/whats_the_involvement_of_ai_in_transforming_the/"/>
+        <updated>2022-05-02T15:11:15.000Z</updated>
+        <summary type="html"><![CDATA[Artificial intelligence (AI) will continue to disrupt the media sector, just as it did in 2020 and 2021. AI will most likely fulfill the three critical roles of recommendation, speech recognition, and media automation in this market. 
+ Read more: Artificial Intelligence will Continue to Transform the M&E Landscape
+    submitted by    /u/JencyJane  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[P] Pretraining dense retrievers with masked language model objective(REALM)]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugrr21/p_pretraining_dense_retrievers_with_masked/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugrr21/p_pretraining_dense_retrievers_with_masked/"/>
+        <updated>2022-05-02T15:08:35.000Z</updated>
+        <summary type="html"><![CDATA[Hi, I made a video explaining REALM. It is a pretraining method for dense retrievers. It uses a language model along with a retriever for pretraining. 
+ Given a random masked sentence like "Each angle in an equilateral triangle is [MASK]", the retriever gets top passages that might contain information about equilateral triangles. The passages are then passed to a language model to predict the value for each "[MASK]" token. Using this MLM objective, as model performance improves so does the quality of retrieval. A simple and effective idea for pretraining.
+ This is the final video of our series on Open-domain question answering using dense retrievers. I will appreciate any feedback. Thanks for the support till now.
+ https://www.youtube.com/watch?v=aQcoI1t6HOs
+    submitted by    /u/infiniteakashe  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet the Omnivore: 3D Artist Creates Towering Work With NVIDIA Omniverse]]></title>
+        <id>https://blogs.nvidia.com/?p=56857</id>
+        <link href="https://blogs.nvidia.com/blog/2022/05/02/edward-mcevenue-omniverse-creator/"/>
+        <updated>2022-05-02T15:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Edward McEvenue grew up making claymations in LEGO towns. Now, he’s creating photorealistic animations in virtual cities, drawing on more than a decade of experience in the motion graphics industry.
+The post Meet the Omnivore: 3D Artist Creates Towering Work With NVIDIA Omniverse appeared first on NVIDIA Blog.]]></summary>
+        <author>
+            <name>Angie Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Artificial Intelligence Implications: The Future of Modern Wargaming! (Would love some feedback on a University blog post surrounding Wargaming and the use of AI!)]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugrfco/artificial_intelligence_implications_the_future/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugrfco/artificial_intelligence_implications_the_future/"/>
+        <updated>2022-05-02T14:53:40.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/RvZz11  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Kaggle in Machine Learning Projects]]></title>
+        <id>https://machinelearningmastery.com/?p=13540</id>
+        <link href="https://machinelearningmastery.com/using-kaggle-in-machine-learning-projects/"/>
+        <updated>2022-05-02T14:02:04.000Z</updated>
+        <summary type="html"><![CDATA[You’ve probably heard of Kaggle data science competitions, but did you know that Kaggle has many other features that can help you with your next machine learning project? For people looking for datasets for their next machine learning project, Kaggle allows you to access public datasets by others and share your own datasets. For those […]
+The post Using Kaggle in Machine Learning Projects appeared first on Machine Learning Mastery.]]></summary>
+        <author>
+            <name>Zhe Ming Chng</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Curiously simple approximations]]></title>
+        <id>https://www.johndcook.com/blog/?p=104727</id>
+        <link href="https://www.johndcook.com/blog/2022/05/02/curiously-simple-approximations/"/>
+        <updated>2022-05-02T13:52:18.000Z</updated>
+        <summary type="html"><![CDATA[As I’ve written about here and elsewhere, the following simple approximations are fairly accurate. log10 x ≈ (x-1)/(x+1) loge x ≈ 2 (x – 1)/(x + 1) log2 x ≈ 3(x – 1)/(x + 1) It’s a little surprising that each is as accurate as it is, but it’s also surprising that the approximations for […]
+Curiously simple approximations first appeared on John D. Cook.]]></summary>
+        <author>
+            <name>John</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unity with MLAgents, Isaac Gym, OpenAI Gym and other environments to experiment with reinforcement learning]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/ugpkk2/unity_with_mlagents_isaac_gym_openai_gym_and/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/ugpkk2/unity_with_mlagents_isaac_gym_openai_gym_and/"/>
+        <updated>2022-05-02T13:24:17.000Z</updated>
+        <summary type="html"><![CDATA[Hello, I am a master's student in computer science and I am specializing in artificial intelligence. I am approaching reinforcement learning for the first time in an intelligent robotics course, and would like to experiment with these techniques in a simulated environment. I'm looking for something that is not too complex to learn (I want to focus more on algorithm implementation and simulation rather than spending months figuring out the tool) and that gives enough freedom to modify and implement. Unity seemed interesting because a possible application of these techniques that I would like to explore is in the world of gaming and simulation, but I do not know if a solid knowledge of Unity is required to set up a decent environment before you can get into the experiments. Moreover, I don't know up to what level of detail is possible to enter in the case of MLAgents and how much is possible to customize. Do you recommend one of these that I proposed in the title or also other? Also, do you recommend some material (books, videos, courses, tutorials) to study that is a good compromise between explanation of the tool and theoretical part?
+ Thanks in advance!
+    submitted by    /u/Parruck  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Where did MT-NLG go wrong with their scaling experiments, comparing its capabilities to PaLM?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugp6b6/d_where_did_mtnlg_go_wrong_with_their_scaling/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugp6b6/d_where_did_mtnlg_go_wrong_with_their_scaling/"/>
+        <updated>2022-05-02T13:03:46.000Z</updated>
+        <summary type="html"><![CDATA[The MT-NLG model was 530B parameters compared to PaLM's 540B. They seem to have done things correctly from what I skimmed, However their model is neither that impressive on benchmarks, nor does it demonstrate any special capabilities.
+ So what was the reason MT-NLG didn't work as well as expected? Is it possible it has abilities to explain jokes (on par PaLM) but they were undiscovered by the authors? Or are there any gaping flaws in how they scale the different hyperameters (heads, layers, dims etc.)?
+ Perhaps such an analysis has already been done, but I would love to see what you guys think about why it underperformed... In such an unknown area as this, it seems that unless one scales models with multiple attempts it's hard to accurately judge when we would have reached the point where scaling laws fall off.
+    submitted by    /u/Competitive-Rub-1958  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[R] How to access CVPR 21 workshop extended abstracts?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugo8ri/r_how_to_access_cvpr_21_workshop_extended/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugo8ri/r_how_to_access_cvpr_21_workshop_extended/"/>
+        <updated>2022-05-02T12:11:56.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone, I intend to submit a short paper to a 2022 CVPR workshop. I wanted to get inspiration from other CVPR short abstracts to see how they are written, their structure and so on. However, I'm really struggling a lot to find a place on the internet where I can download workshop extended abstracts from.
+ Does anyone know where one can download the 2021 CVPR workshop short papers?
+    submitted by    /u/BigDataOverflow  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Best Machine Learning Courses for Beginners, Advanced learn in 2022 -]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugltle/5_best_machine_learning_courses_for_beginners/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugltle/5_best_machine_learning_courses_for_beginners/"/>
+        <updated>2022-05-02T09:33:33.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/maneesh123456  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[creating custom environment for training RL agent]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/ugl74u/creating_custom_environment_for_training_rl_agent/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/ugl74u/creating_custom_environment_for_training_rl_agent/"/>
+        <updated>2022-05-02T08:47:10.000Z</updated>
+        <summary type="html"><![CDATA[Hi, I'm working on a project on 2d image reassembly using reinforcement learning. I want to create a custom (puzzle) environment for doing RL. Is there anyway to create a custom environment that can be integrated with gym. If so, how to create one? Thanks.
+    submitted by    /u/Praveen_Raja22  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to deepfake an audio where you just change the voice but keep what’s been said.]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugl26s/how_to_deepfake_an_audio_where_you_just_change/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugl26s/how_to_deepfake_an_audio_where_you_just_change/"/>
+        <updated>2022-05-02T08:36:58.000Z</updated>
+        <summary type="html"><![CDATA[For example: The scene from Taxi Driver where the protagonist speaks with himself in front of the mirror, how to keep what he’s saying but change his voice for Morgan Freeman’s voice.
+    submitted by    /u/Accomplished-Door-61  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Train model to predict continuous variable ranging from 0 to 1 using images as input.]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugkws7/d_train_model_to_predict_continuous_variable/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugkws7/d_train_model_to_predict_continuous_variable/"/>
+        <updated>2022-05-02T08:25:39.000Z</updated>
+        <summary type="html"><![CDATA[I have thousands of images of structures that I am trying to use to train a NN to predict their parameters. The inputs are the 2D images of the structure, and the output is the 1 parameter I am trying to predict (I have 2 parameters I am trying to predict but one is fine too). 
+ I have tried using the dimensions of the structure to predict the parameters but the error was too high.
+ What do you recommend I do for this? 
+ Links are appreciated
+    submitted by    /u/ftority  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Scraping with Python - Learning the Basics | Rubik's Code]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugku44/web_scraping_with_python_learning_the_basics/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugku44/web_scraping_with_python_learning_the_basics/"/>
+        <updated>2022-05-02T08:19:53.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/RubiksCodeNMZ  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spoofing detector using YoloV4 Tiny 3L]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugkpm0/spoofing_detector_using_yolov4_tiny_3l/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugkpm0/spoofing_detector_using_yolov4_tiny_3l/"/>
+        <updated>2022-05-02T08:10:11.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Gloomy_Recognition_4  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] How do you test (unit, integration) your Machine Learning models/pipelines?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugkeut/d_how_do_you_test_unit_integration_your_machine/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugkeut/d_how_do_you_test_unit_integration_your_machine/"/>
+        <updated>2022-05-02T07:48:04.000Z</updated>
+        <summary type="html"><![CDATA[First things first, do you test them at all? Practices can differ across companies..
+ Secondly, I believe that testing process can differ based on the model use case (CV, NLP..) but is there any unified set of recommendations, good practices?
+  
+Can general approaches regarding unit and integration testing practices be applied to ML models/pipelines?
+ What is your approach to this? If you feel like writing maybe you could write in comments: 
+ Area of ML that you are talking about: traditional ml algorithms, CV models, NLP models
+ What are you testing? 
+ Is it the validity of the forward pass? (example: unit testing the shapes)
+ Is it the validity of the training loop? (somehow)
+ Are you testing if your model's performance is above some threshold? (example: accuracy, F1, bleu, maybe execution time?)
+ Are you testing if your model is making correct predictions on some crucial cases
+ Are you testing important metrics related to your dataset? (example: if it's properly standardized)
+ 
+ 
+  
+Some of this things can be tested pretty easily and don't require automated tests, but it is nice to have them. Do you have some other ways to do sanity checks?
+ Please feel free to add other aspects of ML models/pipelines which are worth testing. Looking forward to your insights!
+    submitted by    /u/Icy_Fisherman7187  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI2 Open-Sources ‘LM-Debugger’: An Interactive Tool For Inspection And Intervention In Transformer-Based Language Models]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugjne0/ai2_opensources_lmdebugger_an_interactive_tool/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugjne0/ai2_opensources_lmdebugger_an_interactive_tool/"/>
+        <updated>2022-05-02T06:52:52.000Z</updated>
+        <summary type="html"><![CDATA[In natural language processing, a language model is a probabilistic statistical model that calculates the likelihood of a specific sequence of words appearing in a phrase based on the preceding words. As a result, it’s common in predictive text input systems, speech recognition, machine translation, and spelling correction, among other applications. They are a method of converting qualitative text information into quantitative data that machines can interpret.
+ Modern NLP models rely on transformer-based language models (LMs). However, a lot more research is to be done under their fundamental prediction development process. Unclear prediction behavior becomes an obstacle for both end-users who don’t comprehend why a model generates certain predictions and developers who want to diagnose or fix model behavior.
+ A new paper published by a group of researchers from Allen Institute for AI, Tel Aviv University, Bar-Ilan University, and the Hebrew University of Jerusalem introduces LM-Debugger, an interactive open-source tool for fine-grained interpretation and intervention in LM predictions. This work will increase the transparency of LMs.
+ Continue Reading
+ Paper: https://arxiv.org/abs/2204.12130
+ Github: https://github.com/mega002/lm-debugger
+    submitted by    /u/No_Coffee_4638  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A new Trading AI?]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugjl4p/a_new_trading_ai/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugjl4p/a_new_trading_ai/"/>
+        <updated>2022-05-02T06:48:13.000Z</updated>
+        <summary type="html"><![CDATA[Hello Everybody. I have this idea for a trading bot but realised its more in the realm of AI. Im highly uneducated in this field and dont know what im talking about. If possible could someone please answer a few questions. I have found a super successful Day Trader that ive been learning from for a couple months. Hes supposedly "reverse engineered the markets" Ive drawn the trend lines and done the technical analysis hes taught me and its scarily accurate. My only problem is Day Tradimg takes time. So if i could have a bot understand his "science" and do it while im not there it would be a free money hack lol. Q1: How hard is it on a scale of 1-10 to develop/create a Trading AI? Q2: Could someone estimate what a project like this would cost me? Q3: Has a trading AI ever been created?
+ I really appreciate if you read through this and i would really really appreciate answers. Thanks :)
+    submitted by    /u/just_conor12  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] What program/software can make animations like this?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugios2/d_what_programsoftware_can_make_animations_like/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugios2/d_what_programsoftware_can_make_animations_like/"/>
+        <updated>2022-05-02T05:45:41.000Z</updated>
+        <summary type="html"><![CDATA[Hi, looking for advice for software/programs that can make animations like this one - thanks!
+ https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Infinitely_wide_neural_network.webm/Infinitely_wide_neural_network.webm.360p.vp9.webm
+    submitted by    /u/unital  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[R] A very preliminary analysis of DALL-E 2]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugii9h/r_a_very_preliminary_analysis_of_dalle_2/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugii9h/r_a_very_preliminary_analysis_of_dalle_2/"/>
+        <updated>2022-05-02T05:33:28.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/hardmaru  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are PDF Documents a Thing of the Past?]]></title>
+        <id>https://www.datasciencecentral.com/?p=57465</id>
+        <link href="https://www.datasciencecentral.com/are-pdf-documents-a-thing-of-the-past/"/>
+        <updated>2022-05-02T03:58:48.000Z</updated>
+        <summary type="html"><![CDATA[There has been many articles predicting the death of the PDF format, invented in 1993. Some of these articles are 10 years old: you can find them by googling “death of PDF”. With the advent of fluid or liquid layout design on almost every website, widespread Internet browsing on small devices (cell phones), notebooks combining… Read More »Are PDF Documents a Thing of the Past?
+The post Are PDF Documents a Thing of the Past? appeared first on Data Science Central.]]></summary>
+        <author>
+            <name>Vincent Granville</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Poker AI Plays Itself]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/uggiso/poker_ai_plays_itself/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/uggiso/poker_ai_plays_itself/"/>
+        <updated>2022-05-02T03:26:40.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/bluboxsw  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[P] The easiest way to process and tag video data]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugg2bz/p_the_easiest_way_to_process_and_tag_video_data/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugg2bz/p_the_easiest_way_to_process_and_tag_video_data/"/>
+        <updated>2022-05-02T02:59:17.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/happybirthday290  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] How to effectively sample from high dimensional space and create data-efficient training.]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/ugfotg/d_how_to_effectively_sample_from_high_dimensional/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/ugfotg/d_how_to_effectively_sample_from_high_dimensional/"/>
+        <updated>2022-05-02T02:37:58.000Z</updated>
+        <summary type="html"><![CDATA[So I have been working on generating data and creating a neural network to predict deformation in meshes, given some mesh parameters like thickness, elasticity, point of force, etc.
+ What I know for sure is these parameters that I am creating a dataset for are/will be in a range and some meshes will have the same deformation for some combined different values of these parameters.
+ What I have tried is uniformly sample from each of these parameters but this seems very data inefficient because there might be some blind spots in the combined sampling, say deformation for a particular combination of parameters can be different and unseen.
+ My questing is how do you efficiently sample from a large multi-dimensional space, is there a better training method that would somehow inform another network to sample efficiently?
+ ​
+ I will be happy to explain more if this is somehow unclear.
+    submitted by    /u/bitemenow999  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI News | AI Powered Robotic Boat Autonomously Cleans Harbors And Rivers | AI Cataract Detection | Machine Learning To Only Propose Molecules Which Are Synthesizable In Lab]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/ugerj2/ai_news_ai_powered_robotic_boat_autonomously/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/ugerj2/ai_news_ai_powered_robotic_boat_autonomously/"/>
+        <updated>2022-05-02T01:45:47.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/getrich_or_diemining  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[On the Optimization of Margin Distribution. (arXiv:2204.14118v1 [cs.LG])]]></title>
         <id>http://arxiv.org/abs/2204.14118</id>
@@ -8895,6 +9508,17 @@ see more in the getting started guide: https://gradio.app/getting_started/
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Techniques to Write Better Python Code]]></title>
+        <id>https://machinelearningmastery.com/?p=13534</id>
+        <link href="https://machinelearningmastery.com/techniques-to-write-better-python-code/"/>
+        <updated>2022-04-29T14:47:30.000Z</updated>
+        <summary type="html"><![CDATA[We write a program to solve a problem or make a tool that we can repeatedly solve a similar problem. For the latter, it is inevitable that we come back to revisit the program we wrote, or someone else is reusing the program we write. There is also a chance that we will encounter data […]
+The post Techniques to Write Better Python Code appeared first on Machine Learning Mastery.]]></summary>
+        <author>
+            <name>Adrian Tam</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[P] Hot Reloading for Pandas]]></title>
         <id>https://www.reddit.com/r/MachineLearning/comments/uemwxw/p_hot_reloading_for_pandas/</id>
         <link href="https://www.reddit.com/r/MachineLearning/comments/uemwxw/p_hot_reloading_for_pandas/"/>
@@ -9942,6 +10566,17 @@ We've created a transformers-based model on top of a language specific BERT mode
  [link]   [comments]]]></summary>
         <author>
             <name>Neural Networks, Deep Learning and Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Take Your Machine Learning Skills Global]]></title>
+        <id>https://machinelearningmastery.com/?p=13531</id>
+        <link href="https://machinelearningmastery.com/take-your-machine-learning-skills-global/"/>
+        <updated>2022-04-28T02:48:36.000Z</updated>
+        <summary type="html"><![CDATA[Sponsored Post In our interconnected world, a decision made thousands of miles away can have lasting consequences for entire organizations or economies. When small changes have big effects, it is unsurprising that companies and governments are turning to machine learning and AI to accurately predict risk. ​ How the Global Community is Applying Machine Learning […]
+The post Take Your Machine Learning Skills Global appeared first on Machine Learning Mastery.]]></summary>
+        <author>
+            <name>MLM Team</name>
         </author>
     </entry>
     <entry>
@@ -14344,6 +14979,17 @@ MA-Echo, which clearly outperforms the state-of-the-arts.]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Google Colab for Machine Learning Projects]]></title>
+        <id>https://machinelearningmastery.com/?p=13494</id>
+        <link href="https://machinelearningmastery.com/google-colab-for-machine-learning-projects/"/>
+        <updated>2022-04-27T19:39:20.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever wanted an easy-to-configure interactive environment to run your machine learning code that came with access to GPUs for free? Google Colab is the answer you’ve been looking for. It is a convenient and easy to use way to run Jupyter notebooks on the cloud and their free version comes with some limited […]
+The post Google Colab for Machine Learning Projects appeared first on Machine Learning Mastery.]]></summary>
+        <author>
+            <name>Zhe Ming Chng</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[John Deere is becoming one of the world's most important AI companies]]></title>
         <id>https://www.reddit.com/r/artificial/comments/udba4b/john_deere_is_becoming_one_of_the_worlds_most/</id>
         <link href="https://www.reddit.com/r/artificial/comments/udba4b/john_deere_is_becoming_one_of_the_worlds_most/"/>
@@ -15989,6 +16635,17 @@ I am the main author & feel free to ask me anything here.
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Multiprocessing in Python]]></title>
+        <id>https://machinelearningmastery.com/?p=13492</id>
+        <link href="https://machinelearningmastery.com/multiprocessing-in-python/"/>
+        <updated>2022-04-25T14:02:57.000Z</updated>
+        <summary type="html"><![CDATA[When you work on a computer vision project, you probably need to preprocess a lot of image data. This is time-consuming, and it would be great if you could process multiple images in parallel. Multiprocessing is the ability of a system to run multiple processors at one time. If you had a computer with a […]
+The post Multiprocessing in Python appeared first on Machine Learning Mastery.]]></summary>
+        <author>
+            <name>Daniel Chung</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[I don't think this was posted here before but it's incredible. The latest image generation from text]]></title>
         <id>https://www.reddit.com/r/neuralnetworks/comments/ubltsu/i_dont_think_this_was_posted_here_before_but_its/</id>
         <link href="https://www.reddit.com/r/neuralnetworks/comments/ubltsu/i_dont_think_this_was_posted_here_before_but_its/"/>
@@ -16271,6 +16928,17 @@ Is the owner of the ImageNet dataset on Kaggle performing a selfless public serv
  [link]   [comments]]]></summary>
         <author>
             <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive Course on Optimizing Search Engines With Ricardo Baeza-Yates Starting May 10]]></title>
+        <id>https://machinelearningmastery.com/?p=13523</id>
+        <link href="https://machinelearningmastery.com/interactive-course-on-optimizing-search-engines-with-ricardo-baeza-yates-starting-may-10/"/>
+        <updated>2022-04-24T22:00:19.000Z</updated>
+        <summary type="html"><![CDATA[Sponsored Post Search systems are in the process of being revolutionized by Deep Learning and AI applications. To successfully evaluate, build, deploy and scale information retrieval systems, engineers working with search systems must understand the frameworks and algorithms that underpin this technology. Professors Ricardo Baeza-Yates (Northeastern University) has done research on information retrieval and web […]
+The post Interactive Course on Optimizing Search Engines With Ricardo Baeza-Yates Starting May 10 appeared first on Machine Learning Mastery.]]></summary>
+        <author>
+            <name>MLM Team</name>
         </author>
     </entry>
     <entry>
@@ -21488,6 +22156,17 @@ Object detection is a long-standing computer vision task that attempts to recogn
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Web Frameworks for Your Python Projects]]></title>
+        <id>https://machinelearningmastery.com/?p=13483</id>
+        <link href="https://machinelearningmastery.com/web-frameworks-for-your-python-projects/"/>
+        <updated>2022-04-22T14:00:39.000Z</updated>
+        <summary type="html"><![CDATA[When we finished a Python project and roll it out for other people to use it, the easiest is to present our project as a command line program. If you want to make it friendlier, you may want to develop a GUI for your program so people can interact with the program with mouse clicks […]
+The post Web Frameworks for Your Python Projects appeared first on Machine Learning Mastery.]]></summary>
+        <author>
+            <name>Adrian Tam</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[7 Ways Your Business Can Plan For Artificial Intelligence]]></title>
         <id>https://medium.com/p/fc5449871adf</id>
         <link href="https://becominghuman.ai/7-ways-your-business-can-plan-for-artificial-intelligence-fc5449871adf?source=rss----5e5bef33608a---4"/>
@@ -22814,6 +23493,17 @@ Here are some illustrations:
  [link]   [comments]]]></summary>
         <author>
             <name>Neural Networks, Deep Learning and Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A First Course on Deploying Python Projects]]></title>
+        <id>https://machinelearningmastery.com/?p=13475</id>
+        <link href="https://machinelearningmastery.com/a-first-course-on-deploying-python-projects/"/>
+        <updated>2022-04-20T13:45:53.000Z</updated>
+        <summary type="html"><![CDATA[After all the hard work on developing a project in Python, we want to share our project with other people. It can be your friend or your colleagues. Maybe they do not interested in your code, but they want to run it and make some real use of it. An example is you created a […]
+The post A First Course on Deploying Python Projects appeared first on Machine Learning Mastery.]]></summary>
+        <author>
+            <name>Adrian Tam</name>
         </author>
     </entry>
     <entry>
@@ -50752,1016 +51442,6 @@ Below are some examples of clusters our method found in ImageNet.
  [link]   [comments]]]></summary>
         <author>
             <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Active non-ML research areas?]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/tv829c/active_nonml_research_areas/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/tv829c/active_nonml_research_areas/"/>
-        <updated>2022-04-03T12:22:42.000Z</updated>
-        <summary type="html"><![CDATA[What are the most active non-ML/statistical research areas in AI?
- Are there any recent books published that give an overview of such areas?
- Seems like AI is now either ML or people saying that ML won’t work, but vague on alternatives.
-    submitted by    /u/spookyplatypus  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Heard about Github Copilot? Now Meet Salesforce's 'CodeGen’ : An AI Model That Turns Simple Natural Language Requests Into Executable Code]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/tv133y/heard_about_github_copilot_now_meet_salesforces/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/tv133y/heard_about_github_copilot_now_meet_salesforces/"/>
-        <updated>2022-04-03T04:40:09.000Z</updated>
-        <summary type="html"><![CDATA[Imagine being able to tell a machine to write an app simply by telling it what the app does. As far-fetched as it may appear, this scenario is already a reality.
- According to Salesforce AI Research, conversational AI programming is a new paradigm that brings this vision to life, thanks to an AI system that builds software.
- Introducing CodeGen: Creating Programs from Prompts
- The large-scale language model, CodeGen, which converts simple English prompts into executable code, is the first step toward this objective. The person doesn’t write any code; instead, (s)he describes what (s)he wants the code to perform in normal language, and the computer does the rest.
- Conversational AI refers to technologies that allow a human and a computer to engage naturally through a conversation. Chatbots, voice assistants, and virtual agents are examples of conversational AI.
- Continue Reading
- Paper: https://arxiv.org/pdf/2203.13474.pdf
- Github: https://github.com/salesforce/CodeGen
- https://i.redd.it/dbyba3dct8r81.gif
-    submitted by    /u/No_Coffee_4638  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dan Huttenlocher ponders our human future in an age of artificial intelligence]]></title>
-        <id>https://news.mit.edu/2022/huttenlocher-age-of-ai-0403</id>
-        <link href="https://news.mit.edu/2022/huttenlocher-age-of-ai-0403"/>
-        <updated>2022-04-03T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For the MIT Schwarzman College of Computing dean, bringing disciplines together is the best way to address challenges and opportunities posed by rapid advancements in computing.]]></summary>
-        <author>
-            <name>Adam Zewe | MIT News Office</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are there any real life projects I could do with this? How do I get ideas to use this?]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/tuzq36/are_there_any_real_life_projects_i_could_do_with/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/tuzq36/are_there_any_real_life_projects_i_could_do_with/"/>
-        <updated>2022-04-03T03:22:28.000Z</updated>
-        <summary type="html"><![CDATA[I tried using RL for some work at my university, it did not really work all that well. 
- I'm wondering if there are some real life scenarios that I could use to create my own personal projects. Otherwise, I'd be fine with games. 
- I want to try all of it out from Dynamic Programming to crazy ass stuff like A3C, PPO and so on. I like RL, more so than any other form of ML, and I want to play around with it as a hobby. 
- This is really the area of ML for me. For starters, there are fundamentals behind it, so you can mostly explain why agents do one thing or another. Additionally, there isn't a need to have massive amounts of data. It's also the only type of ML that I've been able to successfully use with software engineering. 
- Designing the agent and the API it uses to take actions in an environment is as much a software engineering project as is creating a REST API. 
- I feel there is a lot of potential for me to go crazy with this, and I was wondering if people have any cool suggestions. Anything that is real time is anything that I want to do. Real time systems and RL are exactly the sort of thing I love to do.
-    submitted by    /u/HesperusIII  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] Why are confidence regions elliptic?]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/tuzn4m/d_why_are_confidence_regions_elliptic/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/tuzn4m/d_why_are_confidence_regions_elliptic/"/>
-        <updated>2022-04-03T03:18:05.000Z</updated>
-        <summary type="html"><![CDATA[Confidence regions are the 2D version of a confidence interval. Almost everywhere in the literature, the shape is elliptic, but no justification is provided. You would think that a confidence region of level γ is defined as the domain of minimum area, covering a mass γ of the underlying probability distribution. That sounds perfectly logical, but it is mentioned nowhere. Based on this definition, the boundary of a confidence region is obtained by solving an optimization problem: it is a problem in calculus of variations -- finding a boundary curve encompassing a domain of minimum area. These problems are usually hard to solve, but in this case, the solution seems trivial: it must be a contour line. And if the underlying distribution is Gaussian, contour lines are obviously ellipses. This would be a solid justification as to why ellipses are so widespread.
- https://preview.redd.it/42mr1t1je8r81.png?width=1072&format=png&auto=webp&s=2fb9cedbbb15895827ed00edc4912ac39fad0b71
- My question here is whether or not my argumentation makes sense, or if there is something faulty in my math. I discuss it in more details in one of my articles, here. If you need clarifications, please reply on Reddit, I will do my best to explain.
-    submitted by    /u/MLRecipes  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enhancing Satellite Imagery using Deep Learning for the Sensor To Shooter Timeline. (arXiv:2203.00116v3 [cs.CV] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2203.00116</id>
-        <link href="http://arxiv.org/abs/2203.00116"/>
-        <updated>2022-04-03T00:52:40.822Z</updated>
-        <summary type="html"><![CDATA[The sensor to shooter timeline is affected by two main variables: satellite
-positioning and asset positioning. Speeding up satellite positioning by adding
-more sensors or by decreasing processing time is important only if there is a
-prepared shooter, otherwise the main source of time is getting the shooter into
-position. However, the intelligence community should work towards the
-exploitation of sensors to the highest speed and effectiveness possible.
-Achieving a high effectiveness while keeping speed high is a tradeoff that must
-be considered in the sensor to shooter timeline. In this paper we investigate
-two main ideas, increasing the effectiveness of satellite imagery through image
-manipulation and how on-board image manipulation would affect the sensor to
-shooter timeline. We cover these ideas in four scenarios: Discrete Event
-Simulation of onboard processing versus ground station processing, quality of
-information with cloud cover removal, information improvement with super
-resolution, and data reduction with image to caption. This paper will show how
-image manipulation techniques such as Super Resolution, Cloud Removal, and
-Image to Caption will improve the quality of delivered information in addition
-to showing how those processes effect the sensor to shooter timeline.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Ciolino_M/0/1/0/all/0/1"&gt;Matthew Ciolino&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Hambrick_D/0/1/0/all/0/1"&gt;Dominick Hambrick&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Noever_D/0/1/0/all/0/1"&gt;David Noever&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D]New Scaling Laws for Large Language Models]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/tux0p3/dnew_scaling_laws_for_large_language_models/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/tux0p3/dnew_scaling_laws_for_large_language_models/"/>
-        <updated>2022-04-03T00:01:56.000Z</updated>
-        <summary type="html"><![CDATA[https://www.lesswrong.com/posts/midXmMb2Xg37F2Kgn/new-scaling-laws-for-large-language-models
-    submitted by    /u/Singularian2501  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AgentZero: Ray & PyTorch based light-weight Distributed Fast Reinforcement Learning Framework]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/tuwhbp/agentzero_ray_pytorch_based_lightweight/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/tuwhbp/agentzero_ray_pytorch_based_lightweight/"/>
-        <updated>2022-04-02T23:35:17.000Z</updated>
-        <summary type="html"><![CDATA[AgentZero
- https://github.com/zhoubin-me/agent0
- This is my personal project developed two years ago. It covers major DRL algorithms like:
- - [DQN](https://arxiv.org/abs/1312.5602)- [Double DQN](https://arxiv.org/abs/1509.06461)- [Dueling DQN](https://arxiv.org/abs/1511.06581)- [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)- [Noisy Network](https://arxiv.org/abs/1706.10295)- [C51](https://arxiv.org/abs/1707.06887)- [Rainbow](https://arxiv.org/abs/1710.02298)- [QR-DQN](https://arxiv.org/abs/1710.10044)- [IQR](https://arxiv.org/abs/1806.06923)- [FQF](https://arxiv.org/abs/1911.02140)- [DDPG](https://arxiv.org/abs/1509.02971)- [SAC](https://arxiv.org/abs/1801.01290)- [TD3](https://arxiv.org/abs/1802.09477)- [MDQN](https://arxiv.org/abs/2007.14430)
- What is amazing is its speed and memory efficiency after some optimization:
- With a single 2080Ti GPU and a 8 core AMD CPU, the training speed of rainbow for Atari could achieve 3000FPS, which means it can finish training of 10M frames within 1 hour. With compression of image frames, replay memory's RAM usage is down by 20%.
- I have tested several algorithms and games on Atari and get some initial result. Welcome to use and contribute!
-    submitted by    /u/zhoubin-me  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Regularization for DRL: reward or objective function?]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/tuv1t5/regularization_for_drl_reward_or_objective/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/tuv1t5/regularization_for_drl_reward_or_objective/"/>
-        <updated>2022-04-02T22:27:26.000Z</updated>
-        <summary type="html"><![CDATA[I am searching for regularization methods applied to DRL algorithms (either value or policy-based) to understand what has been done so far in the field. I cannot find any valid reference that studies the effect of applying a soft constraint to the reward function instead of to the policy objective. This may seem useless for some applications, but it is highly relevant for finance, which is my domain of application,
- The idea I have so far is that if you constrain the reward, it is like you are imposing limits on the agent's behavior. On the other hand, if you constrain the objective, you are not limiting the behavior, but you are correcting the ex-post the undesired behavior. The latter way does not allow the agent to learn not to behave in a certain way.
- ​
- Did anyone ever think about it? Are they good references that analyze the different effects of a constraint to whatever DRL algorithm?
-    submitted by    /u/alebrini  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building Trust with Responsible AI]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/tuu59j/building_trust_with_responsible_ai/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/tuu59j/building_trust_with_responsible_ai/"/>
-        <updated>2022-04-02T21:46:33.000Z</updated>
-        <summary type="html"><![CDATA[Artificial Intelligence is being used in almost every aspect of life. AI symbolizes growth and productivity in the minds of some, but it is raising questions as well on the fairness, privacy, and security of these systems. Many legitimate issues exist, including biased choices, labor replacement, and a lack of security. When it comes to robots, this is very frightening. Self-driving automobiles, for example, can cause injury or death if they make mistakes. Responsible AI addresses these difficulties and makes AI systems more accountable.
- Responsible AI should fulfill the following aims:
-  
-Interpretability: We obtain an explanation for how a model makes predictions when we interpret it. An AI system makes predictions for a user. Even if these selections are correct, a user is likely to seek an explanation. Responsible AI can describe how we create interpretable models.
- Fairness: AI systems have the potential to make judgments that are biased towards particular groups of people. Bias in the training data is the source of this bias. The easier it is to assure fairness and rectify any bias in a model, the more interpretable it is. As a result, we need a Responsible AI framework to explain how we evaluate fairness and what to do if a model makes unjust predictions.
- Safety and Security: AI systems aren’t deterministic. When confronted with new situations, they are prone to making poor choices. The systems can even be tampered with to make unwise decisions. Therefore, we need to ensure safety and security in these systems.
- Data Governance: The data used must be of high quality. If the data used by AI has errors, the system may make wrong decisions.
-  
-Continue Reading The Article Here
- ​
- https://preview.redd.it/9iivp31ir6r81.png?width=1024&format=png&auto=webp&s=207409694b68a1e985ad1dfcf3b466ac25916da2
-    submitted by    /u/No_Coffee_4638  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's unbelievable what ML can do! Disco+RIFE= 7hr Colab Run...]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/tusmv0/its_unbelievable_what_ml_can_do_discorife_7hr/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/tusmv0/its_unbelievable_what_ml_can_do_discorife_7hr/"/>
-        <updated>2022-04-02T20:38:58.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/JoshGrambo  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What does it mean to feed the "network state" in an LSTM in the actor network?]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/turvmf/what_does_it_mean_to_feed_the_network_state_in_an/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/turvmf/what_does_it_mean_to_feed_the_network_state_in_an/"/>
-        <updated>2022-04-02T20:05:26.000Z</updated>
-        <summary type="html"><![CDATA[I am looking at this code from Google (https://github.com/google-research/google-research/blob/master/social_rl/multiagent_tfagents/joint_attention/attention_networks.py). 
- At line 639, the LSTM is called. The first two inputs are the state and the network state, but I don't understand what the latter is.
-    submitted by    /u/No_Possibility_7588  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating A Chatbot with transformers and Gradio]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/tuov1l/creating_a_chatbot_with_transformers_and_gradio/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/tuov1l/creating_a_chatbot_with_transformers_and_gradio/"/>
-        <updated>2022-04-02T17:53:29.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/Illustrious_Row_9971  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oscillations in RLC circuits]]></title>
-        <id>https://www.johndcook.com/blog/?p=101499</id>
-        <link href="https://www.johndcook.com/blog/2022/04/02/rlc-circuits/"/>
-        <updated>2022-04-02T17:16:43.000Z</updated>
-        <summary type="html"><![CDATA[Electrical and mechanical oscillations satisfy analogous equations. This is the basis of using the word “analog” in electronics. You could study a mechanical system by building an analogous circuit and measuring that circuit in a lab. Mass, dashpot, spring Years ago I wrote a series of four posts about mechanical vibrations: Free, undamped vibrations Free, […]
-Oscillations in RLC circuits first appeared on John D. Cook.]]></summary>
-        <author>
-            <name>John</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Develop Parking Analytics Framework Using Deep Learning]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/tunb06/researchers_develop_parking_analytics_framework/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/tunb06/researchers_develop_parking_analytics_framework/"/>
-        <updated>2022-04-02T16:48:24.000Z</updated>
-        <summary type="html"><![CDATA[Artificial Intelligence and deep learning in video analytics are gaining popularity. It has enabled a wide range of industrial applications, including surveillance and public safety, robotics perception, medical intervention, and facial recognition. According to Markets & Markets, the global market for video analytics was valued at USD 5.9 billion in 2021 and is predicted to reach USD 14.9 billion by 2026.
- Unmanned aerial vehicles (UAVs) have also enabled a wide range of video analytics applications (e.g., aerial surveys) since they provide aerial views of the environment, allowing for collecting aerial photos and processing with deep learning algorithms. Parking analytics is one of these critical smart city applications that uses deep learning and UAVs to collect real-time data and analyze it in order to maximize parking revenue, enhance parking resource allocations, and better manage public space.
- Continue Reading
- Paper: https://arxiv.org/pdf/2203.07792.pdf
- ​
- https://i.redd.it/u5th7z0ja5r81.gif
-    submitted by    /u/No_Coffee_4638  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] How Logistic Regression nomogram is constructed from binary classifier?]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/tul97t/d_how_logistic_regression_nomogram_is_constructed/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/tul97t/d_how_logistic_regression_nomogram_is_constructed/"/>
-        <updated>2022-04-02T15:19:36.000Z</updated>
-        <summary type="html"><![CDATA[Well I' ve been reading some scientific works and I don't understand how nomograms are constructed from logistic regression models.
- In this example I have:
- https://ieeexplore-1ieee-1org-1000007l206e9.han.bg.pg.edu.pl/document/9514609
- And they train LR model on Covid19 dataset [death/ didn't die] so it's binary classification problem However later on, they construct nomogram, which determines whether there is low/moderate/high risk of covid19 mortality. What I don't undestand is how they calculate the score the establish chances of death. E.G. If the score is <0.05 there is low possibility that patient will die.
- My general question is, how they constructed this nomogram from the binary classifier they had?
-    submitted by    /u/s168501  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepRL and Rubik’s Cube]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/tukbpx/deeprl_and_rubiks_cube/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/tukbpx/deeprl_and_rubiks_cube/"/>
-        <updated>2022-04-02T14:38:04.000Z</updated>
-        <summary type="html"><![CDATA[I'm part of a group of researchers from top ML institutions and industry, our goal is to figure out how improve efficiency in DeepRL.
- We are looking at Rubik’s Cube as target problem, and kicking off a project which will start from https://github.com/forestagostinelli/DeepCubeA and go from there.
- Prior works require hand crafted curriculum and billion of interactions to solve a cube, we believe that order of magnitude more compute that it should take.
- Is anyone interested to collaborate? I'm happy to dedicate a few hours a week to help a newcomer like I was a few years ago with the RL stuff given some basics of machine learning and programming skills, and this could be the golden opportunity for someone to see RL at scale.
-    submitted by    /u/mind_library  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[R] Neural Head Avatars from Monocular RGB Videos (CVPR 2022)]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/tujtva/r_neural_head_avatars_from_monocular_rgb_videos/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/tujtva/r_neural_head_avatars_from_monocular_rgb_videos/"/>
-        <updated>2022-04-02T14:15:11.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/Mandelmus100  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is an Experimentation program and Who is Involved? (Experimentation Program Series: Guide 02)]]></title>
-        <id>https://mlinproduction.com/?p=936</id>
-        <link href="https://mlinproduction.com/experimentation-program-stakeholders/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=experimentation-program-stakeholders"/>
-        <updated>2022-04-02T14:03:58.000Z</updated>
-        <summary type="html"><![CDATA[In my previous post, I briefly described how leading companies use experimentation to optimize their products and services and evolve them to the point of feeling elegant, efficient, and magical. These companies have developed mature experimentation programs (ExPrs), including the… Read More 
-The post What is an Experimentation program and Who is Involved? (Experimentation Program Series: Guide 02) appeared first on ML in Production.]]></summary>
-        <author>
-            <name>Luigi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is an Experimentation program and Who is Involved? (Experimentation Program Series: Guide 02)]]></title>
-        <id>https://mlinproduction.com/?p=936</id>
-        <link href="https://mlinproduction.com/experimentation-program-stakeholders/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=experimentation-program-stakeholders"/>
-        <updated>2022-04-02T14:03:58.000Z</updated>
-        <summary type="html"><![CDATA[In my previous post, I briefly described how leading companies use experimentation to optimize their products and services and evolve them to the point of feeling elegant, efficient, and magical. These companies have developed mature experimentation programs (ExPrs), including the… Read More 
-The post What is an Experimentation program and Who is Involved? (Experimentation Program Series: Guide 02) appeared first on ML in Production.]]></summary>
-        <author>
-            <name>Luigi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Multi agent reinforcement learning]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/tujiup/multi_agent_reinforcement_learning/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/tujiup/multi_agent_reinforcement_learning/"/>
-        <updated>2022-04-02T14:00:39.000Z</updated>
-        <summary type="html"><![CDATA[I'm absolutely new to machine learning, let alone reinforcement learning. I've been tasked to replicate and if possible improve upon the paper linked in the post. I don't know what platform to use and how to create the custom environment. if anybody could share any resources it would be tremendously helpful.
- https://drive.google.com/file/d/1fIT43hKi61WUIvoTh2a3AWlRsphi-L98/view?usp=sharing
-    submitted by    /u/Lazarus_07  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Single-Timescale Method for Stochastic Bilevel Optimization. (arXiv:2102.04671v4 [math.OC] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2102.04671</id>
-        <link href="http://arxiv.org/abs/2102.04671"/>
-        <updated>2022-04-02T00:47:19.824Z</updated>
-        <summary type="html"><![CDATA[Stochastic bilevel optimization generalizes the classic stochastic
-optimization from the minimization of a single objective to the minimization of
-an objective function that depends the solution of another optimization
-problem. Recently, stochastic bilevel optimization is regaining popularity in
-emerging machine learning applications such as hyper-parameter optimization and
-model-agnostic meta learning. To solve this class of stochastic optimization
-problems, existing methods require either double-loop or two-timescale updates,
-which are sometimes less efficient. This paper develops a new optimization
-method for a class of stochastic bilevel problems that we term Single-Timescale
-stochAstic BiLevEl optimization (STABLE) method. STABLE runs in a single loop
-fashion, and uses a single-timescale update with a fixed batch size. To achieve
-an $\epsilon$-stationary point of the bilevel problem, STABLE requires ${\cal
-O}(\epsilon^{-2})$ samples in total; and to achieve an $\epsilon$-optimal
-solution in the strongly convex case, STABLE requires ${\cal O}(\epsilon^{-1})$
-samples. To the best of our knowledge, this is the first bilevel optimization
-algorithm achieving the same order of sample complexity as the stochastic
-gradient descent method for the single-level stochastic optimization.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/math/1/au:+Chen_T/0/1/0/all/0/1"&gt;Tianyi Chen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/math/1/au:+Sun_Y/0/1/0/all/0/1"&gt;Yuejiao Sun&lt;/a&gt;, &lt;a href="http://arxiv.org/find/math/1/au:+Xiao_Q/0/1/0/all/0/1"&gt;Quan Xiao&lt;/a&gt;, &lt;a href="http://arxiv.org/find/math/1/au:+Yin_W/0/1/0/all/0/1"&gt;Wotao Yin&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flat-topped Probability Density Functions for Mixture Models. (arXiv:2203.17027v1 [cs.LG])]]></title>
-        <id>http://arxiv.org/abs/2203.17027</id>
-        <link href="http://arxiv.org/abs/2203.17027"/>
-        <updated>2022-04-02T00:47:19.817Z</updated>
-        <summary type="html"><![CDATA[This paper investigates probability density functions (PDFs) that are
-continuous everywhere, nearly uniform around the mode of distribution, and
-adaptable to a variety of distribution shapes ranging from bell-shaped to
-rectangular. From the viewpoint of computational tractability, the PDF based on
-the Fermi-Dirac or logistic function is advantageous in estimating its shape
-parameters. The most appropriate PDF for $n$-variate distribution is of the
-form:
-$p\left(\mathbf{x}\right)\propto\left[\cosh\left(\left[\left(\mathbf{x}-\mathbf{m}\right)^{\mathsf{T}}\boldsymbol{\Sigma}^{-1}\left(\mathbf{x}-\mathbf{m}\right)\right]^{n/2}\right)+\cosh\left(r^{n}\right)\right]^{-1}$
-where $\mathbf{x},\mathbf{m}\in\mathbb{R}^{n}$, $\boldsymbol{\Sigma}$ is an
-$n\times n$ positive definite matrix, and $r>0$ is a shape parameter. The
-flat-topped PDFs can be used as a component of mixture models in machine
-learning to improve goodness of fit and make a model as simple as possible.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Fujita_O/0/1/0/all/0/1"&gt;Osamu Fujita&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Equivariant Diffusion for Molecule Generation in 3D. (arXiv:2203.17003v1 [cs.LG])]]></title>
-        <id>http://arxiv.org/abs/2203.17003</id>
-        <link href="http://arxiv.org/abs/2203.17003"/>
-        <updated>2022-04-02T00:47:19.814Z</updated>
-        <summary type="html"><![CDATA[This work introduces a diffusion model for molecule generation in 3D that is
-equivariant to Euclidean transformations. Our E(3) Equivariant Diffusion Model
-(EDM) learns to denoise a diffusion process with an equivariant network that
-jointly operates on both continuous (atom coordinates) and categorical features
-(atom types). In addition, we provide a probabilistic analysis which admits
-likelihood computation of molecules using our model. Experimentally, the
-proposed method significantly outperforms previous 3D molecular generative
-methods regarding the quality of generated samples and efficiency at training
-time.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Hoogeboom_E/0/1/0/all/0/1"&gt;Emiel Hoogeboom&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Satorras_V/0/1/0/all/0/1"&gt;Victor Garcia Satorras&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Vignac_C/0/1/0/all/0/1"&gt;Cl&amp;#xe9;ment Vignac&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Welling_M/0/1/0/all/0/1"&gt;Max Welling&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Model-based Reinforcement Learning: A Survey. (arXiv:2006.16712v4 [cs.LG] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2006.16712</id>
-        <link href="http://arxiv.org/abs/2006.16712"/>
-        <updated>2022-04-02T00:47:19.814Z</updated>
-        <summary type="html"><![CDATA[Sequential decision making, commonly formalized as Markov Decision Process
-(MDP) optimization, is a important challenge in artificial intelligence. Two
-key approaches to this problem are reinforcement learning (RL) and planning.
-This paper presents a survey of the integration of both fields, better known as
-model-based reinforcement learning. Model-based RL has two main steps. First,
-we systematically cover approaches to dynamics model learning, including
-challenges like dealing with stochasticity, uncertainty, partial observability,
-and temporal abstraction. Second, we present a systematic categorization of
-planning-learning integration, including aspects like: where to start planning,
-what budgets to allocate to planning and real data collection, how to plan, and
-how to integrate planning in the learning and acting loop. After these two
-sections, we also discuss implicit model-based RL as an end-to-end alternative
-for model learning and planning, and we cover the potential benefits of
-model-based RL. Along the way, the survey also draws connections to several
-related RL fields, like hierarchical RL and transfer learning. Altogether, the
-survey presents a broad conceptual overview of the combination of planning and
-learning for MDP optimization.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Moerland_T/0/1/0/all/0/1"&gt;Thomas M. Moerland&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Broekens_J/0/1/0/all/0/1"&gt;Joost Broekens&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Plaat_A/0/1/0/all/0/1"&gt;Aske Plaat&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Jonker_C/0/1/0/all/0/1"&gt;Catholijn M. Jonker&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[STICC: A multivariate spatial clustering method for repeated geographic pattern discovery with consideration of spatial contiguity. (arXiv:2203.09611v2 [cs.LG] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2203.09611</id>
-        <link href="http://arxiv.org/abs/2203.09611"/>
-        <updated>2022-04-02T00:47:19.814Z</updated>
-        <summary type="html"><![CDATA[Spatial clustering has been widely used for spatial data mining and knowledge
-discovery. An ideal multivariate spatial clustering should consider both
-spatial contiguity and aspatial attributes. Existing spatial clustering
-approaches may face challenges for discovering repeated geographic patterns
-with spatial contiguity maintained. In this paper, we propose a Spatial
-Toeplitz Inverse Covariance-Based Clustering (STICC) method that considers both
-attributes and spatial relationships of geographic objects for multivariate
-spatial clustering. A subregion is created for each geographic object serving
-as the basic unit when performing clustering. A Markov random field is then
-constructed to characterize the attribute dependencies of subregions. Using a
-spatial consistency strategy, nearby objects are encouraged to belong to the
-same cluster. To test the performance of the proposed STICC algorithm, we apply
-it in two use cases. The comparison results with several baseline methods show
-that the STICC outperforms others significantly in terms of adjusted rand index
-and macro-F1 score. Join count statistics is also calculated and shows that the
-spatial contiguity is well preserved by STICC. Such a spatial clustering method
-may benefit various applications in the fields of geography, remote sensing,
-transportation, and urban planning, etc.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Kang_Y/0/1/0/all/0/1"&gt;Yuhao Kang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Wu_K/0/1/0/all/0/1"&gt;Kunlin Wu&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Gao_S/0/1/0/all/0/1"&gt;Song Gao&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Ng_I/0/1/0/all/0/1"&gt;Ignavier Ng&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Rao_J/0/1/0/all/0/1"&gt;Jinmeng Rao&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Ye_S/0/1/0/all/0/1"&gt;Shan Ye&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Zhang_F/0/1/0/all/0/1"&gt;Fan Zhang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Fei_T/0/1/0/all/0/1"&gt;Teng Fei&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An analytic theory for the dynamics of wide quantum neural networks. (arXiv:2203.16711v1 [quant-ph])]]></title>
-        <id>http://arxiv.org/abs/2203.16711</id>
-        <link href="http://arxiv.org/abs/2203.16711"/>
-        <updated>2022-04-02T00:47:19.813Z</updated>
-        <summary type="html"><![CDATA[Parametrized quantum circuits can be used as quantum neural networks and have
-the potential to outperform their classical counterparts when trained for
-addressing learning problems. To date, much of the results on their performance
-on practical problems are heuristic in nature. In particular, the convergence
-rate for the training of quantum neural networks is not fully understood. Here,
-we analyze the dynamics of gradient descent for the training error of a class
-of variational quantum machine learning models. We define wide quantum neural
-networks as parameterized quantum circuits in the limit of a large number of
-qubits and variational parameters. We then find a simple analytic formula that
-captures the average behavior of their loss function and discuss the
-consequences of our findings. For example, for random quantum circuits, we
-predict and characterize an exponential decay of the residual training error as
-a function of the parameters of the system. We finally validate our analytic
-results with numerical experiments.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/quant-ph/1/au:+Liu_J/0/1/0/all/0/1"&gt;Junyu Liu&lt;/a&gt;, &lt;a href="http://arxiv.org/find/quant-ph/1/au:+Najafi_K/0/1/0/all/0/1"&gt;Khadijeh Najafi&lt;/a&gt;, &lt;a href="http://arxiv.org/find/quant-ph/1/au:+Sharma_K/0/1/0/all/0/1"&gt;Kunal Sharma&lt;/a&gt;, &lt;a href="http://arxiv.org/find/quant-ph/1/au:+Tacchino_F/0/1/0/all/0/1"&gt;Francesco Tacchino&lt;/a&gt;, &lt;a href="http://arxiv.org/find/quant-ph/1/au:+Jiang_L/0/1/0/all/0/1"&gt;Liang Jiang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/quant-ph/1/au:+Mezzacapo_A/0/1/0/all/0/1"&gt;Antonio Mezzacapo&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neural Q-learning for solving elliptic PDEs. (arXiv:2203.17128v1 [math.NA])]]></title>
-        <id>http://arxiv.org/abs/2203.17128</id>
-        <link href="http://arxiv.org/abs/2203.17128"/>
-        <updated>2022-04-02T00:47:19.813Z</updated>
-        <summary type="html"><![CDATA[Solving high-dimensional partial differential equations (PDEs) is a major
-challenge in scientific computing. We develop a new numerical method for
-solving elliptic-type PDEs by adapting the Q-learning algorithm in
-reinforcement learning. Our "Q-PDE" algorithm is mesh-free and therefore has
-the potential to overcome the curse of dimensionality. Using a neural tangent
-kernel (NTK) approach, we prove that the neural network approximator for the
-PDE solution, trained with the Q-PDE algorithm, converges to the trajectory of
-an infinite-dimensional ordinary differential equation (ODE) as the number of
-hidden units $\rightarrow \infty$. For monotone PDE (i.e. those given by
-monotone operators, which may be nonlinear), despite the lack of a spectral gap
-in the NTK, we then prove that the limit neural network, which satisfies the
-infinite-dimensional ODE, converges in $L^2$ to the PDE solution as the
-training time $\rightarrow \infty$. More generally, we can prove that any fixed
-point of the wide-network limit for the Q-PDE algorithm is a solution of the
-PDE (not necessarily under the monotone condition). The numerical performance
-of the Q-PDE algorithm is studied for several elliptic PDEs.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/math/1/au:+Cohen_S/0/1/0/all/0/1"&gt;Samuel N. Cohen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/math/1/au:+Jiang_D/0/1/0/all/0/1"&gt;Deqing Jiang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/math/1/au:+Sirignano_J/0/1/0/all/0/1"&gt;Justin Sirignano&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Graph Node-Feature Convolution for Representation Learning. (arXiv:1812.00086v2 [cs.LG] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/1812.00086</id>
-        <link href="http://arxiv.org/abs/1812.00086"/>
-        <updated>2022-04-02T00:47:19.813Z</updated>
-        <summary type="html"><![CDATA[Graph convolutional network (GCN) is an emerging neural network approach. It
-learns new representation of a node by aggregating feature vectors of all
-neighbors in the aggregation process without considering whether the neighbors
-or features are useful or not. Recent methods have improved solutions by
-sampling a fixed size set of neighbors, or assigning different weights to
-different neighbors in the aggregation process, but features within a feature
-vector are still treated equally in the aggregation process. In this paper, we
-introduce a new convolution operation on regular size feature maps constructed
-from features of a fixed node bandwidth via sampling to get the first-level
-node representation, which is then passed to a standard GCN to learn the
-second-level node representation. Experiments show that our method outperforms
-competing methods in semi-supervised node classification tasks. Furthermore,
-our method opens new doors for exploring new GCN architectures, particularly
-deeper GCN models.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Zhang_L/0/1/0/all/0/1"&gt;Li Zhang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Song_H/0/1/0/all/0/1"&gt;Heda Song&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Aletras_N/0/1/0/all/0/1"&gt;Nikolaos Aletras&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Lu_H/0/1/0/all/0/1"&gt;Haiping Lu&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MBORE: Multi-objective Bayesian Optimisation by Density-Ratio Estimation. (arXiv:2203.16912v1 [cs.LG])]]></title>
-        <id>http://arxiv.org/abs/2203.16912</id>
-        <link href="http://arxiv.org/abs/2203.16912"/>
-        <updated>2022-04-02T00:47:19.811Z</updated>
-        <summary type="html"><![CDATA[Optimisation problems often have multiple conflicting objectives that can be
-computationally and/or financially expensive. Mono-surrogate Bayesian
-optimisation (BO) is a popular model-based approach for optimising such
-black-box functions. It combines objective values via scalarisation and builds
-a Gaussian process (GP) surrogate of the scalarised values. The location which
-maximises a cheap-to-query acquisition function is chosen as the next location
-to expensively evaluate. While BO is an effective strategy, the use of GPs is
-limiting. Their performance decreases as the problem input dimensionality
-increases, and their computational complexity scales cubically with the amount
-of data. To address these limitations, we extend previous work on BO by
-density-ratio estimation (BORE) to the multi-objective setting. BORE links the
-computation of the probability of improvement acquisition function to that of
-probabilistic classification. This enables the use of state-of-the-art
-classifiers in a BO-like framework. In this work we present MBORE:
-multi-objective Bayesian optimisation by density-ratio estimation, and compare
-it to BO across a range of synthetic and real-world benchmarks. We find that
-MBORE performs as well as or better than BO on a wide variety of problems, and
-that it outperforms BO on high-dimensional and real-world problems.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Ath_G/0/1/0/all/0/1"&gt;George De Ath&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Chugh_T/0/1/0/all/0/1"&gt;Tinkle Chugh&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Rahat_A/0/1/0/all/0/1"&gt;Alma A. M. Rahat&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learning from many trajectories. (arXiv:2203.17193v1 [cs.LG])]]></title>
-        <id>http://arxiv.org/abs/2203.17193</id>
-        <link href="http://arxiv.org/abs/2203.17193"/>
-        <updated>2022-04-02T00:47:19.809Z</updated>
-        <summary type="html"><![CDATA[We initiate a study of supervised learning from many independent sequences
-("trajectories") of non-independent covariates, reflecting tasks in sequence
-modeling, control, and reinforcement learning. Conceptually, our
-multi-trajectory setup sits between two traditional settings in statistical
-learning theory: learning from independent examples and learning from a single
-auto-correlated sequence. Our conditions for efficient learning generalize the
-former setting--trajectories must be non-degenerate in ways that extend
-standard requirements for independent examples. They do not require that
-trajectories be ergodic, long, nor strictly stable.
-
-For linear least-squares regression, given $n$-dimensional examples produced
-by $m$ trajectories, each of length $T$, we observe a notable change in
-statistical efficiency as the number of trajectories increases from a few
-(namely $m \lesssim n$) to many (namely $m \gtrsim n$). Specifically, we
-establish that the worst-case error rate this problem is $\Theta(n / m T)$
-whenever $m \gtrsim n$. Meanwhile, when $m \lesssim n$, we establish a (sharp)
-lower bound of $\Omega(n^2 / m^2 T)$ on the worst-case error rate, realized by
-a simple, marginally unstable linear dynamical system. A key upshot is that, in
-domains where trajectories regularly reset, the error rate eventually behaves
-as if all of the examples were independent altogether, drawn from their
-marginals. As a corollary of our analysis, we also improve guarantees for the
-linear system identification problem.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Tu_S/0/1/0/all/0/1"&gt;Stephen Tu&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Frostig_R/0/1/0/all/0/1"&gt;Roy Frostig&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Soltanolkotabi_M/0/1/0/all/0/1"&gt;Mahdi Soltanolkotabi&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SpecGrad: Diffusion Probabilistic Model based Neural Vocoder with Adaptive Noise Spectral Shaping. (arXiv:2203.16749v1 [eess.AS])]]></title>
-        <id>http://arxiv.org/abs/2203.16749</id>
-        <link href="http://arxiv.org/abs/2203.16749"/>
-        <updated>2022-04-02T00:47:19.804Z</updated>
-        <summary type="html"><![CDATA[Neural vocoder using denoising diffusion probabilistic model (DDPM) has been
-improved by adaptation of the diffusion noise distribution to given acoustic
-features. In this study, we propose SpecGrad that adapts the diffusion noise so
-that its time-varying spectral envelope becomes close to the conditioning
-log-mel spectrogram. This adaptation by time-varying filtering improves the
-sound quality especially in the high-frequency bands. It is processed in the
-time-frequency domain to keep the computational cost almost the same as the
-conventional DDPM-based neural vocoders. Experimental results showed that
-SpecGrad generates higher-fidelity speech waveform than conventional DDPM-based
-neural vocoders in both analysis-synthesis and speech enhancement scenarios.
-Audio demos are available at wavegrad.github.io/specgrad/.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/eess/1/au:+Koizumi_Y/0/1/0/all/0/1"&gt;Yuma Koizumi&lt;/a&gt;, &lt;a href="http://arxiv.org/find/eess/1/au:+Zen_H/0/1/0/all/0/1"&gt;Heiga Zen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/eess/1/au:+Yatabe_K/0/1/0/all/0/1"&gt;Kohei Yatabe&lt;/a&gt;, &lt;a href="http://arxiv.org/find/eess/1/au:+Chen_N/0/1/0/all/0/1"&gt;Nanxin Chen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/eess/1/au:+Bacchiani_M/0/1/0/all/0/1"&gt;Michiel Bacchiani&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When Can We Learn General-Sum Markov Games with a Large Number of Players Sample-Efficiently?. (arXiv:2110.04184v2 [cs.LG] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2110.04184</id>
-        <link href="http://arxiv.org/abs/2110.04184"/>
-        <updated>2022-04-02T00:47:19.782Z</updated>
-        <summary type="html"><![CDATA[Multi-agent reinforcement learning has made substantial empirical progresses
-in solving games with a large number of players. However, theoretically, the
-best known sample complexity for finding a Nash equilibrium in general-sum
-games scales exponentially in the number of players due to the size of the
-joint action space, and there is a matching exponential lower bound. This paper
-investigates what learning goals admit better sample complexities in the
-setting of $m$-player general-sum Markov games with $H$ steps, $S$ states, and
-$A_i$ actions per player. First, we design algorithms for learning an
-$\epsilon$-Coarse Correlated Equilibrium (CCE) in
-$\widetilde{\mathcal{O}}(H^5S\max_{i\le m} A_i / \epsilon^2)$ episodes, and an
-$\epsilon$-Correlated Equilibrium (CE) in
-$\widetilde{\mathcal{O}}(H^6S\max_{i\le m} A_i^2 / \epsilon^2)$ episodes. This
-is the first line of results for learning CCE and CE with sample complexities
-polynomial in $\max_{i\le m} A_i$. Our algorithm for learning CE integrates an
-adversarial bandit subroutine which minimizes a weighted swap regret, along
-with several novel designs in the outer loop. Second, we consider the important
-special case of Markov Potential Games, and design an algorithm that learns an
-$\epsilon$-approximate Nash equilibrium within
-$\widetilde{\mathcal{O}}(S\sum_{i\le m} A_i / \epsilon^3)$ episodes (when only
-highlighting the dependence on $S$, $A_i$, and $\epsilon$), which only depends
-linearly in $\sum_{i\le m} A_i$ and significantly improves over existing
-efficient algorithm in the $\epsilon$ dependence. Overall, our results shed
-light on what equilibria or structural assumptions on the game may enable
-sample-efficient learning with many players.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Song_Z/0/1/0/all/0/1"&gt;Ziang Song&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Mei_S/0/1/0/all/0/1"&gt;Song Mei&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Bai_Y/0/1/0/all/0/1"&gt;Yu Bai&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When Physics Meets Machine Learning: A Survey of Physics-Informed Machine Learning. (arXiv:2203.16797v1 [cs.LG])]]></title>
-        <id>http://arxiv.org/abs/2203.16797</id>
-        <link href="http://arxiv.org/abs/2203.16797"/>
-        <updated>2022-04-02T00:47:19.777Z</updated>
-        <summary type="html"><![CDATA[Physics-informed machine learning (PIML), referring to the combination of
-prior knowledge of physics, which is the high level abstraction of natural
-phenomenons and human behaviours in the long history, with data-driven machine
-learning models, has emerged as an effective way to mitigate the shortage of
-training data, to increase models' generalizability and to ensure the physical
-plausibility of results. In this paper, we survey an abundant number of recent
-works in PIML and summarize them from three aspects: (1) motivations of PIML,
-(2) physics knowledge in PIML, (3) methods of physics knowledge integration in
-PIML. We also discuss current challenges and corresponding research
-opportunities in PIML.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Meng_C/0/1/0/all/0/1"&gt;Chuizheng Meng&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Seo_S/0/1/0/all/0/1"&gt;Sungyong Seo&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Cao_D/0/1/0/all/0/1"&gt;Defu Cao&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Griesemer_S/0/1/0/all/0/1"&gt;Sam Griesemer&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Liu_Y/0/1/0/all/0/1"&gt;Yan Liu&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Distributional Robust Batch Contextual Bandits. (arXiv:2006.05630v4 [cs.LG] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2006.05630</id>
-        <link href="http://arxiv.org/abs/2006.05630"/>
-        <updated>2022-04-02T00:47:19.775Z</updated>
-        <summary type="html"><![CDATA[Policy learning using historical observational data is an important problem
-that has found widespread applications. Examples include selecting offers,
-prices, advertisements to send to customers, as well as selecting which
-medication to prescribe to a patient. However, existing literature rests on the
-crucial assumption that the future environment where the learned policy will be
-deployed is the same as the past environment that has generated the data -- an
-assumption that is often false or too coarse an approximation. In this paper,
-we lift this assumption and aim to learn a distributionally robust policy with
-incomplete observational data. We first present a policy evaluation procedure
-that allows us to assess how well the policy does under the worst-case
-environment shift. We then establish a central limit theorem type guarantee for
-this proposed policy evaluation scheme. Leveraging this evaluation scheme, we
-further propose a novel learning algorithm that is able to learn a policy that
-is robust to adversarial perturbations and unknown covariate shifts with a
-performance guarantee based on the theory of uniform convergence. Finally, we
-empirically test the effectiveness of our proposed algorithm in synthetic
-datasets and demonstrate that it provides the robustness that is missing using
-standard policy learning algorithms. We conclude the paper by providing a
-comprehensive application of our methods in the context of a real-world voting
-dataset.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Si_N/0/1/0/all/0/1"&gt;Nian Si&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Zhang_F/0/1/0/all/0/1"&gt;Fan Zhang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Zhou_Z/0/1/0/all/0/1"&gt;Zhengyuan Zhou&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Blanchet_J/0/1/0/all/0/1"&gt;Jose Blanchet&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A statistical framework for efficient out of distribution detection in deep neural networks. (arXiv:2102.12967v3 [cs.LG] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2102.12967</id>
-        <link href="http://arxiv.org/abs/2102.12967"/>
-        <updated>2022-04-02T00:47:19.775Z</updated>
-        <summary type="html"><![CDATA[Background. Commonly, Deep Neural Networks (DNNs) generalize well on samples
-drawn from a distribution similar to that of the training set. However, DNNs'
-predictions are brittle and unreliable when the test samples are drawn from a
-dissimilar distribution. This is a major concern for deployment in real-world
-applications, where such behavior may come at a considerable cost, such as
-industrial production lines, autonomous vehicles, or healthcare applications.
-Contributions. We frame Out Of Distribution (OOD) detection in DNNs as a
-statistical hypothesis testing problem. Tests generated within our proposed
-framework combine evidence from the entire network. Unlike previous OOD
-detection heuristics, this framework returns a $p$-value for each test sample.
-It is guaranteed to maintain the Type I Error (T1E - incorrectly predicting OOD
-for an actual in-distribution sample) for test data. Moreover, this allows to
-combine several detectors while maintaining the T1E. Building on this
-framework, we suggest a novel OOD procedure based on low-order statistics. Our
-method achieves comparable or better results than state-of-the-art methods on
-well-accepted OOD benchmarks, without retraining the network parameters or
-assuming prior knowledge on the test distribution -- and at a fraction of the
-computational cost.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Haroush_M/0/1/0/all/0/1"&gt;Matan Haroush&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Frostig_T/0/1/0/all/0/1"&gt;Tzviel Frostig&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Heller_R/0/1/0/all/0/1"&gt;Ruth Heller&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Soudry_D/0/1/0/all/0/1"&gt;Daniel Soudry&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Causal Feature Selection for Algorithmic Fairness. (arXiv:2006.06053v2 [cs.LG] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2006.06053</id>
-        <link href="http://arxiv.org/abs/2006.06053"/>
-        <updated>2022-04-02T00:47:19.773Z</updated>
-        <summary type="html"><![CDATA[The use of machine learning (ML) in high-stakes societal decisions has
-encouraged the consideration of fairness throughout the ML lifecycle. Although
-data integration is one of the primary steps to generate high quality training
-data, most of the fairness literature ignores this stage. In this work, we
-consider fairness in the integration component of data management, aiming to
-identify features that improve prediction without adding any bias to the
-dataset. We work under the causal interventional fairness paradigm. Without
-requiring the underlying structural causal model a priori, we propose an
-approach to identify a sub-collection of features that ensure the fairness of
-the dataset by performing conditional independence tests between different
-subsets of features. We use group testing to improve the complexity of the
-approach. We theoretically prove the correctness of the proposed algorithm to
-identify features that ensure interventional fairness and show that sub-linear
-conditional independence tests are sufficient to identify these variables. A
-detailed empirical evaluation is performed on real-world datasets to
-demonstrate the efficacy and efficiency of our technique.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Galhotra_S/0/1/0/all/0/1"&gt;Sainyam Galhotra&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Shanmugam_K/0/1/0/all/0/1"&gt;Karthikeyan Shanmugam&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Sattigeri_P/0/1/0/all/0/1"&gt;Prasanna Sattigeri&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Varshney_K/0/1/0/all/0/1"&gt;Kush R. Varshney&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast, Accurate and Memory-Efficient Partial Permutation Synchronization. (arXiv:2203.16505v2 [cs.CV] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2203.16505</id>
-        <link href="http://arxiv.org/abs/2203.16505"/>
-        <updated>2022-04-02T00:47:19.773Z</updated>
-        <summary type="html"><![CDATA[Previous partial permutation synchronization (PPS) algorithms, which are
-commonly used for multi-object matching, often involve computation-intensive
-and memory-demanding matrix operations. These operations become intractable for
-large scale structure-from-motion datasets. For pure permutation
-synchronization, the recent Cycle-Edge Message Passing (CEMP) framework
-suggests a memory-efficient and fast solution. Here we overcome the restriction
-of CEMP to compact groups and propose an improved algorithm, CEMP-Partial, for
-estimating the corruption levels of the observed partial permutations. It
-allows us to subsequently implement a nonconvex weighted projected power method
-without the need of spectral initialization. The resulting new PPS algorithm,
-MatchFAME (Fast, Accurate and Memory-Efficient Matching), only involves sparse
-matrix operations, and thus enjoys lower time and space complexities in
-comparison to previous PPS algorithms. We prove that under adversarial
-corruption, though without additive noise and with certain assumptions,
-CEMP-Partial is able to exactly classify corrupted and clean partial
-permutations. We demonstrate the state-of-the-art accuracy, speed and memory
-efficiency of our method on both synthetic and real datasets.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Li_S/0/1/0/all/0/1"&gt;Shaohan Li&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Shi_Y/0/1/0/all/0/1"&gt;Yunpeng Shi&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Lerman_G/0/1/0/all/0/1"&gt;Gilad Lerman&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Schema matching using Gaussian mixture models with Wasserstein distance. (arXiv:2111.14244v2 [cs.LG] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2111.14244</id>
-        <link href="http://arxiv.org/abs/2111.14244"/>
-        <updated>2022-04-02T00:47:19.734Z</updated>
-        <summary type="html"><![CDATA[Gaussian mixture models find their place as a powerful tool, mostly in the
-clustering problem, but with proper preparation also in feature extraction,
-pattern recognition, image segmentation and in general machine learning. When
-faced with the problem of schema matching, different mixture models computed on
-different pieces of data can maintain crucial information about the structure
-of the dataset. In order to measure or compare results from mixture models, the
-Wasserstein distance can be very useful, however it is not easy to calculate
-for mixture distributions. In this paper we derive one of possible
-approximations for the Wasserstein distance between Gaussian mixture models and
-reduce it to linear problem. Furthermore, application examples concerning real
-world data are shown.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Przyborowski_M/0/1/0/all/0/1"&gt;Mateusz Przyborowski&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Pabis_M/0/1/0/all/0/1"&gt;Mateusz Pabi&amp;#x15b;&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Janusz_A/0/1/0/all/0/1"&gt;Andrzej Janusz&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Slezak_D/0/1/0/all/0/1"&gt;Dominik &amp;#x15a;l&amp;#x119;zak&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flexible and Efficient Contextual Bandits with Heterogeneous Treatment Effect Oracle. (arXiv:2203.16668v1 [cs.LG])]]></title>
-        <id>http://arxiv.org/abs/2203.16668</id>
-        <link href="http://arxiv.org/abs/2203.16668"/>
-        <updated>2022-04-02T00:47:19.726Z</updated>
-        <summary type="html"><![CDATA[Many popular contextual bandit algorithms estimate reward models to inform
-decision making. However, true rewards can contain action-independent
-redundancies that are not relevant for decision making and only increase the
-statistical complexity of accurate estimation. It is sufficient and more
-data-efficient to estimate the simplest function that explains the reward
-differences between actions, that is, the heterogeneous treatment effect,
-commonly understood to be more structured and simpler than the reward.
-Motivated by this observation, building on recent work on oracle-based
-algorithms, we design a statistically optimal and computationally efficient
-algorithm using heterogeneous treatment effect estimation oracles. Our results
-provide the first universal reduction of contextual bandits to a
-general-purpose heterogeneous treatment effect estimation method. We show that
-our approach is more robust to model misspecification than reward estimation
-methods based on squared error regression oracles. Experimentally, we show the
-benefits of heterogeneous treatment effect estimation in contextual bandits
-over reward estimation.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Carranza_A/0/1/0/all/0/1"&gt;Aldo Gael Carranza&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Krishnamurthy_S/0/1/0/all/0/1"&gt;Sanath Kumar Krishnamurthy&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Athey_S/0/1/0/all/0/1"&gt;Susan Athey&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[System Identification via Nuclear Norm Regularization. (arXiv:2203.16673v1 [stat.ML])]]></title>
-        <id>http://arxiv.org/abs/2203.16673</id>
-        <link href="http://arxiv.org/abs/2203.16673"/>
-        <updated>2022-04-02T00:47:19.726Z</updated>
-        <summary type="html"><![CDATA[This paper studies the problem of identifying low-order linear systems via
-Hankel nuclear norm regularization. Hankel regularization encourages the
-low-rankness of the Hankel matrix, which maps to the low-orderness of the
-system. We provide novel statistical analysis for this regularization and
-carefully contrast it with the unregularized ordinary least-squares (OLS)
-estimator. Our analysis leads to new bounds on estimating the impulse response
-and the Hankel matrix associated with the linear system. We first design an
-input excitation and show that Hankel regularization enables one to recover the
-system using optimal number of observations in the true system order and
-achieve strong statistical estimation rates. Surprisingly, we demonstrate that
-the input design indeed matters, by showing that intuitive choices such as
-i.i.d. Gaussian input leads to provably sub-optimal sample complexity. To
-better understand the benefits of regularization, we also revisit the OLS
-estimator. Besides refining existing bounds, we experimentally identify when
-regularized approach improves over OLS: (1) For low-order systems with slow
-impulse-response decay, OLS method performs poorly in terms of sample
-complexity, (2) Hankel matrix returned by regularization has a more clear
-singular value gap that ease identification of the system order, (3) Hankel
-regularization is less sensitive to hyperparameter choice. Finally, we
-establish model selection guarantees through a joint train-validation procedure
-where we tune the regularization parameter for near-optimal estimation.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/stat/1/au:+Sun_Y/0/1/0/all/0/1"&gt;Yue Sun&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Oymak_S/0/1/0/all/0/1"&gt;Samet Oymak&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Fazel_M/0/1/0/all/0/1"&gt;Maryam Fazel&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Challenges in leveraging GANs for few-shot data augmentation. (arXiv:2203.16662v1 [stat.ML])]]></title>
-        <id>http://arxiv.org/abs/2203.16662</id>
-        <link href="http://arxiv.org/abs/2203.16662"/>
-        <updated>2022-04-02T00:47:19.718Z</updated>
-        <summary type="html"><![CDATA[In this paper, we explore the use of GAN-based few-shot data augmentation as
-a method to improve few-shot classification performance. We perform an
-exploration into how a GAN can be fine-tuned for such a task (one of which is
-in a class-incremental manner), as well as a rigorous empirical investigation
-into how well these models can perform to improve few-shot classification. We
-identify issues related to the difficulty of training such generative models
-under a purely supervised regime with very few examples, as well as issues
-regarding the evaluation protocols of existing works. We also find that in this
-regime, classification accuracy is highly sensitive to how the classes of the
-dataset are randomly split. Therefore, we propose a semi-supervised fine-tuning
-approach as a more pragmatic way forward to address these problems.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/stat/1/au:+Beckham_C/0/1/0/all/0/1"&gt;Christopher Beckham&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Laradji_I/0/1/0/all/0/1"&gt;Issam Laradji&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Rodriguez_P/0/1/0/all/0/1"&gt;Pau Rodriguez&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Vazquez_D/0/1/0/all/0/1"&gt;David Vazquez&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Nowrouzezahrai_D/0/1/0/all/0/1"&gt;Derek Nowrouzezahrai&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Pal_C/0/1/0/all/0/1"&gt;Christopher Pal&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spatially Adaptive Online Prediction of Piecewise Regular Functions. (arXiv:2203.16587v1 [math.ST])]]></title>
-        <id>http://arxiv.org/abs/2203.16587</id>
-        <link href="http://arxiv.org/abs/2203.16587"/>
-        <updated>2022-04-02T00:47:19.544Z</updated>
-        <summary type="html"><![CDATA[We consider the problem of estimating piecewise regular functions in an
-online setting, i.e., the data arrive sequentially and at any round our task is
-to predict the value of the true function at the next revealed point using the
-available data from past predictions. We propose a suitably modified version of
-a recently developed online learning algorithm called the sleeping experts
-aggregation algorithm. We show that this estimator satisfies oracle risk bounds
-simultaneously for all local regions of the domain. As concrete instantiations
-of the expert aggregation algorithm proposed here, we study an online mean
-aggregation and an online linear regression aggregation algorithm where experts
-correspond to the set of dyadic subrectangles of the domain. The resulting
-algorithms are near linear time computable in the sample size. We specifically
-focus on the performance of these online algorithms in the context of
-estimating piecewise polynomial and bounded variation function classes in the
-fixed design setup. The simultaneous oracle risk bounds we obtain for these
-estimators in this context provide new and improved (in certain aspects)
-guarantees even in the batch setting and are not available for the state of the
-art batch learning estimators.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/math/1/au:+Chatterjee_S/0/1/0/all/0/1"&gt;Sabyasachi Chatterjee&lt;/a&gt;, &lt;a href="http://arxiv.org/find/math/1/au:+Goswami_S/0/1/0/all/0/1"&gt;Subhajit Goswami&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Towards Differential Relational Privacy and its use in Question Answering. (arXiv:2203.16701v1 [cs.LG])]]></title>
-        <id>http://arxiv.org/abs/2203.16701</id>
-        <link href="http://arxiv.org/abs/2203.16701"/>
-        <updated>2022-04-02T00:47:19.531Z</updated>
-        <summary type="html"><![CDATA[Memorization of the relation between entities in a dataset can lead to
-privacy issues when using a trained model for question answering. We introduce
-Relational Memorization (RM) to understand, quantify and control this
-phenomenon. While bounding general memorization can have detrimental effects on
-the performance of a trained model, bounding RM does not prevent effective
-learning. The difference is most pronounced when the data distribution is
-long-tailed, with many queries having only few training examples: Impeding
-general memorization prevents effective learning, while impeding only
-relational memorization still allows learning general properties of the
-underlying concepts. We formalize the notion of Relational Privacy (RP) and,
-inspired by Differential Privacy (DP), we provide a possible definition of
-Differential Relational Privacy (DrP). These notions can be used to describe
-and compute bounds on the amount of RM in a trained model. We illustrate
-Relational Privacy concepts in experiments with large-scale models for Question
-Answering.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Bombari_S/0/1/0/all/0/1"&gt;Simone Bombari&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Achille_A/0/1/0/all/0/1"&gt;Alessandro Achille&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Wang_Z/0/1/0/all/0/1"&gt;Zijian Wang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Wang_Y/0/1/0/all/0/1"&gt;Yu-Xiang Wang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Xie_Y/0/1/0/all/0/1"&gt;Yusheng Xie&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Singh_K/0/1/0/all/0/1"&gt;Kunwar Yashraj Singh&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Appalaraju_S/0/1/0/all/0/1"&gt;Srikar Appalaraju&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Mahadevan_V/0/1/0/all/0/1"&gt;Vijay Mahadevan&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Soatto_S/0/1/0/all/0/1"&gt;Stefano Soatto&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wind Farm Layout Optimisation using Set Based Multi-objective Bayesian Optimisation. (arXiv:2203.17065v1 [stat.ML])]]></title>
-        <id>http://arxiv.org/abs/2203.17065</id>
-        <link href="http://arxiv.org/abs/2203.17065"/>
-        <updated>2022-04-02T00:47:19.529Z</updated>
-        <summary type="html"><![CDATA[Wind energy is one of the cleanest renewable electricity sources and can help
-in addressing the challenge of climate change. One of the drawbacks of
-wind-generated energy is the large space necessary to install a wind farm; this
-arises from the fact that placing wind turbines in a limited area would hinder
-their productivity and therefore not be economically convenient. This naturally
-leads to an optimisation problem, which has three specific challenges: (1)
-multiple conflicting objectives (2) computationally expensive simulation models
-and (3) optimisation over design sets instead of design vectors. The first and
-second challenges can be addressed by using surrogate-assisted e.g.\ Bayesian
-multi-objective optimisation. However, the traditional Bayesian optimisation
-cannot be applied as the optimisation function in the problem relies on design
-sets instead of design vectors. This paper extends the applicability of
-Bayesian multi-objective optimisation to set based optimisation for solving the
-wind farm layout problem. We use a set-based kernel in Gaussian process to
-quantify the correlation between wind farms (with a different number of
-turbines). The results on the given data set of wind energy and direction
-clearly show the potential of using set-based Bayesian multi-objective
-optimisation.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/stat/1/au:+Chugh_T/0/1/0/all/0/1"&gt;Tinkle Chugh&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Ymeraj_E/0/1/0/all/0/1"&gt;Endi Ymeraj&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debiasing In-Sample Policy Performance for Small-Data, Large-Scale Optimization. (arXiv:2107.12438v3 [math.OC] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2107.12438</id>
-        <link href="http://arxiv.org/abs/2107.12438"/>
-        <updated>2022-04-02T00:47:19.529Z</updated>
-        <summary type="html"><![CDATA[Motivated by the poor performance of cross-validation in settings where data
-are scarce, we propose a novel estimator of the out-of-sample performance of a
-policy in data-driven optimization.Our approach exploits the optimization
-problem's sensitivity analysis to estimate the gradient of the optimal
-objective value with respect to the amount of noise in the data and uses the
-estimated gradient to debias the policy's in-sample performance. Unlike
-cross-validation techniques, our approach avoids sacrificing data for a test
-set, utilizes all data when training and, hence, is well-suited to settings
-where data are scarce. We prove bounds on the bias and variance of our
-estimator for optimization problems with uncertain linear objectives but known,
-potentially non-convex, feasible regions. For more specialized optimization
-problems where the feasible region is "weakly-coupled" in a certain sense, we
-prove stronger results. Specifically, we provide explicit high-probability
-bounds on the error of our estimator that hold uniformly over a policy class
-and depends on the problem's dimension and policy class's complexity. Our
-bounds show that under mild conditions, the error of our estimator vanishes as
-the dimension of the optimization problem grows, even if the amount of
-available data remains small and constant. Said differently, we prove our
-estimator performs well in the small-data, large-scale regime. Finally, we
-numerically compare our proposed method to state-of-the-art approaches through
-a case-study on dispatching emergency medical response services using real
-data. Our method provides more accurate estimates of out-of-sample performance
-and learns better-performing policies.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/math/1/au:+Gupta_V/0/1/0/all/0/1"&gt;Vishal Gupta&lt;/a&gt;, &lt;a href="http://arxiv.org/find/math/1/au:+Huang_M/0/1/0/all/0/1"&gt;Michael Huang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/math/1/au:+Rusmevichientong_P/0/1/0/all/0/1"&gt;Paat Rusmevichientong&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An energy-based deep splitting method for the nonlinear filtering problem. (arXiv:2203.17153v1 [stat.CO])]]></title>
-        <id>http://arxiv.org/abs/2203.17153</id>
-        <link href="http://arxiv.org/abs/2203.17153"/>
-        <updated>2022-04-02T00:47:19.332Z</updated>
-        <summary type="html"><![CDATA[The main goal of this paper is to approximately solve the nonlinear filtering
-problem through deep learning. This is achieved by solving the Zakai equation
-by a deep splitting method, previously developed for approximate solution of
-(stochastic) partial differential equations. This is combined with an
-energy-based model for the approximation of functions by a deep neural network.
-This results in a computationally fast filter that takes observations as input
-and that does not require re-training when new observations are received. The
-method is tested on three examples, one linear Gaussian and two nonlinear. The
-method shows promising performance when benchmarked against the Kalman filter
-and the bootstrap particle filter.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/stat/1/au:+Baagmark_K/0/1/0/all/0/1"&gt;Kasper B&amp;#xe5;gmark&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Andersson_A/0/1/0/all/0/1"&gt;Adam Andersson&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Larsson_S/0/1/0/all/0/1"&gt;Stig Larsson&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recommender Systems meet Mechanism Design. (arXiv:2110.12558v2 [cs.GT] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2110.12558</id>
-        <link href="http://arxiv.org/abs/2110.12558"/>
-        <updated>2022-04-02T00:47:19.332Z</updated>
-        <summary type="html"><![CDATA[Machine learning has developed a variety of tools for learning and
-representing high-dimensional distributions with structure. Recent years have
-also seen big advances in designing multi-item mechanisms. Akin to overfitting,
-however, these mechanisms can be extremely sensitive to the Bayesian prior that
-they target, which becomes problematic when that prior is only approximately
-known. At the same time, even if access to the exact Bayesian prior is given,
-it is known that optimal or even approximately optimal multi-item mechanisms
-run into sample, computational, representation and communication intractability
-barriers.
-
-We consider a natural class of multi-item mechanism design problems with very
-large numbers of items, but where the bidders' value distributions can be
-well-approximated by a topic model akin to those used in recommendation systems
-with very large numbers of possible recommendations. We propose a mechanism
-design framework for this setting, building on a recent robustification
-framework by Brustle et al., which disentangles the statistical challenge of
-estimating a multi-dimensional prior from the task of designing a good
-mechanism for it, and robustifies the performance of the latter against the
-estimation error of the former. We provide an extension of this framework
-appropriate for our setting, which allows us to exploit the expressive power of
-topic models to reduce the effective dimensionality of the mechanism design
-problem and remove the dependence of its computational, communication and
-representation complexity on the number of items.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Cai_Y/0/1/0/all/0/1"&gt;Yang Cai&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Daskalakis_C/0/1/0/all/0/1"&gt;Constantinos Daskalakis&lt;/a&gt;</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Unifying Framework for Reinforcement Learning and Planning. (arXiv:2006.15009v4 [cs.LG] UPDATED)]]></title>
-        <id>http://arxiv.org/abs/2006.15009</id>
-        <link href="http://arxiv.org/abs/2006.15009"/>
-        <updated>2022-04-02T00:47:19.034Z</updated>
-        <summary type="html"><![CDATA[Sequential decision making, commonly formalized as optimization of a Markov
-Decision Process, is a key challenge in artificial intelligence. Two successful
-approaches to MDP optimization are reinforcement learning and planning, which
-both largely have their own research communities. However, if both research
-fields solve the same problem, then we might be able to disentangle the common
-factors in their solution approaches. Therefore, this paper presents a unifying
-algorithmic framework for reinforcement learning and planning (FRAP), which
-identifies underlying dimensions on which MDP planning and learning algorithms
-have to decide. At the end of the paper, we compare a variety of well-known
-planning, model-free and model-based RL algorithms along these dimensions.
-Altogether, the framework may help provide deeper insight in the algorithmic
-design space of planning and reinforcement learning.]]></summary>
-        <author>
-            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Moerland_T/0/1/0/all/0/1"&gt;Thomas M. Moerland&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Broekens_J/0/1/0/all/0/1"&gt;Joost Broekens&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Plaat_A/0/1/0/all/0/1"&gt;Aske Plaat&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Jonker_C/0/1/0/all/0/1"&gt;Catholijn M. Jonker&lt;/a&gt;</name>
         </author>
     </entry>
 </feed>
