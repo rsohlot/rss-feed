@@ -14101,6 +14101,176 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhtjm1/d_any_tips_for_handling_sparse_discrete_temporal/",
+          "author": null,
+          "description": "Hi, I'm wondering if anyone could help familiarize me with modern feature engineering methods for handling this type of data in the context of machine learning.\n Background\n The data I'm talking about is hospital/facility utilization data for patients. Below is a table that is similar to the data I have for each patient. In this example we can see that this single patient went to the ED on the 5th day, was admitted into the hospital on the 5th day, and was admitted to a SNF (Skilled Nursing Facility -basically a nursing home) on the 8th day:\n  \n  ED Hospital SNF \n  \n Day 1 0 0 0 \n  Day 2 0 0 0 \n  Day 3 0 0 0 \n  Day 4 0 0 0 \n  Day 5 1 1 0 \n  Day 6 0 0 0 \n  Day 7 0 0 0 \n  Day 8 0 0 1 \n  Day 9 0 0 0 \n \n In reality, we have more types of facilities as columns and years worth of days. \n Problem…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhtjm1/d_any_tips_for_handling_sparse_discrete_temporal/",
+          "publishedOn": "2022-05-03T23:55:19.000Z",
+          "wordCount": 662,
+          "title": "[D] Any tips for handling sparse, discrete, temporal data?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhstmc/p_deploying_my_midi_generator/",
+          "author": null,
+          "description": "Not sure if this is the best place for this, as I am not a Machine Learning engineer. I have developed a web application that lets you generate and remix MIDI with NLP Transformers. Right now it runs on Flask. The model is fairly small as far as transformers go (500Mb) and doesn't use very much memory when running. It is only doing inference and so it runs for about 5-15s while processing a job, containerized it uses less than 4Gb memory at all times.\n I am trying to figure out how to deploy my Flask server to EC2 without incurring massive compute costs. It seems like all of the instances with GPU or Spot GPU support are prohibitively expensive and provide way more memory and local storage than I would need. Have any of you encountered a similar problem? Are there any instances that you suggest?\n Project here:\n https://github.com/pickles976/chiptune-ai\n    submitted by    /u/EuphoricFedoria  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhstmc/p_deploying_my_midi_generator/",
+          "publishedOn": "2022-05-03T23:17:16.000Z",
+          "wordCount": 263,
+          "title": "[P] Deploying my MIDI generator",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhsfde/d_democratizing_diffusion_models_ldms/",
+          "author": null,
+          "description": "Diffusion models (DMs) have a more stable training phase than GANs and less parameters than autoregressive models, yet they are just really resource intensive. The most powerful DMs require up to a 1000 V100 days to train (that’s a lot of $$$ for compute) and about a day per 1000 inference samples. The authors of Latent Diffusion Models (LDMs) pinpoint this problem to the high dimensionality of the pixel space, in which the diffusion process occurs and propose to perform it in a more compact latent space instead. In short, they achieve this feat by pertaining an autoencoder model that learns an efficient compact latent space that is perceptually equivalent to the pixel space. A DM sandwiched between the convolutional encoder-decoder is then trained inside the latent space in a more computationally-efficient way.\n In other words, this is a VQGAN with a DM instead of a transformer (and without a discriminator).\n As for the details, let’s dive in, shall we?\n Full summary: https://t.me/casual_gan/293\n Blog post: https://www.casualganpapers.com/high-res-faster-diffusion-democratizing-diffusion/Latent-Disffusion-Models-explained.html\n Latent Diffusion Models\n arxiv / code\n Join the discord community and follow on Twitter for weekly AI paper summaries!\n    submitted by    /u/KirillTheMunchKing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhsfde/d_democratizing_diffusion_models_ldms/",
+          "publishedOn": "2022-05-03T22:58:09.000Z",
+          "wordCount": 331,
+          "title": "[D] Democratizing Diffusion Models - LDMs: High-Resolution Image Synthesis with Latent Diffusion Models, a 5-minute paper summary by Casual GAN Papers",
+          "imageUrl": "https://external-preview.redd.it/KKl1GzSI0wcMXBep1A-ivldW6q63nQ8Ke15RXuBF_s0.jpg?auto=webp&s=fe823e4f5c24081ccaa1568c62b42eef0e98a18f"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhs9t1/d_training_set_size_of_sota_models/",
+          "author": null,
+          "description": "Hi,\n I'm trying to get an idea of just how large datasets for big ML models, such Dall-e are. Does anyone have some references? \n GPT-3 is apparently trained on 45TB of data: [https://www.springboard.com/blog/data-science/machine-learning-gpt-3-open-ai](https://www.springboard.com/blog/data-science/machine-learning-gpt-3-open-ai)\n ​\n How large are other big datasets?\n    submitted by    /u/rk3000  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhs9t1/d_training_set_size_of_sota_models/",
+          "publishedOn": "2022-05-03T22:50:46.000Z",
+          "wordCount": 131,
+          "title": "[D] Training set size of SOTA models?",
+          "imageUrl": "https://external-preview.redd.it/4la80T9OdKr8M1eJ0fXYKuqEzHu69cFxEstsxqb_d2k.jpg?auto=webp&s=29b1688275db17ee3b508e98467d7b7ec5c768b6"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhq7m4/d_how_to_train_large_clipstyle_models/",
+          "author": null,
+          "description": "I'd like to train a medium-large contrastive model similar to CLIP. Something that will fit onto a single GPU but for which I can only compute a few batch elements at a time.\n The issue is that these types of models rely on other batch elements for the \"contrastive\" part of the equation. Bigger batch sizes lead to faster (and better) convergence.\n Is anyone aware of any papers (or have any hands-on tips) that address this issue?\n    submitted by    /u/neonbjb  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhq7m4/d_how_to_train_large_clipstyle_models/",
+          "publishedOn": "2022-05-03T21:15:45.000Z",
+          "wordCount": 238,
+          "title": "[D] How to train large CLIP-style models?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhpmlu/d_focus_on_the_process_formulating_ai_ethics/",
+          "author": null,
+          "description": "Hi there, there is a new Gradient article some of you may find interesting:\n Focus on the Process: Formulating AI Ethics Principles More Responsibly\n Here's a preview of what it's about:\n  \nIt is tempting to respond to the present state in AI ethics by abandoning searches for principles. Given that there are so many principles out there already and so few tools to operationalize them, organizations might be inclined to simply use some of the existing principles and focus their attention on operationalization. \n However, a difficult question to answer is which principles to use. How do we know that organizations will choose well? What is to prevent them from cherry picking, for example? One way to go is to sift through the existing literature, looking for universal AI ethics principles. The hope might be that if we find universal principles, they could guide the development and evaluation of AI systems everywhere. Organizations that develop AI systems could focus on operationalizing them. Those who evaluate AI systems, such as investors, regulators, auditors, and consumers, could examine AI systems based on these principles. \n I advise against this approach. In this article, I explain why it is unlikely that universal AI ethics principles will be found and I discuss reasons to avoid using dominant trends as default. Instead, I suggest that each organization should articulate its own AI ethics principles, and I sketch ways to do so responsibly.\n  \nEnjoy!\n    submitted by    /u/regalalgorithm  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhpmlu/d_focus_on_the_process_formulating_ai_ethics/",
+          "publishedOn": "2022-05-03T20:49:18.000Z",
+          "wordCount": 337,
+          "title": "[D] Focus on the Process: Formulating AI Ethics Principles More Responsibly",
+          "imageUrl": "https://external-preview.redd.it/nAcyZB0cPZf4X7CRnM-O829KN8v819IcMEuQUxvSeJA.jpg?auto=webp&s=6f1aa022c419583065d5677adef3c83c0f5f367a"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uho1ex/d_are_multilayer_perceptrons_reversible/",
+          "author": null,
+          "description": "I have a multilayer perceptron that maps input X to output Y. Three hidden layers, with \"tanh\" activations in each, except the layer with linear (identity) activation leading the output Y. Can I reverse the network such that it would map Y to X?\n    submitted by    /u/boleslev  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uho1ex/d_are_multilayer_perceptrons_reversible/",
+          "publishedOn": "2022-05-03T19:38:12.000Z",
+          "wordCount": 172,
+          "title": "[D] Are multilayer perceptrons reversible?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhm3vw/d_anyone_working_on_explanable_ai/",
+          "author": null,
+          "description": "I am currently working at ML@Uber Is anyone here dealing with the problem of explanable AI? i.e. how are you able to understand and interpret predictions made by your machine learning models. Anyone here facing this problem or already have solved this problem?\n    submitted by    /u/gauravapiscean  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhm3vw/d_anyone_working_on_explanable_ai/",
+          "publishedOn": "2022-05-03T18:08:47.000Z",
+          "wordCount": 344,
+          "title": "[D] Anyone working on Explanable AI?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhl1gu/d_gcp_compute_enging_pricing_question/",
+          "author": null,
+          "description": "I'm currently doing a little personal project which involves training a VQVAE (basically a conv NN and a variational autoencoder). I've got it all up and running after a few weeks of figuring things out and I'm finding that I'm being rinsed on costs.\n My basic setup is a c2-standard-4 VM (4 v-cpus and 16GB ram) and a 100GB disk mounted, I'm also spinning down the VM when not in use so I don't get a discount for continual usage. I started with an n1-standard-1 but found myself quickly running out of RAM, which still happens if my batch size is too high but less frequently. The disk is necessary as I'm dealing with large datasets but doesn't seem to be costing me much. As of right now my costs are about $4.5 per day, which obviously isn't that high, but for a personal project the costs soon rack up if I'm running this for days at a time every week.\n On my current setup I can run a batch size of 8, any higher than this and I run out of memory, and an epoch takes about 5 hours. The point I'm struggling with at the moment is can I be better optimising CPU vs runtime, i.e. is it worth swapping to slower/fewer but cheaper CPUs, or will it cost me just as much because they run longer? The other thing I'm not sure about is if I can gain much by using other platforms, my current setup isn't really that tied into the GCP ecosystem so I can switch fairly easily.\n I realise my questions are fairly general and everyone's setups are different, so I'm just looking for a point in the right direction if nothing else. Thanks!\n Edit: also if there's anywhere that can give me a decent amount of free hours I'd also be interested in that too!\n    submitted by    /u/Batteredcode  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhl1gu/d_gcp_compute_enging_pricing_question/",
+          "publishedOn": "2022-05-03T17:19:13.000Z",
+          "wordCount": 756,
+          "title": "[D] GCP compute enging pricing question",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhkb4t/d_clientside_caching_improves_feature_store/",
+          "author": null,
+          "description": "To enable our platform to support hundreds of data driven models and produce billions of model predictions we build a robust ML platform, feature store and prediction engine. This was only the beginning as the feature store at the heart of the platform utilized multiple TB's of memory in large Redis clusters, which needed to be optimized for cost and fast loading times for the optimal customer experience. To improve the feature store performance we implemented a caching layer but still needed to choose the best caching library, implement this solution and analyze the platform to set up experiments that would validate the new approach. I wanted to share this journey with the developer community so they can learn from my experience and how I was able to improve feature store performance by 70% at DoorDash. Please check out the article and let me know your thoughts on my approach:\n https://doordash.engineering/2022/05/03/how-we-applied-client-side-caching/\n    submitted by    /u/csko7  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhkb4t/d_clientside_caching_improves_feature_store/",
+          "publishedOn": "2022-05-03T16:45:34.000Z",
+          "wordCount": 264,
+          "title": "[D] Client-Side Caching Improves Feature Store Performance by 70% at DoorDash",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhivvq/twitter_algorithm_already_open_sourced/",
+          "author": null,
+          "description": "I've been seeing some people talking about how elon's going to make twitter's algorithm open source but isn't it already publicly available? At least for Who To Follow WTF so I don't get why people are losing their minds over this.\n    submitted by    /u/lehmanmafia  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhivvq/twitter_algorithm_already_open_sourced/",
+          "publishedOn": "2022-05-03T15:40:26.000Z",
+          "wordCount": 555,
+          "title": "Twitter algorithm already open source?[D]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhgupq/r_d_serf_activation_function_improving_swish/",
+          "author": null,
+          "description": "https://arxiv.org/abs/2108.09598\n Paper looks very promising, what do you think?\n Anyone tried SERF yet?\n    submitted by    /u/Shronnin  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhgupq/r_d_serf_activation_function_improving_swish/",
+          "publishedOn": "2022-05-03T14:04:45.000Z",
+          "wordCount": 300,
+          "title": "[R] [D] SERF activation function - improving Swish",
+          "imageUrl": "https://external-preview.redd.it/Cb_PcUygTcaeTkYhbknuR-wtPZFTuzLC2xj03KfWrwk.jpg?auto=webp&s=fd99bf3e3699fdaded3c895b6c765f548cc9b341"
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhg5k8/sound_clip_recommendation_model_d/",
+          "author": null,
+          "description": "Hello everyone! So I am starting a project where I need to build a model that can identify segments of audio that detect “problems with call center agents”. I have around 65,000 pieces of audio all that have had segments that have been labeled. I also have the transcribed text and the exact times the where the audio was segmented. I am thinking of starting with Data2Vec. I would like to hear your opinions on how you would approach this. Thanks in advance!\n    submitted by    /u/JS-AI  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhg5k8/sound_clip_recommendation_model_d/",
+          "publishedOn": "2022-05-03T13:30:35.000Z",
+          "wordCount": 172,
+          "title": "Sound clip Recommendation Model [D]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uheokb/d_why_are_graph_neural_networks_applied_to/",
+          "author": null,
+          "description": "Recently I have come across several papers that use graph neural networks for processing images, audio and video data. I can understand why GNNs are needed for data that have a graph structure (like molecules or traffic network etc). But for images and audio, what is the difference between using GNNs versus normal DNN?\n    submitted by    /u/Far_Conversation_445  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uheokb/d_why_are_graph_neural_networks_applied_to/",
+          "publishedOn": "2022-05-03T12:10:56.000Z",
+          "wordCount": 567,
+          "title": "[D] Why are graph neural networks applied to non-graph structured data?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uhauw5/d_would_an_ml_ops_platform_be_useful/",
+          "author": null,
+          "description": "Hey folk, I was wondering, would a ML Ops platform be something the community would embrace?\n A tool where from a CLI or GUI you can easily deploy models in a productive environment, or expose them as microservices?\n Something that solves the infrastructure bits and configs is what I wonder..\n Or do people prefer to simply handle their own infra or manage on premises machines?\n    submitted by    /u/zedrakk  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uhauw5/d_would_an_ml_ops_platform_be_useful/",
+          "publishedOn": "2022-05-03T07:41:14.000Z",
+          "wordCount": 288,
+          "title": "[D] Would an ML Ops platform be useful?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uh8gpk/d_handling_missing_data_or_encodingscaling_what/",
+          "author": null,
+          "description": "Just out of curiosity, I just want to know whether you handle missing data before scaling/encoding of the dataset or after it.\n Thank you,\n    submitted by    /u/trj_flash75  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uh8gpk/d_handling_missing_data_or_encodingscaling_what/",
+          "publishedOn": "2022-05-03T04:48:47.000Z",
+          "wordCount": 194,
+          "title": "[D] Handling Missing Data or Encoding/Scaling. What comes first?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/uh5e2f/r_meta_is_releasing_a_175b_parameter_language/",
+          "author": null,
+          "description": "submitted by    /u/StellaAthena  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/uh5e2f/r_meta_is_releasing_a_175b_parameter_language/",
+          "publishedOn": "2022-05-03T01:51:29.000Z",
+          "wordCount": 493,
+          "title": "[R] Meta is releasing a 175B parameter language model",
+          "imageUrl": "https://external-preview.redd.it/Cb_PcUygTcaeTkYhbknuR-wtPZFTuzLC2xj03KfWrwk.jpg?auto=webp&s=fd99bf3e3699fdaded3c895b6c765f548cc9b341"
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/uh2rhp/d_how_to_do_unsupervised_anomaly_detection_in_a/",
           "author": null,
           "description": "I have terabytes of tabular and image data. I want to determine what data points are novel/anomalous. I have a couple anchor data points for entities that are known and features about said entities.\n Effectively I want to find things that are novel relative to my anchors without any labels for if something is actually interesting and not noise to train on.\n Here's an analogy:\n  \nI have driving footage of a reference driver who is \"perfectly\" driving. I also have all of the sensor data: accelerometers, where the human is looking, etc.\n I simulate 1000s of self-driving cars that are running their own agent models. I get data on all of these as well.\n I deploy an agent to the real world that is expected to do better/comparable to the reference driver while having different model parameters. I don't know how this driving agent will do in the real world. I want to choose agent instantiations that are different from the rest in some regard (anomaly)\n I'm constrained by how many deployments I can make. It's expensive and dangerous.\n  \n​\n An issue I face with this is that there are dozens of models that will give me anomalous points, but sometimes they don't overlap at all. There's no consistency. Ideally I want to find data points that are novel in feature space (far away?), but expected to be functional... on non-labeled data.\n So yea... after writing this it kind of sounds like just a screwed situation, but maybe someone here has an idea/experience of how to build a system that can enable this kind of parameter selection engine (suggesting novel parameters that are functional without any labeled data).\n    submitted by    /u/memproc  \n [link]   [comments]",
@@ -18119,96 +18289,6 @@
           "wordCount": 600,
           "title": "[R] CfP EvoRL @ GECCO 2022. One week before the deadline!",
           "imageUrl": "https://external-preview.redd.it/lK42WwByGG32nygWSBuOYR3KR5RyUTDVfuLYvfjqmTI.jpg?auto=webp&s=02c389b64acc7a9d40c4c4ad6555c2381750877f"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tw0c1o/p_looking_for_a_dataset/",
-          "author": null,
-          "description": "Hey! New Here. I logged back into Reddit after years just to ask this question on this forum. I need to test a model, based loosely on BERT, that classifies a piece of text as having right or left political ideology leaning and whether it promotes any racial or religious stereotypes.\n For training purpose we used SBIC, IBC, and Stereoset. Though these only contain short sentences which are labeled as belonging to only one of the above categories.\n Is anyone aware of any other Dataset which can be used for this purpose, which hopefully contains text labeled as promoting or containing a political leaning (left/right, conservative/liberal, neutral) and further either any racial or religious stereotypes?\n Very thankful in adv\n    submitted by    /u/Fee_Imaginary  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tw0c1o/p_looking_for_a_dataset/",
-          "publishedOn": "2022-04-04T12:02:44.000Z",
-          "wordCount": 205,
-          "title": "[P] Looking for a dataset",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tvwnwy/p_random_relational_graph_convolutional_networks/",
-          "author": null,
-          "description": "📑 The Random R-GCN code has just been released!\n 📝 With just a few lines of code, you can now create embeddings of entities in a Knowledge Graph.\n ​\n Minimal example on how to create embeddings with RR-GCN\n ​\n 💡 RR-GCN does not require training and is competitive to fully trained R-GCNs.\n 👉 https://github.com/predict-idlab/RR-GCN\n    submitted by    /u/givdwiel  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tvwnwy/p_random_relational_graph_convolutional_networks/",
-          "publishedOn": "2022-04-04T08:07:48.000Z",
-          "wordCount": 143,
-          "title": "[P] Random Relational Graph Convolutional Networks (RR-GCN)",
-          "imageUrl": "https://external-preview.redd.it/hbnqn3Smcm-XXgFP9D-4dlKcnNwPcAkdToaX-b-_zw0.jpg?auto=webp&s=0bafa0817ea6dee3b3d7c145ec6dead117ef8d65"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tvug94/r_diffusionclip_textguided_diffusion_models_for/",
-          "author": null,
-          "description": "submitted by    /u/ImBradleyKim  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tvug94/r_diffusionclip_textguided_diffusion_models_for/",
-          "publishedOn": "2022-04-04T05:38:01.000Z",
-          "wordCount": 388,
-          "title": "[R] DiffusionCLIP: Text-Guided Diffusion Models for \"Robust\" Image Manipulation (CVPR 2022)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tvr2ib/p_transformers_for_software_engineers/",
-          "author": null,
-          "description": "submitted by    /u/hardmaru  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tvr2ib/p_transformers_for_software_engineers/",
-          "publishedOn": "2022-04-04T02:36:40.000Z",
-          "wordCount": 95,
-          "title": "[P] Transformers for Software Engineers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tvntfs/d_unconventional_computer_vision_problems_that/",
-          "author": null,
-          "description": "Given that most benchmarks for image classification are based on regular, everyday world objects RGB images (or grayscale), what are some unconventional science cases where 2D inputs are substantially different from what we are used to perceive by eye? \n For example, I'm interested in cases where spatial information can't be constrained to narrow pixel value ranges, such as exponential signals. Or that any standard normalisation (say min-max, zscore) and normalisation layers are not applicable and could lead to the loss of information.\n One of these cases is Astronomy. However, most practitioners try to to adapt the problem to established standards (say fake RGB images, log scaling flux images, etc). What are other cases out there where the nature of the 2D inputs are very distinct to what we are used to parse through our eyes and what deep nets are benchmarked on? I'm curious about tailored solutions that would intrinsically change the way the deep nets are constructed to solve the research question.\n    submitted by    /u/astroferreira  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tvntfs/d_unconventional_computer_vision_problems_that/",
-          "publishedOn": "2022-04-03T23:58:19.000Z",
-          "wordCount": 322,
-          "title": "[D] Unconventional computer vision problems that are intrinsically different from classifying ordinary stuff",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tvjw43/researchprojectlibrary_dogfeeding_a_new_machine/",
-          "author": null,
-          "description": "Hi everyone!\n I'm Atindriyo Sanyal, one of the founders of the ML company Galileo (https://rungalileo.io/). We're building a cool new tool/framework for ML practitioners that helps shine a light on the data you are training your models with.\n I'd love to get some feedback on the product, and since we're still in private beta, I'm looking for folks to try out the product on their datasets and models. It's easy to use and hooks into popular frameworks such as pyTorch, Tensorflow, Keras, SpaCy etc. \n Caveat: Currently the tool only works for NLP use cases (think text classification, NER etc).\n I'll be giving $100 to folks who are willing to give some time to this and provide feedback on the usability of the product. If you're interested, here's a really tiny form (should take <1 minute to fill) for you to fill out. I'll review the applications and send you an email for a follow up Zoom chat where I'll share the software artifacts with you!\n https://docs.google.com/forms/d/11V20C_J_SyNaX7QL6DasnTe7f0UiueUyaKdmt3xL1oI/edit\n Look forward and happy (machine) learning!\n - Atindriyo\n P.S. If you have any questions or want to chat personally, send me an email at [atin@rungalileo.io](mailto:atin@rungalileo.io).\n    submitted by    /u/atindriyo_galileo  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tvjw43/researchprojectlibrary_dogfeeding_a_new_machine/",
-          "publishedOn": "2022-04-03T21:03:32.000Z",
-          "wordCount": 295,
-          "title": "[Research][Project][Library] Dog-feeding a new Machine Learning data tool",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tvfx9r/d_pain_points_when_using_gpu_instance_platforms/",
-          "author": null,
-          "description": "Hi everyone, I just launched a GPU compute instance platform (think lambdalabs, fluidstack, aws EC2, vast), and I was wondering what pain points everyone has with existing solutions. I'm not trying to sell anyone anything, but I want to look for feedback that will help me to build a better product.\n My current thoughts are\n  \nEase of getting data into the platform\n Ease of getting data off of the platform\n Automation for spinning up and down instances\n Availability of the type of instance you want\n Price too high\n Not enough/too many abstractions\n  \nTIA and I look forward to some good discussions!\n    submitted by    /u/runpod-io  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tvfx9r/d_pain_points_when_using_gpu_instance_platforms/",
-          "publishedOn": "2022-04-03T18:23:04.000Z",
-          "wordCount": 269,
-          "title": "[D] Pain points when using GPU instance platforms",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tvc7xl/r_efficientvdvae_an_opensource_memoryefficient/",
-          "author": null,
-          "description": "Hello everyone :)\n We have released last week our paper \"Efficient-VDVAE: Less is more\" with code!\n We present simple modifications to the Very Deep VAE to make it converge up to 2.6x times faster and save up to 20x times memory load. We also introduce a gradient smoothing technique to improve stability during training. Our model achieves comparable or better negative log-likelihood (NLL) on 7 commonly used datasets.\n Additionally, we make an argument against existing 5-bit benchmarks. We empirically show as well that 3% of the latent space is enough to encode the data information without any performance loss. Thus, indicating the potential to efficiently leverage the Hierarchical VAE's latent space in downstream tasks.\n  \nPaper: https://arxiv.org/abs/2203.13751\n Code: https://github.com/Rayhane-mamah/Efficient-VDVAE\n Paperswithcode: https://paperswithcode.com/paper/efficient-vdvae-less-is-more\n  \nFeedback is very much appreciated!\n https://preview.redd.it/tjua1xpq3cr81.png?width=878&format=png&auto=webp&s=718bd91fd648acd673ddab1ad5342207e8be09e7\n    submitted by    /u/Louay-AI  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tvc7xl/r_efficientvdvae_an_opensource_memoryefficient/",
-          "publishedOn": "2022-04-03T15:46:10.000Z",
-          "wordCount": 225,
-          "title": "[R] Efficient-VDVAE: An open-source memory-efficient and stable very deep hierarchical VAE",
-          "imageUrl": "https://external-preview.redd.it/Cb_PcUygTcaeTkYhbknuR-wtPZFTuzLC2xj03KfWrwk.jpg?auto=webp&s=fd99bf3e3699fdaded3c895b6c765f548cc9b341"
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/tv9fuv/r_deepdpm_deep_clustering_with_an_unknown_number/",
-          "author": null,
-          "description": "Hey everyone :)\n We've just released the code for our paper (accepted to CVPR2022) \n DeepDPM is a nonparametric deep-clustering method which unlike most deep clustering methods, does not require knowing the number of clusters, K; rather, it infers it as a part of the overall learning. Using a split/merge framework to change the clusters number adaptively and a novel loss, our proposed method outperforms existing (both classical and deep) nonparametric methods.\n While the few existing deep nonparametric methods lack scalability, we show ours by being the first such method that reports its performance on ImageNet.\n ​\n  \nPaper: https://arxiv.org/abs/2203.14309\n Code: https://github.com/BGU-CS-VIL/DeepDPM/\n  \nBelow are some examples of clusters our method found in ImageNet.\n https://preview.redd.it/jw5kvcuzfbr81.jpg?width=737&format=pjpg&auto=webp&s=5b61cdd0efdea7c92aba611171e5dc7f4276c892\n    submitted by    /u/shahaff32  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/tv9fuv/r_deepdpm_deep_clustering_with_an_unknown_number/",
-          "publishedOn": "2022-04-03T13:36:53.000Z",
-          "wordCount": 1327,
-          "title": "[R] DeepDPM: Deep Clustering With an Unknown Number of Clusters",
-          "imageUrl": "https://external-preview.redd.it/Cb_PcUygTcaeTkYhbknuR-wtPZFTuzLC2xj03KfWrwk.jpg?auto=webp&s=fd99bf3e3699fdaded3c895b6c765f548cc9b341"
         }
       ]
     },
@@ -18295,6 +18375,16 @@
       "siteUrl": "http://bair.berkeley.edu/blog/",
       "articles": [
         {
+          "id": "http://bair.berkeley.edu/blog/2022/05/03/human-in-the-loop/",
+          "author": null,
+          "description": "How do we build and evaluate an AI system for real-world applications? In most AI research, the evaluation of AI methods involves a training-validation-testing process. The experiments usually stop when the models have good testing performance on the reported datasets because real-world data distribution is assumed to be modeled by the validation and testing data. However, real-world applications are usually more complicated than a single training-validation-testing process. The biggest difference is the ever-changing data. For example, wildlife datasets change in class composition all the time because of animal invasion, re-introduction, re-colonization, and seasonal animal movements. A model trained, validated, and tested on existing datasets can easily be broken when newly collected dat…",
+          "link": "http://bair.berkeley.edu/blog/2022/05/03/human-in-the-loop/",
+          "publishedOn": "2022-05-03T13:55:00.000Z",
+          "wordCount": 1385,
+          "title": "Rethinking Human-in-the-Loop for Artificial Augmented Intelligence",
+          "imageUrl": "http://bair.berkeley.edu/blog/assets/human-in-the-loop/image3.png"
+        },
+        {
           "id": "http://bair.berkeley.edu/blog/2022/04/29/reward-reports/",
           "author": null,
           "description": "Deep reinforcement learning (DRL) is transitioning from a research field focused on game playing to a technology with real-world applications. Notable examples include DeepMind’s work on controlling a nuclear reactor or on improving Youtube video compression, or Tesla attempting to use a method inspired by MuZero for autonomous vehicle behavior planning. But the exciting potential for real world applications of RL should also come with a healthy dose of caution - for example RL policies are well known to be vulnerable to exploitation, and methods for safe and robust policy development are an active area of research.\nAt the same time as the emergence of powerful RL systems in the real world, the public and researchers are expressing an increased appetite for fair, aligned, and safe machine …",
@@ -18331,6 +18421,16 @@
       "feedUrl": "https://becominghuman.ai/feed",
       "siteUrl": "https://becominghuman.ai?source=rss----5e5bef33608a---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/a821ebc9091e",
+          "author": "Tomer Simon, PhD",
+          "description": "Science has been the most important tool of humanity even before the dawn of history. Humans have used science, without even knowing that…",
+          "link": "https://becominghuman.ai/the-scientist-of-the-scientist-a821ebc9091e?source=rss----5e5bef33608a---4",
+          "publishedOn": "2022-05-03T14:50:05.000Z",
+          "wordCount": 1490,
+          "title": "The Scientist of the Scientist",
+          "imageUrl": "https://miro.medium.com/max/1200/1*FQ2P1i6OPl14kM-AOl0SSQ.jpeg"
+        },
         {
           "id": "https://medium.com/p/f405f0d31981",
           "author": "Amyra Sheldon",
@@ -18686,6 +18786,21 @@
       "siteUrl": "https://blogs.nvidia.com",
       "articles": [
         {
+          "id": "https://blogs.nvidia.com/?p=56880",
+          "author": "Stanley Tack",
+          "description": "This week In the NVIDIA Studio, we welcome Yangtian Li, a senior concept artist at Singularity6. Li is a concept designer and illustrator who has worked on some of the biggest video game franchises, including Call of Duty, Magic: the Gathering and Vainglory. Her artwork also appears in book illustrations and magazines.\nThe post ‘In the NVIDIA Studio’ Welcomes Concept Designer Yangtian Li appeared first on NVIDIA Blog.",
+          "link": "https://blogs.nvidia.com/blog/2022/05/03/in-the-nvidia-studio-may-03/",
+          "publishedOn": "2022-05-03T13:00:58.000Z",
+          "wordCount": 999,
+          "title": "‘In the NVIDIA Studio’ Welcomes Concept Designer Yangtian Li",
+          "enclosure": {
+            "url": "https://blogs.nvidia.com/wp-content/uploads/2022/05/itns-yangtian-li-snake-witch-distortion-crop-1280x680-3.mp4",
+            "length": "1927378",
+            "type": "video/mp4"
+          },
+          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2022/05/snake-witch.jpg"
+        },
+        {
           "id": "https://blogs.nvidia.com/?p=56823",
           "author": "Scott Martin",
           "description": "Jack Morrison and Isaac Roberts, co-founders of Replica Labs, were restless two years after their 3D vision startup was acquired, seeking another adventure. Then, in 2018, when Morrison was mowing his lawn, it struck him: autonomous lawn mowers. The two, along with Davis Foster, co-founded Scythe Robotics. The company, based in Boulder, Colo., has a Read article >\nThe post Mown Away: Startup Rolls Out Autonomous Lawnmower With Cutting-Edge Tech appeared first on NVIDIA Blog.",
@@ -18943,6 +19058,136 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhsi0p/democratizing_diffusion_models_ldms/",
+          "author": null,
+          "description": "Diffusion models (DMs) have a more stable training phase than GANs and less parameters than autoregressive models, yet they are just really resource intensive. The most powerful DMs require up to a 1000 V100 days to train (that’s a lot of $$$ for compute) and about a day per 1000 inference samples. The authors of Latent Diffusion Models (LDMs) pinpoint this problem to the high dimensionality of the pixel space, in which the diffusion process occurs and propose to perform it in a more compact latent space instead. In short, they achieve this feat by pertaining an autoencoder model that learns an efficient compact latent space that is perceptually equivalent to the pixel space. A DM sandwiched between the convolutional encoder-decoder is then trained inside the latent space in a more computationally-efficient way.\n In other words, this is a VQGAN with a DM instead of a transformer (and without a discriminator).\n As for the details, let’s dive in, shall we?\n Full summary: https://t.me/casual_gan/293\n Blog post: https://www.casualganpapers.com/high-res-faster-diffusion-democratizing-diffusion/Latent-Disffusion-Models-explained.html\n Latent Diffusion Models\n arxiv / code\n Join the discord community and follow on Twitter for weekly AI paper summaries!\n    submitted by    /u/KirillTheMunchKing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhsi0p/democratizing_diffusion_models_ldms/",
+          "publishedOn": "2022-05-03T23:01:25.000Z",
+          "wordCount": 344,
+          "title": "Democratizing Diffusion Models - LDMs: High-Resolution Image Synthesis with Latent Diffusion Models, a 5-minute paper summary by Casual GAN Papers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhrd8e/strange_galaxies_ai_animation_sound_design/",
+          "author": null,
+          "description": "submitted by    /u/nenomancer  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhrd8e/strange_galaxies_ai_animation_sound_design/",
+          "publishedOn": "2022-05-03T22:08:57.000Z",
+          "wordCount": 105,
+          "title": "Strange Galaxies (A.I animation + sound design)",
+          "imageUrl": "https://external-preview.redd.it/Qw39wcww6oBnA2d3IWwQ9FYT0FAW1hOZsYyO7WIjqf8.png?format=pjpg&auto=webp&s=2694b623e83c217e48e8b2ad70142e0602c87b04"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhpkm4/focus_on_the_process_formulating_ai_ethics/",
+          "author": null,
+          "description": "submitted by    /u/regalalgorithm  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhpkm4/focus_on_the_process_formulating_ai_ethics/",
+          "publishedOn": "2022-05-03T20:46:47.000Z",
+          "wordCount": 112,
+          "title": "Focus on the Process: Formulating AI Ethics Principles More Responsibly",
+          "imageUrl": "https://external-preview.redd.it/nAcyZB0cPZf4X7CRnM-O829KN8v819IcMEuQUxvSeJA.jpg?auto=webp&s=6f1aa022c419583065d5677adef3c83c0f5f367a"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhnvfq/1914_people_engaged_in_winter_sports_activities/",
+          "author": null,
+          "description": "submitted by    /u/pheonix_bird  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhnvfq/1914_people_engaged_in_winter_sports_activities/",
+          "publishedOn": "2022-05-03T19:30:38.000Z",
+          "wordCount": 129,
+          "title": "1914 - People engaged in winter sports activities near Wetzlar, Hesse, Germany [Colored using AI]",
+          "imageUrl": "https://external-preview.redd.it/nQfgXvvLZfmLZfhgbOfZ8cCftg6lRoZW6Idu001i1QQ.jpg?auto=webp&s=456a4f632aa9eb366b9827ef7bcc6077a2514ee0"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhj4m0/stanford_has_trained_ai_to_classify_proteins/",
+          "author": null,
+          "description": "submitted by    /u/aidev2040  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhj4m0/stanford_has_trained_ai_to_classify_proteins/",
+          "publishedOn": "2022-05-03T15:51:55.000Z",
+          "wordCount": 103,
+          "title": "Stanford has trained AI to classify proteins",
+          "imageUrl": "https://external-preview.redd.it/kPmMQi-KLgjo0GXOJsyu9v8NKauXhOyjJCw8iLjv5Y0.jpg?auto=webp&s=a89c0c24a992dcc70113777e2c30371501ba4521"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhep21/common_voice_has_a_new_dataset/",
+          "author": null,
+          "description": "submitted by    /u/limapedro  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhep21/common_voice_has_a_new_dataset/",
+          "publishedOn": "2022-05-03T12:11:46.000Z",
+          "wordCount": 113,
+          "title": "Common Voice Has A New Dataset",
+          "imageUrl": "https://external-preview.redd.it/2lgahRjM84E2sa2cfOoJGgy7q189e5YAIhas5zX_o7Y.jpg?auto=webp&s=0c39a2b2329147b6228ca4556f11293f415fd388"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhedl1/7_best_natural_language_processing_courses_2022/",
+          "author": null,
+          "description": "submitted by    /u/maneesh123456  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhedl1/7_best_natural_language_processing_courses_2022/",
+          "publishedOn": "2022-05-03T11:54:52.000Z",
+          "wordCount": 115,
+          "title": "7 Best Natural Language Processing Courses (2022) | Best NLP Courses",
+          "imageUrl": "https://external-preview.redd.it/5H2hA1Y-EUYX8VkmXRdkCl95_D4XC5s0iR6KW8GYmJs.jpg?auto=webp&s=32bb20f8204298387cf5763f228d1f3a3a595935"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhc9fz/robots_still_not_around_us_mathematicians_to_blame/",
+          "author": null,
+          "description": "submitted by    /u/marvelmind_robotics  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhc9fz/robots_still_not_around_us_mathematicians_to_blame/",
+          "publishedOn": "2022-05-03T09:29:42.000Z",
+          "wordCount": 220,
+          "title": "Robots still not around us?… — mathematicians to blame",
+          "imageUrl": "https://external-preview.redd.it/s4AR1xQ0NzPM8GCccp4ECa-4K_bduTIhaqgI3IoMILU.jpg?auto=webp&s=4f60f7babc796818a4e786c958ac9c9f22a039bf"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhat7g/a_look_at_machine_learning/",
+          "author": null,
+          "description": "submitted by    /u/lutipri  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhat7g/a_look_at_machine_learning/",
+          "publishedOn": "2022-05-03T07:37:44.000Z",
+          "wordCount": 98,
+          "title": "A Look at Machine Learning",
+          "imageUrl": "https://preview.redd.it/2qgt5hels7x81.png?auto=webp&s=ab98ac8c1312ef5c3bc30029ffe10a9d456e6273"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uhaqor/generating_alternate_spongebob_theme_songs_with/",
+          "author": null,
+          "description": "submitted by    /u/PF-Wang  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uhaqor/generating_alternate_spongebob_theme_songs_with/",
+          "publishedOn": "2022-05-03T07:32:20.000Z",
+          "wordCount": 100,
+          "title": "Generating alternate Spongebob theme songs with OpenAI Jukebox",
+          "imageUrl": "https://external-preview.redd.it/9_N5DntHBRDAxnwSiPzGPOx8UX24aLEYCJNA4t62V04.jpg?auto=webp&s=966d4661707e6b0f708f6cdb440e23c7a3773f58"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uha3u0/ai_fitness_app/",
+          "author": null,
+          "description": "Hi guys, recently came across a new fitness app with artificial intelligence, looks interesting and promising, and do you think AI can replace real trainers? Here's the link QR Kinestex (google.com)\n    submitted by    /u/vovayoung  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uha3u0/ai_fitness_app/",
+          "publishedOn": "2022-05-03T06:43:23.000Z",
+          "wordCount": 116,
+          "title": "AI fitness app",
+          "imageUrl": "https://external-preview.redd.it/O-UUc6qHhwEOcV7TEPOcb5pbdvpyoTfEI_SY9KpUuEg.jpg?auto=webp&s=503fb878ad0c69755b22fc0c29f61fffdd86e39a"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uh6fop/zama_opensources_concrete_ml_v02_to_support_data/",
+          "author": null,
+          "description": "Zama is a Paris-based startup that aims to bring end-to-end encryption to AI by enabling developers to use Python to create models that run on encrypted data. In late April, the Zama Team released the public alpha release of Concrete ML, a package developed on top of Concrete Numpy. This release provides data scientists with no prior knowledge of cryptography with simple APIs for automatically converting traditional machine learning (ML) models into their FHE equivalents. One of the main goals of this version is to make using Concrete ML as convenient as possible for users of popular machine learning frameworks. Model training for linear models and trees is not reimplemented in Concrete ML, allowing researchers to utilize several variations and features of these models that the scikit-learn package supports. \n The team conducted a series of experiments to compare the models between scikit-learn and Concrete ML. When tested on simple 2D linear models, FHE performance was comparable to that of its unencrypted scikit-learn equivalents. However, as the number of dimensions increases in the current release, the performance of strongly quantized classifiers rapidly falls, which will be refined in future releases. On encrypted data, tree-based classifiers utilizing Concrete ML show outstanding accuracy. Running tree models that demand heavy comparisons can be easily enabled thanks to Zama’s unique approach to FHE that provides Programmable Bootstrapping. As a result, tree-based models perform as well as their scikit-learn/xgboost counterparts in FHE. This remains true even for datasets with many dimensions, and tree-based models are typically the most performant when dealing with tabular data. Data scientists can implement Decision Trees, Random Forests, and Gradient Boosted Trees after the team publishes specific deployment APIs.\n Continue Reading\n Github: https://github.com/zama-ai/concrete-ml\n    submitted by    /u/No_Coffee_4638  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uh6fop/zama_opensources_concrete_ml_v02_to_support_data/",
+          "publishedOn": "2022-05-03T02:49:06.000Z",
+          "wordCount": 423,
+          "title": "Zama Open-Sources Concrete ML v0.2 To Support Data Scientists Without Any Prior Cryptography Knowledge To Automatically Turn Classical Machine Learning (ML) Models Into Their FHE Equivalent",
+          "imageUrl": "https://external-preview.redd.it/2NtII_jM8vzsJC2EbctRSEj3HGsaNSESjbtV_pOuL7M.jpg?auto=webp&s=afa18839ff12ebd3f0ba943da35c058098219889"
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/uh548a/ai_painting_marvel_superheroes/",
+          "author": null,
+          "description": "submitted by    /u/notrealAI  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/uh548a/ai_painting_marvel_superheroes/",
+          "publishedOn": "2022-05-03T01:37:11.000Z",
+          "wordCount": 393,
+          "title": "AI painting Marvel superheroes",
+          "imageUrl": "https://external-preview.redd.it/6aKYOtMjPmzqU-MEsDk1JBj9zThceJdLsoBGIsKN1Mg.png?format=pjpg&auto=webp&s=9691348c7803c23329b215005787d0a4f3f6cd92"
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/uh2m4b/robert_magno_runai_building_the_best_ai/",
           "author": null,
@@ -22212,76 +22457,6 @@
           "wordCount": 101,
           "title": "New RL technique achieves superior performance in control tasks",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tvz2cs/metrics_matthews_correlation_coefficient/",
-          "author": null,
-          "description": "submitted by    /u/TheTesseractAcademy  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tvz2cs/metrics_matthews_correlation_coefficient/",
-          "publishedOn": "2022-04-04T10:51:05.000Z",
-          "wordCount": 94,
-          "title": "Metrics: Matthew's correlation coefficient",
-          "imageUrl": "https://external-preview.redd.it/K79luiNVO7cDl4UNZslrIpsFYJBu9pe6zLP_bpNmEVU.jpg?auto=webp&s=b4b8dcad0ffee30fc3cd5116872c85a245b67edd"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tvy3mp/12_graphs_that_explain_the_state_of_ai_in_2022/",
-          "author": null,
-          "description": "submitted by    /u/Tao_Dragon  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tvy3mp/12_graphs_that_explain_the_state_of_ai_in_2022/",
-          "publishedOn": "2022-04-04T09:49:07.000Z",
-          "wordCount": 136,
-          "title": "12 Graphs That Explain the State of AI in 2022",
-          "imageUrl": "https://external-preview.redd.it/rxu_HYqvBcCfZOmrTEaxXK9YViKM0KioByJVsMvy31k.jpg?auto=webp&s=366d3c7f395840f2f28a0d32633778e1dc2e03c0"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tvx311/what_is_whatsapp_business_api_how_can_it_help/",
-          "author": null,
-          "description": "submitted by    /u/mihircontra20  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tvx311/what_is_whatsapp_business_api_how_can_it_help/",
-          "publishedOn": "2022-04-04T08:38:30.000Z",
-          "wordCount": 117,
-          "title": "What is WhatsApp Business API? How can it Help your Business?",
-          "imageUrl": "https://external-preview.redd.it/dNWZt5KgY2MqG0CICD8AVcKpMu4QVpc2Y1jPRh4tVfc.jpg?auto=webp&s=544310fa5704bad1ded6821fe5bc364c99358791"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tvqnw5/voice_copyingcloning/",
-          "author": null,
-          "description": "Hi all,\n Don't know if this is the right subreddit, but here goes....\n I'm looking to voice clone my father. He has passed recently, and despite being difficult for all, it's been especially hard for my mother, married early to him and together for 50 years. Her birthday is coming up, I'd love to be able to create a 5-10 second sound byte of him for her.\n Fortunately, there's likely to be lots of his voice recording around, part of his job was speaking and instructing.\n So, is there any way this is possible, to be done without great difficulty, and produce an accurate result?\n I am understanding the moralities of crafting something with his deceased voice. I thought about it quite a bit. However, I feel that it's for his soulmate who's struggling, who he had no qualms spending his life with and travelling abroad with, spent his last days with. I'm certain he would want to help.\n    submitted by    /u/mininggotboring  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tvqnw5/voice_copyingcloning/",
-          "publishedOn": "2022-04-04T02:17:04.000Z",
-          "wordCount": 300,
-          "title": "Voice copying/cloning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tvd9w0/ai_news_als_brain_computer_interface_1_year_human/",
-          "author": null,
-          "description": "submitted by    /u/getrich_or_diemining  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tvd9w0/ai_news_als_brain_computer_interface_1_year_human/",
-          "publishedOn": "2022-04-03T16:31:19.000Z",
-          "wordCount": 145,
-          "title": "AI News | ALS Brain Computer Interface 1 Year Human Trial Results | Skin Cancer Detection | New IBM AI Hardware",
-          "imageUrl": "https://external-preview.redd.it/V1rfHFG8YhKM7LmCEZ3wsL5vptilPYrVjTDo-LcpRD4.jpg?auto=webp&s=4daa3bb70bc2ec7d33bdcd71f74b5d0bb0799e16"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tvctg8/your_next_teacher_will_be_a_machine_why_the/",
-          "author": null,
-          "description": "submitted by    /u/itsallshit-eatup  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tvctg8/your_next_teacher_will_be_a_machine_why_the/",
-          "publishedOn": "2022-04-03T16:11:21.000Z",
-          "wordCount": 126,
-          "title": "Your Next Teacher Will be a Machine: Why the Future of Education is Automation",
-          "imageUrl": "https://external-preview.redd.it/6esqFIrmdOYU6dYfuQXctFxZQK0hWvaxAMXQLVewc_w.jpg?auto=webp&s=580098cc5f338bdbc295957629b74a03b2be7209"
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/tvaoe1/hi_im_wondering_if_anyone_could_help_me/",
-          "author": null,
-          "description": "Im a 19yo guy from Argentina that studies system ingeneer, I like my career, beeing an ingeneer is great, but coding and AI is greater, Im tired of courses like Free code academy, or basics things, im looking for a more professional, useful and deeper courses, that will really teach me, im currently with python(pandas,numpy,matplotlib,tensorflow) basics, and wanna to be better in that field that i love❤\n    submitted by    /u/Sasulanda  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/tvaoe1/hi_im_wondering_if_anyone_could_help_me/",
-          "publishedOn": "2022-04-03T14:36:41.000Z",
-          "wordCount": 167,
-          "title": "Hi!, Im wondering if anyone could help me🇦🇷🇦🇷",
-          "imageUrl": null
         }
       ]
     },
@@ -22290,6 +22465,56 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/uht1xh/is_it_correct_to_say_that_a_nn_with_n_layers_is/",
+          "author": null,
+          "description": "submitted by    /u/HasFiveVowels  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/uht1xh/is_it_correct_to_say_that_a_nn_with_n_layers_is/",
+          "publishedOn": "2022-05-03T23:29:09.000Z",
+          "wordCount": 128,
+          "title": "Is it correct to say that a nn with n layers is an nth order approximation?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/uhji56/stanford_has_trained_ai_to_classify_proteins/",
+          "author": null,
+          "description": "submitted by    /u/aidev2040  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/uhji56/stanford_has_trained_ai_to_classify_proteins/",
+          "publishedOn": "2022-05-03T16:08:43.000Z",
+          "wordCount": 111,
+          "title": "Stanford has trained AI to classify proteins",
+          "imageUrl": "https://external-preview.redd.it/kPmMQi-KLgjo0GXOJsyu9v8NKauXhOyjJCw8iLjv5Y0.jpg?auto=webp&s=a89c0c24a992dcc70113777e2c30371501ba4521"
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/uhfwku/hi_im_looking_to_build_a_neural_network_from/",
+          "author": null,
+          "description": "Hi,\n So for my final year project, I decided that im going to code a neural network from scratch for a recommender system, however I dont know the first thing about this topic so im going to be starting from the ground up. Could anyone point me in the right direction and recommend some resources etc?\n thanks!\n    submitted by    /u/tvvvs  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/uhfwku/hi_im_looking_to_build_a_neural_network_from/",
+          "publishedOn": "2022-05-03T13:17:18.000Z",
+          "wordCount": 351,
+          "title": "Hi, im looking to build a neural network from scratch for a recommender system, that attempts to recommend anime programmes, could someone point me to relevant papers/books/resources?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/uhd3g1/cnn_error_inconsistent_number_of_samples/",
+          "author": null,
+          "description": "I am building a CNN network to detect DGA,DNS but i have encountered this problem and just don't know how to fix it. \n https://preview.redd.it/mnkfhb2cn8x81.png?width=719&format=png&auto=webp&s=ac1ec84b0721f43f36d0548173d12642b7ba0f26\n    submitted by    /u/Dangerous_Intern_510  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/uhd3g1/cnn_error_inconsistent_number_of_samples/",
+          "publishedOn": "2022-05-03T10:30:48.000Z",
+          "wordCount": 130,
+          "title": "CNN ERROR Inconsistent number of samples",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/uhbzgo/7_best_books_to_learn_neural_networks_in_2022_for/",
+          "author": null,
+          "description": "submitted by    /u/maneesh123456  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/uhbzgo/7_best_books_to_learn_neural_networks_in_2022_for/",
+          "publishedOn": "2022-05-03T09:09:07.000Z",
+          "wordCount": 131,
+          "title": "7+ Best Books to Learn Neural Networks in 2022 for Beginners (Updated)",
+          "imageUrl": "https://external-preview.redd.it/6o1SHWA4Ukh7Pe8AxhxW7UxZ5d2Hr-6oB0LpJysDHEQ.jpg?auto=webp&s=2db8922d7b93dfa6ad200385940f3ecefef840c8"
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/ugyi4y/do_you_usually_build_neural_networks_from_scratch/",
           "author": null,
@@ -22849,16 +23074,6 @@
           "wordCount": 259,
           "title": "Composing Music with Neural Networks",
           "imageUrl": "https://external-preview.redd.it/b4i5Ja2AxLdJ3zGYml1UCPr28W8teB8EpstN8GR5Z98.jpg?auto=webp&s=4b023a0fd429d0e0c148e9fbe2fb9fb9971c0693"
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/tvneyx/blog_lets_manually_approximate_a_simple_function/",
-          "author": null,
-          "description": "submitted by    /u/rhkibria  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/tvneyx/blog_lets_manually_approximate_a_simple_function/",
-          "publishedOn": "2022-04-03T23:38:37.000Z",
-          "wordCount": 126,
-          "title": "Blog: Let’s manually approximate a simple function with a ReLU neural network",
-          "imageUrl": "https://external-preview.redd.it/cFh6vbg55LHArRON3tZT-u8z_kSyTzhAnSPIpdI7W9o.jpg?auto=webp&s=3db3b3eeca270ba4a17260456a429f17a869f093"
         }
       ]
     },
@@ -22991,6 +23206,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/05/alpa-automated-model-parallel-deep.html",
+          "author": null,
+          "description": "Posted by Zhuohan Li, Student Researcher, Google Research, and Yu Emma Wang, Senior Software Engineer, Google Core  \nOver the last several years, the rapidly growing size of deep learning models has quickly exceeded the memory capacity of single accelerators. Earlier models like BERT (with a parameter size of < 1GB) can efficiently scale across accelerators by leveraging data parallelism in which model weights are duplicated across accelerators while only partitioning and distributing the training data. However, recent large models like GPT-3 (with a parameter size of 175GB) can only scale using model parallel training, where a single model is partitioned across different devices.  \n While model parallelism strategies make it possible to train large models, they are more complex in that th…",
+          "link": "http://ai.googleblog.com/2022/05/alpa-automated-model-parallel-deep.html",
+          "publishedOn": "2022-05-03T21:30:00.057Z",
+          "wordCount": 2439,
+          "title": "Alpa: Automated Model-Parallel Deep Learning",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/04/extracting-skill-centric-state.html",
           "author": null,
@@ -23144,6 +23369,26 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/uhgted/what_are_some_top_venues_for_the_submission_of_a/",
+          "author": null,
+          "description": "submitted by    /u/blitzkreig3  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/uhgted/what_are_some_top_venues_for_the_submission_of_a/",
+          "publishedOn": "2022-05-03T14:03:02.000Z",
+          "wordCount": 289,
+          "title": "What are some top venues for the submission of a Reinforcement learning related paper?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/uh8dk3/explanation_of_optimal_policies_and_value/",
+          "author": null,
+          "description": "submitted by    /u/shani_786  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/uh8dk3/explanation_of_optimal_policies_and_value/",
+          "publishedOn": "2022-05-03T04:43:22.000Z",
+          "wordCount": 133,
+          "title": "Explanation of Optimal Policies and Value Functions | Dynamic Programming",
+          "imageUrl": "https://external-preview.redd.it/GS9uZV5SPgqlVD688I4ISoMKTLybbDLGlNkwYFYgbdQ.jpg?auto=webp&s=d40184fcca49f84ffe4a567120dc80f14f8a5702"
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/uh1ick/what_background_knowledge_is_needed_to_understand/",
           "author": null,
@@ -25103,56 +25348,6 @@
           "wordCount": 625,
           "title": "[CfP] EvoRL @ GECCO 2022. One week before the deadline!",
           "imageUrl": "https://external-preview.redd.it/lK42WwByGG32nygWSBuOYR3KR5RyUTDVfuLYvfjqmTI.jpg?auto=webp&s=02c389b64acc7a9d40c4c4ad6555c2381750877f"
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tw10gn/how_ppo_deals_with_episodes_of_variable_lengths/",
-          "author": null,
-          "description": "In the paper it is written to collect trajectories of length T. Then calculate advantage and then train the Actor and Critic Network. My question is suppose one episode ends much before T. If I run that episode upto lenth T then it will only collect negative rewards in each timestep which in turn makes the training impossible as the return if very big negative number. So what can be done instead of this?\n I might be getting it wrong, so please correct me by commenting.\n    submitted by    /u/Better-Ad8608  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tw10gn/how_ppo_deals_with_episodes_of_variable_lengths/",
-          "publishedOn": "2022-04-04T12:39:24.000Z",
-          "wordCount": 284,
-          "title": "How PPO deals with episodes of Variable lengths?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tvyv0w/need_help_with_openai_gym_custom_environment/",
-          "author": null,
-          "description": "Hello,\n I'm making a custom openAI gym environment to train various algorithms on it. I have encountered some issues. \n My .flatten() method on the state class returns a large integer which can be converted back into the same state as the object. However when I try to do this as the returned observation for environment.reset() and environment.step(), when testing it I get: \"AssertionError: The observation returned by the `reset()` method does not match the given observation space\" which I can fix by having it just return a 0. How do I go about resolving this? and are there any better approaches for wanting to train RL agents on an environment? ty!\n    submitted by    /u/snaredrum_merchant  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tvyv0w/need_help_with_openai_gym_custom_environment/",
-          "publishedOn": "2022-04-04T10:38:08.000Z",
-          "wordCount": 264,
-          "title": "Need help with OpenAI gym custom environment, state representation as \"observation\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tvipcq/how_does_the_acer_algorithm_work/",
-          "author": null,
-          "description": "I am currently writing a report on reinforcement learning, where I am trying to describe how the ACER algorithm works. I have read the arxiv paper on the sample actor-critic with experienced replay, but I don't understand where the experience replay comes in. Is this part of the policy gradient? where the policy is updated every episode it's trained on from the previous knowledge it gathers in previous episodes.\n https://arxiv.org/pdf/1611.01224.pdf\n ​\n    submitted by    /u/beepingwater_neko  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tvipcq/how_does_the_acer_algorithm_work/",
-          "publishedOn": "2022-04-03T20:14:25.000Z",
-          "wordCount": 229,
-          "title": "How does the ACER algorithm work?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tvif3g/whats_the_best_way_to_implement_tree_bases/",
-          "author": null,
-          "description": "Sorry if this post is not appropriate here, but I have been wondering how can I implement and learn a decision tree or any other non differentiable function approximators for the Value Function.\n It’s relatively easy to formulate and use DQN type algorithms by using neural network and say pytorch + stochastic optimization but I want to try out some tree based methods. (at least to reproduce papers which claim to use them)\n But I don’t know 1) If we have to design the structures and learning algorithms by hand or is there any package I can use? \n 2) How should the learning be done? We obviously can’t go regression type learning because of the bootstrapping nature of the Bellman equation?\n Thanks\n    submitted by    /u/Htaseht  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tvif3g/whats_the_best_way_to_implement_tree_bases/",
-          "publishedOn": "2022-04-03T20:03:04.000Z",
-          "wordCount": 253,
-          "title": "What’s the best way to implement tree bases function approximators for RL/Control?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/tv9iif/im_working_on_a_dqn_agent_using_the_keras_rl/",
-          "author": null,
-          "description": "The episode step count is the same for training and testing.\n    submitted by    /u/Gleann_na_nGealt  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/tv9iif/im_working_on_a_dqn_agent_using_the_keras_rl/",
-          "publishedOn": "2022-04-03T13:40:29.000Z",
-          "wordCount": 312,
-          "title": "I'm working on a DQN agent using the Keras RL library to play Atari games, however a weird thing keeps happening where every episode is the same length but it's a random number each time.",
-          "imageUrl": null
         }
       ]
     },
@@ -25752,36 +25947,6 @@
           "wordCount": 826,
           "title": "Data Augmented Healthcare Part 2",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/04/AdobeStock_330431239.jpeg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=57029",
-          "author": "Ryan Williamson",
-          "description": "Artificial intelligence has been long making waves globally, empowering companies from across the broad spectrum of industries to take their businesses to the next level. So it is no surprise that this technology is making inroads in the grocery retail space, helping grocers deliver personalized and irreproachable experiences across different channels, establishing improved customer loyalty,… Read More »Top Ways in Which AI Impacts Grocery Retail\nThe post Top Ways in Which AI Impacts Grocery Retail appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/top-ways-in-which-ai-impacts-grocery-retail/",
-          "publishedOn": "2022-04-03T21:47:26.000Z",
-          "wordCount": 953,
-          "title": "Top Ways in Which AI Impacts Grocery Retail",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/04/AdobeStock_311618017.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=57026",
-          "author": "Alan Morrison",
-          "description": "Data is useless if it doesn’t shed light. The more light it sheds on the most acute problems businesses face, the better. Within this context, data synergy–data from multiple sources and disciplines that is more valuable than the sum of its parts–is often underappreciated. With data synergy, the light can be in many more places,… Read More »A different take on business intelligence\nThe post A different take on business intelligence appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/a-different-take-on-business-intelligence/",
-          "publishedOn": "2022-04-03T21:05:49.000Z",
-          "wordCount": 1234,
-          "title": "A different take on business intelligence",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/waves-gacea61272_1920.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=57017",
-          "author": "Stephanie Glen",
-          "description": "Blockchain is widely touted as a mechanism for securing digital property. Multiple problems exist for driving metaverse transactions. A new review highlights the challenges, some of which may be insurmountable. Blockchain has been touted as a potential solution to securing users’ digital content and data due to its decentralization, immutability, and transparency. However, there are… Read More »Blockchain Won’t Save The Metaverse\nThe post Blockchain Won’t Save The Metaverse appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/blockchain-wont-save-the-metaverse/",
-          "publishedOn": "2022-04-03T20:31:44.000Z",
-          "wordCount": 1065,
-          "title": "Blockchain Won’t Save The Metaverse",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2022/03/AdobeStock_278111994-1.jpeg"
         }
       ]
     },
@@ -25790,6 +25955,16 @@
       "feedUrl": "https://www.johndcook.com/blog/feed",
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
+        {
+          "id": "https://www.johndcook.com/blog/?p=104825",
+          "author": "John",
+          "description": "Intervals of a fourth, such as the interval from C to F, are common in western music, but consecutive intervals of this size are not. Quartal harmony is based on intervals of fourths, and quartal melodies use a lot of fourths, particularly consecutive fourths. Maybe the most famous quartal melody is the opening fanfare to […]\nQuartal melody: Star Trek fanfare first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2022/05/03/quartal-melody-star-trek-fanfare/",
+          "publishedOn": "2022-05-03T14:49:19.000Z",
+          "wordCount": 650,
+          "title": "Quartal melody: Star Trek fanfare",
+          "imageUrl": null
+        },
         {
           "id": "https://www.johndcook.com/blog/?p=104738",
           "author": "John",
@@ -26038,16 +26213,6 @@
           "publishedOn": "2022-04-04T12:59:26.000Z",
           "wordCount": 693,
           "title": "FWHM for a quadratic",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=101648",
-          "author": "John",
-          "description": "Here’s a list of five numbers used as slang in various contexts. Location (CB and police radio) End of column (journalism) Best wishes (ham radio) All aircraft in area (US Navy) I love you (text messages) The motivation for this post was an article Those HTML attributes you never use. I wanted to make a […]\nNumber slang and numbered lists first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2022/04/04/number-slang-and-numbered-lists/",
-          "publishedOn": "2022-04-04T12:39:43.000Z",
-          "wordCount": 242,
-          "title": "Number slang and numbered lists",
           "imageUrl": null
         }
       ]
