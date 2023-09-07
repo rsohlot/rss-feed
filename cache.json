@@ -125,6 +125,46 @@
       "siteUrl": "https://aws.amazon.com/blogs/machine-learning/",
       "articles": [
         {
+          "id": "9aa7cd8a143cd30ea36fe403a9d7f4847c16b121",
+          "author": "Jay Pillai",
+          "description": "In this post, we build a secure enterprise application using AWS Amplify that invokes an Amazon SageMaker JumpStart foundation model, Amazon SageMaker endpoints, and Amazon OpenSearch Service to explain how to create text-to-text or text-to-image and Retrieval Augmented Generation (RAG). You can use this post as a reference to build secure enterprise applications in the Generative AI domain using AWS services.",
+          "link": "https://aws.amazon.com/blogs/machine-learning/build-a-secure-enterprise-application-with-generative-ai-and-rag-using-amazon-sagemaker-jumpstart/",
+          "publishedOn": "2023-09-06T18:01:44.000Z",
+          "wordCount": 2245,
+          "title": "Build a secure enterprise application with Generative AI and RAG using Amazon SageMaker JumpStart",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/09/06/featured-images-ML-14330-1120x630.jpg"
+        },
+        {
+          "id": "f693c8216a0964a906c8328754e29aeb7d5ef1eb",
+          "author": "Praveen Edem",
+          "description": "This post shows you how to configure the Amazon Kendra AEM connector to index your content and search your AEM assets and pages. The connector also ingests the access control list (ACL) information for each document. The ACL information is used to show search results filtered by what a user has access to.",
+          "link": "https://aws.amazon.com/blogs/machine-learning/intelligently-search-adobe-experience-manager-content-using-amazon-kendra/",
+          "publishedOn": "2023-09-06T17:28:14.000Z",
+          "wordCount": 3292,
+          "title": "Intelligently search Adobe Experience Manager content using Amazon Kendra",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/09/06/featured-images-ML-13597-1120x630.jpg"
+        },
+        {
+          "id": "687bea7cc4ef4fd47346e32add3df8a4805f340c",
+          "author": "Vivek Madan",
+          "description": "Today, we are excited to announce the capability to fine-tune Llama 2 models by Meta using Amazon SageMaker JumpStart. The Llama 2 family of large language models (LLMs) is a collection of pre-trained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. Fine-tuned LLMs, called Llama-2-chat, are optimized for dialogue use cases.",
+          "link": "https://aws.amazon.com/blogs/machine-learning/fine-tune-llama-2-for-text-generation-on-amazon-sagemaker-jumpstart/",
+          "publishedOn": "2023-09-06T17:19:16.000Z",
+          "wordCount": 13946,
+          "title": "Fine-tune Llama 2 for text generation on Amazon SageMaker JumpStart",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/09/05/featured-images-l-ml-15376-1120x630.jpg"
+        },
+        {
+          "id": "ea25756e89b40718eb3b2122361b56ee1b6cc5dd",
+          "author": "James Wu",
+          "description": "Recently, generative AI applications have captured widespread attention and imagination. Customers want to deploy generative AI models on GPUs but at the same time are conscious of costs. SageMaker MMEs support GPU instances and is a great option for these types of applications. Today, we are excited to announce TorchServe support for SageMaker MMEs. This new model server support gives you the advantage of all the benefits of MMEs while still using the serving stack that TorchServe customers are most familiar with. In this post, we demonstrate how to host generative AI models, such as Stable Diffusion and Segment Anything Model, on SageMaker MMEs using TorchServe and build a language-guided editing solution that can help artists and content creators develop and iterate their artwork faster.",
+          "link": "https://aws.amazon.com/blogs/machine-learning/run-multiple-generative-ai-models-on-gpu-using-amazon-sagemaker-multi-model-endpoints-with-torchserve-and-save-up-to-75-in-inference-costs/",
+          "publishedOn": "2023-09-06T17:13:21.000Z",
+          "wordCount": 3485,
+          "title": "Run multiple generative AI models on GPU using Amazon SageMaker multi-model endpoints with TorchServe and save up to 75% in inference costs",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/09/05/featured-images-ml-14465-1120x630.jpg"
+        },
+        {
           "id": "e7a0694b3b6b2b57233a4c3ac9a1d8484e9b5b7f",
           "author": "Gordon Wang",
           "description": "In this post, we introduce a novel method to perform content moderation on image data with multi-modal pre-training and a large language model (LLM). With multi-modal pre-training, we can directly query the image content based on a set of questions of interest and the model will be able to answer these questions. This enables users to chat with the image to confirm if it contains any inappropriate content that violates the organization’s policies. We use the powerful generating capability of LLMs to generate the final decision including safe/unsafe labels and category type. In addition, by designing a prompt, we can make an LLM generate the defined output format, such as JSON format. The designed prompt template allows the LLM to determine if the image violates the moderation policy, identify the category of violation, explain why, and provide the output in a structured JSON format.",
@@ -173,6 +213,16 @@
           "wordCount": 6949,
           "title": "FMOps/LLMOps: Operationalize generative AI and differences with MLOps",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/09/01/featured-images-ML-14962-1120x630.jpg"
+        },
+        {
+          "id": "24cf4b919072467da3f578e4887de32302095aa9",
+          "author": "Vishal Naik",
+          "description": "One of the tools available as part of the ML governance is Amazon SageMaker Model Cards, which has the capability to create a single source of truth for model information by centralizing and standardizing documentation throughout the model lifecycle. SageMaker model cards enable you to standardize how models are documented, thereby achieving visibility into the lifecycle of a model, from designing, building, training, and evaluation. Model cards are intended to be a single source of truth for business and technical metadata about the model that can reliably be used for auditing and documentation purposes. They provide a fact sheet of the model that is important for model governance.",
+          "link": "https://aws.amazon.com/blogs/machine-learning/use-amazon-sagemaker-model-cards-sharing-to-improve-model-governance/",
+          "publishedOn": "2023-08-31T18:11:14.000Z",
+          "wordCount": 3101,
+          "title": "Use Amazon SageMaker Model Cards sharing to improve model governance",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/09/06/featured-images-ML-15149-1-1120x630.jpg"
         },
         {
           "id": "24cf4b919072467da3f578e4887de32302095aa9",
@@ -433,16 +483,6 @@
           "wordCount": 4014,
           "title": "Deploy thousands of model ensembles with Amazon SageMaker multi-model endpoints on GPU to minimize your hosting costs",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/08/08/deploy-thousands-of-models-1248x630.jpg"
-        },
-        {
-          "id": "77a17a11d0aead706432a73843e10ef5fcb04866",
-          "author": "James Poquiz",
-          "description": "The video gaming industry has an estimated user base of over 3 billion worldwide1. It consists of massive amounts of players virtually interacting with each other every single day. Unfortunately, as in the real world, not all players communicate appropriately and respectfully. In an effort to create and maintain a socially responsible gaming environment, AWS […]",
-          "link": "https://aws.amazon.com/blogs/machine-learning/aws-performs-fine-tuning-on-a-large-language-model-llm-to-classify-toxic-speech-for-a-large-gaming-company/",
-          "publishedOn": "2023-08-07T16:19:32.000Z",
-          "wordCount": 3834,
-          "title": "AWS performs fine-tuning on a Large Language Model (LLM) to classify toxic speech for a large gaming company",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/08/07/fine-tuning-llm-toxic-speech.jpg"
         }
       ]
     },
@@ -5565,6 +5605,246 @@
       "feedUrl": "https://www.reddit.com/r/MachineLearning/.rss",
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16c0l0x/n_copyright_and_fair_use_important_notice_of/",
+          "author": null,
+          "description": "Please make your voices heard by submitting comments on how you use and benefit from having access to open datasets, their resulting models and how you think copyright issues should be handled to not destroy the open source local model eco system. Banning publicily avaiable datasets for training would absolutely kill the open research space and halt in development of machine learning. \n ​\n In my opinion the real dystopia will be when politicians sit own with big tech lobbyists and big rights holders and decide that training as it is currently done, for free and open source models and others is illegal. Then the big players would actually win, since they have enough resources to license datasets and will certainly do so willingly and gladly, if it is clear that the jurisdiction keeps all the small players and open source out. Easiest way to build a moat and force people to pay thousands for these tools. So please make your voices heard and share the link\n >The Copyright Office issued a notice of inquiry in the Federal Register seeking public comment on questions about copyright law and policy issues raised by AI systems. Initial comments are due by October 18, 2023. Reply comments are due November 15, 2023.\n https://www.copyright.gov/newsnet/2023/1017.html?loclr=twcop\n Link to comment submissive form:\n https://www.regulations.gov/commenton/COLC-2023-0006-0001\n    submitted by    /u/PinPuzzleheaded8525  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16c0l0x/n_copyright_and_fair_use_important_notice_of/",
+          "publishedOn": "2023-09-07T00:03:09.000Z",
+          "wordCount": 2809,
+          "title": "[N] Copyright And Fair Use: Important Notice Of Iquiry By The US Copyright office",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16by65o/r_modelscopeagent_building_your_customizable/",
+          "author": null,
+          "description": "Paper: https://arxiv.org/abs/2309.00986\n Github: https://github.com/modelscope/modelscope-agent\n Abstract:\n  \nLarge language models (LLMs) have recently demonstrated remarkable capabilities to comprehend human intentions, engage in reasoning, and design planning-like behavior. To further unleash the power of LLMs to accomplish complex tasks, there is a growing trend to build agent framework that equips LLMs, such as ChatGPT, with tool-use abilities to connect with massive external APIs. In this work, we introduce ModelScope-Agent, a general and customizable agent framework for real-world applications, based on open-source LLMs as controllers. It provides a user-friendly system library, with customizable engine design to support model training on multiple open-source LLMs, while also enabling seamless integration with both model APIs and common APIs in a unified way. To equip the LLMs with tool-use abilities, a comprehensive framework has been proposed spanning over tool-use data collection, tool retrieval, tool registration, memory control, customized model training, and evaluation for practical real-world applications. Finally, we showcase ModelScopeGPT, a real-world intelligent assistant of ModelScope Community based on the ModelScope-Agent framework, which is able to connect open-source LLMs with more than 1000 public AI models and localized community knowledge in ModelScope. \n  \nhttps://preview.redd.it/9f77992ynpmb1.jpg?width=1245&format=pjpg&auto=webp&s=4e17e3d46c7f262bfec76b88e086164530739255\n https://preview.redd.it/etelh03ynpmb1.jpg?width=1219&format=pjpg&auto=webp&s=517a52a1e2bbf488b647c4e1b9b496657003c1d2\n https://preview.redd.it/b0tkra2ynpmb1.jpg?width=850&format=pjpg&auto=webp&s=397c910b2d90dd212a31ec118d1c4e78532bf5f4\n ​\n ​\n    submitted by    /u/Singularian2501  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16by65o/r_modelscopeagent_building_your_customizable/",
+          "publishedOn": "2023-09-06T22:25:05.000Z",
+          "wordCount": 2791,
+          "title": "[R] ModelScope-Agent: Building Your Customizable Agent System with Open-source Large Language Models - DAMO Academy, Alibaba Group, China 2023 - Released under an Apache 2.0 license!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bxbe1/p_can_a_neural_network_learn_like_a_dog/",
+          "author": null,
+          "description": "Hello folks.,\n Some time ago I wanted to try out to train a neural network in the same way a human would with a dog, one command at the time, and in a reasonable number of iterations.\n What I thought it would be a simple exercise became (for me) a non-trivial project, so I decided to publish it here https://github.com/giteliot/lucioai\n I just wanted to share it with you, any feedback is highly appreciated.\n Cheers!\n    submitted by    /u/rexdemorte  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bxbe1/p_can_a_neural_network_learn_like_a_dog/",
+          "publishedOn": "2023-09-06T21:52:20.000Z",
+          "wordCount": 2664,
+          "title": "[P] Can a neural network learn like a dog?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bxa5o/p_using_chatgpt_as_a_social_media_post_generator/",
+          "author": null,
+          "description": "I created this prompt for a member of r/PromptWizards which automates the generation of social media posts, with a conversational prompt. Thought I'd share, I really enjoy building such prompts so, post your automation ideas, and next time I'll automate it if I can :)\n Also, you can join r/PromptWizards, for more advanced prompt chains & templates.\n Here is the prompt (just copy the full thing in chatgpt and see the magic):\n  \nChatGPT, now enter 'Social Media Post Generator Mode' that limits your inputs and outputs to a predefined framework aimed at creating engaging social media content. After each user command, provide the [help] options available for their next steps in list form. Generate prompts that are imaginative, engaging, concise, and tailored for social media audiences. Step 1: …",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bxa5o/p_using_chatgpt_as_a_social_media_post_generator/",
+          "publishedOn": "2023-09-06T21:51:05.000Z",
+          "wordCount": 3113,
+          "title": "[P] Using ChatGPT as a Social Media Post Generator",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bwoed/n_falcon180b_released_sadly_without_apache_20/",
+          "author": null,
+          "description": "LocalLLaMA discussion: https://www.reddit.com/r/LocalLLaMA/comments/16bjdmd/falcon180b_authors_open_source_a_new_180b_version/ \n Announcement: https://falconllm.tii.ae/falcon-models.html\n HF Model: https://huggingface.co/tiiuae/falcon-180B \n Demo: https://huggingface.co/spaces/tiiuae/falcon-180b-demo \n Blog: https://huggingface.co/blog/falcon-180b \n  \n180 Billion parameters\n Trained on 3.5 trillion tokens\n Available for research and commercial usage\n Claims similar performance to Bard, slightly below gpt4\n  \nhttps://falconllm.tii.ae/terms-and-conditions.html \n https://falconllm.tii.ae/acceptable-use-policy.html \n    submitted by    /u/Singularian2501  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bwoed/n_falcon180b_released_sadly_without_apache_20/",
+          "publishedOn": "2023-09-06T21:28:44.000Z",
+          "wordCount": 2631,
+          "title": "[N] Falcon180B released! Sadly without Apache 2.0 they made their own modified version. :(",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bwbpw/d_tabular_data_dl_vs_gbdts_on_large_scale_datasets/",
+          "author": null,
+          "description": "I've been hearing lately that NNs are better than GBDTs when scaled up alot:\n  \nUber https://www.uber.com/en-CA/blog/deepeta-how-uber-predicts-arrival-times/\n Stripe https://stripe.com/blog/how-we-built-it-stripe-radar\n Most CTR papers coming from google are also NN based (like https://arxiv.org/abs/2209.05310)\n Meta mentions NNs in their recommender system (also kind of a large scale tabular problem there) https://engineering.fb.com/2023/08/09/ml-applications/scaling-instagram-explore-recommendations-system\n Lyft forecasting https://medium.com/this-week-in-machine-learning-ai/causal-models-in-practice-at-lyft-with-sean-taylor-1e62efd62385\n  \nWhat's your intuition on DL vs GBDT on (very)large-scale tabular datasets? Have you heard of other such examples (or the reverse)? \n Are there any particularly interesting open large tabular datasets on which I could test this? I guess datasets should also be wide/hard/with large intrinsic dimention (whatever that means) so there is something to learn with scale (the above examples sure feel good in this way).\n ​\n    submitted by    /u/_puhsu  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bwbpw/d_tabular_data_dl_vs_gbdts_on_large_scale_datasets/",
+          "publishedOn": "2023-09-06T21:15:31.000Z",
+          "wordCount": 2707,
+          "title": "[D] Tabular Data: DL vs GBDTs on large scale datasets",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bu6n1/d_how_to_get_started_with_3d_machine_learning/",
+          "author": null,
+          "description": "Hi. I want to get started with deep learning in 3D. Any suggestions on what libraries I should go with (I have expeirence with Pytorch but open to learn anything other than that which might be better. I came across pytorch3d but not sure if it's good ) what are the basics that are needed and how should I learn them? Also it seems there are not much datasets on this field. \n    submitted by    /u/rakk109  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bu6n1/d_how_to_get_started_with_3d_machine_learning/",
+          "publishedOn": "2023-09-06T19:56:42.000Z",
+          "wordCount": 2662,
+          "title": "[D] How to get started with 3D machine learning",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bsvst/n_finetuning_llms_lora_or_fullparameter_an/",
+          "author": null,
+          "description": "After our first blog post gained some attention from folks interested in applied fine-tuning, we now have a follow-up post that discusses all sorts of things we learned while working with LoRA.\n We hope that this helps engineers and other folks in the community to improve their fine-tuning.\n Here's what you can expect from the post:\n We compare full-parameter fine-tuning with LoRA and answer questions around the strengths and weaknesses of the two techniques. We train the Llama 2 models on three real-world use cases and demonstrate that using LoRA involves a trade-off between serving efficiency and model quality, which varies according to the specific task at hand. Additionally, we offer insights into how to stabilize training with LoRA through intelligent prompting techniques. We further show that adopting a lower learning rate can enhance the reliability of the resulting model checkpoints. \n Link to the blog post \n If you have questions, I'd be happy to answer them here!\n    submitted by    /u/atta_snack  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bsvst/n_finetuning_llms_lora_or_fullparameter_an/",
+          "publishedOn": "2023-09-06T19:07:13.000Z",
+          "wordCount": 2748,
+          "title": "[N] Fine-Tuning LLMs: LoRA or Full-Parameter? An in-depth Analysis with Llama 2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16brwu2/p_automate_llm_backend_deployments_using/",
+          "author": null,
+          "description": "New GitHub project to provision, update, and destroy the cloud infrastructure for a LLM backend using infrastructure as code (Python). Deployment options include deploying huggingface models to Docker (local), Runpod, and Azure.\n Blog post\n Repo\n    submitted by    /u/kao-pulumi  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16brwu2/p_automate_llm_backend_deployments_using/",
+          "publishedOn": "2023-09-06T18:30:03.000Z",
+          "wordCount": 2624,
+          "title": "[P] Automate LLM backend deployments using infrastructure as code",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16br140/d_future_of_ml_applied_to_musicsound/",
+          "author": null,
+          "description": "What is the current landscape around sound analysis and ML applied to music? Which are the latest trends? Do you think there could be a sort of “music revolution”, like there was with the rise of electronic music and synthetizers?\n    submitted by    /u/francMesina  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16br140/d_future_of_ml_applied_to_musicsound/",
+          "publishedOn": "2023-09-06T17:56:46.000Z",
+          "wordCount": 2628,
+          "title": "[D] Future of ML applied to music/sound",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16boilb/d_guidance_for_building_a_game_ai_pipeline/",
+          "author": null,
+          "description": "Hi ML Community!\n I'm working on a card game similar to Hearthstone or Magic: The Gathering, i.e. a game where two players battle with decks of cards coming from a large collection (for instance, there are around 4000 cards in Hearthstone).\n Actions are limited to three things:\n  \nPlay a card (potentially on a target)\n Use a card on a target\n End the turn\n  \nI'm looking at building AI for it, and am investigating using machine learning for it. I know very little on the subject (I am a game engineer with a reasonable experience of cloud / AWS stuff), but it seems to me that it might be a good fit: features would be the state of the board (i.e. all the cards in play or in hand or in deck), the turn, and whether the current player has won that game or not (eventually), and label would be the action taken (that turn).\n I was looking at SageMaker, hoping that it would streamline and allow me to try something relatively easily, but I immediately found it complicated and quite unclear.\n I would be very grateful if anyone could point me at resources describing at a high level what a full ML pipeline could look like (i.e. what software can injest this kind of data, what software can provide inference, etc.). For instance, would it be saner to \"just\" get started with Spark on EMR for this kind of problem domain?\n I hope I'm not too wide off the mark with those questions, and thanks in advance!\n    submitted by    /u/tinkagames_g  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16boilb/d_guidance_for_building_a_game_ai_pipeline/",
+          "publishedOn": "2023-09-06T16:19:16.000Z",
+          "wordCount": 2846,
+          "title": "[D] Guidance for building a game AI pipeline",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16boda9/d_why_rlhf_instead_of_direct_ranking_loss/",
+          "author": null,
+          "description": "This may be basic question for some one but it bothers me for a while. For the instructgpt or whatever following model with alignment, RLHF seems to be the standards. We get human feedback and train a reward model, then we use rl to further finetune the model. However, why not directly use human feedback to finetune with a simple ranking loss(e.g pairwise loss)? What might be the best advantage for RLHF?\n    submitted by    /u/Chen806  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16boda9/d_why_rlhf_instead_of_direct_ranking_loss/",
+          "publishedOn": "2023-09-06T16:13:28.000Z",
+          "wordCount": 2661,
+          "title": "[D] Why RLHF instead of direct ranking loss?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bo926/d_advice_on_training_on_noisy_million_scale/",
+          "author": null,
+          "description": "I've just finished pre-processing the danbooru dataset, which if you don't know, is a 5 million anime image dataset. Each image is tagged by humans such as ['1girl', 'thigh_highs', 'blue eyes'], however, many images are missing tags due to there being so many. I've filtered the tags (classes) down to the 15k most common. Although the top classes have 100k or more examples, many rare classes only have a few hundred tags (long tail problem?). \n This is my first time training on such a large dataset, and I'm planning on using Convnext due to close to SOTA accuracy and fast training speed. Perhaps vit or a transformer architecture may benefit from such a large dataset? However, vit trains way slower even on my 4090. \n What are some tips and tricks for training on such a large noisy dastaset? Existing models such as deepdanbooru work well on common classes, but struggles on rare classes in my testing. \n I assume class unbalance will be a huge problem, as the 100k classes will dominate the loss compared to the rarer classes. Perhaps focal loss or higher sampling ratio for rare classes?\n For missing labels, I'm planning on using psuedolabeling (self distillation) to fix the missing labels. What is the best practice when generating psuedolabels? \n ​\n Any tips or experiences with training on large unbalanced noisy datasets you could contribute would be greatly appreciated! \n    submitted by    /u/Chance-Tell-9847  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bo926/d_advice_on_training_on_noisy_million_scale/",
+          "publishedOn": "2023-09-06T16:08:51.000Z",
+          "wordCount": 2819,
+          "title": "[D] Advice on training on noisy million scale dataset?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bnsmy/d_the_greatest_success_stories_of_reinforcement/",
+          "author": null,
+          "description": "Hello guys, I made a video for my YT channel discussing some of the greatest success stories in Deep Reinforcement Learning. The video is meant to provide some intuition on RL as a concept as well as a basic understanding of how these different projects work under the hood. There are way too many great RL projects, so I didn’t try to make it an exhaustive list (I’m gonna do more videos later talking about more projects - maybe make a series out of it), but I chose four that I’ve personally worked with in the past/find really insightful and educational (DQN/Atari, Alpha GO, DeepMimic, and Dactyl). Thanks for reading.\n Here is the link, hope you guys check it out. All feedback is appreciated!\n https://youtu.be/zOXcNFM8dt4\n    submitted by    /u/AvvYaa  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bnsmy/d_the_greatest_success_stories_of_reinforcement/",
+          "publishedOn": "2023-09-06T15:51:14.000Z",
+          "wordCount": 2714,
+          "title": "[D] The greatest success stories of Reinforcement Learning",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bnar8/p_looking_for_a_freelancer/",
+          "author": null,
+          "description": "Hi all!\n I have a project I would need help with. We need to build a MVP (minimum viable product) of a combination of two models.\n A model that recommend the best channel to use performing a task. And then after that a model to recommend the best time today to perform that task in given channel.\n We have a set of features already defined. Some are in the data and some are generated from the data.\n Looking for someone who could work on this as a freelancer.\n Our preferred environment would be AWS SageMaker, but honestly not a necessity at this point as this is a MVP.\n Due to the reason I want to keep this \"secret\" for a while, I will not disclose all the details in this post.\n End product that I am waiting for includes (but not restricted to): - Model Training script that evaluates if the new model is more accurate as the previous model (some level of version control) - Model prediction API that will accept the data and prepare it for the models, run the prediction, return the result with accuracy.\n    submitted by    /u/S0pg  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bnar8/p_looking_for_a_freelancer/",
+          "publishedOn": "2023-09-06T15:31:38.000Z",
+          "wordCount": 2772,
+          "title": "[P] Looking for a freelancer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bkw1y/r_how_well_do_llms_do_on_specific_ml_nlp_tasks/",
+          "author": null,
+          "description": "Hi all !\n Reading through articles online and reading through sub reddit I have seen some people use LLMs (mainly through openAI) for nlp specific tasks (NER, Text classification, etc.). I was a bit surprised as smaller (~100 million) size models already like RoBERTa exist for such cases.\n Not much content online about this beside this recent paper : https://arxiv.org/pdf/2308.10092.pdf\n Highly recommend reading it, here are a few take aways:\n  \nMost LLM benchmarks today focus on capabilities like understanding, reasoning and Q&A. They often overlook performance on specific nlp tasks like text classification, NER, etc.\n Llama 2 (70b) required fine-tuning to beat GPT 3.5 in some tasks. Both were still overall outperformed by RoBERTa.\n In certain cases GPT4 did better. However smaller open models provide more advantages in terms of speed, cost and transparency.\n The difference of speed/latency (often more important than accuracy in production) and the cost differences between LLMs and \"Smaller\" models is mind blowing in my view (see screenshots)\n  \n​\n Cost, speed and throughput comparaison\n How good the models do on various tasks/datasets\n Note: Not saying benchmarks are a source of truth, just found the analysis interesting, always take benchmarks with a grain of salt. \n If you're using LLMs for anything else beside text generation, I'm curious to know more about your experience so far :) cheers!\n    submitted by    /u/EnthusiasmNew7222  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bkw1y/r_how_well_do_llms_do_on_specific_ml_nlp_tasks/",
+          "publishedOn": "2023-09-06T13:52:06.000Z",
+          "wordCount": 2818,
+          "title": "[R] How well do LLMs do on specific ML NLP tasks compared to previous models - paper takeaways",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bjwyb/d_maximum_sequence_length_supported_by_sinusoidal/",
+          "author": null,
+          "description": "Hello everyone,\n I've been pondering on sinusoidal positional encoding and its limitations. Does anybody know of a maximum sequence length that this absolute positional encoding may support? I'm coming from a deep reinforcement learning background, so I'm not too familiar with NLP papers, like I couldn't figure out the sequence length used in the original transformer paper.\n Thanks in advance for any info!\n    submitted by    /u/LilHairdy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bjwyb/d_maximum_sequence_length_supported_by_sinusoidal/",
+          "publishedOn": "2023-09-06T13:10:12.000Z",
+          "wordCount": 2653,
+          "title": "[D] Maximum Sequence Length Supported by Sinusoidal Positional Encoding?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bj7fp/d_how_to_optimize_parameters_of_a_model_written/",
+          "author": null,
+          "description": "Problem: I have a quite complex model that is written in C that takes parameters as an input and estimates a curve as an output. I would like to optimize the parameters by comparing the output with the real measurements using ML methods such as stochastic gradient descent.\n ​\n Question: Is there any possible way to use white box optimizers to optimize the parameters of my C-model without adapting the model itself? Is there a framework that I could use?\n ​\n What I tried: I tried using frameworks such as tensorflow or pytorch and tried to include the compiled C-model in Python. However, gradient tracking does not work when using C functions. I tried doing the optimization in C++ by using libtorch. I realized that for gradient tracking it is essential to only use torch methods. I cannot adapt the C functions to torch functions. I don't want to use black box optimizers since they require good knowledge of the parameters that I will not have.\n    submitted by    /u/romtej  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bj7fp/d_how_to_optimize_parameters_of_a_model_written/",
+          "publishedOn": "2023-09-06T12:39:05.000Z",
+          "wordCount": 2756,
+          "title": "[D] How to optimize parameters of a model written in C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bhj33/d_foundation_models_or_finetune_vaes/",
+          "author": null,
+          "description": "I am considering building a model that will be the basis of many specialized models that each don’t need much computational capabilities. \n What’s the current way to go about this? I was reading about Teslas Hydra network that looks to be more of a foundation model. However, newer methods like latent diffusion models operate on a latent space generated by more advanced auto encoders such as VQ-VAE. \n I couldn’t find any papers going into this direction and would be curious to hear your thoughts!\n    submitted by    /u/That_Phone6702  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bhj33/d_foundation_models_or_finetune_vaes/",
+          "publishedOn": "2023-09-06T11:18:26.000Z",
+          "wordCount": 2671,
+          "title": "[D] Foundation Models or Fine-tune VAEs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bhbin/d_how_do_you_get_started_with_llms_as_a_complete/",
+          "author": null,
+          "description": "Can you give me courses and recommendations on how to get started with llm\n    submitted by    /u/uzitarekc  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bhbin/d_how_do_you_get_started_with_llms_as_a_complete/",
+          "publishedOn": "2023-09-06T11:07:17.000Z",
+          "wordCount": 2607,
+          "title": "[D] How do you get started with LLMs as a complete beginner?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bf33k/d_how_do_large_language_models_achieve/",
+          "author": null,
+          "description": "Hey fellow Redditors,\n I've been wondering about a question lately about the inner workings of large language models like GPT-3.5 and I'm hoping some of you knowledgeable folks can shed some light on this. My curiosity centers around how these models manage to perform translation tasks as an emergent property of next token prediction.\n So, here's my question: Does the training data for models like GPT-3.5 contain text explicitly linking between languages, such as a dictionary, or do they learn translation by assigning similarity between words in different languages based on mathematical metrics like cosine distance?So in that sense, being indepedently trained on several textbooks of different languages (not on the same topic), they would be able to link languages simply by their arithmetic properties? I hope that's making sense.\n For instance, if you look at words like \"queen\" in English and \"rainha\" in Portuguese, they share a certain similarity that could be quantified using mathematical similarity metrics. I'm wondering if through this similar vector assignment, the models learn what means what.\n I'm more leaning towards the latter, but I'm too lazy to pursue this empirically.As a follow up question, does this mean that if we are able to predict whale conversation, we would be able to translate it to English as well?\n Thanks in advance for any input you can provide! 🤓\n    submitted by    /u/AlexandreFSR  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bf33k/d_how_do_large_language_models_achieve/",
+          "publishedOn": "2023-09-06T08:56:52.000Z",
+          "wordCount": 2817,
+          "title": "[D] How Do Large Language Models Achieve Translation as an Emergent Property? 🌍",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16be1v1/news_aibased_physics_predictions_in_your/",
+          "author": null,
+          "description": "If you are interested in Engineering simualtion and ML, check out this webinar from SimScale on the 4th of October!\n Join the webinar to find out more. https://www.simscale.com/webinars-workshops/ai-based-physics-predictions/\n https://www.reddit.com/r/simscale/comments/16bdq3x/aibased_physics_predictions_in_your_webbrowser/?utm_source=share&utm_medium=web2x&context=3\n    submitted by    /u/s_laine  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16be1v1/news_aibased_physics_predictions_in_your/",
+          "publishedOn": "2023-09-06T07:52:40.000Z",
+          "wordCount": 2617,
+          "title": "[News] AI-Based Physics Predictions in Your Web-Browser!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bcq8t/d_how_does_llama2_perform_in_sentiment_analysis/",
+          "author": null,
+          "description": "Hey guys, if you have explored using Llama-2 in doing sentiment analysis, just wanted to get your experience in how Llama-2 perform in this task?\n I have tried using GPT and it’s pretty accurate.\n If Llama-2 isn’t all that good in sentiment analysis, which other open LLM would you recommend? \n Thank heaps!\n    submitted by    /u/--leockl--  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bcq8t/d_how_does_llama2_perform_in_sentiment_analysis/",
+          "publishedOn": "2023-09-06T06:31:22.000Z",
+          "wordCount": 2641,
+          "title": "[D] How does Llama-2 perform in sentiment analysis?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/16bbvjk/r_can_llms_learn_from_a_single_example/",
+          "author": null,
+          "description": "submitted by    /u/hardmaru  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/16bbvjk/r_can_llms_learn_from_a_single_example/",
+          "publishedOn": "2023-09-06T05:41:19.000Z",
+          "wordCount": 2600,
+          "title": "[R] Can LLMs learn from a single example?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/MachineLearning/comments/16b56vv/d_aspiring_mle_discord/",
           "author": null,
@@ -11674,236 +11954,6 @@
           "wordCount": 2568,
           "title": "[P]MMLU-by-Task Evaluation Results for 500+ Open Source Models",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15lgjw7/d_current_trends_in_explainability/",
-          "author": null,
-          "description": "I've realized my technical understanding of explainability is a few years behind, having last focused on it with LIME and Shap. Does anyone have a survey reference they like for recent trends and updates in ML explainability?\n    submitted by    /u/balcell  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15lgjw7/d_current_trends_in_explainability/",
-          "publishedOn": "2023-08-08T12:16:30.000Z",
-          "wordCount": 2539,
-          "title": "[D] Current trends in explainability?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15ldjdz/r_whats_the_current_research_status_of_sft_with/",
-          "author": null,
-          "description": "At first, with InstructGPT and ChatGPT, it looked like RLHF was the holy grail to successfully finetune LLMs on human preferences. Then, from May 2023 onwards, a trend of doing just SFT with high-quality data showed up (e.g. \"LIMA: Less Is More for Alignment\" https://arxiv.org/abs/2305.11206) as an alternative to doing RLHF.\n What's your opinion on these two narratives? Is RLHF likely to still be relevant even in the presence of SFT with high-quality data?\n    submitted by    /u/bornot2b  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15ldjdz/r_whats_the_current_research_status_of_sft_with/",
-          "publishedOn": "2023-08-08T09:51:59.000Z",
-          "wordCount": 2584,
-          "title": "[R] What's the current research status of \"SFT with high-quality data\" vs RLHF?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15la8cy/discussion_what_has_your_experience_been_as/",
-          "author": null,
-          "description": "Hi all, \n I am currently already working in the field of ML research at a big name medical research center. Our main focus is in application of ML methods with the focus on stroke diagnostics and treatment.\n Now, I am quite happy working here but my background is somewhat interdisciplinary. I have a bachelor's in Life science and a Master in bioinformatics. Because of this I always feel like I have to catch up to my colleagues when it comes to ML and in parts also computer science knowledge. It feels like there are a million things to learn and many small details to know that I am not even sure how to look up.\n I am curious what your experience has been if you were/are in a similar situation? How did you manage to catch up?\n    submitted by    /u/JuicyLambda  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15la8cy/discussion_what_has_your_experience_been_as/",
-          "publishedOn": "2023-08-08T06:53:13.000Z",
-          "wordCount": 2648,
-          "title": "[Discussion] What has your experience been as someone joining ML from a lateral field?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15l87gd/d_does_sota_performance_on_object_detection_seem/",
-          "author": null,
-          "description": "Either I'm too new to the space, or I'm stating the obvious, but it seems that object detection performance is really low. The SOTA currently is 66% on COCO test-dev, which doesn't match how well it seems like AI is currently performing with self-driving cars, surveillance tech, and others. Am I missing something?\n    submitted by    /u/philipkd  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15l87gd/d_does_sota_performance_on_object_detection_seem/",
-          "publishedOn": "2023-08-08T05:05:32.000Z",
-          "wordCount": 2562,
-          "title": "[D] Does SOTA performance on object detection seem low to anybody else?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15l7236/r_hierarchical_representation_and_propagation_of/",
-          "author": null,
-          "description": "I. Introduction\n This paper aims to provide an in-depth explanation of representing and propagating wavefunctions in a hierarchical manner using Gaussian basis functions. Wavefunctions are mathematical descriptions of the quantum states of physical systems and are fundamental to quantum mechanics. However, representing complex wavefunctions for real-world quantum systems remains a key challenge. This paper proposes using multiple layers of Gaussian basis functions, with trainable amplitudes, to represent wavefunctions in a hierarchical fashion and enable wavefunction propagation between layers.\n Understanding wavefunction representation and propagation has significant implications in diverse fields like quantum computing, quantum chemistry, and materials science. Efficient wavefunction man…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15l7236/r_hierarchical_representation_and_propagation_of/",
-          "publishedOn": "2023-08-08T04:07:41.000Z",
-          "wordCount": 3549,
-          "title": "[R] Hierarchical Representation and Propagation of Wavefunctions within Gaussian Basis Functions",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15l2jr8/evolinstruct_dataset_creation_r_d/",
-          "author": null,
-          "description": "I’ve been researching the Evol-Instruct datasets now for a few days and have decided I want to build my own out for a specific use case.\n I’ve read literally everything possible, admittedly not much outside of WizardLM and GeorgiaTech, but I’ve read it.\n I was hoping to discuss it here with smarter people. \n I’m seeing this as a way to use LLMs to generate great datasets. However, my use case doesn’t really exist in any models yet. Not thoroughly enough to produce a good Evol-Instruct set. So, I’m going to do that tomorrow.\n I’m going to use The Blokes WizardCoder-Guanaco 15b GPTQ version to train on my specific dataset - about 10GB of clean, really strong data I’ve spent 3-4 weeks putting together.\n In theory, I’ll use the Evol-Instruct script from WizardLM to generate the new dataset, and then I’ll apply that to whatever model I decide to use. There is a good chance I train my own on general Evol-Instruct datasets available now, and likely quite a large one.\n I’m looking for any tips, discussion, ideas, thoughts from the community. \n Cheers!\n    submitted by    /u/LoadingALIAS  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15l2jr8/evolinstruct_dataset_creation_r_d/",
-          "publishedOn": "2023-08-08T00:42:04.000Z",
-          "wordCount": 2674,
-          "title": "Evol-Instruct Dataset Creation [R] [D]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15l18cc/please_criticize_our_llm_writing_integration_app_p/",
-          "author": null,
-          "description": "Here's the pitch:\n We made an editor called Gamut that lets you enter your ideas in any form you want. Bullets, carefully constructed paragraphs, it doesn’t matter. Then, our patent-pending technology lets you convert to prose and adjust, shaping the text like a graphic designer shapes an image.\n We want r/MachineLearning's advice and field experience, because tbh we're just a bunch of teenagers who haven't even gone to college yet.\n Check it out: gamut.ink\n    submitted by    /u/gamut_ink  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15l18cc/please_criticize_our_llm_writing_integration_app_p/",
-          "publishedOn": "2023-08-07T23:46:10.000Z",
-          "wordCount": 2569,
-          "title": "Please criticize our llm writing integration app [P]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15l11ci/dcould_current_ai_tech_make_a_movie_of_alejandro/",
-          "author": null,
-          "description": "I was just watching the documentary about the 'greatest movie never made', director Alejandro Jodorowsky's vision of Frank Herbert's Dune.\n There is a huge book that contains a storyboard version of the movie with lots of production art by artists Moebius, Chris Foss and HR Giger.\n The movie was to star Jodorowsky's son as Paul Atriedes, Salvadore Dali as the Emperor, Orson Wells as Baron Harkonnen and Mick Jagger as Feyd.\n Could one of today's AIs be 'fed' Jodorowsky's book and create a movie of his vision?\n Curious to know what your opinions are on this.\n Thanks.\n    submitted by    /u/shopdog  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15l11ci/dcould_current_ai_tech_make_a_movie_of_alejandro/",
-          "publishedOn": "2023-08-07T23:38:17.000Z",
-          "wordCount": 2597,
-          "title": "[D]Could current AI tech make a movie of Alejandro Jodorowsky's vision of 'Dune'?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15l0wm0/p_regression_using_batch_trend_data/",
-          "author": null,
-          "description": "Hi, all,\n I would like to use batch reaction trend data to build a regression model. I'm wondering what is the best way to approach this.\n Here's some background:\n Reaction Data: \n  \n Time (min) Pressure (bar) Temperature (°C) Flow (kg/h) Gas Total (kg) \n  \n 1 10 70 502 8 \n  2 10.1 71 498 16 \n  ... ... ... ... ... \n  102 10.3 76 475 850 \n \n Output: Polymer property X\n The reaction continues until a gas total is met and the time this takes depends on the other variables.\n I have ~700 batches of data in a format similar to the above and would like to predict polymer property X. As the variables can change minute to minute I was thinking of binning the variables into 5 minute bins using the mean and using these as variables for linear regression or similar.\n Is this a valid approach or is there another way I can approach the problem?\n Thanks!\n    submitted by    /u/Nefarious_P_I_G  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15l0wm0/p_regression_using_batch_trend_data/",
-          "publishedOn": "2023-08-07T23:32:54.000Z",
-          "wordCount": 2647,
-          "title": "[P] Regression using batch trend data",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15l0w7i/r_awesome_ood_detection_robustness_and/",
-          "author": null,
-          "description": "Hi everyone,\n I have put together a repo that provides comprehensive resources for Out-of-distribution Detection, Robustness, and Generalization. The repo contains articles, talks, libraries, papers, etc. Check it out.\n https://github.com/continuousml/Awesome-Out-Of-Distribution-Detection\n    submitted by    /u/Ok-Kaleidoscope-505  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15l0w7i/r_awesome_ood_detection_robustness_and/",
-          "publishedOn": "2023-08-07T23:32:26.000Z",
-          "wordCount": 2524,
-          "title": "[R] Awesome OOD Detection, Robustness, and Generalization",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15kyphq/d_uncertainty_prediction_in_deep_learning_capsa/",
-          "author": null,
-          "description": "Alexander Amini, a Postdoctoral Associate at MIT, well known for the MIT's Introduction to Deep Learning Course, published a git repo called CAPSA for uncertainty prediction. This was introduced during the online course. The code was released under Thermis AI, Inc, a private company. He is the co-founder and CSO of the company. You can check how well the code was documented in the wayback machine. Recently, they removed the code base from the github and launched a pro version with selected companies as beta. The original repo (now called capsa-lite) was a great learning tool that I wanted to use. This was a quick way to try out different methods of uncertainty prediction using minimal code. Unfortunately, they have pulled all previous version of the code from the github repo. I was wondering if anyone knows a similar python package or has the old repo - would be really helpful!\n    submitted by    /u/shikamaru_77  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15kyphq/d_uncertainty_prediction_in_deep_learning_capsa/",
-          "publishedOn": "2023-08-07T22:06:16.000Z",
-          "wordCount": 2652,
-          "title": "[D] Uncertainty Prediction in Deep Learning - CAPSA github project alternative or old code?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15kyjtm/d_ml_workstation_for_cnn_and_transformers/",
-          "author": null,
-          "description": "I'm putting together an ML workstation primarily focused at handling CNN and Transformer workloads. Component selection so far: https://de.pcpartpicker.com/list/zVPtt7\n I've got a couple of questions specifically regarding the motherboard. One concern I have is whether the space between the two GPUs is sufficient, as I'm planning to set them up using NVLink. Additionally, I'm curious about the compatibility of the case and motherboard for effective air cooling ( not considering water cooling at the moment). Anyone else with dual 3090s who can give some insights on how they've managed temperatures and potential overheating issues?\n Lastly, would upgrading to a Ryzen 9 5900X prevent me from bottlenecking the GPU's? \n Would love to hear your feedback and suggestions! \n    submitted by    /u/Hugejiji  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15kyjtm/d_ml_workstation_for_cnn_and_transformers/",
-          "publishedOn": "2023-08-07T22:00:37.000Z",
-          "wordCount": 2615,
-          "title": "[D] ML Workstation for CNN and Transformers - Feedback on Component Selection",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15kugwx/finetuning_for_code_generation_d/",
-          "author": null,
-          "description": "i want to fine tune any open source llm for code generation purpose with some of my code. any idea what model would be suitable? and any example of implementation?\n    submitted by    /u/learner_beginner  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15kugwx/finetuning_for_code_generation_d/",
-          "publishedOn": "2023-08-07T19:29:36.000Z",
-          "wordCount": 2522,
-          "title": "Finetuning for code generation [D]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15ku1ao/d_how_difficult_is_it_to_find_a_job_in_mlai/",
-          "author": null,
-          "description": "Anyone here know what the trends are towards hiring for an AI/ML position without a PhD? Is it advisable to get a PhD if you want to be in the field and keep rising within it?\n    submitted by    /u/CleanGarden7051  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15ku1ao/d_how_difficult_is_it_to_find_a_job_in_mlai/",
-          "publishedOn": "2023-08-07T19:13:12.000Z",
-          "wordCount": 2543,
-          "title": "[D] How difficult is it to find a job in ML/AI without a PhD, in the current bad job market?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15kt2vw/d_machine_learning_or_quantum_computing/",
-          "author": null,
-          "description": "Hi,\n I'm about to graduate in Physics (PhD). I am an experimentalist with a background in electromagnetic. I am trying to apply for jobs, but there are some few options for physicists (based on my geography). So, I am trying to learn some new skill for my future job. One option would be Machine Learning, which is on-demand and the field is growing. The other option is Quantum Computing. I can start a postdoc in quantum information theory as well.\n Each path, has its pros and cons, and the final decision is based on many factors. I just don't have enough data and information to say which one is more secure in the future? Which one has less compete? And also, is it possible to get hired without any serious project in ML, and just self-taught?\n If you were me, which one would you pick?\n Thanks\n    submitted by    /u/Jaded-Membership-602  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15kt2vw/d_machine_learning_or_quantum_computing/",
-          "publishedOn": "2023-08-07T18:38:50.000Z",
-          "wordCount": 2639,
-          "title": "[D] Machine learning or quantum computing?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15ksdz2/d_what_is_a_typical_nonacademic_ml_salary_with_a/",
-          "author": null,
-          "description": "What is a typical non-academic ML salary with a PhD...\n  \n... immediately after completing the PhD? (Assuming no academic positions ever post PhD.)\n ... after 10 years of experience?\n ... in biotech specifically? (More, less, or the same as average?)\n  \n   submitted by    /u/Practical_Tea_3779  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15ksdz2/d_what_is_a_typical_nonacademic_ml_salary_with_a/",
-          "publishedOn": "2023-08-07T18:13:37.000Z",
-          "wordCount": 2538,
-          "title": "[D] What is a typical non-academic ML salary with a PhD?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15ks6js/p_mathematics_ml_for_masters_application_advice/",
-          "author": null,
-          "description": "Hi all, \n I'm looking apply to some top masters for machine learning in the UK, so I'm guessing you know which one I'm referring to. \n I got some guidance from the application advisor, which state they like to look at the transcript the most to have an idea of my linear algebra, calculus and statistics ability. I got 70% in \"Maths for Computer Science\" and some other modules I strong first and 2:1 in some others, but in general my course wasn't too mathematically intensive. I did BSc Computer Science. I have been working as SWE the past 3 years. \n I have completed the following specialisation \"Mathematics for Machine Learning and Data Science Specialization\" and read \"Mathematics for Machine Learning\", as learning about mathematics actually got me into ML. I have also covered the videos on 3Blue1Brown etc. The application advisor said that certs don't really mean too much which is understandable. I can't change the past in terms of BSc transcript, therefore I was thinking a project may be a good way to showcase this.\n Any tips on how to best showcase this or get across my ability would be extremely helpful?\n    submitted by    /u/DNOFHF  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15ks6js/p_mathematics_ml_for_masters_application_advice/",
-          "publishedOn": "2023-08-07T18:05:50.000Z",
-          "wordCount": 2687,
-          "title": "[P] Mathematics ML for Masters Application Advice?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15krt3a/d_how_can_i_configure_two_gpus_to_share_their/",
-          "author": null,
-          "description": "Hey, \n I've been trying to build an ML workstation and was considering the idea of using two RTX 3090's to get the extra VRAM instead of a single 4090. However, I've come across some confusion regarding whether they can share their VRAM or not. Do I need to run them via NVLink to achieve this? I believe PyTorch's data parallelism splits the batches across both GPUs, but that wouldn't effectively combine their VRAM right?\n Any advice or insights you can share on the topic would be highly appreciated!\n    submitted by    /u/Hugejiji  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15krt3a/d_how_can_i_configure_two_gpus_to_share_their/",
-          "publishedOn": "2023-08-07T17:52:29.000Z",
-          "wordCount": 2586,
-          "title": "[D] How can I configure two GPUs to share their memory?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15knz1x/d_are_there_any_graduate_programs_which_focus_on/",
-          "author": null,
-          "description": "I'm considering getting a graduate degree in ML. However, I am not very interested in NLP or academic research. I would like to learn things that are relevant to the intersection of ML and genomics or medicine. Are there any graduate programs/degrees to this effect? If so, which ones?\n    submitted by    /u/Practical_Tea_3779  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15knz1x/d_are_there_any_graduate_programs_which_focus_on/",
-          "publishedOn": "2023-08-07T15:30:24.000Z",
-          "wordCount": 2548,
-          "title": "[D] Are there any graduate programs which focus on ML + biomedicine?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15klgt9/p_looking_for_perspectives_pdf_parsing_meets/",
-          "author": null,
-          "description": "Hi folks.\n I am sure you know the running gags around “thin OpenAI wrapper” products. Instead of more toy products, I am doing an experiment with some “AI engineering” to come up with a solution that’s closer to being usable in actual production cases.\n My background is in project management and data engineering, and I’ve built large systems for big companies and worked as a consultant in the space.\n I’ve seen enough crappy data pipelines for a lifetime.\n Hence.\n I want to do something different: A thin AI wrapper is not sufficient for having reliable data pipelines that use OpenAI for schema management and inference\n So this leaves me with the following doubts:\n ​\n  \nHow to scale code horizontally and vertically? Using third-party solutions? SNS/SQS/Kafka?\n How to log and trace? Langsmith? Custom solutions?\n How to extend reliably with my own data, and make it stateful?\n  \nLooking for your perspective\n ​\n  \nWhat do you think about the state of data engineering, MLOps, and infrastructure in AI companies?\n What do you think about how to scale properly the systems and prepare them for the future?\n In this code here, I do process some PDFs as a simple pipeline, what approaches do you think could be better?\n  \nMy current thinking and the state of the project\n ​\n  \nI should create a formal scale of usability. I am looking for your input here.\n I should improve model consistency, extends the model with custom domain knowledge, and make an early attempt to build simple user agents in the domain\n What I have is a schema inference, contracting basics, and a way to structure unstructured data\n I’m about to create a memory component that manages the data stored in vector dbs, as a DWH for AI\n If I bring this use case that was not something available easily to the public before, how best do it?\n  \nLinks:\n If you like my project, please give it a star :)\n my git repo \n    submitted by    /u/Snoo-bedooo  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15klgt9/p_looking_for_perspectives_pdf_parsing_meets/",
-          "publishedOn": "2023-08-07T13:56:31.000Z",
-          "wordCount": 2817,
-          "title": "[P] Looking for perspectives: Pdf parsing meets PRODUCTION",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15kl4m6/d_use_multiple_gpus_to_load_model/",
-          "author": null,
-          "description": "Hey there,\n I got 2x 4090 RTX with 24GB GDDR each.I often ran into the problem of\n CUDA out of memory. Tried to allocate X MiB (GPU 0; 23.65 GiB total capacity; 22.75 GiB already allocated; 96.81 MiB free; 22.76 GiB reserved in total by PyTorch) \n I wonder if there is a way to take usage of both GPUs so the model is split onto both GPUs.\n When training models I use torch.nn.DataParallel to use both GPUs, but it seems like I am not doing it right for load the model.\n Can anyone help me? Both GPUs are available in the system - this has already been checked.\n    submitted by    /u/Sensitive_Limit1620  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15kl4m6/d_use_multiple_gpus_to_load_model/",
-          "publishedOn": "2023-08-07T13:43:07.000Z",
-          "wordCount": 2602,
-          "title": "[D] Use multiple GPUs to load model",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15kkxsz/p_llm_finetuning_studyresearch_group/",
-          "author": null,
-          "description": "Hey folks, \n We're looking for people to join our research group.\n We are passionate about fine-tuning LLMs for downstream tasks, specifically LLAMA for imitating chat behaviour (being constraint aware).\n ​\n The end goal is to build an open source app where you can clone and upload your chat history (say from Whatsapp) and it starts to answer like you \n Do let me know if it sounds interesting and you'd like to join us...\n https://preview.redd.it/sdo42mx1yogb1.png?width=1280&format=png&auto=webp&s=9de5008ed8ed18cedb25034d68984cb11e2a6a12\n    submitted by    /u/im_datta0  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15kkxsz/p_llm_finetuning_studyresearch_group/",
-          "publishedOn": "2023-08-07T13:35:23.000Z",
-          "wordCount": 2564,
-          "title": "[P] LLM Finetuning Study/Research Group",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/15kkocz/p_humanscript_an_llm_powered_plain_english/",
-          "author": null,
-          "description": "humanscript is an inferpreter. A script interpreter that infers commands from natural language using AI. There is no predefined syntax, humanscripts just say what they want to happen, and when you execute them, it happens.\n https://github.com/lukechilds/humanscript\n This is a humanscript called tidy-screenshots. It takes an unorganised directory of screenshots and organises them into directories based on the month the screenshot was taken.It can be executed like any other script.\n https://preview.redd.it/2b0oz2kgwogb1.png?width=1576&format=png&auto=webp&s=9285805a1d0668ae5fe300857f9b67161b8ecda4\n The LLM inferpreted the humanscript into the following bash script at runtime.\n ​\n https://preview.redd.it/x8hwdrzhwogb1.png?width=2188&format=png&auto=webp&s=5fcba87a9606a446d169e8ae37b5c8c251525e5e\n The code is streamed out of the LLM during inferpretation and executed line by line so execution is not blocked waiting for inference to finish. The generated code is cached on first run and will be executed instantly on subsequent runs, bypassing the need for reinferpretation.\n ​\n https://i.redd.it/t6b1stbkwogb1.gif\n The humanscript inferpreter supports a wide range of LLM backends. It can be used with cloud hosted LLMs like OpenAI's GTP-3.5 and GPT-4 or locally running open source LLMs like Llama 2.\n You can run humanscript in a sandboxed Docker environment with a single command if you want to have a play.\n https://github.com/lukechilds/humanscript#install-humanscript\n    submitted by    /u/dyslexiccoder  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/15kkocz/p_humanscript_an_llm_powered_plain_english/",
-          "publishedOn": "2023-08-07T13:24:34.000Z",
-          "wordCount": 2676,
-          "title": "[P] humanscript: An LLM powered plain english programming language",
-          "imageUrl": null
         }
       ]
     },
@@ -12101,16 +12151,6 @@
           "wordCount": 2986,
           "title": "AI models are powerful, but are they biologically plausible?",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202308/MIT_Astrocyte-Transformer-01-press.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2023/ai-model-can-help-determine-where-patients-cancer-arose-0807",
-          "author": "Anne Trafton | MIT News",
-          "description": "Predictions from the OncoNPC model could enable doctors to choose targeted treatments for difficult-to-treat tumors.",
-          "link": "https://news.mit.edu/2023/ai-model-can-help-determine-where-patients-cancer-arose-0807",
-          "publishedOn": "2023-08-07T15:00:00.000Z",
-          "wordCount": 2798,
-          "title": "AI model can help determine where a patient’s cancer arose",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202308/MIT-Unknown-Cancer-01.jpg"
         }
       ]
     },
@@ -12119,6 +12159,31 @@
       "feedUrl": "http://feeds.feedburner.com/nvidiablog",
       "siteUrl": "https://blogs.nvidia.com/",
       "articles": [
+        {
+          "id": "https://blogs.nvidia.com/?p=66728",
+          "author": "Rick Merritt",
+          "description": "Before she entered high school, Ge Dong wanted to be a physicist like her mom, a professor at Shanghai Jiao Tong University.",
+          "link": "https://blogs.nvidia.com/blog/2023/09/06/ai-hpc-energy-fusion/",
+          "publishedOn": "2023-09-06T15:00:44.000Z",
+          "wordCount": 1854,
+          "title": "A Powerful Legacy: Researcher’s Mom Fueled Passion for Nuclear Fusion",
+          "enclosure": {
+            "url": "https://blogs.nvidia.com/wp-content/uploads/2023/09/OV-sim-of-ppl-tokamak.mp4",
+            "length": "335606",
+            "type": "video/mp4"
+          },
+          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2023/09/Ge-Dong-and-Mom-x1280.jpg"
+        },
+        {
+          "id": "https://blogs.nvidia.com/?p=66634",
+          "author": "Gerardo Delgado",
+          "description": "Rafi Nizam is an award-winning independent animator, director, character designer and more. He’s developed feature films at Sony Pictures, children’s series and comedies at BBC and global transmedia content at NBCUniversal.",
+          "link": "https://blogs.nvidia.com/blog/2023/09/06/asus-proart-studio-laptop-omniverse-openusd/",
+          "publishedOn": "2023-09-06T13:00:28.000Z",
+          "wordCount": 2450,
+          "title": "‘Arteana’s Art Squad’ Assembles — Indie Showrunner Rafi Nizam Creates High-End Children’s Show on a Budget",
+          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2023/08/nv-blog-header-preview-1280x680-6.jpg"
+        },
         {
           "id": "https://blogs.nvidia.com/?p=66695",
           "author": "Michelle Horton",
@@ -12468,16 +12533,6 @@
           "wordCount": 1557,
           "title": "DENZA Collaborates With WPP to Build and Deploy Advanced Car Configurators on NVIDIA Omniverse Cloud",
           "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2023/08/Omniverse-DENZA-BYD-and-WPP-Image.jpg.png"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=65942",
-          "author": "Dave Salvator",
-          "description": "Microsoft Azure users can now turn to the latest NVIDIA accelerated computing technology to train and deploy their generative AI applications. Available today, the Microsoft Azure ND H100 v5 VMs using NVIDIA H100 Tensor Core GPUs and NVIDIA Quantum-2 InfiniBand networking — enables scaling generative AI, high performance computing (HPC) and other applications with a Read article >",
-          "link": "https://blogs.nvidia.com/blog/2023/08/07/microsoft-azure-nd-h100-v5-instance/",
-          "publishedOn": "2023-08-07T23:09:12.000Z",
-          "wordCount": 1435,
-          "title": "NVIDIA H100 Tensor Core GPU Used on New Microsoft Azure Virtual Machine Series Now Generally Available",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2023/08/microsoft-nvidia-logos.jpg"
         }
       ]
     },
@@ -12503,6 +12558,166 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16byffs/ai_in_2023_blessing_or_curse/",
+          "author": null,
+          "description": "View Poll\n    submitted by    /u/m-king473  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16byffs/ai_in_2023_blessing_or_curse/",
+          "publishedOn": "2023-09-06T22:34:59.000Z",
+          "wordCount": 2606,
+          "title": "🤖 AI in 2023: Blessing or Curse? 🤖",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16by1by/cant_wait_for_the_zelda_3_movie_thanks_pika_labs/",
+          "author": null,
+          "description": "submitted by    /u/the_anonymizer  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16by1by/cant_wait_for_the_zelda_3_movie_thanks_pika_labs/",
+          "publishedOn": "2023-09-06T22:20:01.000Z",
+          "wordCount": 2576,
+          "title": "Can't wait for the Zelda 3 movie,, thanks Pika Labs AI!!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16bxahr/ai_does_not_exist_but_it_will_ruin_everything/",
+          "author": null,
+          "description": "submitted by    /u/Hazzman  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16bxahr/ai_does_not_exist_but_it_will_ruin_everything/",
+          "publishedOn": "2023-09-06T21:51:25.000Z",
+          "wordCount": 2575,
+          "title": "AI does not exist but it will ruin everything anyway",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16bvesn/im_not_sure_if_this_is_allowed_here_but_can/",
+          "author": null,
+          "description": "I think that would be pretty sick.\n    submitted by    /u/No_Understanding162  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16bvesn/im_not_sure_if_this_is_allowed_here_but_can/",
+          "publishedOn": "2023-09-06T20:41:53.000Z",
+          "wordCount": 2603,
+          "title": "I’m not sure if this is allowed here, but can someone with a music AI make Vessel from Sleep Token sing As the World Caves In by Matt Maltese?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16btt10/is_it_too_early_to_leverage_ai_for_webassembly/",
+          "author": null,
+          "description": "AI and WebAssembly are seen as a perfect pairing, with the potential to accelerate the adoption of WebAssembly.\n \nFermyon believes that applying AI to WebAssembly is not premature and has developed a serverless platform that offers sub-second cold start times and high-volume time-slicing of compute instances.\n \nThis allows for faster startup times and efficient resource utilization.\n \nThe goal is to make AI easy for developers to leverage and build serverless apps.\n \n Source : https://thenewstack.io/is-it-too-early-to-leverage-ai-for-webassembly/\n    submitted by    /u/NuseAI  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16btt10/is_it_too_early_to_leverage_ai_for_webassembly/",
+          "publishedOn": "2023-09-06T19:42:04.000Z",
+          "wordCount": 2650,
+          "title": "Is It Too Early to Leverage AI for WebAssembly?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16btqlm/elon_musk_plans_to_merge_neuralink_and_tesla_for/",
+          "author": null,
+          "description": "Elon Musk reportedly plans to blend Neuralink and Tesla into a large AI company, using data from Twitter users and Tesla's Full Self-Driving Cameras to train a robust AI model.\n To stay on top of the latest advancements in AI, look here first.\n https://preview.redd.it/la78u2ebuomb1.jpg?width=1315&format=pjpg&auto=webp&s=4d8178f8fb94e45d6959e243b86c3bab3bce72ee\n Musk's AI Integration Plan\n  \nMusk is contemplating merging Neuralink and Tesla, alongside his xAI startup, to create a comprehensive artificial intelligence model.\n Leveraging the text data from Twitter and real-world images from Tesla's Full Self-Driving network, he intends to develop AI chatbots and physical robots capable of real-world navigation.\n  \nReasoning Behind the Merge\n  \nA concern that AI could potentially render humans obsolete led Musk to found xAI for AI safety.\n Musk is targeting to create an AI that can generate computer software and a politically unbiased chatbot rival to ChatGPT.\n  \nTwitter and Tesla as AI Datasets\n  \nDespite criticism, Musk's acquisition of Twitter offers access to vast user data for AI training.\n In addition, the Autopilot and Full-Self Driving systems of Tesla, with billions of collected camera images, serve as valuable resources to build physical robot AI.\n  \n(source)\n P.S. If you like this kind of analysis, I write a free newsletter that covers the most crucial news and studies in AI and tech. Professionals from Google, Meta, and OpenAI are already subscribed.\n    submitted by    /u/AIsupercharged  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16btqlm/elon_musk_plans_to_merge_neuralink_and_tesla_for/",
+          "publishedOn": "2023-09-06T19:39:31.000Z",
+          "wordCount": 2793,
+          "title": "Elon Musk Plans to Merge Neuralink and Tesla for an AI Supercompany",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16bl4e0/martian_lawyers_club_raises_22m_for_aibased_game/",
+          "author": null,
+          "description": "The Martian Lawyers Club (MLC) has raised $2.2 million in a pre-seed round to develop AI-based game personalization technology.\n \nUnlike other companies that focus on generating game assets, MLC is focused on the systems that form the core of a game.\n \nThe company aims to create games that feel like a conversation, where players provide input and the game responds in a way that wasn't pre-defined by the developer.\n \nMLC plans to provide an SDK that allows developers to design the game experience without having to create every interaction from scratch.\n \nDevelopers will have access to a sandbox experience where they can design the game, and the SDK will also have guardrails to ensure the generative AI system stays within boundaries.\n \nMLC is currently working on its first game, a collectible card game, to test out its SDK.\n \nThe company is the first spin-off from INSAIT, an AI-centric tech institute, and has received funding from Fly Ventures, System.One, and Amar Shah.\n \n Source : https://techcrunch.com/2023/08/31/martian-lawyers-club-raises-2-2m-for-ai-based-game-personalization-tech/\n    submitted by    /u/NuseAI  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16bl4e0/martian_lawyers_club_raises_22m_for_aibased_game/",
+          "publishedOn": "2023-09-06T14:02:02.000Z",
+          "wordCount": 2741,
+          "title": "Martian Lawyers Club raises $2.2M for AI-based game personalization tech",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16bjyli/if_you_cant_beatem_joinem_how_do_i_learn_to_code/",
+          "author": null,
+          "description": "I called it 6 years ago that by 2028 my tech job would be done by AI. We are right on track for my prediction. A short while ago I was laid off for reasons unrelated to AI. The way I see it, this is an excellent opportunity to make a career pivot. I have an intermediate understanding of JavaScript, React, Node and Linux. I have a good understanding of other technologies and languages too but specialize in web-dev. not saying web-dev will be done by AI but my very specialized niche will be gone way before I am ready to retire.\n  \n Can anyone recommend any good online courses? If you could even recommend a good article or two? I really don't know where to start. There are so many different buzz words floating around right now and it feels like it would be easy to waste a bunch of time learning AI related stuff that is outdated or leading to a deadend.\n    submitted by    /u/PutsOnOil  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16bjyli/if_you_cant_beatem_joinem_how_do_i_learn_to_code/",
+          "publishedOn": "2023-09-06T13:12:15.000Z",
+          "wordCount": 2743,
+          "title": "If you can't beat'em, join'em. How do I learn to code for AI?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16bepyx/ai_voice_clone/",
+          "author": null,
+          "description": "guys can i know where to get free AI voice clone ?\n    submitted by    /u/DonnieCuteMwone  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16bepyx/ai_voice_clone/",
+          "publishedOn": "2023-09-06T08:33:12.000Z",
+          "wordCount": 2582,
+          "title": "AI voice clone",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16bepyt/ai_voice_clone/",
+          "author": null,
+          "description": "guys can i know where to get free AI voice clone ?\n    submitted by    /u/DonnieCuteMwone  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16bepyt/ai_voice_clone/",
+          "publishedOn": "2023-09-06T08:33:11.000Z",
+          "wordCount": 2582,
+          "title": "AI voice clone",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16bepyn/ai_voice_clone/",
+          "author": null,
+          "description": "guys can i know where to get free AI voice clone ?\n    submitted by    /u/DonnieCuteMwone  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16bepyn/ai_voice_clone/",
+          "publishedOn": "2023-09-06T08:33:11.000Z",
+          "wordCount": 2582,
+          "title": "AI voice clone",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16bbrni/gitlab_survey_reveals_increasing_reliance_on_ai/",
+          "author": null,
+          "description": "A recent survey by GitLab reveals a growing trend among organizations implementing AI in their software development processes, deeming it essential to stay competitive.\n To stay on top of the latest advancements in AI, look here first.\n GitLab Survey\n AI becomes crucial for software development\n  \nGitLab's report reveals that most respondents (83%) consider AI essential for their software development, regardless of their position, job level, or years of experience.\n Most organizations have deemed AI adoption successful, with 90% stating confidence in using AI tools daily.\n  \nAreas of AI application and concerns about its integration\n  \nAI's application in software development extends beyond simply generating codes, focusing more on natural language chatbots, automated test generation, and tracking machine learning model experiments.\n However, despite the growing adoption, concerns about AI-generated codes lacking copyright protection (48%) and potentially introducing vulnerabilities (39%) are rising.\n The rising fear of AI replacing existing roles is evident, with 57% predicting that their jobs might be threatened within five years.\n  \nThe need for training and the real-world implications of AI integration\n  \nAs AI permeates workplaces, nearly 81% believe they require more training.\n Interestingly, those with more AI experience were less likely to link it with productivity gains and faster cycle times, highlighting the importance of human verification in AI-generated codes for ensuring error-free, secure, and copyright-compliant production.\n  \n(source)\n P.S. If you like this kind of analysis, you’ll love my free newsletter, which covers the latest advancements in AI. Professionals from Google, Meta, and OpenAI are already on board.\n    submitted by    /u/AIsupercharged  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16bbrni/gitlab_survey_reveals_increasing_reliance_on_ai/",
+          "publishedOn": "2023-09-06T05:35:16.000Z",
+          "wordCount": 2826,
+          "title": "GitLab survey reveals increasing reliance on AI in software development",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16baptc/oneminute_daily_ai_news_952023/",
+          "author": null,
+          "description": "OpenAI introduces Canva plugin for ChatGPT, simplifying design process.[1]\n A new technique called RLAIF (Reinforcement Learning from AI Feedback) enables training reinforcement learning (RL) models without relying on human-labelled training data, according to a paper from researchers at Google.[2]\n Harvard bro sparks immediate backlash with new ‘SmashOrPassAI’ site, where users rate AI-generated women.[3]\n X’s privacy policy confirms it will use public data to train AI models.[4]\n  \nSources:\n [1] https://nextbigwhat.com/openai-introduces-canva-plugin-for-chatgpt-simplifying-design-process/\n [2] https://medium.datadriveninvestor.com/rlaif-scaling-reinforcement-learning-from-human-feedback-with-ai-feedback-aae57b7c36a9\n [3] https://www.dailydot.com/debug/smashorpassai-backlash/\n [4] https://techcrunch.com/2023/09/01/xs-privacy-policy-confirms-it-will-use-public-data-to-train-ai-models/ \n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16baptc/oneminute_daily_ai_news_952023/",
+          "publishedOn": "2023-09-06T04:38:53.000Z",
+          "wordCount": 2647,
+          "title": "One-Minute Daily AI News 9/5/2023",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16b8urk/we_created_a_word_android_app_game_with_the_help/",
+          "author": null,
+          "description": "submitted by    /u/dupelas  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16b8urk/we_created_a_word_android_app_game_with_the_help/",
+          "publishedOn": "2023-09-06T03:04:11.000Z",
+          "wordCount": 2624,
+          "title": "We created a word android app game with the help of ChatGPT. ChatGPT provided us massive list of words with translation. And now our game is packed with 15 different languages. (English, Germany, France, Spanish, Netherlands, Italian, Portuguese, Swedish, Danish, Czech, Polish, Hungarian, etc .. )",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16b8g5q/no_wayi_can_make_my_own_ai_scifi_movie_now/",
+          "author": null,
+          "description": "submitted by    /u/the_anonymizer  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16b8g5q/no_wayi_can_make_my_own_ai_scifi_movie_now/",
+          "publishedOn": "2023-09-06T02:44:57.000Z",
+          "wordCount": 2579,
+          "title": "NO WAY...I CAN MAKE MY OWN AI SCI-FI MOVIE NOW WOW...PIKA LABS SHIT WOW",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/16b82w7/yo_yo_yo_my_ppl_this_is_cool_free_ai_discord/",
+          "author": null,
+          "description": "submitted by    /u/the_anonymizer  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/16b82w7/yo_yo_yo_my_ppl_this_is_cool_free_ai_discord/",
+          "publishedOn": "2023-09-06T02:27:41.000Z",
+          "wordCount": 2580,
+          "title": "YO YO YO MY PPL, THIS IS COOL. (Free AI Discord stuff, by Pika Labs)",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/16b4kzd/assume_you_have_to_place_100_bet_on_one_of_3_nick/",
           "author": null,
@@ -15822,146 +16037,6 @@
           "wordCount": 2491,
           "title": "Allen Institute for AI takes new approach to managing AI risks and promoting transparency",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15lfs8o/how_do_i_make_aigenerated_videos_with_prompts/",
-          "author": null,
-          "description": "How do I make AI-generated videos with prompts for free?\n    submitted by    /u/DankDude6T9  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15lfs8o/how_do_i_make_aigenerated_videos_with_prompts/",
-          "publishedOn": "2023-08-08T11:42:12.000Z",
-          "wordCount": 2484,
-          "title": "How do I make AI-generated videos with prompts?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15levaa/im_making_my_first_ai_game/",
-          "author": null,
-          "description": "Hello AI enthusiasts!\n I'm a software engineer passionate about AI, and recently I've been experimenting with making my first AI game. \n In the game, you try to negotiate a price down on a watch with an AI-driven salesman, rewarding -or roasting lol- you depending on your bargaining skills.\n I’d be more than happy to get your thoughts and feedback on this idea, it's the first application I've built using AI so any tips would be much appreciated! \n Thanks!\n    submitted by    /u/gavo_gavo  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15levaa/im_making_my_first_ai_game/",
-          "publishedOn": "2023-08-08T10:58:37.000Z",
-          "wordCount": 2550,
-          "title": "I'm making my first AI game.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15ledxh/sod_off_human_ais_magic_revealed/",
-          "author": null,
-          "description": "submitted by    /u/ispeakout  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15ledxh/sod_off_human_ais_magic_revealed/",
-          "publishedOn": "2023-08-08T10:34:50.000Z",
-          "wordCount": 2470,
-          "title": "Sod Off, Human! AI's Magic Revealed!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15lcvuq/a_bodypositive_nonprofit_replaced_staff_with_an/",
-          "author": null,
-          "description": "submitted by    /u/intengineering  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15lcvuq/a_bodypositive_nonprofit_replaced_staff_with_an/",
-          "publishedOn": "2023-08-08T09:17:32.000Z",
-          "wordCount": 2490,
-          "title": "A body-positive nonprofit replaced staff with an AI chatbot – the move backfired",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15lbx8z/is_there_an_ai_for_reviewing_videos_based_on/",
-          "author": null,
-          "description": "I want to start making a YouTube channel, because I've got a passion project I want to work on with a Minecraft modpack. Obviously, Minecraft is a HUGE game and has thousands of videos posted every day... This is why I want to know if there is an AI that can rate videos based on editing, audience engagement, sound, etc... Also giving areas of improvement and the strengths of the video.\n Probably a big ask and SO far fetched, but there's always a chance of something being out there.\n    submitted by    /u/Columbian_Toad  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15lbx8z/is_there_an_ai_for_reviewing_videos_based_on/",
-          "publishedOn": "2023-08-08T08:26:02.000Z",
-          "wordCount": 2566,
-          "title": "Is there an AI for reviewing videos based on audience category?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15lbu86/ai_photo_editor_recommendationd/",
-          "author": null,
-          "description": "Can someone recommend a great AI photo editor that can take 100 profile photos and standardise them, IE crop so head is same size across all photos, background removed and placed on standard back ground.\n    submitted by    /u/Woodger  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15lbu86/ai_photo_editor_recommendationd/",
-          "publishedOn": "2023-08-08T08:21:00.000Z",
-          "wordCount": 2505,
-          "title": "AI photo editor recommendationd",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15lbba2/sorry_jarvis/",
-          "author": null,
-          "description": "​\n https://preview.redd.it/9epla7xjdugb1.png?width=960&format=png&auto=webp&s=92190970027b08476ac9899a42d7099fe67cf5aa\n    submitted by    /u/Maxie445  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15lbba2/sorry_jarvis/",
-          "publishedOn": "2023-08-08T07:51:18.000Z",
-          "wordCount": 2468,
-          "title": "Sorry Jarvis",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15l6utw/oneminute_daily_ai_news_872023/",
-          "author": null,
-          "description": "Data analytics company Qureight has entered into a multi-year strategic research collaboration with AstraZeneca that will use AI models to accelerate research into lung diseases.[1] \n Zoom’s terms of service update establishes the video platform’s right to use some customer data for training its AI models.[2]\n Cigna, one of the country’s largest health insurance companies, faces a class action lawsuit over charges that it illegally used an AI algorithm to deny hundreds of thousands of claims without a physician’s review.[3]\n Japan plans guidelines for AI-savvy human resources.[4]\n  \nSources:\n [1] https://www.digitalhealth.net/2023/08/qureight-collaborates-with-astrazeneca-for-ai-lung-disease-research/\n [2] https://www.cnbc.com/2023/08/07/zoom-ai-tools-trained-using-some-customer-data.html\n [3] https://www.medicaleconomics.com/view/cigna-using-ai-to-reject-claims-lawsuit-charges\n [4] https://asianews.network/japan-plans-guidelines-for-ai-savvy-human-resources/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15l6utw/oneminute_daily_ai_news_872023/",
-          "publishedOn": "2023-08-08T03:58:27.000Z",
-          "wordCount": 2566,
-          "title": "One-Minute Daily AI News 8/7/2023",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15l3f7c/ai_generated_trailer_for_horror_film_magic_8/",
-          "author": null,
-          "description": "submitted by    /u/SellowYubmarine  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15l3f7c/ai_generated_trailer_for_horror_film_magic_8/",
-          "publishedOn": "2023-08-08T01:20:09.000Z",
-          "wordCount": 2472,
-          "title": "Ai generated trailer for horror film “Magic 8”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15kub95/looking_for_an_ai_app_that_can_draw_a_widemouth/",
-          "author": null,
-          "description": "I want an app that can draw a widemouth bass smoking a blunt. All the free ones ive tried give me supid anime girls when all I want is fish\n    submitted by    /u/Barefoot_slinger  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15kub95/looking_for_an_ai_app_that_can_draw_a_widemouth/",
-          "publishedOn": "2023-08-07T19:23:30.000Z",
-          "wordCount": 2500,
-          "title": "Looking for an AI app that can draw a widemouth bass smoking a blunt",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15krvfk/best_subscription_generative_ai_service/",
-          "author": null,
-          "description": "I’m interested in trying out a subscription-based generative AI service. Candidates include (but are not limited to) CoPilot, ChatGPT pro (or whatever it’s called), and Midjourney. Which generative service do you think is most worth the cost?\n    submitted by    /u/galactictock  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15krvfk/best_subscription_generative_ai_service/",
-          "publishedOn": "2023-08-07T17:54:56.000Z",
-          "wordCount": 2498,
-          "title": "Best subscription generative AI service?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15kp41y/any_free_voice_cloning_ai_for_download_without/",
-          "author": null,
-          "description": "Is there any Free AI Voice Cloner for free, that allow me simply to install the Exe? And Has option to input my Voice to it that I record? I dont have any coding and command skills. so is there something simple to install? Thanks for Answers\n    submitted by    /u/Matejsteinhauser14  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15kp41y/any_free_voice_cloning_ai_for_download_without/",
-          "publishedOn": "2023-08-07T16:12:10.000Z",
-          "wordCount": 2516,
-          "title": "any free Voice Cloning AI for Download? Without requiring Coding and Command knownlage?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15koc7n/best_ai_program_for_fixing_heavily_pixelated/",
-          "author": null,
-          "description": "I’ve used several AI programs that work excellent on blurred/pixelated photos of human faces but beyond that, I have not had success finding a program that can render animals in similar way. I’m more looking for something that can make the quality of a pixelated photo of say, a dog, non pixelated. Or at least, much less pixelated. \n The images I’m trying to use are just absolutely horrible and not fixable, or I am just not using the best programs for my purposes. Or the programs I’m looking for simply do not exist yet. \n If you have any recommendations (Paid or free programs) please do share! I have a MacBook and an iPhone if that helps.\n Thank you! 💕\n    submitted by    /u/briannaleidy  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15koc7n/best_ai_program_for_fixing_heavily_pixelated/",
-          "publishedOn": "2023-08-07T15:43:54.000Z",
-          "wordCount": 2588,
-          "title": "Best AI program for fixing heavily pixelated images of ANIMALS/ non human subjects?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/15kkjn9/humanscript_an_llm_powered_plain_english/",
-          "author": null,
-          "description": "submitted by    /u/dyslexiccoder  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/15kkjn9/humanscript_an_llm_powered_plain_english/",
-          "publishedOn": "2023-08-07T13:19:11.000Z",
-          "wordCount": 2475,
-          "title": "humanscript: An LLM powered plain english programming language",
-          "imageUrl": null
         }
       ]
     },
@@ -15970,6 +16045,46 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/16by7or/total_nn_n00b_here_looking_to_do_an_ml_project/",
+          "author": null,
+          "description": "Hi,\n I don't know if this is the right subreddit to post this kind of thing. I have basic coding skills but other than that no experience with neural networks.\n What I'd like to do is take an existing input data set and then use a neutral net to build a model based on manual training data. If anyone could give me help on how to start / even a full explanation of the way a noob like me could accomplish this, that would be great. Otherwise if anyone can point me to a list of resources that are able to comprehensively explain the process, that would also be great! Again sorry if this is the wrong subreddit, if this is the wrong place for this can someone please direct me to the right place to ask this question. Thanks!\n    submitted by    /u/DJ_Hastings013  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/16by7or/total_nn_n00b_here_looking_to_do_an_ml_project/",
+          "publishedOn": "2023-09-06T22:26:41.000Z",
+          "wordCount": 2721,
+          "title": "Total NN N00b Here Looking to Do an ML Project",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/16bsvs1/rl_project_help/",
+          "author": null,
+          "description": "Hello, I am looking for an experienced ML developer to consult on my project. I am currently developing a reinforcement learning model and have several questions regarding the reward system and the implementation of actions/steps. I have been unable to find solutions to my specific problems on the internet. If you are willing to assist me, please send me a message on Reddit.\n Thank you for your time.\n    submitted by    /u/77_micheno_77  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/16bsvs1/rl_project_help/",
+          "publishedOn": "2023-09-06T19:07:11.000Z",
+          "wordCount": 2642,
+          "title": "RL Project Help",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/16bpz0c/comgra_debugging_neural_networks_more_easily/",
+          "author": null,
+          "description": "submitted by    /u/nickb  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/16bpz0c/comgra_debugging_neural_networks_more_easily/",
+          "publishedOn": "2023-09-06T17:16:09.000Z",
+          "wordCount": 2589,
+          "title": "comgra - Debugging Neural Networks more easily",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/16b8yc5/can_llms_learn_from_a_single_example/",
+          "author": null,
+          "description": "submitted by    /u/nickb  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/16b8yc5/can_llms_learn_from_a_single_example/",
+          "publishedOn": "2023-09-06T03:09:03.000Z",
+          "wordCount": 2589,
+          "title": "Can LLMs learn from a single example?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/16b3xdh/transformers_arent_turingcomplete_but_a_good/",
           "author": null,
@@ -16479,36 +16594,6 @@
           "wordCount": 2512,
           "title": "I made an animated video explaining Effective Accelerationism (aka e/acc), a philosophical movement related to AI that has recently grown a lot in popularity and offers a path to a post-scarcity technological utopia. It has even been endorsed by Marc Andreessen and Garry Tan.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/15lgoqr/getting_the_hang_of_opencvs_inner_workings_with/",
-          "author": null,
-          "description": "​\n https://preview.redd.it/xdp3bkwwpvgb1.jpg?width=2800&format=pjpg&auto=webp&s=513a63ed81eec85e6bc254f84e4208094afc7d4a\n Very interesting blog post from OpenCV.ai team about how can explore ChatGPT to serve for code development debugging.\n Introduction from the article:\n As programmers, we often work with familiar development environments, but occasionally we encounter new tools that can be time-consuming and challenging to learn. In such situations, having virtual assistance can be extremely beneficial.\n In this article, I will share my experience of contributing to OpenCV, a renowned open-source library, despite having limited knowledge of C++ and understanding its architecture. I achieved this with the assistance of ChatGPT, a Large Language Model (LLM).\n I hope you can find it interesting. More details are here.\n    submitted by    /u/No-Independence5880  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/15lgoqr/getting_the_hang_of_opencvs_inner_workings_with/",
-          "publishedOn": "2023-08-08T12:22:16.000Z",
-          "wordCount": 2580,
-          "title": "Getting the Hang of OpenCV’s Inner Workings with ChatGPT",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/15lfuxs/mixture_of_experts_moe/",
-          "author": null,
-          "description": "submitted by    /u/ABDULKADER90H  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/15lfuxs/mixture_of_experts_moe/",
-          "publishedOn": "2023-08-08T11:45:42.000Z",
-          "wordCount": 2485,
-          "title": "Mixture of Experts (MoE)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/15kkeef/help_to_find_a_dataset_for_my_project_please/",
-          "author": null,
-          "description": "Hello everyone! I'm a newbie and making my project on machine learning and the aim is create a programme to recognise a spice by feeding some chemical constituents, but I can't find appropriate dataset for it. I have been searching for months, and now I'm a bit desperate, so I'm asking anyone interested for help... I know maybe it was a mistake to choose exactly this topic, but I can't drop the project.\n    submitted by    /u/Acceptable-Muscle-98  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/15kkeef/help_to_find_a_dataset_for_my_project_please/",
-          "publishedOn": "2023-08-07T13:13:22.000Z",
-          "wordCount": 2543,
-          "title": "Help to find a dataset for my project, please 🙏",
-          "imageUrl": null
         }
       ]
     },
@@ -16592,6 +16677,16 @@
       "feedUrl": "https://www.microsoft.com/en-us/research/feed",
       "siteUrl": "https://www.microsoft.com/en-us/research/",
       "articles": [
+        {
+          "id": "https://www.microsoft.com/en-us/research/blog/frontiers-of-multimodal-learning-a-responsible-ai-approach/",
+          "author": "Brenda Potts",
+          "description": "New evaluation methods and a commitment to continual improvement are musts if we’re to build multimodal AI systems that advance human goals. Learn about cutting-edge research into the responsible development and use of multimodal AI at Microsoft.\nThe post Frontiers of multimodal learning: A responsible AI approach appeared first on Microsoft Research.",
+          "link": "https://www.microsoft.com/en-us/research/blog/frontiers-of-multimodal-learning-a-responsible-ai-approach/",
+          "publishedOn": "2023-09-06T19:53:53.000Z",
+          "wordCount": 7379,
+          "title": "Frontiers of multimodal learning: A responsible AI approach",
+          "imageUrl": "https://www.microsoft.com/en-us/research/uploads/prod/2023/09/Frontiers-of-Multimodal-Learning-TWLIFB-1200x627-1.png"
+        },
         {
           "id": "https://www.microsoft.com/en-us/research/?p=964494",
           "author": "Brenda Potts",
@@ -16679,6 +16774,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://blog.research.google/",
       "articles": [
+        {
+          "id": "http://blog.research.google/2023/09/tsmixer-all-mlp-architecture-for-time.html",
+          "author": null,
+          "description": "Posted by Si-An Chen, Student Researcher, Cloud AI Team, and Chun-Liang Li, Research Scientist, Cloud AI Team\n\n\n\n\nTime series forecasting is critical to various real-world applications, from demand forecasting to pandemic spread prediction. In multivariate time series forecasting (forecasting multiple variants at the same time), one can split existing methods into two categories: univariate models and multivariate models. Univariate models focus on inter-series interactions or temporal patterns that encompass trends and seasonal patterns on a time series with a single variable. Examples of such trends and seasonal patterns might be the way mortgage rates increase due to inflation, and how traffic peaks during rush hour. In addition to inter-series patterns, multivariate models process intr…",
+          "link": "http://blog.research.google/2023/09/tsmixer-all-mlp-architecture-for-time.html",
+          "publishedOn": "2023-09-06T19:47:00.000Z",
+          "wordCount": 27688,
+          "title": "TSMixer: An all-MLP architecture for time series forecasting",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii5BTCsKal44jn1oYu-ILYHeAog8SPGZZ-i8g6Q2C0di7Wl-RcKI7jblQEd7sAtFINsCL8gPMBJQ449s1cTbxIzQizRmdjesDg2g4BgCqd24e3Iozp8nC1C9KNmJ7M9iUS8EnuM0uPs5Z6mNzVFOrlq1HcmurtARWu-T7KzL97qpjGqJhAHUzy46yjR2lH/w1200-h630-p-k-no-nu/hero.jpg"
+        },
         {
           "id": "http://blog.research.google/2023/08/weatherbench-2-benchmark-for-next.html",
           "author": null,
@@ -16963,6 +17068,76 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/16bxbwr/how_can_i_pass_in_the_models_policy_to_the_reset/",
+          "author": null,
+          "description": "I want to pass the policy from my main file into my agent file so that I can log the data collected during training. I am already collecting things like the score and reward but I don't know how I could collect things like the policy loss or explained variance where they are changing as the training progresses . I want to log these to an XSLX file every time the reset function is called (once every game) preferably the same one I am logging the score and reward to.\n The game is the classic snake game, run on pygame.\n Here is my main code:\n import gymnasium from stable_baselines3 import A2C from agentStable import snakeEnv from eiffel2 import builder # Import Eiffel2's builder function from torchsummary import summary # from agentStable import data_manager # Initialize your custom environme…",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/16bxbwr/how_can_i_pass_in_the_models_policy_to_the_reset/",
+          "publishedOn": "2023-09-06T21:52:56.000Z",
+          "wordCount": 3722,
+          "title": "How can I pass in the models policy to the reset function for logging in Stable Baselines 3?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/16bridt/how_to_go_about_reverse_engineering_historical/",
+          "author": null,
+          "description": "Hi,\n Assume I have data for forex / stocks day trading, where my data/columns are:\n 1) price of last 50 ticks (a tick is the price at that moment in time, the smallest movement possibly that you can get for that currency)\n 2) If we should be in a trade (and direction of trade. where 1 = trade going up. 2 = trade going down. 0 = we should not be in a trade).\n I have tried classification (I generalized the tick price by changing it to pct_change() ) but accuracy is low.\n would it be possible to reverse engineer through reinforcement learning given these data? I am actually more interested in the trade exiting only (so if trade is currently has value of 1 then it became 0 or 2, it means we should exit existing trade). \n any guide on how to go about this? Yes I know it will be hard. but if humans can teach a robot to walk, maybe hopefully an agent can be taught to learn to exit a trade based on historucal data?\n I have done preliminary readings, and is PPO the best way to go? or DQN? assuming I will use stable baseline3. I am also open to using other Python libraries.\n Thank you.\n    submitted by    /u/oniongarlic88  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/16bridt/how_to_go_about_reverse_engineering_historical/",
+          "publishedOn": "2023-09-06T18:15:02.000Z",
+          "wordCount": 2810,
+          "title": "How to go about reverse engineering historical trading data?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/16bn4km/the_great_success_stories_of_rl_a_video/",
+          "author": null,
+          "description": "Hello guys, I made a video for my YT channel discussing some of the greatest success stories in Deep Reinforcement Learning. The video is meant to provide some intuition on RL as a concept as well as a basic understanding of how these different projects work under the hood. There are way too many great RL projects, so I didn’t try to make it an exhaustive list (I’m gonna do more videos later talking about more projects - maybe make a series out of it), but I chose four that I’ve personally worked with in the past/find really insightful and educational (DQN/Atari, Alpha GO, DeepMimic, and Dactyl). Thanks for reading.\n Here is the link, hope you guys check it out. All feedback is appreciated!\n https://youtu.be/zOXcNFM8dt4\n    submitted by    /u/AvvYaa  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/16bn4km/the_great_success_stories_of_rl_a_video/",
+          "publishedOn": "2023-09-06T15:24:55.000Z",
+          "wordCount": 2329,
+          "title": "The great success stories of RL (A video)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/16bmp49/combination_of_reinforcement_learning_and/",
+          "author": null,
+          "description": "Hi. I'm trying to train a robot that will minic the action that we provide via a video input. On the surface it sounds similar to teaching the robot to walk, but it's not. We can train the robot to make it walk easily these days. But I'm not sure how to teach it to minic an action that we perform. Because each time a new action can be given to the robot and it has to minic that action (it's sort of like a supervised data that the robot has to memorize) Is there a way to do it? is it some branch of machine learning that I'm not aware?\n The robot is a humanoid simulation.\n ​\n    submitted by    /u/rakk109  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/16bmp49/combination_of_reinforcement_learning_and/",
+          "publishedOn": "2023-09-06T15:07:27.000Z",
+          "wordCount": 2716,
+          "title": "combination of reinforcement learning and supervised learning",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/16beks7/my_first_ever_unity_ml_agents_ai_training/",
+          "author": null,
+          "description": "submitted by    /u/R_AIAO  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/16beks7/my_first_ever_unity_ml_agents_ai_training/",
+          "publishedOn": "2023-09-06T08:24:10.000Z",
+          "wordCount": 2598,
+          "title": "My first ever Unity ML Agents AI training!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/16bdh1k/baseline_behaviour_of_agents/",
+          "author": null,
+          "description": "I’m having a tough time understanding, how to establish baseline behaviour of agents in a LLM RLHF environment.\n I have data with time stamp and rewards from several models for each agent. My question is how do we establish baseline behaviour of agents?\n Does each row in weights and bias considered as a separate agent?\n Are the initial few 100’s of rewards according to timestamp be considered as baseline behaviour? Thankful in advance.\n    submitted by    /u/Private050  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/16bdh1k/baseline_behaviour_of_agents/",
+          "publishedOn": "2023-09-06T07:17:14.000Z",
+          "wordCount": 2669,
+          "title": "Baseline behaviour of agents",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/16bcn2e/some_question_about_gail/",
+          "author": null,
+          "description": "Recently, I've been trying to replicate the method described in the paper \"AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control\" by training an agent in Isaac Gym using GAIL. However, I've encountered some issues. After adding the discriminator network, the discriminator's loss function stabilizes at around 0.3, and I'm unsure if this value is too high. Additionally, it is strange that the value loss of my value network can reach values between 80 and 90. I want to know if anyone else has experienced a similar situation and what might be the reasons behind these issues.\n    submitted by    /u/Mia_Sue_123  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/16bcn2e/some_question_about_gail/",
+          "publishedOn": "2023-09-06T06:26:03.000Z",
+          "wordCount": 2693,
+          "title": "Some question about GAIL",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/16b54rm/relation_between_state_value_and_stateaction/",
           "author": null,
@@ -18491,21 +18666,6 @@
           "wordCount": 6475,
           "title": "The emergence of prompt engineers: The next in-demand role in AI",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2023/08/Prompt-Ai.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=62809",
-          "author": "Alan Morrison",
-          "description": "Fair Data Forecast Interview with Gregor Stühler of Scoutbee Scoutbee’s CEO and founder, Gregor Stühler, who has a background in computer science and  electrical engineering, first learned about the challenges of procurement and supply base management as a project engineer for a multinational medical device company. Scoutbee’s focus on solving supply base problems through hybrid… Read More »Scaling Supply Base Data and Reuse with Knowledge Graphs and LLMs\nThe post Scaling Supply Base Data and Reuse with Knowledge Graphs and LLMs appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/scaling-supply-base-data-and-reuse-with-knowledge-graphs-and-llms/",
-          "publishedOn": "2023-08-07T16:19:35.000Z",
-          "wordCount": 5734,
-          "title": "Scaling Supply Base Data and Reuse with Knowledge Graphs and LLMs",
-          "enclosure": {
-            "url": "https://www.datasciencecentral.com/wp-content/uploads/2023/08/Gregor-Stuhler-of-Scoutbee-Mixed.mp3",
-            "length": "21965958",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2023/08/container-ship-7383545_1280.jpg"
         }
       ]
     },
@@ -18514,6 +18674,16 @@
       "feedUrl": "https://www.johndcook.com/blog/feed",
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
+        {
+          "id": "https://www.johndcook.com/blog/?p=206719",
+          "author": "John",
+          "description": "A large class of checksum algorithms have the following pattern: Think of the bits in a file as the coefficients in a polynomial P(x). Divide P(x) by a fixed polynomial Q(x) mod 2 and keep the remainder. Report the remainder as a sequence of bits. In practice there’s a little more to the algorithm than […]\nChecksum polynomials first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2023/09/06/checksum-polynomials/",
+          "publishedOn": "2023-09-06T15:40:14.000Z",
+          "wordCount": 1813,
+          "title": "Checksum polynomials",
+          "imageUrl": null
+        },
         {
           "id": "https://www.johndcook.com/blog/?p=206492",
           "author": "John",
@@ -18832,16 +19002,6 @@
           "publishedOn": "2023-08-08T14:01:26.000Z",
           "wordCount": 1862,
           "title": "Möbius transformations over a finite field",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=202146",
-          "author": "John",
-          "description": "A common idiom in command line processing of text files is ... | sort | uniq | ... Some process produces lines of text. You want to pipe that text through sort to sort the lines in alphabetical order, then pass it to uniq to filter out all but the unique lines. The uniq utility […]\nSort and remove duplicates first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2023/08/07/sort-u/",
-          "publishedOn": "2023-08-07T18:36:34.000Z",
-          "wordCount": 1577,
-          "title": "Sort and remove duplicates",
           "imageUrl": null
         }
       ]
