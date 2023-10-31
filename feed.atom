@@ -2,10 +2,749 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rsohlot.github.io/rss-feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-30T00:43:34.303Z</updated>
+    <updated>2023-10-31T00:43:44.684Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://rsohlot.github.io/rss-feed/index.html"/>
     <link rel="self" href="https://rsohlot.github.io/rss-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence [N]]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17k77av/executive_order_on_the_safe_secure_and/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17k77av/executive_order_on_the_safe_secure_and/"/>
+        <updated>2023-10-30T23:39:21.000Z</updated>
+        <summary type="html"><![CDATA[https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/
+ It looks like content will have to be labeled, showing if it's AI-generated or not.
+ And special rules will apply to:
+  
+any model that was trained using a quantity of computing power greater than 1026 integer or floating-point operations, or using primarily biological sequence data and using a quantity of computing power greater than 1023 integer or floating-point operations; and
+ any computing cluster that has a set of machines physically co-located in a single datacenter, transitively connected by data center networking of over 100 Gbit/s, and having a theoretical maximum computing capacity of 1020 integer or floating-point operations per second for training AI.
+  
+Also, easier visas for "AI talent".
+    submitted by    /u/we_are_mammals  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Relevance Extraction in RAG Pipelines]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17k6iha/d_relevance_extraction_in_rag_pipelines/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17k6iha/d_relevance_extraction_in_rag_pipelines/"/>
+        <updated>2023-10-30T23:07:26.000Z</updated>
+        <summary type="html"><![CDATA[I came across this interesting problem in RAG, what I call Relevance Extraction.
+ After retrieving relevant documents (or chunks), these chunks are often large and may contain several portions irrelevant to the query at hand. Stuffing the entire chunk into an LLM prompt impacts token-cost as well as response accuracy (distracting the LLM with irrelevant text), and and can also cause bumping into context-length limits.
+ So a critical step in most pipelines is Relevance Extraction: use the LLM to extract verbatim only the portions relevant to the query. This is known by other names, e.g. LangChain calls it Contextual Compression, and the RECOMP paper calls it Extractive Compression https://twitter.com/manelferreira_/status/1713214439715938528
+ Thinking about how best to do this, I realized i…]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Identifiers depend on context]]></title>
+        <id>https://www.johndcook.com/blog/?p=216606</id>
+        <link href="https://www.johndcook.com/blog/2023/10/30/identifiers/"/>
+        <updated>2023-10-30T23:06:40.000Z</updated>
+        <summary type="html"><![CDATA[Can you tell who someone is from their telephone number? That’s kinda the point of telephone numbers, to let you contact someone. And indeed telephone number is one the 18 identifiers under HIPAA Safe Harbor. But whether any piece of information allows you to identify someone depends on context. If you don’t have access to […]
+Identifiers depend on context first appeared on John D. Cook.]]></summary>
+        <author>
+            <name>John</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Face Recognition]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17k6bdy/d_face_recognition/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17k6bdy/d_face_recognition/"/>
+        <updated>2023-10-30T22:58:38.000Z</updated>
+        <summary type="html"><![CDATA[I am working for a months on facial recognition system. I have 500 classes with 10 template for each class. I have applied almost and tested almost every model. Some of them are dlib 128 dim. Facenet (512), Insightface, Arcface. But none of them reduced the rate of false positive. I also fine tuned those models, I also trained a clasifier and I reached to 91 percent of accuracy with a very low quality images and also have a backlight effect. But the what I want my setup to be 99 percent which correctly classifies the person with a high similarity on true positive and a low similarity around 0.1 or 0.2 for an unknown class. Now my problem is that similarity is also high with unknown almost around 99 and I also used some distance metrics and it also not helping out. Note: the environment is a real world environment and I used CCTVs at a place where hundreds of unknown people visit daily.
+    submitted by    /u/No_Garbage9512  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Computation graphs with in-place operations]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17k5yfw/d_computation_graphs_with_inplace_operations/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17k5yfw/d_computation_graphs_with_inplace_operations/"/>
+        <updated>2023-10-30T22:42:54.000Z</updated>
+        <summary type="html"><![CDATA[With a computation graph typically used to represent NNs, where nodes represent operations and edges represent data dependencies, is it possible to represent in-place operations?
+    submitted by    /u/thanrl  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] How to evaluate if LLMs are following certain guidelines or not?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17k5aco/d_how_to_evaluate_if_llms_are_following_certain/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17k5aco/d_how_to_evaluate_if_llms_are_following_certain/"/>
+        <updated>2023-10-30T22:14:01.000Z</updated>
+        <summary type="html"><![CDATA[I recently wrote a blog on evaluating whether your LLM applications are following required guidelines: https://uptrain.ai/blog/lost-in-translation-the-critical-impact-of-neglecting-guideline-adherence-in-llms?utm_source=reddit&utm_medium=reddit&utm_campaign=reddit
+ Please let me know your feedback in the comment section
+    submitted by    /u/Vegetable-Skill-9700  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[R] RedPajama-Data-v2: an Open Dataset with 30 Trillion Tokens for Training Large Language Models]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17k4u40/r_redpajamadatav2_an_open_dataset_with_30/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17k4u40/r_redpajamadatav2_an_open_dataset_with_30/"/>
+        <updated>2023-10-30T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog: https://together.ai/blog/redpajama-data-v2
+ Hugging Face: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2
+ GitHub: https://github.com/togethercomputer/RedPajama-Data
+ Description:
+  
+RedPajama-V2 is an open dataset for training large language models. The dataset includes over 100B text documents coming from 84 CommonCrawl snapshots and processed using the CCNet pipeline. Out of these, there are 30B documents in the corpus that additionally come with quality signals, and 20B documents that are deduplicated.
+  
+   submitted by    /u/APaperADay  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Samsung apps]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17k4n6f/samsung_apps/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17k4n6f/samsung_apps/"/>
+        <updated>2023-10-30T21:46:53.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone, I've recently started tinkering with ai art generators and could use some advice.
+ I'm on android and currently using magir app, I'm wondering if there are any free ai art generators with no restrictions/ have nsfw etc that doesn't come with a pay wall, magir has lifetime pro for $40, I'm still learning but certainly see the potential so I'm asking for group knowledge please and thank you in advance.
+    submitted by    /u/gundamt51  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Runtime Error with custom environment]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/17k3njt/runtime_error_with_custom_environment/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/17k3njt/runtime_error_with_custom_environment/"/>
+        <updated>2023-10-30T21:03:43.000Z</updated>
+        <summary type="html"><![CDATA[I created a custom environment to use it with RL algorithms. My custom environment provides the observations and receives rewards. I test my environment with my custom RL algorithm (Policy gradient) and the algorithms in stable-baselines3. My custom algorithm and DQN from stable-baselines3 works. However, if I use baselines with my custom algorithm or use PPO or A2C from sb3, I get:
+ RuntimeError: could not create a primitive descriptor for a matmul primitive
+ Any idea why this is happening?
+ Extra details: On the custom algo error occurs here:
+ "/app/src/networks/critics.py", line 40, in forward
+ return self.network(obs)
+    submitted by    /u/FragrantCockroach8  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[R] FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17k3fpb/r_fantom_a_benchmark_for_stresstesting_machine/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17k3fpb/r_fantom_a_benchmark_for_stresstesting_machine/"/>
+        <updated>2023-10-30T20:54:21.000Z</updated>
+        <summary type="html"><![CDATA[Paper: https://arxiv.org/abs/2310.15421
+ Code: https://github.com/skywalker023/fantom
+ Blog: https://hyunw.kim/fantom/
+ Abstract:
+  
+Theory of mind (ToM) evaluations currently focus on testing models using passive narratives that inherently lack interactivity. We introduce FANToM 👻, a new benchmark designed to stress-test ToM within information-asymmetric conversational contexts via question answering. Our benchmark draws upon important theoretical requisites from psychology and necessary empirical considerations when evaluating large language models (LLMs). In particular, we formulate multiple types of questions that demand the same underlying reasoning to identify illusory or false sense of ToM capabilities in LLMs. We show that FANToM is challenging for state-of-the-art LLMs, which perform significantly worse than humans even with chain-of-thought reasoning or fine-tuning.
+  
+​
+ https://preview.redd.it/mxb85o2vkexb1.png?width=1367&format=png&auto=webp&s=8749cddd15e6740e69ae47ef5edf3a1da96d89c2
+    submitted by    /u/APaperADay  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Who's A/B testing in prod?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17k34du/d_whos_ab_testing_in_prod/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17k34du/d_whos_ab_testing_in_prod/"/>
+        <updated>2023-10-30T20:40:34.000Z</updated>
+        <summary type="html"><![CDATA[I never hear much about A/B testing in the ML community. Do you all tend to A/B test your changes? I have to imagine this is becoming more prevalent with LLMs and prompts.
+ In my experience, every model change we made was through an A/B test. There is some literature in our domain that offline metrics may not correlate to online metrics, so we looked at both very closely.
+ My team was heavily involved in A/B testing as well as managing the data pipeline from those exposures to create training data for the models.
+ What do your experience look like?
+    submitted by    /u/mtbarta  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Europe's newest AI hub is being built in a German city no one's heard of]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17k1vmz/europes_newest_ai_hub_is_being_built_in_a_german/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17k1vmz/europes_newest_ai_hub_is_being_built_in_a_german/"/>
+        <updated>2023-10-30T19:48:09.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/donutloop  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[P] Looking for partner for a doing a research paper in ML/NLP politeness identification]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17k1cl5/p_looking_for_partner_for_a_doing_a_research/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17k1cl5/p_looking_for_partner_for_a_doing_a_research/"/>
+        <updated>2023-10-30T19:24:31.000Z</updated>
+        <summary type="html"><![CDATA[[P] Dm for further info but all in all its abt adding an extra feature (feature engg.) To our ML model to detect politeness in a language
+    submitted by    /u/PrudentFly8507  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[P] Deconstructing interface design for generative AI]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jzf63/p_deconstructing_interface_design_for_generative/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jzf63/p_deconstructing_interface_design_for_generative/"/>
+        <updated>2023-10-30T17:59:14.000Z</updated>
+        <summary type="html"><![CDATA[Recently, niji journey launched a mobile app, and there, they talked about how hard it is for people who are new to the concept of generative AI art to get started, and some of the workarounds they came up with. 
+ https://sizigi.notion.site/Kindling-the-Spark-of-Inspiration-d8edd06cede04401b4efba8324005cf3?pvs=4
+ Thought it would be interesting to share, especially with how they try to push forward the ideas from other users as a font of knowledge kind of thing.
+    submitted by    /u/kalmatos  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use AWS PrivateLink to set up private access to Amazon Bedrock]]></title>
+        <id>cb4a24158e09308bca4afd98583cb061e98057df</id>
+        <link href="https://aws.amazon.com/blogs/machine-learning/use-aws-privatelink-to-set-up-private-access-to-amazon-bedrock/"/>
+        <updated>2023-10-30T17:50:59.000Z</updated>
+        <summary type="html"><![CDATA[Amazon Bedrock is a fully managed service provided by AWS that offers developers access to foundation models (FMs) and the tools to customize them for specific applications. It allows developers to build and scale generative AI applications using FMs through an API, without managing infrastructure. You can choose from various FMs from Amazon and leading […]]]></summary>
+        <author>
+            <name>Ram Vittal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FAIR knowledge: The key precondition for trusted generative AI]]></title>
+        <id>https://www.datasciencecentral.com/?p=63430</id>
+        <link href="https://www.datasciencecentral.com/fair-knowledge-the-key-precondition-for-trusted-generative-ai/"/>
+        <updated>2023-10-30T17:42:36.000Z</updated>
+        <summary type="html"><![CDATA[Two roads diverged in a wood, and I;I took the one less traveled by,And that has made all the difference. — Robert Frost At certain points in the evolution of enterprise artificial intelligence, there’s been a fork in the road. The road less traveled has suggested a different route to a more satisfying kind of… Read More »FAIR knowledge: The key precondition for trusted generative AI
+The post FAIR knowledge: The key precondition for trusted generative AI appeared first on Data Science Central.]]></summary>
+        <author>
+            <name>Alan Morrison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deploy and fine-tune foundation models in Amazon SageMaker JumpStart with two lines of code]]></title>
+        <id>a14fb779f40a978ddca3a43637da02f6e3200996</id>
+        <link href="https://aws.amazon.com/blogs/machine-learning/deploy-and-fine-tune-foundation-models-in-amazon-sagemaker-jumpstart-with-two-lines-of-code/"/>
+        <updated>2023-10-30T17:33:11.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to announce a simplified version of the Amazon SageMaker JumpStart SDK that makes it straightforward to build, train, and deploy foundation models. The code for prediction is also simplified. In this post, we demonstrate how you can use the simplified SageMaker Jumpstart SDK to get started with using foundation models in just a couple of lines of code.]]></summary>
+        <author>
+            <name>Evan Kravitz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] WER improved before Fine-Tuning Whisper, but increased afterward: Why?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jyd2m/d_wer_improved_before_finetuning_whisper_but/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jyd2m/d_wer_improved_before_finetuning_whisper_but/"/>
+        <updated>2023-10-30T17:12:03.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone,
+ I've been working on fine-tuning Whisper using generated transcribed audio data. Before I began the fine-tuning, I evaluated the base model's accuracy on a test set, which showed:
+ Test_accuracy: WER = 23.078% 
+ I then fine-tuned the model for 3,000 steps using a dataset of 1,000 samples: 700 for training and 300 for testing. This amounts to roughly 4 hours of data, with each audio clip being around 30 seconds in duration. However, post-fine-tuning, the WER started off at 30%, which is higher than the base model's 23.078%. Intuitively, I'd expect the WER to start lower after fine-tuning.
+ Does anyone have insights or suggestions on what might be causing this discrepancy? Any advice would be greatly appreciated!
+ https://preview.redd.it/b619v95rgdxb1.png?width=906&format=png&auto=webp&s=fa17f311301919ccfcd7a8cea47f47478e1cd91d
+ Edit: Solved the issue.
+    submitted by    /u/stoicbats_  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reward Function]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/17jxv49/reward_function/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/17jxv49/reward_function/"/>
+        <updated>2023-10-30T16:50:42.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone I am taking reinforcement learning course. I am studying the course from two different books. In one of them it says R(s,a) -> [0,1] in other it says -> R. I am confused about the linitation of the reward function. This is the link of book [0,1] (for infinite mdp for finite mdp it says [0.1] rh)(s,a), adds trajectory ) . I want learn that is one of them false or am i missing smth
+    submitted by    /u/karakobra1  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The amazing success stories of Reinforcement Learning]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/17jws5s/the_amazing_success_stories_of_reinforcement/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/17jws5s/the_amazing_success_stories_of_reinforcement/"/>
+        <updated>2023-10-30T16:02:29.000Z</updated>
+        <summary type="html"><![CDATA[A beginner friendly introduction to Reinforcement Learning and the intuitions behind it… with four seminal projects that revolutionized the field of AI and RL.
+    submitted by    /u/AvvYaa  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[R] Do any solutions exist for this ranking optimization problem]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jwrby/r_do_any_solutions_exist_for_this_ranking/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jwrby/r_do_any_solutions_exist_for_this_ranking/"/>
+        <updated>2023-10-30T16:01:31.000Z</updated>
+        <summary type="html"><![CDATA[Let’s say I already have a ranking method (a learning to rank approach) to sort search results (items) based on their utility to user. However, I also want to make sure certain groups of items get enough exposure across all the searches. I have defined target exposure for each group but I’m struggling to find a method that would balance utility and this exposure. Particularly because utility can be defined for a given search and item, but the group target exposure is only defined for an aggregated set of search results. Any ideas for a multi objective optimization method or even a post hoc re-ranking approach?
+    submitted by    /u/MLE-MAP  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Silicon Volley: Designers Tap Generative AI for a Chip Assist]]></title>
+        <id>https://blogs.nvidia.com/?p=67732</id>
+        <link href="https://blogs.nvidia.com/blog/2023/10/30/llm-semiconductors-chip-nemo/"/>
+        <updated>2023-10-30T16:00:33.000Z</updated>
+        <summary type="html"><![CDATA[A research paper released today describes ways generative AI can assist one of the most complex engineering efforts: designing semiconductors. The work demonstrates how companies in highly specialized fields can train large language models (LLMs) on their internal data to build assistants that increase productivity. Few pursuits are as challenging as semiconductor design. Under a Read article >]]></summary>
+        <author>
+            <name>Rick Merritt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unable to create a custom gym environment]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/17jwpyb/unable_to_create_a_custom_gym_environment/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/17jwpyb/unable_to_create_a_custom_gym_environment/"/>
+        <updated>2023-10-30T16:00:04.000Z</updated>
+        <summary type="html"><![CDATA[I put up a post about this earlier but soon realized that I hadn't given much information.
+ ​
+ In order to create my custom gym environment, I did the following things -
+  
+I went over the documentation given over here.
+ I cloned this repository.
+ In the folder `gym-examples/gym-examples`, I created the file - `my_test.py`. The contents of the file are given over here -```
+  
+​
+ import gym env = gym.make('gym_examples/GridWorld-v0') print("Did this work?")``` 
+ However, when I try to run this file, I get the error -
+ ```
+ File "D:\custom_env\gym-examples\my_test.py", line 2, in <module> env = gym.make('gym_examples/GridWorld-v0') ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File "C:\Users\thoma\anaconda3\envs\env_torch\Lib\site-packages\gym\envs\registration.py", line 569, in make _check_version_exists(ns, name, version) File "C:\Users\thoma\anaconda3\envs\env_torch\Lib\site-packages\gym\envs\registration.py", line 219, in _check_version_exists _check_name_exists(ns, name) File "C:\Users\thoma\anaconda3\envs\env_torch\Lib\site-packages\gym\envs\registration.py", line 187, in _check_name_exists _check_namespace_exists(ns) File "C:\Users\thoma\anaconda3\envs\env_torch\Lib\site-packages\gym\envs\registration.py", line 182, in _check_namespace_exists raise error.NamespaceNotFound(f"Namespace {ns} not found. {suggestion_msg}") gym.error.NamespaceNotFound: Namespace gym_examples not found. Have you installed the proper package for gym_examples? 
+ ``` 
+ ​
+ https://preview.redd.it/f0m02hky4dxb1.png?width=521&format=png&auto=webp&s=9fcd6eb7bedb70273f011a02000d15eb7ed309df
+    submitted by    /u/Academic-Rent7800  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teachers in India help Microsoft Research design AI tool for creating great classroom content]]></title>
+        <id>https://www.microsoft.com/en-us/research/?p=979812</id>
+        <link href="https://www.microsoft.com/en-us/research/blog/teachers-in-india-help-microsoft-research-design-ai-tool-for-creating-great-classroom-content/"/>
+        <updated>2023-10-30T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Teachers are the backbone of any educational system. They are not just educators; they are indispensable navigators, mentors, and leaders. Teachers around the world face many challenges, which vary from country to country or even within a city or town. But some challenges are universal, including time management, classroom organization, and creating effective lesson plans. […]
+The post Teachers in India help Microsoft Research design AI tool for creating great classroom content appeared first on Microsoft Research.]]></summary>
+        <author>
+            <name>Brenda Potts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anyone tried boosting GPT with other AI tools? What were your results?]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17jwka5/anyone_tried_boosting_gpt_with_other_ai_tools/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17jwka5/anyone_tried_boosting_gpt_with_other_ai_tools/"/>
+        <updated>2023-10-30T15:52:59.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR - Title. I’m a grad student and had to do some work on a study on the socio-economic impacts of AI and developing an interactive educational platform to ease learning for visually impaired students. 
+ I’ve had to do ‘delegate’ some work to chatgpt, and the results have been kinda unimpressive. I shared this with a colleague and he said Ai results are like that, and if I wanted better results I could mix and match, or use other ai tools to ‘boost’ (?) gpt. Is this a viable strategy, or do I have to make do with whatever I have?
+    submitted by    /u/CrispOriginality  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Humanity at risk from AI 'race to the bottom', says tech expert]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17jwcp5/humanity_at_risk_from_ai_race_to_the_bottom_says/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17jwcp5/humanity_at_risk_from_ai_race_to_the_bottom_says/"/>
+        <updated>2023-10-30T15:43:48.000Z</updated>
+        <summary type="html"><![CDATA[A tech expert warns that unrestrained AI development by a few tech companies is endangering humanity's future.
+ 
+The expert calls for AI safety standards and regulation to prevent the reckless development of powerful AI systems.
+ 
+In a policy document, AI experts argue that governments should have the authority to halt the development of exceptionally powerful AI models.
+ 
+Concerns about the development of artificial general intelligence, which can perform tasks at or above human levels, are also raised.
+ 
+The article mentions the investments made by Amazon, Microsoft, Alphabet, and Facebook's Meta in AI and cloud computing.
+ 
+ Source : https://www.theguardian.com/technology/2023/oct/26/ai-artificial-intelligence-investment-boom
+    submitted by    /u/NuseAI  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why does Google Tensor exist if Snapdragon is better at AI? Short]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17jwbe8/why_does_google_tensor_exist_if_snapdragon_is/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17jwbe8/why_does_google_tensor_exist_if_snapdragon_is/"/>
+        <updated>2023-10-30T15:42:09.000Z</updated>
+        <summary type="html"><![CDATA[The article discusses the existence of Google Tensor in light of the impressive AI capabilities of the Snapdragon 8 Gen 3 chip.
+ 
+While Tensor has been praised for bringing AI breakthroughs to Pixel phones, some argue that many of its AI features actually rely on an internet connection and offload tasks to the cloud.
+ 
+In comparison, the Snapdragon chip can perform on-device AI tasks, such as generating images, quickly and without the need for an internet connection.
+ 
+Despite the criticisms, one argument for Tensor is its longer support timeline and the ability for Google to focus on specific AI applications.
+ 
+However, after seeing Qualcomm's AI demos, the article questions the validity of Tensor's main pitch for AI.
+ 
+ Source : https://9to5google.com/2023/10/29/snapdragon-8-gen-3-google-tensor-ai/
+    submitted by    /u/NuseAI  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Master Agent Controls Different Agent?]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/17jw2th/master_agent_controls_different_agent/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/17jw2th/master_agent_controls_different_agent/"/>
+        <updated>2023-10-30T15:31:08.000Z</updated>
+        <summary type="html"><![CDATA[I'm looking for research in the field of Deep Reinforcement Learning, where one agent controls the "action" of another, where the other executes that said action. For example, a master agent (lets say air traffic controller) tells another agent (lets say an airplane) to go from Point A to Point B, where the second agent (airplane) needs to learn how to maneuver from Point A to Point B, and the master agent (air traffic controller) needs to learn to schedule multiple other agents, or needs to learn an optimal path for a single airplane. 
+ ​
+ In essence, can anyone point me to research with multiple agents, where one is regarded as "master" agent and the others as the "pawns"? 
+    submitted by    /u/MyActualUserName99  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Data Architect to Machine Learning Enthusiast [D]]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jvcfh/from_data_architect_to_machine_learning/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jvcfh/from_data_architect_to_machine_learning/"/>
+        <updated>2023-10-30T14:59:42.000Z</updated>
+        <summary type="html"><![CDATA[Please read, clap and follow: https://medium.com/@andysingal/from-data-architect-to-machine-learning-enthusiast-e132f6cd35fc?sk=d7d2a04a08ca7f328c4ae7ee3769ec50
+    submitted by    /u/Fit_Maintenance_2455  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Confusing observation behavior]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/17jv63o/confusing_observation_behavior/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/17jv63o/confusing_observation_behavior/"/>
+        <updated>2023-10-30T14:51:40.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone, I'm new to RL and have been trying to set up an environment to learn to play Metroid 2: Return of Samus on the Game Boy using the pyboy emulator and sb3_contrib.QRDQN as the learning algorithm. https://github.com/lixado/PyBoy-RL was used as a base to build on and change. My reward function rewards the AI for progressing to a new area (every ~200 x/y coordinates is stored as an area) to encourage it to explore. I've had some progress so far and have been able to consistently produce a model that can get out of the starting area.
+ The observation I was originally working with was a 16x20 array of tiles and sprites from pyboy._game_area_np. pyboy sets this observation shape to be a 16x20 MultiDiscrete with each element containing integers from 0 to 384. This was then transform…]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Pixel Perfect Segmentation Datasets?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17juwj2/d_pixel_perfect_segmentation_datasets/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17juwj2/d_pixel_perfect_segmentation_datasets/"/>
+        <updated>2023-10-30T14:39:26.000Z</updated>
+        <summary type="html"><![CDATA[Hi! Looking for any insights/direction on high-quality (near pixel-perfect) segmentation datasets for benchmarking various segmentation models in a way that others can reproduce - not sure if these exist or if anyone has specific examples they have worked with?
+ Working with the usual suspects for segmentation like ADE20K and Cityscapes I have seen results using the pre-trained models on these datasets are a bit disappointing wrt high quality (clean edges, label consistency) segmentation - even models considered SOTA in 2023 like OneFormer/SegFormer/etc. Though my hypothesis is that this is largely due to the label approximations (many are drawn as rough polygons) and labeling inconsistencies building these large datasets with many classes.
+ My observations and personal experience is many private companies have custom, high-quality segmentation data they have produced internally at high financial/time cost and thus are reluctant to open source and share, but hoping there are some hidden gems out there I don't yet know about...
+    submitted by    /u/FocalAIDev  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[P] Predicting velocity vectors with a CNN]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17juuzl/p_predicting_velocity_vectors_with_a_cnn/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17juuzl/p_predicting_velocity_vectors_with_a_cnn/"/>
+        <updated>2023-10-30T14:37:26.000Z</updated>
+        <summary type="html"><![CDATA[Hi all I am, working on a project to predict velocity vectors from boundary conditions...
+  
+I have carried out a simulation of an office on Ansys
+ I have x,y,z velocity vectors
+ I have repeated the simulation for 100s of ac inlet and outlet velocities as input data for each set of 3D-Velocity vectors.Example of the dataset for each inlet, outlet permutation, the dataset for each permutation is around 1 million coordinates + xyz velocity vectors long.
+  
+*** I now want to predict the x,y,z velocity vectors at each location based on the AC inlet and outlet velocity ***
+ How do I organise the data best for a CNN/other ANN? Any other tips of the CNN architecture?
+    submitted by    /u/No_Range3026  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[N] Fast GPT Training Infra, FP8-LM, being 64% faster than BF16 on H100—Unlocking even more gigantic GPT]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jum0r/n_fast_gpt_training_infra_fp8lm_being_64_faster/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jum0r/n_fast_gpt_training_infra_fp8lm_being_64_faster/"/>
+        <updated>2023-10-30T14:26:01.000Z</updated>
+        <summary type="html"><![CDATA[I just discovered the FP8-LM paper from MS: [2310.18313] FP8-LM: Training FP8 Large Language Models (arxiv.org).
+ This is their repo link: Azure/MS-AMP: Microsoft Automatic Mixed Precision Library (github.com)
+ paper abstraction
+ My Key Takeaways:
+  
+The whole-loop for FP8 “GPT-style” large model training is successfully done by FP8-LM team, including data cleaning, infrastructure development, model pretraining, alignment (SFT, RS, RLHF, etc.)
+ Their FP8 mixed-precision training framework got 42% reduction in memory usage, and ran 64% faster than BF16 Megatron-LM; also faster than Nvidia Transformer Engine by 17%
+  
+​
+ https://preview.redd.it/jeaadb1jncxb1.png?width=793&format=png&auto=webp&s=2175969217ff0ff3c8149d17b8011408f4f84c91
+ It is thrilling to think about that we can scale up the already gigantic model size by 2.5x without needs for more GPU memory…and this can be achieved with NO performance degradation on a wide range of benchmarks as demonstrated in the paper. 
+ ​
+ https://preview.redd.it/vlu6o5cnncxb1.png?width=1389&format=png&auto=webp&s=ed97ea1431f8d9a2900490812f23131681c788f8
+ ​
+ https://preview.redd.it/murtte9oncxb1.png?width=1289&format=png&auto=webp&s=6ebd242d69380f2bd95dcd2fa2afe18d7c4b3667
+    submitted by    /u/TensorTamer  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[P] Active Learning with Domain Experts – Sort of a case study]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17ju1my/p_active_learning_with_domain_experts_sort_of_a/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17ju1my/p_active_learning_with_domain_experts_sort_of_a/"/>
+        <updated>2023-10-30T13:59:40.000Z</updated>
+        <summary type="html"><![CDATA[Hey, r/MachineLearning, it’s Dean from DagsHub 🐶
+ We recently had the opportunity to work with a domain expert in creating a machine learning model and we thought we should share what we learned in the process.
+ A dentist reached out to us to help him create a machine learning model, which could segment teeth in panoramic X-rays. He had some data pre-labeled, but the vast majority of his dataset was unlabeled.
+ Since labeling these X-rays is a time consuming process and requires domain knowledge, we decided to use Active Learning.
+ Following our success in creating an Active Learning pipeline in a Jupyter Notebook using Data Engine, we created a new Tooth Fairy project, which expands on that and brings even more capabilities into the notebook.
+ https://dagshub.com/blog/active-learning-with-domain-experts-a-case-study/
+ Check out our post and learn:
+  
+Why and when you should use Active Learning
+ How to efficiently work with domain experts (and mistakes to avoid!)
+ What a real use-case Active Learning pipeline looks like, by checking out the accompanying repo
+  
+We value your thoughts and feedback! Looking forward to hearing from you all!
+    submitted by    /u/PhYsIcS-GUY227  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Semantic search on different medical codes]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jtkxr/d_semantic_search_on_different_medical_codes/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jtkxr/d_semantic_search_on_different_medical_codes/"/>
+        <updated>2023-10-30T13:37:30.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone,
+ Need some ideas to bounce off.
+ I have several medical codes, let’s name them A, B, C and D.
+ Each medical code consists of multiple clauses, say, 1.1, 1.2 and so on.
+ I want to create a model (?) where a text input of a textual clause will show up all other related clauses from different medical codes. For example, if I input clause 3.2 from medical A, I want the output to show up the related/similar clauses from code B, C and D.
+ I have thought of using something like a Retrieval Augmented Generation for this, but anyone has any better ideas regarding this topic? Could a language model do something about this? Thanks!
+    submitted by    /u/plsendfast  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Image edition tool to merge images]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17js6lu/image_edition_tool_to_merge_images/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17js6lu/image_edition_tool_to_merge_images/"/>
+        <updated>2023-10-30T12:24:36.000Z</updated>
+        <summary type="html"><![CDATA[Hey!
+ I have a specific background that I would like to use together with various product pictures that have varying backgrounds. Essentially I am looking for a tool that can remove backgrounds of my product images, then add a certain background I have and do the shadows and lightning well on the background. Any ideas?
+ For example in adobe firefly I can remove the background and generate a new one with a prompt but it’s not exactly like the background I would like to use and I need it to be 95% similar at least. Thanks in advance!
+    submitted by    /u/Herrpadda  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Predicting clusters with regression [D]]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jr60k/predicting_clusters_with_regression_d/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jr60k/predicting_clusters_with_regression_d/"/>
+        <updated>2023-10-30T11:25:32.000Z</updated>
+        <summary type="html"><![CDATA[Hello. I have historical data of real estate. Includes attributes like price, revenue, maintenance, maintenance debt etc. I had two ideas for the data previously, to predict future real estate price and to use some clustering algorithm to put the properties into categories (good, average bad or something like that). Now I got this idea to generate clusters for any given point in time and use that history of clusters to predict migration of properties between clusters.
+ I am aware of inter cluster migration estimation but that seems to be a prediction of how points shift inside a cluster with the introduction of new data points rather than a timeline of the movement of points in the cluster.
+ Writing this I'm also thinking it might be possible to simply treat the history of clusters as a category to be predicted e.g. given the history of property X that is in category A the prediction is that in 6 months it's heading for cluster B. 
+ Does anyone have experience with similar work? Are there papers I am missing?
+ Thanks in advance.
+    submitted by    /u/arachnarus96  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DRL in production scheduling]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/17jr4li/drl_in_production_scheduling/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/17jr4li/drl_in_production_scheduling/"/>
+        <updated>2023-10-30T11:23:06.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone,
+ I have some questions about the application of DRL in production scheduling. Considering that we have N jobs, each consists of X operations and each operation can be processed on a set of machines.
+ Is it appropriate to create a single agent that selects an action once a machine completes the in-process operation, where the action consists in selecting the next operation to be processed in this machine ? so at each decision time (i.e., when a machine requests processing), the agent selects an operation from the available operations of this machine. 
+ I'm wondering about the feasability because in the most papers I've seen so far, once an operation is completed, rather than selecting an action for the idle machine, the agent selects the next operation of the job and assign it to the closest available machine. 
+ Thank you!
+    submitted by    /u/GuavaAgreeable208  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Chinese style]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17jqefi/new_chinese_style/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17jqefi/new_chinese_style/"/>
+        <updated>2023-10-30T10:34:53.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Sea_Permit5660  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Classification problem giving me white hair]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jq30v/d_classification_problem_giving_me_white_hair/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jq30v/d_classification_problem_giving_me_white_hair/"/>
+        <updated>2023-10-30T10:13:30.000Z</updated>
+        <summary type="html"><![CDATA[So!
+ I am a ML newbie and was wondering if one of you pros can help me out on my learning journey (tool use = google colab).
+ I have a csv file containing loan data where each row is a customer that applied for a loan. One of the columns is called TARGET and it shows whether the customer's loan request was approved or not. All sorts of data points are captured e.g. age, gender, salary, employment details like industry, assets, etc.
+ I've done cross validation and found that GradientBasedClassifier and LGBM perform the best. Cross validation also tells me that their accuracy is between 68%-70%.
+ My problem is that I SUCK at hyper param optimisation. How do you go from 68 to +80%??? Or 90%?
+ For the curious ones, here is the dataset: https://drive.google.com/file/d/1IKNVstck6gnXvfGS-mVRMAE1RFrDNUgZ/view?usp=sharing
+    submitted by    /u/Critical_Ad_1205  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to extract features from XML of svg images dataset to create features? [D]]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jpmyi/how_to_extract_features_from_xml_of_svg_images/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jpmyi/how_to_extract_features_from_xml_of_svg_images/"/>
+        <updated>2023-10-30T09:42:39.000Z</updated>
+        <summary type="html"><![CDATA[I want to create several labels for each of these images, such as no. of bedrooms, bathrooms, etc. I have a large dataset of 2000 images, each which have XML which contains text that labels each room with the ID.How do I automate the process, and create a dataset that includes all the features for the labels, so that it's ready for machine learning?
+ https://svgshare.com/i/z53.svg
+    submitted by    /u/pranksbanker  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[R] The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jp89x/r_the_data_provenance_initiative_a_large_scale/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jp89x/r_the_data_provenance_initiative_a_large_scale/"/>
+        <updated>2023-10-30T09:12:03.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Jean-Porte  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] How do you deal with LLM observability? What tools do you guys use?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jnrex/d_how_do_you_deal_with_llm_observability_what/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jnrex/d_how_do_you_deal_with_llm_observability_what/"/>
+        <updated>2023-10-30T07:18:17.000Z</updated>
+        <summary type="html"><![CDATA[I want to know the tools and methods you use for the observability and monitoring of your ML (LLM) performance and responses in production. 
+    submitted by    /u/Ok_Cartographer5609  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[R] SuperResolution: DLSS, VSR]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/17jmhzl/r_superresolution_dlss_vsr/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/17jmhzl/r_superresolution_dlss_vsr/"/>
+        <updated>2023-10-30T05:44:11.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone!
+ I recently delved deep into the fascinating world of Super Resolution and put together a tutorial covering both SRGAN and ESRGAN. Plus, for my fellow gamers out there, I've included a comparison between DLSS and VSR in gaming scenarios. 
+ For those interested in the technical details, there's also a hands-on PyTorch walk-through of ESRGAN. I put a lot of effort into making the content approachable and informative, so whether you're a newbie or a seasoned pro, there should be something for everyone!
+ Check out the video here: https://youtu.be/Z0jl8YM5kzU
+ Would love to get your feedback, thoughts, or any insights you might want to share! Cheers! 🍻
+ Disclaimer: This video provides a broad overview of SuperResolution. NVIDIA's DLSS technology involves real-time rendering complexities that may not be fully detailed. For a deeper technical dive, we value and encourage viewers own research. We can have a separate video on DLSS as well.
+    submitted by    /u/Worldly-Inflation-92  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One-Minute Daily AI News 10/29/2023]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17jlsx1/oneminute_daily_ai_news_10292023/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17jlsx1/oneminute_daily_ai_news_10292023/"/>
+        <updated>2023-10-30T04:56:39.000Z</updated>
+        <summary type="html"><![CDATA[The Ai Pin, the new gadget / wearable device / projector / thing from the secretive startup Humane, might cost as much as $1,000 and may require a monthly subscription for data, according to The Information.[1]
+ OpenAI to release updated version of ChatGPT that gives users access all GPT-4 tools – including browsing and DALL·E 3 – without switching.[2]
+ MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations.[3]
+ Vietnam is at the ‘leading edge’ of AI developments in emerging Southeast Asia: JPMorgan.[4]
+  
+Sources:
+ [1] https://www.theverge.com/2023/10/27/23935644/humane-ai-pin-price-subscription
+ [2] https://www.searchenginejournal.com/new-version-of-chatgpt-gives-access-to-all-gpt-4-tools-at-once/499607/
+ [3] https://mimicgen.github.io/
+ [4] https://www.cnbc.com/video/2023/10/30/vietnam-ahead-in-ai-developments-in-emerging-southeast-asia-jpmorgan.html 
+    submitted by    /u/Excellent-Target-847  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kindred Spirit, Anne <3]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17jlsra/kindred_spirit_anne_3/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17jlsra/kindred_spirit_anne_3/"/>
+        <updated>2023-10-30T04:56:20.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Oh_my_Winnie  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New techniques efficiently accelerate sparse tensors for massive AI models]]></title>
+        <id>https://news.mit.edu/2023/new-techniques-efficiently-accelerate-sparse-tensors-1030</id>
+        <link href="https://news.mit.edu/2023/new-techniques-efficiently-accelerate-sparse-tensors-1030"/>
+        <updated>2023-10-30T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Complimentary approaches — “HighLight” and “Tailors and Swiftiles” — could boost the performance of demanding machine-learning tasks.]]></summary>
+        <author>
+            <name>Adam Zewe | MIT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accelerating AI tasks while preserving data security]]></title>
+        <id>https://news.mit.edu/2023/accelerating-ai-tasks-while-preserving-data-security-1030</id>
+        <link href="https://news.mit.edu/2023/accelerating-ai-tasks-while-preserving-data-security-1030"/>
+        <updated>2023-10-30T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The SecureLoop search tool efficiently identifies secure designs for hardware that can boost the performance of complex AI tasks, while requiring less energy.]]></summary>
+        <author>
+            <name>Adam Zewe | MIT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The brain may learn about the world the same way some computational models do]]></title>
+        <id>https://news.mit.edu/2023/brain-self-supervised-computational-models-1030</id>
+        <link href="https://news.mit.edu/2023/brain-self-supervised-computational-models-1030"/>
+        <updated>2023-10-30T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Two studies find “self-supervised” models, which learn about their environment from unlabeled data, can show activity patterns similar to those of the mammalian brain.]]></summary>
+        <author>
+            <name>Anne Trafton | MIT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DUDE GOING WILD 🎸🎸🎸🎸🎸🎸🎸 🤣]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17jin41/dude_going_wild/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17jin41/dude_going_wild/"/>
+        <updated>2023-10-30T01:56:02.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/the_anonymizer  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Photo Generator For Indie Record Label]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/17jiedd/ai_photo_generator_for_indie_record_label/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/17jiedd/ai_photo_generator_for_indie_record_label/"/>
+        <updated>2023-10-30T01:43:41.000Z</updated>
+        <summary type="html"><![CDATA[I run a small independent record label. Of course, content is important and I am looking at ways for maximizing my content on a budget. Photographers are very expensive and so is having a videographer/photographer at each show for the artist to take pictures. Can anyone suggest a good AI program where I can use my artists as models and could potentially create good photo content? Any advice or input would be helpful! Thank you. 
+    submitted by    /u/mc7eunit  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[D] How LLMs are changing search]]></title>
         <id>https://www.reddit.com/r/MachineLearning/comments/17jfozs/d_how_llms_are_changing_search/</id>
@@ -47687,309 +48426,6 @@ The registers give ViTs a place to do their temporary computations without messi
  [link]   [comments]]]></summary>
         <author>
             <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Entity Language Models: Monetizing Language Models – Part 2]]></title>
-        <id>https://www.datasciencecentral.com/?p=63273</id>
-        <link href="https://www.datasciencecentral.com/entity-language-models-monetizing-language-models-part-2/"/>
-        <updated>2023-10-01T12:32:30.000Z</updated>
-        <summary type="html"><![CDATA[We must move beyond just taming…to monetizing Language Models! In part 1 of this series on Small Language Models (“Use Case Language Models: Taming the LLM Beast – Part 1”), I explored the business and operational value of Use Case-specific Small Language Models (Use Case Language Models). Use case language models are trained or adapted… Read More »Entity Language Models: Monetizing Language Models – Part 2
-The post <strong>Entity</strong> Language Models: <strong>Monetizing</strong> Language Models – Part 2 appeared first on Data Science Central.]]></summary>
-        <author>
-            <name>Bill Schmarzo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There's So Many AI Chatbots, But Which One Is The Best? (Complete Guide for 2023)]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/16wz9wf/theres_so_many_ai_chatbots_but_which_one_is_the/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/16wz9wf/theres_so_many_ai_chatbots_but_which_one_is_the/"/>
-        <updated>2023-10-01T11:59:10.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/Senior_tasteey  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] Duplicating layers in large models]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/16wytmy/d_duplicating_layers_in_large_models/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/16wytmy/d_duplicating_layers_in_large_models/"/>
-        <updated>2023-10-01T11:34:38.000Z</updated>
-        <summary type="html"><![CDATA[Is there any notable work on duplicating layers in large feed forward models? In contrast to e.g. the brain which is essentially a directed graph most networks utilized nowerdays use a feed forward approach. E.g. transformers are able to attend to past tokens, but generate the tokens in a way where for a given token a given weight is not utilized at different stages in the feed forward pass. In my intuition this would lead to an issue where concepts (factual data as well as learned "algorithms") might be duplicated as they are needed at different depths in the generation process and are sequentially dependent on one another. This does not directly make the model less capable, as it might learn the same concept at two layers sufficiently well, but it reduces the data and parameter efficiency and and might impact generalization capabilities. Using a full on brain like graph might be hard to implement/optimize/scale on current hardware and is tricky with the backprop. But is there any work on duplicating a few layers, placing them at different depths in large models. I would guess that this would be more impactful for large models. One would essentially trade compute for better data efficiency.
-    submitted by    /u/floriv1999  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One-Minute Daily AI News 10/1/2023]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/16wxjtj/oneminute_daily_ai_news_1012023/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/16wxjtj/oneminute_daily_ai_news_1012023/"/>
-        <updated>2023-10-01T10:23:01.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft Researchers Introduce AutoGen: An Artificial Intelligence Framework for Simplifying the Orchestration, Optimization, and Automation of LLM Workflows.[1]
- StoriaBoard helps filmmakers, marketers and other storytellers pre-visualize stories. Simply upload your script, select a visual style, and generate hundreds of frames in seconds.[2]
- Will Hurd Releases A.I. Plan, a First in the Republican Presidential Field.[3]
- Sam Altman says AI systems will automate some tasks but also lead to ‘new and much better jobs’.[4]
-  
-Sources:
- [1] https://www.marktechpost.com/2023/09/30/microsoft-researchers-introduce-autogen-an-artificial-intelligence-framework-for-simplifying-the-orchestration-optimization-and-automation-of-llm-workflows/?amp
- [2] https://www.producthunt.com/posts/storiaboard
- [3] https://www.nytimes.com/2023/09/20/us/politics/will-hurd-ai-plan.html
- [4] https://www.businessinsider.com/openai-sam-altman-ai-will-automate-tasks-create-better-jobs-2023-9?amp
-    submitted by    /u/Excellent-Target-847  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is no time for ease and comfort. It is time to dare and endure. -Winston Churchill]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/16wu5l1/this_is_no_time_for_ease_and_comfort_it_is_time/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/16wu5l1/this_is_no_time_for_ease_and_comfort_it_is_time/"/>
-        <updated>2023-10-01T06:56:02.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/ApprehensiveChair460  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quizlet AI reliability?]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/16wtcjt/quizlet_ai_reliability/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/16wtcjt/quizlet_ai_reliability/"/>
-        <updated>2023-10-01T06:08:13.000Z</updated>
-        <summary type="html"><![CDATA[What is everyone’s thoughts on the reliablity of the quizlet AI? I just talked to a friend and she said that she uses the AI to study with quizlet.
-    submitted by    /u/immickle  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Equation for what neurons (of 1s that attach parietal region to conscious brain regions) should attach to microprocessor to offload math functions?]]></title>
-        <id>https://www.reddit.com/r/neuralnetworks/comments/16ws7ft/equation_for_what_neurons_of_1s_that_attach/</id>
-        <link href="https://www.reddit.com/r/neuralnetworks/comments/16ws7ft/equation_for_what_neurons_of_1s_that_attach/"/>
-        <updated>2023-10-01T05:03:19.000Z</updated>
-        <summary type="html"><![CDATA[" Bio education below *. Summarization: ~1000 IO neurons attach math regions to conscious regions, low cost 1000-electrod microprocessors can run on radio.
- * https://youtube.com/watch?v=bhp2CkNDxME Don't want for self; want for professors and humans who program KUKA's/FANUC's for construction, and for who do calculations/optimizations for CUDA, MS Visual Studio and such, but what go up for experimentation should funds allow." sounds fun 
-    submitted by    /u/2002LuvAbbaLuvU  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Neural Networks, Deep Learning and Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Botober 2023]]></title>
-        <id>6518d24af35d0b00011947a0</id>
-        <link href="https://www.aiweirdness.com/botober-2023/"/>
-        <updated>2023-10-01T03:08:41.000Z</updated>
-        <summary type="html"><![CDATA[Since 2019 I've generated October drawing prompts using the year's most state-of-the-art text-generating models. Every year the challenges are different, but this was one of the hardest years yet. Large language models like chatgpt, GPT-4, Bing Chat, and Bard, are all tweaked to produce generic, predictable]]></summary>
-        <author>
-            <name>Janelle Shane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bonus: There was no 2020 Botober?]]></title>
-        <id>6518e0bef35d0b00011948d8</id>
-        <link href="https://www.aiweirdness.com/bonus-there-was-no-2020-botober/"/>
-        <updated>2023-10-01T03:08:24.000Z</updated>
-        <summary type="html"><![CDATA[AI Weirdness: the strange side of machine learning]]></summary>
-        <author>
-            <name>Janelle Shane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[n] Introducing r/AudioAI: Any AI You Can Hear!]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/16wn8qu/n_introducing_raudioai_any_ai_you_can_hear/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/16wn8qu/n_introducing_raudioai_any_ai_you_can_hear/"/>
-        <updated>2023-10-01T00:52:01.000Z</updated>
-        <summary type="html"><![CDATA[I couldn't find any AI sub dedicated to audio, so I’ve created r/AudioAI to serve as a hub for everything at the intersection of artificial intelligence and the world of sounds.
- AI-driven music, speech, audio production, and all other AI audio technologies.
- If anyone wants to be part of mod, let me know!
-    submitted by    /u/chibop1  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Multi-Agent DQN not learning for Clean Up Game - Reward slowly decreasing]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/16wmbbu/multiagent_dqn_not_learning_for_clean_up_game/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/16wmbbu/multiagent_dqn_not_learning_for_clean_up_game/"/>
-        <updated>2023-10-01T00:09:19.000Z</updated>
-        <summary type="html"><![CDATA[The environment of the Clean Up game is simple: in a 25*18 grid world, there's dirt spawning on the left side and apples spawning on the other. Agents get a +1 reward for eating an apple (by stepping onto it). Agents clean the dirt also by stepping on it (no reward). Agent can go up, down, left, right. The game goes on for 1000 steps. Apple's spawn probability depends on the amount of dirt (less dirt, higher the probability). Currently, the observation for each agent has the manhatten distance to their closest apple and dirt.
- I have tried multiple ways of training this, including changing the observation space of the agents. But it seems the result does not outperform random agents by any significant amount.
- The network is simple, it tries to take in all the observations for all the agen…]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[P]Handling categorical missing data in churn prediction model for telecom data]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/16wjrnu/phandling_categorical_missing_data_in_churn/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/16wjrnu/phandling_categorical_missing_data_in_churn/"/>
-        <updated>2023-09-30T22:22:07.000Z</updated>
-        <summary type="html"><![CDATA[I am working on a telecom dataset where I need to fit a model to for predicting churn(yes or no). There are a lot of categorical data with missing values( total values 7043). What is the best way to handle missing data in this case, is it better to ignore it or any other better imputation method?
- Data columns (total 21 columns): customerID 7043 non-null object gender 7043 non-null object Age 7043 non-null int64 Partner 7043 non-null object Dependents 7043 non-null object tenure 7043 non-null int64 PhoneService 7043 non-null object MultipleLines 6500 non-null object InternetService 6500 non-null object OnlineSecurity 7043 non-null object OnlineBackup 7043 non-null object DeviceProtection 7043 non-null object TechSupport 7043 non-null object StreamingTV 6500 non-null object StreamingMovies 6500 non-null object Contract 6500 non-null object PaperlessBilling 7043 non-null object PaymentMethod 6500 non-null object MonthlyCharges 7043 non-null float64 TotalCharges 7043 non-null object Churn 7043 non-null object 
-    submitted by    /u/guyloveskissing  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I have blocked user u/NuseAI ...]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/16whl8n/i_have_blocked_user_unuseai/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/16whl8n/i_have_blocked_user_unuseai/"/>
-        <updated>2023-09-30T20:54:15.000Z</updated>
-        <summary type="html"><![CDATA[Hi,
- I have never done this before, but I have blocked user u/NuseAI from my feeds
- He/she is posting 'news' all over the AI subs, including this one, at the moment and is filling up my timeline ... and I simply don't feel right about what they are up to.
-  
-Is it an AI bot?
- Is it a karma farmer?
- Is it some sort of spam?
-  
-Am I being over cautious?
- If the consensus is that they are a normal poster - fine - I'll reenable their posts.
- In the meantime I'm enjoying a less cluttered feed!
- ​
-    submitted by    /u/MrEloi  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Counterfeit people': The danger posed by Meta’s AI celebrity lookalike chatbots]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/16wgjep/counterfeit_people_the_danger_posed_by_metas_ai/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/16wgjep/counterfeit_people_the_danger_posed_by_metas_ai/"/>
-        <updated>2023-09-30T20:10:51.000Z</updated>
-        <summary type="html"><![CDATA[Meta has launched chatbots with personalities similar to certain celebrities, which some experts believe could be dangerous.
- 
-These chatbots have their own faces and social media accounts, and Meta is working on giving them a voice.
- 
-However, experts argue that the idea of chatbots with personalities is impossible, as algorithms cannot demonstrate intention or free will.
- 
-There is also a risk that chatbots with personalities could express problematic opinions, as seen in Meta's testing.
- 
-Meta's project is driven by profit, as users are more likely to engage with chatbots that seem human.
- 
-Experts believe that Meta should have explained the limits of these chatbots instead of emphasizing their human characteristics.
- 
- Source : https://www.france24.com/en/technology/20230930-counterfeit-people-the-dangers-posed-by-meta-s-ai-celebrity-lookalike-chatbots
-    submitted by    /u/NuseAI  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] (How) Can you estimate inference speed of a NN model on given hardware?]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/16wf3lk/d_how_can_you_estimate_inference_speed_of_a_nn/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/16wf3lk/d_how_can_you_estimate_inference_speed_of_a_nn/"/>
-        <updated>2023-09-30T19:10:51.000Z</updated>
-        <summary type="html"><![CDATA[How, outside of testing, do you estimate how quickly a specific model will run on some hardware? Anything about time is rarely mentioned in papers and if it is, it's more likely to talk about training, unless authors are specifically proud of their speed (like YOLO). Even less so in any README.
- Some way to translate numbers of parameters into seconds on a given GPU/CPU, any rules of thumb better than just setting up everything every time?
-    submitted by    /u/teleoflexuous  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] How do I begin with AI ?]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/16wcbhg/d_how_do_i_begin_with_ai/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/16wcbhg/d_how_do_i_begin_with_ai/"/>
-        <updated>2023-09-30T17:15:53.000Z</updated>
-        <summary type="html"><![CDATA[I'm fairly new to the Al domain. I've decent python knowledge. I've gone through a lot of YouTube tutorials and got stuck in the tutorial hell. After struggling through hours of videos came here as my only last hope !!. How do I begin? What python frameworks should I learn? Which particular books should I refer ?
-    submitted by    /u/Dry_Ad_3887  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] Struggling to get interviews what to do?]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/16wbqcd/d_struggling_to_get_interviews_what_to_do/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/16wbqcd/d_struggling_to_get_interviews_what_to_do/"/>
-        <updated>2023-09-30T16:51:12.000Z</updated>
-        <summary type="html"><![CDATA[Edit: I am a USA citizen so no need for sponsorship.
- I have 4 yoe in a start up company and a phd four publications 2 in high level math journals and 2 CV/DL papers in A journals and also 4 patents. I have experience with most common Cv tasks eg object detection, Multi object tracking, 2d/3d human pose estimation and monocular depth estimation. I’m well versed in typical network building blocks eg conv nets, FFNs, transformers, Diffusion etc. I have a little experience with NLP like NLTK and TTS networks. Also some other general dev technologies like ec2,s3,sql,mongoose, etc. 
- That all being said I can’t seem to even get interviews these days just straight rejections not talking to recruiters. On the other hand in 2020, I was just searching for jobs passively and had something like a 75% success rate with getting interviews. I know the job market has changed but I’m a lot more experienced at this time than then and having abysmal luck.
- Anyone have any advice would be happy to share my resume if that would make it easier to give advice. Also open to hearing what other technologies o should/could learn.
-    submitted by    /u/AbjectDrink3276  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Artificially Intelligent, Genuinely Creative: How AI's Triumph Over Human Creators Exposes the Illusion of Intellectual Property]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/16waw44/artificially_intelligent_genuinely_creative_how/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/16waw44/artificially_intelligent_genuinely_creative_how/"/>
-        <updated>2023-09-30T16:15:11.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/DukeWilder  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Consecutive coupon collector problem]]></title>
-        <id>https://www.johndcook.com/blog/?p=211224</id>
-        <link href="https://www.johndcook.com/blog/2023/09/30/consecutive-coupon-collector-problem/"/>
-        <updated>2023-09-30T15:53:33.000Z</updated>
-        <summary type="html"><![CDATA[Coupon collector problem Suppose you have a bag of balls labeled 1 through 1,000. You draw draw balls one at a time and put them back after each draw. How many draws would you have to make before you’ve seen every ball at least once? This is the coupon collector problem with N = 1000, […]
-Consecutive coupon collector problem first appeared on John D. Cook.]]></summary>
-        <author>
-            <name>John</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arxiv [D]ives - Segment Anything]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/16w9kz7/arxiv_dives_segment_anything/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/16w9kz7/arxiv_dives_segment_anything/"/>
-        <updated>2023-09-30T15:20:55.000Z</updated>
-        <summary type="html"><![CDATA[Every Friday for the past few months we’ve been hosting a public paper club called “Arxiv Dives”. We pick a paper and dive deep into it and chat about it as a group.
- There are a lot of gems of knowledge hidden in these research papers, and the main motivation is simply to keep up with most impactful techniques in the field by taking the time to dive in and discuss. 
- The attendees so far have been great, and would love for anyone is interested to join!
- https://lu.ma/oxenbookclub
-    submitted by    /u/FallMindless3563  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] What exactly are the compute requirements for training a dense model versus an MoE?]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/16w7lcl/d_what_exactly_are_the_compute_requirements_for/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/16w7lcl/d_what_exactly_are_the_compute_requirements_for/"/>
-        <updated>2023-09-30T14:00:29.000Z</updated>
-        <summary type="html"><![CDATA[Hi, New to ML, I can't find a clear answer to this question. I find references online to a 1.8 trillion parameter model taking up the computational power of a 10B model, yet I also hear that the memory requirements a lot higher for an MoE?
- If I was interested in training/inferencing, for example, a 15M dense model, or a 60M MoE with 4 15M experts. whats the difference gonna be?
-    submitted by    /u/vatsadev  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is my domain name a good idea? What can I build on it? Go Go AI Go dot com .... No webpage on it now, any good ideas???]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/16w6whh/is_my_domain_name_a_good_idea_what_can_i_build_on/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/16w6whh/is_my_domain_name_a_good_idea_what_can_i_build_on/"/>
-        <updated>2023-09-30T13:30:21.000Z</updated>
-        <summary type="html"><![CDATA[I was cooking chicken wings one evening ago in the not too distant past and this idea popped into my head. Before the night was over I went online and bought the domain name of GoGoAIGo . com and then the .ai version also. I put the dot com version up on Sedo (sedo.com/search/details/?domain=GoGoAIGo.com) for sale and I actually now own the .com .ai .org and .net versions of that phrase. Not only my decade but the two generational decades in front of me and the one generational decade behind me can remember our ole Inspector Gadget friend whom had a similar phrase, but not exact, that he would say.
- I'm an individual whom may hold onto something if I feel it has intrinsic value for a future development, which I think this can if laid out in an appropriate fashion. I'm working on another business project right now and I own some trademarks for my other business project so I'm not exactly a newbie in ways here I'm just kind of fresh to the AI realm studies. I think it's overblown right now but will be fine tuned over the next 5-7 years better and society will find a better seat for it.
- I could see this domain being like a search engine or something, maybe even something to do with robots. I expect AI robots moving forward will be regulated and have various classes that they are placed into as we integrate certain ones in our society. Let's be honest, the light-switch isn't flipping overnight or even in one quick year over this AI stuff. I'm in no rush to have a piece of AI wash my dishes for me to be honest. The last robotic thing I was thinking about getting was a robot mower to cut a field, I believe they are working on those now.
- Anybody have any unique ideas for me? I used to play with lego robots way back in high school in the early 2000's.... Seems like this website would make a great search engine but honestly there are other phrases that can be put into play with society also.
- Thanks for any mental stimulation you can toss in my direction.
-    submitted by    /u/Wise_Cut_2543  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence</name>
         </author>
     </entry>
     <entry>
