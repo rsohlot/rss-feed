@@ -513,16 +513,6 @@
           "wordCount": 2806,
           "title": "Fine-tune large multimodal models using Amazon SageMaker",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/05/29/fine-tune-large-language-models.jpg"
-        },
-        {
-          "id": "bfe59b78367eb66047b6db4d7d6d808d99d8ac4f",
-          "author": "Roy Allela",
-          "description": "Mixture of Experts (MoE) architectures for large language models (LLMs) have recently gained popularity due to their ability to increase model capacity and computational efficiency compared to fully dense models. By utilizing sparse expert subnetworks that process different subsets of tokens, MoE models can effectively increase the number of parameters while requiring less computation per […]",
-          "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-mixtral-8x7b-pre-training-with-expert-parallelism-on-amazon-sagemaker/",
-          "publishedOn": "2024-05-23T19:08:31.000Z",
-          "wordCount": 3594,
-          "title": "Accelerate Mixtral 8x7B pre-training with expert parallelism on Amazon SageMaker",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/05/23/16762-image005-1219x630.png"
         }
       ]
     },
@@ -82556,6 +82546,46 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1dm3el8/d_how_do_you_quantize_a_finetuned_encoderdecoder/",
+          "author": null,
+          "description": "I believe I have to quantize the encoder and decoder parts separately, I am able to do this but when I use:\n model = ORTSeq2SeqLM(‘path/to/onnx/files’) tokenizer = ….\n toeknized_input = …\n model.generate()\n I end up with tensor shape mismatch errors at the input node itself. They want me to send an input of shape (16, 2). Why is this happening have I made a mistake while quantizing them?\n Even if anyone can point towards any good tutorials or guides that are able to quantize seq2seq models I will be grateful!\n    submitted by    /u/Abs0lute_Jeer0  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1dm3el8/d_how_do_you_quantize_a_finetuned_encoderdecoder/",
+          "publishedOn": "2024-06-22T19:26:13.000Z",
+          "wordCount": null,
+          "title": "[D] How do you quantize a finetuned encoder-decoder (seq2seq) transformer like mT5 on ONNXRuntime or Optimum?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1dm2f9h/r_gnome_generating_negotiations_through/",
+          "author": null,
+          "description": "submitted by    /u/Megixist  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1dm2f9h/r_gnome_generating_negotiations_through/",
+          "publishedOn": "2024-06-22T18:41:10.000Z",
+          "wordCount": null,
+          "title": "[R] GNOME: Generating Negotiations through Open-Domain Mapping of Exchanges",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1dlyj6v/d_datasets_of_the_google_gemma_for_indic_languages/",
+          "author": null,
+          "description": "Were the Indic language datasets used to train GEMMA originally created in the Indic languages themselves, or were they translations from English datasets? The response seems overly translated.?\n    submitted by    /u/cern_unnosi  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1dlyj6v/d_datasets_of_the_google_gemma_for_indic_languages/",
+          "publishedOn": "2024-06-22T15:43:40.000Z",
+          "wordCount": null,
+          "title": "[D] Datasets of the google Gemma for Indic languages",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1dlsogx/d_academic_ml_labs_how_many_gpus/",
+          "author": null,
+          "description": "Following a recent post, I was wondering how other labs are doing in this regard.\n During my PhD (top-5 program), compute was a major bottleneck (it could be significantly shorter if we had more high-capacity GPUs). We currently have *no* H100.\n How many GPUs does your lab have? Are you getting extra compute credits from Amazon/ NVIDIA through hardware grants?\n thanks\n    submitted by    /u/South-Conference-395  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1dlsogx/d_academic_ml_labs_how_many_gpus/",
+          "publishedOn": "2024-06-22T10:29:14.000Z",
+          "wordCount": null,
+          "title": "[D] Academic ML Labs: How many GPUS ?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1dli5bb/building_dataset_by_web_scraping/",
           "author": null,
           "description": "Hi I wanted to do a machine learning project. There is much dataset out there but i wanted learn web scraping to make a dataset myself but I didn't find good tutorial and I thought maybe I searched with a wrong words or wrong way. I appreciate if you suggest me some tutorial or article that help me learn web scraping to make a dataset myself!\n Thanks everyone in advance\n    submitted by    /u/_Marchetti_  \n [link]   [comments]",
@@ -87374,136 +87404,6 @@
           "wordCount": null,
           "title": "GPT NEO X LLM [P]",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1czjlyt/d_stuck_in_selecting_appropriate_number_of/",
-          "author": null,
-          "description": "I am working on a dataset that has 19 columns and 36000 rows...I am asked to perform clustering on it. So I am experimenting with KMeans. When performing the elbow method for this problem I am getting the following graph. The number of clusters were from 1 to 249. Can anyone suggest me the value of k which I should choose? And are there any other algorithms which i can try for such a dataset?\n https://preview.redd.it/ftefa83x3e2d1.png?width=1355&format=png&auto=webp&s=2cee33788041b0bb7e3eb142654241e044da8188\n https://preview.redd.it/4xa7ttbz3e2d1.png?width=1389&format=png&auto=webp&s=80b3bf546dc00ddd3f2ba11a00639da2cb813d85\n    submitted by    /u/SmallSoup7223  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1czjlyt/d_stuck_in_selecting_appropriate_number_of/",
-          "publishedOn": "2024-05-24T12:31:11.000Z",
-          "wordCount": null,
-          "title": "[D] Stuck in selecting appropriate number of clusters.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1czdmty/d_detecting_objects_of_same_shape_but_different/",
-          "author": null,
-          "description": "I'm struggling with detecting objects that have the same shape but different colors, with no other distinguishing features. When there are distinguishable patterns, CNN-based architectures like YOLO work wonders and achieve high accuracy. However, I need a method that can accurately classify objects based purely on color.\n My current challenge is that these objects are not separable when I try to segment them by color in RGB space. Does anyone have suggestions or methods that achieve good accuracy in determining object classes by color?\n I've included an image below for reference. Any help would be greatly appreciated!\n https://preview.redd.it/83c6e7dbbb2d1.png?width=793&format=png&auto=webp&s=532c7cffcbaea96eb48d374e073bd49d5f029212\n Edit\n Transforming the colorspace to HSV solved the problem. Below is the HSV colorspace representation\n https://preview.redd.it/hq5yrf5wcf2d1.png?width=793&format=png&auto=webp&s=c40002fd360c1891baaed915f536aa7dae4061f5\n In the first stage, I used YOLO model to detect the objects\n In the second stage, I cropped the detected objects, converted the cropped images to HSV, calculated the average component value per object and then trained XGBoost model to predict color label based on 3D vector, representing the average values of H, S, and V channel.\n    submitted by    /u/ThickDoctor007  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1czdmty/d_detecting_objects_of_same_shape_but_different/",
-          "publishedOn": "2024-05-24T05:44:10.000Z",
-          "wordCount": null,
-          "title": "[D] Detecting Objects of Same Shape but Different Colors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1czcz42/p_deepfusion_a_highly_modular_deep_learning/",
-          "author": null,
-          "description": "Hello all, I am a student at Stanford University, I was on a gap year due to medical conditions and to utilitze my time I was studying deep learning.\n And Voila...\n I've developed a deep learning library, DeepFusion!\n It's customizable and has an easily accessible and highly intuitive codebase. One can just dive right in and effortlessly understand the source code.\n You can download it from: - github at https://github.com/atharvaaalok/deepfusion - or install using pip install deepfusion (easy!)\n For a series of examples explaining the usage and features refer demo or tutorials.\n Any and all suggestions are welcome, and contributions are greatly appreciated!\n    submitted by    /u/atharvaaalok16  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1czcz42/p_deepfusion_a_highly_modular_deep_learning/",
-          "publishedOn": "2024-05-24T05:01:35.000Z",
-          "wordCount": null,
-          "title": "[P] DeepFusion: a highly modular Deep Learning Framework.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cz5zx1/p_learn_to_binarize_clip_siglip_for_multimodal/",
-          "author": null,
-          "description": "Learning to binarize and rank with CLIP to reduce storage by 32x for text or multimodal search and recommendations.\n Article: https://www.marqo.ai/blog/learn-to-binarize-clip-for-multimodal-retrieval-and-ranking\n  \nBinary embeddings during CLIP rank-tuning preserve between 87-93% of fp32 embeddings.\n Pseudo-quantization with sigmoid with 4x scaled temperature is (almost) universally better than tanh (see next point).\n Cosine similarity on 0/1 (sigmoid) is better than -1, 1 (tanh) - pretty sure this is because cosine has better degeneracy (D vs DxN) as it penalises embeddings that are not on the same hyper-sphere (it also biases for fewer non-zero elements).\n Use L1 to approximate hamming distance during training which is marginally better than cosine (for 0/1).\n Evaluated using GS-10M for multimodal retrieval using exact KNN.\n Fp32 embeddings retain full fidelity when auxiliary binary loss is added .\n Evaluated across in-domain, novel query, novel document and zero-shot settings.\n Can be combined with Matryoshka if really necessary but fidelity does suffer (not shown).\n  \n   submitted by    /u/Jesse_marqo  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cz5zx1/p_learn_to_binarize_clip_siglip_for_multimodal/",
-          "publishedOn": "2024-05-23T22:46:34.000Z",
-          "wordCount": null,
-          "title": "[P] Learn to Binarize CLIP (&SigLIP) for Multimodal Retrieval and Ranking",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cz57uj/d_how_to_handle_gpl_licensing_in_ml_example/",
-          "author": null,
-          "description": "Hi ML people people, \n I’m working on building a commercial app that involves an object detection model. I’m considering using YOLOv7 with my own training data, but I’m concerned about the licensing. YOLOv7 is licensed under GNU GPL 3.0, which would require me to make the source code of my whole app open source if YOLOv7 is integrated into it.\n I’m curious about how others handle this situation. Specifically:\n  \nDo developers often resort to using different, older models that have more permissive licenses for commercial applications?\n Are there any alternative approaches, such as training a model from scratch using the YOLOv7 repo (so that it is not a derivative of the repo), and build my own inference pipeline that does not use the YOLOv7 codebase for inference? For example using ONNX.\n  \nI would really appreciate any insights or experiences.\n Thanks!\n    submitted by    /u/sushi_roll_svk  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cz57uj/d_how_to_handle_gpl_licensing_in_ml_example/",
-          "publishedOn": "2024-05-23T22:10:38.000Z",
-          "wordCount": null,
-          "title": "[D] How to handle GPL Licensing in ML? Example: commercial object detection app",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cz3szy/d_looking_for_specific_article_from_huggingface/",
-          "author": null,
-          "description": "Hi all, this might be a bit of a shot in the dark but here it goes:\n I saw someone from HuggingFace either share/like a post about a methodology (using HuggingFace) for extreme classification problems, e.g. hundreds or even thousands of classes, in a few shot setting. I didn't save it at the time and for the life of me can't find it anymore. I tried LinkedIn search but it's terrible for finding posts. Google, HuggingFace website, Perplexity have all been of no use. Does this ring a bell to anyone? \n    submitted by    /u/Medical_Initial  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cz3szy/d_looking_for_specific_article_from_huggingface/",
-          "publishedOn": "2024-05-23T21:10:00.000Z",
-          "wordCount": null,
-          "title": "[D] Looking for specific Article from HuggingFace",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cz3o5m/r_raster_to_graphics/",
-          "author": null,
-          "description": "I want to tune hyperparameters of vtracer. Would it produce good results? If not what other techniques can I accommodate with it or what approach should I follow? \n    submitted by    /u/Worldly-Inflation-92  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cz3o5m/r_raster_to_graphics/",
-          "publishedOn": "2024-05-23T21:04:27.000Z",
-          "wordCount": null,
-          "title": "[R] raster to graphics",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cz1yoa/r_introducing_ssamba_the_selfsupervised_audio/",
-          "author": null,
-          "description": "Hey Reddit, \n Tired of transformers? Is attention really all you need? Meet SSAMBA (Self-Supervised Audio Mamba)! 🐍✨ \n This attention-free, purely state-space model (SSM)-based, self-supervised marvel doesn’t just hiss—it roars! SSAMBA achieves better or similar performance to its transformer-based counterparts (SSAST) on tasks like speaker identification, keyword spotting, and audio classification. But here's the kicker: it’s much more GPU memory efficient and quicker at inference, especially with longer audio lengths. \n Curious? Check out the full paper here: SSAMBA on arXiv \n Thanks for tuning in! \n    submitted by    /u/attentionisallyounee  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cz1yoa/r_introducing_ssamba_the_selfsupervised_audio/",
-          "publishedOn": "2024-05-23T19:53:16.000Z",
-          "wordCount": null,
-          "title": "[R] Introducing SSAMBA: The Self-Supervised Audio Mamba!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cz1t4x/d_paperswithcode_relevant/",
-          "author": null,
-          "description": "I feel like paperswithcode became less relevant for tracking progress in ML in general for me.\n But it’s hard to say, in my field (tabular ML/DL) there are not many established academic benchmarks (no need for something like papers with code yet)\n In NLP and foundation model space leaderboards in hf spaces became a thing (mostly in NLP).\n Overall, paperswithcode just feels less maintained and less useful.\n Do you use paperswithcode often? What do you use it for? What’s your field where it is useful?\n    submitted by    /u/_puhsu  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cz1t4x/d_paperswithcode_relevant/",
-          "publishedOn": "2024-05-23T19:46:48.000Z",
-          "wordCount": null,
-          "title": "[D] Paperswithcode relevant?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cyy7v9/dr_if_you_could_pick_3_papers_about_videoimage/",
-          "author": null,
-          "description": "I am doing my MSc and I've chosen to do a video generation project. I've read some papers on image and video synthesis:\n  \nVQGAN\n Stable Diffusion\n Imagen\n  \nI also picked 3 video generation papers:\n  \nVideo-LDM\n Stable Video Diffusion fine-tuned for Multi-View generation (SVD-MV)\n Text2Video-Zero\n  \nI also read some survey papers, and those are the models I've chosen to talk about.\n What i'm struggling with is to pick a logically ordered papers, so first I explain the 3 image generation papers, and the video generation papers should follow the same strategies mentioned in the image synthesis papers.\n Can I ask you to suggest different set of papers to write about? I can still change all of the papers to something else.\n Something that is mostly recent (2020-2024 is fine) and has some big impact. I know for example VQGAN is popular base model, the techniques and strategies used in the paper are still relevant today.\n Imagen (by Google) however, is not open source, and I prefer papers with open source code. That's why I avoid OpenAI papers.\n I also read that diffusion is chosen over GAN in video generation because it has better results, both in quality and training. However, diffusion is more computationally expensive.\n Video-LDM for example is based on Stable Diffusion, so for me its good papers to talk about.\n    submitted by    /u/ShlomiRex  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cyy7v9/dr_if_you_could_pick_3_papers_about_videoimage/",
-          "publishedOn": "2024-05-23T17:18:02.000Z",
-          "wordCount": null,
-          "title": "[D][R] If you could pick 3 papers about video/image generation models, which one would you pick?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cyve1w/r_fuse_feature_vector_in_image_classification/",
-          "author": null,
-          "description": "Hi everyone,\n Currently, i'm processing a image classification problem about facial emotional classification. I am using 2 extract methods: HOG and Facial Landmark. My idea is using HOG to find the gradient magnitude and oriented of the image and use facial landmark to find face keypoint. I thought i can fuse 2 method to make a better feature. But the new feature worse than HOG and better than facial landmark (same model to evaluate). I have some question:\n  \nI wonder how i can fuse these two method where HOG normalization before and facial landmark return 68x2 pairs point integer.\n If can, should i normalize or something before fuse ? Which method i can try to fuse them (concat, add, multiply, ...) ?\n Is there anyway how to measure my method will be better or evaluate it ? I am also try to fuse HOG and SIFT (Bag of visual word) too.\n  \nI had tried fuse HOG and Facial Landmark feature but it get worse than HOG and better than Facial Landmark in the same model. I also fuse (SIFT) bag of visual word and HOG but it still worse than HOG and better than bag of visual word. Here is the code i use:\n x_hogp_train = pca.transform(x_hog_train)[:,:382] x_hogp_valid = pca.transform(x_hog_valid)[:,:382] x_hogp_test = pca.transform(x_hog_test)[:,:382] scaler = StandardScaler() # scale bovw feature scaler.fit(x_bovw_train) x_scale_bovw_train = scaler.transform(x_bovw_train) x_scale_bovw_valid = scaler.transform(x_bovw_valid) x_scale_bovw_test = scaler.transform(x_bovw_test) # fuse them use concat x_fused_train = np.concatenate((x_hogp_train, x_scale_bovw_train), axis=1) x_fused_valid = np.concatenate((x_hogp_valid, x_scale_bovw_valid), axis=1) x_fused_test = np.concatenate((x_hogp_test, x_scale_bovw_test), axis=1) Thank in advance \n    submitted by    /u/Civil_Statement_9331  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cyve1w/r_fuse_feature_vector_in_image_classification/",
-          "publishedOn": "2024-05-23T15:21:24.000Z",
-          "wordCount": null,
-          "title": "[R] Fuse Feature Vector in image classification",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cyubdt/r_variational_inference_reverse_kl_vs_forward_kl/",
-          "author": null,
-          "description": "Hi all,\n I'm working on variational inference methods, mainly in the context of BNNs. Using the reverse (exclusive) KL as the variational objective is the common approach, though lately I stumbled upon some interesting works that use the forward (inclusive) KL as an objective instead, e.g [1][2][3]. Also in the context of VI for GPs both divergence measures have been used, see e.g [4].\n While I'm familiar with the well-known difference between the objectives that the reverse KL is 'mode-seeking' and the forward KL is 'mode covering', I see some of these works making claims about downstream differences of these VI objectives such as (paraphrasing here) \"the reverse KL underestimates predictive variance\" [4] and \"the forward KL is useful for applications benefiting from conservative uncertainty quantification\" [3].\n I'm interested in understanding these downstream differences in the context of VI, but haven't found any works that explain these claims theoretically instead of empirically. Anyone who can point me in the right direction or have a go at explaining this?\n Cheers\n [1] Naesseth, Christian, Fredrik Lindsten, and David Blei. \"Markovian score climbing: Variational inference with KL (p|| q).\" Advances in Neural Information Processing Systems 33 (2020): 15499-15510.\n [2] Zhang, L., Blei, D. M., & Naesseth, C. A. (2022). Transport score climbing: Variational inference using forward KL and adaptive neural transport. arXiv preprint arXiv:2202.01841.\n [3] McNamara, D., Loper, J., & Regier, J. (2024, April). Sequential Monte Carlo for Inclusive KL Minimization in Amortized Variational Inference. In International Conference on Artificial Intelligence and Statistics (pp. 4312-4320). PMLR.\n [4] Bauer, M., Van der Wilk, M., & Rasmussen, C. E. (2016). Understanding probabilistic sparse Gaussian process approximations. Advances in neural information processing systems, 29.\n    submitted by    /u/DriftingClient  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cyubdt/r_variational_inference_reverse_kl_vs_forward_kl/",
-          "publishedOn": "2024-05-23T14:36:18.000Z",
-          "wordCount": null,
-          "title": "[R] Variational Inference: Reverse KL vs. Forward KL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1cytxb5/d_phi3_models_compared_sidebyside/",
-          "author": null,
-          "description": "https://preview.redd.it/8l04pnfhq62d1.png?width=661&format=png&auto=webp&s=7fe616ca8cd7da974070c86b6b47ffab3ab545e5\n  \n https://preview.redd.it/hr7fr1uiq62d1.png?width=688&format=png&auto=webp&s=bd3de359bfe4c1ed82d092be92ae38c246bdfda2\n  \n https://preview.redd.it/v6k3v39kq62d1.png?width=450&format=png&auto=webp&s=c0abb0e397a498ef7ccfb35b1b1cb598198f66ad\n For anyone looking to compare the Phi-3 benchmarks in one place.\n Interesting comparisons for: ANLI, Hellaswag, MedQA, TriviaQA, Language understanding, Factual Knowledge and Robustness.\n Note: Phi-3 mini model table have labels in different order.\n    submitted by    /u/dark_surfer  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1cytxb5/d_phi3_models_compared_sidebyside/",
-          "publishedOn": "2024-05-23T14:19:33.000Z",
-          "wordCount": null,
-          "title": "[D] Phi-3 models compared side-by-side.",
-          "imageUrl": null
         }
       ]
     },
@@ -87851,16 +87751,6 @@
           "wordCount": 1923,
           "title": "Controlled diffusion model can change material properties in images",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202404/MIT-csail-Alchemist.png"
-        },
-        {
-          "id": "https://news.mit.edu/2024/school-engineering-welcomes-new-faculty-0523",
-          "author": "Zach Goodale | School of Engineering",
-          "description": "Fifteen new faculty members join six of the school’s academic departments.",
-          "link": "https://news.mit.edu/2024/school-engineering-welcomes-new-faculty-0523",
-          "publishedOn": "2024-05-23T18:35:00.000Z",
-          "wordCount": 2421,
-          "title": "School of Engineering welcomes new faculty",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202405/mit-soe-faculty-2024.jpg"
         }
       ]
     },
@@ -88243,26 +88133,6 @@
           "wordCount": 1664,
           "title": "NVIDIA Scoops Up Wins at COMPUTEX Best Choice Awards",
           "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2024/05/computex-bca-gh200-1.png"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=71772",
-          "author": "James McKenna",
-          "description": "Leading German automotive technology company enhances manufacturing workflows with OpenUSD-powered virtual factory solutions.",
-          "link": "https://blogs.nvidia.com/blog/softserve-and-continental-drive-digitalization-with-openusd-and-generative-ai/",
-          "publishedOn": "2024-05-23T13:00:08.000Z",
-          "wordCount": 1824,
-          "title": "Into the Omniverse: SoftServe and Continental Drive Digitalization With OpenUSD and Generative AI",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2024/05/nv-ov-ito-1280x680_softserve_052024-1.png"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=71774",
-          "author": "GeForce NOW Community",
-          "description": "Every week, GFN Thursday brings new games to the cloud, featuring some of the latest and greatest titles for members to play. Leading the seven games joining GeForce NOW this week is the newest game in Ninja Theory’s Hellblade franchise, Senua’s Saga: Hellblade II. This day-and-date release expands the cloud gaming platform’s extensive library of\t\n\t\tRead Article",
-          "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-senuas-saga-hellblade-2/",
-          "publishedOn": "2024-05-23T13:00:05.000Z",
-          "wordCount": 1489,
-          "title": "Senua’s Story Continues: GeForce NOW Brings ‘Senua’s Saga: Hellblade II’ to the Cloud",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2024/05/gfn-thursday-5-23-nv-blog-1280x680-no-copy.jpg"
         }
       ]
     },
@@ -88277,6 +88147,66 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1dm4t48/the_gates_foundation_backs_an_ai_wildcard/",
+          "author": null,
+          "description": "Bill Gates is supporting Jeff Hawkins, co-inventor of the PalmPilot, in developing AI software inspired by the human brain.\n \nNumenta, Hawkins' firm, received $2.7 million from the Gates Foundation to work on the Thousand Brains Project.\n \nHawkins believes that AI should mimic the neocortex to achieve breakthroughs in machine intelligence.\n \nLarge language models like ChatGPT are moving away from brain-inspired designs towards sheer size and scope.\n \nHawkins aims to move beyond transformer models and attract researchers to explore brain-based AI further. \n \n Source: https://www.semafor.com/article/06/21/2024/bill-gates-backs-an-ai-wildcard\n    submitted by    /u/NuseAI  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1dm4t48/the_gates_foundation_backs_an_ai_wildcard/",
+          "publishedOn": "2024-06-22T20:31:13.000Z",
+          "wordCount": null,
+          "title": "The Gates Foundation backs an AI wildcard",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1dln23f/oneminute_daily_ai_news_6212024/",
+          "author": null,
+          "description": "Apple Intelligence won’t launch in EU in 2024 due to antitrust regulation, company says.[1]\n OpenAI buys Rockset to bolster its enterprise AI.[2]\n Amazon mulls charging for revamped AI version of Alexa.[3]\n YouTube Expands Privacy Complaint Process, Lets Users Report AI-Generated Content Using Their Face or Voice.[4]\n  \nSources:\n [1] https://www.cnbc.com/2024/06/21/apple-ai-europe-dma-macos.html\n [2] https://techcrunch.com/2024/06/21/openai-buys-rockset-to-bolster-its-enterprise-ai/\n [3] https://finance.yahoo.com/video/amazon-mulls-charging-revamped-ai-175632578.html\n [4] https://www.gadgets360.com/ai/news/youtube-privacy-complaint-process-expanded-ai-content-simulating-user-face-voice-deepfakes-5938544\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1dln23f/oneminute_daily_ai_news_6212024/",
+          "publishedOn": "2024-06-22T04:07:38.000Z",
+          "wordCount": null,
+          "title": "One-Minute Daily AI News 6/21/2024",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1dlke03/for_the_first_time_an_llm_has_breached_the_65/",
+          "author": null,
+          "description": "https://preview.redd.it/unav0emc218d1.png?width=1920&format=png&auto=webp&s=cdfbca16c13106c1ec97e88646e3262e52650719\n https://preview.redd.it/agfguqpd218d1.png?width=1002&format=png&auto=webp&s=51591a38a0cba2397ee8edd2e8c705c8728756cf\n https://lifearchitect.ai/agi/\n    submitted by    /u/Maxie445  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1dlke03/for_the_first_time_an_llm_has_breached_the_65/",
+          "publishedOn": "2024-06-22T01:41:15.000Z",
+          "wordCount": null,
+          "title": "For the first time, an LLM has breached the 65% mark on GPQA, designed to be at the level of our smartest PhDs. ‘Regular’ PhDs score 34%.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1dlkahj/softbank_ceo_says_ai_that_is_10000_times_smarter/",
+          "author": null,
+          "description": "submitted by    /u/Maxie445  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1dlkahj/softbank_ceo_says_ai_that_is_10000_times_smarter/",
+          "publishedOn": "2024-06-22T01:35:54.000Z",
+          "wordCount": null,
+          "title": "SoftBank CEO says AI that is 10,000 times smarter than humans will come out in 10 years",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1dljriw/openais_mira_murati_some_creative_jobs_maybe_will/",
+          "author": null,
+          "description": "submitted by    /u/Maxie445  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1dljriw/openais_mira_murati_some_creative_jobs_maybe_will/",
+          "publishedOn": "2024-06-22T01:07:09.000Z",
+          "wordCount": null,
+          "title": "OpenAI's Mira Murati: \"some creative jobs maybe will go away, but maybe they shouldn't have been there in the first place\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1dlazuk/arthropleura_a_giant_millipedelike_arthropod_that/",
+          "author": null,
+          "description": "submitted by    /u/MarieDy96  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1dlazuk/arthropleura_a_giant_millipedelike_arthropod_that/",
+          "publishedOn": "2024-06-21T18:28:19.000Z",
+          "wordCount": null,
+          "title": "Arthropleura - A giant millipede-like arthropod that could grow up to 8 feet long",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/1dl71cn/my_memories_are_just_metas_training_data_now/",
           "author": null,
@@ -91136,76 +91066,6 @@
           "wordCount": null,
           "title": "A political consultant faces charges and fines for Biden deepfake robocalls",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1czgnca/i_want_ai_to_have_a_positive_impact_on_the_world/",
-          "author": null,
-          "description": "As crazy as we might are. As little as we might seem to be. By collaborating with each other i deeply believe we can make the world a better place.\n I personally believe AI can be used for things far better and greater than what it's mainly being used for right now.\n And with people losing their hopes in big companies that are striving for AGI without thinking about the global impact it will have on society. I think its best to remain positive and and work on the stuff we can control and change.\n I shared my concerns about this a month ago and got quite positive feedback out of the community. That's why I decided to create a reddit community dedicated to the sustainable growth of ai for a better future. \n Called Project_Ai.\n Currently the community is already filled with great minds, working on their own personal projects and stuff. From ai engineers to software developers. Marketeers and consultants. We are building a community that will have a positive impact on the way we develop our society.\n If this post caught your interest. Feel free to click on the link below and have a look!\n https://www.reddit.com/r/PROJECT_AI/s/QYPndRuzeZ\n And as always, if there are any questions about what we are building and doing. The vision behind the community and projects. Feel free to share those with me :)\n Have a great day!\n    submitted by    /u/unknownstudentoflife  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1czgnca/i_want_ai_to_have_a_positive_impact_on_the_world/",
-          "publishedOn": "2024-05-24T09:22:07.000Z",
-          "wordCount": null,
-          "title": "I want AI to have a positive impact on the world, so i created a community for people in AI to contribute to the sustainable growth of AI.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1czfg37/max_tegmark_says_2024_will_be_remembered_as_the/",
-          "author": null,
-          "description": "submitted by    /u/Maxie445  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1czfg37/max_tegmark_says_2024_will_be_remembered_as_the/",
-          "publishedOn": "2024-05-24T07:51:10.000Z",
-          "wordCount": null,
-          "title": "Max Tegmark says 2024 will be remembered as the year of AI agents and they will be more of a new species than a new technology",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1cyxxah/are_gpts_life_advice_rational/",
-          "author": null,
-          "description": "I've been using GPT quite extensively and sometimes even ask it how rational my life choices are (for example, whether I should go to university or not).\n I'm wondering, have you experienced any advice from GPT that is irrational or doesn't make sense?\n    submitted by    /u/Defiant_Ranger607  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1cyxxah/are_gpts_life_advice_rational/",
-          "publishedOn": "2024-05-23T17:05:39.000Z",
-          "wordCount": null,
-          "title": "Are GPT's life advice rational?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1cyxm6q/project_thought_on_academia_ai/",
-          "author": null,
-          "description": "I love using Reader | Explainpaper to ask targeted questions about academia topics. It would be cool however if a platform existed where writers of the papers can see the questions being asked & then tailor responses with prompts to guide readers in the right direction. If executed correctly, it could change academia by not only providing the paper, but also continually updated prompts to answer common questions it finds on an analytics platform tied to the platform. \n    submitted by    /u/LlamasOnTheRun  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1cyxm6q/project_thought_on_academia_ai/",
-          "publishedOn": "2024-05-23T16:53:07.000Z",
-          "wordCount": null,
-          "title": "Project Thought on Academia AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1cyxm4v/project_thought_on_academia_ai/",
-          "author": null,
-          "description": "I love using Reader | Explainpaper to ask targeted questions about academia topics. It would be cool however if a platform existed where writers of the papers can see the questions being asked & then tailor responses with prompts to guide readers in the right direction. If executed correctly, it could change academia by not only providing the paper, but also continually updated prompts to answer common questions it finds on an analytics platform tied to the platform. \n    submitted by    /u/LlamasOnTheRun  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1cyxm4v/project_thought_on_academia_ai/",
-          "publishedOn": "2024-05-23T16:53:05.000Z",
-          "wordCount": null,
-          "title": "Project Thought on Academia AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1cyx7g0/pocketsized_ai_models_could_unlock_a_new_era_of/",
-          "author": null,
-          "description": "submitted by    /u/wiredmagazine  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1cyx7g0/pocketsized_ai_models_could_unlock_a_new_era_of/",
-          "publishedOn": "2024-05-23T16:36:16.000Z",
-          "wordCount": null,
-          "title": "Pocket-Sized AI Models Could Unlock a New Era of Computing",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1cywqpu/google_is_the_thirdlargest_designer_of_data/",
-          "author": null,
-          "description": "submitted by    /u/bartturner  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1cywqpu/google_is_the_thirdlargest_designer_of_data/",
-          "publishedOn": "2024-05-23T16:16:58.000Z",
-          "wordCount": null,
-          "title": "Google is the third-largest designer of data center processors as of 2023… without selling a single chip",
-          "imageUrl": null
         }
       ]
     },
@@ -91214,6 +91074,26 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1dlwchd/linkedin_used_graph_rag_to_cut_down_their_ticket/",
+          "author": null,
+          "description": "So first, here's what I understand of how they did it:\n They made the KG by parsing customer support tickets into structured tree representations, preserving their internal relationships.\n Tickets are linked based on contextual similarities, dependencies, and references — all of these make up a comprehensive graph.\n Each node in the KG is embedded so they can do semantic search and retrieval.\n The RAG QA system identifies relevant sub-graphs by doing traversal and searching by semantic similarity.\n Then, it generates contextually aware answers from the KG, evaluating by MRR, which saw a significant improvement.\n Paper: https://arxiv.org/pdf/2404.17723\n If you’d like to implement Graph RAG too, I’m creating a Python library which automatically creates this graph for the documents in your vectordb. It also makes it easy for you to retrieve relevant documents connected to the best matches.\n If you're interested in contributing or have suggestions please raise them on Github.\n Here’s the repo for the library: https://github.com/sarthakrastogi/graph-rag/tree/main\n    submitted by    /u/sarthakai  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1dlwchd/linkedin_used_graph_rag_to_cut_down_their_ticket/",
+          "publishedOn": "2024-06-22T14:01:14.000Z",
+          "wordCount": null,
+          "title": "LinkedIn used Graph RAG to cut down their ticket resolution time from 40 hrs to 15 hrs. Let's make a library to make it accessible to everyone?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1dlqcc8/ai_reading_list_part_5/",
+          "author": null,
+          "description": "submitted by    /u/Personal-Trainer-541  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1dlqcc8/ai_reading_list_part_5/",
+          "publishedOn": "2024-06-22T07:41:23.000Z",
+          "wordCount": null,
+          "title": "AI Reading List - Part 5",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/1dlgrr3/autoencoders_deep_learning_animated/",
           "author": null,
@@ -91753,36 +91633,6 @@
           "wordCount": null,
           "title": "How to teach your computer to play video games",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1czfuwm/deepfusion_a_highly_modular_deep_learning/",
-          "author": null,
-          "description": "Hello all, I am a student at Stanford University, I was on a gap year due to medical conditions and to utilitze my time I was studying deep learning.\n And Voila...\n I've developed a deep learning library, DeepFusion!\n It's customizable and has an easily accessible and highly intuitive codebase. One can just dive right in and effortlessly understand the source code.\n You can download it from:\n  \ngithub at https://github.com/atharvaaalok/deepfusion\n or install using pip install deepfusion (easy!)\n  \nFor a series of examples explaining the usage and features refer demo or tutorials.\n Any and all suggestions are welcome, and contributions are greatly appreciated!\n https://preview.redd.it/7sawthhj3c2d1.png?width=464&format=png&auto=webp&s=bb0b4671d2b1118d2d10250f2b221d511c5716fe\n    submitted by    /u/atharvaaalok1  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1czfuwm/deepfusion_a_highly_modular_deep_learning/",
-          "publishedOn": "2024-05-24T08:22:16.000Z",
-          "wordCount": null,
-          "title": "DeepFusion: a highly modular Deep Learning Framework.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1czdh1s/skin_melanoma_classification_stepbystep_guide/",
-          "author": null,
-          "description": "Discover how to build a CNN model for skin melanoma classification using over 20,000 images of skin lesions.\n We'll begin by diving into data preparation, where we will organize, clean, and prepare the data form the classification model.\n Next, we will walk you through the process of build and train convolutional neural network (CNN) model. We'll explain how to build the layers and optimize the model.\n Finally, we will test the model on a new fresh image and challenge our model.\n Check out our tutorial here : https://youtu.be/RDgDVdLrmcs\n Link for the code : https://github.com/feitgemel/TensorFlowProjects/tree/master/Skin-Lesion\n Enjoy\n Eran\n Python #Cnn #TensorFlow #deeplearning #neuralnetworks #imageclassification #convolutionalneuralnetworks #SkinMelanoma #melonomaclassification\n    submitted by    /u/Feitgemel  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1czdh1s/skin_melanoma_classification_stepbystep_guide/",
-          "publishedOn": "2024-05-24T05:33:51.000Z",
-          "wordCount": null,
-          "title": "🔬👩‍🔬 Skin Melanoma Classification: Step-by-Step Guide with 20,000+ Images 🌟💉",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1cz8hcn/explaining_neural_networks_interview_with_joao/",
-          "author": null,
-          "description": "submitted by    /u/Neurosymbolic  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1cz8hcn/explaining_neural_networks_interview_with_joao/",
-          "publishedOn": "2024-05-24T00:49:03.000Z",
-          "wordCount": null,
-          "title": "Explaining Neural Networks (Interview with Joao Leite, NOVA University L...",
-          "imageUrl": null
         }
       ]
     },
@@ -91796,18 +91646,7 @@
       "title": "VITALab",
       "feedUrl": "https://vitalab.github.io/feed.xml",
       "siteUrl": "https://vitalab.github.io/",
-      "articles": [
-        {
-          "id": "https://vitalab.github.io/article/2024/05/24/universeg.html",
-          "author": null,
-          "description": "Introduction",
-          "link": "https://vitalab.github.io/article/2024/05/24/universeg.html",
-          "publishedOn": "2024-05-24T00:00:00.000Z",
-          "wordCount": 846,
-          "title": "UniverSeg: Universal Medical Image Segmentation",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Stories by Andrej Karpathy on Medium",
@@ -92026,16 +91865,6 @@
           "wordCount": 3612,
           "title": "Research Focus: Week of May 27, 2024",
           "imageUrl": "https://www.microsoft.com/en-us/research/uploads/prodnew/2024/05/RF42_FBLITW-1200x627-1.jpg"
-        },
-        {
-          "id": "https://www.microsoft.com/en-us/research/?p=1033734",
-          "author": "Brenda Potts",
-          "description": "Social scientist and HCI expert Abigail Sellen explores the critical understanding needed to build human-centric AI through the lens of the new AICE initiative, a collective of interdisciplinary researchers studying AI impact on human cognition and the economy.\nThe post Ideas: Designing AI for people with Abigail Sellen appeared first on Microsoft Research.",
-          "link": "https://www.microsoft.com/en-us/research/podcast/ideas-designing-ai-for-people-with-abigail-sellen/",
-          "publishedOn": "2024-05-23T13:00:00.000Z",
-          "wordCount": 10919,
-          "title": "Ideas: Designing AI for people with Abigail Sellen",
-          "imageUrl": "https://www.microsoft.com/en-us/research/uploads/prodnew/2024/05/Abigail-Sellen_IDEAS_TW_LI_FB_1200x627.png"
         }
       ]
     },
@@ -92077,6 +91906,16 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1dm8ba1/adaptive_quadcopter_network/",
+          "author": null,
+          "description": "👋 Hey, I'm trying to come up with a solution for autonomous control of a quadmotor drone.\n So far I managed to get it to do waypoint navigation with a simple MLP + PPO.\n This works great, especially with domain randomization, but what happens if there is a sudden gust of wind? Quadcopter weight is more than what it was trained on in simulation? A propeller is damaged and one of the motors is producing less thrust?\n With all these examples my issue is that the drone cannot adapt to the changes. I want to create a network that is capable of adapting to any outside disturbance that are unaccounted for.\n I have two plans, one is to use LSTM with PPO, so the agent retains flight data.\n My other idea is to use the simulator I use for training to get the drone's expected velocities/attitude/position for the current time step and feed it into the policy alongside with the actual values I'm getting from the sensors.\n I'm hoping someone more experienced can provide feedback on my ideas, to be honest I'm a bit lost, I'm unsure if any of these will work, any help is appreciated!\n    submitted by    /u/FutureComedian7749  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1dm8ba1/adaptive_quadcopter_network/",
+          "publishedOn": "2024-06-22T23:15:56.000Z",
+          "wordCount": null,
+          "title": "Adaptive quadcopter network",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1dlil7i/c_library_to_jax/",
           "author": null,
@@ -93956,46 +93795,6 @@
           "wordCount": null,
           "title": "DIAMOND (DIffusion As a Model Of eNvironment Dreams) is a reinforcement learning agent trained in a diffusion world model",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1czcjab/stable_baselines3_with_airsim/",
-          "author": null,
-          "description": "Hello! I am trying to make a drone in AirSim to avoid objects when moving from one point to another. I have modified the example to suit my needs. I training it with PPO from Stable Baselines3 and Gymnasium. The problem is, it is taking too long for one episode. So I cannot provide adequete timesteps like I do with other environments. I am a newb in RL. Please help me with this problem.\n    submitted by    /u/Sandy_The_Adventurer  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1czcjab/stable_baselines3_with_airsim/",
-          "publishedOn": "2024-05-24T04:34:01.000Z",
-          "wordCount": null,
-          "title": "Stable Baselines3 with Airsim",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1cyz491/is_mdp_getting_obsolete/",
-          "author": null,
-          "description": "submitted by    /u/SubstantialBed9917  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1cyz491/is_mdp_getting_obsolete/",
-          "publishedOn": "2024-05-23T17:55:46.000Z",
-          "wordCount": null,
-          "title": "Is MDP getting obsolete?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1cywwz3/afterword_to_vernor_vinges_novel_true_names/",
-          "author": null,
-          "description": "submitted by    /u/gwern  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1cywwz3/afterword_to_vernor_vinges_novel_true_names/",
-          "publishedOn": "2024-05-23T16:23:56.000Z",
-          "wordCount": null,
-          "title": "\"Afterword to Vernor Vinge's novel, _True Names_\", Minsky 1984 (challenges to preference learning & safe agents)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1cywuda/mdp_set_reward_for_losing_what_you_have/",
-          "author": null,
-          "description": "Let's say I have a game where I start with 0 reward. I can take one of two actions:\n  \nPlay: A stochastic process where I can either gain money, or lose my reward thus far\n \nLeave: Quit the game and keep my accumulated rewards. \n \n I am trying to model this game as an MDP with a 'start' state and an 'end' state, where the value of the end state is 0. At 'start' you have actions 'play' or 'leave'. At 'end', the game ends-- there are no actions to take. \n I am trying to figure out two things:\n  \nHow to set the reward for the outcome of the stochastic process where I lose my accumulated rewards.\n \nHow to set the reward for quitting. \n \n So for 1:\n If the value of 'start' is V(in), I was thinking that for the outcome where I choose 'play' and lose my accumulated rewards, I could represent the reward with '-V(in)'. \n The equation for Q(in, play) would look like: \n sum(p(lose)*(-V(in) + V(end)) + p(win)*(R + V(in))); \n And for 2:\n And for Q(in, quit) --> end, the reward would be V(in). This way, if you quit, Q(in, quit) is always equal to the value that you start with. \n My results do not seem to match my target, and I can't seem to identify the issue with my approach. I am considering that my approach with (1) may not be accurate, because V(in) doesn't represent my accumulated rewards, but the rather expected value of my accumulated rewards. But I do not have this well crystallized in my mind. \n Are there any obvious issues with the way I am setting up the rewards in my MDP? Or even the states/actions in my MDP as a whole? \n    submitted by    /u/Squamply  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1cywuda/mdp_set_reward_for_losing_what_you_have/",
-          "publishedOn": "2024-05-23T16:21:02.000Z",
-          "wordCount": null,
-          "title": "MDP: Set reward for losing what you have accumulated in your game thus far",
-          "imageUrl": null
         }
       ]
     },
@@ -94370,16 +94169,6 @@
           "wordCount": 6304,
           "title": "Becoming an AI Utility Function Exercise – Part 2",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/05/Slide5.png"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=64921",
-          "author": "Alan Morrison",
-          "description": "Image by Carlos Ngaba from Pixabay Contextualize your business data with content orchestration techniques One of the major issues enterprises have is tapping into business information that’s trapped in many different siloed applications. Customer data platforms (CDPs) are supposed to unify structured data about customers from a number of these siloed applications and make that… Read More »Contextualize your business data with content orchestration techniques\nThe post Contextualize your business data with content orchestration techniques appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/contextualize-your-business-data-with-content-orchestration-techniques/",
-          "publishedOn": "2024-05-23T17:18:00.000Z",
-          "wordCount": 6172,
-          "title": "Contextualize your business data with content orchestration techniques",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/05/music-1925056_1280.png"
         }
       ]
     },
