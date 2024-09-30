@@ -768,26 +768,6 @@
           "wordCount": 5109,
           "title": "Use LangChain with PySpark to process documents at massive scale with Amazon SageMaker Studio and Amazon EMR Serverless",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/03/ML-17292-image001-1-1260x566.jpg"
-        },
-        {
-          "id": "dc3c5af993a82bc3e812822240e8731939022cd2",
-          "author": "Marco Punio",
-          "description": "In this post, we explore a solution that uses the vector engine ChromaDB and Meta Llama 3, a publicly available foundation model hosted on SageMaker JumpStart, for a Text-to-SQL use case. We shared a brief history of Meta Llama 3, best practices for prompt engineering with Meta Llama 3 models, and an architecture pattern using few-shot prompting and RAG to extract the relevant schemas stored as vectors in ChromaDB.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-prompt-engineering-with-meta-llama-3-for-text-to-sql-use-cases/",
-          "publishedOn": "2024-08-30T20:36:51.000Z",
-          "wordCount": 4055,
-          "title": "Best practices for prompt engineering with Meta Llama 3 for Text-to-SQL use cases",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/08/30/Screenshot-2024-08-30-at-12.43.16 PM-1126x630.png"
-        },
-        {
-          "id": "5d6d45bd116158471af4467d3aad6f6cdaf52e0e",
-          "author": "Jonah Craig",
-          "description": "In this post, we provide insights and practical examples to help balance and optimize the prompt engineering workflow. We focus on advanced prompt techniques and best practices for the models provided in Amazon Bedrock, a fully managed service that offers a choice of high-performing foundation models from leading AI companies such as Anthropic, Cohere, Meta, Mistral AI, Stability AI, and Amazon through a single API. With these prompting techniques, developers and researchers can harness the full capabilities of Amazon Bedrock, providing clear and concise communication while mitigating potential risks or undesirable outputs.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/implementing-advanced-prompt-engineering-with-amazon-bedrock/",
-          "publishedOn": "2024-08-30T20:09:26.000Z",
-          "wordCount": 5983,
-          "title": "Implementing advanced prompt engineering with Amazon Bedrock",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/08/30/ML-17011-end-to-end-1.png"
         }
       ]
     },
@@ -44631,6 +44611,136 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fshs76/d_pretrained_models_for_humanoid_animations/",
+          "author": null,
+          "description": "There are a lot of open/free models out there for image related projects. Are there any comparable models for human animations? It seems like GAN based models should be able to generate new, realistic motions once they're trained on existing animation data. But I can't find anything useful out there. I'm trying to run some training/experiments myself locally but not having much luck with the results. Any insights, pointers are greatly appreciated!\n    submitted by    /u/gamesntech  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fshs76/d_pretrained_models_for_humanoid_animations/",
+          "publishedOn": "2024-09-29T23:27:40.000Z",
+          "wordCount": null,
+          "title": "[D] Pretrained models for humanoid animations",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fshhor/r_i_feel_underconfident_about_the_baselines_i/",
+          "author": null,
+          "description": "I needed to implement 3 baseline RL algorithms, that have certain theoretical regret bounds. The original papers haven't provided any code of their own/and haven't done any simulations in their work. I don't feel confident about my implementations, particularly hyperparameter tuning since the environment we use is different. \n I tried my best to get the baselines to perform their best, by rigorously searching different params. It feels unethical to show our algorithm performs better, when theoretically, we are supposed to get comparable results. Their performance is quite dependent on hyperparams. What do I do?\n    submitted by    /u/Replay0307  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fshhor/r_i_feel_underconfident_about_the_baselines_i/",
+          "publishedOn": "2024-09-29T23:13:13.000Z",
+          "wordCount": null,
+          "title": "[R] I feel under-confident about the baselines I implemented. What do I do?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/",
+          "author": null,
+          "description": "Hello, I’m currently aiming to work on optimizing transformer models, specifically in multi-view images and/or cross-attention networks. I've noticed that cross-attention layers add up a lot of parameters, which can slow down the training process. I’m exploring ways to reduce the computational complexity to increase the speed (for now and subsequently without sacrificing too much performance sometime later). I'm starting to look into:\n  \nlow-rank matrix factorization - I’ve been reading about how it can be applied to reduce the size of the projection matrices (e.g., the projq, projk, projv in cross-attention). Does anyone have experience using low-rank factorization specifically in cross-attention mechanisms?\n other param reduction techniques - Aside from low-rank factorization, are there other methods I could explore for reducing the number of parameters in transformer models, like sparsity and pruning—do you have recommendations or experiences with these?\n overcoming redundancy in multi-view scenarios - Given the multi-view nature of my problem, I suspect there’s some redundancy in how cross-attention processes the different views. Has anyone worked on reducing redundancy across views in transformer-based networks? What techniques worked best for you?\n  \nI’m starting to look into CVPR, NEURIPS, ECCV, etc, but any insights, advise, experiences, or papers you can share would be greatly appreciated! Thanks in advance!\n    submitted by    /u/Cool-Economy3492  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/",
+          "publishedOn": "2024-09-29T22:47:43.000Z",
+          "wordCount": null,
+          "title": "[R] optimizing transformers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fsg0kf/r_baselines_for_taskincremental_continuous/",
+          "author": null,
+          "description": "I'm looking for one or more papers with baseline results for task-incremental continuous learning, particularly with results on ResNet50 with CIFAR100/5. A lot of the recent literature focuses on class-incremental learning. Any suggestions are welcome!\n    submitted by    /u/Due-Mix2877  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fsg0kf/r_baselines_for_taskincremental_continuous/",
+          "publishedOn": "2024-09-29T22:02:30.000Z",
+          "wordCount": null,
+          "title": "[R] Baselines for task-incremental continuous learning",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fsdu4v/trying_to_get_into_training_llms_question_on/",
+          "author": null,
+          "description": "Hello y'all. I am trying to get into training LLMs. One of the first personal projects I picked up was fine tuning a T5 model. I am wanting to train a T5 model specifically for QnA on a domain specific topic of particular author that I like. I was able to create my own dataset. Since I am aiming to create a chatbot that does QnA specifically, I know that a QnA dataset is mandatory. I was also able to create a masked language modelling dataset and paragraph shuffling dataset, but I figure that these datasets are optional. I think they should help my T5 model pick up on specific vernacular/jargon/verbal-habits that my author uses, but I noticed during training that with all 3 datasets combined, training my T5 model takes way too long (8+ hours for T5-small). I have decided to stick with a QnA dataset alone to speed up training and save money. I believe a QnA dataset should be enough, but I couldn't find any info online to back up my thought process.\n I just wanted to hear from others that have any experience about T5. Did including paragraph shuffling and masked language modelling datasets have any impact on QnA tasks at all? I am also wanting to building a ML/AI portfolio. Is hosting/deploying a T5 model of my own worth hosting or is it considered outdated/boring compared to bigger models like Llama and GPT? I do intend on training those models at a future point, I just wanted to start with T5 as a starter project before moving on to larger LLMs.\n    submitted by    /u/ApricotSlight9728  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fsdu4v/trying_to_get_into_training_llms_question_on/",
+          "publishedOn": "2024-09-29T20:24:35.000Z",
+          "wordCount": null,
+          "title": "Trying to get into training LLMs. Question on dataset regarding training a T5 model. [P]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fs7opx/p_visionts_zeroshot_time_series_forecasting_with/",
+          "author": null,
+          "description": "VisionTS is a newly pretrained model that redefines forecasting task as an image reconstruction task. The technique seems counter-intuitive at first, but the model works surprisingly well.\n A detailed analysis of the model can be found here.\n VisionTS\n    submitted by    /u/apaxapax  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fs7opx/p_visionts_zeroshot_time_series_forecasting_with/",
+          "publishedOn": "2024-09-29T16:00:01.000Z",
+          "wordCount": null,
+          "title": "[P] VisionTS: Zero-Shot Time Series Forecasting with Visual Masked Autoencoders",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fs7msq/p_reinforcement_learning_model_from_gamescreen/",
+          "author": null,
+          "description": "Hello, I don't know if this is the correct sub-reddit for it, but I have a question about reinforcement learning. I know that a model needs states to determine an action. But with a game like Pokémon I can't really get a state. So I was wondering if the game screen could be used as a state. In theory it should be possible I think, maybe I will need to extract key information from the screen by hand and create a state of that. But I would like to avoid that because I would like the model to be able to play both aspects of Pokémon, meaning exploration and fighting.\n The second issue I am thinking of is how would I determine the time and amount of reward I would give whenever the model does something. Since I am not getting any data from the game I don't know when it wins A fight or when it heals it's pokémon when they have low HP.\n Since I don't have that much experience with Machine learning, practically none, I started wondering if this was even remotely possible. Could anyone give their opinion on the idea, and give me some pointers? I would love to learn more, but I can't find a good place to start.\n    submitted by    /u/tirodokter  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fs7msq/p_reinforcement_learning_model_from_gamescreen/",
+          "publishedOn": "2024-09-29T15:57:41.000Z",
+          "wordCount": null,
+          "title": "[P] Reinforcement Learning model from gamescreen",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fs0k7q/d_can_eeg_and_rnns_unlock_authentication_through/",
+          "author": null,
+          "description": "I'm working on an authentication system using EEG data and inspired by Bycloud's video on expressive hidden states in RNNs. I'm exploring the possibility of applying this model-within-a-model approach to EEG data. My idea is to authenticate users based on their thought processes rather than just their answers, incorporating questions that analyze how they think. I would appreciate any guidance or insights on this approach\n    submitted by    /u/SouthIndication3373  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fs0k7q/d_can_eeg_and_rnns_unlock_authentication_through/",
+          "publishedOn": "2024-09-29T09:30:12.000Z",
+          "wordCount": null,
+          "title": "[D] Can EEG and RNNs Unlock Authentication Through Thought Processes?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1frxkwa/d_whats_the_sota_model_for_style_transfer_as_of/",
+          "author": null,
+          "description": "What’s the current state-of-the-art for image style transfer, and is diffusion a significant improvement over Gram matrix-based methods?\n I’m familiar with Gram matrix-based methods from 2017, but they struggled with higher-level concepts. Are they still used nowadays?\n    submitted by    /u/JellyBean_Collector  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1frxkwa/d_whats_the_sota_model_for_style_transfer_as_of/",
+          "publishedOn": "2024-09-29T05:50:37.000Z",
+          "wordCount": null,
+          "title": "[D] What’s the SOTA model for style transfer as of 2024?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1frwnlc/p_in_the_land_of_llms_can_we_do_better_mock_data/",
+          "author": null,
+          "description": "submitted by    /u/pncnmnp  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1frwnlc/p_in_the_land_of_llms_can_we_do_better_mock_data/",
+          "publishedOn": "2024-09-29T04:47:58.000Z",
+          "wordCount": null,
+          "title": "[P] In the land of LLMs, can we do better mock data generation?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1frwmt9/p_lorakit_a_simple_toolkit_for_rapid_prototyping/",
+          "author": null,
+          "description": "submitted by    /u/os75  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1frwmt9/p_lorakit_a_simple_toolkit_for_rapid_prototyping/",
+          "publishedOn": "2024-09-29T04:46:26.000Z",
+          "wordCount": null,
+          "title": "[p] lorakit: A Simple Toolkit for Rapid Prototyping SDXL LoRA Models",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1frwmdt/p_spectrum_craft/",
+          "author": null,
+          "description": "How many of guys get frustrated when leane ftt related stuff in signal processing / deep learning..?\n I created an awesome streamlit application named \"Spectrum Craft\" for better understanding of the fft on images.\n 🔍 Core Functionalities:\n  \nImage Upload: Any format, any complexity\n \nSpectrum Visualization: See the \"mathematical view\" of images\n \nFilter Playground: Experiment with spatial and frequency domain filters\n \nReal-time Transformation: Watch your image evolve as you tweak parameters\n  \nSize Analysis: Understand how processing affects file sizes\n \n  \n💡 Perfect For:\n  \nCurious minds in signal processing\n \nVisual learners tackling complex math\n \nBudding data scientists and image analysts\n \nAnyone who's ever wondered, \"How do computers see?\"\n \n 🚀 Why It Matters:\n Bridge the gap between theory and practice. Turn abstract concepts into tangible, visual experiences.\n 🔗 Experience It:\n https://spectrum-craft.streamlit.app/\n I'm requesting everyone to visit the application and share your valuable suggestions and feedback in comments 😀\n    submitted by    /u/code_vlogger2003  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1frwmdt/p_spectrum_craft/",
+          "publishedOn": "2024-09-29T04:45:41.000Z",
+          "wordCount": null,
+          "title": "[P] Spectrum Craft",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fru46i/d_selfpromotion_thread/",
+          "author": null,
+          "description": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc.\n Please mention the payment and pricing requirements for products and services.\n Please do not post link shorteners, link aggregator websites , or auto-subscribe links.\n \n Any abuse of trust will lead to bans.\n Encourage others who create new posts for questions to post here instead!\n Thread will stay alive until next one so keep posting after the date in the title.\n \n Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.\n    submitted by    /u/AutoModerator  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fru46i/d_selfpromotion_thread/",
+          "publishedOn": "2024-09-29T02:15:10.000Z",
+          "wordCount": null,
+          "title": "[D] Self-Promotion Thread",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1frsimq/d_has_anyone_tried_using_exponent_for_ml/",
           "author": null,
           "description": "I've been looking for a good place to prep for ML and DS interviews and found exponent. Found mixed reviews about it. I know there's a lot of free material to prep but it seems to have access to specific questions asked at big tech and has all the resources in one place. Thoughts?\n    submitted by    /u/KeyConsideration4971  \n [link]   [comments]",
@@ -48799,146 +48909,6 @@
           "wordCount": null,
           "title": "[D] How Can I Implement Online/Incremental Learning with FastText?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5ljxq/p_inspired_by_andrej_karpathy_i_made_nlp_zero_to/",
-          "author": null,
-          "description": "submitted by    /u/Particular_Tap_4002  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5ljxq/p_inspired_by_andrej_karpathy_i_made_nlp_zero_to/",
-          "publishedOn": "2024-08-31T11:56:39.000Z",
-          "wordCount": null,
-          "title": "[P] Inspired by Andrej Karpathy, I made NLP - Zero to Hero",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5hfzf/r_perceptual_similarity_for_measuring/",
-          "author": null,
-          "description": "Paper: https://openreview.net/forum?id=30C9AWBW49\n Abstract:\n  \nDefining and measuring decision-making styles, also known as playstyles, is crucial in gaming, where these styles reflect a broad spectrum of individuality and diversity. However, finding a universally applicable measure for these styles poses a challenge. Building on, the first unsupervised metric to measure playstyle similarity based on game screens and raw actions by identifying comparable states with discrete representations for computing policy distance, we introduce three enhancements to increase accuracy: multiscale analysis with varied state granularity, a perceptual kernel rooted in psychology, and the utilization of the intersection-over-union method for efficient evaluation. These innovations not only advance measurement precision but also offer insights into human cognition of similarity. Across two racing games and seven Atari games, our techniques significantly improve the precision of zero-shot playstyle classification, achieving an accuracy exceeding 90% with fewer than 512 observation-action pairs—less than half an episode of these games. Furthermore, our experiments withanddemonstrate the potential of discrete playstyle measures in puzzle and board games. We also develop an algorithm for assessing decision-making diversity using these measures. Our findings improve the measurement of end-to-end game analysis and the evolution of artificial intelligence for diverse playstyles.\n  \nWhat do you think about the idea of using discrete states to compare styles?\n    submitted by    /u/Cold-Needleworker709  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5hfzf/r_perceptual_similarity_for_measuring/",
-          "publishedOn": "2024-08-31T07:08:45.000Z",
-          "wordCount": null,
-          "title": "[R] Perceptual Similarity for Measuring Decision-Making Style and Policy Diversity in Games",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5fq26/d_help_regarding_reproducing_results/",
-          "author": null,
-          "description": "Hello. I have been recently working with adversarial self-supervised learning and was trying to reproduce results from the DynCL paper -- RETHINKING THE EFFECT OF DATA AUGMENTATION IN ADVERSARIAL CONTRASTIVE LEARNING. In their GitHub repo, they provided a checkpoint file, and when I run fine-tuning over that checkpoint, the results are reproducible. However, when I try to train their model, it underperforms severely. I tried raising an issue in the GitHub repo but got no response. So, how do I proceed? If I want to benchmark it with my method, should I use the results I reproduced or the values given in their paper? Their results seem to be a little sus, but with very simple modification, the improvement they achieved is very high. As much I hope and want it to be true the reproducing of the results doesn't seem to mean so. \n Any help is appreciated. Thanks. \n    submitted by    /u/SmartEvening  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5fq26/d_help_regarding_reproducing_results/",
-          "publishedOn": "2024-08-31T05:12:39.000Z",
-          "wordCount": null,
-          "title": "[D] Help regarding reproducing results",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5cy0v/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
-          "author": null,
-          "description": "For Job Postings please use this template\n  \nHiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for]\n  \nFor Those looking for jobs please use this template\n  \nWant to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you're looking for]\n  \n​\n Please remember that this community is geared towards those with experience.\n    submitted by    /u/AutoModerator  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5cy0v/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
-          "publishedOn": "2024-08-31T02:30:15.000Z",
-          "wordCount": null,
-          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5ackj/d_ai_phd_advice_top_university_required/",
-          "author": null,
-          "description": "Hey guys - looking for advice. I’m a PhD student in AI at Oregon State University. I am particularly interested in using genAI to acts as a clinical decision aid for doctors using a rag pipeline - obviously much more complicated than I’ve just explained. \n My question is: for the most part I’ve seen on similar servers that you have to attend a top institution to be able to go on to a prestigious company, etc. \n Is it going to hinder my chances of getting a job because I’m not attending a top 10 university? Oregon State is ranked 53rd according to csrankings.org. \n Any advice/comments are much appreciated \n    submitted by    /u/frankies_wrld  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5ackj/d_ai_phd_advice_top_university_required/",
-          "publishedOn": "2024-08-31T00:15:58.000Z",
-          "wordCount": null,
-          "title": "[D] AI PhD advice - top university required?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f58o5w/p_python_and_ai_machine_learning_specifically/",
-          "author": null,
-          "description": "Python and AI / Machine Learning. Specifically: applying machine learning principles to a dataset\n Hello everyone! I am completing a project (Interactive Python Notebook (ipynb)) that uses a machine learning model on a dataset (.csv) of Amazon customer reviews.\n I am importing the raw data and then cleaning it, identifying and removing duplicates, detecting and handling missing values, finding and addressing outliers, converting columns to suitable data types, performing feature engineering which involves adding or removing features from the dataset.\n After that I am applying machine learning principles to the dataset to perform sentiment analysis on the review text using the 1-5 rating scale then assisting with the development of machine learning models.\n Is anyone in the sub particularity knowledgeable / gifted at any of the above or the following:\n  \nApplying machine learning principles to a dataset to perform sentiment analysis \n Synthetic Minority Oversampling Technique, or SMOTE\n Training, Making, Prediction, and Evaluating Baseline Models for ordinal Sentiment Analysis\n Ordinal Logistic Regression\n Cumulative Link Model (CLM)\n Support Vector Machines (with appropriate kernel for ordinal classification)\n Gradient Boosting Machines (GBM) for Ordinal Regression 8.Neural Network – Deep Neural Net, LSTM, or Transformer-based models (adapted for ordinal classification)\n  \nI have some code to share and could do with someone taking a quick look at parts of it. Will add to the comments but not sure if this is the right sub.\n If not, If anyone could point me in the right direction for any helpful subs / resources.\n Thank you, and thanks in advance!\n    submitted by    /u/Existing-Ad5957  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f58o5w/p_python_and_ai_machine_learning_specifically/",
-          "publishedOn": "2024-08-30T22:55:46.000Z",
-          "wordCount": null,
-          "title": "[P] Python and AI / Machine Learning. Specifically: applying machine learning principles to a dataset",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f55ndj/p_what_rl_algorithm_should_i_try_for_a_multiagent/",
-          "author": null,
-          "description": "I'm currently learning RL and AI, and experimented with DQN and Double DQN in PyTorch.\n I'd like to try to implement a multi-agent card game, and I'd like to hear your opinions for the best way to get started. Since it is an imperfect information game, I think the simpler methods will not work for this.\n I built a proof of concept for this with 4 Double DQN agents playing against each other, and each model gets assigned a player from the environment, and makes its plays. As the state, I gave it the count of all types of cards in the table (13 values), the counts of all types of cards in its hand (13 values), and some more information about the game.\n Unfortunately as expected it was unable to learn much, so I'm looking for some other options.\n Here is the game: https://bicyclecards.com/how-to-play/presidents\n Also, one problem I encountered is that the model had problems choosing an action which was valid (it usually didn't have enough cards of the type it chose, or it didn't match what was on the table).\n    submitted by    /u/Neither_Butterfly_51  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f55ndj/p_what_rl_algorithm_should_i_try_for_a_multiagent/",
-          "publishedOn": "2024-08-30T20:43:10.000Z",
-          "wordCount": null,
-          "title": "[P] What RL algorithm should I try for a multi-agent card game?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f510fa/requesting_review_for_university_btech_ai_ds/",
-          "author": null,
-          "description": "Hello, I am a B. E. , Computer Science and Engineering graduate from Anna University, Chennai. I initially found my course syllabus useless but at the end of my study I found it valuable. But there is this recent gimmicks of AI courses taking over and universities also swinging along it. The intake and demand for these courses are increased comparing to other core fields. Straight to the matter: - I'm attaching the syllabus of Anna University, B.Tech, Artificial Intelligence and Data Science, I argued with my professors this curriculum is not worth for a 4 year program, it's just feel a 1 year bootcamp on AI & DS. - They're stating, these curriculum are designed by High profile people who are greater than you and you know nothing. - Kindly review the syllabus and correct my dumb brain if I am.\n Link: https://drive.google.com/file/d/1--Bq2heFZw9rwtKuIONv5TiDVF5BIe0u/view?usp=drivesdk\n    submitted by    /u/roshanlal_dia  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f510fa/requesting_review_for_university_btech_ai_ds/",
-          "publishedOn": "2024-08-30T17:29:47.000Z",
-          "wordCount": null,
-          "title": "Requesting review for University B.Tech AI & DS curriculum [D]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f50rgv/d_tool_for_comparing_multiple_model_results/",
-          "author": null,
-          "description": "Do you use any lightweight tools for model comparison?\n I’m not looking for end-to-end solutions like MLflow or Weights and Biases, and I don't want to upload my datasets to the cloud.\n I can effectively track my training with TensorBoard, but what I'm looking for is a tool where I can input predictions from 3 models and get some nice visualizations or comparison of the model metrics.\n If it could also keep track of all models, that would be great.\n I appreciate any suggestion :)\n    submitted by    /u/AdhesivenessDear2837  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f50rgv/d_tool_for_comparing_multiple_model_results/",
-          "publishedOn": "2024-08-30T17:19:20.000Z",
-          "wordCount": null,
-          "title": "[D] Tool for comparing multiple model results",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f4wqak/d_comparing_llm_apis_for_document_data_extraction/",
-          "author": null,
-          "description": "Hi everyone,\n I recently worked on an article comparing various LLM APIs for document data extraction, which you can check out here.\n Full disclaimer: I work at Nanonets, so there might be some bias in my perspective, but I genuinely tried to approach this comparison as objectively as possible.\n In this article, I compared Claude, Gemini, and GPT-4 in terms of their effectiveness in document understanding and data extraction from various types of documents. I tested these models on different documents to see how well they can understand and reason through content, and I've shared my findings in the blog.\n I’m really curious to hear about your experiences with these or other APIs for similar tasks:\n  \nHave you tried using LLM APIs for document understanding and data extraction? How did it go?\n Which APIs worked best for you, and why?\n Are there any challenges you faced that aren’t covered in the article?\n What are your thoughts on the future of LLMs in document understanding and data extraction?\n  \n   submitted by    /u/Longjumping_Media365  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f4wqak/d_comparing_llm_apis_for_document_data_extraction/",
-          "publishedOn": "2024-08-30T14:31:47.000Z",
-          "wordCount": null,
-          "title": "[D] Comparing LLM APIs for Document Data Extraction – My Experience and Looking for Insights!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f4wj0j/d_wacv_2025_paper_reviews/",
-          "author": null,
-          "description": "WACV 2025 paper reviews are supposed to be released today. A discussion thread to discuss would be useful!\n    submitted by    /u/smokeriffs  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f4wj0j/d_wacv_2025_paper_reviews/",
-          "publishedOn": "2024-08-30T14:23:17.000Z",
-          "wordCount": null,
-          "title": "[D] WACV 2025 Paper Reviews",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f4w1tr/d_results_for_google_phd_fellowship_2024/",
-          "author": null,
-          "description": "Has anyone heard anything from Google about results of the PhD Fellowship program? I thought they are going to notify people last July. \n    submitted by    /u/EDEN1998  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f4w1tr/d_results_for_google_phd_fellowship_2024/",
-          "publishedOn": "2024-08-30T14:02:52.000Z",
-          "wordCount": null,
-          "title": "[D] Results for Google PhD Fellowship 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f4vwnm/d_advise_related_to_interviews_and_concepts/",
-          "author": null,
-          "description": "Hey Guys. How do you all revise fundamentals of machine learning? Also, how do you all prepare for interview questions? If you have any checklist then it would be great to to have one.\n Any advice is appreciated.\n Thanks!\n    submitted by    /u/Ok_Fee_9958  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f4vwnm/d_advise_related_to_interviews_and_concepts/",
-          "publishedOn": "2024-08-30T13:56:59.000Z",
-          "wordCount": null,
-          "title": "[D] Advise related to interviews and concepts revision",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f4uv3r/d_strange_and_perhaps_almost_impossible/",
-          "author": null,
-          "description": "Hi everyone, I'm training a model on pytorch (resnet18 with cipher10), I'm using pytorch lightning because it's a project and it simplifies many things for me.\n I start from this assumption, I have a Ryzen 9 5950x 128 GB RAM and an RTX 4090, when I train a model with for example 16 workers, an epoch takes 8/9 minutes, the more workers I use the more time it takes (although relatively on this processor 16 workers are perfect), the strange part is this, by decreasing the number of workers, the time per epoch drops, if I put 0 workers, an epoch takes 16 seconds!, I don't understand how this is possible, relatively by increasing the number of workers I increase parallelization and therefore I would have to take a while. Help me understand this.\n    submitted by    /u/Obrigad0ne  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f4uv3r/d_strange_and_perhaps_almost_impossible/",
-          "publishedOn": "2024-08-30T13:09:47.000Z",
-          "wordCount": null,
-          "title": "[D] Strange and perhaps almost impossible performances",
-          "imageUrl": null
         }
       ]
     },
@@ -49417,6 +49387,86 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fsgqbs/ai_develops_humanlike_number_sense/",
+          "author": null,
+          "description": "submitted by    /u/Akkeri  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fsgqbs/ai_develops_humanlike_number_sense/",
+          "publishedOn": "2024-09-29T22:36:10.000Z",
+          "wordCount": null,
+          "title": "AI develops human-like number sense",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fsg6q2/ai_researchers_demonstrate_100_success_rate_in/",
+          "author": null,
+          "description": "submitted by    /u/Akkeri  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fsg6q2/ai_researchers_demonstrate_100_success_rate_in/",
+          "publishedOn": "2024-09-29T22:10:36.000Z",
+          "wordCount": null,
+          "title": "AI researchers demonstrate 100% success rate in bypassing online CAPTCHAs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fsehgo/gavin_newsom_vetoes_californias_contentious_ai/",
+          "author": null,
+          "description": "submitted by    /u/s1n0d3utscht3k  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fsehgo/gavin_newsom_vetoes_californias_contentious_ai/",
+          "publishedOn": "2024-09-29T20:53:11.000Z",
+          "wordCount": null,
+          "title": "Gavin Newsom Vetoes California’s Contentious AI Safety Bill",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fs8rf4/in_the_trial_version_of_topaz_video_ai_the/",
+          "author": null,
+          "description": "submitted by    /u/RedditElBarto  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fs8rf4/in_the_trial_version_of_topaz_video_ai_the/",
+          "publishedOn": "2024-09-29T16:46:25.000Z",
+          "wordCount": null,
+          "title": "In the trial version of Topaz Video AI, the software just ruins a beautifully AI-upscaled video by adding a big diamond and a URL at the center of it.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fs6fuq/dan_hendrycks_imagine_that_a_new_species_arrives/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fs6fuq/dan_hendrycks_imagine_that_a_new_species_arrives/",
+          "publishedOn": "2024-09-29T15:05:47.000Z",
+          "wordCount": null,
+          "title": "Dan Hendrycks: \"Imagine that a new species arrives on Earth, they're as smart as humans and getting 30% smarter per year, and they're able to create new offspring in one minute for $1,000. Which species do you think will be in control?\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fs0c90/how_can_artificial_intelligence_today_make_my/",
+          "author": null,
+          "description": "How can it make housework easier? How can it save me money? How can it make me happier? \n    submitted by    /u/TheBlacktom  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fs0c90/how_can_artificial_intelligence_today_make_my/",
+          "publishedOn": "2024-09-29T09:12:52.000Z",
+          "wordCount": null,
+          "title": "How can artificial intelligence today make my life actually easier or make me money? I see how billionaires can profit and all the chat&photo gimmicks available, but what can it actually do for me?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fruqjg/oneminute_daily_ai_news_9282024/",
+          "author": null,
+          "description": "If your AI seems smarter​, it’s thanks to smarter human trainers.[1]\n AMD Unveils Its First Small Language Model AMD-135M.[2]\n Traversing chemical space with active deep learning for low-data drug discovery.[3]\n Robot hand can detach from arm, crawl over to objects, and pick them up.[4]\n  \nSources:\n [1] https://www.reuters.com/technology/artificial-intelligence/if-your-ai-seems-smarter-its-thanks-smarter-human-trainers-2024-09-28/\n [2] https://community.amd.com/t5/ai/amd-unveils-its-first-small-language-model-amd-135m/ba-p/711368\n [3] https://www.nature.com/articles/s43588-024-00697-2\n [4] https://techcrunch.com/2024/09/28/robot-hand-can-detach-from-arm-crawl-over-to-objects-and-pick-them-up/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fruqjg/oneminute_daily_ai_news_9282024/",
+          "publishedOn": "2024-09-29T02:50:56.000Z",
+          "wordCount": null,
+          "title": "One-Minute Daily AI News 9/28/2024",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fru2va/does_freely_sharing_our_creations_count_under/",
+          "author": null,
+          "description": "Hey everybody.....I'm a classical/ jazz musician that has taken to using AI tools a lot and have a fair bit of fun things to share (rock operas and concept albums, etc...)\n ...... But I have already faced the ban hammer on other subs for not reading the fine print on the rules or otherwise hurting some mod's feeling about creations made with AI tools.\n So, Does freely sharing my creations count under rule #2?\n Furthermore, does it matter what platform it is? Because most of it is on youtube but I can I can upload to something non-monetized if that makes a difference.\n    submitted by    /u/jzemeocala  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fru2va/does_freely_sharing_our_creations_count_under/",
+          "publishedOn": "2024-09-29T02:13:09.000Z",
+          "wordCount": null,
+          "title": "Does freely sharing our creations count under rule 2?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/1frkoud/adapting_a_17th_century_text/",
           "author": null,
@@ -51636,36 +51686,6 @@
           "wordCount": null,
           "title": "The unavoidable case for open models",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f5i4wc/gemini_does_it_as_well/",
-          "author": null,
-          "description": "https://preview.redd.it/x7sgkktjhyld1.png?width=780&format=png&auto=webp&s=aa2dab0b1717dc4da589d05525626233e26c791d\n    submitted by    /u/Fabulous-Rough-3460  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f5i4wc/gemini_does_it_as_well/",
-          "publishedOn": "2024-08-31T07:58:57.000Z",
-          "wordCount": null,
-          "title": "Gemini does it as well :(",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f59r8u/oneminute_daily_ai_news_8302024/",
-          "author": null,
-          "description": "California AI bill SB 1047 aims to prevent AI disasters, but Silicon Valley warns it will cause one.[1]\n iAsk Ai Outperforms ChatGPT and All Other AI Models on MMLU Pro Test.[2]\n Tom Hanks warns followers to be wary of ‘fraudulent’ ads using his likeness through AI.[3]\n Google Cloud Partners with Dubai AI Campus to Boost Startup Growth.[4]\n  \nSources:\n [1] https://techcrunch.com/2024/08/30/california-ai-bill-sb-1047-aims-to-prevent-ai-disasters-but-silicon-valley-warns-it-will-cause-one/\n [2] https://www.marktechpost.com/2024/08/28/iask-ai-outperforms-chatgpt-and-all-other-ai-models-on-mmlu-pro-test/\n [3] https://www.nbcnews.com/news/us-news/tom-hanks-warns-followers-wary-fraudulent-ads-using-likeness-ai-rcna168966\n [4] https://www.techafricanews.com/2024/08/30/google-cloud-partners-with-dubai-ai-campus-to-boost-startup-growth/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f59r8u/oneminute_daily_ai_news_8302024/",
-          "publishedOn": "2024-08-30T23:47:10.000Z",
-          "wordCount": null,
-          "title": "One-Minute Daily AI News 8/30/2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f4ywju/tom_hanks_speaks_out_against_aipowered_fake_ads/",
-          "author": null,
-          "description": "Tom Hanks is fighting against fake ads made with AI that use his picture without permission. He’s upset because these ads could trick people into losing their money. Tom Hanks is worried because even though AI can do cool things, like help actors work longer, it can also cause problems about who owns what work and how it’s used.\n Tom says these ads are wrong because they can fool people and take their money. He also talks about the bigger problem of AI making up fake stuff, which is why rules are needed to stop misuse. Recently, movie writers even went on strike to get better control over how AI is used in movies and TV shows.\n Tom Hanks is standing up for what’s right by talking about these issues. He wants everyone, especially fans like us, to be careful and think twice about ads we see online, especially if they claim a celebrity like him is endorsing a product. As AI gets more advanced, it’s important to keep talking about how to use it safely and fairly.\n Source\n P.S. If you're into the AI latest developments, insights, and tools.\n I've got a newsletter where I share all the juicy details.\n Check it out 👇\n https://theaipromax.com/subscribe\n    submitted by    /u/fbfaran  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f4ywju/tom_hanks_speaks_out_against_aipowered_fake_ads/",
-          "publishedOn": "2024-08-30T16:01:48.000Z",
-          "wordCount": null,
-          "title": "Tom Hanks speaks out against AI-powered fake ads",
-          "imageUrl": null
         }
       ]
     },
@@ -51674,6 +51694,36 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1fscxkx/how_to_classify_dinosaurs_cnn_tutorial/",
+          "author": null,
+          "description": "https://preview.redd.it/a123jou1ysrd1.jpg?width=1280&format=pjpg&auto=webp&s=2be3dd01ae917cb4b02c2b9577f8c0932485bec7\n Welcome to our comprehensive Dinosaur Image Classification Tutorial!\n  \n We’ll learn how use Convolutional Neural Network (CNN) to classify 5 dinosaur categories , based on 200 images :\n  \n  \nData Preparation: We'll begin by downloading a curated dataset of dinosaur images, neatly categorized into five distinct classes. You'll learn how to load and preprocess the data using Python, OpenCV, and Numpy, ensuring it's perfectly ready for training.\n \nCNN Architecture: Unravel the secrets of Convolutional Neural Networks (CNNs) as we dive into their structure and discuss the different layers—convolutional, pooling, and fully connected. Learn how these layers work together to extract meaningful features from images.\n \nModel Training : Using Tensorflow and Keras , we will define and train our custom CNN model. We'll configure the loss function, optimizer, and evaluation metrics to achieve optimal performance during training.\n \nEvaluation Metrics: We'll evaluate our trained model using various metrics like accuracy and confusion matrix to measure its efficiency and robustness.\n \nPredicting New Images: Finally , We put our pre-trained model to the test! We'll showcase how to use the model to make predictions on fresh, unseen dinosaur images, and witness the magic of AI in action. \n \n You can find more tutorials, and join my newsletter here : https://eranfeit.net/\n  \n Check out our tutorial here : [ https://youtu.be/ZhTGcw0C3Dk&list=UULFTiWJJhaH6BviSWKLJUM9sg](%20https:/youtu.be/ZhTGcw0C3Dk&list=UULFTiWJJhaH6BviSWKLJUM9sg)\n  \n  \n Enjoy\n Eran\n    submitted by    /u/Feitgemel  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1fscxkx/how_to_classify_dinosaurs_cnn_tutorial/",
+          "publishedOn": "2024-09-29T19:45:23.000Z",
+          "wordCount": null,
+          "title": "How to Classify Dinosaurs | CNN tutorial 🦕",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1fro7bn/need_to_use_image_classification_on_a_device_but/",
+          "author": null,
+          "description": "I am building an automated olive separator , that separates olives that have been damaged from insects from clean olives . I cant use a simple color sensing mechanism because there are olives that have taken physical damage ( which is ok) and the marks have similar brownish color ,with the insect marks ,so the separation has to be done by the shape of the damaged area. That's why I think i need a neural network . I would really love for someone to point me to the right direction since i have not really ever touched machine learning\n    submitted by    /u/Ambitious-Soil6215  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1fro7bn/need_to_use_image_classification_on_a_device_but/",
+          "publishedOn": "2024-09-28T21:06:52.000Z",
+          "wordCount": null,
+          "title": "Need to use image classification on a device but i don't know what kind of algorithm should i look into",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1fro6b9/need_to_use_image_classification_on_a_device_but/",
+          "author": null,
+          "description": "I am building an automated olive separator , that separates olives that have been damaged from insects from clean olives . I cant use a simple color sensing mechanism because there are olives that have taken physical damage ( which is ok) and the marks have similar brownish color ,with the insect marks ,so the separation has to be done by the shape of the damaged area. That's why I think i need a neural network . I would really love for someone to point me to the right direction since i have not really ever touched machine learning \n    submitted by    /u/Ambitious-Soil6215  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1fro6b9/need_to_use_image_classification_on_a_device_but/",
+          "publishedOn": "2024-09-28T21:05:28.000Z",
+          "wordCount": null,
+          "title": "Need to use image classification on a device but i don't know what kind of algorithm should i look into",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/1fre5me/a_note_to_my_six_month_younger_self/",
           "author": null,
@@ -52176,6 +52226,76 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fshvfx/too_much_efficiency_makes_everything_worse/",
+          "author": null,
+          "description": "submitted by    /u/gwern  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fshvfx/too_much_efficiency_makes_everything_worse/",
+          "publishedOn": "2024-09-29T23:32:16.000Z",
+          "wordCount": null,
+          "title": "\"Too much efficiency makes everything worse: overfitting and the strong version of Goodhart's law\", Jascha Sohl-Dickstein 2022",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fs8zxa/reinforcement_learning_model_from_gamescreen/",
+          "author": null,
+          "description": "Hello, I don't know if this is the correct sub-reddit for it, but I have a question about reinforcement learning. I know that a model needs states to determine an action. But with a game like Pokémon I can't really get a state. So I was wondering if the game screen could be used as a state. In theory it should be possible I think, maybe I will need to extract key information from the screen by hand and create a state of that. But I would like to avoid that because I would like the model to be able to play both aspects of Pokémon, meaning exploration and fighting.\n The second issue I am thinking of is how would I determine the time and amount of reward I would give whenever the model does something. Since I am not getting any data from the game I don't know when it wins A fight or when it heals it's pokémon when they have low HP.\n Since I don't have that much experience with Machine learning, practically none, I started wondering if this was even remotely possible. Could anyone give their opinion on the idea, and give me some pointers? I would love to learn more, but I can't find a good place to start.\n    submitted by    /u/tirodokter  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fs8zxa/reinforcement_learning_model_from_gamescreen/",
+          "publishedOn": "2024-09-29T16:56:47.000Z",
+          "wordCount": null,
+          "title": "Reinforcement Learning model from gamescreen",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fs8ixh/rl_for_single_step_episodes_continuous_spaces/",
+          "author": null,
+          "description": "Hello everyone. I am currently working on a project related to the automatic tuning of the parameters of a control map. The important part of this is that I am working with continuous bounded spaces, both observations and actions, but most importantly my current implementation relies on episodes with a single step, or better a consecution of one 0 step and one actual step: The agent gives an identity map to the system just to obtain one observation (which may vary, so it is not a fixed initial condition), it chooses an action (a vector of parameters), receives a reward and conclude the episode.\n Currently I am using PPO as a commodity but I am sure there are more suited methods to tackle such a problem. Any suggestions?\n    submitted by    /u/Krnl_plt  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fs8ixh/rl_for_single_step_episodes_continuous_spaces/",
+          "publishedOn": "2024-09-29T16:36:03.000Z",
+          "wordCount": null,
+          "title": "RL for single step episodes (continuous spaces)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fs80xm/no_link_between_policy_gradient_theorem_and/",
+          "author": null,
+          "description": "Hello,\n I'm making this post just to make sure of something.\n Many deep RL resources follow the classic explanatory path of presenting the policy gradient theorem, and applying it to derive some of the most basic policy gradient algorithms like Simple Policy Gradient, REINFORCE, REINFORCE with baseline, and VPG to name a few. (eg. Spinning Up)\n Then, they go into the TRPO/PPO algorithm using a different objective. Are we clear that the TRPO and PPO algorithms don't use at all the policy gradient theorem ? And, doesn't even use the same objective ?\n I think this is often overlooked.\n Note : This paper (Proximal Policy Gradient https://arxiv.org/abs/2010.09933) applies the same ideas of clipping as in PPO but on VPG.\n    submitted by    /u/alexandretorres_  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fs80xm/no_link_between_policy_gradient_theorem_and/",
+          "publishedOn": "2024-09-29T16:14:21.000Z",
+          "wordCount": null,
+          "title": "No link between Policy Gradient Theorem and TRPO/PPO ?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fry25k/looking_for_collaborators/",
+          "author": null,
+          "description": "Hi everyone,\n I am working on a problem in offline RL. I am seeing some performance improvement, and I am looking for someone with more experience in this domain to collaborate with. If anyone is interested please DM. I am open to co-authorship.\n    submitted by    /u/Regular_Average_4169  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fry25k/looking_for_collaborators/",
+          "publishedOn": "2024-09-29T06:23:51.000Z",
+          "wordCount": null,
+          "title": "Looking for collaborators",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1frwz31/confused_by_the_equations_as_learning/",
+          "author": null,
+          "description": "Hi everyone. I am new to this field of RL. I am currently in my grad school and need to use RL algorithms for some tasks. But the problem is I am not from CS/ML background. Although I am from electrical engineering background but while watching tutorials of RL, am really getting confused. Like what is the thing with updating Q table, rewards & whattis up with all those expectations, biases..... I am really confused now. Can anyone give any advice what I should really do. Btw I understand Basic neural networks like CNN, FCN etc. I also studeied thier mathematical background. But RL is another thing. Can anyone help by giving some advice? \n    submitted by    /u/Adventurous_Fly_5564  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1frwz31/confused_by_the_equations_as_learning/",
+          "publishedOn": "2024-09-29T05:08:40.000Z",
+          "wordCount": null,
+          "title": "Confused by the equations as Learning Reinforcement Learning",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1frtvcj/dagger_gives_same_action/",
+          "author": null,
+          "description": "Hello all,\n I have a custom gazebo-gym setup and I am using imitation library to train Dagger. My actions are actually goal poses for the eef and the movement is taken care by a motion planner. \n But even after a good deal of training, 70%+ probability of true action, The model predicts the same action for all steps. \n I am not sure whats going wrong. Can somebody explain. \n here is my training code, my env code is too big\n rospy.init_node(\"dagger_training_node\", anonymous=True) env_id = \"ActiveVision2D-v2\" max_episode_steps = 10\n def _make_env(): _env = gym.make(env_id) _env = TimeLimit(_env, max_episode_steps=max_episode_steps) _env = RolloutInfoWrapper(_env) return _env env = DummyVecEnv([_make_env]) rng = np.random.default_rng(0) # Load initial demonstrations csv_file = \"state_action_1…",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1frtvcj/dagger_gives_same_action/",
+          "publishedOn": "2024-09-29T02:01:51.000Z",
+          "wordCount": null,
+          "title": "Dagger gives same action",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fri490/vibrations_on_gamma/",
           "author": null,
@@ -53525,46 +53645,6 @@
           "wordCount": null,
           "title": "Isn’t it always that bias is more important than variance?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1f5l9zl/marl_vs_hierarchical_vs_classic_rl/",
-          "author": null,
-          "description": "Hello everyone,\n I'm during my thesis for almost 2 years now and been having a problem for a long time now.\n In our problem the environment is made up out of multiple tools that can be manipulated in order to achieve a desired solution. Each tool is split into multiple parameters that make it up. The reward function is a distance from the desired output of the system.\n The environment can be changed by adding different tools same or different kinds of the existing ones. You can have multiple instances of the same kind of tool.\n The first implementation we tried was a single agent that operates all the parameters at once using REINFORCE and A2C. These implementations yielded good results.\n We then tried an hierarchical approach using OptionCritic where each option is an agent, kind of feudal model. This approach outperformed the previous one,\n We continued on and tried adding different types of tools and we were able to solve the problem where we have 1 distinct tool of each type. We solved it using the OptionCritic algorithm.\n Later we changed the environment to have 2 tools of the same type and then everything stopped working.\n This lead us try and go back to classic algorithms but this feels incorrect. I'm trying to make sense of my doubts to my instructor, but he refuses to listen.\n All this background leads to my questions now.\n  \nWhen do you consider different actions as different agents or as the same agent making 1 aggregated action at once?\n When do you try to solve the problem with MARL / Hierarchical / Classic RL?\n  \nThanks everyone,\n A very tired master's student\n    submitted by    /u/sagivborn  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1f5l9zl/marl_vs_hierarchical_vs_classic_rl/",
-          "publishedOn": "2024-08-31T11:39:41.000Z",
-          "wordCount": null,
-          "title": "MARL vs Hierarchical vs Classic RL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1f5gvpj/training_a_dqn_in_a_froggerlike_game/",
-          "author": null,
-          "description": "Hey! I’m currently developing a frogger-like game for learning more about DQNs, but I stumbled upon a couple of problems that I’m not sure how to solve.\n So essentially, the player moves in a grid. Every action (Up, down, left, right) moves it one grid cell. There’s also the stay action which doesn’t do anything. Everything else in the world is not a grid - the cars and the train move in a varying constant speed. The goal is for the player to reach the ending as fast as possible.\n So the first problem I’m facing is how exactly to train the network. Every tutorial I’ve read/watched had the agent take an action in every single frame. In my case, letting the agent take an action every frame might not be a good idea (I think so). This is because it would move way to fast, and when I let the tr…",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1f5gvpj/training_a_dqn_in_a_froggerlike_game/",
-          "publishedOn": "2024-08-31T06:29:23.000Z",
-          "wordCount": null,
-          "title": "Training a DQN in a frogger-like game",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1f59ayo/loss_curve_for_flappy_bird_dqn_increases_but_the/",
-          "author": null,
-          "description": "I trained a Flappy Bird agent using a Deep Q Network. The score in the first plot is ~equal to the number of pipes that the bird cross (I'm using the Flappy Bird Gymnasium, the third-party openai gym), so the model has definitely learned to play the game, but the loss increased the whole time. I'm fairly new to RL, but I've not seen this behavior before in my previous ML experience. In your experience, what does this signify? Also, I realize that I should have trained longer to take advantage of more model exploitation during training. This was my first run and I plan on running the saved DQN for longer still.\n https://preview.redd.it/av03fnkbxvld1.png?width=1200&format=png&auto=webp&s=0b3684c3dd56dee7c56a8af44e8deeed22fde027\n    submitted by    /u/Goober329  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1f59ayo/loss_curve_for_flappy_bird_dqn_increases_but_the/",
-          "publishedOn": "2024-08-30T23:25:34.000Z",
-          "wordCount": null,
-          "title": "Loss Curve for Flappy Bird DQN increases, but the model is learning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1f53rnj/what_algorithm_should_i_try_for_a_multiagent_card/",
-          "author": null,
-          "description": "I'm currently learning RL and AI, and experimented with DQN and Double DQN in PyTorch.\n I'd like to try to implement a multi-agent card game, and I'd like to hear your opinions for the best way to get started. Since it is an imperfect information game, I think the simpler methods will not work for this.\n I built a proof of concept for this with 4 Double DQN agents playing against each other, and each model gets assigned a player from the environment, and makes its plays. As the state, I gave it the count of all types of cards in the table (13 values), the counts of all types of cards in its hand (13 values), and some more information about the game.\n Unfortunately as expected it was unable to learn much, so I'm looking for some other options.\n Here is the game: https://bicyclecards.com/how-to-play/presidents\n Also, one problem I encountered is that the model had problems choosing an action which was valid (it usually didn't have enough cards of the type it chose, or it didn't match what was on the table).\n    submitted by    /u/Neither_Butterfly_51  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1f53rnj/what_algorithm_should_i_try_for_a_multiagent_card/",
-          "publishedOn": "2024-08-30T19:25:06.000Z",
-          "wordCount": null,
-          "title": "What algorithm should I try for a multi-agent card game?",
-          "imageUrl": null
         }
       ]
     },
@@ -53585,6 +53665,16 @@
       "feedUrl": "http://feeds.feedburner.com/FeaturedBlogPosts-DataScienceCentral?format=xml",
       "siteUrl": "https://www.datasciencecentral.com/",
       "articles": [
+        {
+          "id": "https://www.datasciencecentral.com/?p=65911",
+          "author": "Bill Schmarzo",
+          "description": "A few weeks ago, I created a YouTube video to discuss the importance of an outside-in perspective to the value creation challenge. The key to a successful business is its ability to continuously evolve its value creation capabilities. Unfortunately, discussions about value creation often focus only on internal factors such as increasing sales, retaining customers,… Read More »Value Creation Requires An Outside-In Mentality\nThe post Value Creation Requires An Outside-In Mentality appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/value-creation-requires-an-outside-in-mentality/",
+          "publishedOn": "2024-09-29T12:19:43.000Z",
+          "wordCount": 6371,
+          "title": "Value Creation Requires An Outside-In Mentality",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/Slide1-3.png"
+        },
         {
           "id": "https://www.datasciencecentral.com/?p=65884",
           "author": "Rob Turner",
@@ -53909,26 +53999,6 @@
           "wordCount": 7343,
           "title": "30 Features that Dramatically Improve LLM Performance – Part 2",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/py-distill.png"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=65689",
-          "author": "Bill Schmarzo",
-          "description": "Leveraging AI and data effectively has become crucial to organizational success in a rapidly evolving digital landscape. The “Thinking Like a Data Scientist” (TLADS) methodology, detailed in the second edition of my book “The Art of Thinking Like a Data Scientist,” offers a comprehensive framework for integrating data science, design thinking, and economics to achieve… Read More »Blending Data Science and Design Thinking for Strategic Advantage\nThe post Blending Data Science and Design Thinking for Strategic Advantage appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/blending-data-science-and-design-thinking-for-strategic-advantage/",
-          "publishedOn": "2024-08-31T12:29:04.000Z",
-          "wordCount": 6562,
-          "title": "Blending Data Science and Design Thinking for Strategic Advantage",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/08/Slide1-4.png"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=65685",
-          "author": "Alan Morrison",
-          "description": "Image by This_is_Engineering from Pixabay Are you friends with a big-company executive who has clout? Maybe they manage a big AI program, or they head up a line of business or department.  Ideally, they have carte blanche to make substantial changes in how their organization is structured and run.  And they can obtain buy-in from… Read More »Help a friendly, influential executive build a foundation for a data empire on a budget\nThe post Help a friendly, influential executive build a foundation for a data empire on a budget appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/help-a-friendly-influential-executive-build-a-foundation-for-a-data-empire-on-a-budget/",
-          "publishedOn": "2024-08-30T13:35:00.000Z",
-          "wordCount": 6486,
-          "title": "Help a friendly, influential executive build a foundation for a data empire on a budget",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/08/engineer-4941162_1280-scaled.jpg"
         }
       ]
     },
@@ -54125,36 +54195,6 @@
           "publishedOn": "2024-08-31T17:33:40.000Z",
           "wordCount": 1313,
           "title": "Ancient accurate approximation for sine",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=245684",
-          "author": "John",
-          "description": "This post will give three ways to multiply by π taken from [1]. Simplest approach Here’s a very simple observation about π : π ≈ 3 + 0.14 + 0.0014. So if you need to multiply by π, you need to multiply by 3 and by 14. Once you’ve multiplied by 14 once, you can […]\nMentally multiply by π first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2024/08/31/mentally-multiply-by-pi/",
-          "publishedOn": "2024-08-31T12:16:13.000Z",
-          "wordCount": 1472,
-          "title": "Mentally multiply by π",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=245683",
-          "author": "John",
-          "description": "For a standard normal random variable Z, the probability that Z exceeds some cutoff z is given by If you wanted to compute this probability numerically, you could obviously evaluate its defining integral numerically. But as is often the case in numerical analysis, the most obvious approach is not the best approach. The range of […]\nA better integral for the normal distribution first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2024/08/31/craigs-formula/",
-          "publishedOn": "2024-08-31T11:45:09.000Z",
-          "wordCount": 1486,
-          "title": "A better integral for the normal distribution",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=245681",
-          "author": "John",
-          "description": "Take a compass and draw a circle on a globe. Then take the same compass, opened to the same width, and draw a circle on a flat piece of paper. Which circle has more area? If the circle is small compared to the radius of the globe, then the two circles will be approximately equal […]\nDrawing with a compass on a globe first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2024/08/30/compass-on-globe/",
-          "publishedOn": "2024-08-30T13:09:19.000Z",
-          "wordCount": 1731,
-          "title": "Drawing with a compass on a globe",
           "imageUrl": null
         }
       ]
