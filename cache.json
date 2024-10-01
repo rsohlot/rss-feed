@@ -125,6 +125,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/machine-learning/",
       "articles": [
         {
+          "id": "90d1dc693a1c49c40da398aa927fadf660980c22",
+          "author": "Jay Pillai",
+          "description": "In this post, we provide a step-by-step approach of fine-tuning a Mistral model using SageMaker and import it into Amazon Bedrock using the Custom Import Model feature.",
+          "link": "https://aws.amazon.com/blogs/machine-learning/import-a-question-answering-fine-tuned-model-into-amazon-bedrock-as-a-custom-model/",
+          "publishedOn": "2024-09-30T20:42:50.000Z",
+          "wordCount": 3438,
+          "title": "Import a question answering fine-tuned model into Amazon Bedrock as a custom model",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/30/Screenshot-2024-09-30-at-12.58.25 PM.png"
+        },
+        {
+          "id": "6b82b9787f5b2d5610b089a97a9cafe68c0436c0",
+          "author": "Joe Wilson",
+          "description": "In this blog post, we will show you how to leverage AI21 Labs’ Task-Specific Models (TSMs) on AWS to enhance your business operations. You will learn the steps to subscribe to AI21 Labs in the AWS Marketplace, set up a domain in Amazon SageMaker, and utilize AI21 TSMs via SageMaker JumpStart.",
+          "link": "https://aws.amazon.com/blogs/machine-learning/using-task-specific-models-from-ai21-labs-on-aws/",
+          "publishedOn": "2024-09-30T20:35:57.000Z",
+          "wordCount": 4112,
+          "title": "Using task-specific models from AI21 Labs on AWS",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/30/Screenshot-2024-09-30-at-8.45.21 AM-1125x630.png"
+        },
+        {
           "id": "dba7aaf59a36cb0ca3d7d2853a62e8ffee577d0d",
           "author": "Eashan Kaushik",
           "description": "In this post, we explore some ways you can use Anthropic’s Claude 3 Sonnet’s vision capabilities to accelerate the process of moving from architecture to the prototype stage of a solution.",
@@ -44611,6 +44631,136 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1ftb4hk/r_synthpai_a_synthetic_dataset_for_personal/",
+          "author": null,
+          "description": "[Accepted to NeurIPS'24 D&B]\n TL;DR: We build an LLM-agent simulation framework for Reddit to generate synthetic data to advance inference-based privacy research.\n Preprint: https://arxiv.org/abs/2406.07217\n In our latest research paper we present SynthPAI - a synthetic dataset which provides a foundation for a new benchmark on evaluating LLM-based personal attribute inferences. We have built an LLM-agent simulation framework for Reddit to generate synthetic data to advance inference-based privacy research. Using this framework, we constructed a PAI (Private Attribute Inference) dataset consisting of 7800+ comments and 300 synthetic profiles alongside human-verified attribute labels. We showed that our comments exhibit high fidelity (with humans unable to distinguish them from real comments) and informativeness for PAI research, allowing us to draw the same qualitative conclusions as on real-world data across various experiments. \n    submitted by    /u/equin_x  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1ftb4hk/r_synthpai_a_synthetic_dataset_for_personal/",
+          "publishedOn": "2024-10-01T00:27:21.000Z",
+          "wordCount": null,
+          "title": "[R] SynthPAI: A Synthetic Dataset for Personal Attribute Inference",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1ftaw4e/d_pytorch_native_architecture_optimization_torchao/",
+          "author": null,
+          "description": "https://pytorch.org/blog/pytorch-native-architecture-optimization/\n    submitted by    /u/20231027  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1ftaw4e/d_pytorch_native_architecture_optimization_torchao/",
+          "publishedOn": "2024-10-01T00:16:04.000Z",
+          "wordCount": null,
+          "title": "[D] PyTorch Native Architecture Optimization: torchao",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1ft2v10/project_a_lossless_compression_library_taliored/",
+          "author": null,
+          "description": "If you're looking to cut down on download times from Hugging Face and also help reduce their server load—(Clem Delangue mentions HF handles a whopping 6PB of data daily!)\n —> you might find ZipNN useful.\n ZipNN is an open-source Python library, available under the MIT license, tailored for compressing AI models without losing accuracy (similar to Zip but tailored for Neural Networks).\n It uses lossless compression to reduce model sizes by 33%, saving third of your download time.\n ZipNN has a plugin to HF so you only need to add one line of code.\n Check it out here:\n https://github.com/zipnn/zipnn\n There are already a few compressed models with ZipNN on Hugging Face, and it's straightforward to upload more if you're interested.\n The newest one is Llama-3.2-11B-Vision-Instruct-ZipNN-Compressed\n Take a look at this Kaggle notebook:\n For a practical example of Llama-3.2 you can at this Kaggle notebook:\n https://www.kaggle.com/code/royleibovitz/huggingface-llama-3-2-example\n More examples are available in the ZipNN repo:\n https://github.com/zipnn/zipnn/tree/main/examples\n    submitted by    /u/Candid_Raccoon2102  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1ft2v10/project_a_lossless_compression_library_taliored/",
+          "publishedOn": "2024-09-30T18:32:24.000Z",
+          "wordCount": null,
+          "title": "[Project] A lossless compression library taliored for AI Models - Reduce transfer time of Llama3.2 by 33%",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1ft05yi/d_benchmarking_llm_hallucination_detection_methods/",
+          "author": null,
+          "description": "I came across this helpful Towards Data Science article for folks building RAG systems and concerned about hallucinations.\n If you're like me, keeping user trust intact is a top priority, and unchecked hallucinations undermine that. The article benchmarks many hallucination detection methods across 4 RAG datasets (RAGAS, G-eval, DeepEval, TLM, and LLM self-evaluation).\n Check it out if you're curious how well these tools can automatically catch incorrect RAG responses in practice. Would love to hear your thoughts if you've tried any of these methods, or have other suggestions for effective hallucination detection!\n    submitted by    /u/cmauck10  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1ft05yi/d_benchmarking_llm_hallucination_detection_methods/",
+          "publishedOn": "2024-09-30T16:42:39.000Z",
+          "wordCount": null,
+          "title": "[D] Benchmarking LLM Hallucination Detection Methods",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fsz97a/d_whats_the_best_way_to_quantise_a_model/",
+          "author": null,
+          "description": "I'm working with an 80MB model from the SentenceTransformers library. It's great, but I need it to be faster for my use case. For reference, the base model produces 2000 embeddings per second.\n I've tried quantising the model using PyTorch and ONNX.\n PyTorch Quantisation @ 8bit\n To quantise in PyTorch I used the following code:\n import torch from sentence_transformers import SentenceTransformer torch.backends.quantized.engine = 'qnnpack' model = SentenceTransformer(\"all-MiniLM-L6-v2\", device=\"cpu\") quantized_model = torch.quantization.quantize_dynamic( model, {torch.nn.Linear}, # layers to quantize dtype=torch.qint8 # quantization data type ) \n To my surprise, this halved the model's performance! The quantised model managed 1000 embeddings per second.\n ONNX Quantisation @ 8bit\n ONNX quantisation was more involved, so I won't post all the code, but the end result was a third of the model's performance. Managing just 700 embeddings a second.\n Why does this happen?\n I researched this, and it could be because my Apple Silicon chip (M3 Pro) doesn't have accelerations for 8-bit numbers. I find this hard to believe, as Ollama quantises to 4 bits and runs incredibly fast on my machine. That leaves operator error.\n What am I doing wrong? Is there a foolproof way to quantise a model that I'm missing?\n    submitted by    /u/FPGA_Superstar  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fsz97a/d_whats_the_best_way_to_quantise_a_model/",
+          "publishedOn": "2024-09-30T16:05:57.000Z",
+          "wordCount": null,
+          "title": "[D] What's the best way to Quantise a model?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fsx8q2/d_resources_for_staying_updated_on_recent_papers/",
+          "author": null,
+          "description": "Hello, I’m looking for time-saving ways to stay updated on the latest research papers from conferences like CVPR, ECCV, NeurIPS, ICML, and journals like TPAMI. I know these conferences/journals publish cutting-edge work, but keeping track of all the new papers gets overwhelming at times. I’m interested in resources that summarize or highlight the most significant papers, like blogs, newsletters, or curated lists. Does anyone know of any:\n  \nblogs or newsletters that regularly cover the latest papers from these conferences and journals\n twitter discussions, subreddits, medium blogs, or personal websites run by researchers who highlight or summarize key papers (I've heard about paperswithcode and 2-minute papers but are they quick with such newly published papers?)\n curated paper repositories (github or any websites) where people organize papers based on recent conferences/journals?\n  \nI’m particularly interested in resources that focus on computer vision, neural network architectures, and their optimization. I’d appreciate any suggestions or tips. Thanks in advance!\n    submitted by    /u/Cool-Economy3492  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fsx8q2/d_resources_for_staying_updated_on_recent_papers/",
+          "publishedOn": "2024-09-30T14:44:03.000Z",
+          "wordCount": null,
+          "title": "[D] Resources for staying updated on recent papers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fsv7js/discussion_what_are_some_the_informative_blogs_on/",
+          "author": null,
+          "description": "can you share them\n    submitted by    /u/Internal_Complaint64  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fsv7js/discussion_what_are_some_the_informative_blogs_on/",
+          "publishedOn": "2024-09-30T13:12:20.000Z",
+          "wordCount": null,
+          "title": "[Discussion] What are some the informative blogs on machine learning , Deep learning or NLP?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fstn9m/p_i_tried_to_map_the_most_recurrent_and_popular/",
+          "author": null,
+          "description": "Hey fellow AI enthusiasts and developers! I've been working on a project to analyze and visualize the most common technical challenges in AI development by looking at Reddit posts on dedicated subs.\n Project Goal\n The main objective of this project is to identify and track the most prevalent and trending technical challenges, implementation problems, and conceptual hurdles related to AI development. By doing this, we can:\n  \nHelp developers focus on the most relevant skills and knowledge areas\n Guide educational content creators in addressing the most pressing issues\n Provide insights for researchers on areas that need more attention or solutions\n  \nHow It Works\n  \nData Collection: I fetched the hottest 200 posts from each of the followingAI-related subreddits: r/learnmachinelearning, r/Ar…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fstn9m/p_i_tried_to_map_the_most_recurrent_and_popular/",
+          "publishedOn": "2024-09-30T11:53:28.000Z",
+          "wordCount": null,
+          "title": "[P] I tried to map the most recurrent and popular challenges in AI by analyzing hundreds of Reddit posts.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fssp75/n_reinforcement_learning_cheat_sheet/",
+          "author": null,
+          "description": "Hi everyone!\n I just published my first post on Medium and also created a Reinforcement Learning Cheat Sheet. 🎉\n I'd love to hear your feedback, suggestions, or any thoughts on how I can improve them!\n Feel free to check them out, and thanks in advance for your support! 😊\n https://medium.com/@ruipcf/reinforcement-learning-cheat-sheet-39bdecb8b5b4\n    submitted by    /u/Prudent_Nose921  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fssp75/n_reinforcement_learning_cheat_sheet/",
+          "publishedOn": "2024-09-30T10:56:25.000Z",
+          "wordCount": null,
+          "title": "[N] Reinforcement Learning Cheat Sheet",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fssh5l/n_geoz_a_regionbased_visualization_of_clustering/",
+          "author": null,
+          "description": "Wanted to share some EXCITING news with you all! :D\n We've just released GeoZ 2.0, a major update to our geospatial data visualization library, which I shared its initial release in this subreddit more than one year ago under the same title sans the 2.0 moniker xD\n 🚀 Key highlights:\n * Awesome new Logo for the library\n * New voronoi_regions_plot function for mapping sparse datasets\n * Global settings for consistent styling across all plots\n * Automatic aspect ratio calculation for more accurate map proportions\n * Expanded color palette supporting up to 20 distinct clusters\n * Jupyter Notebook examples for each function\n * Performance optimizations with parallel processing support\n The voronoi_regions_plot function is based on collaborative work with researchers from Hohai University (Fang et al., 2024). This new method addresses one of the major weaknesses in GeoZ, which was mapping datasets with small number of samples. It does this by creating Voronoi diagram and coloring regions within the same cluster by the same color.\n We've also made significant improvements to existing functions, enhanced documentation, and ensured compatibility with pandas 2.x.\n Check out the full changelog of GeoZ 2.0 at https://github.com/Ne-oL/geoz/releases/tag/v2.0.1\n you can install it in any python environment with a simple:\n pip install geoz\n We're excited to see how you'll use these new features in your Machine Learning and geospatial projects. Happy mapping!\n Refs:\n Jinzhu Fang, Yibo Yang, Peng Yi, Ling Xiong, Jijie Shen, A. Ahmed, K. ElHaj, D. Alshamsi, A. Murad, S. Hussein, A. Aldahan, Geospatial stable isotopes signatures of groundwater in United Arab Emirates using machine learning, Journal of Hydrology: Regional Studies, Volume 55, 2024, 101938, ISSN 2214-5818,\n    submitted by    /u/Ne-oL  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fssh5l/n_geoz_a_regionbased_visualization_of_clustering/",
+          "publishedOn": "2024-09-30T10:41:07.000Z",
+          "wordCount": null,
+          "title": "[N] GeoZ: a Region-Based Visualization of Clustering Algorithms 2.0",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fsq2vp/d_experimenting_with_llama3_codebase_and_google/",
+          "author": null,
+          "description": "Inspired by karpathy's recent tweet about the NotebookLM project, I provided the codebase of the Llama-3 architecture to NLM and used Rag, along with SERP APIs, to find the perfect images and sync them with the generated audio (few images I added myself)\n The result exceeded my expectations. Google's NotebookLM is truly amazing! :)\n LLAMA-3 Explained by Google NotebookLM\n Here is the Youtube link as well : https://www.youtube.com/watch?v=4Ns6aFYLWEQ\n    submitted by    /u/aadityaura  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fsq2vp/d_experimenting_with_llama3_codebase_and_google/",
+          "publishedOn": "2024-09-30T07:39:34.000Z",
+          "wordCount": null,
+          "title": "[D] Experimenting with Llama-3 codebase and Google NotebookLM – Mind-Blowing Results!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fspn1s/convert_any_github_repo_to_a_single_text_file/",
+          "author": null,
+          "description": "Hey folks! 👋\n I know there are several similar tools out there, but here’s why you should check out mine:\n  \nFree and live right now 💸\n Works with private repos 🛡️\n Runs entirely in your browser—no data sent anywhere, so it’s completely secure 🔒\n Works with GitHub URLs to subdirectories 📁\n Supports tags, branches, and commit SHAs 🏷️\n Lets you include or exclude specific files 📂\n  \n🔗 Try it out here\n 🔗 Source code\n Give it a spin and let me know what you think! 😊\n repo2txt Demo\n    submitted by    /u/Beautiful-Novel1150  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fspn1s/convert_any_github_repo_to_a_single_text_file/",
+          "publishedOn": "2024-09-30T07:05:37.000Z",
+          "wordCount": null,
+          "title": "🚀 Convert any GitHub repo to a single text file, perfect for LLM prompting use \"[Project]\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1fsnzl5/r_looking_for_endorsement_in_arxiv_csai/",
+          "author": null,
+          "description": "Hello, I am trying to submit my paper to a conference but want to put the pre-print in arxiv first. This is my first work and thus will be requiring an endorsement.\n Please go through the paper details below and if you are an eligible endorser and would like to see the pre-print and decide if you would like to endorse me, please comment so I can DM you.\n Paper details:\n Title: Representing Web Applications As Knowledge Graphs\n Abstract: Traditional methods for crawling and parsing web applications rely on extracting hyperlinks from the initial page and recursively scraping the linked pages. This approach gen- erates a graph where each node represents raw, unstructured data from a given endpoint, and edges signify transitions between pages via hyperlinks. However, these methods often fail to capture the dynamic and interactive nature of modern web applications. In contrast, the proposed solution models each node as a representation of the current state of the web application, with edges denoting specific actions taken to modify that state. This shift enables a more interpretable and functional representation of web applications, providing richer insights for downstream tasks.\n Thank you in advance!\n    submitted by    /u/BiryaniSenpai  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1fsnzl5/r_looking_for_endorsement_in_arxiv_csai/",
+          "publishedOn": "2024-09-30T05:08:30.000Z",
+          "wordCount": null,
+          "title": "[R] Looking for endorsement in arxiv - cs.AI",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1fshs76/d_pretrained_models_for_humanoid_animations/",
           "author": null,
           "description": "There are a lot of open/free models out there for image related projects. Are there any comparable models for human animations? It seems like GAN based models should be able to generate new, realistic motions once they're trained on existing animation data. But I can't find anything useful out there. I'm trying to run some training/experiments myself locally but not having much luck with the results. Any insights, pointers are greatly appreciated!\n    submitted by    /u/gamesntech  \n [link]   [comments]",
@@ -48749,166 +48899,6 @@
           "wordCount": null,
           "title": "[D] Found this Open-Sourced Codebase implementing Shazam's ML algo",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f6d4pb/p_developing_handwritten_text_recognition_for/",
-          "author": null,
-          "description": "submitted by    /u/martin_lellep  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f6d4pb/p_developing_handwritten_text_recognition_for/",
-          "publishedOn": "2024-09-01T12:22:07.000Z",
-          "wordCount": null,
-          "title": "[P] Developing handwritten text recognition for Xournal++ & its 10k+ users using deep learning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f6d0pi/d_are_commerical_llms_making_up_research_papers/",
-          "author": null,
-          "description": "When I am asking ChatGPT for references/ pointers to a specific research question, it often reports papers that do not exit (although the authors do exit), or paper titles that do not match with the link provided in the answer. Has anyone else noticed that? \n For example, the papers \"Rate-Distortion Theory for Probability Measures\" or \"Rate-Distortion Theory on Function Spaces\" do not seem to exist\n Why doesn't OpenAI add censorship stages for easy-to-prove factuality checks such as broken or mismatched links?\n https://preview.redd.it/1tmkqlogw6md1.png?width=893&format=png&auto=webp&s=48e723551683cbc30e7ecba0d8cd8e44cd77aca7\n https://preview.redd.it/qgxmgdpgw6md1.png?width=921&format=png&auto=webp&s=b95442b09205bad70b547b328446d7bce8b39489\n    submitted by    /u/South-Conference-395  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f6d0pi/d_are_commerical_llms_making_up_research_papers/",
-          "publishedOn": "2024-09-01T12:15:47.000Z",
-          "wordCount": null,
-          "title": "[D] Are commerical LLms making up research papers?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f69jjp/pr_experimental_artificial_neural_network_which/",
-          "author": null,
-          "description": "As a personal research-project in my spare time, I created a custom experimental artificial neural network as free open-source project, which can work on unnormalized and unfiltered input-data, like sensor measurement data. The network grow over time by creating new nodes and connections between the nodes while learning new data. The base concept was created by myself and the code was written from scratch without any frameworks. The goal behind the project was/is to create something unique, which works more like the human brain. It wasn't targeted to get a higher accuracy than classical artificial neural networks like Tensorflow, but to be more flexible and easier to use and more efficient in resource-consumption for big amounts of inputs and users.\n When I started to learn the theoretical…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f69jjp/pr_experimental_artificial_neural_network_which/",
-          "publishedOn": "2024-09-01T08:19:59.000Z",
-          "wordCount": null,
-          "title": "[P][R] Experimental artificial neural network, which grows over time while learning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f64wqa/3d_medical_images_d/",
-          "author": null,
-          "description": "I have done bit of 2D image analysis and some computer vision tasks for 2D image but I am new to 3D medical images, I am using SimpleITK to process these 3D images and I find it bit difficult to understand (depth channel height width bla bla bla),. Could anyone suggest me some good resources (can be videos) so that I can understand 3D medical images from basics.?\n    submitted by    /u/Odd_Breath_6685  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f64wqa/3d_medical_images_d/",
-          "publishedOn": "2024-09-01T03:18:54.000Z",
-          "wordCount": null,
-          "title": "3D medical Images [D]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f63rhf/d_selfpromotion_thread/",
-          "author": null,
-          "description": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc.\n Please mention the payment and pricing requirements for products and services.\n Please do not post link shorteners, link aggregator websites , or auto-subscribe links.\n \n Any abuse of trust will lead to bans.\n Encourage others who create new posts for questions to post here instead!\n Thread will stay alive until next one so keep posting after the date in the title.\n \n Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.\n    submitted by    /u/AutoModerator  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f63rhf/d_selfpromotion_thread/",
-          "publishedOn": "2024-09-01T02:15:10.000Z",
-          "wordCount": null,
-          "title": "[D] Self-Promotion Thread",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f63fxx/r_identifying_and_clustering_counter/",
-          "author": null,
-          "description": "Paper: https://openreview.net/forum?id=2D36otXvBE\n Abstract: \n  \nHow can balance be quantified in game settings? This question is crucial for game designers, especially in player-versus-player (PvP) games, where analyzing the strength relations among predefined team compositions—such as hero combinations in multiplayer online battle arena (MOBA) games or decks in card games—is essential for enhancing gameplay and achieving balance. We have developed two advanced measures that extend beyond the simplistic win rate to quantify balance in zero-sum competitive scenarios. These measures are derived from win value estimations, which employ strength rating approximations via the Bradley-Terry model and counter relationship approximations via vector quantization, significantly reducing the computa…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f63fxx/r_identifying_and_clustering_counter/",
-          "publishedOn": "2024-09-01T01:57:59.000Z",
-          "wordCount": null,
-          "title": "[R] Identifying and Clustering Counter Relationships of Team Compositions in PvP Games for Efficient Balance Analysis",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5ynxw/d_photo_sorting_app_making_albums_guided_by/",
-          "author": null,
-          "description": "I recently got married (thanks). I received around 800 photos. This is great for me and the family.\n But I want to create smaller, more focused albums for different groups of people. This or that group of friends, people from work, more distant family, etc.\n I don't want to sit and craft every album myself. I want some help.\n What I would like is to chat with a system that helps me curate those albums in real time. \n Some prompt I'm thinking would be like: \"Create an album from this album for my family from the north. Put all their photos, but also add some general pics from a mix of all family, the ceremony, the party.\" Then I could give it feedback, like: \"Add a few photos of me and my wife dancing together\".\n Is there anything like this? If no, should it exist, and should we create it? \n Or should I just wait for Google: https://blog.google/products/photos/ask-photos-google-io-2024/\n    submitted by    /u/TheJulianInside  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5ynxw/d_photo_sorting_app_making_albums_guided_by/",
-          "publishedOn": "2024-08-31T21:57:14.000Z",
-          "wordCount": null,
-          "title": "[D] Photo sorting app, making albums guided by prompts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5y90a/d_anyone_get_into_icmla_2024/",
-          "author": null,
-          "description": "Did anyone get their paper accepted into ICMLA this year? \n    submitted by    /u/Hot-Acanthisitta-480  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5y90a/d_anyone_get_into_icmla_2024/",
-          "publishedOn": "2024-08-31T21:37:57.000Z",
-          "wordCount": null,
-          "title": "[D] Anyone get into ICMLA 2024?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5xnnr/d_last_week_in_medical_ai_top_research/",
-          "author": null,
-          "description": "Top papers of the week (August 24-31)\n  \nMultiMed: Multimodal Medical Benchmark \n  \nThis paper present MultiMed, a benchmark for diverse medical modalities and tasks. MultiMed consists of 2.56 million samples across ten medical modalities such as medical reports, pathology, genomics, and protein data.\n \n \nA Foundation model for generating chest X-ray images \n  \nThis paper presents a latent diffusion model pre-trained on pairs of natural images and text descriptors to generate diverse and visually plausible synthetic chest X-ray images whose appearance can be controlled with free-form medical text prompts.\n \n \nMEDSAGE: Medical Dialogue Summarization \n  \nThe paper leverage the incontext learning capabilities of LLMs and instruct them to generate ASR-like errors based on a few available medic…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5xnnr/d_last_week_in_medical_ai_top_research/",
-          "publishedOn": "2024-08-31T21:10:43.000Z",
-          "wordCount": null,
-          "title": "[D] Last Week in Medical AI: Top Research Papers/Models🏅(August 24 - August 31, 2024)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5wema/research_labs_working_on_foundation_architecture/",
-          "author": null,
-          "description": "submitted by    /u/Thick-brain-dude  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5wema/research_labs_working_on_foundation_architecture/",
-          "publishedOn": "2024-08-31T20:15:21.000Z",
-          "wordCount": null,
-          "title": "[R]esearch labs working on Foundation Architecture in Europe [D]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5w23s/p_ai_plays_chess_6x6_new_algorithm/",
-          "author": null,
-          "description": "I created a new machine learning algorithm to play board games and trained it to play 6x6 chess. After five days of training on a consumer-grade PC, I can't win a single game against it. Here's the GitHub link with the implementation, weights, and an interactive demo: https://github.com/omikad/probs . Please advice other board games to try\n    submitted by    /u/Putrid-Start-3520  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5w23s/p_ai_plays_chess_6x6_new_algorithm/",
-          "publishedOn": "2024-08-31T19:59:56.000Z",
-          "wordCount": null,
-          "title": "[P] AI plays chess 6x6, new algorithm",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5twq4/n_yolo_vision_2024/",
-          "author": null,
-          "description": "submitted by    /u/Ultralytics_Burhan  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5twq4/n_yolo_vision_2024/",
-          "publishedOn": "2024-08-31T18:23:52.000Z",
-          "wordCount": null,
-          "title": "[N] YOLO Vision 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5ojdu/d_what_ive_learned_building_mlops_systems_for/",
-          "author": null,
-          "description": "Here is what I've learned building MLOps systems for four years http://mburaksayici.com/blog/2024/08/29/what-ive-learned-building-mlops-systems-for-four-years.html\n    submitted by    /u/mburaksayici  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5ojdu/d_what_ive_learned_building_mlops_systems_for/",
-          "publishedOn": "2024-08-31T14:27:27.000Z",
-          "wordCount": null,
-          "title": "[D] What I've learned building MLOps systems for four years",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5o0kj/nr_releasing_relaion_5b_transparent_iteration_on/",
-          "author": null,
-          "description": "submitted by    /u/Jamais_Vu206  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5o0kj/nr_releasing_relaion_5b_transparent_iteration_on/",
-          "publishedOn": "2024-08-31T14:03:20.000Z",
-          "wordCount": null,
-          "title": "[N][R] Releasing Re-LAION 5B: transparent iteration on LAION-5B with additional safety fixes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5nj4n/d_cpu_recommendation_amd_or_intel_for_ai/",
-          "author": null,
-          "description": "Hello r/MachineLearning, I am about to build my first PC and I would like to know what the best CPU for AI is. I understand that the GPU does much of the heavy lifting but I would like a good CPU recommendation. I have also heard that intel is the best for AI by a friend. I also game a lot. Please help me pick a right CPU(Consumer Grade only). \n    submitted by    /u/Excellent_Respond330  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5nj4n/d_cpu_recommendation_amd_or_intel_for_ai/",
-          "publishedOn": "2024-08-31T13:40:53.000Z",
-          "wordCount": null,
-          "title": "[D] CPU Recommendation AMD or Intel for AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1f5n5j7/d_how_can_i_implement_onlineincremental_learning/",
-          "author": null,
-          "description": "Hi everyone, I'm working on training FastText incrementally, as new individual data samples arrive. Since FastText is trained using SGD, I figured it should be possible. However, I haven't found a way to do this with the Python API yet. It's possible to load pretrained word vectors, and I'm thinking we could save and load the trained vectors to implement this, but I'm worried it might create too much overhead. Has anyone figured out a way to handle this? Any suggestions?\n    submitted by    /u/hellowrld3  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1f5n5j7/d_how_can_i_implement_onlineincremental_learning/",
-          "publishedOn": "2024-08-31T13:22:24.000Z",
-          "wordCount": null,
-          "title": "[D] How Can I Implement Online/Incremental Learning with FastText?",
-          "imageUrl": null
         }
       ]
     },
@@ -49007,6 +48997,26 @@
       "feedUrl": "http://news.mit.edu/rss/topic/artificial-intelligence2",
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
+        {
+          "id": "https://news.mit.edu/2024/ai-pareidolia-can-machines-spot-faces-in-inanimate-objects-0930",
+          "author": "Rachel Gordon | MIT CSAIL",
+          "description": "New dataset of “illusory” faces reveals differences between human and algorithmic face detection, links to animal face recognition, and a formula predicting where people most often perceive faces.",
+          "link": "https://news.mit.edu/2024/ai-pareidolia-can-machines-spot-faces-in-inanimate-objects-0930",
+          "publishedOn": "2024-09-30T13:00:00.000Z",
+          "wordCount": 1884,
+          "title": "AI pareidolia: Can machines spot faces in inanimate objects?",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202409/MIT-Faces-In-Things_0.jpg"
+        },
+        {
+          "id": "https://news.mit.edu/2024/helping-robots-focus-on-objects-that-matter-0930",
+          "author": "Jennifer Chu | MIT News",
+          "description": "A new method called Clio enables robots to quickly map a scene and identify the items they need to complete a given set of tasks.",
+          "link": "https://news.mit.edu/2024/helping-robots-focus-on-objects-that-matter-0930",
+          "publishedOn": "2024-09-30T04:00:00.000Z",
+          "wordCount": 2526,
+          "title": "Helping robots zero in on the objects that matter",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202409/MIT-Scene-Tasks-01-press.jpg"
+        },
         {
           "id": "https://news.mit.edu/2024/new-mit-music-technology-computation-graduate-program-0927",
           "author": "Benjamin Daniel | School of Humanities, Arts, and Social Sciences",
@@ -49387,6 +49397,126 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1ft7fz8/using_ai_to_review_terms_and_conditions_in_order/",
+          "author": null,
+          "description": "Just as the title says\n    submitted by    /u/AustinMurre  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1ft7fz8/using_ai_to_review_terms_and_conditions_in_order/",
+          "publishedOn": "2024-09-30T21:39:43.000Z",
+          "wordCount": null,
+          "title": "Using AI to review Terms and Conditions in order to search and better understand what I am agreeing to. Does this exist?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1ft3y4e/emad_mostaque_says_that_ais_can_scale_their/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1ft3y4e/emad_mostaque_says_that_ais_can_scale_their/",
+          "publishedOn": "2024-09-30T19:16:06.000Z",
+          "wordCount": null,
+          "title": "Emad Mostaque says that AIs can scale their populations faster than humans with swarms of intelligent agents that will improve one another by checking each other's work",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1ft25yy/report_leveraging_ai_tools_could_help_us_teachers/",
+          "author": null,
+          "description": "submitted by    /u/toldyouanditoldyou  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1ft25yy/report_leveraging_ai_tools_could_help_us_teachers/",
+          "publishedOn": "2024-09-30T18:04:02.000Z",
+          "wordCount": null,
+          "title": "Report: Leveraging AI Tools Could Help US Teachers Avoid $43.4 Billion of Unpaid Overtime Work",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1ft0ag8/eu_picks_experts_to_steer_ai_compliance_rules/",
+          "author": null,
+          "description": "submitted by    /u/toldyouanditoldyou  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1ft0ag8/eu_picks_experts_to_steer_ai_compliance_rules/",
+          "publishedOn": "2024-09-30T16:47:45.000Z",
+          "wordCount": null,
+          "title": "EU picks experts to steer AI compliance rules",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1ft08yd/future_of_ai_will_mean_having_a_phd_army_in_your/",
+          "author": null,
+          "description": "submitted by    /u/toldyouanditoldyou  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1ft08yd/future_of_ai_will_mean_having_a_phd_army_in_your/",
+          "publishedOn": "2024-09-30T16:46:05.000Z",
+          "wordCount": null,
+          "title": "Future of AI will mean having a Ph.D. army in your pocket",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fsxn40/so_ai_companies_almost_certainly_have/",
+          "author": null,
+          "description": "I was thinking about the concept of AI safety, and it occurred to me that it would make sense when covering edge cases for AI researchers to develop models that have intentionally unaligned training and fine-tuning. Makes me wonder, if they do exist how would they fair in comparison to models that have been aligned to be more friendly and conversational?\n    submitted by    /u/Confident_Hand5837  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fsxn40/so_ai_companies_almost_certainly_have/",
+          "publishedOn": "2024-09-30T15:00:57.000Z",
+          "wordCount": null,
+          "title": "So AI companies almost certainly have intentionally misaligned models right?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fswe1n/agent_goes_rogue_and_takes_down_an_ai_researchers/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fswe1n/agent_goes_rogue_and_takes_down_an_ai_researchers/",
+          "publishedOn": "2024-09-30T14:06:38.000Z",
+          "wordCount": null,
+          "title": "Agent goes rogue and takes down an AI researcher's computer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fssuan/built_an_ai_video_editor_for_reducing_my_editing/",
+          "author": null,
+          "description": "submitted by    /u/Miguel07Alm  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fssuan/built_an_ai_video_editor_for_reducing_my_editing/",
+          "publishedOn": "2024-09-30T11:04:55.000Z",
+          "wordCount": null,
+          "title": "Built an AI video editor for reducing my editing time",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fsqd0o/sam_altman_we_have_no_idea_how_we_may_one_day/",
+          "author": null,
+          "description": "submitted by    /u/itah  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fsqd0o/sam_altman_we_have_no_idea_how_we_may_one_day/",
+          "publishedOn": "2024-09-30T08:01:21.000Z",
+          "wordCount": null,
+          "title": "Sam Altman: We have no idea how we may one day generate revenue.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fsnlxb/oneminute_daily_ai_news_9292024/",
+          "author": null,
+          "description": "California governor vetoes major AI safety bill.[1]\n Researchers at UC Berkeley Developed DocETL: An Open-Source Low-Code AI System for LLM-Powered Data Processing.[2]\n Social workers in England begin using AI system to assist their work.[3]\n ‘Superintelligent’ AI Is Only a Few Thousand Days Away: OpenAI CEO Sam Altman.[4]\n  \nSources:\n [1] https://www.theverge.com/2024/9/29/24232172/california-ai-safety-bill-1047-vetoed-gavin-newsom\n [2] https://www.marktechpost.com/2024/09/27/researchers-at-uc-berkeley-developed-docetl-an-open-source-low-code-ai-system-for-llm-powered-data-processing/\n [3] https://www.theguardian.com/society/2024/sep/28/social-workers-england-ai-system-magic-notes\n [4] https://www.cnet.com/tech/services-and-software/superintelligent-ai-is-only-a-few-thousand-days-away-openai-ceo-sam-altman/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fsnlxb/oneminute_daily_ai_news_9292024/",
+          "publishedOn": "2024-09-30T04:43:56.000Z",
+          "wordCount": null,
+          "title": "One-Minute Daily AI News 9/29/2024",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fslhc7/seemingly_conscious_ai_should_be_treated_as_if_it/",
+          "author": null,
+          "description": "- By \"seemingly conscious AI,\" I mean AI that becomes indistinguishable from agents we generally agree are conscious, like humans and animals.\n In this life in which we share, we're still faced with one of the most enduring conundrums: the hard problem of consciousness. If you're not aware of what this is, do a quick google on it.\n Philosophically, it cannot be definitively proven that those we interact with are \"truly conscious\", rather than 'machines without a ghost,' so to speak. Yet, from a pragmatic and philosophical standpoint, we have agreed that we are all conscious agents, and for good reason (unless you're a solipsist, hopefully not). This collective agreement drastically improves our chances of not only of surviving but thriving.\n Now, consider the emergence of AI. At some point, we may no longer be able to distinguish AI from a conscious agent. What happens then? How should we treat AI? What moral standards should we adopt? I would posit that we should probably apply a similar set of moral standards to AI as we do with each other. Of course, this would require deep discussions because it's an exceedingly complex issue.\n But imagine an AI that appears conscious. It would seem to exhibit awareness, perception, attention, intentionality, memory, self-recognition, responsiveness, subjectivity, and thought. Treat it well and it should react in the same way anyone else typically should. The same goes if you treat it badly.\n If we cannot prove that any one of us is truly conscious yet still accept that we are, then by extension, we should consider doing the same with AI. To treat AI as if it were merely a 'machine without a ghost' would not only be philosophically inconsistent but, I assert, a grievous mistake.\n    submitted by    /u/Dangerous-Ad-4519  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fslhc7/seemingly_conscious_ai_should_be_treated_as_if_it/",
+          "publishedOn": "2024-09-30T02:41:02.000Z",
+          "wordCount": null,
+          "title": "Seemingly conscious AI should be treated as if it is conscious",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1fskpky/lobby_firm_techquity_which_lobbied_for_ai_safety/",
+          "author": null,
+          "description": "submitted by    /u/Xtianus21  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1fskpky/lobby_firm_techquity_which_lobbied_for_ai_safety/",
+          "publishedOn": "2024-09-30T02:00:02.000Z",
+          "wordCount": null,
+          "title": "Lobby firm Techquity which lobbied for AI Safety Bill 1047 works for all major technology firms except for Meta and X - Gavin Vetoed the bill I am returning Senate Bill 1047 without my signature - Why are there bills being lobbied regarding AI without public debate and discussion",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/1fsgqbs/ai_develops_humanlike_number_sense/",
           "author": null,
@@ -51606,86 +51736,6 @@
           "wordCount": null,
           "title": "How filtered might be more dangerous than unfiltered.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f6aer4/building_an_ai_engineering_manager_with_github/",
-          "author": null,
-          "description": "submitted by    /u/jayantbhawal  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f6aer4/building_an_ai_engineering_manager_with_github/",
-          "publishedOn": "2024-09-01T09:23:49.000Z",
-          "wordCount": null,
-          "title": "Building an AI Engineering Manager with GitHub Data",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f66xmv/chatgpt_gives_me_answers_that_google_searches_cant/",
-          "author": null,
-          "description": "I look up questions that inmates in jail ask me to research, I ask questions about political theories, I ask questions about music, I ask questions about social media, I ask questions about technology including coding and I even ask questions about subreddits and the dynamics between the subreddits (including moderation policies and rivalries) and increasingly I'm going right to chatgpt as the number one website to get the answers over google. People knock LLM, but more often than not (there are exceptions) chatgpt gives me good answers faster than going through a bunch of websites returned by a search engine. I also notice that chatgpt has improved its answers in the past few months, having reasked a few questions about things I thought would be too obscure to show up. I'm impressed.\n    submitted by    /u/GB819  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f66xmv/chatgpt_gives_me_answers_that_google_searches_cant/",
-          "publishedOn": "2024-09-01T05:19:00.000Z",
-          "wordCount": null,
-          "title": "Chatgpt gives me answers that Google searches can't",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f66ndn/oneminute_daily_ai_news_8312024/",
-          "author": null,
-          "description": "Cartesia AI Released Rene: A Groundbreaking 1.3B Parameter Open-Source Small Language Model Transforming Natural Language Processing Applications.[1]\n \nTesla Plans Robotaxi Reveal at California Warner Bros. Studio.[2]\n \n'A tech firm stole our voices - then cloned and sold them'.[3]\n \nMicrosoft Launches Open-Source Phi-3.5 Models for Advanced AI Development.[4]\n \n Sources:\n [1] https://www.marktechpost.com/2024/08/31/cartesia-ai-released-rene-a-groundbreaking-1-3b-parameter-open-source-small-language-model-transforming-natural-language-processing-applications/?amp [2] https://www.bloomberg.com/news/articles/2024-08-30/tesla-plans-robotaxi-reveal-at-california-warner-bros-studio?embedded-checkout=true [3] https://www.bbc.com/news/articles/c3d9zv50955o.amp [4] https://www.infoq.com/news/2024/08/microsoft-phi-3-5/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f66ndn/oneminute_daily_ai_news_8312024/",
-          "publishedOn": "2024-09-01T05:00:54.000Z",
-          "wordCount": null,
-          "title": "One-Minute Daily AI News 8/31/2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f62o47/lets_learn_net_semantic_kernel/",
-          "author": null,
-          "description": "submitted by    /u/mycall  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f62o47/lets_learn_net_semantic_kernel/",
-          "publishedOn": "2024-09-01T01:15:45.000Z",
-          "wordCount": null,
-          "title": "Let's Learn .NET Semantic Kernel",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f60js8/i_dont_think_the_strawberry_thing_is_an/",
-          "author": null,
-          "description": "If my daughter came to me and said “how many “r”s are there in the word “strawberry” I would assume that she’s asking me whether it’s spelled “strawbery“ or “strawberry.” In this context, I would tell her that there are two “r”s in strawberry, probably without ever even considering the first “r”. Understanding my answer, she would then go and spell it correctly.\n The term “non-autistic” comes up when discussing ideal AI behaviour. While the answer “3” is more technically accurate than “2”, it shows a level of contextual interpretation which I believe we want LLMs to exhibit. Of course, we may want a technically accurate answer in some cases, and we can get that answer by phrasing the question technically, or in a way that eliminates the more conversationally rational but less mathematical interpretations (pictured).\n    submitted by    /u/Camblor  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f60js8/i_dont_think_the_strawberry_thing_is_an/",
-          "publishedOn": "2024-08-31T23:27:44.000Z",
-          "wordCount": null,
-          "title": "I don’t think the strawberry thing is an hallucination. Here’s why:",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f5yut4/generative_ai_creates_playable_version_of_doom/",
-          "author": null,
-          "description": "submitted by    /u/dead_planets_society  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f5yut4/generative_ai_creates_playable_version_of_doom/",
-          "publishedOn": "2024-08-31T22:06:03.000Z",
-          "wordCount": null,
-          "title": "Generative AI creates playable version of Doom game with no code, hinting that generative AI could be used to create games from scratch in the future",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f5x4ix/nunuai_managed_to_defeat_the_3rd_gym_in_pokemon/",
-          "author": null,
-          "description": "submitted by    /u/vegax87  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f5x4ix/nunuai_managed_to_defeat_the_3rd_gym_in_pokemon/",
-          "publishedOn": "2024-08-31T20:47:10.000Z",
-          "wordCount": null,
-          "title": "NunuAI managed to defeat the 3rd gym in Pokemon Emerald breaking the AI world record in this game",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1f5ujn2/the_unavoidable_case_for_open_models/",
-          "author": null,
-          "description": "These days it looks like every new startup, service or product needs to be AI-related. In a way, this makes sense, since AI (LLMs in particular) is without a doubt the most important and transformative technology to appear in recent years. However, in most cases it feels like these products come from a decision to offer something AI-related first, while solving an actual real problem or being useful comes as an afterthought. The typical situation of a solution looking for a problem. Of course, in this environment, using the newest and flashiest LLM is of prime importance.\n Of course, most of these companies or products will be short-lived. However, those that survive will necessarily not be based solely on showcasing a technological gimmick; they will have to deliver a legitimate value-adding product, which incidentally will make use of an LLM to deliver that value.\n Successful products will use AI as one of the ingredients in their recipe for success. But for the product to be successful, all of its components need to be fine-tuned to work in unison, and that includes a specific LLM version. Once the product has been crafted, tested and delivered to users, it's not trivial to switch to a new LLM (even if it's a more advanced version of the same one) and expect the product to continue working in the same successful way.\n However, if the product is based on a closed model, it will always be at the whim of the model provider who can discontinue or modify it. Even using third parties to host the models, like Amazon Bedrock, does not guarantee that the LLM we are using will still be available in 6 months.\n This is why I wouldn't consider building a real project on top of any model that isn't open. The latest frontier models are exciting and great for experimentation and personal use, but I see the lack of control of using a closed model as too much of a risk for any serious endeavour.\n    submitted by    /u/joronoso  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1f5ujn2/the_unavoidable_case_for_open_models/",
-          "publishedOn": "2024-08-31T18:52:15.000Z",
-          "wordCount": null,
-          "title": "The unavoidable case for open models",
-          "imageUrl": null
         }
       ]
     },
@@ -51694,6 +51744,16 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1fsseus/converting_image_classifying_to_image_detection/",
+          "author": null,
+          "description": "Hi guys, I am in a very urgent situation at the moment ...\n So I trained keras model using my own dataset using CNN. This only does image classifying ... But apparently I am supposed to do Image detection and the whole thing is due in 2 days I am not sure what to do.\n Is there a way i can take the trained model and somehow convert it to image detection with bounding boxes and all that . As i think it is too late for me to start annotating images to make an R-CNN at the moment ..\n Any suggestions please .. (BTW I am not allowed to use YOLO )\n    submitted by    /u/Curious_Programmer09  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1fsseus/converting_image_classifying_to_image_detection/",
+          "publishedOn": "2024-09-30T10:36:43.000Z",
+          "wordCount": null,
+          "title": "Converting Image Classifying to Image Detection",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/1fscxkx/how_to_classify_dinosaurs_cnn_tutorial/",
           "author": null,
@@ -52023,16 +52083,6 @@
           "wordCount": null,
           "title": "Is each neuron connected to ALL the neurons in the previous layer?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1f5xn76/ml_and_programming_enthusiasts_insights_needed/",
-          "author": null,
-          "description": "Hi all,\n I’m reaching out for assistance with my MSc dissertation research, which explores the role of Model Predictive Control (MPC) in HVAC systems. If you work in HVAC, engineering, or construction, your input would be incredibly helpful.\n I’ve put together a short survey—15 questions in total—that should only take a couple of minutes to complete.\n https://qualtricsxmnpnnrmzlm.qualtrics.com/jfe/form/SV_ddnRqNzH4FNH7Su\n Your responses are valuable whether you’re deeply familiar with MPC or just have a general understanding. Any input you provide will be greatly appreciated.\n    submitted by    /u/Less_Organization190  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1f5xn76/ml_and_programming_enthusiasts_insights_needed/",
-          "publishedOn": "2024-08-31T21:10:09.000Z",
-          "wordCount": null,
-          "title": "ML and programming enthusiasts, insights needed!",
-          "imageUrl": null
         }
       ]
     },
@@ -52116,6 +52166,26 @@
       "feedUrl": "https://www.microsoft.com/en-us/research/feed",
       "siteUrl": "https://www.microsoft.com/en-us/research/",
       "articles": [
+        {
+          "id": "https://www.microsoft.com/en-us/research/?p=1088394",
+          "author": "Alyssa Hughes (2ADAPTIVE LLC dba 2A Consulting)",
+          "description": "This paper has been accepted at the 18th European Conference on Computer Vision (ECCV 2024) (opens in new tab), the premier gathering on computer vision and machine learning. Biomedical vision models are computational tools that analyze medical images, like X-rays, MRIs, and CT scans, and are used to predict medical conditions and outcomes. These models […]\nThe post Stress-testing biomedical vision models with RadEdit: A synthetic data approach for robust model deployment appeared first on Microsoft Research.",
+          "link": "https://www.microsoft.com/en-us/research/blog/stress-testing-biomedical-vision-models-with-radedit-a-synthetic-data-approach-for-robust-model-deployment/",
+          "publishedOn": "2024-09-30T19:00:00.000Z",
+          "wordCount": 3731,
+          "title": "Stress-testing biomedical vision models with RadEdit: A synthetic data approach for robust model deployment",
+          "imageUrl": "https://www.microsoft.com/en-us/research/uploads/prod/2024/09/RadEdit-Socials-2024-TWLIFB-1200x627-1.jpg"
+        },
+        {
+          "id": "https://www.microsoft.com/en-us/research/podcast/abstracts-september-30-2024/",
+          "author": "Alyssa Hughes (2ADAPTIVE LLC dba 2A Consulting)",
+          "description": "The personalizable object recognizer Find My Things was recently recognized for accessible design. Researcher Daniela Massiceti and software development engineer Martin Grayson talk about the research project’s origins and the tech advances making it possible.\nThe post Abstracts: September 30, 2024 appeared first on Microsoft Research.",
+          "link": "https://www.microsoft.com/en-us/research/podcast/abstracts-september-30-2024/",
+          "publishedOn": "2024-09-30T13:02:05.000Z",
+          "wordCount": 5656,
+          "title": "Abstracts: September 30, 2024",
+          "imageUrl": "https://www.microsoft.com/en-us/research/uploads/prod/2024/09/Daniela-and-Martin_Abstracts_Hero_Feature_No_Text_1400x788.jpg"
+        },
         {
           "id": "https://www.microsoft.com/en-us/research/?p=1081755",
           "author": "Brenda Potts",
@@ -52226,6 +52296,86 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1ft5e8u/online_lectures_on_reinforcement_learning/",
+          "author": null,
+          "description": "Dear All, I would like to share with you my YouTube lectures on Reinforcement Learning: \n  \n https://www.youtube.com/playlist?list=PLW4eqbV8qk8YUmaN0vIyGxUNOVqFzC2pd\n  \n Every Wednesday and Sunday morning, a new video will be posted. You can subscribe to my YouTube channel (https://www.youtube.com/tyucelen) and turn notifications on for staying tuned! I also appreciate if you can forward these lectures to your colleagues/students.\n  \n Below are the topics to be covered:\n  \n  \nAn Introduction to Reinforcement Learning (posted)\n Markov Decision Process (posted)\n Dynamic Programming (posted)\n Q-Function Iteration\n Q-Learning\n Q-Learning Example with Matlab Code\n SARSA\n SARSA Example with Matlab Code\n Neural Networks\n Reinforcement Learning in Continuous Spaces\n Neural Q-Learning\n Neural Q-Learning Example with Matlab Code\n Neural SARSA\n Neural SARSA Example with Matlab Code\n Experience Replay\n Runtime Assurance\n Gridworld Example with Matlab code\n  \nAll the best,\n Tansel\n Tansel Yucelen, Ph.D.\n Director of Laboratory for Autonomy, Control, Information, and Systems (LACIS)\n Associate Professor of the Department of Mechanical Engineering\n University of South Florida, Tampa, FL 33620, USA\n X, LinkedIn, YouTube, 770-331-8496 (Mobile)\n    submitted by    /u/Original-Promise-312  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1ft5e8u/online_lectures_on_reinforcement_learning/",
+          "publishedOn": "2024-09-30T20:16:21.000Z",
+          "wordCount": null,
+          "title": "Online Lectures on Reinforcement Learning",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1ft1e84/talk_rich_sutton_toward_a_better_deep_learning/",
+          "author": null,
+          "description": "submitted by    /u/atgctg  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1ft1e84/talk_rich_sutton_toward_a_better_deep_learning/",
+          "publishedOn": "2024-09-30T17:32:37.000Z",
+          "wordCount": null,
+          "title": "[Talk] Rich Sutton, Toward a better Deep Learning",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1ft042n/what_are_the_top_labs_and_universities_that_focus/",
+          "author": null,
+          "description": "I know that TU delft, TU Damstadt and TU munich have good rl labs and professors. What are some other ones? It can be both theory heavy or applied. Is there something in Scandinavia?\n ONLY EU.\n    submitted by    /u/cyberpunk00c  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1ft042n/what_are_the_top_labs_and_universities_that_focus/",
+          "publishedOn": "2024-09-30T16:40:32.000Z",
+          "wordCount": null,
+          "title": "What are the top labs and universities that focus on RL in EU?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fsx98t/issues_with_dgl_in_google_colab/",
+          "author": null,
+          "description": "Hello everyone,\n I’ve been using DGL in Google Colab, and it was working fine before. However, recently, I’ve encountered issues with installing and importing it.\n Here’s the installation command I’m using:\n !pip install dgl dglgo -f https://data.dgl.ai/wheels/repo.html\n The error I’m seeing is:\n ---> 24 from torch.utils._import_utils import dill_available\n 25 from torch.utils.data.datapipes.utils.common import _check_unpickable_fn\n 26 \n ModuleNotFoundError: No module named 'torch.utils._import_utils'\n Has anyone else faced this issue or found a solution to it? \n Thank you!\n    submitted by    /u/GuavaAgreeable208  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fsx98t/issues_with_dgl_in_google_colab/",
+          "publishedOn": "2024-09-30T14:44:42.000Z",
+          "wordCount": null,
+          "title": "Issues with DGL in google colab",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fstre9/rl_beginner_guide/",
+          "author": null,
+          "description": "Hello , is their any post or gyide on RL from scratch explained with python (preferably PyTorch )?\n    submitted by    /u/LahmeriMohamed  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fstre9/rl_beginner_guide/",
+          "publishedOn": "2024-09-30T12:00:02.000Z",
+          "wordCount": null,
+          "title": "RL beginner guide",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fsrtgf/reinforcement_learning_cheat_sheet/",
+          "author": null,
+          "description": "Hi everyone!\n I just published my first post on Medium and also created a Reinforcement Learning Cheat Sheet. 🎉\n I'd love to hear your feedback, suggestions, or any thoughts on how I can improve them!\n Feel free to check them out, and thanks in advance for your support! 😊\n https://medium.com/@ruipcf/reinforcement-learning-cheat-sheet-39bdecb8b5b4\n    submitted by    /u/Prudent_Nose921  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fsrtgf/reinforcement_learning_cheat_sheet/",
+          "publishedOn": "2024-09-30T09:55:27.000Z",
+          "wordCount": null,
+          "title": "Reinforcement Learning Cheat Sheet",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fsouk4/prevent_jittery_motions_on_robot/",
+          "author": null,
+          "description": "Hi,\n I'm training a velocity tracking policy, and I'm having some trouble keeping the robot from jittering when stationary. I do have a penalty for the action rate, but that still doesn't seem to stop it from jittering like crazy. \n I do have an acceleration limit on my real robot to try to mitigate these jittering motions, but I also worry that will widen the gap the dynamics of sim vs. real., since there doesn't seem to be an option to add accel limits in my simulator platform. (IsaacLab/Sim) \n Thanks!\n https://reddit.com/link/1fsouk4/video/8boi27311wrd1/player\n    submitted by    /u/diamondspork  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fsouk4/prevent_jittery_motions_on_robot/",
+          "publishedOn": "2024-09-30T06:07:08.000Z",
+          "wordCount": null,
+          "title": "Prevent jittery motions on robot",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fslhhv/rl_for_motion_cueing/",
+          "author": null,
+          "description": "submitted by    /u/FriendlyStandard5985  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fslhhv/rl_for_motion_cueing/",
+          "publishedOn": "2024-09-30T02:41:16.000Z",
+          "wordCount": null,
+          "title": "RL for Motion Cueing",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fshvfx/too_much_efficiency_makes_everything_worse/",
           "author": null,
@@ -53605,46 +53755,6 @@
           "wordCount": null,
           "title": "Problem with proof of decomposition of policy performance",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1f68r4l/meta_learning_in_rl/",
-          "author": null,
-          "description": "Hello it seems like the majority of meta learning in RL has been applied to the policy space and rarely the value space like in DQN. I was wondering why is there such a strong focus on adapting the policy to a new task rather than adapting the value network to a new task. Meta Q Learning paper is the only paper that seems to use Q Network to perform meta-learning. Is this true and if so why?\n    submitted by    /u/Sea-Collection-8844  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1f68r4l/meta_learning_in_rl/",
-          "publishedOn": "2024-09-01T07:22:46.000Z",
-          "wordCount": null,
-          "title": "Meta Learning in RL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1f64qvt/looking_for_an_environment_for_a_human_and_agent/",
-          "author": null,
-          "description": "Hey all. I'm planning a master's research project focused on humans and RL agents coordinating to achieve tasks together. I'm looking for a game-like environment that is relatively simple (ideally 2D and discrete) but still allows for different high-level strategies that the team could employ. That's important because most of my potential research topics are focused on how the human-agent team coordinate in choosing and then executing that high-level strategy. \n So far, the Overcooked environment is the most promising that I've seen. In this case the different high level strategies might be (1) pick up ingredient, (2) cook ingredients, (3) deliver order, (4) discard trash. But all of those strategies are pretty simple so I would love something that allows for more options. For example a game where the agents could decide whether to collect resources, attack enemies, heal, explore the map, etc. Any recommendations are definitely appreciated.\n    submitted by    /u/chowder138  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1f64qvt/looking_for_an_environment_for_a_human_and_agent/",
-          "publishedOn": "2024-09-01T03:09:40.000Z",
-          "wordCount": null,
-          "title": "Looking for an environment for a human and agent cooperating to achieve tasks where there are multiple possible strategies/subtasks.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1f5qy84/why_td0_and_tdlambda_have_same_computational_cost/",
-          "author": null,
-          "description": "I was studying about TD value estimation from YouTube, and it said TD(0) and TD(lambda) have the same computational cost, but it doesn’t make sense for me. If you do TD(lambda) you need to store every reward through the states to estimate the value of starting state, isn’t it? And even you need to calculate it multiplying them with lambda and sum them. Thank you for your kind answer.\n    submitted by    /u/Latter-Tomorrow-6850  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1f5qy84/why_td0_and_tdlambda_have_same_computational_cost/",
-          "publishedOn": "2024-08-31T16:14:07.000Z",
-          "wordCount": null,
-          "title": "Why TD(0) and TD(lambda) have same computational cost?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1f5q575/isnt_it_always_that_bias_is_more_important_than/",
-          "author": null,
-          "description": "I was working on the trade-off relationship between bias and variance comparing Monte Carlo value estimation with Temporal difference value estimation. \n But it seems that low bias is always much better than low variance if you can only choose one. Because if you sample repeatedly enough, eventually you get the true value. So, isn’t accurate bias more important? I mean, if the bias is large, even if the variance is small, why is it needed?\n What is the variance even in this context?\n Sorry if this is a dumb question.\n    submitted by    /u/Latter-Tomorrow-6850  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1f5q575/isnt_it_always_that_bias_is_more_important_than/",
-          "publishedOn": "2024-08-31T15:38:53.000Z",
-          "wordCount": null,
-          "title": "Isn’t it always that bias is more important than variance?",
-          "imageUrl": null
         }
       ]
     },
@@ -53666,6 +53776,46 @@
       "siteUrl": "https://www.datasciencecentral.com/",
       "articles": [
         {
+          "id": "https://www.datasciencecentral.com/?p=65936",
+          "author": "Vincent Granville",
+          "description": "In this article, I describe some of the most common types of databases that apps such as RAG or LLM rely upon. I also provide tips and techniques on how to optimize these databases. Performance improvement methods deal with speed, bandwidth or size, and real-time processing. Some common types of databases Vector and graph databases… Read More »Large AI Apps: Optimizing the Databases Behind the Scenes\nThe post Large AI Apps: Optimizing the Databases Behind the Scenes appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/large-ai-apps-optimizing-the-databases-behind-the-scenes/",
+          "publishedOn": "2024-09-30T21:02:44.000Z",
+          "wordCount": 6134,
+          "title": "Large AI Apps: Optimizing the Databases Behind the Scenes",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/py-updateHash-1.png"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=65881",
+          "author": "Erika Balla",
+          "description": "AI-driven innovation has quickly turned the traditional classroom into a dynamic, personalized, highly efficient digital space. Be it adaptive learning platforms, offering learning according to individual needs, or intelligent tutoring systems for real-time feedback, AI transforms how students learn and approach their educational content. It is not just about convenience; AI improves engagement, access, and… Read More »How AI is shaping eLearning\nThe post How AI is shaping eLearning appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/how-ai-is-shaping-elearning/",
+          "publishedOn": "2024-09-30T18:52:57.000Z",
+          "wordCount": 5773,
+          "title": "How AI is shaping eLearning",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/pexels-photo-4491461-scaled.webp"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=65919",
+          "author": "Dan Wilson",
+          "description": "Interview with Jeanette Small, MA, PhD In this recent AI Think Tank Podcast episode, we took a close look into the complexities of intelligence, neural networks, and the potential of Artificial General Intelligence (AGI) with my guest, Jeanette Small, MA, PhD. Jeanette, a licensed clinical psychologist with a focus on somatic psychology, brought a unique… Read More »Deep Reflections on Mycelium, Neural Networks, & AGI\nThe post Deep Reflections on Mycelium, Neural Networks, & AGI appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/deep-reflections-on-mycelium-neural-networks-agi/",
+          "publishedOn": "2024-09-30T16:49:20.000Z",
+          "wordCount": 8175,
+          "title": "Deep Reflections on Mycelium, Neural Networks, & AGI",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/Show-14-DSC-Size-Preview-copy-scaled.jpg"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=65917",
+          "author": "Alan Morrison",
+          "description": "Katalin Bártfai-Walcott (KBW) of Ambient Enterprises posted some helpful observations and thoughts via LInkedIn in September on how LinkedIn and other comparable platforms are treating their most valuable contributing users, with a focus on how they could improve. My takeaways from that post included the following: We’ve had the web now for over 30 years.… Read More »A user-centric approach to responsible AI\nThe post A user-centric approach to responsible AI appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/a-user-centric-approach-to-responsible-ai/",
+          "publishedOn": "2024-09-30T14:36:00.000Z",
+          "wordCount": 6172,
+          "title": "A user-centric approach to responsible AI",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/1024px-Wintercircus_Gent_-_Betonneren_nieuwe_funderingsplaat_-_07-09-2018-766x1024.jpg"
+        },
+        {
           "id": "https://www.datasciencecentral.com/?p=65911",
           "author": "Bill Schmarzo",
           "description": "A few weeks ago, I created a YouTube video to discuss the importance of an outside-in perspective to the value creation challenge. The key to a successful business is its ability to continuously evolve its value creation capabilities. Unfortunately, discussions about value creation often focus only on internal factors such as increasing sales, retaining customers,… Read More »Value Creation Requires An Outside-In Mentality\nThe post Value Creation Requires An Outside-In Mentality appeared first on Data Science Central.",
@@ -53674,6 +53824,16 @@
           "wordCount": 6371,
           "title": "Value Creation Requires An Outside-In Mentality",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/Slide1-3.png"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=65896",
+          "author": "Chirag Shivalker",
+          "description": "Image annotation backs computer vision technologies by empowering machines to interpret visual data through labeled images, directly influencing model accuracy across industries like healthcare, automotive, and security. The growing computer vision market cannot sustain without high-quality, scalable annotation services. Image annotation provides the base for functional Computer Vision (CV) technologies in industries such as healthcare,… Read More »The role of image annotation in advancing computer vision technologies\nThe post The role of image annotation in advancing computer vision technologies appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/the-role-of-image-annotation-in-advancing-computer-vision-technologies/",
+          "publishedOn": "2024-09-27T12:05:44.000Z",
+          "wordCount": 6840,
+          "title": "The role of image annotation in advancing computer vision technologies",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/image-annotation-for-computer-vision-scaled.jpg"
         },
         {
           "id": "https://www.datasciencecentral.com/?p=65884",
@@ -53989,16 +54149,6 @@
           "wordCount": 6145,
           "title": "The rationale for open data stewardship in an AI age",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/08/puzzle-2778019_1280-scaled.jpg"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=65700",
-          "author": "Vincent Granville",
-          "description": "In this article, I explore 10 additional features that have a big impact on LLM/RAG performance, in particular on speed, latency, results relevancy (minimizing hallucinations, exhaustivity), memory use and bandwidth (cloud, GPU, training, number of parameters), security, explainability, as well as incremental value for the user. I published the first part here. These features are… Read More »30 Features that Dramatically Improve LLM Performance – Part 2\nThe post 30 Features that Dramatically Improve LLM Performance – Part 2 appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/30-features-that-dramatically-improve-llm-performance-part-2/",
-          "publishedOn": "2024-09-01T04:46:16.000Z",
-          "wordCount": 7343,
-          "title": "30 Features that Dramatically Improve LLM Performance – Part 2",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/py-distill.png"
         }
       ]
     },
@@ -54007,6 +54157,16 @@
       "feedUrl": "https://www.johndcook.com/blog/feed",
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
+        {
+          "id": "https://www.johndcook.com/blog/?p=245749",
+          "author": "John",
+          "description": "Given a hash value, an you determine what algorithm produced it? Or what algorithm probably produced it? Obviously if a hash value is 128 bits long, then a 128-bit algorithm produced it. Such a hash value might have been produced by MD5, but not by SHA-1, because the former produces 128-bit hashes and the latter […]\nIdentifying hash algorithms first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2024/09/30/identifying-hash-algorithms/",
+          "publishedOn": "2024-09-30T12:23:56.000Z",
+          "wordCount": 1687,
+          "title": "Identifying hash algorithms",
+          "imageUrl": null
+        },
         {
           "id": "https://www.johndcook.com/blog/?p=245747",
           "author": "John",
@@ -54175,26 +54335,6 @@
           "publishedOn": "2024-09-02T01:32:02.000Z",
           "wordCount": 1592,
           "title": "Pell is to silver as Fibonacci is to gold",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=245701",
-          "author": "John",
-          "description": "The number of kilometers in a mile is k = 1.609344 which is close to the golden ratio φ = 1.6180334. The ratio of consecutive Fibonacci numbers converges to φ, and so you can approximately convert miles to kilometers by multiplying by a Fibonacci number and dividing by the previous Fibonacci number. For example, you […]\nMiles to kilometers first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2024/09/01/miles-to-kilometers/",
-          "publishedOn": "2024-09-01T11:41:49.000Z",
-          "wordCount": 1705,
-          "title": "Miles to kilometers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=245700",
-          "author": "John",
-          "description": "This post started out as a Twitter thread. The text below is the same as that of the thread after correcting an error in the first part of the thread. *** The following approximation for sin(x) is remarkably accurate for 0 < x < π. The approximation is so good that you can’t see the […]\nAncient accurate approximation for sine first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2024/08/31/sine-approx/",
-          "publishedOn": "2024-08-31T17:33:40.000Z",
-          "wordCount": 1313,
-          "title": "Ancient accurate approximation for sine",
           "imageUrl": null
         }
       ]
