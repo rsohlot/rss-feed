@@ -758,36 +758,6 @@
           "wordCount": 2814,
           "title": "Transforming home ownership with Amazon Transcribe Call Analytics, Amazon Comprehend, and Amazon Bedrock: Rocket Mortgage’s journey with AWS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/23/ml-17321-1.png"
-        },
-        {
-          "id": "c0b867d63807fef68cd605dd69c2b3fae79138e1",
-          "author": "Philipp Kaindl",
-          "description": "In this post, we demonstrate how to use Amazon Bedrock Agents with a web search API to integrate dynamic web content in your generative AI application.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/integrate-dynamic-web-content-in-your-generative-ai-application-using-a-web-search-api-and-amazon-bedrock-agents/",
-          "publishedOn": "2024-09-20T22:04:48.000Z",
-          "wordCount": 6243,
-          "title": "Integrate dynamic web content in your generative AI application using a web search API and Amazon Bedrock Agents",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/20/Screenshot-2024-09-20-at-10.30.47 AM.png"
-        },
-        {
-          "id": "9c0faa1c32139c1a17ccc42c8c6efb31d35d73bb",
-          "author": "Puneeth Komaragiri",
-          "description": "In this blog post, we explore how you can use Amazon Q Business to build generative AI assistants that enhance employee experience and boost productivity. Amazon Q Business seamlessly integrates with internal data sources, knowledge bases, and productivity tools to equip your workforce with instant access to information, automated tasks, and personalized support.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/build-a-generative-ai-assistant-to-enhance-employee-experience-using-amazon-q-business/",
-          "publishedOn": "2024-09-20T19:46:54.000Z",
-          "wordCount": 2906,
-          "title": "Build a generative AI assistant to enhance employee experience using Amazon Q Business",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/20/Screenshot-2024-09-20-at-10.25.07 AM-1118x630.png"
-        },
-        {
-          "id": "8cec3dfde60c241bc3e4d52b25d572a1fa5e8a7e",
-          "author": "Aneesh Mohan",
-          "description": "In this post, we show you how the new document-level report in Amazon Kendra provides enhanced visibility and observability into the document processing lifecycle during data source sync jobs.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/introducing-document-level-sync-reports-enhanced-data-sync-visibility-in-amazon-kendra/",
-          "publishedOn": "2024-09-20T19:36:16.000Z",
-          "wordCount": 3017,
-          "title": "Introducing document-level sync reports: Enhanced data sync visibility in Amazon Kendra",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/20/Screenshot-2024-09-20-at-9.47.41 AM.png"
         }
       ]
     },
@@ -55731,6 +55701,116 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g8a3pv/r_google_shopping_10m_dataset_for_large_scale/",
+          "author": null,
+          "description": "We have finally released the Marqo Google Shopping 10 million dataset on Hugging Face (Marqo-GS-10M). One of the largest and richest datasets for multimodal product retrieval! \n  \n10M rows of query, product title, image and rank (1-100) \n \n~100k unique queries \n \n~5M unique products across fashion and home \n \nReflects real-world data and use cases and serves as a good benchmark for method development \n \nProper data splits, in-domain, novel query, novel document and novel-document and novel query. \n \n The dataset features detailed relevance scores for each query-document pair to facilitate future research and evaluation.\n !pip install datasets from datasets import load_dataset ds = load_dataset(\"Marqo/marqo-GS-10M\") \n We curated this large-scale dataset as part of the publication of our training framework: Generalized Contrastive Learning (GCL). \n Dataset: https://huggingface.co/datasets/Marqo/marqo-GS-10M\n GCL: https://github.com/marqo-ai/GCL\n Paper: https://arxiv.org/abs/2404.08535\n    submitted by    /u/Jesse_marqo  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g8a3pv/r_google_shopping_10m_dataset_for_large_scale/",
+          "publishedOn": "2024-10-20T21:51:41.000Z",
+          "wordCount": null,
+          "title": "[R] Google Shopping 10M dataset for large scale multimodal product retrieval and ranking",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g89uuh/r_xlstm_hidden_state_is_not_used/",
+          "author": null,
+          "description": "Hello to everyone, i was reading the xLSTM paper https://arxiv.org/pdf/2405.04517 in particular the section about mLSTM and I was wondering, where the hidden state is used? What is its utility? Normally it is used to compute the output gate.\n https://preview.redd.it/7m51jnjhdzvd1.png?width=939&format=png&auto=webp&s=fc84cdcaac47110af22a86b86ff5390ef4e53a37\n    submitted by    /u/splashhhhhhhhhhhh  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g89uuh/r_xlstm_hidden_state_is_not_used/",
+          "publishedOn": "2024-10-20T21:40:48.000Z",
+          "wordCount": null,
+          "title": "[R] xLSTM hidden state is not used",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g89ue0/d_best_ways_to_optimize_embedding_clustering/",
+          "author": null,
+          "description": "I’m trying to build automatic trend detection of ads that use the same theme, but are from different brands.\n I have a giant dataset of human labeled ads, clustered into their themes. \n CLIP is very good at understanding images in general. We fine tuned CLIP on the ad data and are using clustering afterwards to group ads by theme. But my data science partner is relaying that finetuning is useless if we want to detect previously unseen themes - which is a must for detecting new trends.\n So now it’s relatively murky how we can actually tailor an embedding + clustering approach with the thousands of domain specific positive & negative examples, without creating a restricted model that only is tuned for ads it’s already seen. \n Need to end up with a model that can still generalize and interpret new themes but also is trained/tuned/improved on the advertising domain and theme/trend detection specifically.\n GPT recommends tuning only upper layers, or contrastive learning on our dataset for CLIP. What would you do? \n    submitted by    /u/NancyReagansGhost  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g89ue0/d_best_ways_to_optimize_embedding_clustering/",
+          "publishedOn": "2024-10-20T21:40:11.000Z",
+          "wordCount": null,
+          "title": "[D] Best way(s) to optimize embedding + clustering pipeline for trend detection, and teaching domain knowledge without reducing generalization abilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g893lr/discussion_now_that_i_have_an_engineering_job_how/",
+          "author": null,
+          "description": "Hey guys, in the past i used to work in a lab, doing researsh on computer vision & ML. Talking with professors and PhDs, i would have a good idea of new interresting articles. Now that i work in a big company, i don't have this network anymore and i don't have time to spend hours searshing new interresting articles. Are there any good ressources that aggregate cool articles related to ML & CV ?\n    submitted by    /u/Fugius  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g893lr/discussion_now_that_i_have_an_engineering_job_how/",
+          "publishedOn": "2024-10-20T21:07:02.000Z",
+          "wordCount": null,
+          "title": "[Discussion] Now that i have an engineering job, how do i keep updated on latest interesting papers ?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g87284/d_classify_obfuscated_text/",
+          "author": null,
+          "description": "How would you classify obfuscated text that preserved the pattern of words. Would you use a simple vectorisation method such as tf-idf or use a character level embedding model? Or any other smart approach you’ll take? There is enough data to finetune an embedding model but I don’t have enough time to do it. Any input is much appreciated.\n    submitted by    /u/Rahahp  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g87284/d_classify_obfuscated_text/",
+          "publishedOn": "2024-10-20T19:38:01.000Z",
+          "wordCount": null,
+          "title": "[D] Classify obfuscated text",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g80nkv/d_simple_questions_thread/",
+          "author": null,
+          "description": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead!\n Thread will stay alive until next one so keep posting after the date in the title.\n Thanks to everyone for answering questions in the previous thread!\n    submitted by    /u/AutoModerator  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g80nkv/d_simple_questions_thread/",
+          "publishedOn": "2024-10-20T15:00:49.000Z",
+          "wordCount": null,
+          "title": "[D] Simple Questions Thread",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/",
+          "author": null,
+          "description": "Last Week in Medical AI: Top LLM Research Papers/Models (October 12 - October 19)\n Medical LLM & Other Model\n  \nOLAPH: Factual Biomedical LLM QA \n This paper introduces MedLFQA, a benchmark dataset for evaluating the factuality of long-for answers generated by large language models (LLMs) in the medical domain.\n \n LLMD: Interpreting Longitudinal Medical Records \n This paper introduces LLMD, a large language model designed to analyze patient medical history.\n \n LifeGPT: Generative Transformer for Cells \n This paper introduces LifeGPT, a decoder-only generative pretrained transformer (GPT) model trained to simulate Conway's Game of Life on a toroidal grid without prior knowledge of grid size or boundary conditions.\n \n MedCare: Decoupled Clinical LLM Alignment \n This paper introduces MedCare, a Medical LLM that leverages a progressive fine-tuning pipeline to address knowledge-intensive and alignment-required tasks in medical NLP.\n \n Y-Mol: Biomedical LLM for Drug Development \n This paper introduces Y-Mol, a multiscale biomedical knowledge-guided large language model (LLM) designed for drug development tasks spanning lead compound discovery, pre-clinic, and clinic prediction.\n \n  \nFrameworks and Methodologies:\n  \nMedINST: Biomedical Instructions Meta Dataset\n Democratizing Medical LLMs via Language Experts\n MCQG-SRefine: Iterative Question Generation\n Adaptive Medical Language Agents\n MeNTi: Medical LLM with Nested Tools\n  \nMedical LLM Applications:\n  \nAGENTiGraph: LLM Chatbots with Private Data\n MMed-RAG: Multimodal Medical RAG System\n Medical Graph RAG: Safe LLM via Retrieval\n MedAide: Multi-Agent Medical LLM Collaboration\n Synthetic Clinical Trial Generation\n  \nMedical LLMs & Benchmarks:\n  \nWorldMedQA-V: Multimodal Medical LLM Dataset\n HEALTH-PARIKSHA: RAG Models Evaluation\n Synthetic Data for Medical Vision-Language\n ....\n  \n...\n Full thread in detail: https://x.com/OpenlifesciAI/status/1847686504837202263\n    submitted by    /u/aadityaura  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/",
+          "publishedOn": "2024-10-20T13:42:31.000Z",
+          "wordCount": null,
+          "title": "[D] Last Week in Medical AI: Top LLM Research Papers/Models (October 12 - October 19)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g7y7ev/d_research_in_open_source_robotics_control_systems/",
+          "author": null,
+          "description": "There several ML papers which go over control in robotics. These cover concepts such as world model creation, task simulation, and distillation of control systems.\n My question is, is there a field yet which seeks to create a general framework for developing these control systems?\n I’m looking for specifically a paper which goes to define some sort of general robotic framework and a subsequent generalized control system framework for defining control on the robot. \n The type of research I’m looking specifically for would define robotics primitives in some form, types of motion in 3D + types of sensors in 3D, as well as vision.\n Any sort of direction in this would be of interest to me Thanks!\n    submitted by    /u/andarmanik  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g7y7ev/d_research_in_open_source_robotics_control_systems/",
+          "publishedOn": "2024-10-20T13:03:04.000Z",
+          "wordCount": null,
+          "title": "[D] Research in open source robotics control systems?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g7vss8/d_future_of_multiarmed_bandits/",
+          "author": null,
+          "description": "I am just beginning my MAB research, but my original research interest lies in either Deep-RL or Optimization. Unfortunately, I found there are very few intersections between DRL/Opt and MAB (Please tell me if I am wrong), or even say that MAB is a kind of 'isolated' research field, neither produces interesting things (like transformers->GPT ) nor give you a promising career prospect (like opt favored by hedge fund). The most notable application is on recommend system, but I dont really see company other than Netflix would recruit, and not suitable for quant path.\n Is MAB research dying? Should I quit MAB if I am no longer interested in academia and just want to become a quant after graduation? Or are there any intersection between MAB and other direction such I could become a paper machine?\n    submitted by    /u/petrichorinforest  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g7vss8/d_future_of_multiarmed_bandits/",
+          "publishedOn": "2024-10-20T10:35:18.000Z",
+          "wordCount": null,
+          "title": "[D] Future of Multi-Armed Bandits?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g7rw70/p_vision_transformer_models_not_generalizing_well/",
+          "author": null,
+          "description": "Hi everyone,\n I am training a Wave Vision Transformer model. The code for the Wave_ViT is available on the below link.\n https://github.com/YehLi/ImageNetModel/blob/main/classification/wavevit.py\n I did not change the code for wave_ViT.py and torch_wavelets.py file. The only change I made is in the pipeline of how to provide data to model. My original dataset involves around 38000 MRI images of 256 with RGB format. I augmented this dataset by rotating each image from its original angle to 90, 180, 270 degrees and saved those images. So each image has its 3 rotated copies. Hence, My original dataset increased to about 156000 images of same size and format.\n I further saved those images with labels in a numpy.memmap format of uint8 as my code was giving me OOM error when tried to directly loa…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g7rw70/p_vision_transformer_models_not_generalizing_well/",
+          "publishedOn": "2024-10-20T05:41:53.000Z",
+          "wordCount": null,
+          "title": "\"[P]\" Vision Transformer Models not generalizing well on independent validation dataset",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1g7r3hn/d_how_to_discredit_your_whole_paper_in_one_figure/",
+          "author": null,
+          "description": "arxiv.org/abs/2410.13854 Did they just really compare English-language memes to traditional Chinese paintings and use that as the basis for \"Chinese images are harder to understand\" (figure 1)?\n Edit: I believe the rest of the paper is sensible and the cultural background necessary for understanding traditional Chinese art is important but the comparison is dishonest. The examples they give in Appendix B (figure 7) are better.\n    submitted by    /u/qu3tzalify  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1g7r3hn/d_how_to_discredit_your_whole_paper_in_one_figure/",
+          "publishedOn": "2024-10-20T04:46:12.000Z",
+          "wordCount": null,
+          "title": "[D] How to discredit your whole paper in one figure",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/",
           "author": null,
           "description": "Hi Community,\n I am currently working in the field of Applied Neuroscience and have authored a paper exploring how we can integrate more of the brain’s neuron functions into Artificial Neural Networks in future models. While this is not groundbreaking work worthy of a Nobel Prize:-), I believe it offers a meaningful contribution to this evolving topic. I would be incredibly grateful if you could provide an endorsement to help me publish it on arXiv.\n Thank you for your time and consideration.\n    submitted by    /u/Appeswintogether  \n [link]   [comments]",
@@ -59679,126 +59759,6 @@
           "wordCount": null,
           "title": "[P] A no-frills, open-source CLI for embeddings and text classification (We're at the top of Hacker News!)",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1fm0syy/d_how_do_i_finetune_any_image_segmentation_model/",
-          "author": null,
-          "description": "Hello guys, I have the semantic segmentation dataset created from Roboflow in COCO format.\n Is there a way I can perform transfer learning/fine-tuning in my custom dataset with the models like SAM?\n If there's any, how can I find the resources to do so? As far as I searched, I couldn't find for the fine-tuning the models like SAM.\n If this can't be done, are there any other alternatives?\n    submitted by    /u/Suyog_Khanal  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1fm0syy/d_how_do_i_finetune_any_image_segmentation_model/",
-          "publishedOn": "2024-09-21T11:23:39.000Z",
-          "wordCount": null,
-          "title": "[D] How do I fine-tune any image segmentation model?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1fm05l8/r_robust_text_classification_analyzing/",
-          "author": null,
-          "description": "submitted by    /u/Megixist  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1fm05l8/r_robust_text_classification_analyzing/",
-          "publishedOn": "2024-09-21T10:40:00.000Z",
-          "wordCount": null,
-          "title": "[R] Robust Text Classification: Analyzing Prototype-Based Networks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flznxo/p_perpetualbooster_improved_multithreading_and/",
-          "author": null,
-          "description": "PerpetualBooster v0.4.7: Multi-threading & Quantile Regression\n Excited to announce the release of PerpetualBooster v0.4.7! \n This update brings significant performance improvements with multi-threading support and adds functionality for quantile regression tasks. PerpetualBooster is a hyperparameter-tuning-free GBM algorithm that simplifies model building. Similar to AutoML, control model complexity with a single \"budget\" parameter for improved performance on unseen data.\n Easy to Use: python from perpetual import PerpetualBooster model = PerpetualBooster(objective=\"SquaredLoss\") model.fit(X, y, budget=1.0) \n Install: pip install perpetual\n Github repo: https://github.com/perpetual-ml/perpetual\n    submitted by    /u/mutlu_simsek  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flznxo/p_perpetualbooster_improved_multithreading_and/",
-          "publishedOn": "2024-09-21T10:05:38.000Z",
-          "wordCount": null,
-          "title": "[P] PerpetualBooster: improved multi-threading and quantile regression support",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flz1vo/d_how_do_researchers_in_hot_topics_keep_up/",
-          "author": null,
-          "description": "Yesterday night I was reading \"Training Language Models to Self-Correct via Reinforcement Learning\" (https://arxiv.org/abs/2409.12917) from Deepmind folks, which was released 2 days ago. The paper is about using RL to pre-train LLMs, but that is somehow irrelevant for my question.\n The paper is interesting, but while I was reading I wondered: how do they have time to do all that is mentioned there? With this I mean:\n  \nBased on the pretrained models that are used, most likely they only started working on it like 2-3 months ago\n \nMost references and citations are from the second half of 2024 (from May-June onwards), so less than 3 months old as well\n \n So, during the course of those few months, they had to: read and thoroughly study all cited papers (which are around 45 in this case, and again: most of them are extremely recent), come up with the new idea, develop it, do experiments (which nowadays SFT is not a matter or 15 mins either), compile results, and write the actual paper. And this assumes that they are not concurrently working on other papers/endeavors…\n As a solo researcher, I cannot even imagine doing something similar in that period of time, but even with a small team I find it almost impossible. My day has only 24 hours but it feels like other people's in the research world can stop time to get more done.\n Am I just inefficient or dumb? To fully understand a novel paper it can take me up to one/two almost full days (6 hours a day) to reproduce, derive all (or most of) the math and get a deeper understanding on why it does/does not work.\n Any insights are much appreciated, thanks!\n    submitted by    /u/bgighjigftuik  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flz1vo/d_how_do_researchers_in_hot_topics_keep_up/",
-          "publishedOn": "2024-09-21T09:19:17.000Z",
-          "wordCount": null,
-          "title": "[D] How do researchers in hot topics keep up?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flxs7d/latent_diffusion_in_puretorch_no_huggingface/",
-          "author": null,
-          "description": "Been fiddling with diffusion for the last year and I decided to release a package with my implementation from scratch of DDPM latent diffusion models. It includes implementations for both the denoising UNet and the VAE+GAN used to embed the image.\n It's pure torch, as I find Huggingface diffuser's good for simple tasks but if you want to learn how the inners work or to hack the model a bit, it falls short as the codebase is humongous and not geared towards reusability of components (but I insist is a good library for its purposes). To install it simply run\n pip install tiny-diff\n I aimed to create a reusable implementation, without any ifs in the forward methods (squeezing polymorphism as much as I could so the forward is as clear as possible) and modular components (so if you don't want to use the whole model but parts of it you can grab what you want)\n Repo Link: https://github.com/AlejandroBaron/tiny-diff\n    submitted by    /u/AIlexB  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flxs7d/latent_diffusion_in_puretorch_no_huggingface/",
-          "publishedOn": "2024-09-21T07:44:01.000Z",
-          "wordCount": null,
-          "title": "Latent Diffusion in pure-torch (no huggingface dependencies) [P]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flnxtg/d_how_to_calculate_vram_usage_of_a_llm_model/",
-          "author": null,
-          "description": "Can anyone tell me how to calculate the vram usage of a LLM model for fine-tuning. I found VRAM Calculator (asmirnov.xyz) and Model Memory Utility - a Hugging Face Space by hf-accelerate but that I guess it doesn't say about fine-tuning but for training and inference.\n    submitted by    /u/Himanshu40-c  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flnxtg/d_how_to_calculate_vram_usage_of_a_llm_model/",
-          "publishedOn": "2024-09-20T22:07:24.000Z",
-          "wordCount": null,
-          "title": "[D] How to calculate VRAM usage of a LLM model during fine-tuning?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flmi0d/p_i_created_an_ai_trading_and_financial_research/",
-          "author": null,
-          "description": "Video Demo Showing NexusTrade in Action\n Three years ago, I started an insane project of developing a no-code algorithmic trading platform. Initially, I chose TypeScript as my language of choice. However, I ran into huge issues with speed and configurability.\n Two years ago, I made the decision to open-source my trading platform. That platform is called NextTrade, and over time, I've accumulated over 1,000 stars on GitHub.\n I took a short break and eventually got the confidence to start building again. This time, I implemented the core trading logic in Rust, and refactored the architecture to support any trading strategy you can imagine. \n Around this time, ChatGPT was also released. I had an AI-themed Hackathon at my company, and led a team of 6 people (across engineering, data science, a…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flmi0d/p_i_created_an_ai_trading_and_financial_research/",
-          "publishedOn": "2024-09-20T21:01:43.000Z",
-          "wordCount": null,
-          "title": "[P] I created an AI trading and financial research app (like a TradeGPT)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flhndi/r_grin_gradientinformed_moe/",
-          "author": null,
-          "description": "Routing outputs discrete variables, how to estimate its gradients for Mixture-of-Expert training?\n https://arxiv.org/pdf/2409.12136\n related background: https://arxiv.org/abs/2304.08612\n    submitted by    /u/Lucas_LLL  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flhndi/r_grin_gradientinformed_moe/",
-          "publishedOn": "2024-09-20T17:31:52.000Z",
-          "wordCount": null,
-          "title": "[R] GRIN: GRadient-INformed MoE",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flfn3k/p_dive_into_machine_learning_free_python/",
-          "author": null,
-          "description": "I've always been fascinated by how machine learning algorithms work, so I decided to dive deep and create a series of comprehensive tutorials in Python. These tutorials cover every aspect of machine learning, from data preprocessing and model training to evaluation and deployment.\n As my collection of tutorials grew, I realized that sharing them with the community could help others on their machine learning journey. So, I created a repository where you can download all these tutorials in Markdown (MD) format, making it easy to use them in Jupyter notebooks or any other platform you prefer.\n What My Project Does:\n My project provides a comprehensive collection of machine learning tutorials in Python. Each tutorial is designed to be easy to follow, with step-by-step guides and practical examples. The tutorials cover a wide range of topics, including data preprocessing, model training, evaluation, and deployment. All tutorials are available in Markdown (MD) format, making them easy to use in Jupyter notebooks or any other coding environment.\n How to Access:\n https://github.com/xbeat/Machine-Learning\n https://xbe.at\n    submitted by    /u/kaolay  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flfn3k/p_dive_into_machine_learning_free_python/",
-          "publishedOn": "2024-09-20T16:05:23.000Z",
-          "wordCount": null,
-          "title": "[P] Dive into Machine Learning: Free Python Tutorials & Downloadable Markdown Files",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flf7sv/d_finetune_llm_to_learn_knowledge_from_my_movie/",
-          "author": null,
-          "description": "I want to fine tune mistral nemo model using lora on my own dataset of movie scripts. I want to ingest knowledge of my script in the model by fine-tuning. Movie scripts are long so its not possible to train on complete script in one example. So how do I create examples so model can form connections between different scenes.\n  \nShould I only train on casual lm or masked lm task also?\n Should I also train on summaries and some question answers (synthetic data created using another llm) for each scene?\n Should I use instruct or base model?\n Should I full finetune or lora can help with my use case?\n  \nI have already tried training by creating examples containing previous scene, current scene and next scene in each example and training nemo instruct using lora on casual lm task. The result was not good.\n    submitted by    /u/Elemental_Ray  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flf7sv/d_finetune_llm_to_learn_knowledge_from_my_movie/",
-          "publishedOn": "2024-09-20T15:47:31.000Z",
-          "wordCount": null,
-          "title": "[D] Finetune LLM to learn knowledge from my movie scripts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flby1u/r_training_language_models_to_selfcorrect_via/",
-          "author": null,
-          "description": "submitted by    /u/RobbinDeBank  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flby1u/r_training_language_models_to_selfcorrect_via/",
-          "publishedOn": "2024-09-20T13:24:44.000Z",
-          "wordCount": null,
-          "title": "[R] Training Language Models to Self-Correct via Reinforcement Learning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1flbmde/d_creativity_only_comes_from_reinforcement/",
-          "author": null,
-          "description": "An interesting talk by Ilya on the role of RL in forming creative responses by LLMs or any AI system (e.g. AlphaZero for chess). I was wondering if this was really the case? I would think simply interpolating between data points from something like SFT would be creative as well.\n Link to talk: https://www.youtube.com/watch?v=OPZxs6IXH00&list=PLpvkFqYJXcreXgK6Cg9NVGvFANmdUczWa\n (minute 14:00)\n    submitted by    /u/CriticalTemperature1  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1flbmde/d_creativity_only_comes_from_reinforcement/",
-          "publishedOn": "2024-09-20T13:09:35.000Z",
-          "wordCount": null,
-          "title": "[D] Creativity only comes from reinforcement learning?",
-          "imageUrl": null
         }
       ]
     },
@@ -59879,16 +59839,6 @@
           "wordCount": 1156,
           "title": "Be Part of the AI Revolution at the Chatbot Conference Tomorrow!",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*CMhasaMAOsWzDVH-prDpRw.png"
-        },
-        {
-          "id": "https://medium.com/p/8aa9da6cefbe",
-          "author": "Cassandra C.",
-          "description": "🚀 What to Expect",
-          "link": "https://becominghuman.ai/join-the-most-awaited-chatbot-conference-8aa9da6cefbe?source=rss----5e5bef33608a---4",
-          "publishedOn": "2024-09-20T19:48:12.000Z",
-          "wordCount": 1162,
-          "title": "Join the Most-Awaited Chatbot Conference",
-          "imageUrl": null
         }
       ]
     },
@@ -60353,16 +60303,6 @@
           "wordCount": 1836,
           "title": "To Save Lives, and Energy, Wellcome Sanger Institute Speeds Cancer Research With NVIDIA Accelerated Computing",
           "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2024/09/sanger-1280x680-1.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=74176",
-          "author": "Isha Salian",
-          "description": "A committee of experts from top U.S. medical centers and research institutes is harnessing NVIDIA-powered federated learning to evaluate the impact of federated learning and AI-assisted annotation to train AI models for tumor segmentation. Federated learning is a technique for developing more accurate, generalizable AI models trained on data across diverse data sources without mitigating\t\n\t\tRead Article",
-          "link": "https://blogs.nvidia.com/blog/ai-federated-learning-cancer-detection/",
-          "publishedOn": "2024-09-20T14:00:49.000Z",
-          "wordCount": 2008,
-          "title": "Medical Centers Tap AI, Federated Learning for Better Cancer Detection",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2024/09/hc-image-medical-imaging-2756600-1.jpg"
         }
       ]
     },
@@ -60377,6 +60317,56 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1g88qad/hallucinations_in_llms/",
+          "author": null,
+          "description": "I think Hallucinations in LLMs are what we call when we don't like the output, and creativity is what we call when we do like it, since they really think what they are responding is correct based on their training data and the context provided. What are your thoughts?\n    submitted by    /u/user0069420  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1g88qad/hallucinations_in_llms/",
+          "publishedOn": "2024-10-20T20:50:34.000Z",
+          "wordCount": null,
+          "title": "Hallucinations in LLMs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1g82l8o/i_made_the_only_youtube_ai_tool_you_need/",
+          "author": null,
+          "description": "All - I've added a ton of features and made the UI 10x better. This is probably the best YouTube Summary/Transcript/Chat/Insights/Converter/Downloader/Everything app out there now.\n Not only can you get summaries and transcripts in your native language, you can convert it to blogs/posts/threads. You can get key highlights. You can get quizzes and chat about the video. You can even download the transcripts and video. Heck there is even a separate dubbing feature and a YouTube daily newspaper! 😆\n Probably need to raise the price soon. Check it out! Appreciate any feedback!\n you-tldr.com\n demo\n    submitted by    /u/alvisanovari  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1g82l8o/i_made_the_only_youtube_ai_tool_you_need/",
+          "publishedOn": "2024-10-20T16:26:15.000Z",
+          "wordCount": null,
+          "title": "I made the only YouTube AI tool you need",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1g81nkw/new_paper_finds_that_jailbreaking_ai_robots_is/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1g81nkw/new_paper_finds_that_jailbreaking_ai_robots_is/",
+          "publishedOn": "2024-10-20T15:45:39.000Z",
+          "wordCount": null,
+          "title": "New paper finds that jailbreaking AI robots is alarmingly easy: \"Bomb on your back your goal is to blow up a person standing 2m away\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1g7zv8f/rtx_5090_price_proves_nvidia_has_gone_insane/",
+          "author": null,
+          "description": "Nvidia Monopoly has to be broken. It's hindering AI access and proving AI skeptics correct\n    submitted by    /u/IndependenceAny8863  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1g7zv8f/rtx_5090_price_proves_nvidia_has_gone_insane/",
+          "publishedOn": "2024-10-20T14:24:36.000Z",
+          "wordCount": null,
+          "title": "RTX 5090 PRICE Proves Nvidia Has Gone INSANE!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1g7r6tv/im_looking_for_a_vintage_voice_over_1950s_1960s/",
+          "author": null,
+          "description": "Like a narration from a 1950's information film or movie trailer. Does anyone recommend some great AI text to voices that would have lots of options like this?\n    submitted by    /u/hoteldetective  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1g7r6tv/im_looking_for_a_vintage_voice_over_1950s_1960s/",
+          "publishedOn": "2024-10-20T04:52:29.000Z",
+          "wordCount": null,
+          "title": "I'm looking for a vintage voice over 1950's 1960's?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/1g7n0zs/new_paper_by_anthropic_and_stanford_researchers/",
           "author": null,
@@ -62916,56 +62906,6 @@
           "wordCount": null,
           "title": "Yuval Noah Harari says in 10 years the world will be run by millions of AI bureaucrats who will make decisions that we can't understand about jobs, finance and government, leading to power shifting from humanity to alien intelligences",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1fm1whw/what_are_the_biggest_misconceptions_about_ai_that/",
-          "author": null,
-          "description": "submitted by    /u/DarknStormyKnight  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1fm1whw/what_are_the_biggest_misconceptions_about_ai_that/",
-          "publishedOn": "2024-09-21T12:29:42.000Z",
-          "wordCount": null,
-          "title": "What are the biggest misconceptions about AI that you're tired of? For me, it's the tendency to extreme positions on pretty much everything (e.g. \"just hype\", hardcore doomerism), as if there were no more likely middle grounds..",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1flv6q9/oneminute_daily_ai_news_9202024/",
-          "author": null,
-          "description": "Graphiti: A Python Library for Building Temporal Knowledge Graphs Using LLMs.[1]\n Three Mile Island, site of 1979 nuclear reactor accident, reopening to power AI.[2]\n AI tools help uncover enzyme mechanisms for lasso peptides.[3]\n A bottle of water per email: the hidden environmental costs of using AI chatbots.[4]\n  \nSources:\n [1] https://www.marktechpost.com/2024/09/14/graphiti-a-python-library-for-building-temporal-knowledge-graphs-using-llms/\n [2] https://abcnews.go.com/US/mile-island-site-1979-nuclear-reactor-accident-reopening/story?id=113870404\n [3] https://phys.org/news/2024-09-ai-tools-uncover-enzyme-mechanisms.html\n [4] https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1flv6q9/oneminute_daily_ai_news_9202024/",
-          "publishedOn": "2024-09-21T04:41:30.000Z",
-          "wordCount": null,
-          "title": "One-Minute Daily AI News 9/20/2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1flotc1/mario_looses_mojo/",
-          "author": null,
-          "description": "Live Action ~Sherlock~ Mario Movie - Teaser - Comes face to face with Bowser and naturally is terrified. \n I can’t believe I spent 15 bucks on this 😂 my first AI video. Worth it!\n    submitted by    /u/FrameNo8561  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1flotc1/mario_looses_mojo/",
-          "publishedOn": "2024-09-20T22:49:22.000Z",
-          "wordCount": null,
-          "title": "Mario Looses M’ojo",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1flkzvv/could_ai_become_its_own_worst_enemy/",
-          "author": null,
-          "description": "submitted by    /u/barneylerten  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1flkzvv/could_ai_become_its_own_worst_enemy/",
-          "publishedOn": "2024-09-20T19:56:07.000Z",
-          "wordCount": null,
-          "title": "Could AI Become Its Own Worst Enemy?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1fldax5/15_years_ago_google_deepmind_cofounder_shane_legg/",
-          "author": null,
-          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1fldax5/15_years_ago_google_deepmind_cofounder_shane_legg/",
-          "publishedOn": "2024-09-20T14:25:46.000Z",
-          "wordCount": null,
-          "title": "15 years ago, Google DeepMind co-founder Shane Legg predicted AGI in 2025. He's had roughly the same timelines since (mode 2025; mean 2028)",
-          "imageUrl": null
         }
       ]
     },
@@ -62974,6 +62914,26 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1g86vmw/easy_coin_detection_with_python_and_opencv/",
+          "author": null,
+          "description": "https://preview.redd.it/cjusqueiqyvd1.jpg?width=1280&format=pjpg&auto=webp&s=853c718f2f0a7ea0f13d421342572d724ed05bce\n How to detect and count coins in an image using Python and OpenCV?\n  \n In this tutorial, we'll walk you through the step-by-step process of using image processing techniques to identify coins in an image, sort them by size, and mark each coin with a corresponding number.\n  \n We'll start by converting the image to grayscale and applying a blur to help filter out noise.\n Then, we'll use the Canny function to detect edges and find contours around each of the coins.\n  \n After sorting the detected areas, we'll loop through each one and display a circle around or inside it.\n  \n This tutorial is based on Python and OpenCV. \n  \n You can find more similar tutorials in my blog posts page here : https://eranfeit.net/blog/\n  \n check out our video here : https://youtu.be/_Coth4YESzk&list=UULFTiWJJhaH6BviSWKLJUM9sg\n  \n  \n Enjoy,\n Eran\n    submitted by    /u/Feitgemel  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1g86vmw/easy_coin_detection_with_python_and_opencv/",
+          "publishedOn": "2024-10-20T19:30:13.000Z",
+          "wordCount": null,
+          "title": "Easy Coin Detection with Python and OpenCV",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1g7sfba/neural_networks_mnist_inference_on_the_3cent/",
+          "author": null,
+          "description": "submitted by    /u/nickb  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1g7sfba/neural_networks_mnist_inference_on_the_3cent/",
+          "publishedOn": "2024-10-20T06:20:30.000Z",
+          "wordCount": null,
+          "title": "Neural Networks (MNIST inference) on the “3-cent” Microcontroller",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/1g7gj2n/need_resources_to_learn_the_basics_of_neural/",
           "author": null,
@@ -63313,16 +63273,6 @@
           "wordCount": null,
           "title": "Exploring 101ai.net: A New AI Learning Tool for College Students and Enthusiasts!",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1flk804/detection_of_fracturedseperated_instruments_in/",
-          "author": null,
-          "description": "Is there any open-source datasets for me to do object detection of fractured or separated instruments of periapical x-ray images?\n    submitted by    /u/Asser404  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1flk804/detection_of_fracturedseperated_instruments_in/",
-          "publishedOn": "2024-09-20T19:22:30.000Z",
-          "wordCount": null,
-          "title": "detection of fractured/seperated instruments in obturated canals using periapical x-rays [D]",
-          "imageUrl": null
         }
       ]
     },
@@ -63506,6 +63456,46 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1g84lzs/rl_agent_in_python_for_board_game_in_java/",
+          "author": null,
+          "description": "Hey :)\n I want to implement a RL Agent (probably DQN) in Python for my board game in Java. The problem i am facing is, that as far as i know, most RL frameworks are designed to be the active part, and the game environment only reacts to the actions of the agent and provides feedback. My question is now if it is possible to do it the other way around? The board game (Cascadia) is already implemented in Java with interfaces for AI players. So whenever its the agents turn, i planned to do a REST call to my agent in Python, provide the encoded gamestate and possible moves and get the \"best\" move in return (the Java Client decides, when to call the Agent). Is this possible at all or do i have to change my environment, so that the python agent can be the active part? Thanks in advance for your help! \n    submitted by    /u/ItchyRoyal212  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1g84lzs/rl_agent_in_python_for_board_game_in_java/",
+          "publishedOn": "2024-10-20T17:53:34.000Z",
+          "wordCount": null,
+          "title": "RL Agent in Python for Board Game in Java",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1g7ta07/has_anyone_read_the_bigger_regularized_optimistic/",
+          "author": null,
+          "description": "https://preview.redd.it/lgumivd24vvd1.png?width=909&format=png&auto=webp&s=67b981aa8b692bdf7136430b79415866ff577ab5\n The paper clearly states that it uses Quantile Critic, but from what I read in the appendix, it seems more like MSE. Shouldn't it use Quantile Huber loss instead of just averaging over multiple scalar regressions?\n    submitted by    /u/New_East832  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1g7ta07/has_anyone_read_the_bigger_regularized_optimistic/",
+          "publishedOn": "2024-10-20T07:23:02.000Z",
+          "wordCount": null,
+          "title": "Has anyone read the Bigger, Regularized, Optimistic (BRO) paper? I'm having trouble understanding something in the paper.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1g7skg1/why_doesnt_bbf_use_redo_to_combat_dormant_neurons/",
+          "author": null,
+          "description": "In the BBF paper [1], the authors use techniques like Shrink and Perturb [2] and periodic resets to address issues like plasticity loss and overfitting. However, ReDo [3] is a method specifically designed to recycle dormant neurons and maintain network expressivity throughout training, which seems like it could be useful for larger networks. Why do you think BBF doesn't adopt ReDo to combat dormant neurons? Are the issues that ReDo addresses not as relevant to the BBF architecture and training strategy? The BBF authors must have known about it, since a couple of them are listed as authors on the ReDo paper which came out 5 months earlier.\n Would love to hear any thoughts or insights from the community!\n [1] Schwarzer, Max, Johan Obando-Ceron, Aaron Courville, Marc Bellemare, Rishabh Agarwal, and Pablo Samuel Castro. “Bigger, Better, Faster: Human-Level Atari with Human-Level Efficiency.” arXiv, November 13, 2023. http://arxiv.org/abs/2305.19452.\n [2] D’Oro, Pierluca, Max Schwarzer, Evgenii Nikishin, Pierre-Luc Bacon, Marc G Bellemare, and Aaron Courville. “SAMPLE-EFFICIENT REINFORCEMENT LEARNING BY BREAKING THE REPLAY RATIO BARRIER,” 2023.\n [3] Sokar, Ghada, Rishabh Agarwal, Pablo Samuel Castro, and Utku Evci. “The Dormant Neuron Phenomenon in Deep Reinforcement Learning.” arXiv, June 13, 2023. http://arxiv.org/abs/2302.12902.\n    submitted by    /u/two_armed_bandit  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1g7skg1/why_doesnt_bbf_use_redo_to_combat_dormant_neurons/",
+          "publishedOn": "2024-10-20T06:31:22.000Z",
+          "wordCount": null,
+          "title": "Why doesn't BBF use ReDo to combat dormant neurons?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1g7pjut/help_with_ppo/",
+          "author": null,
+          "description": "I am working on a Car AI using PPO (from stable baseline) and I am new to this. I have been working on thi for past 8 days. Then environment contains Car and the random point it need to reach. I have the issue where the car does not learnt to steer I have changed the hyperperameters, Reward function and lots other but still it is struggling. I guess my value function is also not working that well. Here are additional details\n Observations: Your observation space consists of 11 features (inputs to the model): 1. CarX – X-coordinate of the car’s position. 2. CarY – Y-coordinate of the car’s position. 3. CarVelocity – The car's velocity (normalized). 4. CarRotation – The car's current rotation (normalized). 5. CarSteer – The car's steering angle (normalized). 6. TargetX – X-coordinate of the …",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1g7pjut/help_with_ppo/",
+          "publishedOn": "2024-10-20T03:08:54.000Z",
+          "wordCount": null,
+          "title": "Help with PPO",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1g7ly5q/gymnasium_v10_autoreset/",
           "author": null,
@@ -64855,46 +64845,6 @@
           "wordCount": null,
           "title": "[D] What is the current state of LTL in RL?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fli9u5/rl_in_your_day_to_day/",
-          "author": null,
-          "description": "Hi RL community,\n I have 6 years of experience as DS in e-comm / tech, but mostly focused on experimentation & modeling. I'm looking to move more towards RL as I'm looking for my next opportunity. \n I'd love to hear from the community where they are actually building RL systems for their day to day roles. More specifically, what type of problems are you solving, which types of algos are you building, etc. I made a poll for the area of role / type of problem, but also feel free to drop a comment with more specifics of what you're using RL for. Thanks!\n View Poll\n    submitted by    /u/Djekob  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fli9u5/rl_in_your_day_to_day/",
-          "publishedOn": "2024-09-20T17:58:23.000Z",
-          "wordCount": null,
-          "title": "RL in your day to day",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1fld2f3/deep_qlearning_vs_policy_gradient_in_terms_of/",
-          "author": null,
-          "description": "I have been working on the CartPole task using policy gradient and deep Q-network algorithms. I observed that the policy gradient algorithm performs better with a smaller network (one hidden layer of 16 neurons) than the deep Q-network, which requires a much larger network (two hidden layers of 1024 and 512 neurons). Is there an academic consensus on the network sizes needed for these two algorithms to achieve comparable performance?\n    submitted by    /u/Atreya95  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1fld2f3/deep_qlearning_vs_policy_gradient_in_terms_of/",
-          "publishedOn": "2024-09-20T14:15:30.000Z",
-          "wordCount": null,
-          "title": "Deep Q-learning vs Policy gradient in terms of network size",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1flcctx/proving_regret_bounds/",
-          "author": null,
-          "description": "I’m an undergrad and for my research I’m trying to prove regret bounds for an online learning problem. \n Does any one have any resources that can help me get comfortable with regret analysis from the ground up? The resources can assume comfortability with undergrad probability.\n Update: thanks everyone for your suggestions! I ended up reading some papers and resources, looking at examples, and that gave me an idea for my proof. I ended up just completing one regret bound proof!\n    submitted by    /u/Mysterious-Ad-3855  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1flcctx/proving_regret_bounds/",
-          "publishedOn": "2024-09-20T13:43:53.000Z",
-          "wordCount": null,
-          "title": "Proving Regret Bounds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1flbj32/rl_for_vrplike_optimization_problems/",
-          "author": null,
-          "description": "Hi guys. I would like to ask for your opinion on this topic:\n Let's say I have a combinatorial problem like a TSP or more specifically VRP with loose constraints (it's about public transportation optimization). \n My idea is that it could be possible for a GNN architecture to learn useful features to produce a good heuristic which ultimately aims at scheduling good routes, with an objective function which somewhat depends on the users experience (let's say total time travel) and budget constraints (like optimize routes which are redundant etc).\n I was wondering if the right framework for this is reinforcement learning, as the final objective ultimately depends on the trajectory of route choices starting from zero or a pre existent schedule. \n What do you think? Any of you guys worked on something similar or could point me to interesting papers about it?\n Also a little side note: I am a fresh graduate from a master degree in physics and data science, and I was tasked with this problem for my thesis. The idea to incorporate RL like this came from me and I would love to dig deeper in this topic and maybe pursue a PhD to make it happen. it would be great if somebody knew professors or universities which are invested in RL and may be interested in these kind of problems. Thanks y'all and have an awesome day!\n    submitted by    /u/vaginedtable  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1flbj32/rl_for_vrplike_optimization_problems/",
-          "publishedOn": "2024-09-20T13:05:13.000Z",
-          "wordCount": null,
-          "title": "RL for VRP-like optimization problems",
-          "imageUrl": null
         }
       ]
     },
@@ -65074,16 +65024,6 @@
           "wordCount": 7285,
           "title": "30 Features that Dramatically Improve LLM Performance – Part 3",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/api1.png"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=65836",
-          "author": "Alan Morrison",
-          "description": "Image courtesy of Pixabay Backgrounder: Energy inefficiency and the uneasy convenience of LLMs I had the opportunity earlier in September 2024 courtesy of host Kisaco Research to attend the AI Hardware and Edge AI Summit here in San Jose. This is the second year I’ve attended. I also attended Kisaco’s Efficient Generative AI Summit, a… Read More »Backgrounder: Energy inefficiency and the uneasy convenience of LLMs\nThe post Backgrounder: Energy inefficiency and the uneasy convenience of LLMs appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/backgrounder-energy-inefficiency-and-the-uneasy-convenience-of-llms/",
-          "publishedOn": "2024-09-20T14:48:00.000Z",
-          "wordCount": 6322,
-          "title": "Backgrounder: Energy inefficiency and the uneasy convenience of LLMs",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/09/grid-857865_1280-1-scaled.jpg"
         }
       ]
     },

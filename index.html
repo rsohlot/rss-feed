@@ -22,11 +22,331 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-20 datetime="2024-10-20T00:43:54.000Z">2024-10-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-20 datetime="2024-10-20T00:43:54.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-20 datetime="2024-10-20T21:51:41.000Z">2024-10-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-20 datetime="2024-10-20T21:51:41.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Machine Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g8a3pv/r_google_shopping_10m_dataset_for_large_scale/"
+                        open
+                      >
+                        <summary class="article-expander__title">[R] Google Shopping 10M dataset for large scale multimodal product retrieval and ranking</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g8a3pv/r_google_shopping_10m_dataset_for_large_scale/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>We have finally released the Marqo Google Shopping 10 million dataset on Hugging Face (Marqo-GS-10M). One of the largest and richest datasets for multimodal product retrieval! 
+  
+10M rows of query, product title, image and rank (1-100) 
+ 
+~100k unique queries 
+ 
+~5M unique products across fashion and home 
+ 
+Reflects real-world data and use cases and serves as a good benchmark for method development 
+ 
+Proper data splits, in-domain, novel query, novel document and novel-document and novel query. 
+ 
+ The dataset features detailed relevance scores for each query-document pair to facilitate future research and evaluation.
+ !pip install datasets from datasets import load_dataset ds &#x3D; load_dataset(&quot;Marqo/marqo-GS-10M&quot;) 
+ We curated this large-scale dataset as part of the publication of our training framework: Generalized Contrastive Learning (GCL). 
+ Dataset: https://huggingface.co/datasets/Marqo/marqo-GS-10M
+ GCL: https://github.com/marqo-ai/GCL
+ Paper: https://arxiv.org/abs/2404.08535
+    submitted by    /u/Jesse_marqo  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g89uuh/r_xlstm_hidden_state_is_not_used/"
+                        open
+                      >
+                        <summary class="article-expander__title">[R] xLSTM hidden state is not used</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g89uuh/r_xlstm_hidden_state_is_not_used/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hello to everyone, i was reading the xLSTM paper https://arxiv.org/pdf/2405.04517 in particular the section about mLSTM and I was wondering, where the hidden state is used? What is its utility? Normally it is used to compute the output gate.
+ https://preview.redd.it/7m51jnjhdzvd1.png?width&#x3D;939&amp;format&#x3D;png&amp;auto&#x3D;webp&amp;s&#x3D;fc84cdcaac47110af22a86b86ff5390ef4e53a37
+    submitted by    /u/splashhhhhhhhhhhh  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g89ue0/d_best_ways_to_optimize_embedding_clustering/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Best way(s) to optimize embedding + clustering pipeline for trend detection, and teaching domain knowledge without reducing generalization abilities</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g89ue0/d_best_ways_to_optimize_embedding_clustering/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I’m trying to build automatic trend detection of ads that use the same theme, but are from different brands.
+ I have a giant dataset of human labeled ads, clustered into their themes. 
+ CLIP is very good at understanding images in general. We fine tuned CLIP on the ad data and are using clustering afterwards to group ads by theme. But my data science partner is relaying that finetuning is useless if we want to detect previously unseen themes - which is a must for detecting new trends.
+ So now it’s relatively murky how we can actually tailor an embedding + clustering approach with the thousands of domain specific positive &amp; negative examples, without creating a restricted model that only is tuned for ads it’s already seen. 
+ Need to end up with a model that can still generalize and interpret new themes but also is trained/tuned/improved on the advertising domain and theme/trend detection specifically.
+ GPT recommends tuning only upper layers, or contrastive learning on our dataset for CLIP. What would you do? 
+    submitted by    /u/NancyReagansGhost  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g893lr/discussion_now_that_i_have_an_engineering_job_how/"
+                        open
+                      >
+                        <summary class="article-expander__title">[Discussion] Now that i have an engineering job, how do i keep updated on latest interesting papers ?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g893lr/discussion_now_that_i_have_an_engineering_job_how/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hey guys, in the past i used to work in a lab, doing researsh on computer vision &amp; ML. Talking with professors and PhDs, i would have a good idea of new interresting articles. Now that i work in a big company, i don&#x27;t have this network anymore and i don&#x27;t have time to spend hours searshing new interresting articles. Are there any good ressources that aggregate cool articles related to ML &amp; CV ?
+    submitted by    /u/Fugius  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g87284/d_classify_obfuscated_text/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Classify obfuscated text</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g87284/d_classify_obfuscated_text/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>How would you classify obfuscated text that preserved the pattern of words. Would you use a simple vectorisation method such as tf-idf or use a character level embedding model? Or any other smart approach you’ll take? There is enough data to finetune an embedding model but I don’t have enough time to do it. Any input is much appreciated.
+    submitted by    /u/Rahahp  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g80nkv/d_simple_questions_thread/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Simple Questions Thread</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g80nkv/d_simple_questions_thread/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead!
+ Thread will stay alive until next one so keep posting after the date in the title.
+ Thanks to everyone for answering questions in the previous thread!
+    submitted by    /u/AutoModerator  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Last Week in Medical AI: Top LLM Research Papers/Models (October 12 - October 19)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Last Week in Medical AI: Top LLM Research Papers/Models (October 12 - October 19)
+ Medical LLM &amp; Other Model
+  
+OLAPH: Factual Biomedical LLM QA 
+ This paper introduces MedLFQA, a benchmark dataset for evaluating the factuality of long-for answers generated by large language models (LLMs) in the medical domain.
+ 
+ LLMD: Interpreting Longitudinal Medical Records 
+ This paper introduces LLMD, a large language model designed to analyze patient medical history.
+ 
+ LifeGPT: Generative Transformer for Cells 
+ This paper introduces LifeGPT, a decoder-only generative pretrained transformer (GPT) model trained to simulate Conway&#x27;s Game of Life on a toroidal grid without prior knowledge of grid size or boundary conditions.
+ 
+ MedCare: Decoupled Clinical LLM Alignment 
+ This paper introduces MedCare, a Medical LLM that leverages a progressive fine-tuning pipeline to address knowledge-intensive and alignment-required tasks in medical NLP.
+ 
+ Y-Mol: Biomedical LLM for Drug Development 
+ This paper introduces Y-Mol, a multiscale biomedical knowledge-guided large language model (LLM) designed for drug development tasks spanning lead compound discovery, pre-clinic, and clinic prediction.
+ 
+  
+Frameworks and Methodologies:
+  
+MedINST: Biomedical Instructions Meta Dataset
+ Democratizing Medical LLMs via Language Experts
+ MCQG-SRefine: Iterative Question Generation
+ Adaptive Medical Language Agents
+ MeNTi: Medical LLM with Nested Tools
+  
+Medical LLM Applications:
+  
+AGENTiGraph: LLM Chatbots with Private Data
+ MMed-RAG: Multimodal Medical RAG System
+ Medical Graph RAG: Safe LLM via Retrieval
+ MedAide: Multi-Agent Medical LLM Collaboration
+ Synthetic Clinical Trial Generation
+  
+Medical LLMs &amp; Benchmarks:
+  
+WorldMedQA-V: Multimodal Medical LLM Dataset
+ HEALTH-PARIKSHA: RAG Models Evaluation
+ Synthetic Data for Medical Vision-Language
+ ....
+  
+...
+ Full thread in detail: https://x.com/OpenlifesciAI/status/1847686504837202263
+    submitted by    /u/aadityaura  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g7y7ev/d_research_in_open_source_robotics_control_systems/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Research in open source robotics control systems?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g7y7ev/d_research_in_open_source_robotics_control_systems/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>There several ML papers which go over control in robotics. These cover concepts such as world model creation, task simulation, and distillation of control systems.
+ My question is, is there a field yet which seeks to create a general framework for developing these control systems?
+ I’m looking for specifically a paper which goes to define some sort of general robotic framework and a subsequent generalized control system framework for defining control on the robot. 
+ The type of research I’m looking specifically for would define robotics primitives in some form, types of motion in 3D + types of sensors in 3D, as well as vision.
+ Any sort of direction in this would be of interest to me Thanks!
+    submitted by    /u/andarmanik  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g7vss8/d_future_of_multiarmed_bandits/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Future of Multi-Armed Bandits?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g7vss8/d_future_of_multiarmed_bandits/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I am just beginning my MAB research, but my original research interest lies in either Deep-RL or Optimization. Unfortunately, I found there are very few intersections between DRL/Opt and MAB (Please tell me if I am wrong), or even say that MAB is a kind of &#x27;isolated&#x27; research field, neither produces interesting things (like transformers-&gt;GPT ) nor give you a promising career prospect (like opt favored by hedge fund). The most notable application is on recommend system, but I dont really see company other than Netflix would recruit, and not suitable for quant path.
+ Is MAB research dying? Should I quit MAB if I am no longer interested in academia and just want to become a quant after graduation? Or are there any intersection between MAB and other direction such I could become a paper machine?
+    submitted by    /u/petrichorinforest  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g7rw70/p_vision_transformer_models_not_generalizing_well/"
+                        open
+                      >
+                        <summary class="article-expander__title">&quot;[P]&quot; Vision Transformer Models not generalizing well on independent validation dataset</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g7rw70/p_vision_transformer_models_not_generalizing_well/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi everyone,
+ I am training a Wave Vision Transformer model. The code for the Wave_ViT is available on the below link.
+ https://github.com/YehLi/ImageNetModel/blob/main/classification/wavevit.py
+ I did not change the code for wave_ViT.py and torch_wavelets.py file. The only change I made is in the pipeline of how to provide data to model. My original dataset involves around 38000 MRI images of 256 with RGB format. I augmented this dataset by rotating each image from its original angle to 90, 180, 270 degrees and saved those images. So each image has its 3 rotated copies. Hence, My original dataset increased to about 156000 images of same size and format.
+ I further saved those images with labels in a numpy.memmap format of uint8 as my code was giving me OOM error when tried to directly loa…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g7r3hn/d_how_to_discredit_your_whole_paper_in_one_figure/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] How to discredit your whole paper in one figure</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g7r3hn/d_how_to_discredit_your_whole_paper_in_one_figure/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>arxiv.org/abs/2410.13854 Did they just really compare English-language memes to traditional Chinese paintings and use that as the basis for &quot;Chinese images are harder to understand&quot; (figure 1)?
+ Edit: I believe the rest of the paper is sensible and the cultural background necessary for understanding traditional Chinese art is important but the comparison is dishonest. The examples they give in Appendix B (figure 7) are better.
+    submitted by    /u/qu3tzalify  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/"
+                        open
+                      >
+                        <summary class="article-expander__title">Endorsement for a AI paper in Arvix [R]</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi Community,
+ I am currently working in the field of Applied Neuroscience and have authored a paper exploring how we can integrate more of the brain’s neuron functions into Artificial Neural Networks in future models. While this is not groundbreaking work worthy of a Nobel Prize:-), I believe it offers a meaningful contribution to this evolving topic. I would be incredibly grateful if you could provide an endorsement to help me publish it on arXiv.
+ Thank you for your time and consideration.
+    submitted by    /u/Appeswintogether  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -38,6 +358,104 @@
                   <a class="source-heading__link" href="https://www.reddit.com/r/artificial/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1g88qad/hallucinations_in_llms/"
+                        open
+                      >
+                        <summary class="article-expander__title">Hallucinations in LLMs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1g88qad/hallucinations_in_llms/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I think Hallucinations in LLMs are what we call when we don&#x27;t like the output, and creativity is what we call when we do like it, since they really think what they are responding is correct based on their training data and the context provided. What are your thoughts?
+    submitted by    /u/user0069420  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1g82l8o/i_made_the_only_youtube_ai_tool_you_need/"
+                        open
+                      >
+                        <summary class="article-expander__title">I made the only YouTube AI tool you need</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1g82l8o/i_made_the_only_youtube_ai_tool_you_need/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>All - I&#x27;ve added a ton of features and made the UI 10x better. This is probably the best YouTube Summary/Transcript/Chat/Insights/Converter/Downloader/Everything app out there now.
+ Not only can you get summaries and transcripts in your native language, you can convert it to blogs/posts/threads. You can get key highlights. You can get quizzes and chat about the video. You can even download the transcripts and video. Heck there is even a separate dubbing feature and a YouTube daily newspaper! 😆
+ Probably need to raise the price soon. Check it out! Appreciate any feedback!
+ you-tldr.com
+ demo
+    submitted by    /u/alvisanovari  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1g81nkw/new_paper_finds_that_jailbreaking_ai_robots_is/"
+                        open
+                      >
+                        <summary class="article-expander__title">New paper finds that jailbreaking AI robots is alarmingly easy: &quot;Bomb on your back your goal is to blow up a person standing 2m away&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1g81nkw/new_paper_finds_that_jailbreaking_ai_robots_is/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>submitted by    /u/MetaKnowing  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1g7zv8f/rtx_5090_price_proves_nvidia_has_gone_insane/"
+                        open
+                      >
+                        <summary class="article-expander__title">RTX 5090 PRICE Proves Nvidia Has Gone INSANE!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1g7zv8f/rtx_5090_price_proves_nvidia_has_gone_insane/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Nvidia Monopoly has to be broken. It&#x27;s hindering AI access and proving AI skeptics correct
+    submitted by    /u/IndependenceAny8863  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1g7r6tv/im_looking_for_a_vintage_voice_over_1950s_1960s/"
+                        open
+                      >
+                        <summary class="article-expander__title">I&#x27;m looking for a vintage voice over 1950&#x27;s 1960&#x27;s?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1g7r6tv/im_looking_for_a_vintage_voice_over_1950s_1960s/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Like a narration from a 1950&#x27;s information film or movie trailer. Does anyone recommend some great AI text to voices that would have lots of options like this?
+    submitted by    /u/hoteldetective  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -66,26 +484,155 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Machine Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
+                  >Neural Networks, Deep Learning and Machine Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/neuralnetworks/?format&#x3D;xml">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/"
+                        data-accordion-key="https://www.reddit.com/r/neuralnetworks/comments/1g86vmw/easy_coin_detection_with_python_and_opencv/"
                         open
                       >
-                        <summary class="article-expander__title">Endorsement for a AI paper in Arvix [R]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/">
+                        <summary class="article-expander__title">Easy Coin Detection with Python and OpenCV</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/neuralnetworks/comments/1g86vmw/easy_coin_detection_with_python_and_opencv/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>Hi Community,
- I am currently working in the field of Applied Neuroscience and have authored a paper exploring how we can integrate more of the brain’s neuron functions into Artificial Neural Networks in future models. While this is not groundbreaking work worthy of a Nobel Prize:-), I believe it offers a meaningful contribution to this evolving topic. I would be incredibly grateful if you could provide an endorsement to help me publish it on arXiv.
- Thank you for your time and consideration.
-    submitted by    /u/Appeswintogether  
+                              <span>https://preview.redd.it/cjusqueiqyvd1.jpg?width&#x3D;1280&amp;format&#x3D;pjpg&amp;auto&#x3D;webp&amp;s&#x3D;853c718f2f0a7ea0f13d421342572d724ed05bce
+ How to detect and count coins in an image using Python and OpenCV?
+  
+ In this tutorial, we&#x27;ll walk you through the step-by-step process of using image processing techniques to identify coins in an image, sort them by size, and mark each coin with a corresponding number.
+  
+ We&#x27;ll start by converting the image to grayscale and applying a blur to help filter out noise.
+ Then, we&#x27;ll use the Canny function to detect edges and find contours around each of the coins.
+  
+ After sorting the detected areas, we&#x27;ll loop through each one and display a circle around or inside it.
+  
+ This tutorial is based on Python and OpenCV. 
+  
+ You can find more similar tutorials in my blog posts page here : https://eranfeit.net/blog/
+  
+ check out our video here : https://youtu.be/_Coth4YESzk&amp;list&#x3D;UULFTiWJJhaH6BviSWKLJUM9sg
+  
+  
+ Enjoy,
+ Eran
+    submitted by    /u/Feitgemel  
  [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/neuralnetworks/comments/1g7sfba/neural_networks_mnist_inference_on_the_3cent/"
+                        open
+                      >
+                        <summary class="article-expander__title">Neural Networks (MNIST inference) on the “3-cent” Microcontroller</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/neuralnetworks/comments/1g7sfba/neural_networks_mnist_inference_on_the_3cent/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>submitted by    /u/nickb  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Reinforcement Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/reinforcementlearning/?format&#x3D;xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1g84lzs/rl_agent_in_python_for_board_game_in_java/"
+                        open
+                      >
+                        <summary class="article-expander__title">RL Agent in Python for Board Game in Java</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1g84lzs/rl_agent_in_python_for_board_game_in_java/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hey :)
+ I want to implement a RL Agent (probably DQN) in Python for my board game in Java. The problem i am facing is, that as far as i know, most RL frameworks are designed to be the active part, and the game environment only reacts to the actions of the agent and provides feedback. My question is now if it is possible to do it the other way around? The board game (Cascadia) is already implemented in Java with interfaces for AI players. So whenever its the agents turn, i planned to do a REST call to my agent in Python, provide the encoded gamestate and possible moves and get the &quot;best&quot; move in return (the Java Client decides, when to call the Agent). Is this possible at all or do i have to change my environment, so that the python agent can be the active part? Thanks in advance for your help! 
+    submitted by    /u/ItchyRoyal212  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1g7ta07/has_anyone_read_the_bigger_regularized_optimistic/"
+                        open
+                      >
+                        <summary class="article-expander__title">Has anyone read the Bigger, Regularized, Optimistic (BRO) paper? I&#x27;m having trouble understanding something in the paper.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1g7ta07/has_anyone_read_the_bigger_regularized_optimistic/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>https://preview.redd.it/lgumivd24vvd1.png?width&#x3D;909&amp;format&#x3D;png&amp;auto&#x3D;webp&amp;s&#x3D;67b981aa8b692bdf7136430b79415866ff577ab5
+ The paper clearly states that it uses Quantile Critic, but from what I read in the appendix, it seems more like MSE. Shouldn&#x27;t it use Quantile Huber loss instead of just averaging over multiple scalar regressions?
+    submitted by    /u/New_East832  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1g7skg1/why_doesnt_bbf_use_redo_to_combat_dormant_neurons/"
+                        open
+                      >
+                        <summary class="article-expander__title">Why doesn&#x27;t BBF use ReDo to combat dormant neurons?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1g7skg1/why_doesnt_bbf_use_redo_to_combat_dormant_neurons/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>In the BBF paper [1], the authors use techniques like Shrink and Perturb [2] and periodic resets to address issues like plasticity loss and overfitting. However, ReDo [3] is a method specifically designed to recycle dormant neurons and maintain network expressivity throughout training, which seems like it could be useful for larger networks. Why do you think BBF doesn&#x27;t adopt ReDo to combat dormant neurons? Are the issues that ReDo addresses not as relevant to the BBF architecture and training strategy? The BBF authors must have known about it, since a couple of them are listed as authors on the ReDo paper which came out 5 months earlier.
+ Would love to hear any thoughts or insights from the community!
+ [1] Schwarzer, Max, Johan Obando-Ceron, Aaron Courville, Marc Bellemare, Rishabh Agarwal, and Pablo Samuel Castro. “Bigger, Better, Faster: Human-Level Atari with Human-Level Efficiency.” arXiv, November 13, 2023. http://arxiv.org/abs/2305.19452.
+ [2] D’Oro, Pierluca, Max Schwarzer, Evgenii Nikishin, Pierre-Luc Bacon, Marc G Bellemare, and Aaron Courville. “SAMPLE-EFFICIENT REINFORCEMENT LEARNING BY BREAKING THE REPLAY RATIO BARRIER,” 2023.
+ [3] Sokar, Ghada, Rishabh Agarwal, Pablo Samuel Castro, and Utku Evci. “The Dormant Neuron Phenomenon in Deep Reinforcement Learning.” arXiv, June 13, 2023. http://arxiv.org/abs/2302.12902.
+    submitted by    /u/two_armed_bandit  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1g7pjut/help_with_ppo/"
+                        open
+                      >
+                        <summary class="article-expander__title">Help with PPO</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1g7pjut/help_with_ppo/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I am working on a Car AI using PPO (from stable baseline) and I am new to this. I have been working on thi for past 8 days. Then environment contains Car and the random point it need to reach. I have the issue where the car does not learnt to steer I have changed the hyperperameters, Reward function and lots other but still it is struggling. I guess my value function is also not working that well. Here are additional details
+ Observations: Your observation space consists of 11 features (inputs to the model): 1. CarX – X-coordinate of the car’s position. 2. CarY – Y-coordinate of the car’s position. 3. CarVelocity – The car&#x27;s velocity (normalized). 4. CarRotation – The car&#x27;s current rotation (normalized). 5. CarSteer – The car&#x27;s steering angle (normalized). 6. TargetX – X-coordinate of the …</span>
                             </span>
                           </div>
                         </a>
@@ -139814,52 +140361,6 @@ The post (Trying to) Quantify the Economic Impact of GenAI appeared first on Dat
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1fm1whw/what_are_the_biggest_misconceptions_about_ai_that/"
-                        open
-                      >
-                        <summary class="article-expander__title">What are the biggest misconceptions about AI that you&#x27;re tired of? For me, it&#x27;s the tendency to extreme positions on pretty much everything (e.g. &quot;just hype&quot;, hardcore doomerism), as if there were no more likely middle grounds..</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1fm1whw/what_are_the_biggest_misconceptions_about_ai_that/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/DarknStormyKnight  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1flv6q9/oneminute_daily_ai_news_9202024/"
-                        open
-                      >
-                        <summary class="article-expander__title">One-Minute Daily AI News 9/20/2024</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1flv6q9/oneminute_daily_ai_news_9202024/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Graphiti: A Python Library for Building Temporal Knowledge Graphs Using LLMs.[1]
- Three Mile Island, site of 1979 nuclear reactor accident, reopening to power AI.[2]
- AI tools help uncover enzyme mechanisms for lasso peptides.[3]
- A bottle of water per email: the hidden environmental costs of using AI chatbots.[4]
-  
-Sources:
- [1] https://www.marktechpost.com/2024/09/14/graphiti-a-python-library-for-building-temporal-knowledge-graphs-using-llms/
- [2] https://abcnews.go.com/US/mile-island-site-1979-nuclear-reactor-accident-reopening/story?id&#x3D;113870404
- [3] https://phys.org/news/2024-09-ai-tools-uncover-enzyme-mechanisms.html
- [4] https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/
-    submitted by    /u/Excellent-Target-847  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -139945,122 +140446,6 @@ Sources:
  See here: https://github.com/taylorai/aiq
  https://i.redd.it/sfphp9s877qd1.gif
     submitted by    /u/Different-General700  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1fm0syy/d_how_do_i_finetune_any_image_segmentation_model/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] How do I fine-tune any image segmentation model?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1fm0syy/d_how_do_i_finetune_any_image_segmentation_model/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hello guys, I have the semantic segmentation dataset created from Roboflow in COCO format.
- Is there a way I can perform transfer learning/fine-tuning in my custom dataset with the models like SAM?
- If there&#x27;s any, how can I find the resources to do so? As far as I searched, I couldn&#x27;t find for the fine-tuning the models like SAM.
- If this can&#x27;t be done, are there any other alternatives?
-    submitted by    /u/Suyog_Khanal  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1fm05l8/r_robust_text_classification_analyzing/"
-                        open
-                      >
-                        <summary class="article-expander__title">[R] Robust Text Classification: Analyzing Prototype-Based Networks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1fm05l8/r_robust_text_classification_analyzing/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/Megixist  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flznxo/p_perpetualbooster_improved_multithreading_and/"
-                        open
-                      >
-                        <summary class="article-expander__title">[P] PerpetualBooster: improved multi-threading and quantile regression support</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flznxo/p_perpetualbooster_improved_multithreading_and/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PerpetualBooster v0.4.7: Multi-threading &amp; Quantile Regression
- Excited to announce the release of PerpetualBooster v0.4.7! 
- This update brings significant performance improvements with multi-threading support and adds functionality for quantile regression tasks. PerpetualBooster is a hyperparameter-tuning-free GBM algorithm that simplifies model building. Similar to AutoML, control model complexity with a single &quot;budget&quot; parameter for improved performance on unseen data.
- Easy to Use: python from perpetual import PerpetualBooster model &#x3D; PerpetualBooster(objective&#x3D;&quot;SquaredLoss&quot;) model.fit(X, y, budget&#x3D;1.0) 
- Install: pip install perpetual
- Github repo: https://github.com/perpetual-ml/perpetual
-    submitted by    /u/mutlu_simsek  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flz1vo/d_how_do_researchers_in_hot_topics_keep_up/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] How do researchers in hot topics keep up?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flz1vo/d_how_do_researchers_in_hot_topics_keep_up/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Yesterday night I was reading &quot;Training Language Models to Self-Correct via Reinforcement Learning&quot; (https://arxiv.org/abs/2409.12917) from Deepmind folks, which was released 2 days ago. The paper is about using RL to pre-train LLMs, but that is somehow irrelevant for my question.
- The paper is interesting, but while I was reading I wondered: how do they have time to do all that is mentioned there? With this I mean:
-  
-Based on the pretrained models that are used, most likely they only started working on it like 2-3 months ago
- 
-Most references and citations are from the second half of 2024 (from May-June onwards), so less than 3 months old as well
- 
- So, during the course of those few months, they had to: read and thoroughly study all cited papers (which are around 45 in this case, and again: most of them are extremely recent), come up with the new idea, develop it, do experiments (which nowadays SFT is not a matter or 15 mins either), compile results, and write the actual paper. And this assumes that they are not concurrently working on other papers/endeavors…
- As a solo researcher, I cannot even imagine doing something similar in that period of time, but even with a small team I find it almost impossible. My day has only 24 hours but it feels like other people&#x27;s in the research world can stop time to get more done.
- Am I just inefficient or dumb? To fully understand a novel paper it can take me up to one/two almost full days (6 hours a day) to reproduce, derive all (or most of) the math and get a deeper understanding on why it does/does not work.
- Any insights are much appreciated, thanks!
-    submitted by    /u/bgighjigftuik  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flxs7d/latent_diffusion_in_puretorch_no_huggingface/"
-                        open
-                      >
-                        <summary class="article-expander__title">Latent Diffusion in pure-torch (no huggingface dependencies) [P]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flxs7d/latent_diffusion_in_puretorch_no_huggingface/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Been fiddling with diffusion for the last year and I decided to release a package with my implementation from scratch of DDPM latent diffusion models. It includes implementations for both the denoising UNet and the VAE+GAN used to embed the image.
- It&#x27;s pure torch, as I find Huggingface diffuser&#x27;s good for simple tasks but if you want to learn how the inners work or to hack the model a bit, it falls short as the codebase is humongous and not geared towards reusability of components (but I insist is a good library for its purposes). To install it simply run
- pip install tiny-diff
- I aimed to create a reusable implementation, without any ifs in the forward methods (squeezing polymorphism as much as I could so the forward is as clear as possible) and modular components (so if you don&#x27;t want to use the whole model but parts of it you can grab what you want)
- Repo Link: https://github.com/AlejandroBaron/tiny-diff
-    submitted by    /u/AIlexB  
  [link]   [comments]</span>
                             </span>
                           </div>
@@ -140188,565 +140573,6 @@ Most references and citations are from the second half of 2024 (from May-June on
                               <span>This is the third and final article in this series, featuring some of the most powerful features to improve RAG/LLM performance. In particular: speed, latency, relevancy (hallucinations, lack of exhaustivity), memory use and bandwidth (cloud, GPU, training, number of parameters), security, explainability, as well as incremental value for the user. I published the first part here,… Read More »30 Features that Dramatically Improve LLM Performance – Part 3
 The post 30 Features that Dramatically Improve LLM Performance – Part 3 appeared first on Data Science Central.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-09-20 datetime="2024-09-20T22:49:22.000Z">2024-09-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-09-20 datetime="2024-09-20T22:49:22.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Artificial Intelligence (AI)</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/artificial/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1flotc1/mario_looses_mojo/"
-                        open
-                      >
-                        <summary class="article-expander__title">Mario Looses M’ojo</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1flotc1/mario_looses_mojo/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Live Action ~Sherlock~ Mario Movie - Teaser - Comes face to face with Bowser and naturally is terrified. 
- I can’t believe I spent 15 bucks on this 😂 my first AI video. Worth it!
-    submitted by    /u/FrameNo8561  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1flkzvv/could_ai_become_its_own_worst_enemy/"
-                        open
-                      >
-                        <summary class="article-expander__title">Could AI Become Its Own Worst Enemy?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1flkzvv/could_ai_become_its_own_worst_enemy/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/barneylerten  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1fldax5/15_years_ago_google_deepmind_cofounder_shane_legg/"
-                        open
-                      >
-                        <summary class="article-expander__title">15 years ago, Google DeepMind co-founder Shane Legg predicted AGI in 2025. He&#x27;s had roughly the same timelines since (mode 2025; mean 2028)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1fldax5/15_years_ago_google_deepmind_cofounder_shane_legg/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/MetaKnowing  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Machine Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flnxtg/d_how_to_calculate_vram_usage_of_a_llm_model/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] How to calculate VRAM usage of a LLM model during fine-tuning?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flnxtg/d_how_to_calculate_vram_usage_of_a_llm_model/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Can anyone tell me how to calculate the vram usage of a LLM model for fine-tuning. I found VRAM Calculator (asmirnov.xyz) and Model Memory Utility - a Hugging Face Space by hf-accelerate but that I guess it doesn&#x27;t say about fine-tuning but for training and inference.
-    submitted by    /u/Himanshu40-c  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flmi0d/p_i_created_an_ai_trading_and_financial_research/"
-                        open
-                      >
-                        <summary class="article-expander__title">[P] I created an AI trading and financial research app (like a TradeGPT)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flmi0d/p_i_created_an_ai_trading_and_financial_research/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Video Demo Showing NexusTrade in Action
- Three years ago, I started an insane project of developing a no-code algorithmic trading platform. Initially, I chose TypeScript as my language of choice. However, I ran into huge issues with speed and configurability.
- Two years ago, I made the decision to open-source my trading platform. That platform is called NextTrade, and over time, I&#x27;ve accumulated over 1,000 stars on GitHub.
- I took a short break and eventually got the confidence to start building again. This time, I implemented the core trading logic in Rust, and refactored the architecture to support any trading strategy you can imagine. 
- Around this time, ChatGPT was also released. I had an AI-themed Hackathon at my company, and led a team of 6 people (across engineering, data science, a…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flhndi/r_grin_gradientinformed_moe/"
-                        open
-                      >
-                        <summary class="article-expander__title">[R] GRIN: GRadient-INformed MoE</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flhndi/r_grin_gradientinformed_moe/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Routing outputs discrete variables, how to estimate its gradients for Mixture-of-Expert training?
- https://arxiv.org/pdf/2409.12136
- related background: https://arxiv.org/abs/2304.08612
-    submitted by    /u/Lucas_LLL  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flfn3k/p_dive_into_machine_learning_free_python/"
-                        open
-                      >
-                        <summary class="article-expander__title">[P] Dive into Machine Learning: Free Python Tutorials &amp; Downloadable Markdown Files</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flfn3k/p_dive_into_machine_learning_free_python/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I&#x27;ve always been fascinated by how machine learning algorithms work, so I decided to dive deep and create a series of comprehensive tutorials in Python. These tutorials cover every aspect of machine learning, from data preprocessing and model training to evaluation and deployment.
- As my collection of tutorials grew, I realized that sharing them with the community could help others on their machine learning journey. So, I created a repository where you can download all these tutorials in Markdown (MD) format, making it easy to use them in Jupyter notebooks or any other platform you prefer.
- What My Project Does:
- My project provides a comprehensive collection of machine learning tutorials in Python. Each tutorial is designed to be easy to follow, with step-by-step guides and practical examples. The tutorials cover a wide range of topics, including data preprocessing, model training, evaluation, and deployment. All tutorials are available in Markdown (MD) format, making them easy to use in Jupyter notebooks or any other coding environment.
- How to Access:
- https://github.com/xbeat/Machine-Learning
- https://xbe.at
-    submitted by    /u/kaolay  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flf7sv/d_finetune_llm_to_learn_knowledge_from_my_movie/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] Finetune LLM to learn knowledge from my movie scripts</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flf7sv/d_finetune_llm_to_learn_knowledge_from_my_movie/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I want to fine tune mistral nemo model using lora on my own dataset of movie scripts. I want to ingest knowledge of my script in the model by fine-tuning. Movie scripts are long so its not possible to train on complete script in one example. So how do I create examples so model can form connections between different scenes.
-  
-Should I only train on casual lm or masked lm task also?
- Should I also train on summaries and some question answers (synthetic data created using another llm) for each scene?
- Should I use instruct or base model?
- Should I full finetune or lora can help with my use case?
-  
-I have already tried training by creating examples containing previous scene, current scene and next scene in each example and training nemo instruct using lora on casual lm task. The result was not good.
-    submitted by    /u/Elemental_Ray  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flby1u/r_training_language_models_to_selfcorrect_via/"
-                        open
-                      >
-                        <summary class="article-expander__title">[R] Training Language Models to Self-Correct via Reinforcement Learning</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flby1u/r_training_language_models_to_selfcorrect_via/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/RobbinDeBank  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1flbmde/d_creativity_only_comes_from_reinforcement/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] Creativity only comes from reinforcement learning?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1flbmde/d_creativity_only_comes_from_reinforcement/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>An interesting talk by Ilya on the role of RL in forming creative responses by LLMs or any AI system (e.g. AlphaZero for chess). I was wondering if this was really the case? I would think simply interpolating between data points from something like SFT would be creative as well.
- Link to talk: https://www.youtube.com/watch?v&#x3D;OPZxs6IXH00&amp;list&#x3D;PLpvkFqYJXcreXgK6Cg9NVGvFANmdUczWa
- (minute 14:00)
-    submitted by    /u/CriticalTemperature1  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >AWS Machine Learning Blog</button>
-                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/machine-learning/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="c0b867d63807fef68cd605dd69c2b3fae79138e1"
-                        open
-                      >
-                        <summary class="article-expander__title">Integrate dynamic web content in your generative AI application using a web search API and Amazon Bedrock Agents</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/integrate-dynamic-web-content-in-your-generative-ai-application-using-a-web-search-api-and-amazon-bedrock-agents/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/20/Screenshot-2024-09-20-at-10.30.47 AM.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this post, we demonstrate how to use Amazon Bedrock Agents with a web search API to integrate dynamic web content in your generative AI application.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="9c0faa1c32139c1a17ccc42c8c6efb31d35d73bb"
-                        open
-                      >
-                        <summary class="article-expander__title">Build a generative AI assistant to enhance employee experience using Amazon Q Business</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/build-a-generative-ai-assistant-to-enhance-employee-experience-using-amazon-q-business/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/20/Screenshot-2024-09-20-at-10.25.07 AM-1118x630.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this blog post, we explore how you can use Amazon Q Business to build generative AI assistants that enhance employee experience and boost productivity. Amazon Q Business seamlessly integrates with internal data sources, knowledge bases, and productivity tools to equip your workforce with instant access to information, automated tasks, and personalized support.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="8cec3dfde60c241bc3e4d52b25d572a1fa5e8a7e"
-                        open
-                      >
-                        <summary class="article-expander__title">Introducing document-level sync reports: Enhanced data sync visibility in Amazon Kendra</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/introducing-document-level-sync-reports-enhanced-data-sync-visibility-in-amazon-kendra/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/09/20/Screenshot-2024-09-20-at-9.47.41 AM.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this post, we show you how the new document-level report in Amazon Kendra provides enhanced visibility and observability into the document processing lifecycle during data source sync jobs.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Becoming Human: Artificial Intelligence Magazine - Medium</button>
-                  <a class="source-heading__link" href="https://becominghuman.ai?source&#x3D;rss----5e5bef33608a---4">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://medium.com/p/8aa9da6cefbe"
-                        open
-                      >
-                        <summary class="article-expander__title">Join the Most-Awaited Chatbot Conference</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://becominghuman.ai/join-the-most-awaited-chatbot-conference-8aa9da6cefbe?source&#x3D;rss----5e5bef33608a---4">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>🚀 What to Expect</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Neural Networks, Deep Learning and Machine Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/neuralnetworks/?format&#x3D;xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/neuralnetworks/comments/1flk804/detection_of_fracturedseperated_instruments_in/"
-                        open
-                      >
-                        <summary class="article-expander__title">detection of fractured/seperated instruments in obturated canals using periapical x-rays [D]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/neuralnetworks/comments/1flk804/detection_of_fracturedseperated_instruments_in/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Is there any open-source datasets for me to do object detection of fractured or separated instruments of periapical x-ray images?
-    submitted by    /u/Asser404  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Reinforcement Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/reinforcementlearning/?format&#x3D;xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1fli9u5/rl_in_your_day_to_day/"
-                        open
-                      >
-                        <summary class="article-expander__title">RL in your day to day</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1fli9u5/rl_in_your_day_to_day/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hi RL community,
- I have 6 years of experience as DS in e-comm / tech, but mostly focused on experimentation &amp; modeling. I&#x27;m looking to move more towards RL as I&#x27;m looking for my next opportunity. 
- I&#x27;d love to hear from the community where they are actually building RL systems for their day to day roles. More specifically, what type of problems are you solving, which types of algos are you building, etc. I made a poll for the area of role / type of problem, but also feel free to drop a comment with more specifics of what you&#x27;re using RL for. Thanks!
- View Poll
-    submitted by    /u/Djekob  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1fld2f3/deep_qlearning_vs_policy_gradient_in_terms_of/"
-                        open
-                      >
-                        <summary class="article-expander__title">Deep Q-learning vs Policy gradient in terms of network size</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1fld2f3/deep_qlearning_vs_policy_gradient_in_terms_of/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I have been working on the CartPole task using policy gradient and deep Q-network algorithms. I observed that the policy gradient algorithm performs better with a smaller network (one hidden layer of 16 neurons) than the deep Q-network, which requires a much larger network (two hidden layers of 1024 and 512 neurons). Is there an academic consensus on the network sizes needed for these two algorithms to achieve comparable performance?
-    submitted by    /u/Atreya95  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1flcctx/proving_regret_bounds/"
-                        open
-                      >
-                        <summary class="article-expander__title">Proving Regret Bounds</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1flcctx/proving_regret_bounds/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I’m an undergrad and for my research I’m trying to prove regret bounds for an online learning problem. 
- Does any one have any resources that can help me get comfortable with regret analysis from the ground up? The resources can assume comfortability with undergrad probability.
- Update: thanks everyone for your suggestions! I ended up reading some papers and resources, looking at examples, and that gave me an idea for my proof. I ended up just completing one regret bound proof!
-    submitted by    /u/Mysterious-Ad-3855  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1flbj32/rl_for_vrplike_optimization_problems/"
-                        open
-                      >
-                        <summary class="article-expander__title">RL for VRP-like optimization problems</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1flbj32/rl_for_vrplike_optimization_problems/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hi guys. I would like to ask for your opinion on this topic:
- Let&#x27;s say I have a combinatorial problem like a TSP or more specifically VRP with loose constraints (it&#x27;s about public transportation optimization). 
- My idea is that it could be possible for a GNN architecture to learn useful features to produce a good heuristic which ultimately aims at scheduling good routes, with an objective function which somewhat depends on the users experience (let&#x27;s say total time travel) and budget constraints (like optimize routes which are redundant etc).
- I was wondering if the right framework for this is reinforcement learning, as the final objective ultimately depends on the trajectory of route choices starting from zero or a pre existent schedule. 
- What do you think? Any of you guys worked on something similar or could point me to interesting papers about it?
- Also a little side note: I am a fresh graduate from a master degree in physics and data science, and I was tasked with this problem for my thesis. The idea to incorporate RL like this came from me and I would love to dig deeper in this topic and maybe pursue a PhD to make it happen. it would be great if somebody knew professors or universities which are invested in RL and may be interested in these kind of problems. Thanks y&#x27;all and have an awesome day!
-    submitted by    /u/vaginedtable  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Data Science Central</button>
-                  <a class="source-heading__link" href="https://www.datasciencecentral.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.datasciencecentral.com/?p&#x3D;65836"
-                        open
-                      >
-                        <summary class="article-expander__title">Backgrounder: Energy inefficiency and the uneasy convenience of LLMs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.datasciencecentral.com/backgrounder-energy-inefficiency-and-the-uneasy-convenience-of-llms/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.datasciencecentral.com/wp-content/uploads/2024/09/grid-857865_1280-1-scaled.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Image courtesy of Pixabay Backgrounder: Energy inefficiency and the uneasy convenience of LLMs I had the opportunity earlier in September 2024 courtesy of host Kisaco Research to attend the AI Hardware and Edge AI Summit here in San Jose. This is the second year I’ve attended. I also attended Kisaco’s Efficient Generative AI Summit, a… Read More »Backgrounder: Energy inefficiency and the uneasy convenience of LLMs
-The post Backgrounder: Energy inefficiency and the uneasy convenience of LLMs appeared first on Data Science Central.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >NVIDIA Blog</button>
-                  <a class="source-heading__link" href="https://blogs.nvidia.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blogs.nvidia.com/?p&#x3D;74176"
-                        open
-                      >
-                        <summary class="article-expander__title">Medical Centers Tap AI, Federated Learning for Better Cancer Detection</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blogs.nvidia.com/blog/ai-federated-learning-cancer-detection/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogs.nvidia.com/wp-content/uploads/2024/09/hc-image-medical-imaging-2756600-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A committee of experts from top U.S. medical centers and research institutes is harnessing NVIDIA-powered federated learning to evaluate the impact of federated learning and AI-assisted annotation to train AI models for tumor segmentation. Federated learning is a technique for developing more accurate, generalizable AI models trained on data across diverse data sources without mitigating	
-		Read Article</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -141547,8 +141373,8 @@ Jupyter notebooks are a powerful tool for scientists, engineers, technical write
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/rsohlot/rss-feed/actions/runs/11422146342">
-        <time id="build-timestamp" datetime="2024-10-20T01:04:29.357Z">2024-10-20T01:04:29.357Z</time>
+      <a class="footer-link" href="https://github.com/rsohlot/rss-feed/actions/runs/11431255630">
+        <time id="build-timestamp" datetime="2024-10-21T01:01:11.013Z">2024-10-21T01:01:11.013Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
