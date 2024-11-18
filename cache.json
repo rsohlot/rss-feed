@@ -833,16 +833,6 @@
           "wordCount": 3125,
           "title": "Best practices for building robust generative AI applications with Amazon Bedrock Agents – Part 2",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/10/21/Screenshot-2024-10-21-at-9.31.10 AM-1120x630.png"
-        },
-        {
-          "id": "758d017362e127dab7538b177e3e8f10a45be758",
-          "author": "Rodrigo Amaral",
-          "description": "In this post we introduce an innovative solution for end-to-end model customization and deployment at the edge using Amazon SageMaker and Qualcomm AI Hub.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/train-optimize-and-deploy-models-on-edge-devices-using-amazon-sagemaker-and-qualcomm-ai-hub/",
-          "publishedOn": "2024-10-18T20:01:31.000Z",
-          "wordCount": 3859,
-          "title": "Train, optimize, and deploy models on edge devices using Amazon SageMaker and Qualcomm AI Hub",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/10/18/Screenshot-2024-10-18-at-12.55.09 PM-1124x630.png"
         }
       ]
     },
@@ -67636,6 +67626,126 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtng8q/d_pca_vs_autoencoders_for_dimensionality_reduction/",
+          "author": null,
+          "description": "The title sums it up. I'm working on some anonymized time-series data, initially, I built an AutoEncoder in order to replace the decoder head with a regression head instead after training.\n As for preprocessing steps, I would usually just subtract the mean of features and divide by their standard deviation, Although I've long heard that doing \"data decorrelation\" is helpful, so I decided to finally learn about PCA.\n My questions are the following:\n  \nIf PCA serves to find the principle underlying features of a dataset, is there any point in using an autoencoder? (Especially if there are high correlations between some features)\n If there is still a point to using autoencoders, should one use PCA on their dataset first to decorrelate data, or is that just redundant, or perhaps another reason not to use it is that it can erase some information? (Although it's an invertible transformation so I don't see how information would be lost)\n Is PCA as a preprocessing step beneficial to tree-building algorithms? I haven't seen much talk of it, but it seems intuitive to me that having decision nodes on principle component axes would lead to better results.\n  \n   submitted by    /u/DisciplinedPenguin  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtng8q/d_pca_vs_autoencoders_for_dimensionality_reduction/",
+          "publishedOn": "2024-11-17T20:56:46.000Z",
+          "wordCount": null,
+          "title": "[D] PCA vs AutoEncoders for Dimensionality Reduction",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtkp1d/d_why_llm_watermarking_will_never_work/",
+          "author": null,
+          "description": "submitted by    /u/bubble_boi  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtkp1d/d_why_llm_watermarking_will_never_work/",
+          "publishedOn": "2024-11-17T18:55:28.000Z",
+          "wordCount": null,
+          "title": "[D] Why LLM watermarking will never work",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtke1b/d_how_an_efficient_applied_ml_team_is_structured/",
+          "author": null,
+          "description": "Hi Everyone,\n I am interested in your experience on how big(ger) ML teams are structured that are working well for companies that are building with ML (companies who use ML in multiple domains and they cover CV, NLP, ...)? I tried to search for it, but there is not much info on efficient team structure. While structure can be defined by the company culture, I am sure you've seen patterns on how this can work well.\n (I think a big team is at least 80 people with POs/PMs).\n The most basic (and maybe the best?) is when the domains are divided (CV, NLP, etc.) where every domain has a lead and multiple seniors, mediors, juniors. Then besides the ML engineers, there is a separate division who work with the productization (creating rest APIs, etc.), which includes devops, and SWEs. \n    submitted by    /u/gabegabe6  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtke1b/d_how_an_efficient_applied_ml_team_is_structured/",
+          "publishedOn": "2024-11-17T18:41:55.000Z",
+          "wordCount": null,
+          "title": "[D] How an efficient applied ML team is structured?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtjkci/r_treemind_simplifying_gradient_boosting_model/",
+          "author": null,
+          "description": "treemind is a powerful Python library designed to analyze gradient boosting models like xgboost, lightgbm, and catboost. It helps you uncover how features and their interactions influence predictions across specific intervals, offering fast, intuitive insights.\n Key Features:\n  \nFeature & Interaction Analysis: Understand feature contributions and complex interactions up to n features.\n Advanced Visualizations: User-friendly plots to explain model decisions.\n High Performance: Optimized with Cython for lightning-fast execution, even on large datasets.\n Easy Integration: Seamlessly works with popular frameworks for regression and binary classification.\n  \nAlgorithm & Performance:\n  \nAlgorithm: Focuses on analyzing feature contributions and interactions in tree-based models for meaningful interval-based insights. Read more about the algorithm\n Performance: The library's performance has been tested on synthetic datasets, where it is benchmarked against SHAP for accuracy and efficiency. View performance experiments\n  \nQuick Start:\n bash pip install treemind \n Check out the full documentation for examples, visualizations, and API details.\n GitHub Repo | Docs\n Note:\n While the algorithm produces desirable results in practice, it currently lacks formal mathematical proof. We would greatly appreciate your feedback and ideas to help improve and validate the approach further!\n    submitted by    /u/zedeleyici3401  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtjkci/r_treemind_simplifying_gradient_boosting_model/",
+          "publishedOn": "2024-11-17T18:05:43.000Z",
+          "wordCount": null,
+          "title": "[R] treemind: Simplifying Gradient Boosting Model Analysis",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtjhge/d_quality_of_iclr_papers/",
+          "author": null,
+          "description": "I was going through some of the papers of ICLR with moderate to high scores related to what I was interested in , I found them failrly incremental and was kind of surprised, for a major sub field, the quality of work was rather poor for a premier conference as this one . Ever since llms have come, i feel the quality and originality of papers (not all of course ) have dipped a bit. Am I alone in feeling this ?\n    submitted by    /u/Cool_Abbreviations_9  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtjhge/d_quality_of_iclr_papers/",
+          "publishedOn": "2024-11-17T18:02:24.000Z",
+          "wordCount": null,
+          "title": "[D] Quality of ICLR papers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtgnk8/d_simple_questions_thread/",
+          "author": null,
+          "description": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead!\n Thread will stay alive until next one so keep posting after the date in the title.\n Thanks to everyone for answering questions in the previous thread!\n    submitted by    /u/AutoModerator  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtgnk8/d_simple_questions_thread/",
+          "publishedOn": "2024-11-17T16:00:20.000Z",
+          "wordCount": null,
+          "title": "[D] Simple Questions Thread",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtenw8/d_small_language_models_defining_vocabulary_using/",
+          "author": null,
+          "description": "I've been thinking a lot about why language models were so big and how they could be smaller. I thought about how every human brain can't possibly contain the entirity of human knowledge. I believe humans roughly have something along the lines of a probability matrix of words X other words, but not every word X every word.\n It occurred to me that we frequently define unusual words (low frequency, not often used words) using other existing words we know. Can we potentially have a language model which uses vectors for the highest frequency words only, and \"unusal words\" which dont have their own vectors, but instead reference existing vectors? This could drastically decrease the word X word matrix as common words consists of a much smaller subset of the language. Maybe such a model could dynamically move reference words into and out of primary vectors when retrained on text that is specific to niche topics.\n Knowing that I've never had an original thought, are there any other projects like this already?\n    submitted by    /u/meteoraln  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtenw8/d_small_language_models_defining_vocabulary_using/",
+          "publishedOn": "2024-11-17T14:26:01.000Z",
+          "wordCount": null,
+          "title": "[D] Small language models defining vocabulary using old vectors instead of new vectors",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtdpwu/nlu_models_vs_autoregressive_models_for_semantic/",
+          "author": null,
+          "description": "It seems that in a lot of applications where semantic matching is be difficult, systems are designed to use an autoregressive model for the input sequence embedding (then perform a range of semantic search techniques). \n But shouldn't a bidirectional model always out-perform an autoregressive model on this task theoretically? That would suggest it's ideal to use an optimised NLU-oriented model like DeBERTa-V3 (ie. fine tuned on domain data) for more accurate embeddings, thus better semantic search performance.\n Additionally, is there much reporting on unified semantic search techniques? All of the implementations i've seen have been highly domain-specific/arbitrary.\n    submitted by    /u/SnooPeripherals5313  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtdpwu/nlu_models_vs_autoregressive_models_for_semantic/",
+          "publishedOn": "2024-11-17T13:37:15.000Z",
+          "wordCount": null,
+          "title": "NLU models vs autoregressive models for semantic search [R]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtc2qv/d_convolutional_generative_adversarial_networks/",
+          "author": null,
+          "description": "I am coding a DCGAN to produce Brain MRI data, based on the BRATs 2020 dataset. As a sanity check, I am training on a SINGLE image with CONSTANT noise, to see if there are any inherent flaws in my design. The GAN seems to catch on the general pattern, but there is some sort of noise or distortion. You can see in the example below, that the generated image is not as sharp as the original.\n original image\n lr 1e-4 1000 epochs \n lr 2e-4 500 epochs\n after initialization\n I see some cross like patterns on all of my images, so I believe there is something inherently wrong with my network that produces them. here is the code.\n ```\n class SimpleGenerator(nn.Module): def __init__(self,out_channels =1, noise_dimension = 100 , channels= 64 ): super(SimpleGenerator, self).__init__() self.noise_shape =…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtc2qv/d_convolutional_generative_adversarial_networks/",
+          "publishedOn": "2024-11-17T12:00:56.000Z",
+          "wordCount": null,
+          "title": "[D] Convolutional Generative Adversarial Networks Noise Patterns",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtbkhw/d_looking_for_some_audio_segmentation_model/",
+          "author": null,
+          "description": "Title, also something like pyannote/segmentation -3.0 but better. Is there anything new in this domain? I came across mamba but it's still in early stage for this purpose to say anything concrete about it.\n    submitted by    /u/Just_Difficulty9836  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtbkhw/d_looking_for_some_audio_segmentation_model/",
+          "publishedOn": "2024-11-17T11:26:24.000Z",
+          "wordCount": null,
+          "title": "[D] Looking for some audio segmentation model.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gtal7z/discussion_logging_gradients_and_using_third/",
+          "author": null,
+          "description": "Hey guys, I wondered how you learnt to use tools such as Wandb and MLFlow to log the gradient and tune hyperparameters in the model. \n Could you share resources for the same?\n    submitted by    /u/DiscussionTricky2904  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gtal7z/discussion_logging_gradients_and_using_third/",
+          "publishedOn": "2024-11-17T10:14:15.000Z",
+          "wordCount": null,
+          "title": "[Discussion] Logging Gradients and using third party loggers to tune hyper parameters",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gt2yfp/p_supercharging_structured_outputs_with_open/",
+          "author": null,
+          "description": "submitted by    /u/themathstudent  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gt2yfp/p_supercharging_structured_outputs_with_open/",
+          "publishedOn": "2024-11-17T01:57:03.000Z",
+          "wordCount": null,
+          "title": "[P] Supercharging Structured Outputs with Open Source Models 🚀",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1gt1avg/dataset_versioning_tool_d/",
           "author": null,
           "description": "What are you guys using for data(set) versioning and would you suggest to use for a small (1000 x 700) table ?\n    submitted by    /u/Amazing_Alarm6130  \n [link]   [comments]",
@@ -71654,116 +71764,6 @@
           "wordCount": null,
           "title": "[D] Layernorm is confusingly named?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g762xs/project_deep_learning_libframework_on_jax_that/",
-          "author": null,
-          "description": "Hello, I'm working on a new Deep Learning Framework on top of JAX and really like JAX's FP-approach and got inspired to do a framework that doesn't change that into OOP. It's heavily inspired by Haiku and Haiku's transform. \n Link: Zephyr: https://github.com/mzguntalan/zephyr Available via pip install\n It's main difference:\n - neural networks are just functions like `def f(params, x, hyper_parameters)`\n - and so while it's verbose, it's obvious how it behaves like. in FP, you can do partial applications/closures when needed\n - it's very easy to do \"model surgery\" in that it's just calling functions (see readme for example)\n - zephyr takes care of validating params and creating them via a single `trace` function.\n This framework named Zephyr, makes coding neural networks at numpy-level very convenient. You get ultimate control and zephyr's `trace` initializes params for you and all networks are just pure functions. Nothing special, so you can use your skills of python, functions, and numpy to do anything you want. I showed examples on the README. I hope you like it.\n I was busy implementing the parameter creation feature, so i haven't implemented all common networks yet, and I have yet to finalize the network parameters so those might change. But if you try it now, and have suggestions, those will greatly affect the design of it moving forward. \n Looking forward to your comments!\n Other notes:\n - i'm still experimenting what other ways i can do to make FP on python so much easier or readable\n - for example: I made a decorator that makes a function \"auto-partialize\" itself so that you can separate parameters into groups like this: `g(x,y,z) == g( _ , y, _ ) (x,z)` where `_ = Placeholder()`\n - still experimenting how what other features I can incorporate, before focusing on core nets/layers\n - very open for suggestions\n    submitted by    /u/Pristine-Staff-5250  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g762xs/project_deep_learning_libframework_on_jax_that/",
-          "publishedOn": "2024-10-19T10:35:11.000Z",
-          "wordCount": null,
-          "title": "[Project] Deep Learning Lib/Framework On JAX that keeps neural networks as pure functions",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g75gcb/project_tsetlin_machine_for_deep_logical_learning/",
-          "author": null,
-          "description": "https://preview.redd.it/spcqdkqwnovd1.png?width=2643&format=png&auto=webp&s=ba0d7dd294ef9814f20bf3950f0049e80cf8d8d9\n Hi all! I just completed the first deep Tsetlin Machine - a Graph Tsetlin Machine that can learn and reason multimodally across graphs. After introducing the Tsetlin machine in 2018, I expected to figure out how to make a deep one quickly. Took me six years! Sharing the project: https://github.com/cair/GraphTsetlinMachine\n Features:\n  \nProcesses directed and labeled multigraphs\n Vector symbolic node properties and edge types\n Nested (deep) clauses\n Arbitrarily sized inputs\n Incorporates Vanilla, Multiclass, Convolutional, and Coalesced Tsetlin Machines\n Rewritten faster CUDA kernels\n  \nRoadmap:\n  \nRewrite graphs.py in C or numba for much faster construction of graphs\n Add autoencoder\n Add regression\n Add multi-output\n Graph initialization with adjacency matrix\n  \nHappy to receive feedback on the next steps of development!\n    submitted by    /u/olegranmo  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g75gcb/project_tsetlin_machine_for_deep_logical_learning/",
-          "publishedOn": "2024-10-19T09:48:27.000Z",
-          "wordCount": null,
-          "title": "[Project] Tsetlin Machine for Deep Logical Learning and Reasoning With Graphs (finally, after six years!)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g748gu/d_transformer_autoencoder/",
-          "author": null,
-          "description": "Is anyone aware of any research into the use of an encoder - decoder Transformer architecture for training a text/sequence autoencoder with an information bottleneck? I'm imagining something like bert for the encoder where the full sequence is encoded into a single vector followed by a decoder that cross-attends to the encoded latent representation and is trained to reproduce the full sequence in its entirety.\n It seems like such an obvious use case that I'm sure I must be missing something but I can't seem to find any literature on it. Like, Transformers have been encoder - decoder architectures since day one, using them for an information bottleneck autoencoder seems like such a no brainer that someone out there must have tried it. Is it just a bad idea for some reason I'm not aware of or has it been tried to no avail and the paper has descended into irrelevance as a result?\n On the surface it seems like a great way to pretrain both an encoder and a decoder (way better than T5 surely?) since you still get to use the dead simple next token prediction task and with finetuning I can see the encoder becoming incredibly useful for RAG and potentially unlocking or enhancing other ICL abilities. Other ideas that could be worth exploring off the top of my head are latent diffusion text generation and context compression for extreme long context abilties. I'm sure there are more.\n As far as I can tell the only drawback would be the need to split memory and compute between the encoder and decoder during training.\n Anyone got any leads for me to follow here?\n    submitted by    /u/next-choken  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g748gu/d_transformer_autoencoder/",
-          "publishedOn": "2024-10-19T08:12:51.000Z",
-          "wordCount": null,
-          "title": "[D] Transformer Autoencoder?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g73ym7/d_an_interesting_thread_from_december_2021/",
-          "author": null,
-          "description": "submitted by    /u/next-choken  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g73ym7/d_an_interesting_thread_from_december_2021/",
-          "publishedOn": "2024-10-19T07:51:02.000Z",
-          "wordCount": null,
-          "title": "[D] An interesting thread from December 2021 discussing the efficacy of transformers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g6w6za/d_evaluating_classification_in_production/",
-          "author": null,
-          "description": "For Facebook, Youtube, LinkedIn, etc, how do they evaluate their harmful content detection models in production? If it is offline, precision, recall, F1 can be used. Since we don’t know what the labels are during production, what metrics do they use for evaluation/monitoring?\n    submitted by    /u/lalalagay  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g6w6za/d_evaluating_classification_in_production/",
-          "publishedOn": "2024-10-18T23:53:15.000Z",
-          "wordCount": null,
-          "title": "[D] Evaluating Classification in Production",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g6tmvv/d_working_with_weather_radar_data/",
-          "author": null,
-          "description": "I have started working with weather radar data, given in raw binary format - converted into IRIS format for ease of access and computation, but need to perform machine learning on the data to make future predictions.\n Is there any good source for understanding such data, and AI/ML techniques relating to this type of data?\n    submitted by    /u/Mynameiswrittenhere  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g6tmvv/d_working_with_weather_radar_data/",
-          "publishedOn": "2024-10-18T21:49:10.000Z",
-          "wordCount": null,
-          "title": "[D] Working with Weather Radar Data",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g6qpeq/r_llms_still_cant_plan_can_lrms_a_preliminary/",
-          "author": null,
-          "description": "Paper: https://www.arxiv.org/abs/2409.13373\n \"while o1’s performance is a quantum improvement on the benchmark, outpacing the competition, it is still far from saturating it..\"\n The summary is apt. o1 looks to be a very impressive improvement. At the same time, it reveals the remaining gaps: degradation with increasing composition length, 100x cost, and huge degradation when \"retrieval\" is hampered via obfuscation of names.\n But, I wonder if this is close enough. e.g. this type of model is at least sufficient to provide synthetic data / supervision to train a model that can fill these gaps. If so, it won't take long to find out, IMHO.\n Also the authors have some spicy footnotes. e.g. :\n \"The rich irony of researchers using tax payer provided research funds to pay private companies like OpenAI to evaluate their private commercial models is certainly not lost on us.\"\n    submitted by    /u/marojejian  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g6qpeq/r_llms_still_cant_plan_can_lrms_a_preliminary/",
-          "publishedOn": "2024-10-18T19:36:07.000Z",
-          "wordCount": null,
-          "title": "[R] LLMs Still Can't Plan; Can LRMs? A Preliminary Evaluation of OpenAI's o1 on PlanBench",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g6ozlr/d_attention_saved_in_llm_decoding/",
-          "author": null,
-          "description": "During LLM generation (decoding), is the full attention being recalculated at every step? I know things like KV cache is used to save the previous key/value vectors, but what about their attention scores? Or only the current query's attention is calculated?\n Thank you!\n    submitted by    /u/BigYounzzz  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g6ozlr/d_attention_saved_in_llm_decoding/",
-          "publishedOn": "2024-10-18T18:22:06.000Z",
-          "wordCount": null,
-          "title": "[D] Attention saved in LLM decoding?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g6o94x/d_emotion_classification_using_raw_speechaudio/",
-          "author": null,
-          "description": "Hi guys,\n I'm working on a project involving emotion recognition/classification using raw speech/audio data, and I'm hitting a roadblock. Unlike most approaches that transcribe audio to text and then perform sentiment analysis, I want to directly classify emotions from audio signals.\n Has anyone worked on or knows of any notable projects/studies that use raw audio features for emotion classification?\n Any guidance, paper recommendations, or code repositories would be greatly appreciated. \n TLDR: Seeking resources and expertise on emotion classification using raw speech/audio data, without converting to text.\n    submitted by    /u/Low-Champion-4194  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g6o94x/d_emotion_classification_using_raw_speechaudio/",
-          "publishedOn": "2024-10-18T17:50:48.000Z",
-          "wordCount": null,
-          "title": "[D] Emotion Classification using Raw Speech/Audio - Any Resources and Guidance?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g6l9qv/d_testing_for_posterior_collapse/",
-          "author": null,
-          "description": "I have a VAE trained on my dataset. It exhibits the following things\n  \nThe encoder produces model parameters very very close together. The majority of mus land withing 1e-1 and 1e-2. The log variance is similar.\n Sampling new points always returns 0.\n The training data also becomes all 0 after some epochs. \n  \nI suspect that the model is poorly specified. However, if I ignore the kl loss, things improve a little (i only train for 50 epochs). I'm wondering if the model is suffering from posterior collapse. \n How would one go about testing that hypothesis? \n    submitted by    /u/Chr0nomaton  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g6l9qv/d_testing_for_posterior_collapse/",
-          "publishedOn": "2024-10-18T15:45:56.000Z",
-          "wordCount": null,
-          "title": "[D] Testing for posterior collapse",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1g6hpto/d_how_to_approach_a_time_series_problem_with/",
-          "author": null,
-          "description": "Hi'all,\n I've been given a problem to try to tackle at work, and since I don't have lots of experience with time series, this feels like something that's not very basic to model. I would have to use Python for this, not R, so I understand my options are probably more limited?\n In a nutshell,\n  \nI have 19 months of daily data between 2021-01-01 and 2022-07-31 with customers placing orders. This gives me the days with orders, how many orders, the amount of the transactions ($). No other exogenous information is available immediately;\n I'm trying to predict order days (yes/no target, not a count) in the following month (aug-22); the caveat is, I have partial information for august, namely, thousands of accounts have already placed one or more orders in august and I have that information before starting my model. The goal is, then, to take that into account when making my predictions.\n I see two ways of going about this: 1) the quickest/naive approach could be modeling august's 31 days w/o using the partially realized data and later on just \"discount\" orders placed from the orders predicted along the month; 2) seems like the right thing to do, but harder, which is to use this extra data from august to make better predictions about august;\n I don't really know what I'm looking for in terms of literature; gpt threw some terminology at me when I asked \"what to study/what to look for\", such as \"Rolling forecast with partial realizations\", \"Forecasting with incomplete data\", \"Censored data forecasting\", \"Real-time forecasting\", \"Nowcasting with partial information\", \"Intermittent demand forecasting\".\n I have a decent knowledge of Statistics and got in touch with survival analysis and censored data, but was testing the waters to see if simpler approaches are available.\n  \nThank you!\n EDIT: learned about the framework of Panel Data Modeling! Looking into it now.\n    submitted by    /u/pdr07  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1g6hpto/d_how_to_approach_a_time_series_problem_with/",
-          "publishedOn": "2024-10-18T13:11:46.000Z",
-          "wordCount": null,
-          "title": "[D] How to approach a Time Series problem with \"partially realized data\"",
-          "imageUrl": null
         }
       ]
     },
@@ -71831,6 +71831,16 @@
       "feedUrl": "http://news.mit.edu/rss/topic/artificial-intelligence2",
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
+        {
+          "id": "https://news.mit.edu/2024/four-mit-named-2025-rhodes-scholars-1116",
+          "author": "Julia Mongo | Distinguished Fellowships",
+          "description": "Yiming Chen ’24, Wilhem Hector, Anushka Nair, and David Oluigbo will start postgraduate studies at Oxford next fall.",
+          "link": "https://news.mit.edu/2024/four-mit-named-2025-rhodes-scholars-1116",
+          "publishedOn": "2024-11-17T03:00:00.000Z",
+          "wordCount": 2108,
+          "title": "Four from MIT named 2025 Rhodes Scholars",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202411/2024%20MIT%20Rhodes%20Composite.jpg"
+        },
         {
           "id": "https://news.mit.edu/2024/ensuring-durable-transition-1115",
           "author": "Leda Zimmerman | MIT Energy Initiative",
@@ -72472,6 +72482,116 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gtqy8i/heres_what_is_making_news_in_ai/",
+          "author": null,
+          "description": "Spotlight: Elon Musk's lawsuit against OpenAI in early years revealed in emails from Musk, Altman, and others (source TechCrunch)\n  \nEU updated their AI act (source: TechCrunch)\n Marc Lore is creating an AI-powered, vertically integrated dining and delivery platform. (source: TechCrunch)\n Harvard study shows that quantization A popular technique to make AI more efficient has drawbacks (source: TechCrunch)\n Robust AI’s Carter Pro robot is designed to work with and be moved by humans (source: TechCrunch)\n Norwegian startup Factiverse wants to fight disinformation with AI (source: TechCrunch)\n  \n   submitted by    /u/codeharman  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gtqy8i/heres_what_is_making_news_in_ai/",
+          "publishedOn": "2024-11-17T23:34:28.000Z",
+          "wordCount": null,
+          "title": "Here's what is making news in AI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gtnz1f/looking_for_n_better_aigenerator_site_to_write_my/",
+          "author": null,
+          "description": "Let me start off by saying that I have found a site called ToolBaz. Whilst it is much better than other, in which other sites, you can only set a few things up, like the plot, the characters and a few other things before you hit a button for the AI to write the story FOR you. \n However, this site is different, whilst you can write a few hundred words and depending on how the length you want, it writes it for you, this site is different. It’ll allow you to write what you want first, and after setting the mood, the length, which is sadly only one thousand and two hundred words, the point-of-view and a few other settings, you can hit the Write Button and the AI-Generator begins to rewrite the story to what you set it for. \n The only problem that I found is that you can only enter up to around 1119 words in the text box before you have to hit the Write Button and have the AI do its work. \n However, once you have it there, you can hit Write Button until you find the rewritten story that the AI created that you like. I should warn you if you use the site, there’s sometimes a cooldown time before you can hit the Write Button again.\n But here's the problem, other than giving you a limited amount of words to use to write your story, it doesn't allow you to write smut. So, I'm looking for a site that allows me all the above, but also allows me to be able to use more words to write what I want, and the ability to write smut without going to another site. \n Do any of you know of such a site I can use?\n    submitted by    /u/DarkDragen  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gtnz1f/looking_for_n_better_aigenerator_site_to_write_my/",
+          "publishedOn": "2024-11-17T21:19:25.000Z",
+          "wordCount": null,
+          "title": "Looking for n better AI-Generator site to write my stories...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gtndz6/llama31405binstructfp8_tweakin/",
+          "author": null,
+          "description": "Was on lmarena. Anyway asked a relatively easy prompt. Find an angle in each quadrant with a common reference angle with 212°, from 0°≤θ<360°. \n It's opponent did fine. This is what llama gave.\n The reference angle for 212° is 28°. \n To find the reference angle, we subtract 212° from 180° (the closest straight angle), which is:\n 212° - 180° = 32° \n However, the reference angle is always the acute angle, so we subtract 32° from 180° - 32° = 148°, then we subtract 148° from 212°:\n 212° - 148° = 64° and 180° - 64° = 116° and 116° - 88° = 28°.\n However, the reference angle is actually found by subtracting 212° from 180° and then subtracting that result from 180°. \n So 212° - 180° = 32° and 180° - 32° = 148°. Since 148° is not the reference angle we subtract 212° from 360° then subtract 148° fr…",
+          "link": "https://www.reddit.com/r/artificial/comments/1gtndz6/llama31405binstructfp8_tweakin/",
+          "publishedOn": "2024-11-17T20:53:54.000Z",
+          "wordCount": null,
+          "title": "llama-3.1-405b-instruct-fp8 tweakin",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gtmguh/live_streaming_day_to_day_work_as_an_ai_engineer/",
+          "author": null,
+          "description": "submitted by    /u/OGKippers  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gtmguh/live_streaming_day_to_day_work_as_an_ai_engineer/",
+          "publishedOn": "2024-11-17T20:12:56.000Z",
+          "wordCount": null,
+          "title": "Live Streaming day to day work as an Ai Engineer ~ AMA",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gtmax3/i_want_to_train_a_model_to_program_in_a_custom/",
+          "author": null,
+          "description": "My idea is to download a model .. (I think GPT 3.0 is the latest open source)? I did this about 6 months ago but didn't get very far. I downloaded GPT4ALL and started training it, but then I didn't finish it. Well, I didn't have results that could be useable.\n It's a finite state machine language called 'meta' for Asheron's Call. An old game that is still played, but its been shut down for many years. I have tons of pages about it, rules, examples, etc. It's not for profit, its just for fun. Do you guys have any specific suggestions or guides that I could use to try and mimic?\n Here's an example of the language:\n IF: All Expr {$activemode==dino} ChatCapture {^Your fellow (?<deadname>.*) has died\\!$} {} Any Expr {listcontains[getgvar[charlist],getvar[capturegroup_deadname]]} Expr {listcontains[getgvar[watchlist],getvar[capturegroup_deadname]]} DO: DoAll SetOpt {enablelooting} {false} SetOpt {enablecombat} {false} SetOpt {enablenav} {true} EmbedNav nav72___None_ {recall} DoExpr {clearvar[capturegroup_deadname]} SetState {ActiveMover} \n for anyone curious and wants to read more about it, http://www.virindi.net/wiki/index.php/Virindi_Tank_Meta_System\n    submitted by    /u/RonUSMC  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gtmax3/i_want_to_train_a_model_to_program_in_a_custom/",
+          "publishedOn": "2024-11-17T20:05:43.000Z",
+          "wordCount": null,
+          "title": "I want to train a model to program in a custom language (its a scripting language for an old game). It's kind of like lua, but its all custom. It's quite simple. If I train it with OpenAI won't it cost a fortune? My idea..",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gthvc8/i_just_witnessed_an_agent_sign_into_gmail_code/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gthvc8/i_just_witnessed_an_agent_sign_into_gmail_code/",
+          "publishedOn": "2024-11-17T16:53:11.000Z",
+          "wordCount": null,
+          "title": "\"I just witnessed an agent sign into gmail, code ransomware, compress it into a zip file, write a phishing email, attach the payload, and successfully deliver it to the target\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gth0xo/cokes_ai_commercial_for_the_holidays_has_us/",
+          "author": null,
+          "description": "submitted by    /u/ControlCAD  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gth0xo/cokes_ai_commercial_for_the_holidays_has_us/",
+          "publishedOn": "2024-11-17T16:16:40.000Z",
+          "wordCount": null,
+          "title": "Coke's AI Commercial for the Holidays Has Us Wondering If We Live In a Fallen World",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gtggmn/gary_marcus_has_been_saying_deep_learning_is/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gtggmn/gary_marcus_has_been_saying_deep_learning_is/",
+          "publishedOn": "2024-11-17T15:51:25.000Z",
+          "wordCount": null,
+          "title": "Gary Marcus has been saying deep learning is hitting a wall for the last 12 years",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gtfn6o/microsoft_ai_ceo_mustafa_suleyman_we_have/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gtfn6o/microsoft_ai_ceo_mustafa_suleyman_we_have/",
+          "publishedOn": "2024-11-17T15:14:04.000Z",
+          "wordCount": null,
+          "title": "Microsoft AI CEO Mustafa Suleyman: “We have prototypes that have near-infinite memory. And so it just doesn’t forget, which is truly transformative.”",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gt9ubz/testtime_training_the_arc_challenge/",
+          "author": null,
+          "description": "Hello guys, \n So my title was volontarily a bit clck-baity but not so much. Here is the paper : \n The Surprising Effectiveness of Test-Time Training for Abstract Reasoning\n I stumbled on this video from Matthew Berman, who is I think one of the higher end content creator on Youtube for AI stuff : \n Q-Star 2.0 - AI Breakthrough Unlocks New Scaling Law (New Strawberry) (his title is very much click-baity I admit)\n So in this paper, they say that ensembling their method (test-time training) with recent program generation approaches, they get SoTA public validation accuracy of 61.9%, matching the average human score.\n What do you think? Is it a real breakthrough? A scam? Somewhere in between? \n    submitted by    /u/lhrivsax  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gt9ubz/testtime_training_the_arc_challenge/",
+          "publishedOn": "2024-11-17T09:18:12.000Z",
+          "wordCount": null,
+          "title": "Test-Time Training & the ARC Challenge",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gt9is6/ai_impact_routine_jobs_are_first_to_go/",
+          "author": null,
+          "description": "A new study shows a 21% reduction in demand for freelance jobs that are automation-prone and don’t require consistent human attention.\n    submitted by    /u/proceedings_effects  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gt9is6/ai_impact_routine_jobs_are_first_to_go/",
+          "publishedOn": "2024-11-17T08:54:15.000Z",
+          "wordCount": null,
+          "title": "AI Impact: Routine Jobs are first to go",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/1gt16zu/llms_wont_lead_to_consciousness_why_i_think/",
           "author": null,
@@ -75111,116 +75231,6 @@
           "wordCount": null,
           "title": "AI researchers put LLMs into a Minecraft server and said Claude Opus was a harmless goofball, but Sonnet was terrifying - \"the closest thing I've seen to Bostrom-style catastrophic AI misalignment 'irl'.\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g77gwh/ai_safety_summits_governments_are_increasingly/",
-          "author": null,
-          "description": "For more information go here\n What are the AI Safety Summits?\n AI Safety Summits are bi-annual international meetings hosted by States to discuss the safety and regulation of artificial intelligence, particularly advanced AI systems.\n The first AI Safety Summit was convened by the United Kingdom at Bletchley Park in November 2023.\n Following the second AI Safety Summit in Seoul on May 21-22 2024, France has been designated to host the third one in February 2025.\n What are the AI Safety Summits?\n AI Safety Summits are bi-annual international meetings hosted by States to discuss the safety and regulation of artificial intelligence, particularly advanced AI systems.\n The first AI Safety Summit was convened by the United Kingdom at Bletchley Park in November 2023.\n Following the second AI Safe…",
-          "link": "https://www.reddit.com/r/artificial/comments/1g77gwh/ai_safety_summits_governments_are_increasingly/",
-          "publishedOn": "2024-10-19T12:09:09.000Z",
-          "wordCount": null,
-          "title": "AI Safety Summits Governments are increasingly cooperating to ensure AI Safety. FLI supports and encourages these efforts.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g75c85/i_made_a_tool_to_find_the_cheapestfastest_llm_api/",
-          "author": null,
-          "description": "hey!\n don't know about you, but I was always spending way too much time going through endless loops trying to find prices for different LLM models. Sometimes all I wanted to know was who's the cheapest or fastest for a specific model, period.\n Link: https://llmshowdown.vercel.app/\n So I decided to scratch my own itch and built a little web app called \"LLM API Showdown\". It's pretty straightforward:\n  \nPick a model\n Choose if you want cheapest or fastest\n Adjust input/output ratios or output speed/latency if you care about that\n Hit a button and boom - you've got your winner\n  \nI've been using it myself and it's saved me a ton of time. Thought some of you might find it useful too!\n also built a more complete one here\n posted in u/locallama and got some great feedback!\n Data is all from artificial analysis\n https://preview.redd.it/62i8xxzopovd1.png?width=1376&format=png&auto=webp&s=4449f583e89c8a2ed88b010004592e9720a57133\n    submitted by    /u/medi6  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1g75c85/i_made_a_tool_to_find_the_cheapestfastest_llm_api/",
-          "publishedOn": "2024-10-19T09:39:11.000Z",
-          "wordCount": null,
-          "title": "I made a tool to find the cheapest/fastest LLM API providers - LLM API Showdown",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g718g7/oneminute_daily_ai_news_10182024/",
-          "author": null,
-          "description": "Congressional leaders negotiating potential lame-duck deal to address AI concerns.[1]\n Meta AI Releases Meta Spirit LM: An Open Source Multimodal Language Model Mixing Text and Speech.[2]\n Pope Francis and the Vatican just created an “AI Bible” reshaping faith in the Digital Age.[3]\n Mitsubishi showcases AI-powered combat drones.[4]\n  \nSources:\n [1] https://www.politico.com/news/2024/10/18/congress-ai-schumer-00184430\n [2] https://www.marktechpost.com/2024/10/18/meta-ai-releases-meta-spirit-lm-an-open-source-multimodal-language-model-mixing-text-and-speech/\n [3] https://www.thebrighterside.news/post/pope-francis-and-the-vatican-just-created-an-ai-bible-reshaping-faith-in-the-digital-age/\n [4] https://defence-blog.com/mitsubishi-showcases-ai-powered-combat-drones/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1g718g7/oneminute_daily_ai_news_10182024/",
-          "publishedOn": "2024-10-19T04:35:29.000Z",
-          "wordCount": null,
-          "title": "One-Minute Daily AI News 10/18/2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g6w9lb/primerai_introduces_nearzero_hallucination_update/",
-          "author": null,
-          "description": "https://www.defensenews.com/industry/2024/10/16/primerai-introduces-near-zero-hallucination-update-to-ai-platform/\n I always catch AI news on this sub, figured it was my turn to share after coming across this little tidbit. Very short article, wish it was longer with more detail, but especially given the military nature of it, not surprising its very sparse.\n The technical scoop is here, in a nutshell, that PrimerAI uses RAG LLM to achieve results, but then additionally almost as a post-process \"that once it generates a response or summary, it generates a claim for the summary and corroborates that claim with the source data ... This extra layer of revision leads to exponentially reduced mistakes ... While many AI platforms experience a hallucination rate of 10%, Moriarty said, PrimerAI ha…",
-          "link": "https://www.reddit.com/r/artificial/comments/1g6w9lb/primerai_introduces_nearzero_hallucination_update/",
-          "publishedOn": "2024-10-18T23:57:00.000Z",
-          "wordCount": null,
-          "title": "PrimerAI introduces ‘near-zero hallucination’ update to AI platform",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g6w1c1/ill_shut_up_about_ai_stealing_training_data_if/",
-          "author": null,
-          "description": "That's my bribe level. Make a nice cheap massage robot I can afford in my house. \n    submitted by    /u/AltCyberstudy  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1g6w1c1/ill_shut_up_about_ai_stealing_training_data_if/",
-          "publishedOn": "2024-10-18T23:45:26.000Z",
-          "wordCount": null,
-          "title": "I'll shut up about AI stealing training data if someone will make an AI powered robot that can give a good foot/leg/head massage.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g6rrxd/what_ai_are_people_using_to_turn_modern_rap_songs/",
-          "author": null,
-          "description": "I've been coming across a lot of rap songs on YouTube lately that have been transformed using AI into music that sounds like it comes from the 1950s, but contains the same lyrics and similar melody. Does anyone know the process on how these songs are made and which AI software they're using? I want to try to make some myself, but I don't know where to start.\n Here's a couple examples of the AI songs I'm talking about...\n Juice WRLD - Robbery https://youtu.be/uc5WBHYzg44\n YNW Melly - Murder on my Mind https://youtu.be/wgywdi6AcIg\n    submitted by    /u/slirpo  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1g6rrxd/what_ai_are_people_using_to_turn_modern_rap_songs/",
-          "publishedOn": "2024-10-18T20:22:52.000Z",
-          "wordCount": null,
-          "title": "What AI are people using to turn modern rap songs into 1950's style music?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g6r3z4/photoshop_actively_scanning_file_uploads/",
-          "author": null,
-          "description": "Licensed an Adobe Stock asset last night of a $100 bill for an art graphic we’re making . Immediately upon dropping the file into a layer, this notice popped up and it refused to allow the file (PS 2024 version). \n    submitted by    /u/ArtisticCandy3859  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1g6r3z4/photoshop_actively_scanning_file_uploads/",
-          "publishedOn": "2024-10-18T19:54:00.000Z",
-          "wordCount": null,
-          "title": "Photoshop actively scanning file uploads",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g6oim9/if_a_guy_tells_you_llms_dont_work_on_unseen_data/",
-          "author": null,
-          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1g6oim9/if_a_guy_tells_you_llms_dont_work_on_unseen_data/",
-          "publishedOn": "2024-10-18T18:01:49.000Z",
-          "wordCount": null,
-          "title": "if a guy tells you \"llms don't work on unseen data\", just walk away",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g6oh2b/wanted_your_candid_thoughts_on_this_ai_image/",
-          "author": null,
-          "description": "submitted by    /u/mrocke  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1g6oh2b/wanted_your_candid_thoughts_on_this_ai_image/",
-          "publishedOn": "2024-10-18T18:00:15.000Z",
-          "wordCount": null,
-          "title": "wanted your candid thoughts on this AI image generator, its goal is to generate images very fast",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g6mj8n/agi_will_never_exist_prove_me_wrong/",
-          "author": null,
-          "description": "Facts\n  \nThe quantity of available data storage is finite\n \nA computer has no feelings / emotions \n  \nReasoning\n To be an AGI, an AI would need to remember things. Remembering everything written is \"easy\": storing textual info (or their vector representation) does not consume so much space. Now, let's take a robot with the five senses. How this robot will decide to keep one information (image, sound, oral discussion, gestures, etc.) by itself?\n Human, for instance, select the information to remember mainly through the emotional response. We all remember exactly what we did exactly on 9/11, because we were all horrified. \n As a robot/computer do not have emotions, how he will decide to keep one information and not the other? As the amount of data storage is finite, should we consider that a robot to whom we need to say: \"please remember that\" is an AGI? I don't believe so.\n So, to me, AGI will never exist. Prove me wrong!\n Thanks\n    submitted by    /u/Carbone_  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1g6mj8n/agi_will_never_exist_prove_me_wrong/",
-          "publishedOn": "2024-10-18T16:37:22.000Z",
-          "wordCount": null,
-          "title": "AGI will never exist - prove me wrong",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1g6hzeb/made_an_ai_reddit_search_feature_that_works/",
-          "author": null,
-          "description": "submitted by    /u/GPT-Claude-Gemini  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1g6hzeb/made_an_ai_reddit_search_feature_that_works/",
-          "publishedOn": "2024-10-18T13:24:31.000Z",
-          "wordCount": null,
-          "title": "Made an AI Reddit search feature that works really well, it doesn't really solving any big existential problems but is pretty fun to use",
-          "imageUrl": null
         }
       ]
     },
@@ -75229,6 +75239,46 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1gtfnzl/im_overwhelmed_and_i_need_help/",
+          "author": null,
+          "description": "So, I'm in a Ph.D. programme that I started on August and my main research revolves around deep learning, neural network and activation functions. My supervisor gave certain materials for me to read that could help me get into learning about neural networks and activation functions. However, the introductory materials were vast, and I'd need more time to learn about the basic concepts. But my supervisor overwhelmed me with the responsibility to read 200 papers each for one week on activation functions even before I could finish up the basics. I just learned about gradient descent and the basic materials need a good amount of time for me to comprehend. I am really having hard time understanding the research papers I'm reading right now, because I didn't get the time to fully cover basics. But my supervisor expects me to give a weekly report on the papers I have read. So far, I have read 4 papers, but I couldn't understand any of them. They were like Classical Greek for me. I told my supervisor that I'm having a hard time comprehending those papers because my basics haven't been covered, but my supervisor didn't seem to mind it.\n Now, I'm in a rut. On one hand, I have to write reports on incomprehensible papers which is really draining me out and on the other hand I still need more time to cover the basics of neural network. I really don't know what I should do in this case.\n    submitted by    /u/Intelligent-Role379  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1gtfnzl/im_overwhelmed_and_i_need_help/",
+          "publishedOn": "2024-11-17T15:15:04.000Z",
+          "wordCount": null,
+          "title": "I'm overwhelmed and I need help.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1gtddy0/i_like_working_with_model_architecture_visually/",
+          "author": null,
+          "description": "I don’t know about you, but I feel like visual representations of CNNs (and models in general) are seriously underrated. In my experience, it’s so much easier to work on a project when you can mentally “walk around” the model.\n Maybe that’s just me. I’d definitely describe myself as a visual learner. But I’m curious, have you had a similar experience? Do you visualize the structure of your models when working on your projects?\n Over the past month, I’ve been working on visualizing a (relatively simple) model. (Link to project: https://youtu.be/zLEt5oz5Mr8 ).\n What’s your take on this?\n    submitted by    /u/vtimevlessv  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1gtddy0/i_like_working_with_model_architecture_visually/",
+          "publishedOn": "2024-11-17T13:19:40.000Z",
+          "wordCount": null,
+          "title": "I Like Working With Model Architecture Visually. How About You?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1gtcql7/help_with_project_for_damage_detection/",
+          "author": null,
+          "description": "Hey guys,\n I am currently working on creating a project that detects damage/dents on construction machinery(excavator,cement mixer etc.) rental and a machine learning model is used after the machine is returned to the rental company to detect damages and 'penalise the renters' accordingly. It is expected that we have the image of the machines pre-rental so there is a comparison we can look at as a benchmark\n What would you all suggest to do for this? Which models should i train/finetune? What data should i collect? Any other suggestion?\n If youll have any follow up questions , please ask ahead.\n    submitted by    /u/shroffykrish  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1gtcql7/help_with_project_for_damage_detection/",
+          "publishedOn": "2024-11-17T12:43:14.000Z",
+          "wordCount": null,
+          "title": "Help with Project for Damage Detection",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1gt7ur5/model_loss_is_too_sensitive_to_one_parameter_count/",
+          "author": null,
+          "description": "Hi everyone, I'm training a translation(en -> hi) model with my own transformer implementation, I trained one with 15 mil parameters and it achieved a loss of less than 1, the learning rate was initially set to 0.001 and I lowered it as the model progressed, the final learning rate was 0.0001, the problem is when I change the model size(30mil) even slightly, the loss just stagnates somewhere around 5.3, what is happening, I know the learning rate should be based on model and dataset size, the dataset is the same and 15 to 30 mil doesn't look that big a difference, they are both small models. Should I use a learning rate scheduler?\n edit: smaller models seem to be doing better, an 8.5 mil model doesn't get stuck at 5.3\n here is the transformer implementation if you want to check that: https://github.com/n1teshy/transformer\n the notebook I used to train : https://github.com/n1teshy/transformer/blob/main/notebooks/transformer.colab.ipynb\n    submitted by    /u/Specialist_Ruin_9333  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1gt7ur5/model_loss_is_too_sensitive_to_one_parameter_count/",
+          "publishedOn": "2024-11-17T06:51:48.000Z",
+          "wordCount": null,
+          "title": "Model loss is too sensitive to one parameter count",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/1gso22k/mobilenetv2_not_going_past_50_accuracy_no_matter/",
           "author": null,
@@ -75718,26 +75768,6 @@
           "wordCount": null,
           "title": "Help understanding crossover in Genetic Algorithm",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1g76htf/help_me_find_the_right_neural_network/",
-          "author": null,
-          "description": "Hello, friends. I'm facing a search problem. Need a neural network that improves pictures based on generation. Here are before and after examples.\n before\n after\n    submitted by    /u/Any-Bridge-3267  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1g76htf/help_me_find_the_right_neural_network/",
-          "publishedOn": "2024-10-19T11:05:18.000Z",
-          "wordCount": null,
-          "title": "help me find the right neural network.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1g6wwcq/need_help_with_neural_net/",
-          "author": null,
-          "description": "Can someone help me with my neural net? I’d honestly pay you if you could call me or zoom me lol\n    submitted by    /u/bumwithsumrum  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1g6wwcq/need_help_with_neural_net/",
-          "publishedOn": "2024-10-19T00:29:21.000Z",
-          "wordCount": null,
-          "title": "Need help with neural net",
-          "imageUrl": null
         }
       ]
     },
@@ -76022,6 +76052,56 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gtplc6/why_are_the_rewards_in_reward_normalisation/",
+          "author": null,
+          "description": "In Random Network Distillation the rewards are normalised because of the presence of intrinsic and extrinsic rewards. However, in the CleanRL implementation the rewards used to calculate the standard deviation which itself is used to normalise the rewards are not discounted as usual. From what I see, the discounting is done in the opposite direction of what is usually done, where we want to have rewards far in the future stronger discounted than rewards closer to the present. For context, gymnasium provides a NormalizeReward wrapper where the rewards are also discounted in the \"opposite direction\".\n Below you can see that in the CleanRL implementation of RND the rewards are passed in normal order (i.e., not from the last step in time to the first step in time).\n curiosity_reward_per_env = …",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gtplc6/why_are_the_rewards_in_reward_normalisation/",
+          "publishedOn": "2024-11-17T22:30:54.000Z",
+          "wordCount": null,
+          "title": "Why are the rewards in reward normalisation discounted in the \"opposite direction\" (backwards) in RND?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gtlmgu/advice_for_training_on_mujoco_tasks/",
+          "author": null,
+          "description": "Hello, I'm working on a new prioritization scheme for off policy deep RL. \n I got the torch implementations of SAC and TD3 from reliable repos. I conduct experiments on Hopper-v5 and Ant-v5 with vanilla ER, PER, and my method. I run the experiments over 3 seeds. I train for 250k or 500k steps to see how the training goes. I perform evaluation by running the agent for 10 episodes and averaging reward every 2.5k steps. I use the same hyperparameters of SAC and TD3 from their papers and official implementations.\n I noticed a very irregular pattern in evaluation scores. These curves look erratic, and very good eval scores suddenly drop after some steps. It rises and drops multiple times. This erratic behaviour is present in the vanilla ER versions as well. I got TD3 and SAC from their official repos, so I'm confused about these evaluation scores. Is this normal? On the papers, the evaluation scores have more monotonic behaviour. Should I search for hyperparameters for each Mujoco task? \n    submitted by    /u/TheMefe  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gtlmgu/advice_for_training_on_mujoco_tasks/",
+          "publishedOn": "2024-11-17T19:36:01.000Z",
+          "wordCount": null,
+          "title": "Advice for Training on Mujoco Tasks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gtihzc/ddqn_not_converging_with_possible_catastrophic/",
+          "author": null,
+          "description": "I'm training DDQN agent for stock trading, and as seen from the loss below that in the first 30k steps, the loss is decreasing nicely, then until 450k steps, it seems the model is no longer converging\n https://preview.redd.it/yc6o9wynwh1e1.png?width=592&format=png&auto=webp&s=aef476c7eb177f82fe112d0d1fd5a95ef90c6917\n Also, as seen in how the portfolio value progresses, it seems the model is forgetting what it's learning each episode.\n These are my hyperparameters, and please note that I'm using a fixed episode length = 50k steps, and each episode it starts from a random point\n  learning_rate=0.00001, gamma=0.99, epsilon_start=1.0, epsilon_end=0.01, epsilon_decay=0.995, target_update=1000, buffer_capacity=20000, batch_size=128, \n What could be the problem and any ideas how to fix it?\n    submitted by    /u/Acceptable_Egg6552  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gtihzc/ddqn_not_converging_with_possible_catastrophic/",
+          "publishedOn": "2024-11-17T17:19:30.000Z",
+          "wordCount": null,
+          "title": "DDQN not converging with possible catastrophic forgetting",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gth0yi/helped_needs_how_to_assign_reward_scores_to_each/",
+          "author": null,
+          "description": "In RLHF, I’m struggling with the question of how to assign reward scores to individual tokens effectively.\n The Reward Model is typically trained using pairwise comparisons, outputting a single scalar that evaluates the overall quality of a sentence. However, during RLHF, to train the value function (used in techniques like PPO), we need to compute the cumulative reward:\n $$Rt = \\sum{t’=t}T r(s{t’}, a{t’})$$\n Here’s my main issue: - How can we decompose this sentence-level reward into token-level rewards?\n One simple approach I’m considering is: - Directly applying a trained linear layer to the hidden states of each token to predict its reward score.\n However, I’m concerned this might introduce two major issues: 1. Train-Inference Gap: The Reward Model is trained to evaluate entire sentences, but this token-wise decomposition might diverge from the original training setup of the RM. 2. Performance Degradation: The reward distribution during inference might not align with the true reward signal, potentially impairing policy optimization.\n I’m looking for advice or insights from the community: - Are there better approaches to decompose sentence-level rewards into token-level scores? - How can we validate the effectiveness of token-wise reward decomposition?\n I’d greatly appreciate any ideas or suggestions. Thank you!\n    submitted by    /u/ForJadeForest  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gth0yi/helped_needs_how_to_assign_reward_scores_to_each/",
+          "publishedOn": "2024-11-17T16:16:41.000Z",
+          "wordCount": null,
+          "title": "Helped Needs: How to Assign Reward Scores to Each Token in RLHF Without Causing a Train-Inference Gap?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gtb77g/regular_rl_and_lora/",
+          "author": null,
+          "description": "Any GitHub example for fine tuning regular ppo for example on simple rl problem using lora? Like one Atari game to another \n Edit use case: Let’s say you have a problem where there are a lot of initial conditions like velocities, orientations and so…. 95% of the initial conditions are solved and 5% fail to solve (although they are solvable) however you rarely encounter it because it’s only 5% of “samples” So now you want to train on these 5% more and you increase the amount of it during training..and you don’t want to “forget” or destroy previous success. ( this is mainly for on policy and not for off policy with advanced reply buffer)…\n    submitted by    /u/What_Did_It_Cost_E_T  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gtb77g/regular_rl_and_lora/",
+          "publishedOn": "2024-11-17T11:00:11.000Z",
+          "wordCount": null,
+          "title": "Regular RL and LORA",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gszk3y/rl_in_isaac_lab/",
           "author": null,
@@ -77561,46 +77641,6 @@
           "wordCount": null,
           "title": "[Paid] Need someone to do a paper on Linear-Quadratic (LQ) Optimal Control",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1g77fs3/help_td3_only_returns_extreme_values_ie_bounding/",
-          "author": null,
-          "description": "Hi,\n I am new to continuous control problems in general and due to my background understand the theory rather than the practical aspects. So I am training a TD3 based agent on a continuous control problem (trading several assets w/ sentiment scores in the observation space). \n The continuous action space (as follows) looks like this:\n Box([-1. -1. -1. -1. -1. -1. -1. -1. 0. 0. 0. 0. 0. 0. 0. 0.], 1.0, (16,), float32)\n For explanation: I trade 8 assets in the environment, the first 8 entries of the action space (ranging from -1 to 1) indicate the position (sell, hold, buy -> translated from continuous to discrete decision within the environment), while the last 8 entires, ranging from 0 to 1, indicate the percentage amount of the action (% of selling the position or % of cash to use for buy action). \n My model currently is trained on 100 episodes (one episode is roughly 1250 trading days/observations with a size of 81, just to give a brief idea here about the project). Currently, the agent is only and without exception returning actions going into extreme positions (using the bounding values from the action space). Example:\n [ 1. -1. 1. -1. 1. -1. -1. -1. 0. 0. 0. 1. 1. 0. 0. 0.]\n My question now is just if this is normal at this early stage of training, or does this indicate a problem with the model, the environment or something else? As training such an environment is computationally intensive (= cost intensive), I just want to be clarify if this might be a problem with the code/algorithm itself before training (and potentially paying) for a vast timely amount of training.\n    submitted by    /u/Intelligent-Put1607  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1g77fs3/help_td3_only_returns_extreme_values_ie_bounding/",
-          "publishedOn": "2024-10-19T12:07:16.000Z",
-          "wordCount": null,
-          "title": "HELP - TD3 only returns extreme values (i.e., bounding values of action space)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1g713de/study_collab_with_me_learning_drl_from_almost/",
-          "author": null,
-          "description": "Hey everyone 👋 I am learning DRL from almost scratch. Have some idea about NN, backprop, LSTMs and have made some models using whatever i could find on the internet (pretty simple stuff). nothing SOTA. learning from the book \"grokking DRL\" now. I have a different approach to design a trading engine I am building it in golang (for efficiency and scaling) and python(for ML part) and there's a lot to unpack. I think I have some interesting ideas in trading to test in DRL, LSTMs, and NEAT but it would take at least 6-8 months before anything fruitful would come out. I am looking out for curious folks to work with. Just push a DM if you are up to work on some new hypotheses. I'd like to get some guidance on DRL, its quite time consuming to understand all the theory behind the work which has been done.\n PS: If you know this stuff well and wish to help, I can help you with data structures, web dev, system design to any extent if you wish to learn in return. Just saying.\n    submitted by    /u/WarBroWar  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1g713de/study_collab_with_me_learning_drl_from_almost/",
-          "publishedOn": "2024-10-19T04:26:32.000Z",
-          "wordCount": null,
-          "title": "Study / Collab with me learning DRL from almost scratch",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1g6pi8d/can_anyone_help/",
-          "author": null,
-          "description": "https://www.reddit.com/r/MachineLearning/s/8Vp8b3bGqI\n    submitted by    /u/Alarming-Power-813  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1g6pi8d/can_anyone_help/",
-          "publishedOn": "2024-10-18T18:44:29.000Z",
-          "wordCount": null,
-          "title": "Can anyone help",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1g6mlv2/actor_critic/",
-          "author": null,
-          "description": "https://arxiv.org/abs/1704.03732\n Is there any actor-critic analogue to integrating expert demonstrations into actor-critic learning like there are for DQN?\n    submitted by    /u/Key-Faithlessness113  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1g6mlv2/actor_critic/",
-          "publishedOn": "2024-10-18T16:40:32.000Z",
-          "wordCount": null,
-          "title": "Actor Critic",
-          "imageUrl": null
         }
       ]
     },
@@ -77830,26 +77870,6 @@
           "wordCount": 6770,
           "title": "Mastering the Big 12 Data-driven Economic Concepts",
           "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/10/Slide1-4.png"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=66057",
-          "author": "Asmar Atif",
-          "description": "Companies today are striving to maximize product quality, efficiency, and security through effective maintenance practices and the care of equipment. In light of Industry 4.0’s advent, manufacturers are increasingly turning to digital twin technology as a predictive and management tool for complex assets commonly found within industrial settings. These are replacing the time-consuming and expensive… Read More »Embracing digital twin technology: A smarter approach to manufacturing\nThe post Embracing digital twin technology: A smarter approach to manufacturing appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/embracing-digital-twin-technology-a-smarter-approach-to-manufacturing/",
-          "publishedOn": "2024-10-18T15:46:44.000Z",
-          "wordCount": 6106,
-          "title": "Embracing digital twin technology: A smarter approach to manufacturing",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/10/image-3.png"
-        },
-        {
-          "id": "https://www.datasciencecentral.com/?p=65841",
-          "author": "Ryan Williamson",
-          "description": "Explore the benefits of implementing Generative AI on Power Platform including faster development, optimized automation, smarter decision-making, and more.\nThe post Advantages of integrating generative AI with Power Platform appeared first on Data Science Central.",
-          "link": "https://www.datasciencecentral.com/advantages-of-integrating-generative-ai-with-power-platform/",
-          "publishedOn": "2024-10-18T15:10:35.000Z",
-          "wordCount": 5663,
-          "title": "Advantages of integrating generative AI with Power Platform",
-          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2024/10/AdobeStock_506790209_Editorial_Use_Only-scaled.jpeg"
         }
       ]
     },
