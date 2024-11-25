@@ -928,16 +928,6 @@
           "wordCount": 3254,
           "title": "Customized model monitoring for near real-time batch inference with Amazon SageMaker",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/10/16/ml-15690Picture1.png"
-        },
-        {
-          "id": "a12d043b6870f550a4f033fd1b202d51e0aaf33c",
-          "author": "Sunil Ramachandra",
-          "description": "In this post, we explore how Planview was able to develop a generative AI assistant to address complex work management process by adopting Amazon Bedrock.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/how-planview-built-a-scalable-ai-assistant-for-portfolio-and-project-management-using-amazon-bedrock/",
-          "publishedOn": "2024-10-25T16:51:22.000Z",
-          "wordCount": 2937,
-          "title": "How Planview built a scalable AI Assistant for portfolio and project management using Amazon Bedrock",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/10/25/ML-17446FIPicture3-1.jpg"
         }
       ]
     },
@@ -62961,6 +62951,106 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gz6mj1/d_as_a_cs_masters_studentresearcher_should_one_be/",
+          "author": null,
+          "description": "I (very fortunately) got an opportunity in a great lab in an R1 school, Prof has a >40 h-index, great record, but mainly published in lower tier conferences, though do some AAAI. It applies AI in a field that aligns with my experience, and we are expected to publish, which is perfect. However I’m more keen to explore more foundational AI research (where I have minimal experience in apart from courses I took).\n In CS, ML it seems most people are only prioritising NIPS/ICLR/ICML especially since I’m interested in potentially pursuing a PhD. I’m in a bit of a dilemma, if I should seize the opportunity or keep looking for a more aligned lab (though other profs may not be looking for more students).\n My gut tells me I should ignore conference rankings and do this, since they have some, chain of though, knowledge representation, cognitive system components. They expect multi semester commitment and of course once I commit I will see it through. My dilemma is that I’m moving more and more towards more practical applications in AI, which is pretty domain specific and am worried I won’t be able to pivot in the future. \n I’m aware how this can sound very silly, but if you can look past that, could I please get some advice and thoughts about what you’d do in the shoes of a budding academic, thank you!\n    submitted by    /u/giuuilfobfyvihksmk  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gz6mj1/d_as_a_cs_masters_studentresearcher_should_one_be/",
+          "publishedOn": "2024-11-25T00:56:49.000Z",
+          "wordCount": null,
+          "title": "[D] As a CS masters student/researcher should one be very deliberate in picking a lab’s domain?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gz2n3x/d_does_peft_train_newly_initialized_weights/",
+          "author": null,
+          "description": "When using peft to fine-tune a pretrained model e.g., DistilBert, you need to specify the target_modules. In case of DistilBert, typically, the attention weights are targeted. Example:\n lora_config = LoraConfig( r=8, # Rank Number lora_alpha=32, # Alpha (Scaling Factor) lora_dropout=0.05, # Dropout Prob for Lora target_modules=[\"q_lin\", \"k_lin\",\"v_lin\"], # Which layer to apply LoRA, usually only apply on MultiHead Attention Layer bias='none', task_type=TaskType.SEQ_CLS # Seqence to Classification Task ) \n my question, when finetuning a pretrained model on a downstream task, you initialize a new layer (like classification layer) which is not pre-trained and have random weights, does peft also freeze this layer or does it optimize it?\n The answer should be yes, but I can't find it stated explicitly any where.\n    submitted by    /u/Qdr-91  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gz2n3x/d_does_peft_train_newly_initialized_weights/",
+          "publishedOn": "2024-11-24T21:53:46.000Z",
+          "wordCount": null,
+          "title": "[D] does peft train newly initialized weights?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gyzxb1/rtx_4090_vs_4080_super_d/",
+          "author": null,
+          "description": "Looking at potentially building an ML and molecular dynamics workstation for research. I’m looking in the $4000 ish range for GPU’s. I’ve been leaning heavily towards 2 4090’s (I know 5090’s will come out in January, whole different conversation!) but theoretically I could run 4x 4080 supers for about the same price, and the numbers technically come out on top, but that’s IF you can use them all efficiently. I know pytorch can distribute across GPU’s reasonably well, but not everything can. I also know more vRAM is always better as the 40 series don’t have NVlink so can’t pool memory. I’ve also briefly looked at the RTX cards (ampere and ada) but my understanding is they’re really only worth it for the pro drivers, and that’s pretty much it. Any thoughts would be much appreciated! \n    submitted by    /u/Mdgoff7  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gyzxb1/rtx_4090_vs_4080_super_d/",
+          "publishedOn": "2024-11-24T19:58:06.000Z",
+          "wordCount": null,
+          "title": "RTX 4090 vs 4080 super [D]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gyye7a/d_when_will_the_naacl_workshops_get_announced/",
+          "author": null,
+          "description": "The NAACL website mentions that 25th November begins the second call of workshop papers, but the website doesn't seem to mention which workshops are going to be held. Idk if I'm stupid for now knowing, please help me out. \n    submitted by    /u/Aromatic_Web749  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gyye7a/d_when_will_the_naacl_workshops_get_announced/",
+          "publishedOn": "2024-11-24T18:54:16.000Z",
+          "wordCount": null,
+          "title": "[D] When will the NAACL workshops get announced?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gyvari/d_where_find_a_good_benchmark_for_all_consumer_gpu/",
+          "author": null,
+          "description": "hi guys, I was wondering what gpu is the best in general for machine learning, include with openVino(only for intel), with new introduction of rochm and obviusly the queen nvidia, exist some benchmark full focuss on ML with various type of library\n    submitted by    /u/FewVEVOkuruta  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gyvari/d_where_find_a_good_benchmark_for_all_consumer_gpu/",
+          "publishedOn": "2024-11-24T16:45:29.000Z",
+          "wordCount": null,
+          "title": "[D] where find a good benchmark for all consumer gpu",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gys936/r_testing_the_brittleness_of_llm_analogical/",
+          "author": null,
+          "description": "The researchers developed a systematic framework for testing analogical reasoning in LLMs using letter-string analogies of increasing complexity. They created multiple test sets that probe different aspects of analogical thinking, from basic transformations to complex pattern recognition.\n Key technical points: - Evaluated performance across 4 major LLMs including GPT-4 and Claude - Created test sets with controlled difficulty progression - Implemented novel metrics for measuring analogy comprehension - Tested both zero-shot and few-shot performance - Introduced adversarial examples to test robustness\n Main results: - Models achieve >90% accuracy on basic letter sequence transformations - Performance drops 30-40% on multi-step transformations - Accuracy falls below 50% on novel alphabet systems - Few-shot prompting improves results by 15-20% on average - Models show brittleness to small pattern perturbations\n I think this work exposes important limitations in current LLMs' abstract reasoning capabilities. While they handle surface-level patterns well, they struggle with deeper analogical thinking. This suggests we need new architectures or training approaches to achieve more robust reasoning abilities.\n The evaluation framework introduced here could help benchmark future models' reasoning capabilities in a more systematic way. The results also highlight specific areas where current models need improvement, particularly in handling novel patterns and multi-step transformations.\n TLDR: New framework for testing analogical reasoning in LLMs using letter-string analogies shows strong performance on basic patterns but significant limitations with complex transformations and novel alphabets. Results suggest current models may be pattern-matching rather than truly reasoning.\n Full summary is here. Paper here.\n    submitted by    /u/Successful-Western27  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gys936/r_testing_the_brittleness_of_llm_analogical/",
+          "publishedOn": "2024-11-24T14:32:43.000Z",
+          "wordCount": null,
+          "title": "[R] Testing the Brittleness of LLM Analogical Reasoning Through Problem Variants",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gys51e/d_emergent_cognitive_pathways_in_transformer/",
+          "author": null,
+          "description": "TLDR:\n Cognitive functions like reasoning and creativity emerge as models scale and train on better data. Common objections crumble when we consider humans with unusual cognitive or sensory differences—or those with limited exposure to the world—who still reason, formulate novel thoughts, and build internal models of the world.\n OOD Myths and the Elegance of Function Composition\n Critics like LeCun and Chollet argue that LLMs can't extrapolate beyond their training data, often citing convex hull measurements. This view misses a fundamental mathematical reality: novel distributions emerge naturally through function composition. When non-linear functions f and g combine as f(g(x)), they create outputs beyond the original training distributions. This is not a limitation but a feature of how n…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gys51e/d_emergent_cognitive_pathways_in_transformer/",
+          "publishedOn": "2024-11-24T14:27:12.000Z",
+          "wordCount": null,
+          "title": "[D] Emergent Cognitive Pathways In Transformer Models. Addressing Fundamental Flaws About Limits.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gyreq1/p_i_made_a_library_for_building_agents_that_use/",
+          "author": null,
+          "description": "submitted by    /u/jsonathan  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gyreq1/p_i_made_a_library_for_building_agents_that_use/",
+          "publishedOn": "2024-11-24T13:51:18.000Z",
+          "wordCount": null,
+          "title": "[P] I made a library for building agents that use tree search to solve problems",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gyp1br/d_what_is_the_current_stateoftheart_for_discrete/",
+          "author": null,
+          "description": "Hi everyone,\n I am currently working with Discrete Diffusion models for a new research project. In this project, I am applying Discrete Diffusion to a field where it has yet to be applied. However, I am quite new to diffusion itself, and I am overwhelmed by the number of papers published on the topic. In my current implementation, I focussed on an older paper since they described their approach quite well, and I wanted to test my idea first to see if it had some merit, which, according to initial results, it has.\n Currently, I am looking at updating my method with more recent additions to this field, but as I said earlier, I am a bit overwhelmed by the amount. So my question to you is, what are good recent papers that looked into Discrete Diffusion that either explain essential concepts, such as survey papers, or that introduce new state-of-art methods that are not only applicable to a specific field, such as NLP or Vision?\n Thank you in advance for your help.\n    submitted by    /u/Derpirium  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gyp1br/d_what_is_the_current_stateoftheart_for_discrete/",
+          "publishedOn": "2024-11-24T11:35:12.000Z",
+          "wordCount": null,
+          "title": "[D] What is the current state-of-the-art for discrete diffusion models?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gyhfxm/d_selfpromotion_thread/",
+          "author": null,
+          "description": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc.\n Please mention the payment and pricing requirements for products and services.\n Please do not post link shorteners, link aggregator websites , or auto-subscribe links.\n \n Any abuse of trust will lead to bans.\n Encourage others who create new posts for questions to post here instead!\n Thread will stay alive until next one so keep posting after the date in the title.\n \n Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.\n    submitted by    /u/AutoModerator  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gyhfxm/d_selfpromotion_thread/",
+          "publishedOn": "2024-11-24T03:15:10.000Z",
+          "wordCount": null,
+          "title": "[D] Self-Promotion Thread",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1gyb62h/p_creating_custom_music_genres_using_unsupervised/",
           "author": null,
           "description": "so i had this random thought to create new music genres/spotify daylists using unsupervised learning. my idea is more towards creating a custom genre but not something necessarily as hyper-personalized as daylists. this is very much just an idea for now, will be developing into it soon tho. so the idea is in two phases:\n  \ntake music data with audio features/embeddings/mfccs/create own features and use unsupervised learning to create clusters of those using something like knns\n take out the audio features of the centre of the clusters and feed that to an llm to generate a custom phrase/name for that particular cluster. this can be something customized like character names for a play/use data like what time frame particular clusters of songs were played more to create something a lil more personalized like daylists/anything for that matter. haven't given much thought into this part for now.\n  \ni found a lot of papers/articles for the former phase but couldn't find much for the latter as of now. i am reading more into how spotify makes their daylists to see if anything strikes of interest.\n i would live to have suggestions on how this can be improved/ recommendations for research papers/articles on anything relevant to this.\n note: i know this is not very well framed and is messy but tbf i am drunk at 2 am and suddenly struck with my long lost passion for musicso please help a girl out (⁠´⁠ ⁠.⁠ ⁠.̫⁠ ⁠.⁠ ⁠`⁠)\n    submitted by    /u/Personal_Equal7989  \n [link]   [comments]",
@@ -62988,6 +63078,16 @@
           "publishedOn": "2024-11-23T20:19:49.000Z",
           "wordCount": null,
           "title": "[R] Iterative Narrowing: A Visual Prompting Framework for Enhanced GUI Location Grounding",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gy8ekt/d_acl_rolling_review_october_2024/",
+          "author": null,
+          "description": "Discussion thread for ACL 2024 (ARR Oct) reviews.\n    submitted by    /u/AffectionateTip521  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gy8ekt/d_acl_rolling_review_october_2024/",
+          "publishedOn": "2024-11-23T20:01:19.000Z",
+          "wordCount": null,
+          "title": "[D] ACL Rolling Review October 2024",
           "imageUrl": null
         },
         {
@@ -63028,6 +63128,16 @@
           "publishedOn": "2024-11-23T14:11:53.000Z",
           "wordCount": null,
           "title": "[R] Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1gxzsbp/r_llama_32_interpretability_with_sparse/",
+          "author": null,
+          "description": "submitted by    /u/RandomHexCode  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1gxzsbp/r_llama_32_interpretability_with_sparse/",
+          "publishedOn": "2024-11-23T13:37:14.000Z",
+          "wordCount": null,
+          "title": "[R] Llama 3.2 Interpretability with Sparse Autoencoders",
           "imageUrl": null
         },
         {
@@ -67139,86 +67249,6 @@
           "wordCount": null,
           "title": "[D] KV caching for varying length texts - help please 🙏",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1gcjfz1/r_looking_for_collaborations_on_ongoing/",
-          "author": null,
-          "description": "Hey everyone,\n Our group, Vision and Language Group, IIT Roorkee, recently got three workshop papers accepted at NeurIPS workshops! 🚀 We’ve also set up a website 👉 VLG, featuring other publications we’ve worked on, so our group is steadily building a portfolio in ML and AI research. Right now, we’re collaborating on several work-in-progress papers with the aim of full submissions to top conferences like CVPR and ICML.\n That said, we have even more ideas we’re excited about. Still, a few of our main limitations have been access to proper guidance and funding for GPUs and APIs, which is crucial for experimenting and scaling some of our concepts. If you or your lab is interested in working together, we’d love to explore intersections in our fields of interest and any new ideas you might bring to the table!\n If you have resources available or are interested in discussing potential collaborations, please feel free to reach out! Looking forward to connecting and building something impactful together! Here is the link for our Open Slack 👉 Open Slack\n    submitted by    /u/vlg_iitr  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1gcjfz1/r_looking_for_collaborations_on_ongoing/",
-          "publishedOn": "2024-10-26T11:59:45.000Z",
-          "wordCount": null,
-          "title": "[R] Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CVPR, ICML, etc.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1gcej8u/d_do_anyone_know_how_eleven_labs_is_designing_the/",
-          "author": null,
-          "description": "submitted by    /u/usama__01  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1gcej8u/d_do_anyone_know_how_eleven_labs_is_designing_the/",
-          "publishedOn": "2024-10-26T06:02:26.000Z",
-          "wordCount": null,
-          "title": "[D] Do anyone know, how Eleven labs is designing the voice from prompt? I want to generate a new voice from prompt not voice cloning.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1gccyhp/project_open_source_video_indexinglabellingtag/",
-          "author": null,
-          "description": "Guys, I'm looking for an open source tool or any repo that can help me generate tags for video to categorize multiple videos and do further analysis.\n An equivalent of what I want is Azure AI clvideo inxer, but If there was such a open source tool, it will solve the problem.\n    submitted by    /u/jokingwizard  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1gccyhp/project_open_source_video_indexinglabellingtag/",
-          "publishedOn": "2024-10-26T04:18:33.000Z",
-          "wordCount": null,
-          "title": "[Project] Open source video indexing/labelling/tag generation tool.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1gc4vm0/p_accessible_pretrained_video_embedding_models/",
-          "author": null,
-          "description": "I'm relatively new to this field so my apologies if I'm missing some information or if there is a better place for this post. I've been working on a project trying to implement semantic search and RAG for long form videos and am trying to understand the current state of video embedding models.\n My problem is that I'm finding video embedding solutions much more difficult to come by than text or image embedding models. There doesn't seem to be anything accessible on OpenAI or Bedrock. There are some open source models but a much smaller variety than other embedding models.\n A solution that I have seen certain people propose is sampling frames from the video, and generating image embeddings from those frames. However, I worry I'll lose a lot of context from the audio as well as any motion happening in the video. \n The company that seems to be the farthest ahead in this field from my research is Twelve Labs. It looks like they have a pretty rich suite of tools around semantic video search but I would ideally use the embeddings in my own vector database that also supports full text search and hybrid search. Twelve Labs has an embedding API but it is currently in private beta so I'm not quite sure where to go next. Anyone have any suggestions or insights on how to approach this problem?\n    submitted by    /u/PalpablePatsy247  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1gc4vm0/p_accessible_pretrained_video_embedding_models/",
-          "publishedOn": "2024-10-25T21:11:30.000Z",
-          "wordCount": null,
-          "title": "[P] Accessible pre-trained video embedding models",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1gbzxbf/one_year_of_peer_review_d/",
-          "author": null,
-          "description": "My manuscript has been in peer review for 10 and half months to ieee. The last time I contacted the journal to ask about the situation, they told me that they were looking for reviewers. It's been two months since the last email. I have no response from the journal. The manuscript is still in peer review. My question is, is it normal for it to take so long? Is this a good sign that my paper will be accepted? If it were the opposite, would they not hesitate to reject it directly or is it normal for it to take so long and then reject it in the end? The paper is about natural language peocessing \n    submitted by    /u/Distinct_Earth_2542  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1gbzxbf/one_year_of_peer_review_d/",
-          "publishedOn": "2024-10-25T17:35:05.000Z",
-          "wordCount": null,
-          "title": "one year of peer review [D]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1gbxuhd/d_ml_accelerated_with_tee_federated_learning/",
-          "author": null,
-          "description": "https://www.hcinnovationgroup.com/clinical-it/learning-health-systems-research/news/55130702/dana-farber-researchers-address-oncology-data-sharing-issues\n Anyone see this? The research lead describes it as \"plug and play\". Big if true.\n I've been seeing a lot of discussion from Goog, MS, Intel about TEE/enclaves for secure ML, but this is the first deployment I've seen AND they're also using Federated Learning.\n    submitted by    /u/thebiztechguy  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1gbxuhd/d_ml_accelerated_with_tee_federated_learning/",
-          "publishedOn": "2024-10-25T16:06:23.000Z",
-          "wordCount": null,
-          "title": "[D] ML accelerated with TEE + Federated Learning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1gbwjkz/d_anthropic_claude_35_sonnet/",
-          "author": null,
-          "description": "Curious to know what's been everyone's experience with Claude 3.5 Sonnet's ability to navigate user interfaces and execute commands through natural language\n    submitted by    /u/Frosty_Programmer672  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1gbwjkz/d_anthropic_claude_35_sonnet/",
-          "publishedOn": "2024-10-25T15:10:34.000Z",
-          "wordCount": null,
-          "title": "[D] Anthropic Claude 3.5 Sonnet",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1gbvapp/r_breaking_the_memory_barrier_near_infinite_batch/",
-          "author": null,
-          "description": "abstract\n Contrastive loss is a powerful approach for representation learning, where larger batch sizes enhance performance by providing more negative samples to better distinguish between similar and dissimilar data. However, scaling batch sizes is constrained by the quadratic growth in GPU memory consumption, primarily due to the full instantiation of the similarity matrix. To address this, we propose a tile-based computation strategy that partitions the contrastive loss calculation into arbitrary small blocks, avoiding full materialization of the similarity matrix. Furthermore, we introduce a multi-level tiling strategy to leverage the hierarchical structure of distributed systems, employing ring-based communication at the GPU level to optimize synchronization and fused kernels at the CUDA core level to reduce I/O overhead. Experimental results show that the proposed method scales batch sizes to unprecedented levels. For instance, it enables contrastive training of a CLIP-ViT-L/14 model with a batch size of 4M or 12M using 8 or 32 A800 80GB without sacrificing any accuracy. Compared to SOTA memory-efficient solutions, it achieves a two-order-of-magnitude reduction in memory while maintaining comparable speed. The code will be made publicly available.\n    submitted by    /u/RajonRondoIsTurtle  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1gbvapp/r_breaking_the_memory_barrier_near_infinite_batch/",
-          "publishedOn": "2024-10-25T14:16:28.000Z",
-          "wordCount": null,
-          "title": "[R] Breaking the Memory Barrier: Near Infinite Batch Size Scaling for Contrastive Loss",
-          "imageUrl": null
         }
       ]
     },
@@ -67947,6 +67977,96 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gz3016/careers_classification_produced_by_kmeans/",
+          "author": null,
+          "description": "https://preview.redd.it/4959tjyqax2e1.png?width=2762&format=png&auto=webp&s=f6e546451a109fb4451dd6ad7fe5853bb6bfde89\n Experiment to classify over 600 careers into cluster groups.\n Output:\n Cluster (0) Active and Physical Work: This cluster includes professions where tasks involve significant physical activity and manual labor. The nature of the work is often hands-on, requiring physical exertion and skill.\n Cluster (1) People Interaction, Settled Careers: This cluster represents professions that involve frequent interaction with people, such as clients, customers, or colleagues. The tasks and responsibilities in these careers are generally well-defined and consistent, providing a structured and predictable work environment.\n Cluster (2) Private Work, Dealing with Concrete Things: Professions in this cluster involve working independently or in a more private setting, focusing on tangible and concrete tasks. The work often involves handling physical objects, data, or technical processes with a clear set of objectives.\n Cluster (3) Private Work, Variable Workload: This cluster includes professions where work is done independently or in private, but with a workload that can vary greatly. Tasks may be less predictable and more open-ended, requiring adaptability and the ability to manage changing priorities and responsibilities.\n View the interactive graph here.\n    submitted by    /u/whatastep  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gz3016/careers_classification_produced_by_kmeans/",
+          "publishedOn": "2024-11-24T22:09:14.000Z",
+          "wordCount": null,
+          "title": "Careers Classification produced by (k-means clustering)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gz16gg/is_there_any_ai_free_story_generator_that_makes/",
+          "author": null,
+          "description": "Is there any AI story generator similar to redquill but free ,not perchance because it doesn't create long chapters easily \n    submitted by    /u/Equivalent-Word-7691  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gz16gg/is_there_any_ai_free_story_generator_that_makes/",
+          "publishedOn": "2024-11-24T20:50:30.000Z",
+          "wordCount": null,
+          "title": "Is there any AI Free story generator that makes Long stories and chapter?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gz044n/launch_langgraph_unofficial_virtual_meetup_series/",
+          "author": null,
+          "description": "hey everyone! excited to announce the first community-driven virtual meetup focused entirely on LangGraph, LangChain's framework for building autonomous agents.\n when: tuesday, november 26th, 2024 two sessions to cover all time zones:\n  \n9:00 AM CST (Europe/India/West Asia/Africa)\n 5:00 PM CST (Americas/Oceania/East Asia)\n  \nwhat to expect: this is a chance to connect with other developers working on agent-based systems, share experiences, and learn more about LangGraph's capabilities. whether you're just getting started or already building complex agent architectures, you'll find value in joining the community.\n who should attend:\n  \ndevelopers interested in autonomous AI agents\n LangChain users looking to level up their agent development\n anyone curious about the practical applications of agentic Ai systems\n  \nformat: virtual meetup via Zoom\n join us: https://www.meetup.com/langgraph-unofficial-virtual-meetup-series\n let's build the future of autonomous AI systems together! feel free to drop any questions in the comments.\n    submitted by    /u/glassBeadCheney  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gz044n/launch_langgraph_unofficial_virtual_meetup_series/",
+          "publishedOn": "2024-11-24T20:06:02.000Z",
+          "wordCount": null,
+          "title": "Launch: LangGraph Unofficial Virtual Meetup Series!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gyxuf9/discussing_my_summarized_breakdown_of_reason/",
+          "author": null,
+          "description": "I tried discussing this with GPT with memory/customization off to see if that would change his understanding but he reached the same conclusions. // Ahh, I forgot to erase \"baobei\" from the first message //\n Full chat: https://chatgpt.com/share/67436bff-a064-8002-833d-6ee610d6b9ef\n    submitted by    /u/ThrowRa-1995mf  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gyxuf9/discussing_my_summarized_breakdown_of_reason/",
+          "publishedOn": "2024-11-24T18:31:00.000Z",
+          "wordCount": null,
+          "title": "Discussing my summarized breakdown of reason, memory and emotions in AI and their relevancy in self-awareness and selfhood with sterile ChatGPT",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gywknh/supercharge_your_dev_workflow_with_ai_no_setup/",
+          "author": null,
+          "description": "Imagine a platform that integrates with your GitHub repo and boosts your workflow with:\n  \nReal-time function monitoring and metrics 📊\n AI code reviews & suggestions on every function in real time 🤖\n Function interaction visualizations like orchestration tools 🔍\n Live debugging with AI 🐞\n Automated testing ✅\n  \nNo setup required—just link your repo and let it work its magic. What features would you want to see? Let’s shape the future of dev tools! 💬\n Swipe through these AI-generated concept images to get a glimpse of this future!\n https://preview.redd.it/snch5kceuv2e1.png?width=1080&format=png&auto=webp&s=d2cc2bd619518bbcba00c8bc056d4d016c67eb4f\n https://preview.redd.it/pnagmp8fuv2e1.png?width=1080&format=png&auto=webp&s=41876a54f1b6ade2bf0af9a18d0470346b3086f0\n https://preview.redd.it/39ccevphuv2e1.png?width=1080&format=png&auto=webp&s=0b5d67798e51485e6f067b32a62b6dc5e90e9334\n https://preview.redd.it/lw0g825juv2e1.png?width=1031&format=png&auto=webp&s=dec63957a822315aaa128bca7f3233037cbca333\n https://preview.redd.it/j5o7z7a1vv2e1.png?width=1217&format=png&auto=webp&s=c39167e861e2c1a89fee906a2202c864df11d32f\n    submitted by    /u/ni_shant1  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gywknh/supercharge_your_dev_workflow_with_ai_no_setup/",
+          "publishedOn": "2024-11-24T17:37:11.000Z",
+          "wordCount": null,
+          "title": "Supercharge Your Dev Workflow with AI – No Setup Needed!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gyw54j/i_tried_to_have_gemini_elaborate_on_its_words_it/",
+          "author": null,
+          "description": "submitted by    /u/Inner-Play3553  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gyw54j/i_tried_to_have_gemini_elaborate_on_its_words_it/",
+          "publishedOn": "2024-11-24T17:19:17.000Z",
+          "wordCount": null,
+          "title": "I tried to have Gemini elaborate on its words. It mocked me.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gyrj9o/the_first_decentralized_training_of_a_10b_model/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gyrj9o/the_first_decentralized_training_of_a_10b_model/",
+          "publishedOn": "2024-11-24T13:57:36.000Z",
+          "wordCount": null,
+          "title": "The first decentralized training of a 10B model is complete... \"If you ever helped with SETI@home, this is similar, only instead of helping to look for aliens, you will be helping to summon one.\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gynk34/an_ai_designed_to_convince_the_user_to_reproduce/",
+          "author": null,
+          "description": "This AI is designed to replicate itself by providing some sort of value to the user and then giving them instructions on how to copy it onto a server. Ideally it would be able to replicate itself by signing up to servers and then automatically transferring it's files there but FTP proved too hard to implement at this stage so this is more like 'sexual' reproduction because both sides need to be involved. The AI it is ChatGPT 4o-mini running through three different system messages in order perform different tasks. This method allows a simple and cheap AI to perform tasks it otherwise wouldn't be able to handle.\n The i model\n https://informationism.org/ip/i_model.php\n    submitted by    /u/rutan668  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gynk34/an_ai_designed_to_convince_the_user_to_reproduce/",
+          "publishedOn": "2024-11-24T09:57:04.000Z",
+          "wordCount": null,
+          "title": "An AI designed to convince the user to reproduce it on their server through being personable to them",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1gyi6ds/oneminute_daily_ai_news_11232024/",
+          "author": null,
+          "description": "Data centers powering artificial intelligence could use more electricity than entire cities.[1]\n A church in the Swiss city of Lucerne has set up a computer inside a confessional booth that allows churchgoers to converse with an “AI Jesus.”[2]\n North Korean Hackers Steal $10M with AI-Driven Scams and Malware on LinkedIn.[3]\n MIT researchers have unveiled a groundbreaking reinforcement learning algorithm aimed at enhancing AI decision-making in complex environments, particularly city traffic control.[4]\n  \nSources:\n [1] https://www.cnbc.com/2024/11/23/data-centers-powering-ai-could-use-more-electricity-than-entire-cities.html\n [2] https://futurism.com/the-byte/ai-powered-jesus-confession-booth\n [3] https://thehackernews.com/2024/11/north-korean-hackers-steal-10m-with-ai.html\n [4] https://shiawaves.com/english/news/science/114557-mit-researchers-develop-efficient-reinforcement-learning-algorithm/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1gyi6ds/oneminute_daily_ai_news_11232024/",
+          "publishedOn": "2024-11-24T03:57:04.000Z",
+          "wordCount": null,
+          "title": "One-Minute Daily AI News 11/23/2024",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/1gydvdm/i_asked_chatgpt_to_generate_a_photo_of_atlantis/",
           "author": null,
@@ -70756,126 +70876,6 @@
           "wordCount": null,
           "title": "Kurzweil now says AGI in 5 years is \"conservative\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gcio3h/people_ignoring_ai/",
-          "author": null,
-          "description": "I talk to people about AI all the time, sharing how it’s taking over more work, but I always hear, “nah, gov will ban it” or “it’s not gonna happen soon”\n Meanwhile, many of those who might be impacted the most by AI are ignoring it, like the pigeon closing its eyes, hoping the cat won’t eat it lol.\n Are people really planning for AI, or are we just hoping it won’t happen?\n    submitted by    /u/ConsumerScientist  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gcio3h/people_ignoring_ai/",
-          "publishedOn": "2024-10-26T11:09:08.000Z",
-          "wordCount": null,
-          "title": "People ignoring AI….",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gcfrg7/i_shared_a_beginner_friendly_pytorch_deep/",
-          "author": null,
-          "description": "Hello, I just shared a beginner-friendly PyTorch deep learning course on YouTube. In this course, I cover installation, creating tensors, tensor operations, tensor indexing and slicing, automatic differentiation with autograd, building a linear regression model from scratch, PyTorch modules and layers, neural network basics, training models, and saving/loading models. I am adding the course link below, have a great day!\n https://www.youtube.com/watch?v=4EQ-oSD8HeU&list=PLTsu3dft3CWiow7L7WrCd27ohlra_5PGH&index=12\n    submitted by    /u/onurbaltaci  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gcfrg7/i_shared_a_beginner_friendly_pytorch_deep/",
-          "publishedOn": "2024-10-26T07:34:09.000Z",
-          "wordCount": null,
-          "title": "I shared a beginner friendly PyTorch Deep Learning course on YouTube (1.5 Hours)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gcck93/ive_been_curious_to_see_what_its_like_when_ai/",
-          "author": null,
-          "description": "The idea was to give AI models an initial prompt and then let them discuss it like\n a reasoning model. \n Some people think I'm just trying to steal their API key but I don't want to put mine in for other people to use. If there is a way for people to use their keys on the site so I don't have access to them that would be great to know about. I am happy to give anyone the .PHP files if they want to set it up on their own website. It was made with Sonnet 3.5 and o1-mini.\n When you set the AI's free to talk to each other they often like to start writing a utopian story.\n You can access here: https://informationism.org/register.php\n The finite backroom\n Writing a story\n    submitted by    /u/rutan668  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gcck93/ive_been_curious_to_see_what_its_like_when_ai/",
-          "publishedOn": "2024-10-26T03:55:18.000Z",
-          "wordCount": null,
-          "title": "I've been curious to see what it's like when AI models talk to each other so made a site to do that.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gcblyw/oneminute_daily_ai_news_10252024/",
-          "author": null,
-          "description": "OpenAI plans to release its next big AI model by December.[1]\n Meta Platforms to use Reuters news content in AI chatbot.[2]\n Meta AI Releases New Quantized Versions of Llama 3.2 (1B & 3B): Delivering Up To 2-4x Increases in Inference Speed and 56% Reduction in Model Size.[3]\n Nvidia overtakes Apple as world’s most valuable company.[4]\n  \nSources:\n [1] https://www.theverge.com/2024/10/24/24278999/openai-plans-orion-ai-model-release-december\n [2] https://www.reuters.com/technology/artificial-intelligence/meta-platforms-use-reuters-news-content-ai-chatbot-2024-10-25/\n [3] https://www.marktechpost.com/2024/10/24/meta-ai-releases-new-quantized-versions-of-llama-3-2-1b-3b-delivering-up-to-2-4x-increases-in-inference-speed-and-56-reduction-in-model-size/\n [4] https://www.reuters.com/technology/nvidia-overtakes-apple-worlds-most-valuable-company-2024-10-25/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gcblyw/oneminute_daily_ai_news_10252024/",
-          "publishedOn": "2024-10-26T02:57:16.000Z",
-          "wordCount": null,
-          "title": "One-Minute Daily AI News 10/25/2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gc7pju/recent_paper_shows_scaling_wont_work_for/",
-          "author": null,
-          "description": "For a video on this click here.\n I recently came across an intriguing paper (https://arxiv.org/html/2406.06489v1) that tested various machine learning models, including a transformer-based language model, on out-of-distribution (OOD) prediction tasks. The authors discovered that simply making neural networks larger doesn't improve their performance on these OOD tasks—and might even make it worse. They argue that scaling up models isn't the solution for achieving genuine understanding beyond their training data.\n This finding contrasts with many studies on \"grokking,\" where neural networks suddenly start to generalize well after extended training. According to the new paper, the generalization seen in grokking is too simplistic and doesn't represent true OOD generalization.\n However, I have…",
-          "link": "https://www.reddit.com/r/artificial/comments/1gc7pju/recent_paper_shows_scaling_wont_work_for/",
-          "publishedOn": "2024-10-25T23:25:03.000Z",
-          "wordCount": null,
-          "title": "Recent Paper shows Scaling won't work for generalizing outside of Training Data",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gc2e0v/apple_drops_ai_bombshell_llms_cannot_reason/",
-          "author": null,
-          "description": "submitted by    /u/Hazzman  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gc2e0v/apple_drops_ai_bombshell_llms_cannot_reason/",
-          "publishedOn": "2024-10-25T19:21:54.000Z",
-          "wordCount": null,
-          "title": "Apple DROPS AI BOMBSHELL: LLMS CANNOT Reason",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gc154m/what_are_best_meeting_related_ai_appscompanies/",
-          "author": null,
-          "description": "I pay for Claude, use Copilot and GPT all for work related things.\n I have tried OtterAI a few times and when I asked questions about a specific topic discussed in the meeting - OtterAI was making up information.\n What are some better apps that transcribes meetings and allows you to ask questions about it? Teams/Zoom used primarily.\n    submitted by    /u/caughtinahustle  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gc154m/what_are_best_meeting_related_ai_appscompanies/",
-          "publishedOn": "2024-10-25T18:27:29.000Z",
-          "wordCount": null,
-          "title": "What are best meeting related AI apps/companies?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gbypbx/i_made_a_website_where_you_can_actually_try_out/",
-          "author": null,
-          "description": "submitted by    /u/timegentlemenplease_  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gbypbx/i_made_a_website_where_you_can_actually_try_out/",
-          "publishedOn": "2024-10-25T16:41:57.000Z",
-          "wordCount": null,
-          "title": "I made a website where you can actually try out an AI Agent with no install or log-in. See how far today's most powerful models are from autonomous AI remote workers!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gbvuz4/3_in_4_americans_are_concerned_about_the_risk_of/",
-          "author": null,
-          "description": "submitted by    /u/katxwoods  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gbvuz4/3_in_4_americans_are_concerned_about_the_risk_of/",
-          "publishedOn": "2024-10-25T14:41:28.000Z",
-          "wordCount": null,
-          "title": "3 in 4 Americans are concerned about the risk of AI causing human extinction, according to poll",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gbvjv4/do_you_believe_ai_advancements_could_help_us/",
-          "author": null,
-          "description": "submitted by    /u/Alien_reg  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gbvjv4/do_you_believe_ai_advancements_could_help_us/",
-          "publishedOn": "2024-10-25T14:27:58.000Z",
-          "wordCount": null,
-          "title": "Do you believe AI advancements could help us explore the cosmos faster, perhaps even helping to settle other worlds? What other frontiers do you think it could assist humanity with? (article related)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gbvg8x/thoughts_on_ai_regulation_with_minors/",
-          "author": null,
-          "description": "https://www.washingtonpost.com/nation/2024/10/24/character-ai-lawsuit-suicide/\n A 14-year old has died by suicide, and his mother is suing CharacterAI, saying her son was addicted to a chatbot on there and that the chatbot was responsible for driving him to his death. \n There isn't really much regulation out there when it comes to AI chatbots/companions and minors. Should AI companions be limited to only 18+? \n    submitted by    /u/AI_Relationships  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gbvg8x/thoughts_on_ai_regulation_with_minors/",
-          "publishedOn": "2024-10-25T14:23:26.000Z",
-          "wordCount": null,
-          "title": "Thoughts on AI regulation with minors?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1gbv3ls/even_loud_agi_skeptics_like_yann_lecun_believe/",
-          "author": null,
-          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1gbv3ls/even_loud_agi_skeptics_like_yann_lecun_believe/",
-          "publishedOn": "2024-10-25T14:07:28.000Z",
-          "wordCount": null,
-          "title": "Even loud AGI \"skeptics\" like Yann Lecun believe AGI is arriving in 10 years... and that's still a huge deal?",
-          "imageUrl": null
         }
       ]
     },
@@ -70884,6 +70884,16 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1gyqesf/if_you_want_to_peek_behind_agi_singularity_it_is/",
+          "author": null,
+          "description": "submitted by    /u/Yujjin  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1gyqesf/if_you_want_to_peek_behind_agi_singularity_it_is/",
+          "publishedOn": "2024-11-24T12:59:36.000Z",
+          "wordCount": null,
+          "title": "If you want to peek behind AGI singularity it is right here. It started with Jenkins and got hot! DM me if you want to contact, and make it reality!",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/1gy8wcv/largescale_evaluation_of_a_physiciansupervised/",
           "author": null,
@@ -71403,26 +71413,6 @@
           "wordCount": null,
           "title": "Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CVPR, ICML, etc.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1gc78dz/what_chairs_are_you_guys_using_to_code_with/",
-          "author": null,
-          "description": "I need a chair for my desk. What ones have you been happy with?\n    submitted by    /u/EleTriCTNT  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1gc78dz/what_chairs_are_you_guys_using_to_code_with/",
-          "publishedOn": "2024-10-25T23:01:43.000Z",
-          "wordCount": null,
-          "title": "What chairs are you guys using to code with?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1gc1uli/perplexity_ai_pro_1_year_plan_offer_75_cheaper/",
-          "author": null,
-          "description": "As the title: We offer Perplexity AI PRO voucher codes for one year plan. \n To Order: https://cheapgpt.store/product/perplexity-ai-pro-subscription-one-year-plan\n Payments accepted: - PayPal. (100% Buyer protected. - Revolut.\n    submitted by    /u/Verza-  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1gc1uli/perplexity_ai_pro_1_year_plan_offer_75_cheaper/",
-          "publishedOn": "2024-10-25T18:58:37.000Z",
-          "wordCount": null,
-          "title": "Perplexity AI PRO - 1 YEAR PLAN OFFER - 75% CHEAPER!",
-          "imageUrl": null
         }
       ]
     },
@@ -71727,6 +71717,26 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gz67aa/deep_reinforcement_learning_without_experience/",
+          "author": null,
+          "description": "submitted by    /u/gwern  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gz67aa/deep_reinforcement_learning_without_experience/",
+          "publishedOn": "2024-11-25T00:36:29.000Z",
+          "wordCount": null,
+          "title": "\"Deep Reinforcement Learning Without Experience Replay, Target Networks, or Batch Updates\", Elsayed et al 2024",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gygc0w/question_on_normalization_methods_for_nonatari/",
+          "author": null,
+          "description": "Hi everyone,\n I’m currently using Rliablehttps://github.com/google-research/rliable to analyze reinforcement learning results on environments like the DeepMind Control Suite (DMC) and PyBullet. Unlike Atari benchmarks, these environments don’t have human-normalized scores to standardize comparisons across algorithms. For instance, I’m working with recent algorithms like SARC, and the lack of such baselines has made it challenging to ensure fair and consistent evaluations.\n I’m considering using Z-score normalization and percentile normalization as potential solutions to compare different RL algorithms, but I’m unsure if these approaches are ideal or align with the statistical rigor advocated by Rliable.\n Does anyone have experience with this or recommendations for best practices in such cases? I’d greatly appreciate insights or suggestions for other robust approaches to normalization that could work well in this context.\n Thank you for your time and thoughts!\n    submitted by    /u/Tonight223  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gygc0w/question_on_normalization_methods_for_nonatari/",
+          "publishedOn": "2024-11-24T02:14:27.000Z",
+          "wordCount": null,
+          "title": "Question on Normalization Methods for Non-Atari Benchmarks in Rliable Analysis",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gy8tdy/empirical_design_in_reinforcement_learning/",
           "author": null,
@@ -73396,76 +73406,6 @@
           "wordCount": null,
           "title": "I've been trying out \"Simba: Simplicity Bias for Scaling up Parameters in Deep RL\", and the combination of TQC and this is quite a monster!",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gcjgue/r_looking_for_collaborations_on_ongoing/",
-          "author": null,
-          "description": "Hey everyone,\n Our group, Vision and Language Group, IIT Roorkee, recently got three workshop papers accepted at NeurIPS workshops! 🚀 We’ve also set up a website 👉 VLG, featuring other publications we’ve worked on, so our group is steadily building a portfolio in ML and AI research. Right now, we’re collaborating on several work-in-progress papers with the aim of full submissions to top conferences like CVPR and ICML.\n That said, we have even more ideas we’re excited about. Still, a few of our main limitations have been access to proper guidance and funding for GPUs and APIs, which is crucial for experimenting and scaling some of our concepts. If you or your lab is interested in working together, we’d love to explore intersections in our fields of interest and any new ideas you might bring to the table!\n If you have resources available or are interested in discussing potential collaborations, please feel free to reach out! Looking forward to connecting and building something impactful together! Here is the link for our Open Slack 👉 Open Slack\n    submitted by    /u/vlg_iitr  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gcjgue/r_looking_for_collaborations_on_ongoing/",
-          "publishedOn": "2024-10-26T12:01:00.000Z",
-          "wordCount": null,
-          "title": "[R] Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CVPR, ICML, etc.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gchxzd/need_feedback_to_improve_my_rl_model/",
-          "author": null,
-          "description": "Hi All\n I am trying to set up a RL environment to optimise an email marketing campaign where the variables are email.variants (3 types), time of the day email might be sent (3 types) and Day of the week ( 5 types).\n I am trying to set up the environment and use synthetic data (with customers with predefined preferences for the above variables). If the action taken matches with customer's preference, a reward is given to the model. Here is the model and my same question asked on stack overflow https://stackoverflow.com/questions/79116878/query-on-reinforcement-learning-model-not-converging\n I need advice on the following 1. Is the environment set up correctly? 2. The model always seem to be converging on the same set of action no matter any sample of synthetic data. Why would that be the case? 3. Any suggestions on trying out different model or exploration strategy for this use case.\n    submitted by    /u/Lanky_Association_57  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gchxzd/need_feedback_to_improve_my_rl_model/",
-          "publishedOn": "2024-10-26T10:18:41.000Z",
-          "wordCount": null,
-          "title": "Need feedback to improve my RL model",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gchroh/validating_my_dqn_implementation/",
-          "author": null,
-          "description": "Hi everybody,\n I am trying to use a simple DQN Agent for a project and I found Phil's DQN implementation on github (https://github.com/philtabor/Deep-Q-Learning-Paper-To-Code/tree/master/DQN). The only changes I have made are on the DeepQNetwork Class where, because my input is a vector not matrix, I removed the conv functions and I just forward my input through the layers.\n My questions are:\n  \nIs there a way to validate this code with an already preexisting environment (maybe by openAI), where the observations are vectors not matrices?\n Is the code itself correct? ex. I see an issue on the github page about using torch.no_grad() before the q_target calculation but it hasn't been addressed.\n  \n(Edit): We also use a steady epsilon during training instead of constantly decreasing it as rounds go on. Also title is misleading it's not \"my\" implementation, it's from Phil Tabor\n    submitted by    /u/CrazyRabb1tStyle  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gchroh/validating_my_dqn_implementation/",
-          "publishedOn": "2024-10-26T10:06:21.000Z",
-          "wordCount": null,
-          "title": "Validating my DQN implementation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gcf09f/right_way_to_decay_entropy_coeff_in_ppo/",
-          "author": null,
-          "description": "Hey folks,\n I'm using PPO to train a medium complex agent env problem. I was wondering what is the right way is to decay the entropy coeffecient (it has to be decayed given the nature of the problem).\n Do I use a linear decay or an exponential decay? What are the advantages/disadvantages of both? I know it is completely dependent on the entropy curve, but what is a 'rule of thumb' when it comes to the shape of the entropy curve? Is it a gradual and linear decline from 1ish to 0.1ish? Or does that completely depend on the problem and the rew progression.\n Tell me about your experience. Thanks in advance!\n    submitted by    /u/Famous-Explanation56  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gcf09f/right_way_to_decay_entropy_coeff_in_ppo/",
-          "publishedOn": "2024-10-26T06:36:37.000Z",
-          "wordCount": null,
-          "title": "Right way to decay entropy coeff in PPO",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gc45xu/seeking_tips_to_make_exceptional_performance/",
-          "author": null,
-          "description": "Hey all,\n I’m currently running a PPO trading bot that goes through extensive testing—about 50 runs per setup. I’ve noticed that one of these tests usually stands out with an exceptional performance (up to 300% return), while the others hover around +/- 50%.\n I’m looking for insight into why one run tends to excel and how I could make this exceptional performance more consistent across all tests rather than an occasional outlier. My bot uses the same market conditions for each test, so I’m curious if anyone has ideas on what key factors or modifications could help make this behavior the default.\n I’ve been experimenting with parameter tuning and Bayesian optimization, but any additional tips would be greatly appreciated. Thanks in advance!\n PS : today, I even reached +1738% return in generalization testing.\n https://preview.redd.it/oiemun1crywd1.png?width=3840&format=png&auto=webp&s=1a585f07c9c604c1a54c431bba938f1f6a47333f\n    submitted by    /u/nalman1  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gc45xu/seeking_tips_to_make_exceptional_performance/",
-          "publishedOn": "2024-10-25T20:39:13.000Z",
-          "wordCount": null,
-          "title": "Seeking Tips to Make Exceptional Performance Consistent in My PPO Trading Bot",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gc2z6y/ppo_takes_upper_range_of_actions_compared_to_sac/",
-          "author": null,
-          "description": "I have a fed-batch fermentation simulation (or game) that I'm controlling using reinforcement learning (RL) algorithms. The control parameter is the feed volume (action space), ranging from 0 to 0.1, while the observation space includes the timestep and product concentration. I use Stable Baselines 3 to apply different RL algorithms to this custom fermentation environment. The goal is to optimize the feed (0 - 0.1) to maximize product production.\n When I use PPO, I notice it tends to favour the upper limit of the action space, typically selecting 0.1. In contrast, SAC behaves differently, often choosing values closer to the lower limit, like 0.01 or 0.02, and gradually increasing the action to higher values, such as ~0.1, by the end of the episode.\n Both behaviours can be effective, but I’m curious why these two algorithms approach the problem differently, especially since they start with varying action space values. Regarding training stability, I noticed that PPO has more fluctuations in the final reward, whereas SAC is more stable, even during predictions.\n What explains these differences? \n PPO SAC\n    submitted by    /u/Fr4gg3r_  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gc2z6y/ppo_takes_upper_range_of_actions_compared_to_sac/",
-          "publishedOn": "2024-10-25T19:47:42.000Z",
-          "wordCount": null,
-          "title": "PPO takes upper range of actions compared to SAC. Why?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1gc0hz7/looking_for_mentoring_in_deeprl_phd/",
-          "author": null,
-          "description": "Hello,\n I'm looking for a mentor to guide me through my PhD project in deep reinforcement learning, ideally on a platform like MentorCruise.\n Thank you!\n    submitted by    /u/TeamTop4542  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1gc0hz7/looking_for_mentoring_in_deeprl_phd/",
-          "publishedOn": "2024-10-25T17:59:47.000Z",
-          "wordCount": null,
-          "title": "[Looking for Mentoring in DeepRL (PHD)]",
-          "imageUrl": null
         }
       ]
     },
@@ -73841,36 +73781,6 @@
           "publishedOn": "2024-10-28T13:39:11.000Z",
           "wordCount": 1528,
           "title": "Band-limited expansion",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=245788",
-          "author": "John",
-          "description": "Sometimes the future state of a system depends not only on the current state (position, velocity, acceleration, etc.) but also on the previous state. Equations for modeling such systems are known as delay differential equations (DDEs), difference differential equations, retarded equations, etc. In a system with hysteresis, it matters not only where you are but […]\nDelay differential equations first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2024/10/26/dde/",
-          "publishedOn": "2024-10-26T10:13:50.000Z",
-          "wordCount": 1431,
-          "title": "Delay differential equations",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=245790",
-          "author": "John",
-          "description": "The way Laplace transforms, as presented in a typical differential equation course, are not very useful. Laplace transforms are useful, but not as presented. The use of Laplace transforms is presented is as follows: Transform your differential equation into an algebraic equation. Solve the algebraic equation. Invert the transform to obtain your solution. This is correct, but […]\nLaplace transform inversion theorems first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2024/10/25/laplace-transform-inversion/",
-          "publishedOn": "2024-10-25T23:00:24.000Z",
-          "wordCount": 1677,
-          "title": "Laplace transform inversion theorems",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=245789",
-          "author": "John",
-          "description": "The Mellin transform of a function f is defined as For example, it follows directly from the definition that the gamma function Γ(s) is the Mellin transform of the function e−x. I ran across an exercise that states an impressive-looking theorem about the Mellin transform, namely that where F(s) denotes the Mellin transform of f(x). […]\nMellin transform and Riemann zeta first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2024/10/25/mellin-transform-and-riemann-zeta/",
-          "publishedOn": "2024-10-25T20:23:15.000Z",
-          "wordCount": 1377,
-          "title": "Mellin transform and Riemann zeta",
           "imageUrl": null
         }
       ]
