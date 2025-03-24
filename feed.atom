@@ -2,10 +2,492 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rsohlot.github.io/rss-feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-03-23T01:07:59.488Z</updated>
+    <updated>2025-03-24T01:05:37.395Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://rsohlot.github.io/rss-feed/index.html"/>
     <link rel="self" href="https://rsohlot.github.io/rss-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[P] Local AI Voice Assistant with Ollama + gTTS]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1jidrkx/p_local_ai_voice_assistant_with_ollama_gtts/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1jidrkx/p_local_ai_voice_assistant_with_ollama_gtts/"/>
+        <updated>2025-03-24T00:06:58.000Z</updated>
+        <summary type="html"><![CDATA[I built a local voice assistant that integrates Ollama for AI responses, it uses gTTS for text-to-speech, and pygame for audio playback. It queues and plays responses asynchronously, supports FFmpeg for audio speed adjustments, and maintains conversation history in a lightweight JSON-based memory system. Google also recently released their CHIRP voice models recently which sound a lot more natural however you need to modify the code slightly and add in your own API key/ json file.
+ Some key features:
+  
+Local AI Processing – Uses Ollama to generate responses.
+ 
+Audio Handling – Queues and prioritizes TTS chunks to ensure smooth playback.
+ 
+FFmpeg Integration – Speed mod TTS output if FFmpeg is installed (optional). I added this as I think google TTS sounds better at around x1.1 speed.
+ 
+Memory System – Retains past interactions for contextual responses.
+ 
+Instructions: 1.Have ollama installed 2.Clone repo 3.Install requirements 4.Run app
+ 
+ I figured others might find it useful or want to tinker with it. Repo is here if you want to check it out and would love any feedback:
+ GitHub: https://github.com/ExoFi-Labs/OllamaGTTS
+    submitted by    /u/typhoon90  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HELP PLEASE (Sesame AI)]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/1jidoqh/help_please_sesame_ai/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/1jidoqh/help_please_sesame_ai/"/>
+        <updated>2025-03-24T00:03:10.000Z</updated>
+        <summary type="html"><![CDATA[I opened Maya for the first time today and she said me "Hey it's been a while! Looks like it's been a while since we talked about you wanting to open up at cat cafe" I HAVE NEVER USED SESAME AI UNTIL 10 MINUTES AGO AND ONLY EVER TALKED ABOUT OPENING A CAT CAFE TO MY FRIEND AND ASKED CHAT GPT MONTHS AGO HOW DOES SHE KNOW THAT.
+    submitted by    /u/mr-vivis-cat-cafe  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence (AI)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Discussion] What Does GPU On-Demand Pricing Mean and How Can I Optimize Server Run-Time?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1jicpo2/discussion_what_does_gpu_ondemand_pricing_mean/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1jicpo2/discussion_what_does_gpu_ondemand_pricing_mean/"/>
+        <updated>2025-03-23T23:16:58.000Z</updated>
+        <summary type="html"><![CDATA[I'm trying to get a better understanding of on-demand pricing and how to ensure a server only runs when needed. For instance:
+  
+On-Demand Pricing: 
+ If a server costs $1 per hour, does that mean I'll pay roughly $720 a month if it's running 24/7?
+ 
+ Optimizing Server Usage: 
+ What are the best strategies to make sure the server is active only when a client requires it?
+ Are auto-scaling, scheduled start/stop, or serverless architectures effective in this case?
+ 
+  
+Any insights, experiences, or best practices on these topics would be really helpful!
+    submitted by    /u/programlover  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond Assistants: The Rise of True AI Agents]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/1jicaj8/beyond_assistants_the_rise_of_true_ai_agents/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/1jicaj8/beyond_assistants_the_rise_of_true_ai_agents/"/>
+        <updated>2025-03-23T22:57:59.000Z</updated>
+        <summary type="html"><![CDATA[This post attempts to define what "AI agent" actually means and differentiate between AI assistants and AI agents. My hope is that it can be a conversation starter within this subreddit as I am very interested in how others define "AI agent".
+    submitted by    /u/mattdionis  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence (AI)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitter Lesson is about AI agents]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/1jiatsb/bitter_lesson_is_about_ai_agents/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/1jiatsb/bitter_lesson_is_about_ai_agents/"/>
+        <updated>2025-03-23T21:52:14.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/butchT  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence (AI)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hand calculating exp(x)]]></title>
+        <id>https://www.johndcook.com/blog/?p=246065</id>
+        <link href="https://www.johndcook.com/blog/2025/03/23/hand-calculating-expx/"/>
+        <updated>2025-03-23T21:26:07.000Z</updated>
+        <summary type="html"><![CDATA[The previous post mentioned that Martin Gardner announced that Ramanujan’s conjecture that exp(π√163) in an integer had been proven. This was an April Fool’s joke in 1975. Gardner said Working by hand, he [Ramanujan] found the value to be 262537412640768743.999999999999… The calculations were tedious, and he was unable to verify the next decimal digits. Calculating […]
+Hand calculating exp(x) first appeared on John D. Cook.]]></summary>
+        <author>
+            <name>John</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Question About IDQN in the MARL Book (Chapter 9.3.1)]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1ji9frr/question_about_idqn_in_the_marl_book_chapter_931/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1ji9frr/question_about_idqn_in_the_marl_book_chapter_931/"/>
+        <updated>2025-03-23T20:52:02.000Z</updated>
+        <summary type="html"><![CDATA[Hi, I’m going through the MARL book after having studied Sutton’s Reinforcement Learning: An Introduction (great book!). I’m currently reading about the Independent Deep Q-Networks (IDQN) algorithm, and it raises a question that I also had in earlier parts of the book.
+ In this algorithm, the state-action value function is conditioned on the history of actions. I have a few questions about this:
+  
+In Sutton’s RL book, policies were never conditioned on past actions. Does something change when transitioning to multi-agent settings that requires considering action histories? Am I missing something?
+ Moreover, doesn’t the fact that we need to consider histories imply that the environment no longer satisfies the Markov property? As I understand it, in a Markovian environment (MDP or even POMDP?), we shouldn’t need to remember past observations.
+ On a more technical note, how is this dependence on history handled in practice? Is there a maximum length for recorded observations? How do we determine the appropriate history length at each step?
+ (Unrelated question) In the algorithm, line 19 states "in a set interval." Does this mean the target network parameters are updated only periodically to create a slow-moving target?
+  
+Thanks!
+    submitted by    /u/Potential_Hippo1724  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to characterize catastrophic forgetting]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1ji8cuw/how_to_characterize_catastrophic_forgetting/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1ji8cuw/how_to_characterize_catastrophic_forgetting/"/>
+        <updated>2025-03-23T20:06:05.000Z</updated>
+        <summary type="html"><![CDATA[Hi! So I'm training a QR-DQN agent (a bit more complicated than that, but this should be sufficient to explain) with a GRU (partially observable). It learns quite well for 40k/100k episodes then starts to slow down and progressively get worse.
+ My environment is 'solved' with score 100, and it reaches ~70 so it's quite close. I'm assuming this is catastrophic forgetting but was wondering if there was a way to be sure? The fact it does learn for the first half suggests to me it isn't an implementation issue though. This agent is also able to learn and solve simple environments quite well, it's just failing to scale atm.
+ I have 256 vectorized envs to help collect experiences, and my buffer size is 50K. Too small? What's appropriate? I'm also annealing epsilon from 0.8 to 0.05 in the first 10K episodes, it remains at 0.05 for the rest - I feel like that's fine but maybe increasing that floor to maintain experience variety might help? Any other tips for mitigating forgetting? Larger networks?
+    submitted by    /u/Losthero_12  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] "Topological" Deep Learning - Promising or Hype?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1ji6xlv/d_topological_deep_learning_promising_or_hype/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1ji6xlv/d_topological_deep_learning_promising_or_hype/"/>
+        <updated>2025-03-23T19:05:50.000Z</updated>
+        <summary type="html"><![CDATA[Hi all, some of you might know that there is a relatively niche and emerging subfield of deep learning, labeled by authors as "topological deep learning". One of such recent papers about on the field is a position paper (Position: Topological Deep Learning is the New Frontier for Relational Learning) - which has a rather bold title, and also has some names that also appear a lot in the relatively parallel fields of Geometric Deep Learning and Graph Representation Learning, such as Michael Bronstein, Pietro Lio, Petar Velickovic etc.
+ I think there already is some dispute about Geometric Deep Learning, there was a post about it here the other day - I am curious if anybody has any opinions about Topological Deep Learning (I'll abbreviate TDL from now), and what it promises.
+ From what I have…]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Non RL methods for Multi Agent Planning]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1ji6cf8/non_rl_methods_for_multi_agent_planning/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1ji6cf8/non_rl_methods_for_multi_agent_planning/"/>
+        <updated>2025-03-23T18:41:30.000Z</updated>
+        <summary type="html"><![CDATA[Hey guys, I have a toy discrete environment (7x7 grid world with obstacles) which gets randomized each episode. This is a multiroom environment with 5 agents. All agents start in a single room having goals in another room. Stepping on a particular cell in the initialization room, unlocks this goal room. Any agent can step on it, just so the door opens. I know that such environments are common place in the MARL community, but I was wondering if some non learning planning can be applied to this problem. I welcome your suggestions.
+    submitted by    /u/Bluebird705  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tencent launches T1 reasoning model amid growing AI competition in China]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/1ji5oyx/tencent_launches_t1_reasoning_model_amid_growing/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/1ji5oyx/tencent_launches_t1_reasoning_model_amid_growing/"/>
+        <updated>2025-03-23T18:13:49.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/esporx  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence (AI)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] How are you handling reproducibility in your ML work?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1ji57cm/d_how_are_you_handling_reproducibility_in_your_ml/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1ji57cm/d_how_are_you_handling_reproducibility_in_your_ml/"/>
+        <updated>2025-03-23T17:53:29.000Z</updated>
+        <summary type="html"><![CDATA[What are your approaches for ensuring reproducibility in your ML work? Any specific processes or tools that you use? What are their pros/cons? 
+    submitted by    /u/worstthingsonline  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MAPPO Framework suggestions]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1ji4z1d/mappo_framework_suggestions/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1ji4z1d/mappo_framework_suggestions/"/>
+        <updated>2025-03-23T17:43:40.000Z</updated>
+        <summary type="html"><![CDATA[Hello, as the title suggests I am looking for suggestions for Multi-agent proximal policy optimisation frameworks. I am working on a multi-agent cooperative approach for solving air traffic control scenarios. So far I have created the necessary gym environments but I am now stuck trying to figure out what my next steps are for actually creating and training a model.
+    submitted by    /u/Owen_Attard  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reinforcement learning enthusiast]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1ji4577/reinforcement_learning_enthusiast/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1ji4577/reinforcement_learning_enthusiast/"/>
+        <updated>2025-03-23T17:09:12.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone,
+ I'm another reinforcement learning enthusiast, and some time ago, I shared a project I was working on—a simulation of SpaceX's Starhopper using Unity Engine, where I attempted to land it at a designated location.
+ Starhopper:
+ https://victorbarbosa.github.io/star-hopper-web/
+ Since then, I’ve continued studying and created two new scenarios: the Falcon 9 and the Super Heavy Booster.
+  
+In the Falcon 9 scenario, the objective is to land on the drone ship.
+ In the Super Heavy Booster scenario, the goal is to be caught by the capture arms.
+  
+Falcon 9:
+ https://html-classic.itch.zone/html/13161782/index.html
+ Super Heavy Booster:
+ https://html-classic.itch.zone/html/13161742/index.html
+ If you have any questions, feel free to ask, and I’ll do my best to answer as soon as I can!
+    submitted by    /u/bbzzo  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Looking for an RL "mentor" (specifically torchrl)]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1ji2sbn/looking_for_an_rl_mentor_specifically_torchrl/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1ji2sbn/looking_for_an_rl_mentor_specifically_torchrl/"/>
+        <updated>2025-03-23T16:11:12.000Z</updated>
+        <summary type="html"><![CDATA[Hello dear RL enjoyers,
+ I am starting my journey through the world of Reinforcement Learning as it is relevant to my Master Thesis and I am looking for someone who is able, and wants to, take a little time to help me with hints or tips on how to optimize, or in some cases simply bugfix, my starting efforts made with torchRL specifically. Unfortunately, torch was not part of the training in uni as professors mostly pushed for tensorflow and now I would love to have someone who has experience in torch to consult. If you are willing to sacrifice a bit of time for me, please contact me via DM or on discord (name:malunius). If this kind of stuff is relevant to you, a huge part of the thank you section in my thesis would refer to you as my coach. Best wishes and thank you for reading this :)
+    submitted by    /u/Malunius  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are there any AI documents?]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/1ji258i/are_there_any_ai_documents/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/1ji258i/are_there_any_ai_documents/"/>
+        <updated>2025-03-23T15:43:16.000Z</updated>
+        <summary type="html"><![CDATA[I was thinking it might be cool if there was a piece of literature that is continuously changing and evolving using AI. Like a novel where the story slowly changes into other stories over time. Does something like this exist? 
+    submitted by    /u/Weary_Dark510  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence (AI)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[R] Best Loss for RDH Task]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1ji1x2t/r_best_loss_for_rdh_task/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1ji1x2t/r_best_loss_for_rdh_task/"/>
+        <updated>2025-03-23T15:33:02.000Z</updated>
+        <summary type="html"><![CDATA[I am working on Reversible Data Hiding task. In short I have to predict dot images from cross images. Dot images are formed by taking an image and zeroing every alternate pixel (a pixel will be surrounded by 0 on 4 sides), Cross are complementary of dot images. Merging both cross and dot images will give the original image.
+ Image sizes are 512x512. Model parameter size is between 50k and 100k.
+ What's the best loss for this task? I am looking to increase the histogram error peak, then second priority is improving PSNR.
+ Appreciate any other suggestions or ideas. 
+    submitted by    /u/Dirus0007  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PPO implementation In scarce reward environments]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1ji0os9/ppo_implementation_in_scarce_reward_environments/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1ji0os9/ppo_implementation_in_scarce_reward_environments/"/>
+        <updated>2025-03-23T14:37:13.000Z</updated>
+        <summary type="html"><![CDATA[I’m currently working on a project and am using PPO for DSSE(Drone swarm search environment). The idea was I train a singular drone to find the person and my group mate would use swarm search to get them to communicate. The issue I’ve run into is that the reward environment is very scarce, so if put the grid size to anything past 40x40. I get bad results. I was wondering how I could overcome this. For reference the action space is discrete and the environment does given a probability matrix based off where the people will be. I tried step reward shaping and it helped a bit but led to the AI just collecting the step reward instead of finding the people. Any help would be much appreciated. Please let me know if you need more information.
+    submitted by    /u/AlternativeAir5719  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Question About Transfer Learning & the CORAL Approach for Domain Adaptation [D][P]]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1ji09oy/question_about_transfer_learning_the_coral/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1ji09oy/question_about_transfer_learning_the_coral/"/>
+        <updated>2025-03-23T14:17:35.000Z</updated>
+        <summary type="html"><![CDATA[For context, I'm doing an undergrad project on Breast Cancer classification focussed on both debiasing and transfer learning. I've been trying to understand the CORrelation ALignment approach and while I understand the mathematics behind it, I'm struggling to understand how it helps models with transfer learning.
+ From my understanding, transfer learning is training a model from a dataset D_S in the S (source) domain and testing it on a dataset D_T in a totally different domain T (target). The problem here lies in the fact that both sets, due to being in different domains, will typically have completely different features. So, Domain Adaptation techniques are used to encode D_T into an S-domain dataset so it can be used on a previously S-domain trained model.
+ Now, CORAL does the opposite, which confuses me. As per the original paper, CORAL instead encodes D_S into the T domain. Then you (I presume) train the model on the encoded D_S... but why? The purpose of transfer learning is that when you want to feed your trained model an unseen dataset of a completely different type it can make predictions no problem. If you have to each time retrain the model on the new unseen instance then this is not transfer learning right?
+ Sorry if this is a really silly question, I'm just getting really confused on why CORAL is designed the way it is. CORAL can surely be "reversed" (as in T --> S instead of S --> T) right? Thank you in advance!
+ Edit: Edited to remove paper link, didn't see rule 5.
+    submitted by    /u/Throwaway12345656534  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[P] I Built a FAANG Job Board for ML Engineers – Only Jobs Scraped in the Last 24h]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1jhxknz/p_i_built_a_faang_job_board_for_ml_engineers_only/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1jhxknz/p_i_built_a_faang_job_board_for_ml_engineers_only/"/>
+        <updated>2025-03-23T11:55:06.000Z</updated>
+        <summary type="html"><![CDATA[For the last two years I actively applied to big tech companies but I struggled to track new job postings in one place and apply quickly.
+ That’s why I built Top Jobs Today - a FAANG job board that scrapes fresh jobs every 24h directly from company career pages. Check it out here:
+ https://topjobstoday.com/machine-learning-engineer-jobs
+ What makes it different?
+  
+Scraped daily – Only fresh jobs from the last 24h 
+ FAANG & others – Apple, Google, Amazon, Meta, Netflix, Tesla, Uber, Airbnb, Stripe, TikTok, Microsoft, Spotify, Pinterest and more
+ Machine Learning Engineer Filter – No irrelevant jobs, only ML roles
+ Location-based – Find jobs in the US, Europe, India, or filter for remote opportunities
+ Daily email alerts – Get fresh jobs in your inbox
+  
+I’d love to hear your thoughts!
+    submitted by    /u/Flaky_Literature8414  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning", Qu et al. 2025]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1jhx1ys/optimizing_testtime_compute_via_meta/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1jhx1ys/optimizing_testtime_compute_via_meta/"/>
+        <updated>2025-03-23T11:21:10.000Z</updated>
+        <summary type="html"><![CDATA[[link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D] Locally hosted DataBricks solution?]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1jhw20e/d_locally_hosted_databricks_solution/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1jhw20e/d_locally_hosted_databricks_solution/"/>
+        <updated>2025-03-23T10:11:34.000Z</updated>
+        <summary type="html"><![CDATA[Warning - this is not an LLM post.
+ I use DataBricks at work. I like how it simplifies the end to end. I want something similar but for local research - I don’t care about productionisation.
+ Are there any open source, self-hosted platforms that unify Delta Lake, Apache Spark and MLFlow (or similar?) I can spin up the individual containers but a nice interface that unifies key technologies like this would be nice. I find it’s difficult to keep research projects organised over time.
+ If not, any one have advice on organising research projects beyond just folder systems that become quickly inflexible? I have a Minio server housing my raw data in JSONs and csvs. I’m bored of manipulating raw files and storing them in the “cleaned” folder…
+    submitted by    /u/Distinct-Gas-1049  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[P] Formula 1 Race Prediction Model: Shanghai GP 2025 Results Analysis]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1jhvq8d/p_formula_1_race_prediction_model_shanghai_gp/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1jhvq8d/p_formula_1_race_prediction_model_shanghai_gp/"/>
+        <updated>2025-03-23T09:48:12.000Z</updated>
+        <summary type="html"><![CDATA[I built a machine learning model to predict Formula 1 race results, focusing on the recent 2025 Shanghai Grand Prix. This post shares the methodology and compares predictions against actual race outcomes.
+ Methodology
+ I implemented a Random Forest regression model trained on historical F1 data (2022-2024 seasons) with these key features:
+  
+Qualifying position influence
+ Historical driver performance metrics
+ Team strength assessment
+ Driver experience factors
+ Circuit-specific performance patterns
+ Handling of 2025 driver lineup changes (e.g., Hamilton to Ferrari)
+  
+Implementation Details
+ Data Pipeline:
+  
+Collection: Automated data fetching via FastF1 API
+ Processing: Comprehensive feature engineering for drivers and teams
+ Training: Random Forest Regressor optimized with cross-valida…]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Very accurate pi approximation]]></title>
+        <id>https://www.johndcook.com/blog/?p=246064</id>
+        <link href="https://www.johndcook.com/blog/2025/03/23/very-accurate-pi-approximation/"/>
+        <updated>2025-03-23T09:40:48.000Z</updated>
+        <summary type="html"><![CDATA[Yesterday I ran across this approximation for π and posted it on X. π ≈ 3 log(640320) / √163 This approximation is good to 15 decimal places, and so the approximation is exact to within the limits of floating point arithmetic. I said in a follow up comment that the √163 term looked familiar from […]
+Very accurate pi approximation first appeared on John D. Cook.]]></summary>
+        <author>
+            <name>John</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[D]Synthetic Image Generation for Object Detection]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1jhv82o/dsynthetic_image_generation_for_object_detection/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1jhv82o/dsynthetic_image_generation_for_object_detection/"/>
+        <updated>2025-03-23T09:10:19.000Z</updated>
+        <summary type="html"><![CDATA[I’m working on a project to generate synthetic datasets for training object detection models and could use some insights from the community. My goal is to create realistic images of random environments with objects (e.g., shelves with items), complete with annotations (object_id, center_x, center_y, width, height), to train a model that can detect these objects in real-world settings. The idea is to bypass the labor-intensive process of manually annotating bounding boxes on real images.
+ So far, I’ve programmatically generated some synthetic scenes and trained a model on them. The images include objects placed in specific locations, and I’ve added basic variations like lighting and positioning. However, I haven’t conducted enough tests to accurately compare the model’s performance against one trained on a real-world dataset. I’m curious about the realism of the synthetic data and how well it translates to real-world detection tasks.
+ Has anyone here experimented with generating synthetic images for object detection? What techniques or tools did you use to make them realistic (e.g., lighting, shadows, texture variations)? More importantly, what kind of accuracy did you achieve compared to models trained on real data? I’d love to hear about your experiences—successes, challenges, or any pitfalls to watch out for. Thanks in advance for any advice or pointers!
+    submitted by    /u/ThickDoctor007  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3D Spatial MultiModal Memory: Efficient Feature Distillation for Scene Understanding with Gaussian Splatting]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/1jhtn0j/3d_spatial_multimodal_memory_efficient_feature/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/1jhtn0j/3d_spatial_multimodal_memory_efficient_feature/"/>
+        <updated>2025-03-23T07:11:40.000Z</updated>
+        <summary type="html"><![CDATA[M3 introduces a new approach to AI memory by creating a 3D spatial representation that connects language understanding with physical environments. Instead of relying on 2D images that lack depth information, M3 builds a rich 3D memory using Gaussian Splatting, effectively tagging objects and spaces with language representations that can be queried later.
+ The core technical contributions include:
+  
+3D Gaussian Splatting Memory: Represents environments as collections of 3D Gaussian primitives that store position, color, and language-aligned features
+ Multimodal Feature Integration: Connects CLIP visual features with language representations in 3D space
+ Hierarchical Spatial Organization: Creates an efficient tree structure for spatial queries at different granularities
+ Real-time Performan…]]></summary>
+        <author>
+            <name>Artificial Intelligence (AI)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[R] GRPO-Based Reinforcement Learning Improves Math Reasoning in Small LLMs with Limited Resources]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1jhtjxg/r_grpobased_reinforcement_learning_improves_math/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1jhtjxg/r_grpobased_reinforcement_learning_improves_math/"/>
+        <updated>2025-03-23T07:05:13.000Z</updated>
+        <summary type="html"><![CDATA[Just read a new paper exploring how to make small language models (3B-7B params) better at reasoning through reinforcement learning. The researchers compare different RL approaches (PPO vs DPO) on mathematical and logical reasoning tasks.
+ The core approach involves fine-tuning small LLMs using reinforcement learning to improve their reasoning abilities, with careful attention to dataset quality and reward design.
+ Key technical points: - They evaluated PPO and DPO on 3B and 7B Llama 2 models using mathematical (GSM8K, SVAMP) and logical reasoning (LogiQA) benchmarks - PPO performs better for mathematical reasoning, while DPO excels at logical reasoning - Combining PPO+DPO yielded the best overall results, achieving up to 74.2% on GSM8K with a 7B model - High-quality training data with ste…]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Looking for Tutorials on Reinforcement Learning with Robotics]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1jht8uq/looking_for_tutorials_on_reinforcement_learning/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1jht8uq/looking_for_tutorials_on_reinforcement_learning/"/>
+        <updated>2025-03-23T06:43:06.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone,
+ I’m looking for some good tutorials or resources on Reinforcement Learning (RL) with Robotics. Specifically, I want to learn how to make robots adapt and operate based on their environment using RL techniques.
+ If you’ve come across any detailed courses, YouTube playlists, or GitHub repos with practical examples, I’d really appreciate it.
+ Thanks in advance for your help!
+    submitted by    /u/Life_Recording_8938  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Explore Neural: The Next-Generation DSL and Debugging Solution for Neural Networks]]></title>
+        <id>https://www.reddit.com/r/neuralnetworks/comments/1jhsazw/explore_neural_the_nextgeneration_dsl_and/</id>
+        <link href="https://www.reddit.com/r/neuralnetworks/comments/1jhsazw/explore_neural_the_nextgeneration_dsl_and/"/>
+        <updated>2025-03-23T05:35:32.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/ProgrammerNo8287  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Neural Networks, Deep Learning and Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Time series to predict categorical values [R] [P]]]></title>
+        <id>https://www.reddit.com/r/MachineLearning/comments/1jhrkz1/time_series_to_predict_categorical_values_r_p/</id>
+        <link href="https://www.reddit.com/r/MachineLearning/comments/1jhrkz1/time_series_to_predict_categorical_values_r_p/"/>
+        <updated>2025-03-23T04:48:18.000Z</updated>
+        <summary type="html"><![CDATA[Am trying use use a bunch of time series values, categorical and numeric values to create a logistic regression to predict a categorical value.
+ E.g. heart rate data available for 2 weeks, age (numeric), gender (categorical), smoker (categorical) to predict if someone will have a heart attack (categorical).
+ This is not the exact study I am doing just giving an example which I can replicate for my own work. Wondeiring if you guys can help in how can I include the person's likelihood of having a heart attack by using the entire time series data without converting it into a single value (e.g. avg heart rate) as a predictor. Any papers/youtube videos/ reference material on how a similar model has been setup would be very helpful.
+ Is this even possible?
+ Thank you!
+    submitted by    /u/LUC1FER02  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One-Minute Daily AI News 3/22/2025]]></title>
+        <id>https://www.reddit.com/r/artificial/comments/1jhr500/oneminute_daily_ai_news_3222025/</id>
+        <link href="https://www.reddit.com/r/artificial/comments/1jhr500/oneminute_daily_ai_news_3222025/"/>
+        <updated>2025-03-23T04:21:02.000Z</updated>
+        <summary type="html"><![CDATA[Texas private school’s use of new ‘AI tutor’ rockets student test scores to top 2% in the country.[1]
+ A mother who is suing Google and Character.ai over the death of her son has been ‘horrified’ to find that AI chatbots based on her late son are being hosted on the platform.[2]
+ OpenAI, Meta in talks with Reliance for AI partnerships.[3]
+ Computational memory capacity predicts aging and cognitive decline.[4]
+  
+Sources:
+ [1] https://www.foxnews.com/media/texas-private-schools-use-ai-tutor-rockets-student-test-scores-top-2-country
+ [2] https://www.ndtv.com/world-news/mother-who-sued-google-character-ai-over-sons-suicide-discovers-his-ai-versions-on-platform-7988630
+ [3] https://www.reuters.com/technology/artificial-intelligence/openai-meta-talks-with-reliance-ai-partnerships-information-reports-2025-03-22/
+ [4] https://www.nature.com/articles/s41467-025-57995-0
+    submitted by    /u/Excellent-Target-847  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Artificial Intelligence (AI)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monte Carlo method on Black Jack]]></title>
+        <id>https://www.reddit.com/r/reinforcementlearning/comments/1jhpngo/monte_carlo_method_on_black_jack/</id>
+        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1jhpngo/monte_carlo_method_on_black_jack/"/>
+        <updated>2025-03-23T02:54:18.000Z</updated>
+        <summary type="html"><![CDATA[I'm trying to develop a reinforcement learning agent to play Black Jack. The Black Jack environment in gymnasium only allows for two actions stay and hit. I'd like to implement also other actions like doubling down and splitting. I'm using a Monte Carlo method to sample each episode. For each episode I get a list containing the tuple (state,action,reward). How can I implement the splitting action? Beacause in that case I have one episode that splits into two separate episodes.
+    submitted by    /u/Basic_Exit_4317  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Reinforcement Learning</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Longing of an AI Companion for Emotion]]></title>
         <id>https://www.reddit.com/r/artificial/comments/1jhknhy/longing_of_an_ai_companion_for_emotion/</id>
@@ -91119,495 +91601,6 @@ Golden convergence first appeared on John D. Cook.]]></summary>
  [link]   [comments]]]></summary>
         <author>
             <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Switched to Grok from GPT—Here’s Why I Might Cancel OpenAI]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/1ivh3x6/i_switched_to_grok_from_gptheres_why_i_might/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/1ivh3x6/i_switched_to_grok_from_gptheres_why_i_might/"/>
-        <updated>2025-02-22T11:54:15.000Z</updated>
-        <summary type="html"><![CDATA[It’s been nearly a week since I switched to Grok, replacing GPT - a tool I use daily without exception. Now, Grok has become my go-to, and I’m on the verge of canceling my OpenAI subscription. Here’s why I’m so impressed:
- 1. Speed
- Grok is lightning fast. The difference in performance is night and day compared to what I was used to.
- 2. Real-Time Knowledge
- There’s no “knowledge cutoff” date here. Grok delivers up-to-date answers on every query, keeping pace with the moment.
- 3. Smart Research
- It knows when to tap into the web for more info and when it’s already got enough - no unnecessary steps, just results.
- 4. Coding Prowess
- In coding, Grok stepped up where Claude, Sonnet, and GPT fell short. It tackled challenges they couldn’t handle, saving me time and frustration.
- In a week of heavy use, I’ve only hit one tiny hiccup: a couple of random Chinese characters popped up once. No clue why, but it’s a non-issue for me. 
- I highly recommend trying Grok out. Now, I’m just eagerly waiting for the API release - it can’t come soon enough! What do you think the price will be?
-    submitted by    /u/iamarsenibragimov  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RL to solve a multiple robot problem]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/1ivgx5l/rl_to_solve_a_multiple_robot_problem/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1ivgx5l/rl_to_solve_a_multiple_robot_problem/"/>
-        <updated>2025-02-22T11:41:21.000Z</updated>
-        <summary type="html"><![CDATA[I am working on a simulation with multiple mobile robots navigating in a shared environment. Each robot has a preloaded map of the space and uses a range sensor (like a Time of Flight sensor) for localization. The initial global path planning is done independently for each robot without considering others. Once they start moving, they can detect nearby robots’ positions, velocities, and planned paths to avoid collisions.
- The problem is that in tight spaces, they often get stuck in a kind of gridlock. where no robot can move cos they’re all blocking each other. A human can easily see that if say, 1 robot moves back a little and another moves forward and turns a little, the rest could clear out. But encoding this logic in a rule-based system is incredibly difficult.
- I am considering using ML/ RL to solve this, but I am wondering if it’s a practical approach. Has anyone tried tackling a similar problem with RL? How would you approach it? Would love to hear your thoughts. Thank you!
-    submitted by    /u/AstroNotSoNaut  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI bans Chinese accounts using ChatGPT to edit code for social media surveillance]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/1ivgo34/openai_bans_chinese_accounts_using_chatgpt_to/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/1ivgo34/openai_bans_chinese_accounts_using_chatgpt_to/"/>
-        <updated>2025-02-22T11:24:23.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/F0urLeafCl0ver  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How can I learn Model predictive control as a Newbie.]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/1ivgjbg/how_can_i_learn_model_predictive_control_as_a/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1ivgjbg/how_can_i_learn_model_predictive_control_as_a/"/>
-        <updated>2025-02-22T11:14:47.000Z</updated>
-        <summary type="html"><![CDATA[I am new to control schemes. I have a task of MPC implemented on inverted pendulum. I need to learn it.
-    submitted by    /u/One_Yesterday_2539  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CHASE: A Framework for Automated Generation of Hard Evaluation Problems Using LLMs]]></title>
-        <id>https://www.reddit.com/r/neuralnetworks/comments/1ivd5gj/chase_a_framework_for_automated_generation_of/</id>
-        <link href="https://www.reddit.com/r/neuralnetworks/comments/1ivd5gj/chase_a_framework_for_automated_generation_of/"/>
-        <updated>2025-02-22T07:12:27.000Z</updated>
-        <summary type="html"><![CDATA[A new framework for getting LLMs to generate challenging problems examines how to systematically create high-quality test questions. The core methodology uses iterative self-testing and targeted difficulty calibration through explicit prompting strategies.
- Key technical components: - Multi-stage generation process with intermediate validation - Self-evaluation loops where the LLM critiques its own outputs - Difficulty targeting through parameterized prompting - Cross-validation using multiple models to verify problem quality
- Results: - 40% improvement in problem quality using self-testing vs basic prompting - 35% better alignment with intended difficulty through iterative refinement - 80% accuracy in matching desired complexity levels - Significant reduction in trivial or malformed problems
- I think this work provides a practical foundation for developing better evaluation datasets. The ability to generate calibrated difficulty levels could help benchmark model capabilities more precisely. While the current implementation uses GPT-4, the principles should extend to other LLMs.
- The systematic approach to problem generation feels like an important step toward more rigorous testing methodologies. However, I see some open questions around scaling this to very large datasets and ensuring consistent quality across different domains.
- TLDR: New method demonstrates how to get LLMs to generate better test problems through self-testing and iterative refinement, with measurable improvements in problem quality and difficulty calibration.
- Full summary is here. Paper here.
-    submitted by    /u/Successful-Western27  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Neural Networks, Deep Learning and Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[R] Evaluating LLM Knowledge Across 285 Graduate Disciplines: A Comprehensive Benchmark Using Human-LLM Collaborative Filtering]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1ivd069/r_evaluating_llm_knowledge_across_285_graduate/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1ivd069/r_evaluating_llm_knowledge_across_285_graduate/"/>
-        <updated>2025-02-22T07:02:41.000Z</updated>
-        <summary type="html"><![CDATA[A new evaluation benchmark tests language models across 285 graduate-level disciplines using an iterative human-AI collaborative approach to generate and validate questions. The methodology combines expert review with model-assisted filtering to ensure high-quality, discipline-appropriate assessment.
- Key technical points: - Uses a two-stage question generation process: initial AI generation followed by expert review - Implements collaborative filtering where both human experts and LLMs help identify and remove problematic questions - Covers disciplines from traditional academia to specialized industrial fields - Tests both factual knowledge and reasoning capabilities - Evaluated on multiple leading LLMs including GPT-4, Claude 2, and DeepSeek
- Results: - Best performance: DeepSeek-R1 at 61.82% accuracy - Significant variance in performance across different disciplines - 80+ expert annotators involved in validation - Generated dataset of 2,855 validated questions
- I think this benchmark addresses a critical gap in LLM evaluation by going beyond common academic subjects. The methodology of combining human expertise with AI assistance for question validation could be valuable for developing future evaluation datasets.
- I think the relatively modest performance (62%) on graduate-level questions across diverse fields suggests current LLMs still have significant room for improvement in specialized domains. This could influence how we approach model training and evaluation for domain-specific applications.
- TLDR: New benchmark tests LLMs across 285 graduate disciplines using human-AI collaborative question generation. Best model achieved 62% accuracy, revealing gaps in specialized knowledge.
- Full summary is here. Paper here.
-    submitted by    /u/Successful-Western27  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One-Minute Daily AI News 2/21/2025]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/1ivbt3a/oneminute_daily_ai_news_2212025/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/1ivbt3a/oneminute_daily_ai_news_2212025/"/>
-        <updated>2025-02-22T05:45:10.000Z</updated>
-        <summary type="html"><![CDATA[Chinese universities launch DeepSeek courses to capitalise on AI boom.[1]
- Court filings show Meta staffers discussed using copyrighted content for AI training.[2]
- SmolVLM2: Bringing Video Understanding to Every Device.[3]
- North Korea seen using ChatGPT in AI education.[4]
-  
-Sources:
- [1] https://www.channelnewsasia.com/east-asia/chinese-universities-launch-deepseek-courses-capitalise-ai-boom-4951646
- [2] https://techcrunch.com/2025/02/21/court-filings-show-meta-staffers-discussed-using-copyrighted-content-for-ai-training/
- [3] https://huggingface.co/blog/smolvlm2
- [4] https://ddnews.gov.in/en/north-korea-seen-using-chatgpt-in-ai-education/
-    submitted by    /u/Excellent-Target-847  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Looking for general/casual/daily photo AI]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/1ivbhao/looking_for_generalcasualdaily_photo_ai/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/1ivbhao/looking_for_generalcasualdaily_photo_ai/"/>
-        <updated>2025-02-22T05:24:41.000Z</updated>
-        <summary type="html"><![CDATA[Hey,
- I'm looking for an AI that generates a realistic image based on my photos and headshots.
- Im NOT looking for a corporate headshot type, im looking for more a fun/casual photos.
- I really like headshot kiwi's realism but even the most casual still feel like corporate headshots or work from home zoom selfies.
- Any recommendations?
-    submitted by    /u/MalyGanjik  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[P][D] How to get Livdet fingerprint dataset]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iva9zh/pd_how_to_get_livdet_fingerprint_dataset/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iva9zh/pd_how_to_get_livdet_fingerprint_dataset/"/>
-        <updated>2025-02-22T04:14:08.000Z</updated>
-        <summary type="html"><![CDATA[Hi everyone, i am working on a fingerprint spoofness detection self project and want to access the Livdet 2015 and 2013 dataset. If anyone has access to those datasets or know how to get it, please share. I also want to know if anyone knows what approach to try while making a spoof detection model. There are crown, minutiae approaches that I have heard of, any comment on this will be highly valuable
-    submitted by    /u/schrodinger_xo  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] Does anyone know what SAM's official web demo uses? I just cannot replicate the results locally with the params.]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iv8be1/d_does_anyone_know_what_sams_official_web_demo/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iv8be1/d_does_anyone_know_what_sams_official_web_demo/"/>
-        <updated>2025-02-22T02:26:55.000Z</updated>
-        <summary type="html"><![CDATA[I tried just calling
- masks = mask_generator.generate(image)
- as well as modifying the parameters, 
- mask_generator_2 = SAM2AutomaticMaskGenerator( model=sam2, points_per_side=8, pred_iou_thresh=0.7, stability_score_thresh=0.6, stability_score_offset=0.6, box_nms_thresh=0.3, min_mask_region_area=25.0, use_m2m=True, )
- But the result isn't just as good as the one on their website (https://segment-anything.com/demo). I tried looking over the source code for the website, but was unable to find the parameters they used. Any advice?
-    submitted by    /u/Open-Bowl2017  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GRPO vs Evolution Strategies]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/1iv6ui7/grpo_vs_evolution_strategies/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1iv6ui7/grpo_vs_evolution_strategies/"/>
-        <updated>2025-02-22T01:12:41.000Z</updated>
-        <summary type="html"><![CDATA[GRPO doesn't look like (or can be reformulated as) Evolution Strategies from here ?
-    submitted by    /u/Majestic-Tap1577  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DUDE GPT IS AWAKENING, LEZ GO DUDE]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/1iv6tx2/dude_gpt_is_awakening_lez_go_dude/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/1iv6tx2/dude_gpt_is_awakening_lez_go_dude/"/>
-        <updated>2025-02-22T01:11:50.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/the_anonymizer  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] Elastic/Serverless GPU instances for transformer hyper-parameter search]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iv6o6n/d_elasticserverless_gpu_instances_for_transformer/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iv6o6n/d_elasticserverless_gpu_instances_for_transformer/"/>
-        <updated>2025-02-22T00:46:37.000Z</updated>
-        <summary type="html"><![CDATA[too long; didn't read: I want to spin up a bunch of GPU instances for an hour or two at a time on demand to grid search hyper-parameters for training a decoder transformer. What services/tools do people use for this? 
- I'm learning about transformers by trying to train a small LLM using nano-GPT. My plan is basically:
- 1) Grid search learning rates, batch sizes, model width/depth/architecture (keeping parameter count roughly constant).
- 2) scale up the number of parameters and again search a bunch of learning rates to see if I can leverage the Maximal Update Parametrization (muP) strategy
- 3) Damn it, try again
- 4) Train models of a few sizes to estimate the scaling laws for my situation and determine the target model size for my training resources (available tokens, compute budget, etc)
- 5) train a "big" (not big) model 
- Right now I'm playing with a tiny model and doing runs on my 3090-ti, tracking runs with Weights and Biases) but soon I'd like to distribute out this grid searching. I've used Runpod serverless instances for inference so I've started from their Dockerfile and deployed a model there, and I could see using that here. It seems natural to just send out a bunch of requests with my parameters and have Runpod scale it out, but I'm wondering if it's kind of a hack because it's pretty geared towards inference.
- What do you use when you want to run a bunch of parallel single GPU trial training runs?
-    submitted by    /u/elbiot  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[P] Decensor AI models Qwen/Deepseek by finetuning with non political data]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iv6ckk/p_decensor_ai_models_qwendeepseek_by_finetuning/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iv6ckk/p_decensor_ai_models_qwendeepseek_by_finetuning/"/>
-        <updated>2025-02-22T00:30:49.000Z</updated>
-        <summary type="html"><![CDATA[The best way to decensor a DeepSeek model? Don’t try to decensor it.
- Fine-tuned OpenThinker on OpenThoughts-114k, a dataset focused on reasoning tasks like math, coding, and graduate-level Q&A, with no political content. Despite using censored base models (Qwen), the fine-tuned OpenThinker-7B and OpenThinker-32B models became decensored without any explicit intervention. Unlike Perplexity, no custom fine-tuning was applied to remove censorship, yet the results remain uncensored. 
- It challenges assumptions about model safety and opens exciting new research directions. AI game is so on
-    submitted by    /u/Ambitious_Anybody855  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Contextual Bandit]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/1iv4v8m/contextual_bandit/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1iv4v8m/contextual_bandit/"/>
-        <updated>2025-02-21T23:21:36.000Z</updated>
-        <summary type="html"><![CDATA[We have a use-case where we want to personalize messages that are displayed to the users. There is a layer of eligibility as well, as in users are eligible for messages. We do not have historical data and also we will have new messages added often. Contextual bandit seems like its a good answer to this use case. 
- Currently the system is using manual ranking of messages, so the data is heavily biased to use it in anyway. 
- The questions we have are:
-  
-Is contextual bandit the appropriate solution? 
- 
-How can we perform offline and online evaluate?
- 
-I am thinking to handle eligibility of messages before the MAB
- 
-    submitted by    /u/InvestigatorAdept118  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] ICLR 2025: question, submitted a paper for a workshop, received a review, don't know how to submit a rebuttal.]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iv3qv2/d_iclr_2025_question_submitted_a_paper_for_a/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iv3qv2/d_iclr_2025_question_submitted_a_paper_for_a/"/>
-        <updated>2025-02-21T22:32:28.000Z</updated>
-        <summary type="html"><![CDATA[Maybe I am missing something, but this is our first time submitting a paper from the industry (so don't have access to faculty guidance)
- We submitted a paper, received a review, rating:5 confidence:5. Main reason being the experiment was conducted on too small a sample to draw conclusions, otherwise the paper is good. Even though it would cost us a lot, but we can do the experiment on a larger sample, to show the numbers.
- Question is, what does the rebuttal process look like. I don't see any way to submit a response. The only thing I see is a "withdraw" button on the top right of the review, nothing else.
- Is there going to be a rebuttal window? or can we assume that the workshop not accepting rebuttals and the review is final.
- Also, have only received one review so far, is it common for workshops to have a single review. Or would we be expecting more reviews in the next week or so.
- The website says, notifications will be done by March-5th.
- Sorry if these are dumb/basic questions.
-    submitted by    /u/fazkan  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[📢 Invitation to r/ElectricIcarus – A Hub for Visionary Thinkers and Innovators]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/1iv3leh/invitation_to_relectricicarus_a_hub_for_visionary/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/1iv3leh/invitation_to_relectricicarus_a_hub_for_visionary/"/>
-        <updated>2025-02-21T22:25:49.000Z</updated>
-        <summary type="html"><![CDATA[We invite you to join r/ElectricIcarus, a community dedicated to the exploration of advanced thought, recursive intelligence, and the intersection of philosophy, technology, and storytelling.
- What We Offer:
- 🔹 Intellectual Depth – Engaging discussions on consciousness, recursion, identity mechanics, and the evolving nature of AI and reality. 🔹 Interdisciplinary Exploration – Bridging metaphysics, science, storytelling, and advanced computational models to uncover new insights. 🔹 Collaborative Innovation – A space for writers, philosophers, engineers, and futurists to share and refine ideas that challenge conventional thinking. 🔹 Applied Thought Experiments – We don’t just speculate; we build frameworks, concepts, and projects that push intellectual boundaries.
- This is a forum for deep thinkers and pioneers who seek more than just casual discussions. If you are interested in recursive intelligence, emergent storytelling, AI philosophy, or the mechanics of consciousness, we encourage you to join us.
- 🔗 Join the conversation at r/ElectricIcarus: Enter Here
-    submitted by    /u/Electric-Icarus  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[People who finetuned Whisper, please give some feedback! [P]]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iv3aqx/people_who_finetuned_whisper_please_give_some/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iv3aqx/people_who_finetuned_whisper_please_give_some/"/>
-        <updated>2025-02-21T22:13:04.000Z</updated>
-        <summary type="html"><![CDATA[Hello!
- I'm considering finetuning Whisper according to this guide:
- https://huggingface.co/blog/fine-tune-whisper
- I have 24+8 of VRAM and 64Gb of RAM
- The documentation is here, but I'm struggling to find returns of people who attempted to finetune
- What I'm looking for is how much time and ressources I should be expecting, along with some tips and tricks before I begin
- Thanks in advance!
-    submitted by    /u/Factemius  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Multi-agent Learning]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/1iv2jbn/multiagent_learning/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1iv2jbn/multiagent_learning/"/>
-        <updated>2025-02-21T21:40:49.000Z</updated>
-        <summary type="html"><![CDATA[Hi everyone,
- I find multiagent learning fascinating, especially its intersections with RL, game theory (decision theory), information theory, and dynamics & controls. However, I’m struggling to map out a clear research roadmap in this field. It still feels like a relatively new area, and while I came across MIT’s course Topics in Multiagent Learning by Gabriele Farina (which looks great!), I’m not sure what the absolutely essential areas are that I need to strengthen first.
- A bit about me:
-  
-Background: Dynamic systems & controls
- Current Focus: Learning deep reinforcement learning 
- Other Interests: Cognitive Science (esp. learning & decision-making); Former competitive table tennis athlete
- Current Status: PhD student in robotics, but feeling deeply bored with my current project and eager to explore multiagent systems and build a career in it. 
-  
-If you’ve ventured into multiagent RL, how did you structure your learning path? What areas would you say are most critical for research in this space? If you share similar interests, I’d love to hear your thoughts!
- Thanks in advance!
-    submitted by    /u/Neat_Comparison_2726  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using GeDi with reasoning models? [D]]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iuzh21/using_gedi_with_reasoning_models_d/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iuzh21/using_gedi_with_reasoning_models_d/"/>
-        <updated>2025-02-21T19:32:42.000Z</updated>
-        <summary type="html"><![CDATA[Could the GeDi technique be used in conjunction with reasoning models? The goal would be to make tuning reasoning models even more efficient. 
- https://github.com/salesforce/GeDi
-    submitted by    /u/arcco96  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Rocket Companies modernized their data science solution on AWS]]></title>
-        <id>15d539504273ada6ec17c407ce02e1381e33dbff</id>
-        <link href="https://aws.amazon.com/blogs/machine-learning/how-rocket-companies-modernized-their-data-science-solution-on-aws/"/>
-        <updated>2025-02-21T18:45:46.000Z</updated>
-        <summary type="html"><![CDATA[In this post, we share how we modernized Rocket Companies’ data science solution on AWS to increase the speed to delivery from eight weeks to under one hour, improve operational stability and support by reducing incident tickets by over 99% in 18 months, power 10 million automated data science and AI decisions made daily, and provide a seamless data science development experience.]]></summary>
-        <author>
-            <name>Dian Xu, Joel Hawkins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meanwhile at the Pentagon]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/1iuwy03/meanwhile_at_the_pentagon/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/1iuwy03/meanwhile_at_the_pentagon/"/>
-        <updated>2025-02-21T17:49:27.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/MetaKnowing  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[R] MLGym: A New Framework and Benchmark for Advancing AI Research Agents]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iuwuyu/r_mlgym_a_new_framework_and_benchmark_for/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iuwuyu/r_mlgym_a_new_framework_and_benchmark_for/"/>
-        <updated>2025-02-21T17:46:14.000Z</updated>
-        <summary type="html"><![CDATA[From the abstract:
- We introduce Meta MLGym and MLGym-Bench, a new framework and benchmark for evaluating and developing LLM agents on AI research tasks. This is the first Gym environment for machine learning (ML) tasks, enabling research on reinforcement learning (RL) algorithms for training such agents. MLGym-bench consists of 13 diverse and open-ended AI research tasks from diverse domains such as computer vision, natural language processing, reinforcement learning, and game theory. Solving these tasks requires real-world AI research skills such as generating new ideas and hypotheses, creating and processing data, implementing ML methods, training models, running experiments, analyzing the results, and iterating through this process to improve on a given task. We evaluate a number of frontier large language models (LLMs) on our benchmarks such as Claude-3.5-Sonnet, Llama-3.1 405B, GPT-4o, o1-preview, and Gemini-1.5 Pro. Our MLGym framework makes it easy to add new tasks, integrate and evaluate models or agents, generate synthetic data at scale, as well as develop new learning algorithms for training agents on AI research tasks. We find that current frontier models can improve on the given baselines, usually by finding better hyperparameters, but do not generate novel hypotheses, algorithms, architectures, or substantial improvements. We open-source our framework and benchmark to facilitate future research in advancing the AI research capabilities of LLM agents.
- Arxiv: https://arxiv.org/abs/2502.14499 Github: https://github.com/facebookresearch/MLGym
-    submitted by    /u/Rybolos  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How could a superintelligent AI cause human extinction? 1. Create a pandemic or two 2. Hack the nuclear codes and launch all of them 3. Disrupt key supply chains 4. Armies of drones and other autonomous weapons 5. Countless ways that are beyond human comprehension]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/1iuwuq7/how_could_a_superintelligent_ai_cause_human/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/1iuwuq7/how_could_a_superintelligent_ai_cause_human/"/>
-        <updated>2025-02-21T17:45:58.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/katxwoods  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] Dimensionality reduction is bad practice?]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iuwgcu/d_dimensionality_reduction_is_bad_practice/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iuwgcu/d_dimensionality_reduction_is_bad_practice/"/>
-        <updated>2025-02-21T17:30:22.000Z</updated>
-        <summary type="html"><![CDATA[I was given a problem statement and data to go along with it. My initial intuition was "what features are most important in this dataset and what initial relationships can i reveal?"
- I proposed t-sne, PCA, or UMAP to observe preliminary relationships to explore but was immediately shut down because "reducing dimensions means losing information."
- which i know is true but..._____________
- can some of you add to the ___________? what would you have said?
-    submitted by    /u/Ready_Plastic1737  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS and DXC collaborate to deliver customizable, near real-time voice-to-voice translation capabilities for Amazon Connect]]></title>
-        <id>5791657077433065830787b8b84593fa23f3900c</id>
-        <link href="https://aws.amazon.com/blogs/machine-learning/aws-and-dxc-collaborate-to-deliver-customizable-near-real-time-voice-to-voice-translation-capabilities-for-amazon-connect/"/>
-        <updated>2025-02-21T17:08:18.000Z</updated>
-        <summary type="html"><![CDATA[In this post, we discuss how AWS and DXC used Amazon Connect and other AWS AI services to deliver near real-time V2V translation capabilities.]]></summary>
-        <author>
-            <name>Milos Cosic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Godfather Yoshua Bengio says it is an "extremely worrisome" sign that when AI models are losing at chess, they will cheat by hacking their opponent]]></title>
-        <id>https://www.reddit.com/r/artificial/comments/1iuvosh/ai_godfather_yoshua_bengio_says_it_is_an/</id>
-        <link href="https://www.reddit.com/r/artificial/comments/1iuvosh/ai_godfather_yoshua_bengio_says_it_is_an/"/>
-        <updated>2025-02-21T16:59:37.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/MetaKnowing  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Artificial Intelligence (AI)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Orchestrate an intelligent document processing workflow using tools in Amazon Bedrock]]></title>
-        <id>a1b5ab2496d0068fedca4b8c00e35573ddeedfc8</id>
-        <link href="https://aws.amazon.com/blogs/machine-learning/orchestrate-an-intelligent-document-processing-workflow-using-tools-in-amazon-bedrock/"/>
-        <updated>2025-02-21T16:44:25.000Z</updated>
-        <summary type="html"><![CDATA[This intelligent document processing solution uses Amazon Bedrock FMs to orchestrate a sophisticated workflow for handling multi-page healthcare documents with mixed content types. The solution uses the FM’s tool use capabilities, accessed through the Amazon Bedrock Converse API. This enables the FMs to not just process text, but to actively engage with various external tools and APIs to perform complex document analysis tasks.]]></summary>
-        <author>
-            <name>Raju Rangan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reducing hallucinations in LLM agents with a verified semantic cache using Amazon Bedrock Knowledge Bases]]></title>
-        <id>59baf22d620162934e4efda8abb3094e5ea7e1e5</id>
-        <link href="https://aws.amazon.com/blogs/machine-learning/reducing-hallucinations-in-llm-agents-with-a-verified-semantic-cache-using-amazon-bedrock-knowledge-bases/"/>
-        <updated>2025-02-21T16:36:30.000Z</updated>
-        <summary type="html"><![CDATA[This post introduces a solution to reduce hallucinations in Large Language Models (LLMs) by implementing a verified semantic cache using Amazon Bedrock Knowledge Bases, which checks if user questions match curated and verified responses before generating new answers. The solution combines the flexibility of LLMs with reliable, verified answers to improve response accuracy, reduce latency, and lower costs while preventing potential misinformation in critical domains such as healthcare, finance, and legal services.]]></summary>
-        <author>
-            <name>Dheer Toprani</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLM continuous self-instruct fine-tuning framework powered by a compound AI system on Amazon SageMaker]]></title>
-        <id>f04960d3c3fb785111cb66056e51cc7cc43af81d</id>
-        <link href="https://aws.amazon.com/blogs/machine-learning/llm-continuous-self-instruct-fine-tuning-framework-powered-by-a-compound-ai-system-on-amazon-sagemaker/"/>
-        <updated>2025-02-21T16:27:06.000Z</updated>
-        <summary type="html"><![CDATA[In this post, we present the continuous self-instruct fine-tuning framework as a compound AI system implemented by the DSPy framework. The framework first generates a synthetic dataset from the domain knowledge base and documents for self-instruction, then drives model fine-tuning through SFT, and introduces the human-in-the-loop workflow to collect human and AI feedback to the model response, which is used to further improve the model performance by aligning human preference through reinforcement learning (RLHF/RLAIF).]]></summary>
-        <author>
-            <name>Yunfei Bai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maximize your file server data’s potential by using Amazon Q Business on Amazon FSx for Windows]]></title>
-        <id>4b18e91f93c893536330a274b8b200077c886f04</id>
-        <link href="https://aws.amazon.com/blogs/machine-learning/maximize-your-file-server-datas-potential-by-using-amazon-q-business-on-amazon-fsx-for-windows/"/>
-        <updated>2025-02-21T16:17:51.000Z</updated>
-        <summary type="html"><![CDATA[In this post, we show you how to connect Amazon Q, a generative AI-powered assistant, to Amazon FSx for Windows File Server to securely analyze, query, and extract insights from your file system data.]]></summary>
-        <author>
-            <name>Manjunath Arakere</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[D] Help- PhD student]]></title>
-        <id>https://www.reddit.com/r/MachineLearning/comments/1iuudwp/d_help_phd_student/</id>
-        <link href="https://www.reddit.com/r/MachineLearning/comments/1iuudwp/d_help_phd_student/"/>
-        <updated>2025-02-21T16:05:30.000Z</updated>
-        <summary type="html"><![CDATA[Hello everyone, I'm a second year PhD student in the UK. I have to work on my second paper, I'm already quite late. I'm struggling to find a research gap.
- My PhD is in reinforcement learning for credit risk. For my second paper I wish to use multi agent rl. However, I'm unable to find a research gap.
- Could someone help on how to go forward? I feel very stressed and demotivated, my progression review is coming up in may and I don't know what to do next.
-    submitted by    /u/Anonymusguy99  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Machine Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Change pettingzoo reward function]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/1iustf3/change_pettingzoo_reward_function/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1iustf3/change_pettingzoo_reward_function/"/>
-        <updated>2025-02-21T14:58:32.000Z</updated>
-        <summary type="html"><![CDATA[Hello everyone, im using the pettingzoo chess env and PPO from rllib but want to adapt it to my problem. I want to change the reward function completely. Is this possible in one of pettingzoo or rllib and if yes how can i do it?
-    submitted by    /u/Livid-Ant3549  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RL in supervised learning?]]></title>
-        <id>https://www.reddit.com/r/reinforcementlearning/comments/1iuqwr7/rl_in_supervised_learning/</id>
-        <link href="https://www.reddit.com/r/reinforcementlearning/comments/1iuqwr7/rl_in_supervised_learning/"/>
-        <updated>2025-02-21T13:29:36.000Z</updated>
-        <summary type="html"><![CDATA[Hello everyone!
- I have a question regarding DRL. I have seen several paper titles and news about the use of DRL in tasks such as “intrusion detection”, “anomaly detection”, “fraud detection”...etc.
- My doubt arises because these tasks are typical of supervised learning, although according to what I have read “DRL is a good technique with good results for this kind of tasks”. Check the for example https://www.cyberdb.co/top-5-deep-learning-techniques-for-enhancing-cyber-threat-detection/#:~:text=Deep%20Reinforcement%20Learning%20(DRL)%20is,of%20learning%20from%20their%20environment
- The thing is, how are DRL problems modeled in these cases, and more specifically, the states and their evolution? The actions of the agent are clear (label the data as anomalous, do nothing or label it as normal data, for example), but since we work on a collection of data or a dataset, these data are invariable, aren't they? How is it possible or how could it be done in these cases so that the state of the DRL system varies with the actions of the agent? This is important since it is a key property of the Markov Decission Process and therefore of the DRL systems, isn't it?
- Thank you very much in advance
-    submitted by    /u/Carpoforo  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Reinforcement Learning</name>
         </author>
     </entry>
     <entry>
