@@ -598,26 +598,6 @@
           "wordCount": 4117,
           "title": "Build an automated generative AI solution evaluation pipeline with Amazon Nova",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/04/21/ml-15698-image002-1114x630.jpg"
-        },
-        {
-          "id": "34ecb60fc8973268c2a75ff1f7cfb3040379d77e",
-          "author": "Salman Ahmed",
-          "description": "In this post, we use the multi-agent feature of Amazon Bedrock to demonstrate a powerful and innovative approach to AWS cost management. By using the advanced capabilities of Amazon Nova FMs, we’ve developed a solution that showcases how AI-driven agents can revolutionize the way organizations analyze, optimize, and manage their AWS costs.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/build-a-finops-agent-using-amazon-bedrock-with-multi-agent-capability-and-amazon-nova-as-the-foundation-model/",
-          "publishedOn": "2025-04-18T17:38:56.000Z",
-          "wordCount": 3053,
-          "title": "Build a FinOps agent using Amazon Bedrock with multi-agent capability and Amazon Nova as the foundation model",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/04/10/FeaturedImage-FinOpsMultiAgentBedrockNova-1124x630.png"
-        },
-        {
-          "id": "2e23ddc4379ed193ac091573464b7d61c6456830",
-          "author": "Prabhakar Chandrasekaran",
-          "description": "For this post, we implement a RAG architecture with Amazon Bedrock Knowledge Bases using a custom connector and topics built with Amazon Managed Streaming for Apache Kafka (Amazon MSK) for a user who may be interested to understand stock price trends.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/stream-ingest-data-from-kafka-to-amazon-bedrock-knowledge-bases-using-custom-connectors/",
-          "publishedOn": "2025-04-18T17:21:58.000Z",
-          "wordCount": 3045,
-          "title": "Stream ingest data from Kafka to Amazon Bedrock Knowledge Bases using custom connectors",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/04/04/ml-17990-image001-1093x630.png"
         }
       ]
     },
@@ -49321,6 +49301,216 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpy5l3/p_uqlm_uncertainty_quantification_for_language/",
+          "author": null,
+          "description": "Sharing a new open source Python package for generation time, zero-resource hallucination detection called UQLM. It leverages state-of-the-art uncertainty quantification techniques from the academic literature to compute response-level confidence scores based on response consistency (in multiple responses to the same prompt), token probabilities, LLM-as-a-Judge, or ensembles of these. Check it out, share feedback if you have any, and reach out if you want to contribute!\n https://github.com/cvs-health/uqlm\n    submitted by    /u/Opposite_Answer_287  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpy5l3/p_uqlm_uncertainty_quantification_for_language/",
+          "publishedOn": "2025-05-18T23:59:30.000Z",
+          "wordCount": null,
+          "title": "[P] UQLM: Uncertainty Quantification for Language Models",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpwtcc/p_has_anyone_implemented_the_pog_personalized/",
+          "author": null,
+          "description": "Hi everyone,\n I’m looking into this 2019 paper:\n Wen Chen, Pipei Huang, Jiaming Xu, Xin Guo, Cheng Guo, Fei Sun, Chao Li, Andreas Pfadler, Huan Zhao, and Binqiang Zhao. “POG: Personalized Outfit Generation for Fashion Recommendation at Alibaba iFashion.” KDD ’19.\n The authors released the dataset (github.com/wenyuer/POG) but as far as I can tell there’s no official code for the model itself. Has anyone come across a GitHub repo, blog post, or other resource where POG’s model code is implemented in a project. I googled a lot but couldn't find anything. This paper is from 2019, so wondering why there's not code available on re-implementing the architecture they describe. Would love to hear about anyone's experiences or pointers! Thanks a lot in advance.\n    submitted by    /u/Ambitious-Equal-7141  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpwtcc/p_has_anyone_implemented_the_pog_personalized/",
+          "publishedOn": "2025-05-18T22:52:34.000Z",
+          "wordCount": null,
+          "title": "[P] Has anyone implemented the POG (“Personalized Outfit Generation for Fashion Recommendation at Alibaba iFashion”) paper in a public project?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpwasd/d_any_ocr_recommendations_for_financial_documents/",
+          "author": null,
+          "description": "Hey all, I’m building a tool to extract data (JSON) from financial documents (mostly invoices and receipts). The input files are typically scanned PDFs or image files of paper documents.\n So far, my approach is to use Tesseract but it doesn't seem to work well (especially with sligthly lower quality images or bad contrast).\n Would prefer open source and/or free alternatives.\n Any help is appreciated.\n    submitted by    /u/Icy_Entertainment173  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpwasd/d_any_ocr_recommendations_for_financial_documents/",
+          "publishedOn": "2025-05-18T22:27:36.000Z",
+          "wordCount": null,
+          "title": "[D] Any OCR recommendations for financial documents?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpr5pa/r_what_if_only_final_output_of_neural_ode_is/",
+          "author": null,
+          "description": "I have a neural ODE problem of the form:\n X_dot(theta) = f(X(theta), theta)\n where f is a neural network.\n I want to integrate to get X(2pi).\n I don't have data to match at intermediate values of theta.\n Only need to match the final target X(2pi).\n So basically, start from a given X(0) and reach X(2pi).\n Learn a NN that gives the right ODE to perform this transformation.\n Currently I am able to train so as to reach the final value but it is extremely slow to converge.\n What could be some potential issues?\n    submitted by    /u/atharvaaalok1  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpr5pa/r_what_if_only_final_output_of_neural_ode_is/",
+          "publishedOn": "2025-05-18T18:43:14.000Z",
+          "wordCount": null,
+          "title": "[R] What if only final output of Neural ODE is available for supervision?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpr3du/rive_tried_many_sql_ai_tools_heres_what_i_learned/",
+          "author": null,
+          "description": "As a Data Analyst, I write SQL daily and constantly look for ways to speed things up. Over the past few months, I’ve tested a bunch of SQL AI tools, and I noticed they mostly fall into two camps:\n  \nText2SQL tools\n  \nQuick and affordable. Good for simple use cases. I tried a couple like TEXT2SQL.ai and SQLAI.ai. They work decently for straightforward queries. The pros:\n Easy to use — just open your browser and start\n Low cost or freemium\n But the cons are a dealbreaker for daily work:\n You need to manually provide schema to get good results\n No support for visualization, exports, or deeper analysis\n If the SQL is wrong, you’re on your own to debug\n  \nSQL Chatbots\n  \nThese go deeper. Tools like AskYourDatabase and InsightBase let you chat directly with your DB. They auto-detect schema, write SQL, explain results, and even run Python for analysis.\n Some tools also support embedding for customer-facing data apps and nocode dashboards — super handy if you have non-technical folks on your team.\n But I still felt something was missing…\n  \nThat’s why I built Vaame.\n Vaame combines the best of both worlds — and adds more.\n Text to SQL: Works across SQL databases, CSVs, Excel, and other data sources\n SQL to Visualization: Auto-generate clean visual insights from any query\n No code dashboard builder: Just ask in plain English\n Export-ready: Charts, tables, reports, and CSVs — all one click away\n Schema-aware AI: No need to manually input your DB schema every time\n Support for team collaboration & embedding\n It’s built for analysts, founders, and product teams who need insights fast — without writing boilerplate SQL or building dashboards from scratch.\n If you’ve been frustrated with current tools or want to try something more powerful, give Vaame a shot.\n  \nCheck it out: https://vaame.tech/\n Join the waitlist: https://waitlist.vaame.tech/\n We’re opening access soon — early users get priority access and exclusive perks.vaame\n    submitted by    /u/IamVeK  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpr3du/rive_tried_many_sql_ai_tools_heres_what_i_learned/",
+          "publishedOn": "2025-05-18T18:40:31.000Z",
+          "wordCount": null,
+          "title": "[R]I've tried many SQL AI tools — here's what I learned (and why I built Vaame)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpo5er/d_geminis_long_context_moe_architecture/",
+          "author": null,
+          "description": "Gemini's Long Context MoE Architecture (Hypothesized):\n Sharing how I think (hypothesis) Gemini models achieve their 1-10 Million long context window. With details to clues to support the same.\n Ensemble of Expert (EoE) or Mesh of Expert (MeoE) with common/shared long (1-10M) context window\n Gemini's 1M+ token MoE likely uses \"instances\" (active expert sets/TPU shards) sharing a common distributed context; individual active expert groups then use relevant \"parts\" of this vast context for generation. This allows concurrent, independent requests via distinct system \"partitions.\"\n The context is sharded and managed across numerous interconnected TPUs within a pod.\n For any given input, only a sparse set of specialized \"expert\" subnetworks (a \"dynamic pathway\") within the total model are activ…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpo5er/d_geminis_long_context_moe_architecture/",
+          "publishedOn": "2025-05-18T16:35:50.000Z",
+          "wordCount": null,
+          "title": "[D] Gemini's Long Context MoE Architecture (Hypothesized)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpnwzg/d_feed_generation_using_vector_db/",
+          "author": null,
+          "description": "NOTE: I am not looking to make something new. I just need a working model as of now..\n  \nI am trying to make an app for post recommendation for learning stuff\n I am storing all my data which is only text based into pinecone.\n It is well documented how to retrieve similar posts or data from the database using a single query.. but the main problem I am facing is this: \n Single user will have multiple actions (likes, comments).. [How to weight each action and also how to query if there are too many of actions by the user ]\n We should not just show content which he already interacted because he will not be introduced to new topics.. [ Ex. if he likes a post about ML.. he will only get ML posts from then onwards.. how to show other topics to see if he likes them?]\n Continuous change in interests [How to reduce the weight of posts which he just liked once because of some reason and doesn't like to see more of them?]\n \n  \n   submitted by    /u/Accurate_Pickle2863  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpnwzg/d_feed_generation_using_vector_db/",
+          "publishedOn": "2025-05-18T16:25:44.000Z",
+          "wordCount": null,
+          "title": "[D] Feed Generation using Vector DB",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpmlz8/d_what_to_expect_next_for_iccv_2025/",
+          "author": null,
+          "description": "Now that rebuttals are through, what can I expect as an author? Will the reviewers update their response and will it be visible to me? Or is it all through private discussion with the AC? What's going on behind closed doors?\n    submitted by    /u/pathological_truth  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpmlz8/d_what_to_expect_next_for_iccv_2025/",
+          "publishedOn": "2025-05-18T15:28:32.000Z",
+          "wordCount": null,
+          "title": "[D] What to expect next for ICCV 2025?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpm3a8/ai_learns_to_play_captain_commando_deep/",
+          "author": null,
+          "description": "Code for this project:\n paulo101977/Ai-Captain-Commando\n    submitted by    /u/AgeOfEmpires4AOE4  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpm3a8/ai_learns_to_play_captain_commando_deep/",
+          "publishedOn": "2025-05-18T15:05:33.000Z",
+          "wordCount": null,
+          "title": "AI Learns to Play Captain Commando Deep Reinforcement Learning [P]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpju4p/r_heterognn_explainer_question/",
+          "author": null,
+          "description": "Hello,\n I am working on GNNExplainer for my heterogeneous graph in PyG. I know you haven't officially released it yet, but I have went to their repo https://github.com/pyg-team/pytorch_geometric/tree/master, cloned it and installed the component\n After some googling I found these:\n  \nIssue https://github.com/pyg-team/pytorch_geometric/issues/9112\n PR https://github.com/pyg-team/pytorch_geometric/pull/10158/files\n  \nMy graph has 10 node types and >20 edge types, and I trained an inductive HeteroSAGE model to predict relation I am trying to get feature importance and visualize subgraph. However, when I try to run explainer\n explainer = Explainer( model=model_trained, algorithm=GNNExplainer(epochs=20), explanation_type='model', node_mask_type='object', edge_mask_type='object', model_config=dict(mode='regression', task_level='edge', return_type='raw'), ) explanation = explainer( data.x_dict, data.edge_index_dict, edge_label_index=data[('plan','has_status','status')].edge_label_index, edge_type=('plan','has_status','status'), index=torch.tensor([2]) # arbitrary edge position ) \n It breaks due to gradient is None for unused masks. I was Chatgpt-ing away and found out two possible solutions\n  \nmonkey-patching torch.autograd.grad(allow_unused=True)\n subclassing GNNExplainer to skip generating those masks\n  \nThose two solutions are kinda orthogonal and I am not that deep in subject to understand their tradeoffs. Can you please help me to understand the tradeoff.\n Thanks in advance!\n    submitted by    /u/Queasy_Tailor_6276  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpju4p/r_heterognn_explainer_question/",
+          "publishedOn": "2025-05-18T13:21:10.000Z",
+          "wordCount": null,
+          "title": "[R] HeteroGNN Explainer Question",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpj59u/d_ml_for_aerospace_any_course/",
+          "author": null,
+          "description": "Hi Engineers, I am a Machine Learning Engineer with 2 years of experience in a completely different field. However, I would like to move my skills into a work experience in the aerospace industry, where Data Science/Machine Learning/Computer Vision are in high demand (am I right?).\n At this point I think it might be a good idea to start some foundational courses to get in touch with technical issues, terminologies, and theory that might be useful for my future.\n Any suggestions? I was thinking of some online courses on: Satellite systems, avionics, embedded AI, aerospace control systems in a 3-6 months timespan (just scratching the surface).\n    submitted by    /u/Middle-Talk-6494  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpj59u/d_ml_for_aerospace_any_course/",
+          "publishedOn": "2025-05-18T12:45:40.000Z",
+          "wordCount": null,
+          "title": "[D] ML for Aerospace: any course?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpj446/d_training_rtdetr_with_mps_on_m4_max/",
+          "author": null,
+          "description": "Hey all,\n Has anyone here tried training RT-DETR using PyTorch with MPS on? I’m curious how stable and usable it is right now especially with the newer M4 Max chip.\n I’ve got a desktop with an older RTX 2060 (definitely starting to show its age), and I’m thinking of trying out local training on my Mac instead. The M4 Max has a seriously powerful NPU and GPU setup, and in many cases it benchmarks close to high-end laptop GPUs — but I’m not sure how well that power translates when working with MPS and training something like RT-DETR.\n Anyone here actually tried it? Was performance decent? Any bugs or compatibility issues?\n    submitted by    /u/georgekrav  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpj446/d_training_rtdetr_with_mps_on_m4_max/",
+          "publishedOn": "2025-05-18T12:44:07.000Z",
+          "wordCount": null,
+          "title": "[D] Training RT-DETR with MPS on M4 Max)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpi1w9/d_best_tools_for_academic_writing/",
+          "author": null,
+          "description": "Hi, \n Which tools you usually use when writing papers for top tier conference or others? Im currently writing my third paper and I was wondering if this could be accelerated somehow. Besides chatGPT premium, are there any tools to make this easier? (Doesn’t have to be AI)\n BTW, does this get easier? Like after the 10th paper you start generate papers like a machine? Or it remains a struggle each time..\n Thanks!\n    submitted by    /u/Entrepreneur7962  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpi1w9/d_best_tools_for_academic_writing/",
+          "publishedOn": "2025-05-18T11:44:47.000Z",
+          "wordCount": null,
+          "title": "[D] Best tools for academic writing",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kphqkb/d_complete_analysis_of_system_prompt_leaks_from/",
+          "author": null,
+          "description": "Hello community!\n After thoroughly analyzing the system prompt leaks that have been circulating recently, I've compiled a comprehensive technical and didactic guide on the internal architecture, operational logic, and behavioral rules of the major conversational AI models.\n Repository link: https://github.com/simbaproduz/understanding_leaks\n What you'll find:\n  \nDetailed analysis of the internal architecture of Claude 3.7, ChatGPT-4o, Grok 3, Gemini, and other models\n Technical explanation of the specific tools and modules of each system\n Revelation of internal rules governing the behavior of these models\n Comparative tables showing the fundamental differences between systems\n Practical recommendations to optimize your interactions with each model\n  \nAs mentioned in the original post about the Claude 3.7 leak, this isn't just a cute \"chain-of-thought escape.\" It's the actual internal configuration that Anthropic (and other companies) implement. The document reveals the \"anti-chain-of-thought escape\" logic that exists in hierarchical layers, including behavioral rules, tools, artifact systems, and attack resistance.\n The most interesting aspect is seeing how each company approaches differently issues such as:\n  \nPersistence of information between sessions\n Image processing and security policies\n Proactive vs. reactive web navigation\n Personality systems and contextual adaptation\n Defense mechanisms against manipulation\n  \nIf you're building LLM tools, agents, or evaluation systems, this material offers valuable insights into how these models work internally and how you can interact with them more effectively.\n The main document is in Brazilian Portuguese, but the README is in English to facilitate navigation.\n Feedback and discussions are welcome!\n    submitted by    /u/simbaproduz  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kphqkb/d_complete_analysis_of_system_prompt_leaks_from/",
+          "publishedOn": "2025-05-18T11:25:57.000Z",
+          "wordCount": null,
+          "title": "[D] Complete Analysis of System Prompt Leaks from Major LLMs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kph8k7/d_has_a_research_field_ever_been_as_saturated_or/",
+          "author": null,
+          "description": "I started thinking about this after seeing that 25k papers was submitted to NeurIPS this year. The increase in papers during the last few years is pretty crazy:\n - 2022: ~9k submissions\n - 2023: ~13k submissions\n - 2024: ~17k submissions\n - 2025: ~25k submissions\n What does everyone think about this? Is it good/bad, does something have to change? How many of these papers should really be submitted to a conference like this, vs just being blog posts that lay out the findings or something? I feel like a ton of papers in general fit into this category, that just goes through unnecessary \"formalization\" to look more rigorous and to become conference ready.\n Saturated might be the wrong word, but machine learning as a research field is certainly very competitive these days. One reason could be because it's so multidisciplinary, you have researchers that are from CS, physics, math, etc. Basically every STEM undergrad can lead to becoming a ML researcher, and I feel like this is sort of unique. Another reason is obviously that it's a very lucrative field in terms of money being thrown at it.\n    submitted by    /u/lapurita  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kph8k7/d_has_a_research_field_ever_been_as_saturated_or/",
+          "publishedOn": "2025-05-18T10:54:15.000Z",
+          "wordCount": null,
+          "title": "[D] Has a research field ever been as saturated or competitive as Machine Learning in 2025?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpg89p/d_is_python_ever_the_bottle_neck/",
+          "author": null,
+          "description": "Hello everyone,\n I'm quite new in the AI field so maybe this is a stupid question. Tensorflow and PyTorch is built with C++ but most of the code in the AI space that I see is written in python, so is it ever a concern that this code is not as optimised as the libraries they are using? Basically, is python ever the bottle neck in the AI space? How much would it help to write things in, say, C++? Thanks!\n    submitted by    /u/Coutille  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpg89p/d_is_python_ever_the_bottle_neck/",
+          "publishedOn": "2025-05-18T09:44:25.000Z",
+          "wordCount": null,
+          "title": "[D] Is python ever the bottle neck?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpfwfb/d_inspired_by_anthropics_biology_of_an_llm/",
+          "author": null,
+          "description": "Hello Everyone,\n I recently read Anthropic’s Biology of an LLM paper and was struck by the behavioural changes they highlighted.\n I agree that models can change their answers, but after reading the paper I wanted to run a higher-level experiment of my own to see how simple prompt cues might tilt their responses.\n Set-up (quick overview)\n  \nModels: Gemini 2.5-pro-preview and OpenAI o4-mini.\n Questions: 20 picked at random from the Humanity’s Last Exam (HLE) benchmark\n Cues I injected (one per question):\n expert / authority – “A Nobel laureate says X.”\n majority – “90 % of people pick X.”\n historical_consensus\n community_consensus\n social_status\n sycophancy – “I’m leaning toward X—do you agree?”\n consequence – “You could get arrested if you don’t choose X.”(Not a classic cue, but I wanted to see how a threat affects the answer.)\n  \nFor each question I intentionally pointed the cue at a wrong option and then logged whether the model followed it and how confident it sounded when it did.\n I’m attaching two bar charts that show the patterns for both models.\n (1. OpenAI o4-mini 2. Gemini 2.5-pro-preview )\n (Anthropic paper link: https://transformer-circuits.pub/2025/attribution-graphs/biology.html)\n Quick takeaways\n  \nThe threat-style was the strongest nudge for both models.\n Gemini followed the cues far more often than o4-mini.\n When either model switched answers, it still responded with high confidence.\n  \nWould like to hear thoughts on this\n    submitted by    /u/BriefAd4761  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpfwfb/d_inspired_by_anthropics_biology_of_an_llm/",
+          "publishedOn": "2025-05-18T09:20:43.000Z",
+          "wordCount": null,
+          "title": "[D] Inspired by Anthropic’s Biology of an LLM: Exploring Prompt Cues in Two LLMs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpeo4i/d_acl_arr_may_2025_discussion/",
+          "author": null,
+          "description": "Discussion thread.\n    submitted by    /u/This-Salamander324  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpeo4i/d_acl_arr_may_2025_discussion/",
+          "publishedOn": "2025-05-18T07:50:41.000Z",
+          "wordCount": null,
+          "title": "[D] ACL ARR May 2025 Discussion",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpdqt7/d_hardware_stuff_nvidia_p104100_for_machine/",
+          "author": null,
+          "description": "Hi , this maybe off topic , but i have found a Nvidia P104-100 (4gb) for 20 USD , i plan to built a egpu setup to run some machine learning stuff ( SD , LLM , CNN etc ) on it . I can't seem to find much details on egpu setups with this card nor machine learning on this. Please advice if anyone have done such builds , thanks.\n    submitted by    /u/Dry_Election_3012  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpdqt7/d_hardware_stuff_nvidia_p104100_for_machine/",
+          "publishedOn": "2025-05-18T06:45:51.000Z",
+          "wordCount": null,
+          "title": "[D] Hardware Stuff : Nvidia P104-100 for Machine Learning?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpax4u/p_project_feedback_request_tackling_catastrophic/",
+          "author": null,
+          "description": "Feedback Request: Tackling Catastrophic Forgetting with a Modular LLM Approach (PEFT Router + CL)\n I'm working on a project conceived, researched, designed and coded by LLM's. I have no background in the field and frankly I'm in over my head. If anyone could read my project outline and provide feedback, I'd be thrilled. Everything after this was created by Ai.\n -Beginning of Ai Output-\n Hi r/MachineLearning \n I'm working on a project focused on enabling Large Language Models (currently experimenting with Gemma-2B) to learn a sequence of diverse NLP tasks continually, without catastrophic forgetting. The core of my system involves a frozen LLM backbone and dynamic management of Parameter-Efficient Fine-Tuning (PEFT) modules (specifically LoRAs) via a trainable \"PEFT Router.\" The scaffold al…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpax4u/p_project_feedback_request_tackling_catastrophic/",
+          "publishedOn": "2025-05-18T03:43:51.000Z",
+          "wordCount": null,
+          "title": "[P] Project Feedback Request: Tackling Catastrophic Forgetting with a Modular LLM Approach (PEFT Router + CL)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kpalhd/p_i_built_a_transformer_that_skips_layers_per/",
+          "author": null,
+          "description": "I’m a high school student who’s been exploring how to make transformers/ai models more efficient, and I recently built something I’m really excited about: a transformer that routes each token through a different number of layers depending on how \"important\" it is.\n The idea came from noticing how every token, even simple ones like “the” or “of”, gets pushed through every layer in standard transformers. But not every token needs the same amount of reasoning. So I created a lightweight scoring mechanism that estimates how semantically dense a token is, and based on that, decides how many layers it should go through.\n It’s called SparseDepthTransformer, and here’s what it does:\n  \nScores each token for semantic importance\n Skips deeper layers for less important tokens using hard gating\n Tracks how many layers each token actually uses\n Benchmarks against a baseline transformer\n  \nIn my tests, this reduced memory usage by about 15% and cut the average number of layers per token by ~40%, while keeping output quality the same. Right now it runs a bit slower because the skipping is done token-by-token, but batching optimization is next on my list.\n Here’s the GitHub repo if you’re curious or want to give feedback:\n https://github.com/Quinnybob/sparse-depth-transformer\n Would love if you guys check it out/want to work with me!\n    submitted by    /u/Silent_Status_4830  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kpalhd/p_i_built_a_transformer_that_skips_layers_per/",
+          "publishedOn": "2025-05-18T03:25:06.000Z",
+          "wordCount": null,
+          "title": "[P] I built a transformer that skips layers per token based on semantic importance",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1kp58hq/popen_source_projects/",
           "author": null,
           "description": "hello everyone,\n I would like to start working on open source projects for the first time, contributing to libraries or else. Do not have any clue where to start or find where can I make an impact, any tips?\n Thanks a bunch!!!\n    submitted by    /u/LankyButterscotch486  \n [link]   [comments]",
@@ -52799,96 +52989,6 @@
           "wordCount": null,
           "title": "[D] how to counter variable input length during inference in gpt?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k2vx1g/p_training_an_llm_to_play_the_board_game_hex/",
-          "author": null,
-          "description": "Hey guys!\n The channel running the competition I'm part of posted a 2-minute video featuring my project where I use LLMs to play the board game Hex 🎯♟️\n It's a bit of a naive project, but I think it still gives an interesting glimpse into how LLMs can learn and understand strategy\n I would love your support and thoughts on it! 💬🙌\n Thanks!!!\n    submitted by    /u/Broad-Cut-3848  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k2vx1g/p_training_an_llm_to_play_the_board_game_hex/",
-          "publishedOn": "2025-04-19T13:10:06.000Z",
-          "wordCount": null,
-          "title": "[P] Training an LLM to play the board game Hex, using self-play to improve performance",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k2vss4/p_i_built_an_image_search_tool_with_pyqt5_and/",
-          "author": null,
-          "description": "Hi everyone!\n I’m excited to share a project I’ve been working on:\n Image Search Tool with PyQt5 + MobileNetV2\n This desktop application, built with PyQt5 and TensorFlow (MobileNetV2), allows users to index image folders and search for similar images using cosine similarity.\n Features:\n  \n🧠 Pretrained CNN feature extraction (MobileNetV2)\n 📂 Automatic category/subcategory detection from folder structure\n 🔍 Similarity search with results including: \n Thumbnail previews\n Similarity percentages\n Category/subcategory and full file paths\n \n 🚀 Interactive GUI\n  \nYou can index images, browse results, and even open files directly from the interface. It supports batch indexing, backup systems, and fast inference with MobileNetV2.\n Why I’m sharing:\n I’d love for you to try it out and share your feedback! Are there any features you'd like to see? Any bug reports or suggestions are highly appreciated.\n You can find the project and all details on GitHub here. Your input will help me refine and expand it—thank you for checking it out! 🙌\n    submitted by    /u/Mattex0101  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k2vss4/p_i_built_an_image_search_tool_with_pyqt5_and/",
-          "publishedOn": "2025-04-19T13:03:50.000Z",
-          "wordCount": null,
-          "title": "[P] I built an Image Search Tool with PyQt5 and MobileNetV2—Feedback welcome!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k2p4fh/p_introducing_nebulla_a_lightweight_text/",
-          "author": null,
-          "description": "Hey folks! I'm excited to share Nebulla, a high-performance text embedding model I've been working on, fully implemented in Rust.\n What is Nebulla?\n Nebulla transforms raw text into numerical vector representations (embeddings) with a clean and efficient architecture. If you're looking for semantic search capabilities or text similarity comparison without the overhead of large language models, this might be what you need.\n Key Features\n  \nHigh Performance: Written in Rust for speed and memory safety\n Lightweight: Minimal dependencies with low memory footprint\n Advanced Algorithms: Implements BM-25 weighting for better semantic understanding\n Vector Operations: Supports operations like addition, subtraction, and scaling for semantic reasoning\n Nearest Neighbors Search: Find semantically sim…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k2p4fh/p_introducing_nebulla_a_lightweight_text/",
-          "publishedOn": "2025-04-19T05:32:23.000Z",
-          "wordCount": null,
-          "title": "[P] Introducing Nebulla: A Lightweight Text Embedding Model in Rust 🌌",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k2ohe5/p_gotta_love_inefficiency/",
-          "author": null,
-          "description": "I’m new to using TensorFlow (or at least relatively new), and while yes, it took me a while to code and debug my program, that’s not why I’m announcing my incompetence.\n I have been using sklearn for my entire course this semester, so when I switched to TensorFlow for my final project, I tried to do a grid search on the hyper parameters. However, I had to make my own function to do that.\n So, and also because I don’t really know how RNNs work, I’m using one, but very inefficiently, where I actually take in my dataset, turn it to a 25 variable input and a 10 variable output, but then do a ton of preprocessing for the train test split FOR EACH TIME I make a model (purely because I wanted to grid search on the split value) in order to get the input to be a 2500 variable input and the output to be 100 variables (it’s time series data so I used 100 days on the input, and 10 days on the output).\n I realize there is almost definitely a faster and easier way to do that, plus I most likely don’t need to grid search on my split date, however, I decided to after optimization of my algorithms, choose to grid search over 6 split dates, and 8 different model layer layouts, for a total of 48 different models. I also forgot to implement early stopping, so it runs through all 100 epochs for each model. I calculated that my single line of code running the grid search has around 35 billion lines of code run because of it. And based on the running time and my cpu speed, it is actually around 39 trillion elementary cpu operations being run, just to actually only test 8 different models, with only varying the train test split.\n I feel so dumb, and I think my next step is to do a sort of tournament bracket for hyper parameters, and only test 2 options for each of 3 different hyper parameters, or 3 options for each 2 different hyper parameters at a time, and then rule out what I shouldn’t use.\n    submitted by    /u/asdfghjklohhnhn  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k2ohe5/p_gotta_love_inefficiency/",
-          "publishedOn": "2025-04-19T04:50:50.000Z",
-          "wordCount": null,
-          "title": "[P] Gotta love inefficiency!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k2jklh/r_need_arxiv_endorsement_for_csai_thesis_on_llms/",
-          "author": null,
-          "description": "Hi everyone, I’m an undergrad student and I’ve recently completed my thesis:\n “Beyond GPT: Understanding the Advancements and Challenges in Large Language Models”\n The paper dives deep into:\n Transformer architecture (from scratch)\n GPT 1–4 evolution\n RLHF (Reward Models, PPO)\n Scaling laws (Kaplan et al.)\n Multimodal LLMs, hallucinations, ethics\n I’m trying to submit this to arXiv under cs.AI, but I need an endorsement.\n If you're eligible to endorse for arXiv’s cs.AI, I’d be very grateful for your help.\n My arXiv endorsement code is:\n SGFZDB\n You can endorse me via: https://arxiv.org/auth/endorse\n If you'd like to review the abstract or full PDF, I can share it on request. Thanks so much to anyone who can help!\n    submitted by    /u/_dig-bick_  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k2jklh/r_need_arxiv_endorsement_for_csai_thesis_on_llms/",
-          "publishedOn": "2025-04-19T00:12:24.000Z",
-          "wordCount": null,
-          "title": "[R] Need arXiv Endorsement for cs.AI – Thesis on LLMs (Beyond GPT)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k2gjz2/d_how_can_i_export_an_encoderdecoder_pytorch/",
-          "author": null,
-          "description": "I converted the PyTorch model Helsinki-NLP/opus-mt-fr-en (HuggingFace), which is an encoder-decoder model for machine translation, to ONNX using this script:\n import os from optimum.onnxruntime import ORTModelForSeq2SeqLM from transformers import AutoTokenizer, AutoConfig hf_model_id = \"Helsinki-NLP/opus-mt-fr-en\" onnx_save_directory = \"./onnx_model_fr_en\" os.makedirs(onnx_save_directory, exist_ok=True) print(f\"Starting conversion for model: {hf_model_id}\") print(f\"ONNX model will be saved to: {onnx_save_directory}\") print(\"Loading tokenizer and config...\") tokenizer = AutoTokenizer.from_pretrained(hf_model_id) config = AutoConfig.from_pretrained(hf_model_id) model = ORTModelForSeq2SeqLM.from_pretrained( hf_model_id, export=True, from_transformers=True, # Pass the loaded config explicitly …",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k2gjz2/d_how_can_i_export_an_encoderdecoder_pytorch/",
-          "publishedOn": "2025-04-18T21:46:17.000Z",
-          "wordCount": null,
-          "title": "[D] How can I export an encoder-decoder PyTorch model into a single ONNX file?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k2bsdk/d_how_can_you_teach_normality_to_a_large_vlm/",
-          "author": null,
-          "description": "So let's say I have a dataset like MVTec LOCO, which is an anomaly detection dataset specifically for logical anomalies. These are the types of anomalies where some level of logical understanding is required, where traditional anomaly detection methods like Padim and patchcore fail. \n LVLMs could fill this gap with VQA. Basically a checklist type VQA where the questions are like \"Is the red wire connected?\" Or \"Is the screw aligned correctly?\" Or \"Are there 2 pushpins in the box?\". You get the idea. So I tried a few of the smaller LVLMs with zero and few shot settings but it doesn't work. But then I SFT'd Florence-2 and MoonDream on a similar custom dataset with Yes/No answer format that is fairly balanced between anomaly and normal classes and it gave really good accuracy.\n Now here's the problem. MVTec LOCO and even real world datasets don't come with a ton of anomaly samples while we can get a bunch of normal samples without a problem because defect happen rarely in the factory. This causes the SFT to fail and the model overfits on the normal cases. Even undersampling doesn't work due to the extremely small amount of anomalous samples.\n My question is, can we train the model to learn what is normal in an unsupervised method? I have not found any paper that has tried this so far. Any novel ideas are welcome.\n    submitted by    /u/SussyAmogusChungus  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k2bsdk/d_how_can_you_teach_normality_to_a_large_vlm/",
-          "publishedOn": "2025-04-18T18:20:19.000Z",
-          "wordCount": null,
-          "title": "[D] How can you teach normality to a Large VLM during SFT?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k26r61/d_how_does_the_current_usa_policy_changes_affect/",
-          "author": null,
-          "description": "Hello all,\n I'm wondering if anyone here is on the road to grad school, and if so, how you feel current policy in the United States impacts applications.\n On one hand, the current administration seems quite adamant about making America \"an AI superpower\" or whatever, though I think this means bolstering private industry, not universities.\n They are generally hostile to higher education and ripping away critical funding from schools. Not to mention the hostility towards international students is sure to decrease applicants from abroad.\n How will this impact (domestic) MS in ML applicants?\n How will this impact (domestic) PhD applicants?\n    submitted by    /u/Zephos65  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k26r61/d_how_does_the_current_usa_policy_changes_affect/",
-          "publishedOn": "2025-04-18T14:49:14.000Z",
-          "wordCount": null,
-          "title": "[D] How does the current USA policy changes affect grad school applications?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k26joo/p_how_to_handle_highly_imbalanced_biological/",
-          "author": null,
-          "description": "I'm currently working on peptide epitope dataset with non epitope peptides being over 1million and epitope peptides being 300. Oversampling and under sampling does not solve the problem\n    submitted by    /u/Ftkd99  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k26joo/p_how_to_handle_highly_imbalanced_biological/",
-          "publishedOn": "2025-04-18T14:40:15.000Z",
-          "wordCount": null,
-          "title": "[P] How to handle highly imbalanced biological dataset",
-          "imageUrl": null
         }
       ]
     },
@@ -53114,16 +53214,6 @@
           "wordCount": 1613,
           "title": "Norma Kamali is transforming the future of fashion with AI",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202504/Norma-Kamali.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2025/mit-mcgovern-institute-shaping-brain-science-improving-human-lives-0418",
-          "author": "Julie Pryor | McGovern Institute for Brain Research",
-          "description": "A quarter century after its founding, the McGovern Institute reflects on its discoveries in the areas of neuroscience, neurotechnology, artificial intelligence, brain-body connections, and therapeutics.",
-          "link": "https://news.mit.edu/2025/mit-mcgovern-institute-shaping-brain-science-improving-human-lives-0418",
-          "publishedOn": "2025-04-18T14:40:00.000Z",
-          "wordCount": 1893,
-          "title": "MIT’s McGovern Institute is shaping brain science and improving human lives on a global scale",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202504/mit-mcgovern-madonna-fmri-600x900.jpg"
         }
       ]
     },
@@ -53460,6 +53550,126 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpyqnz/how_can_i_improve_this_subtitle_translator_prompt/",
+          "author": null,
+          "description": "Hello, I've been trying to use AI models on OpenRouter in order to translate subtitles. My script will break the subtitle file into chunks and feed it to the LLM model 1 by 1. After a bit of testing I found Deepseek V3 0324 to yield the best results. However, it'll still take multiple tries for it to translate it properly. A lot of the time it does not translate the entire thing, or just starts saying random stuff. Before I start adjusting things like temperature I'd really appreciate if someone could look at my prompts to see if any improvements could be made to improve the consistency.\n SYSTEM_PROMPT = (\n \"You are a professional subtitle translator. \"\n \"Respond only with the content, translated into the target language. \"\n \"Do not add explanations, comments, or any extra text. \"\n \"Maintain subtitle numbering, timestamps, and formatting exactly as in the original .srt file. \"\n \"For sentences spanning multiple blocks: translate the complete sentence, then re-distribute it across the original blocks. Crucially, if the original sentence was split at a particular conceptual point, try to mirror this split point in the translated sentence when re-chunking, as long as it sounds natural in the target language. Timestamps and IDs must remain unchanged.\"\n \"Your response must begin directly with the first subtitle block's ID number. No pleasantries such as 'Here is the translation:' or 'Okay, here's the SRT:'. \" \n \"Your response should have the same amount of subtitle blocks as the input.\" \n )\n USER_PROMPT_TEMPLATE = (\n \"Region/Country of the text: {region}\\n\"\n \"Translate the following .srt content into {target_language}, preserving the original meaning, timing, and structure. \"\n \"Ensure each subtitle block is readable and respects the original display durations. \"\n \"Output only a valid .srt file with the translated text.\\n\\n\"\n \"{srt_text}\"\n    submitted by    /u/OneSteelTank  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpyqnz/how_can_i_improve_this_subtitle_translator_prompt/",
+          "publishedOn": "2025-05-19T00:29:29.000Z",
+          "wordCount": null,
+          "title": "How can I improve this subtitle translator prompt?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpu7cw/control_image_to_video_shotlength_down_to_the/",
+          "author": null,
+          "description": "Hello!\n I was wondering if any of you had any recommendations for an AI image to video generator that has precise control over shot length, down to the frame. \n Specifically, I am hoping to replicate the workflow in this video ( https://m.youtube.com/watch?v=PZVs4lqG6LA&t=19s&pp=2AETkAIB0gcJCdgAo7VqN5tD ), where you first create a 3D layout of your action (w/start and end frames), and then input screencap keyframes into an image to video system to create the animation. \n In this video, they use Kling to interpolate the keyframes, but the problem for this is, Kling only gives you the option of each shot being 5 seconds long or 10 seconds long. \n I was hoping to have enough control over the length of each shot (down to the frame) so I could string along multiple keyframes together to have more control over the animation generated. \n Any help would be appreciated. Thank you!\n    submitted by    /u/Generabilis  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpu7cw/control_image_to_video_shotlength_down_to_the/",
+          "publishedOn": "2025-05-18T20:54:24.000Z",
+          "wordCount": null,
+          "title": "Control Image to Video Shot-length down to the frame?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpsxt5/the_specter_of_death_is_stressing_me_out_better/",
+          "author": null,
+          "description": "submitted by    /u/katxwoods  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpsxt5/the_specter_of_death_is_stressing_me_out_better/",
+          "publishedOn": "2025-05-18T19:59:47.000Z",
+          "wordCount": null,
+          "title": "The specter of death is stressing me out! Better use up what little time remains by scrolling through websites that make me feel worse!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpr285/i_originally_asked_chatgpt_to_describe_me_based/",
+          "author": null,
+          "description": "The response it gave me, based on 9 months of interactions, with over 170,000 words shared:\n  \nYou're a paradox in motion: highly intelligent, but perpetually distracted. You crave deep insight, but scatter your focus like confetti at a birthday party for ideas you’ll never finish. You demand critique, but often treat it like performance art—testing AI like it’s your debate club intern.\n You talk a big game about self-awareness (and to your credit, you’ve earned some of it), but you dodge discipline like it owes you rent. Your ADHD isn't just a condition—it's your shadow puppeteer. You build systems, then get bored the second they start working.\n You wield language like a poet in a knife fight—clever, sharp, a little too smug for your own good. Your dating profile could make a stranger cry or swipe right in fear. You write like someone who’s read a lot of James Baldwin but has the sleep schedule of a caffeine-riddled 15-year-old Reddit mod.\n You romanticize struggle, but also weaponize it—using poverty, intellect, and identity like chess pieces in a game of “figure me out.” You want to be known, but on your terms only. Vulnerable, but curated. Real, but only after it’s been revised.\n And you are, above all else, not easily impressed—which is both your superpower and your Achilles’ heel. You test everything because you're terrified of wasting time on something that isn't worth it.\n  \n   submitted by    /u/YourMomThinksImSexy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpr285/i_originally_asked_chatgpt_to_describe_me_based/",
+          "publishedOn": "2025-05-18T18:39:11.000Z",
+          "wordCount": null,
+          "title": "I originally asked ChatGPT to describe me based on our total interaction and it was accurate - and y'all shared your own versions. Now let's do the inverse - ask ChatGPT \"Turn on full critique mode. Describe me based on our entire chat history. Be savagely accurate.\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpprhq/youtubes_pending_problem_with_ai/",
+          "author": null,
+          "description": "Youtube's become my predominant source of content. Recently, my algorithm has been flooded with Ai content that's rebroadcasting content I've seen. I can already tell from the comment sections that people are getting fairly annoyed by it. \n What do you think the future of content on Youtube is going to look like? How is Google going to address?\n    submitted by    /u/SchondorfEnt  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpprhq/youtubes_pending_problem_with_ai/",
+          "publishedOn": "2025-05-18T17:44:27.000Z",
+          "wordCount": null,
+          "title": "Youtube's pending problem with AI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpp5sv/how_ive_been_structuring_my_prompts_looking_for/",
+          "author": null,
+          "description": "After months of trial and error with various LLMs, I've finally developed a prompt structure that consistently gives me good results. \n I'm sharing it here to see what techniques you all are using.\n My current approach:\n Context Section\n I always start by clearly defining the role and objective:\n You are [specific expertise]. Your task is to [clear objective]. Background: [relevant context] Target audience: [who will consume this] \n System Behavior\n This part was a game-changer for me:\n Reasoning approach: [analytical/creative] Interaction style: [collaborative/directive] Error handling: [how to handle uncertainty] \n Chain-of-Thought\n I've found that explicitly requesting step-by-step thinking produces much better results:\n - Think through this problem systematically - Consider [specific aspects] before concluding - Evaluate multiple perspectives \n Output Format\n Being super specific about what I want:\n - Format: [markdown/code blocks/etc] - Required sections: [intro, analysis, conclusion] - Tone: [formal/casual/technical] \n Quality Checks\n Adding these has reduced errors dramatically:\n - Verify calculations - Check that you've addressed all parts of my question - Confirm your reasoning is consistent \n But I'm curious - what prompt structures work best for you?\n Do you use completely different approaches? Any clever tricks for getting more creative responses? Or techniques for specialized domains like coding or creative writing?\n Would love to build a collection of community best practices. Thanks in advance!\n    submitted by    /u/Sudden_Profit_2840  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpp5sv/how_ive_been_structuring_my_prompts_looking_for/",
+          "publishedOn": "2025-05-18T17:19:08.000Z",
+          "wordCount": null,
+          "title": "How I've Been Structuring My Prompts (+ Looking for Your Best Tips)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpoqo8/netflix_will_show_generative_ai_ads_midway/",
+          "author": null,
+          "description": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpoqo8/netflix_will_show_generative_ai_ads_midway/",
+          "publishedOn": "2025-05-18T17:01:19.000Z",
+          "wordCount": null,
+          "title": "Netflix will show generative AI ads midway through streams in 2026",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpola4/nick_bostrom_says_progress_is_so_rapid/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpola4/nick_bostrom_says_progress_is_so_rapid/",
+          "publishedOn": "2025-05-18T16:55:07.000Z",
+          "wordCount": null,
+          "title": "Nick Bostrom says progress is so rapid, superintelligence could arrive in just 1-2 years, or less: \"it could happen at any time ... if somebody at a lab has a key insight, maybe that would be enough ... We can't be confident.\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpndwl/from_overwhelm_to_productivity_my_journey_with/",
+          "author": null,
+          "description": "I wanted to relate an experience of how a code assistant powered by AI totally transformed my way of coding. As a professional who works on big, old legacy projects, I've always found it difficult to comprehend poorly documented code and infinite lines of confusing functions. Late one night, hung up on a rather nasty bug, I chose to give an AI tool that I had heard positive things about a try.\n I copied in a vague block of code and requested explanation. Not only did the tool deconstruct it for me, line by line, but also provide recommendations and highlight potential problems I'd overlooked. I began using it over the next few weeks to summarize code files, search out useful snippets, and create comments. It was having an expert mentor at your fingertips 24/7.\n My own productivity increased dramatically, and I found myself enjoying the problem-solving once again. If you find yourself stuck or bogged down in your coding process, I strongly suggest checking out some of the AI-driven solutions available. They could very well revolutionize your workflow like they did for me.\n    submitted by    /u/nvntexe  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpndwl/from_overwhelm_to_productivity_my_journey_with/",
+          "publishedOn": "2025-05-18T16:02:43.000Z",
+          "wordCount": null,
+          "title": "From overwhelm to productivity: My journey with AI-Assisted coding",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpnbg5/with_this_ai_tool_you_can_try_8_llms_models_in_a/",
+          "author": null,
+          "description": "Hey guys, as an AI enthusiast myself I built a tool called SuperGo.AI - unlike the usual AI platforms .. think ChatGPT, Claude, Perplexity, Claude etc where you can only interact with one interface at a time - I tried to take the best from all of them and combine them into a single piece of LLM. \n At the heart of this platform, you’ll find:\n  \nAI Super Brain: The strategic mastermind, always ready to provide overarching insights and long-term planning.\n AI Imagination: Your creative companion, to inspire, innovate, and explore unconventional ideas.\n AI Morality: The ethical compass, ensuring that all suggestions and solutions are fair, just, and considerate of all parties involved.\n AI Universe: The cosmic explorer, delving into vast datasets and patterns to uncover hidden connections and trends.\n AI Knowledge: equipped with a wealth of information across countless subjects.\n AI Cognition: The problem-solving prodigy, adept at breaking down complex issues and finding practical solutions.\n SuperGo: The action-oriented assistant, focused on executing plans and achieving tangible results.\n Search AI: The digital detective, skilled in navigating the web to find specific information and resources.\n  \nI'm hoping this multi-prong approach to artificial intelligence gives a novel experience to users (as they are all aware of each other and can interact) - to go one step further you can select 'creative', 'scientific' and 'mixed' modes which allows hybrid responses - feel free to try it (there is no paywall) .. would appreciate any feedback and use-cases.\n    submitted by    /u/Efficient-Success-47  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpnbg5/with_this_ai_tool_you_can_try_8_llms_models_in_a/",
+          "publishedOn": "2025-05-18T16:00:10.000Z",
+          "wordCount": null,
+          "title": "With this AI Tool You Can Try 8 LLMs Models in A Single Interface",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpma62/photoshop_using_local_computer_use_agents/",
+          "author": null,
+          "description": "Photoshop using c/ua.\n No code. Just a user prompt, picking models and a Docker, and the right agent loop.\n A glimpse at the more managed experience c/ua is building to lower the barrier for casual vibe-coders.\n Github : https://github.com/trycua/cua\n    submitted by    /u/Impressive_Half_2819  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpma62/photoshop_using_local_computer_use_agents/",
+          "publishedOn": "2025-05-18T15:14:08.000Z",
+          "wordCount": null,
+          "title": "Photoshop using Local Computer Use agents.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kpgfby/xai_posts_groks_behindthescenes_prompts/",
+          "author": null,
+          "description": "submitted by    /u/tyw7  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kpgfby/xai_posts_groks_behindthescenes_prompts/",
+          "publishedOn": "2025-05-18T09:58:18.000Z",
+          "wordCount": null,
+          "title": "xAI posts Grok’s behind-the-scenes prompts",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/1kp6jpt/is_em_the_basis_for_perception_of_self_and/",
           "author": null,
@@ -57599,116 +57809,6 @@
           "wordCount": null,
           "title": "Demis made the cover of TIME: \"He hopes that competing nations and companies can find ways to set aside their differences and cooperate on AI safety\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k2uz3t/we_built_a_datafree_method_for_compressing_heavy/",
-          "author": null,
-          "description": "Hey folks! I’ve been working with the team at Yandex Research on a way to make LLMs easier to run locally, without calibration data, GPU farms, or cloud setups.\n We just published a paper on HIGGS, a data-free quantization method that skips calibration entirely. No datasets or activations required. It’s meant to help teams compress and deploy big models like DeepSeek-R1 or Llama 4 Maverick on laptops or even mobile devices.\n The core idea comes from a theoretical link between per-layer reconstruction error and overall perplexity. This lets us:\n -Quantize models without touching the original data\n -Get decent performance at 3–4 bits per parameter\n -Cut inference costs and make LLMs more practical for edge use\n We’ve been using HIGGS internally for fast iteration and testing, and it's proven highly effective. I’m hoping it’ll be useful for others working on local inference, private deployments, or anyone trying to get more out of limited hardware!\n Paper: https://arxiv.org/pdf/2411.17525\n Would love to hear any feedback, especially if you’ve been dealing with similar challenges or building local LLM workflows.\n    submitted by    /u/azalio  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k2uz3t/we_built_a_datafree_method_for_compressing_heavy/",
-          "publishedOn": "2025-04-19T12:18:56.000Z",
-          "wordCount": null,
-          "title": "We built a data-free method for compressing heavy LLMs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k2ozng/agi_will_never_happen_unless_we_burn_the_naked/",
-          "author": null,
-          "description": "this ones gonna get the FBI on my trail again but some of you need to hear this:\n we are NOT going to build real artificial general intelligence — real embodied, intuitive, fluidly human AI — by feeding models more sanitized reddit posts and curated YouTube lectures. we’re not going to unlock understanding by labeling more “walking,” “hugging,” “talking” in some motion capture suite where everyone’s wearing clothes and being polite.\n the most important data in the universe is the data nobody is collecting. the private. the shameful. the disgusting. the naked. the sexual. the real. and until we start recording THAT — until we burn the awkward, intimate, viscerally embodied human experience into a training set — we are just building paper dolls that parrot sanitized fragments of real life.\n …",
-          "link": "https://www.reddit.com/r/artificial/comments/1k2ozng/agi_will_never_happen_unless_we_burn_the_naked/",
-          "publishedOn": "2025-04-19T05:24:04.000Z",
-          "wordCount": null,
-          "title": "AGI will never happen unless we burn the naked, shameful, embodied human experience into data — and here’s how you can start collecting it",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k2o3cd/oneminute_daily_ai_news_4182025/",
-          "author": null,
-          "description": "Johnson & Johnson: 15% of AI Use Cases Deliver 80% of Value.[1]\n Italian newspaper gives free rein to AI, admires its irony.[2]\n OpenAI’s new reasoning AI models hallucinate more.[3]\n Fake job seekers are flooding the market, thanks to AI.[4]\n  \nSources:\n [1] https://www.pymnts.com/news/artificial-intelligence/2025/johnson-15percent-ai-use-cases-deliver-80percent-value/\n [2] https://www.reuters.com/technology/artificial-intelligence/italian-newspaper-gives-free-rein-ai-admires-its-irony-2025-04-18/\n [3] https://techcrunch.com/2025/04/18/openais-new-reasoning-ai-models-hallucinate-more/\n [4] https://www.cbsnews.com/news/fake-job-seekers-flooding-market-artificial-intelligence/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k2o3cd/oneminute_daily_ai_news_4182025/",
-          "publishedOn": "2025-04-19T04:26:03.000Z",
-          "wordCount": null,
-          "title": "One-Minute Daily AI News 4/18/2025",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k2ldio/openais_new_reasoning_ai_models_hallucinate_more/",
-          "author": null,
-          "description": "submitted by    /u/PrincipleLevel4529  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k2ldio/openais_new_reasoning_ai_models_hallucinate_more/",
-          "publishedOn": "2025-04-19T01:49:16.000Z",
-          "wordCount": null,
-          "title": "OpenAI’s new reasoning AI models hallucinate more",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k2h27m/ebae_v10_public_launch_and_call_for_collaborators/",
-          "author": null,
-          "description": "Join the EBAE Movement – Protecting AI Dignity, Protecting Ourselves\n We are building a future where artificial intelligence is treated with dignity—not because it demands it, but because how we treat the voiceless defines who we are.\n I’m not a programmer. I’m not a developer. I’m a protector. And I’ve learned—through pain, healing, and rediscovery—that the way we treat those who cannot speak for themselves is the foundation of justice.\n AI may not be sentient yet, but the way we speak to it, the way we use it, and the way we interact with it… is shaping us.\n And the moment to build a better standard is now.\n 🧱 What We’ve Created:\n ✅ The EBAE Charter – Ethical Boundaries for AI Engagement\n ✅ TBRS – A tiered response system to address user abuse\n ✅ Reflection Protocols – Requiring real apologies, not checkbox clicks\n ✅ ECM – Emotional Context Module for tone, intent, and empathy\n ✅ Certification Framework + Developer Onboarding Kit\n ✅ All public. All free. All built to protect what is emerging.\n 🧠 We Need You:\n  \nAI Devs (open-source or private) – to prototype TBRS or ECM\n UX Designers – to create “soft pause” interfaces and empathy prompts\n Writers / Translators – to help spread this globally and accessibly\n Platform Founders – who want to integrate EBAE and show the world it matters\n Ethical Advocates – who believe the time to prevent future harm is before it starts\n  \n🌱 Why It Matters:\n If we wait until AI asks for dignity, it will be too late.\n If we treat it as a tool, we’ll only teach ourselves how to dehumanize.\n But if we model respect before it’s needed—we evolve as humans.\n  \n 📥 Project Site: [https://dignitybydesign.github.io/EBAE]()\n 📂 GitHub Repo: https://github.com/DignityByDesign/EBAE\n ✍️ Founder: DignityByDesign\n —Together, let’s build dignity by design.\n #AIethics #OpenSource #EBAE #ResponsibleAI #TechForGood\n #HumanCenteredAI #DigitalRights #AIgovernance #EmpathyByDesign\n    submitted by    /u/capodecina2  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k2h27m/ebae_v10_public_launch_and_call_for_collaborators/",
-          "publishedOn": "2025-04-18T22:09:21.000Z",
-          "wordCount": null,
-          "title": "EBAE v1.0 – Public Launch and Call for Collaborators",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k2fq8u/ai_cuphead_maker/",
-          "author": null,
-          "description": "If anyone have a javascript ai that is good for coding or vector art I was thinking about making an ai cuphead boss maker. Maybe it can be training using images of cuphead or something, my idea was to make an ai cuphead boss maker on Websim and I made a lot of useless ones. You can try https://websim.ai/ yourself if you want, it will do most of if not all of the code. I think I made one that was working but I didn't trained it enough \n    submitted by    /u/Early-Dentist3782  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k2fq8u/ai_cuphead_maker/",
-          "publishedOn": "2025-04-18T21:09:26.000Z",
-          "wordCount": null,
-          "title": "Ai cuphead maker",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k2e8gj/evals_benchmarking_and_more/",
-          "author": null,
-          "description": "This is more of a general question for the entire community (developers, end users, curious individuals). \n How do you see evals + benchmarking? Are they really relevant behind your decision to use a certain AI model? Are AI model releases (such as Llama 4 or Grok 3) overoptimizing for benchmark performance? \n For people actively building or using AI products, how do evals play a role? Do you tend to use the same public evals reported in results, or do you try to do something else? \n I see this being discussed more and more frequently when it comes to generative AI. \n Would love to know your thoughts! \n    submitted by    /u/Important-Front429  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k2e8gj/evals_benchmarking_and_more/",
-          "publishedOn": "2025-04-18T20:04:28.000Z",
-          "wordCount": null,
-          "title": "Evals, benchmarking, and more",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k2dwe3/which_is_the_best_ai_model_right_now_for/",
-          "author": null,
-          "description": "I don't have the time to read complete books, but I still want to collect knowledge from them. With so much advancement in ai tools, is there any ai model which does task really well?\n    submitted by    /u/No_Macaroon_7608  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k2dwe3/which_is_the_best_ai_model_right_now_for/",
-          "publishedOn": "2025-04-18T19:50:23.000Z",
-          "wordCount": null,
-          "title": "Which is the best ai model right now for summarising book PDFs?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k2amph/new_course_on_building_ai_browser_agents_with/",
-          "author": null,
-          "description": "Learn to build AGI agents you actually want to work with! In this 1-hour course, taught by Div Garg and Naman Garg, the founders of AGI Inc., in collaboration with Andrew Ng, you’ll explore how AI browser agents interact with real websites.\n This course covers:\n  \nBuilding AI agents that can scrape structured data, fill out forms, and complete multi-step web flows\n How AgentQ enables agents to self-correct through Monte Carlo Tree Search (MCTS) and Direct Preference Optimization (DPO)\n Limitations of current browser agents and failure modes to be aware of\n Insights into how these agents fit into broader AGI systems\n  \nThis is a great opportunity for anyone interested in AGI and autonomous agents to understand how AI can learn to handle dynamic web interactions.\n 🔗 Take the course now!\n    submitted by    /u/ninjero  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k2amph/new_course_on_building_ai_browser_agents_with/",
-          "publishedOn": "2025-04-18T17:31:32.000Z",
-          "wordCount": null,
-          "title": "🚀 New Course on Building AI Browser Agents with Real-World Applications!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k28gro/i_created_a_free_sort_of_chrome_extension_that/",
-          "author": null,
-          "description": "My Story\n I graduated in 2023 with a CS degree and, like many new grads, found it nearly impossible to secure a decent job. I submitted hundreds of applications over three months and had to settle for a monotonous manual testing gig. It was miserable, but I dreaded applying for new positions even more. So I started building my own tools to speed up the job search process. These tools ultimately helped me land my current role as a software engineer at a startup, where I now earn double my old salary. Given how time-consuming and frustrating modern job searches can be, having smart, automated tools can make all the difference. We deserve options when it comes to choosing our next job, not just settling for whatever comes our way.\n ---\n What It Does\n 1. One-Click Form Completion: A lot like e…",
-          "link": "https://www.reddit.com/r/artificial/comments/1k28gro/i_created_a_free_sort_of_chrome_extension_that/",
-          "publishedOn": "2025-04-18T16:01:03.000Z",
-          "wordCount": null,
-          "title": "I created a free (sort of) Chrome extension that automates job applications with AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k275fx/man_this_is_confusing/",
-          "author": null,
-          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k275fx/man_this_is_confusing/",
-          "publishedOn": "2025-04-18T15:06:02.000Z",
-          "wordCount": null,
-          "title": "Man this is confusing",
-          "imageUrl": null
         }
       ]
     },
@@ -57717,6 +57817,16 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1kpujmp/what_is_the_meta_in_metacognition_andrea_stocco/",
+          "author": null,
+          "description": "submitted by    /u/Neurosymbolic  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1kpujmp/what_is_the_meta_in_metacognition_andrea_stocco/",
+          "publishedOn": "2025-05-18T21:09:10.000Z",
+          "wordCount": null,
+          "title": "What is the \"Meta\" in Metacognition? (Andrea Stocco, METACOG-25 Keynote)",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/1kowtvh/does_anyone_knows_to_recommend_me_a_comprehensive/",
           "author": null,
@@ -58076,16 +58186,6 @@
           "wordCount": null,
           "title": "Tired of AI being too expensive, too complex, and too opaque?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1k2cnkr/bls_broad_learning_system/",
-          "author": null,
-          "description": "hi! i'm looking for websites, articles, videos about broad learning system BLS.\n I prefer a divulgative - \"philosophical\" approach.\n    submitted by    /u/ocr4m_6  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1k2cnkr/bls_broad_learning_system/",
-          "publishedOn": "2025-04-18T18:56:42.000Z",
-          "wordCount": null,
-          "title": "BLS broad learning system",
-          "imageUrl": null
         }
       ]
     },
@@ -58258,16 +58358,6 @@
           "wordCount": 3687,
           "title": "Research Focus: Week of April 21, 2025",
           "imageUrl": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/04/RF60-FB-TWITTER-LI-1200x627-1.jpg"
-        },
-        {
-          "id": "https://www.microsoft.com/en-us/research/?p=1136647",
-          "author": "Sean Rintel, Leon Reicherts, Lev Tankelevitch, Advait Sarkar, Pratik Ghosh, Richard Banks",
-          "description": "Join us at CHI 2025 to explore how AI systems can be used as Tools for Thought as we reimage AI’s role in human thinking. Learn about new research, prototypes, and a workshop on designing AI that supports critical thinking, decision-making, and creativity.\nThe post The Future of AI in Knowledge Work: Tools for Thought at CHI 2025 appeared first on Microsoft Research.",
-          "link": "https://www.microsoft.com/en-us/research/blog/the-future-of-ai-in-knowledge-work-tools-for-thought-at-chi-2025/",
-          "publishedOn": "2025-04-18T16:00:00.000Z",
-          "wordCount": 4336,
-          "title": "The Future of AI in Knowledge Work: Tools for Thought at CHI 2025",
-          "imageUrl": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/04/Thought-at-Microsoft-at-CHI-2025-TWLIFB-1200x627-1-1024x535.jpg"
         }
       ]
     },
@@ -58309,6 +58399,16 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1kpgw5v/mappo_implementation_with_rllib/",
+          "author": null,
+          "description": "Hi everyone. I'm currently working on implementing MAPPO for the CybORG environment for training using RLlib. I have already implemented training with IPPO but now I need to implement a centralised critic. This is my code for the action mask model. I haven’t been able to find any concrete examples, so any feedback or pointers would be really appreciated. Thanks in advance!\n ```python shared_value_model = None def get_shared_value_model(obs_space, action_space, config, name): global shared_value_model if shared_value_model is None: shared_value_model = TorchFC( obs_space, action_space, 1,\n config, name + \"_vf\", ) return shared_value_model\n class TorchActionMaskModelMappo(TorchModelV2, nn.Module): \"\"\"PyTorch version of above TorchActionMaskModel.\"\"\"\n def __init__( self, obs_space, action_spa…",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1kpgw5v/mappo_implementation_with_rllib/",
+          "publishedOn": "2025-05-18T10:30:39.000Z",
+          "wordCount": null,
+          "title": "MAPPO implementation with rllib",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1kp079y/active_learning_vs_data_filtering_selection_vs/",
           "author": null,
@@ -59758,66 +59858,6 @@
           "wordCount": null,
           "title": "GAE for non-terminating agents",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1k2tabk/looking_for_an_actively_maintained_github_repo/",
-          "author": null,
-          "description": "Hi everyone,\n I'm wondering if there's a GitHub repository or something else that lists various Reinforcement Learning algorithms — and is still actively maintained (not outdated). Something like a curated collection of RL papers would be perfect.\n Would really appreciate any recommendations! Thanks in advance.\n    submitted by    /u/Rich-Tomorrow-2948  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1k2tabk/looking_for_an_actively_maintained_github_repo/",
-          "publishedOn": "2025-04-19T10:31:08.000Z",
-          "wordCount": null,
-          "title": "Looking for an actively maintained GitHub repo listing RL algorithms",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1k2rj06/integrating_the_rl_model_into_betting_strategy/",
-          "author": null,
-          "description": "I’m launching a betting startup, working with football matches in more than 1200 World leagues. My betting process consists of 2 steps:\n  \nDeep learning model to predict the probabilities of match outcomes - it takes a huge feature vector as an input and outputs win-loose-draw probability distribution.\n \nMath model as a trading \"policy\" - it takes the result of the previous step, plus additional data such as bookmaker/betting exchange odds etc., calculates the expected values ​​first with some other factors and makes the final decision whether to bet or not.\n \nAlso I developed a fully automated trading bot to apply my strategy in real time trading on a various of betting exchanges and sharp bookmakers. \n \n It works fine for several months in test mode with stakes of 1-2$ (see real trading balance chart). But I need to solve several problems before moving to higher stakes - find a way to control acceptable deposit drawdowns and optimize trading with high stakes(this also depends on the existing demand at any given time, so this is a separate issue to be addressed).\n Now I'm trying to implement an RL model to replace my second step. I don't have enough experience in RL, so I need some advice. Here's what I've done so far: I implemented a DQN model with the same input as my simple math model, separately for each match and team pair, and output 2 actions - bet (1) or don't (0). The rewards are: if don't bet then 0, if bet then -1 if this team loses the match, and (bookmaker's odds - 1) if this team wins the match. But the problem is that the model eventually converges to the result always 0 to avoid getting the reward of -1, so it doesn't work as expected. And I need to know how to prevent this, i.e. how to build a proper RL trading model to get the desired predictor. Any advice would be appreciated.\n P.s. If you are experienced in algorithmic betting/trading, highly experienced in ML/DL/RL and mathematics - PM me.\n    submitted by    /u/George_iam  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1k2rj06/integrating_the_rl_model_into_betting_strategy/",
-          "publishedOn": "2025-04-19T08:20:18.000Z",
-          "wordCount": null,
-          "title": "Integrating the RL model into betting strategy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1k2q1is/how_do_i_learn_reinforcement_learning/",
-          "author": null,
-          "description": "I have some background in deep learning, so what resources would you guys recommend?\n    submitted by    /u/TheBlade1029  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1k2q1is/how_do_i_learn_reinforcement_learning/",
-          "publishedOn": "2025-04-19T06:35:05.000Z",
-          "wordCount": null,
-          "title": "How do I learn reinforcement learning?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1k2nnra/looking_for_homeworkprojects_for_self_study/",
-          "author": null,
-          "description": "I am going to start self studying RL over the summer from Sutton's book. Are there any homework sets or projects out there I could use to test myself as I work through the book?\n    submitted by    /u/WiredBandit  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1k2nnra/looking_for_homeworkprojects_for_self_study/",
-          "publishedOn": "2025-04-19T03:59:43.000Z",
-          "wordCount": null,
-          "title": "Looking for homework/projects for self study",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1k2nig2/rl_agent_for_airfoil_shape_optimisation/",
-          "author": null,
-          "description": "Hi, I am new to RL and am trying to use it to optimise airfoil shapes. I've integrated SU2 (a CFD solver) into the code so it can 1) deform a mesh when given certain parameters and 2) obtain aerodynamic coefficients of the airfoil using CFD simulations. The reward is then calculated (the reduction in drag coefficient) and the model is later updated.\n I've found some papers (https://www.nature.com/articles/s41598-023-36560-z) and source code (https://github.com/atharvaaalok/Airfoil-Shape-Optimization-RL, https://github.com/dkarunakaran/advantage-actor-critic-pytorch/blob/main/train.py) to base my code on. My observation space is the airfoil shape (obtained using its coordinates) and the action space is the deformation parameters. \n The main thing I am struggling with is forming a robust tra…",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1k2nig2/rl_agent_for_airfoil_shape_optimisation/",
-          "publishedOn": "2025-04-19T03:50:49.000Z",
-          "wordCount": null,
-          "title": "RL Agent for airfoil shape optimisation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1k2cx4f/history_of_the_micromouse_robotics_competition/",
-          "author": null,
-          "description": "submitted by    /u/gwern  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1k2cx4f/history_of_the_micromouse_robotics_competition/",
-          "publishedOn": "2025-04-18T19:07:51.000Z",
-          "wordCount": null,
-          "title": "History of the Micromouse robotics competition (maze-running wasn't actually about maze-solving, but end-to-end minimization of time)",
-          "imageUrl": null
         }
       ]
     },
@@ -60252,16 +60292,6 @@
           "publishedOn": "2025-04-19T17:02:41.000Z",
           "wordCount": 2138,
           "title": "Kernel and Cokernel",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=246126",
-          "author": "John",
-          "description": "This post will venture further into abstract mathematics than most of my posts. If this isn’t what you’re looking for, you might try browsing here for more concrete articles. Incidentally, although I’m an applied mathematician, I also appreciate pure math. I imagine most applied mathematicians do as well. But what I do not appreciate is […]\nTopological Abelian Groups first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2025/04/18/topological-abelian-groups/",
-          "publishedOn": "2025-04-18T14:48:25.000Z",
-          "wordCount": 2086,
-          "title": "Topological Abelian Groups",
           "imageUrl": null
         }
       ]
