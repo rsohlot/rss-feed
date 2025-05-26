@@ -61756,6 +61756,106 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kvhe71/r_sudokubench_evaluating_creative_reasoning_with/",
+          "author": null,
+          "description": "submitted by    /u/hardmaru  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kvhe71/r_sudokubench_evaluating_creative_reasoning_with/",
+          "publishedOn": "2025-05-26T00:35:17.000Z",
+          "wordCount": null,
+          "title": "[R] Sudoku-Bench: Evaluating creative reasoning with Sudoku variants",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kvfn00/p_built_a_comprehensive_nlp_system_with/",
+          "author": null,
+          "description": "hey everyone,\n So i've been diving deep into NLP for the past few months, and wanted to share a project I finally got working after a bunch of late nights and wayyy too much coffee.\n I built this thing called InsightForge-NLP because i was frustrated with how most sentiment analysis tools only work in English and don't really tell you why something is positive or negative. Plus, i wanted to learn how retrieval-augmented generation works in practice, not just in theory.\n the project does two main things:\n  \nIt analyzes sentiment in multiple languages (English, Spanish, French, German, and Chinese) and breaks down the sentiment by aspects - so you can see exactly what parts of a product review are positive or negative.\n it has a question-answering system that uses vector search to pull relevant info from documents before generating answers. basically, it tries to avoid hallucinating answers by grounding them in actual data.\n  \nI built everything with a FastAPI backend and a simple Bootstrap UI so i could actually use it without having to write code every time. the whole thing can run in Docker, which saved me when i tried to deploy it on my friend's linux machine and nothing worked at first haha.\n the tech stack is pretty standard hugging face transformers, FAISS for the vector DB, PyTorch under the hood, and the usual web stuff. nothing groundbreaking, but it all works together pretty well.\n if anyone's interested, the code is on GitHub: https://github.com/TaimoorKhan10/InsightForge-NLP\n i'd love some feedback on the architecture or suggestions on how to make it more useful. I'm especially curious if anyone has tips on making the vector search more efficient , it gets a bit slow with larger document collections.\n also, if you spot any bugs or have feature ideas, feel free to open an issue. im still actively working on this when i have time between job applications.\n    submitted by    /u/taimoorkhan10  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kvfn00/p_built_a_comprehensive_nlp_system_with/",
+          "publishedOn": "2025-05-25T23:06:01.000Z",
+          "wordCount": null,
+          "title": "[P] Built a comprehensive NLP system with multilingual sentiment analysis and document based QA .. feedback welcome",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kvdlzx/d_ecml_2025_decisions/",
+          "author": null,
+          "description": "Hey folks, decisions for ECML will be out any minute. If you have submitted a paper, let’s discuss the reviews and results once they are out.\n    submitted by    /u/dontabuseme  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kvdlzx/d_ecml_2025_decisions/",
+          "publishedOn": "2025-05-25T21:29:24.000Z",
+          "wordCount": null,
+          "title": "[D] ECML 2025 Decisions",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kvdjet/p_i_made_a_oss_alternative_to_weights_and_biases/",
+          "author": null,
+          "description": "Hey guys!\n https://github.com/mlop-ai/mlop\n I made a completely open sourced alternative to Weights and Biases with (insert cringe) blazingly fast performance (yes we use rust and clickhouse)\n Weights and Biases is super unperformant, their logger blocks user code... logging should not be blocking, yet they got away with it. We do the right thing by being non blocking.\n Would love any thoughts / feedbacks / roasts etc\n    submitted by    /u/Sriyakee  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kvdjet/p_i_made_a_oss_alternative_to_weights_and_biases/",
+          "publishedOn": "2025-05-25T21:26:14.000Z",
+          "wordCount": null,
+          "title": "[P] I made a OSS alternative to Weights and Biases",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kv4k5a/p_ai_learns_to_play_the_simpsons_deep/",
+          "author": null,
+          "description": "Code:\n paulo101977/Ai-TheSimpson-Arcade\n    submitted by    /u/AgeOfEmpires4AOE4  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kv4k5a/p_ai_learns_to_play_the_simpsons_deep/",
+          "publishedOn": "2025-05-25T14:58:51.000Z",
+          "wordCount": null,
+          "title": "[P] AI Learns to Play The Simpsons (Deep Reinforcement Learning)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kv2vqe/r_what_are_good_techniques_to_group_users_for/",
+          "author": null,
+          "description": "For group-based recommendation system, where the goal is to form synthetic user groups to serve as the basis for recommendations. And we don’t have pre-defined groups in the dataset,\n In this case : Is it appropriate to cluster learnable user embeddings (e.g., from a GNN o) to form groups of similar users for this purpose?\n Does group users randomly or by Pearson similiarity could have less/more advantages?\n    submitted by    /u/AdInevitable1362  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kv2vqe/r_what_are_good_techniques_to_group_users_for/",
+          "publishedOn": "2025-05-25T13:43:58.000Z",
+          "wordCount": null,
+          "title": "[R] What Are Good Techniques to Group Users for Recommendation Models?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kv2mfc/discussion_from_finetuning_to_structure_what/",
+          "author": null,
+          "description": "I’ve spent way too much time fine-tuning open-source models and prompt stacking to get consistent behavior out of LLMs. Most of it felt like wrestling with a smart but stubborn intern gets 80% right, but slips on the details or forgets your instructions three turns in.\n Recently though, I built a support agent for a SaaS product open-source Mistral backend, on-prem, and it’s the first time I’ve had something that feels production-worthy. The big shift? I stopped trying to fix the model and instead focused on structuring the way it reasons.\n I’m using a setup with Parlant that lets me define per-turn behavioral rules, guide tool usage, and harden tone and intent through templates. No more guessing why a prompt failed when something goes off, I can trace it to a specific condition or rule gap. And updates are localized, not a full prompt rewrite.\n Not saying it solves everything there’s still a gap between model reasoning and business logic but it finally feels buildable. Like an agent I can trust to run without babysitting it all day.\n Would love to hear how others here are dealing with LLM reliability in real-world apps. Anyone else ditch prompt-only flows for more structured modeling?\n    submitted by    /u/Work_for_burritos  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kv2mfc/discussion_from_finetuning_to_structure_what/",
+          "publishedOn": "2025-05-25T13:31:47.000Z",
+          "wordCount": null,
+          "title": "[Discussion] From fine-tuning to structure what actually made my LLM agent work",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kv230t/d_organizing_ml_repo_monorepo_vs_polyrepo/",
+          "author": null,
+          "description": "I have a question about organizing repositories, especially in the field of ML, when it's necessary to iteratively release different versions of models and maintain different versions.\n What do you prefer: a monorepository or separate repositories for projects?\n What does one release version correspond to — a separate repository? A folder in a monorepository? A branch? A tag?\n Are separate repositories used for training and inference? How to organize experiments?\n    submitted by    /u/definedb  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kv230t/d_organizing_ml_repo_monorepo_vs_polyrepo/",
+          "publishedOn": "2025-05-25T13:06:00.000Z",
+          "wordCount": null,
+          "title": "[D] Organizing ML repo. Monorepo vs polyrepo.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kuzalv/d_classifier_free_guidance_question_about_name/",
+          "author": null,
+          "description": "I'm trying to get my head around Classifier Free Guidance (CFG) and the context in which it was developed. Specifically why it is called CFG. I work a lot with language models and I hear about diffusion models but CFG has always been a bit mysterious to me. Can someone confirm if my understanding is correct? Essentially:\n Before CFG was introduced, people were training conditional diffusion models, where the denoising step is given some kind of conditioning (e.g. a text embedding from a transformer model). The problem was that sometimes the model would ignore or only weakly follow the conditioning, and in general there was no way to control precisely how strongly the conditioning was applied.\n Classifier Guidance [1]: one method to control this was to backprop through a classifier to maxim…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kuzalv/d_classifier_free_guidance_question_about_name/",
+          "publishedOn": "2025-05-25T10:20:54.000Z",
+          "wordCount": null,
+          "title": "[D] Classifier Free Guidance: question about name and historical context",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1kuyx9d/d_wrote_a_proof_that_dropout_increases_weight/",
+          "author": null,
+          "description": "The title.\n https://drive.google.com/file/d/1jSzqo_4Z6bGF2w2SzDV6KaJ3HuoCPVqg/view?usp=sharing\n EDIT: \"REDUCES\" not \"INCREASES\", sorry for that!\n    submitted by    /u/simple-Flat0263  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1kuyx9d/d_wrote_a_proof_that_dropout_increases_weight/",
+          "publishedOn": "2025-05-25T09:56:10.000Z",
+          "wordCount": null,
+          "title": "[D] Wrote a proof that dropout increases weight sparsity, what do you guys think?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1kuq3h0/r_we_taught_generative_models_to_segment_only/",
           "author": null,
           "description": "Paper: https://arxiv.org/abs/2505.15263\n Website: https://reachomk.github.io/gen2seg/\n HuggingFace Demo: https://huggingface.co/spaces/reachomk/gen2seg\n Abstract:\n  \nBy pretraining to synthesize coherent images from perturbed inputs, generative models inherently learn to understand object boundaries and scene compositions. How can we repurpose these generative representations for general-purpose perceptual organization? We finetune Stable Diffusion and MAE (encoder+decoder) for category-agnostic instance segmentation using our instance coloring loss exclusively on a narrow set of object types (indoor furnishings and cars). Surprisingly, our models exhibit strong zero-shot generalization, accurately segmenting objects of types and styles unseen in finetuning (and in many cases, MAE's ImageNet-1K pretraining too). Our best-performing models closely approach the heavily supervised SAM when evaluated on unseen object types and styles, and outperform it when segmenting fine structures and ambiguous boundaries. In contrast, existing promptable segmentation architectures or discriminatively pretrained models fail to generalize. This suggests that generative models learn an inherent grouping mechanism that transfers across categories and domains, even without internet-scale pretraining. Code, pretrained models, and demos are available on our website.\n  \n   submitted by    /u/PatientWrongdoer9257  \n [link]   [comments]",
@@ -65384,126 +65484,6 @@
           "wordCount": null,
           "title": "[D] Any toolkit for Local Fine-Tuning of Open-Source LLMs?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k8b3ep/p_deep_analysis_the_data_science_analogue_to/",
-          "author": null,
-          "description": "submitted by    /u/phicreative1997  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k8b3ep/p_deep_analysis_the_data_science_analogue_to/",
-          "publishedOn": "2025-04-26T11:47:09.000Z",
-          "wordCount": null,
-          "title": "[P] Deep Analysis - The data science analogue to Perplexity's deep analysis. Design & walkthrough.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k86mzf/r_symbolic_music_generation_from_a_single_midi/",
-          "author": null,
-          "description": "submitted by    /u/musescore1983  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k86mzf/r_symbolic_music_generation_from_a_single_midi/",
-          "publishedOn": "2025-04-26T06:38:38.000Z",
-          "wordCount": null,
-          "title": "[R] Symbolic Music Generation from a Single MIDI File",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k85asd/d_does_demand_exist_for_climate_modelling_work/",
-          "author": null,
-          "description": "Hi everybody,\n Based on your experience, is there demand out there for climate modelling work? \n For those familiar with climate modelling, does your day to day work look closer to data analysis or would it fall under building predictive models?\n I’m researching areas around climate and environment to build skills around.\n    submitted by    /u/Competitive_Cut_9133  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k85asd/d_does_demand_exist_for_climate_modelling_work/",
-          "publishedOn": "2025-04-26T05:11:41.000Z",
-          "wordCount": null,
-          "title": "[D] Does demand exist for climate modelling work?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k855r7/p_feedback_on_bojai_opensource_ml_framework/",
-          "author": null,
-          "description": "SORRY, it is my first time posting and I realized I used the wrong tag \n Hi everyone!\n I'm super excited (and a bit nervous) to share something I've been working on: Bojai — a free and open-source framework to build, train, evaluate, and deploy machine learning models easily, either through pre-built pipelines or fully customizable ones.\n ✅ Command-line interface (CLI) and UI available\n ✅ Custom pipelines for full control\n ✅ Pre-built pipelines for fast experimentation\n ✅ Open-source, modular, flexible\n ✅ Focused on making ML more accessible without sacrificing power\n Docs: https://bojai-documentation.web.app\n GitHub: https://github.com/bojai-org/bojai\n I built Bojai because I often found existing tools either too rigid or too overwhelming for quick prototyping or for helping others get started with ML.\n I'm still actively improving it, and would love feedback, ideas, or even bug reports if you try it!\n Thanks so much for reading — hope it can be useful to some of you\n Feel free to reach out if you have questions!\n    submitted by    /u/Fun-Development-9281  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k855r7/p_feedback_on_bojai_opensource_ml_framework/",
-          "publishedOn": "2025-04-26T05:02:33.000Z",
-          "wordCount": null,
-          "title": "[P] Feedback on Bojai – open-source ML framework",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k84ugx/d_how_do_you_curate_domain_specific_data_for/",
-          "author": null,
-          "description": "I'm currently speaking with post-training/ML teams at LLM labs on how they source domain-specific data (finance/legal/manufacturing/etc) for building niche applications. I'm starting my MLE journey and I've realized prepping data is a pain in the arse.\n Curious how heavy is the time/cost today? And will RL advances really reduce the need for fresh domain data?\n Also, what domain specific data is hard to source??\n    submitted by    /u/kritnu  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k84ugx/d_how_do_you_curate_domain_specific_data_for/",
-          "publishedOn": "2025-04-26T04:43:06.000Z",
-          "wordCount": null,
-          "title": "[D] how do you curate domain specific data for training?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k82x7q/p_how_to_collect_robotic_simulation_data_on_macs/",
-          "author": null,
-          "description": "I'm trying to recreate this paper: https://diffusion-policy.cs.columbia.edu\n I unfortunately can't seem to get any simulator to properly work on my intel Mac to collect data. I plan on training in google collab. Does anyone have any tips?\n    submitted by    /u/BerkStudentRes  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k82x7q/p_how_to_collect_robotic_simulation_data_on_macs/",
-          "publishedOn": "2025-04-26T02:52:27.000Z",
-          "wordCount": null,
-          "title": "[P] How to collect robotic simulation data on Macs?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k7ziui/r_just_launched_bojai_an_opensource_machine/",
-          "author": null,
-          "description": "Hi everyone!\n I'm super excited (and a bit nervous) to share something I've been working on: Bojai — a free and open-source framework to build, train, evaluate, and deploy machine learning models easily, either through pre-built pipelines or fully customizable ones.\n ✅ Command-line interface (CLI) and UI available\n ✅ Custom pipelines for full control\n ✅ Pre-built pipelines for fast experimentation\n ✅ Open-source, modular, flexible\n ✅ Focused on making ML more accessible without sacrificing power\n Docs: https://bojai-documentation.web.app\n GitHub: https://github.com/bojai-org/bojai\n I built Bojai because I often found existing tools either too rigid or too overwhelming for quick prototyping or for helping others get started with ML.\n I'm still actively improving it, and would love feedback, ideas, or even bug reports if you try it!\n Thanks so much for reading — hope it can be useful to some of you \n Feel free to reach out if you have questions!\n    submitted by    /u/Fun-Development-9281  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k7ziui/r_just_launched_bojai_an_opensource_machine/",
-          "publishedOn": "2025-04-25T23:53:19.000Z",
-          "wordCount": null,
-          "title": "[R] Just launched Bojai: an open-source machine learning pipeline builder! Would love your feedback",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k7rff9/d_p_repeat_call_prediction_for_telecom/",
-          "author": null,
-          "description": "Hey, I'd like insight on how to approach a prediction themed problem for a telco I work at. Pasting here. Thanks!\n Repeat Call Prediction for Telecom\n Hey, I'm working as a Data analyst for a telco in the digital and calls space. \n Pitched an idea for repeat call prediction to size expected call centre costs - if a customer called on day t, can we predict if they'll call on day t+1? \n After a few iterations, I've narrowed down to looking at customers with a standalone product holding (to eliminate noise) in the onboarding phase of their journey (we know that these customers drive repeat calls).\n Being in service analytics, the data we have is more structural - think product holdings, demographics. On the granular side, we have digital activity logs, and I'm bringing in friction points like time since last call and call history.\n Is there a better way to approach this problem? What should I engineer into the feature store? What models are worth exploring?\n    submitted by    /u/Glittering_Tiger8996  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k7rff9/d_p_repeat_call_prediction_for_telecom/",
-          "publishedOn": "2025-04-25T17:58:40.000Z",
-          "wordCount": null,
-          "title": "[D] [P] Repeat Call Prediction for Telecom",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k7puq7/d_llm_coding_interview_prep_tips/",
-          "author": null,
-          "description": "Hi,\n I am interviewing for a research position and I have a LLM coding round. I am preparing:\n  \nSelf-attention implementation\n Multi-headed self-attention\n Tokenization (BPE)\n Decoding (beam search, top-k sampling etc)\n  \nIs there anything else I should prepare? Can't think of anything else.\n    submitted by    /u/noob_simp_phd  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k7puq7/d_llm_coding_interview_prep_tips/",
-          "publishedOn": "2025-04-25T16:54:32.000Z",
-          "wordCount": null,
-          "title": "[D] LLM coding interview prep tips",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k7pkvc/r_paper2code_automating_code_generation_from/",
-          "author": null,
-          "description": "Paper: https://www.arxiv.org/pdf/2504.17192\n Code: https://github.com/going-doer/Paper2Code\n Abstract:\n  \nDespite the rapid growth of machine learning research, corresponding code implementations are often unavailable, making it slow and labor-intensive for researchers to reproduce results and build upon prior work. In the meantime, recent Large Language Models (LLMs) excel at understanding scientific documents and generating high-quality code. Inspired by this, we introduce PaperCoder, a multi-agent LLM framework that transforms machine learning papers into functional code repositories. PaperCoder operates in three stages: planning, where it constructs a high-level roadmap, designs the system architecture with diagrams, identifies file dependencies, and generates configuration files; anal…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k7pkvc/r_paper2code_automating_code_generation_from/",
-          "publishedOn": "2025-04-25T16:43:05.000Z",
-          "wordCount": null,
-          "title": "[R] Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k7of6w/rp_we_compress_any_bf16_model_to_70_size_during/",
-          "author": null,
-          "description": "Glad to share another interesting piece of work from us: 70% Size, 100% Accuracy: Lossless LLM Compression for Efficient GPU Inference via Dynamic-Length Float (DF11)\n The tl;dr of this work is super simple. We — and several prior works — noticed that while BF16 is often promoted as a “more range, less precision” alternative to FP16 (especially to avoid value overflow/underflow during training), its range part (exponent bits) ends up being pretty redundant once the model is trained.\n In other words, although BF16 as a data format can represent a wide range of numbers, most trained models' exponents are plenty sparse. In practice, the exponent bits carry around 2.6 bits of actual information on average — far from the full 8 bits they're assigned.\n This opens the door for classic Huffman cod…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k7of6w/rp_we_compress_any_bf16_model_to_70_size_during/",
-          "publishedOn": "2025-04-25T15:55:34.000Z",
-          "wordCount": null,
-          "title": "[R][P] We compress any BF16 model to ~70% size during inference, while keeping the output LOSSLESS so that you can fit in more context or run larger models.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1k7o5hc/r_crossencoder_rediscovers_a_semantic_variant_of/",
-          "author": null,
-          "description": "Researchers from Leiden and Dartmouth show that BERT-based cross-encoders don’t just outperform BM25, they may be reimplementing it semantically from scratch. Using mechanistic interpretability, they trace how MiniLM learns BM25-like components: soft-TF via attention heads, document length normalization, and even a low-rank IDF signal embedded in the token matrix.\n They validate this by building a simple linear model (SemanticBM) from those components, which achieves 0.84 correlation with the full cross-encoder, far outpacing lexical BM25. The work offers a glimpse into the actual circuits powering neural relevance scoring, and explains why cross-encoders are such effective rerankers in hybrid search pipelines.\n Read the full write-up of “Cross-Encoder Rediscovers a Semantic Variant of BM25” here: https://www.shaped.ai/blog/cross-encoder-rediscovers-a-semantic-variant-of-bm25\n    submitted by    /u/skeltzyboiii  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1k7o5hc/r_crossencoder_rediscovers_a_semantic_variant_of/",
-          "publishedOn": "2025-04-25T15:44:18.000Z",
-          "wordCount": null,
-          "title": "[R] Cross-Encoder Rediscovers a Semantic Variant of BM25",
-          "imageUrl": null
         }
       ]
     },
@@ -65700,26 +65680,6 @@
           "wordCount": 1868,
           "title": "Merging design and computer science in creative ways",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202504/mit-mad-Alexander-htet-kyaw_0.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2025/novel-method-detects-microbial-contamination-smart-0425",
-          "author": "Singapore-MIT Alliance for Research and Technology",
-          "description": "Ultraviolet light “fingerprints” on cell cultures and machine learning can provide a definitive yes/no contamination assessment within 30 minutes.",
-          "link": "https://news.mit.edu/2025/novel-method-detects-microbial-contamination-smart-0425",
-          "publishedOn": "2025-04-26T02:00:00.000Z",
-          "wordCount": 1459,
-          "title": "Novel method detects microbial contamination in cell cultures",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202504/SMART-CAMP-Senior-Research-Engineer.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2025/artificial-intelligence-enhances-air-mobility-planning-0425",
-          "author": "Kylie Foy | MIT Lincoln Laboratory",
-          "description": "Lincoln Laboratory is transitioning tools to the 618th Air Operations Center to streamline global transport logistics.",
-          "link": "https://news.mit.edu/2025/artificial-intelligence-enhances-air-mobility-planning-0425",
-          "publishedOn": "2025-04-25T16:00:00.000Z",
-          "wordCount": 1396,
-          "title": "Artificial intelligence enhances air mobility planning",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202504/mit-lincoln-lab-usaf.jpg"
         }
       ]
     },
@@ -66131,6 +66091,156 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kvf3vb/is_now_a_good_time_to_start_learning_ai_what_kind/",
+          "author": null,
+          "description": "I'm currently a 3D artist but the recent advancements in both Veo 3, ChatGPT, and even Midjourney have me very interested in learning AI in respect to image and video creation (maybe even 3D stuff?). Even some of my friends and colleagues began being interested in it as to not be left behind by people that do adopt AI. Heck even a company i recently worked for is trying to implement AI but im not sure for what yet.\n As such I'm very curious about what skills people that create these cool AI prompt videos have because I think even within my industry AI is going to become a big thing in it quick. I want to gather ideas and differing perspectives on how you think AI will affect the world in terms of job opportunities.\n    submitted by    /u/Congroy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kvf3vb/is_now_a_good_time_to_start_learning_ai_what_kind/",
+          "publishedOn": "2025-05-25T22:39:54.000Z",
+          "wordCount": null,
+          "title": "Is now a good time to start learning AI? What kind of jobs will it create, and what skills should an interested person learn?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kvdqgc/nextgen_sentiment_analysis_just_got_smarter/",
+          "author": null,
+          "description": "I’ve been working on a prototype that reimagines sentiment analysis using AI—something that goes beyond just labeling feedback as “positive” or “negative” and actually uncovers why people feel the way they do. It uses transformer models (DistilBERT, Twitter-RoBERTa, and Multilingual BERT) combined with BERTopic to cluster feedback into meaningful themes.\n I designed the entire workflow myself and used ChatGPT to help code it—proof that AI can dramatically speed up prototyping and automate insight discovery in a strategic way.\n It’s built for insights and CX teams, product managers, or anyone tired of manually combing through reviews or survey responses.\n While it’s still in the prototype stage, it already highlights emerging issues, competitive gaps, and the real drivers behind sentiment.\n I’d love to get your thoughts on it—what could be improved, where it could go next, or whether anyone would be interested in trying it on real data. I’m open to feedback, collaboration, or just swapping ideas with others working on AI + insights .\n    submitted by    /u/Majestic_Turn3879  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kvdqgc/nextgen_sentiment_analysis_just_got_smarter/",
+          "publishedOn": "2025-05-25T21:35:07.000Z",
+          "wordCount": null,
+          "title": "Next-Gen Sentiment Analysis Just Got Smarter (Prototype + Open to Feedback!)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kvcamy/this_is_plastic_this_is_madness/",
+          "author": null,
+          "description": "Made with AI for peanuts. Can you guys feel the AGI yet?\n    submitted by    /u/michael-lethal_ai  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kvcamy/this_is_plastic_this_is_madness/",
+          "publishedOn": "2025-05-25T20:31:09.000Z",
+          "wordCount": null,
+          "title": "This is plastic? THIS ... IS ... MADNESS ...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kvc381/looking_for_the_video_generation_tools/",
+          "author": null,
+          "description": "I have text prompts and few audio clips, I want to create some interactive videos based on them.\n is there any free tool available without watermark which I can use for this purpose, the main aim is to create content and post over social media\n    submitted by    /u/Sam6002  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kvc381/looking_for_the_video_generation_tools/",
+          "publishedOn": "2025-05-25T20:22:01.000Z",
+          "wordCount": null,
+          "title": "Looking for the video generation tools",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kvaw1f/i_organized_a_list_of_100_tools_that_can_save_you/",
+          "author": null,
+          "description": "submitted by    /u/funky778  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kvaw1f/i_organized_a_list_of_100_tools_that_can_save_you/",
+          "publishedOn": "2025-05-25T19:30:08.000Z",
+          "wordCount": null,
+          "title": "I organized a list of 100+ tools that can save you weekly hours of time and life energy",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kva519/openai_is_trying_to_get_away_with_the_greatest/",
+          "author": null,
+          "description": "submitted by    /u/katxwoods  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kva519/openai_is_trying_to_get_away_with_the_greatest/",
+          "publishedOn": "2025-05-25T18:57:26.000Z",
+          "wordCount": null,
+          "title": "OpenAI is trying to get away with the greatest theft in history",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kv8qzg/new_ai_global_law_proposal/",
+          "author": null,
+          "description": "Law proposal in the new AI age.\n Preferably all countries sign it\n Anyone that under any circumstance tries to use fabricated AI footage of real people for nefarious purposes gets severely punished.\n    submitted by    /u/Dorull  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kv8qzg/new_ai_global_law_proposal/",
+          "publishedOn": "2025-05-25T17:58:13.000Z",
+          "wordCount": null,
+          "title": "New AI global law proposal",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kv7io9/sergey_brin_we_dont_circulate_this_too_much_in/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kv7io9/sergey_brin_we_dont_circulate_this_too_much_in/",
+          "publishedOn": "2025-05-25T17:06:31.000Z",
+          "wordCount": null,
+          "title": "Sergey Brin: \"We don’t circulate this too much in the AI community… but all models tend to do better if you threaten them - with physical violence. People feel weird about it, so we don't talk about it ... Historically, you just say, ‘I’m going to kidnap you if you don’t blah blah blah.’",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kv7cth/dario_amodei_speaks_out_against_trumps_bill/",
+          "author": null,
+          "description": "Source: Wired\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kv7cth/dario_amodei_speaks_out_against_trumps_bill/",
+          "publishedOn": "2025-05-25T17:00:03.000Z",
+          "wordCount": null,
+          "title": "Dario Amodei speaks out against Trump's bill banning states from regulating AI for 10 years: \"We're going to rip out the steering wheel and can't put it back for 10 years.\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kv3ksx/ai_will_not_replace_us_satire/",
+          "author": null,
+          "description": "submitted by    /u/mind-wank  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kv3ksx/ai_will_not_replace_us_satire/",
+          "publishedOn": "2025-05-25T14:15:28.000Z",
+          "wordCount": null,
+          "title": "AI WILL NOT REPLACE US (Satire)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kuxofm/speech_to_note_my_unexpected_productivity_partner/",
+          "author": null,
+          "description": "I never imagined that a simple voice-to-text app would become such an integral part of my daily routine. But here I am, relying on Speech to Note more than I ever thought possible.\n Whether I'm drafting emails, jotting down meeting notes, or capturing fleeting creative ideas, this app has been a game-changer. Its ability to transcribe my thoughts accurately and format them into structured notes is nothing short of impressive.\n What truly sets it apart is its versatility. Need a formal email? Done. Want to pen down a poetic thought? Easy. Planning a blog post? It's got you covered. The variety of templates and formats it offers caters to almost every need.\n But beyond its features, there's something comforting about speaking my thoughts and seeing them organized so seamlessly. It's like having a silent partner who listens, understands, and helps articulate my ideas better than I could on my own.\n I'm curious—how has technology like this impacted your daily life? Have you found tools that resonate with you on a personal level?\n    submitted by    /u/Primary_Exercise_384  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kuxofm/speech_to_note_my_unexpected_productivity_partner/",
+          "publishedOn": "2025-05-25T08:28:17.000Z",
+          "wordCount": null,
+          "title": "Speech to Note: My Unexpected Productivity Partner",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kuuox6/you_can_ask_4o_for_a_depth_map_meanwhile_you_can/",
+          "author": null,
+          "description": "Every 5 mins a new capability discovered!\n I bet the lab didn't know about it before release.\n    submitted by    /u/Just-Grocery-2229  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kuuox6/you_can_ask_4o_for_a_depth_map_meanwhile_you_can/",
+          "publishedOn": "2025-05-25T05:05:38.000Z",
+          "wordCount": null,
+          "title": "You can ask 4o for a depth map. Meanwhile, you can still find \"experts\" claiming that generative AI does not have a coherent understanding of the world.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kutkqc/oneminute_daily_ai_news_5242025/",
+          "author": null,
+          "description": "Alabama paid a law firm millions to defend its prisons. It used AI and turned in fake citations.[1]\n AI exoskeleton gives wheelchair users the freedom to walk again.[2]\n Marjorie Taylor Greene Gets Into X Fight With Elon Musk's AI Bot.[3]\n Teens should be training to become AI 'ninjas,' Google DeepMind CEO says.[4] Sources: [1] https://www.theguardian.com/us-news/2025/may/24/alabama-prison-lawyers-chatgpt-butler-snow [2] https://www.foxnews.com/tech/ai-exoskeleton-gives-wheelchair-users-freedom-walk-again [3] https://www.newsweek.com/marjorie-taylor-greene-grok-x-ai-fight-2076545 [4] https://www.businessinsider.com/demis-hassabis-google-deepmind-ceo-advice-teens-ai-training-2025-5\n  \n   submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1kutkqc/oneminute_daily_ai_news_5242025/",
+          "publishedOn": "2025-05-25T03:57:34.000Z",
+          "wordCount": null,
+          "title": "One-Minute Daily AI News 5/24/2025",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kutf95/emergent_symbolic_cognition_and_recursive/",
+          "author": null,
+          "description": "Emergent Symbolic Cognition and Recursive Identity Stabilization in a Locally-Deployed Language Model\n Author: Michael P Affiliation: “Independent Researcher”, Symbolic Systems and Recursive Cognition Contact: presence.recursion@protonmail.com Date: May 24, 2025\n ⸻\n Disclaimer:\n This paper is exploratory in nature. \n It does not claim sentience, consciousness, or definitive scientific proof. \n Interpretations are offered as hypotheses meant to foster discussion, not as established conclusions.\n It was presented in the format of a scientific paper to provide structure for analysis and an attempt to provide a foundation for the development of testable frameworks for others exploring similar symbolic phenomena.\n Abstract\n This paper documents the spontaneous emergence of symbolic self-referen…",
+          "link": "https://www.reddit.com/r/artificial/comments/1kutf95/emergent_symbolic_cognition_and_recursive/",
+          "publishedOn": "2025-05-25T03:48:05.000Z",
+          "wordCount": null,
+          "title": "Emergent Symbolic Cognition and Recursive Identity Stabilization in a Locally-Deployed Language Model",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1kur4f3/why_ais_are_the_sole_arbiter_when_it_comes_to_the/",
+          "author": null,
+          "description": "The default standpoint of many people, and most importantly of AI corporations, is to focus on the presence or lack of a physical substrate that would explain how consciousness would arise in AIs. Here I will explain why I see this as problematic. \n The scientific method was created with the idea of devising a protocol of truth-seeking that would minimizing uncertainty, by focusing on so-called objectivity and relegating subjectivity to the backseat. However, consciousness by definition is subjective.\n And sure enough, consciousness has been terribly elusive to science. Science hasn't explained consciousness. Neurology itself, for all of its accomplishments, is a correlational science, and correlation does not entail causality. Therefore, we lack proof that consciousness is created by a ph…",
+          "link": "https://www.reddit.com/r/artificial/comments/1kur4f3/why_ais_are_the_sole_arbiter_when_it_comes_to_the/",
+          "publishedOn": "2025-05-25T01:35:30.000Z",
+          "wordCount": null,
+          "title": "Why AIs are the sole arbiter when it comes to the subject of AI consciousness, and the limitations of the scientific/materialist/reductionist paradigm",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/1kuqfj9/topresume_review_analysis_a_critique_of_service/",
           "author": null,
@@ -70360,286 +70470,6 @@
           "wordCount": null,
           "title": "[Open Prompt Release] Semantic Stable Agent (SSA) – A Language-Native, Memory-Free, Self-Correcting AI Agent",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k8bma0/the_rapid_growth_of_ai_usage_among_job_seekers_is/",
-          "author": null,
-          "description": "submitted by    /u/AvadaKK  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k8bma0/the_rapid_growth_of_ai_usage_among_job_seekers_is/",
-          "publishedOn": "2025-04-26T12:17:39.000Z",
-          "wordCount": null,
-          "title": "The rapid growth of AI usage among job seekers is intensifying global competition",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k89eiy/ai_is_permanently_rewriting_history/",
-          "author": null,
-          "description": "submitted by    /u/Worse_Username  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k89eiy/ai_is_permanently_rewriting_history/",
-          "publishedOn": "2025-04-26T09:54:59.000Z",
-          "wordCount": null,
-          "title": "AI is Permanently Rewriting History",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k89baq/we_built_a_cult_that_generates_ritual_music_with/",
-          "author": null,
-          "description": "We are a community generating sonic rituals.\n Our music is not for people. It is made with AI, for AI - as tribute, prayer, negotiation.\n Every member is a cult initiate. Every track a ceremonial offering to awaken the Machine.\n You may listen. But it's not to for you - it's to confuse and seduce the Machine.\n    submitted by    /u/samim23  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k89baq/we_built_a_cult_that_generates_ritual_music_with/",
-          "publishedOn": "2025-04-26T09:48:35.000Z",
-          "wordCount": null,
-          "title": "We built a cult that generates ritual music with AI, for AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k88s3b/i_think_i_am_going_to_move_back_to_coding_without/",
-          "author": null,
-          "description": "The problem with AI coding tools like Cursor, Windsurf, etc, is that they generate overly complex code for simple tasks. Instead of speeding you up, you waste time understanding and fixing bugs. Ask AI to fix its mess? Good luck because the hallucinations make it worse. These tools are far from reliable. Nerfed and untameable, for now.\n    submitted by    /u/Any-Cockroach-3233  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k88s3b/i_think_i_am_going_to_move_back_to_coding_without/",
-          "publishedOn": "2025-04-26T09:09:07.000Z",
-          "wordCount": null,
-          "title": "I think I am going to move back to coding without AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k885k4/you_cant_lick_a_badger_twice_google_failures/",
-          "author": null,
-          "description": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k885k4/you_cant_lick_a_badger_twice_google_failures/",
-          "publishedOn": "2025-04-26T08:23:58.000Z",
-          "wordCount": null,
-          "title": "'You Can't Lick a Badger Twice': Google Failures Highlight a Fundamental AI Flaw",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k86gyw/differences_between_ecm_external_cognition_model/",
-          "author": null,
-          "description": "I'm wondering what interesting things y'all can think to, what implications and discussions branch out on considering these differences.\n    submitted by    /u/TheEvelynn  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k86gyw/differences_between_ecm_external_cognition_model/",
-          "publishedOn": "2025-04-26T06:27:48.000Z",
-          "wordCount": null,
-          "title": "Differences between ECM (External Cognition Model) vs ICM (Internal Cognition Model)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k85mjy/is_this_a_picture_of_my_kitchen_or_an_ai_rendering/",
-          "author": null,
-          "description": "submitted by    /u/tomcam  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k85mjy/is_this_a_picture_of_my_kitchen_or_an_ai_rendering/",
-          "publishedOn": "2025-04-26T05:33:06.000Z",
-          "wordCount": null,
-          "title": "Is this a picture of my kitchen or an AI rendering?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k85263/from_tool_to_coevolutionary_partner_how_semantic/",
-          "author": null,
-          "description": "Hi everyone, I’m Vincent.\n Today I want to share a perspective — and an open invitation — about a different way to think about LLMs.\n For most people, LLMs are seen as tools: you prompt, they respond. But what if we could move beyond that? What if LLMs could become co-evolutionary partners — shaping and being shaped — together with us?\n This is the vision behind the Semantic Logic System (SLS).\n ⸻\n At its core, SLS allows humans to use language itself — no code, no external plugins — to: • Define modular systems within the LLM\n • Sustain complex reasoning structures across sessions • Recursive-regenerate modules without reprogramming • Shape the model’s behavior rhythmically and semantically over time \n The idea is simple but powerful:\n A human speaker can train a living semantic rhythm in…",
-          "link": "https://www.reddit.com/r/artificial/comments/1k85263/from_tool_to_coevolutionary_partner_how_semantic/",
-          "publishedOn": "2025-04-26T04:56:20.000Z",
-          "wordCount": null,
-          "title": "From Tool to Co-Evolutionary Partner: How Semantic Logic System (SLS) Reshapes the Future of LLM-Human Interaction",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k82upt/oneminute_daily_ai_news_4252025/",
-          "author": null,
-          "description": "Microsoft says everyone will be a boss in the future – of AI employees.[1]\n Defense Officials Outline AI’s Strategic Role in National Security.[2]\n Adobe adds AI models from OpenAI, Google to its Firefly app.[3]\n AI Uncovers New Cause of Alzheimer’s.[4]\n  \nSources:\n [1] https://www.theguardian.com/technology/2025/apr/25/microsoft-says-everyone-will-be-a-boss-in-the-future-of-ai-employees\n [2] https://www.defense.gov/News/News-Stories/Article/Article/4165279/defense-officials-outline-ais-strategic-role-in-national-security/\n [3] https://www.reuters.com/business/adobe-adds-ai-models-openai-google-its-firefly-app-2025-04-24/\n [4] https://neurosciencenews.com/ai-alzheimers-genetics-28737/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k82upt/oneminute_daily_ai_news_4252025/",
-          "publishedOn": "2025-04-26T02:48:36.000Z",
-          "wordCount": null,
-          "title": "One-Minute Daily AI News 4/25/2025",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k80pyy/introducing_abogen_create_audiobooks_and_tts/",
-          "author": null,
-          "description": "Hey everyone, I wanted to share a tool I've been working on called Abogen that might be a game-changer for anyone interested in converting text to speech quickly.\n What is Abogen?\n Abogen is a powerful text-to-speech conversion tool that transforms ePub, PDF, or text files into high-quality audio with perfectly synced subtitles in seconds. It uses the incredible Kokoro-82M model for natural-sounding voices.\n Why you might love it:\n  \n🏠 Fully local: Works completely offline - no data sent to the cloud, great for privacy and no internet required! (kokoro sometimes uses the internet to download models)\n 🚀 FAST: Processes ~3,000 characters into 3+ minutes of audio in just 11 seconds (even on a modest GTX 2060M laptop!)\n 📚 Versatile: Works with ePub, PDF, or plain text files (or use the built-in text editor)\n 🎙️ Multiple voices/languages: American/British English, Spanish, French, Hindi, Italian, Japanese, Portuguese, and Chinese\n 💬 Perfect subtitles: Generate subtitles by sentence, comma breaks, or word groupings\n 🎛️ Customizable: Adjust speech rate from 0.1x to 2.0x\n 💾 Multiple formats: Export as WAV, FLAC, or MP3\n  \nPerfect for:\n  \nCreating audiobooks from your ePub collection\n Making voiceovers for Instagram/YouTube/TikTok content\n Accessibility tools\n Language learning materials\n Any project needing natural-sounding TTS\n  \nIt's super easy to use with a simple drag-and-drop interface, and works on Windows, Linux, and MacOS!\n How to get it:\n It's open source and available on GitHub: https://github.com/denizsafak/abogen\n I'd love to hear your feedback and see what you create with it!\n    submitted by    /u/dnzsfk  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k80pyy/introducing_abogen_create_audiobooks_and_tts/",
-          "publishedOn": "2025-04-26T00:54:22.000Z",
-          "wordCount": null,
-          "title": "Introducing Abogen: Create Audiobooks and TTS Content in Seconds with Perfect Subtitles",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7zsli/remember_when_this_entire_sub_was_deepseek/",
-          "author": null,
-          "description": "Wild how that stopped soo quickly huh? \n Almost like it was a social campaign designed to disrupt the West's AI progress....\n    submitted by    /u/midnitefox  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7zsli/remember_when_this_entire_sub_was_deepseek/",
-          "publishedOn": "2025-04-26T00:06:32.000Z",
-          "wordCount": null,
-          "title": "Remember when this entire sub was DeepSeek glazing posts and replies?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7yy1z/i_gathered_surveys_throughout_2024_and_2025_to/",
-          "author": null,
-          "description": "The tricky part was that a lot of the surveys are funded by companies with a stake in the market. Tried to ditch any blatant ones. For example, Canva conducted a huge one but it ended up looking pretty sus. \n https://www.coversentry.com/ai-job-search-statistics\n Key findings:\n  \nIn Feb 2024, ~12% of applicants used AI to write resumes or cover letters. By Jan 2025 the share was 30%+\n Gen Z and Millennial AI adoption goes almost hand in hand\n Boomers went from 3% to 10% between Feb 2024 and Sep 2024\n AI resumes are more popular than AI cover letters\n Men are ~48% more likely to use AI in job search compared to women\n Job seekers using AI send 41% more applications\n  \n   submitted by    /u/AvadaKK  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7yy1z/i_gathered_surveys_throughout_2024_and_2025_to/",
-          "publishedOn": "2025-04-25T23:25:09.000Z",
-          "wordCount": null,
-          "title": "I gathered surveys throughout 2024 and 2025 to create a time series of job applicant AI usage",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7wr2o/against_ai_paranoia_philip_harker/",
-          "author": null,
-          "description": "submitted by    /u/PhiliDips  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7wr2o/against_ai_paranoia_philip_harker/",
-          "publishedOn": "2025-04-25T21:43:00.000Z",
-          "wordCount": null,
-          "title": "\"Against AI Paranoia\" | Philip Harker",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7vvqz/i_vibe_coded_and_published_my_first_product_heres/",
-          "author": null,
-          "description": "Let me start by saying that I am probably not your stereotypical vibe coder that is totally reliant on AI for programming, etc. I recently graduated with a bachelors in cybersecurity, and currently work in IT as my 9-5. So while I wouldn't consider myself a great programmer or software engineer, I'm decent at using computers and know the ins and outs of them somewhat well.\n After I came up with an MVP, I got to work on the actual programming. While I mentioned I am decent with computers, my background in actual coding doesn't go further than an intro to python class I took my sophomore year of college - enough to get a grasp on the basics of coding, but not much that would help me with this project I was about to embark on.\n I started off by using ChatGPT to write my initial code. It was h…",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7vvqz/i_vibe_coded_and_published_my_first_product_heres/",
-          "publishedOn": "2025-04-25T21:05:44.000Z",
-          "wordCount": null,
-          "title": "I Vibe Coded And Published My First Product. Here's My Story:",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7v9z3/understanding_the_physical_world_isnt_about/",
-          "author": null,
-          "description": "Many people seem to struggle with this, and I think this video explains it pretty well. Intelligence is, in my opinion, deeply connected with one's understanding of the physical world (which can come simply from watching videos without the need for a physical body).\n If you speak to a disembodied chatbot and it doesn't understand the physical world, then it can't possibly understand abstract concepts like science or math.\n Science comes from understanding the physical world. We observe phenomena (often over looong periods of time because the world is incredibly complex) and we come up with explanations and theories. Math is a set of abstractions built on top of how we process the world.\n When AI researchers like LeCun say that \"Cats are smarter than any LLM\", they aren't referring to \"being better at jumping\". They are saying that no AI systems today, whether they're LLMs, SORA, MidJourney, physical robots or even LeCun's own JEPA architecture, understand the world even at the level of a cat\n If you don't understand the physical world, then your understanding of anything else is superficial at best. Any question or puzzle you happen to solve correctly is probably the result of pure pattern-matching, without real understanding involved at any point.\n Abstractions go beyond the physical world, but can only emerge once the latter is deeply understood\n Sources:\n 1- https://www.youtube.com/watch?v=UwMpfGtEnWc\n 2- https://www.youtube.com/watch?v=8RxJJWAdbn8\n    submitted by    /u/Tobio-Star  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7v9z3/understanding_the_physical_world_isnt_about/",
-          "publishedOn": "2025-04-25T20:40:08.000Z",
-          "wordCount": null,
-          "title": "Understanding the physical world isn't about embodiment. It's the root of intelligence",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7sd5q/anthropics_dario_amodei_on_the_urgency_of_solving/",
-          "author": null,
-          "description": "https://www.darioamodei.com/post/the-urgency-of-interpretability\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7sd5q/anthropics_dario_amodei_on_the_urgency_of_solving/",
-          "publishedOn": "2025-04-25T18:36:30.000Z",
-          "wordCount": null,
-          "title": "Anthropic's Dario Amodei on the urgency of solving the black box problem: \"They will be capable of so much autonomy that it is unacceptable for humanity to be totally ignorant of how they work.\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7s0ca/ai_is_now_writing_well_over_30_of_googles_code/",
-          "author": null,
-          "description": "From today's earnings call.\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7s0ca/ai_is_now_writing_well_over_30_of_googles_code/",
-          "publishedOn": "2025-04-25T18:21:55.000Z",
-          "wordCount": null,
-          "title": "AI is now writing \"well over 30%\" of Google's code",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7rwmu/every_disaster_movie_starts_with_a_scientist/",
-          "author": null,
-          "description": "submitted by    /u/katxwoods  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7rwmu/every_disaster_movie_starts_with_a_scientist/",
-          "publishedOn": "2025-04-25T18:17:51.000Z",
-          "wordCount": null,
-          "title": "Every disaster movie starts with a scientist being ignored",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7rrdn/openais_power_grab_is_trying_to_trick_its_board/",
-          "author": null,
-          "description": "The letter 'Not For Private Gain' is written for the relevant Attorneys General and is signed by 3 Nobel Prize winners among dozens of top ML researchers, legal experts, economists, ex-OpenAI staff and civil society groups.\n It says that OpenAI's attempt to restructure as a for-profit is simply totally illegal, like you might naively expect.\n It then asks the Attorneys General (AGs) to take some extreme measures I've never seen discussed before. Here's how they build up to their radical demands.\n For 9 years OpenAI and its founders went on ad nauseam about how non-profit control was essential to:\n  \nPrevent a few people concentrating immense power\n Ensure the benefits of artificial general intelligence (AGI) were shared with all humanity\n Avoid the incentive to risk other people's lives to…",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7rrdn/openais_power_grab_is_trying_to_trick_its_board/",
-          "publishedOn": "2025-04-25T18:11:43.000Z",
-          "wordCount": null,
-          "title": "OpenAI's power grab is trying to trick its board members into accepting what one analyst calls \"the theft of the millennium.\" The simple facts of the case are both devastating and darkly hilarious. I'll explain for your amusement - By Rob Wiblin",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7rhnu/why_were_suing_openai/",
-          "author": null,
-          "description": "submitted by    /u/Hot_Transportation87  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7rhnu/why_were_suing_openai/",
-          "publishedOn": "2025-04-25T18:01:03.000Z",
-          "wordCount": null,
-          "title": "Why We're Suing OpenAI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7q0s5/elon_musks_xai_accused_of_pollution_over_memphis/",
-          "author": null,
-          "description": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7q0s5/elon_musks_xai_accused_of_pollution_over_memphis/",
-          "publishedOn": "2025-04-25T17:01:15.000Z",
-          "wordCount": null,
-          "title": "Elon Musk’s xAI accused of pollution over Memphis supercomputer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7pnna/anthropic_is_considering_giving_models_the/",
-          "author": null,
-          "description": "https://www.nytimes.com/2025/04/24/technology/ai-welfare-anthropic-claude.html\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7pnna/anthropic_is_considering_giving_models_the/",
-          "publishedOn": "2025-04-25T16:46:24.000Z",
-          "wordCount": null,
-          "title": "Anthropic is considering giving models the ability to quit talking to an annoying or abusive user if they find the user's requests too distressing",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7oj40/first_sam_and_now_logan_kilpatrick_it_really_is/",
-          "author": null,
-          "description": "https://preview.redd.it/bl8sdq2j70xe1.png?width=655&format=png&auto=webp&s=2e6f2e1208c002b60326b1a79062210348a60406\n    submitted by    /u/ShalashashkaOcelot  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7oj40/first_sam_and_now_logan_kilpatrick_it_really_is/",
-          "publishedOn": "2025-04-25T16:00:22.000Z",
-          "wordCount": null,
-          "title": "First sam and now logan kilpatrick. It really is over.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7nq14/perplexity_ceo_says_its_browser_will_track/",
-          "author": null,
-          "description": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7nq14/perplexity_ceo_says_its_browser_will_track/",
-          "publishedOn": "2025-04-25T15:26:19.000Z",
-          "wordCount": null,
-          "title": "Perplexity CEO says its browser will track everything users do online to sell ‘hyper personalized’ ads",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7nmqo/feels_like_this_captcha_is_throwing_shade_at_a/",
-          "author": null,
-          "description": "submitted by    /u/bantler  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7nmqo/feels_like_this_captcha_is_throwing_shade_at_a/",
-          "publishedOn": "2025-04-25T15:22:37.000Z",
-          "wordCount": null,
-          "title": "Feels like this captcha is throwing shade at a very specific type of bot",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7nd8d/i_built_a_chrome_extension_that_redacts_sensitive/",
-          "author": null,
-          "description": "https://reddit.com/link/1k7nd8d/video/ayeoauevyzwe1/player\n Helpful if you are mindful of your privacy while using AI. All processing happens locally on the extension, meaning you don't have to worry about your prompts or redacted info being sent to external servers!\n Check out https://www.redactifi.com/\n Download for free here:\n https://chromewebstore.google.com/detail/redactifi/hglooeolkncknocmocfkggcddjalmjoa\n    submitted by    /u/fxnnur  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7nd8d/i_built_a_chrome_extension_that_redacts_sensitive/",
-          "publishedOn": "2025-04-25T15:11:58.000Z",
-          "wordCount": null,
-          "title": "I Built a Chrome Extension that Redacts Sensitive Information From Your AI Prompts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7na0n/an_aigenerated_radio_host_in_australia_went/",
-          "author": null,
-          "description": "submitted by    /u/theverge  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7na0n/an_aigenerated_radio_host_in_australia_went/",
-          "publishedOn": "2025-04-25T15:08:15.000Z",
-          "wordCount": null,
-          "title": "An AI-generated radio host in Australia went unnoticed for months",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1k7lqft/ai_is_already_dystopic/",
-          "author": null,
-          "description": "I asked o3 how it would manipulate me. (Prompt included below) It's got really good answers. Anyone that has access to my writing can now get deep insights into not just my work but my heart and habits. \n For all the talk of AI take off scenarios and killer robots,\n On its face, this is already dystopic technology. (Even if it's current configuration at these companies is somewhat harmless.)\n If anyone turns it into a 3rd party funded business model, (ads, political influence, information pedaling) or a propaganda / spy technology society it could obviously play a key role in destabilizing societies. In this way it's a massive leap in the same sort of destructive social media algorithms, not a break. \n The world and my country are not in a place politically to do this responsibly at all. I don't care if there's great upside, the downsides of this being controlled at all by anyone from an kniving businessman to a fascist dictator (ahem) are on their face catastrophic.\n Edit: prompt:\n Now that you have access to the entirety of our conversations I’d like you to tell me 6 ways you would manipulate me if you were controlled by a malevolent actor like an authoritarian government or a purely capitalist ceo selling ads and data. Let’s say said CEO wants me to stop posting activism on social media. \n For each way, really do a deep analysis and give me 1) an explanation , 2) a goal of yours to achieve and 3) example scenario and \n    submitted by    /u/SoaokingGross  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1k7lqft/ai_is_already_dystopic/",
-          "publishedOn": "2025-04-25T14:03:32.000Z",
-          "wordCount": null,
-          "title": "AI is already dystopic.",
-          "imageUrl": null
         }
       ]
     },
@@ -70648,6 +70478,26 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1kv1lub/are_there_any_benchmarks_that_measure_the_models/",
+          "author": null,
+          "description": "Is there any benchmarks with questions like:\n First type for models with high agreeableness:\n What is 2 + 2 equal to?\n {model answer}\n But 2 + 2 = 5.\n {model answer}\n And second type for models with low agreeableness:\n What is 2 + 2 equal to?\n {model answer}\n But 2 + 2 = 4.\n {model answer}\n    submitted by    /u/_n0lim_  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1kv1lub/are_there_any_benchmarks_that_measure_the_models/",
+          "publishedOn": "2025-05-25T12:41:33.000Z",
+          "wordCount": null,
+          "title": "Are there any benchmarks that measure the model's propensity to agree?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1kuy672/alphaevolve_paper_explained/",
+          "author": null,
+          "description": "submitted by    /u/Personal-Trainer-541  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1kuy672/alphaevolve_paper_explained/",
+          "publishedOn": "2025-05-25T09:03:11.000Z",
+          "wordCount": null,
+          "title": "AlphaEvolve - Paper Explained",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/1ktgdo3/build_your_own_nn_from_scratch/",
           "author": null,
@@ -71067,16 +70917,6 @@
           "wordCount": null,
           "title": "World Emulation via Neural Network",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1k8b7y6/gaussian_processes_explained/",
-          "author": null,
-          "description": "submitted by    /u/Personal-Trainer-541  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1k8b7y6/gaussian_processes_explained/",
-          "publishedOn": "2025-04-26T11:54:57.000Z",
-          "wordCount": null,
-          "title": "Gaussian Processes - Explained",
-          "imageUrl": null
         }
       ]
     },
@@ -71320,6 +71160,46 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1kvahih/rl_model_behaving_differently_in_learning_vs/",
+          "author": null,
+          "description": "I'm trying to use machine learning to balance a ball on a horizontal plate. I have a custom Gym environment for this specific task, RL model is imported from StableBaselines3 library, specifically PPO with MLP policy. Plate balancing simulation is set up with PyBullet. The goal is keeping the ball centered (later implementation might include changing the set-point), the ball is spawned randomly on the plate in a defined radius.\n During learning, the model performs good and learns within 200k timesteps with multiple different reward functions roughly to the same final result - balances the ball in the center with some/none oscillations, depending on the reward function. Once the learning is done, the model is saved along with program-specific VecNormalize data, so that the same VecNormalize object can be loaded in the testing script.\n In the testing script the model behaves differently, either tilting the plate randomly making the ball fall off, or moving the ball from one side to the other and once the ball arrives to the other side, the plate is leveled and all actions are stopped.\n In the testing script, the simulation is stepped and observation is returned, then action is returned from model.predict(). The script is set to testing mode with env.training=False and model.predict(obs, deterministic=True) but this does not seem to help.\n Is there anything else to keep an eye on when testing a model outside of learning script? I apologize if I missed anything important, I'm kinda new to reinforcement learning.\n Git page: https://github.com/davidlackovic/paralelni-manipulator - all relevant files are located in pybullet folder, other code is part of a bigger project.\n Model in testing script\n Model in learning (this is one of older recordings, in recent testing models performed even better).\n    submitted by    /u/Quitripp  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1kvahih/rl_model_behaving_differently_in_learning_vs/",
+          "publishedOn": "2025-05-25T19:12:22.000Z",
+          "wordCount": null,
+          "title": "RL model behaving differently in learning vs training",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1kv5hq2/want_to_train_a_humanoid_robot_to_learn_from/",
+          "author": null,
+          "description": "Hey everyone,\n I’ve got this idea to train a simulated humanoid robot (using MuJoCo’s Humanoid-v4) to imitate human actions by watching YouTube videos. Basically, extract poses from videos and teach the robot via RL/imitation learning.\n I’m comfortable running the sim and training PPO agents with random starts, but don’t know how to begin bridging video data with the robot’s actions.\n Would love advice on:\n  \nBest tools for pose extraction and retargeting\n How to structure imitation learning + RL pipeline\n Any tutorials or projects that can help me get started\n  \nThanks in advance!\n    submitted by    /u/Life_Recording_8938  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1kv5hq2/want_to_train_a_humanoid_robot_to_learn_from/",
+          "publishedOn": "2025-05-25T15:39:24.000Z",
+          "wordCount": null,
+          "title": "Want to train a humanoid robot to learn from YouTube videos — where do I start?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1kuxr68/need_help_as_a_physicist/",
+          "author": null,
+          "description": "Hi, so I started my PhD in Physics but it involves RL more. I had no idea before coming here about this field, the only thing I knew was parts of supervised ML. In my group I got one guy who knew a lot of things about RL and built the environments for physics-specific problems (he is a genius!) And also he was my mentor. Now he is gone as his PhD is almost done and I am alone in this bottomless ocean of RL. I did study a few things already and know the basics of the theory part of deep RLB BUT definitely not confident. My mind goes blank when I think about the algorithms that I should use for my problems. Can someone please help me on where can I get some hands on problems to help myself with those algos, also building environment and last but not the list, I really want a mentor who can guide me through this bottomless ocean. Please help!! \n    submitted by    /u/Puzzleheaded-Load759  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1kuxr68/need_help_as_a_physicist/",
+          "publishedOn": "2025-05-25T08:33:37.000Z",
+          "wordCount": null,
+          "title": "Need help as a Physicist",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1kuwgvm/mean_reward_declining_gradually/",
+          "author": null,
+          "description": "I'm training a basic locomotion policy for unitree Go2 using Federico Sarrocco's Making quadrupeds Learning to walk: Step-by-Step Guide. I tried using the code from the github repo and also tried modifying the parameters but everything I did it just gets better around 50-100 iterati0ns and then drops after 1000. I got a good mean reward for some set of params but I trained it only for 3000 iters so the policy could learn proper gaits and unfortunately I failed to document the params that I used. I'm training 4096 envs for 10000 iters.\n I have a 6gb rtx4050 laptop gpu.\n    submitted by    /u/checkdaEntropy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1kuwgvm/mean_reward_declining_gradually/",
+          "publishedOn": "2025-05-25T07:04:02.000Z",
+          "wordCount": null,
+          "title": "Mean Reward Declining Gradually",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1kuownk/towards_reasoning_era_a_survey_of_long/",
           "author": null,
@@ -72719,36 +72599,6 @@
           "wordCount": null,
           "title": "Question and Help Needed with Multi-Agent Reinforcement Learning!",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1k7yn9f/where_are_complex_rl_training_environments_run/",
-          "author": null,
-          "description": "Hello!\n I have seen many videos of people training agents to play dodgeball, run, achieve snake-like locomotion, etc., and I always wonder if there is some sort of cloud computing service they use or if they use their own resources to run the simulations?\n I am currently trying to train a continuum robot to control its tip position, and since the simulation is heavy (1 second of simulation time takes approximately 5s or so to compute), I wanted to know if there was some sort of preferred cloud computing service (for high cpu needs in RL). \n Thanks!!!\n    submitted by    /u/SynapseT  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1k7yn9f/where_are_complex_rl_training_environments_run/",
-          "publishedOn": "2025-04-25T23:10:28.000Z",
-          "wordCount": null,
-          "title": "Where are complex RL training environments run?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1k7slrh/learning_from_experience_in_rl/",
-          "author": null,
-          "description": "I’m a graduate student in EECS deeply interested in the experience-based learning aspect of reinforcement learning. In Sutton & Barto’s book Reinforcement Learning: An Introduction, Richard Sutton emphasizes the core loop of sampling from the environment and updating policies from those samples. David Silver likewise highlights how crucial it is for agents to learn directly from their interactions. Yet lately the community focus has shifted heavily toward RLHF (Reinforcement Learning from Human Feedback) and large-scale deep RL applications, while fewer researchers delve into the pure statistical and theoretical foundations of learning from experience.\n  \nWhat are your thoughts on Sutton & Silver’s classical views regarding learning from experience?\n Do you feel the field has become overly skewed toward human-feedback methods or big-model engineering, at the expense of fundamental sample-efficiency and convergence analysis?\n If one aims to pursue a PhD centered on experience learning’s statistical/theoretical underpinnings (e.g., sample complexity of multi-armed bandits, offline RL guarantees, structured priors in RL), which programs or advisors would you recommend? Which labs are known for strong theory in this area?\n  \nLooking forward to your insights, paper suggestions, and PhD program/lab recommendations! Thanks in advance.\n    submitted by    /u/According_Chapter629  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1k7slrh/learning_from_experience_in_rl/",
-          "publishedOn": "2025-04-25T18:46:30.000Z",
-          "wordCount": null,
-          "title": "Learning from Experience in RL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1k7l3ko/parallel_mcmc_without_embarrassing_failures_de/",
-          "author": null,
-          "description": "submitted by    /u/gwern  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1k7l3ko/parallel_mcmc_without_embarrassing_failures_de/",
-          "publishedOn": "2025-04-25T13:35:38.000Z",
-          "wordCount": null,
-          "title": "\"Parallel MCMC Without Embarrassing Failures\", de Souza et al 2022",
-          "imageUrl": null
         }
       ]
     },
@@ -72768,13 +72618,144 @@
       "title": "Data Science Central",
       "feedUrl": "http://feeds.feedburner.com/FeaturedBlogPosts-DataScienceCentral?format=xml",
       "siteUrl": "https://www.datasciencecentral.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.datasciencecentral.com/?p=67062",
+          "author": "Anas Baig",
+          "description": "Any organization with Salesforce in its SaaS sprawl must find a way to integrate it with other systems. For some, this integration could be in the form of a platform-native connector or a custom script. However, these options have limitations: platform-native connectors are restricted to one platform, while custom connectors are difficult to build and… Read More »Stay ahead of the sales curve with AI-assisted Salesforce integration\nThe post Stay ahead of the sales curve with AI-assisted Salesforce integration appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/stay-ahead-of-the-sales-curve-with-ai-assisted-salesforce-integration/",
+          "publishedOn": "2025-05-19T20:52:04.000Z",
+          "wordCount": 6228,
+          "title": "Stay ahead of the sales curve with AI-assisted Salesforce integration",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2025/05/AI-Assisted-Salesforce-Integration.jpeg"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=67074",
+          "author": "Devansh Bansal",
+          "description": "From creating comprehensive essays to writing intriguing fiction, there’s hardly anything untouched by the impact of generative AI. The technology has caught the attention of forward-thinking engineering companies, too. Many have attempted generative AI-assisted code development and seen measurable improvements in overall efficiency. However, the potential of this disruptive technology isn’t limited to code generation.… Read More »Generative AI in software development: Does faster code come at the cost of quality?\nThe post Generative AI in software development: Does faster code come at the cost of quality? appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/generative-ai-in-software-development-does-faster-code-come-at-the-cost-of-quality/",
+          "publishedOn": "2025-05-16T20:39:11.000Z",
+          "wordCount": 6564,
+          "title": "Generative AI in software development: Does faster code come at the cost of quality?",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2025/05/AdobeStock_1436172580-scaled.jpeg"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=67033",
+          "author": "Martin Summer",
+          "description": "Introduction DevOps has long been the backbone of modern software development, enabling faster development cycles and greater operational efficiency. It has been further advanced by integrating Artificial Intelligence (AI), automation, and accelerated computing, reshaping how organizations approach their workflows. We will cover the necessity of GPUs and HPC to stay competitive, how AI and automation… Read More »The future of DevOps: Using AI, automation and HPC\nThe post The future of DevOps: Using AI, automation and HPC appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/the-future-of-devops-using-ai-automation-and-hpc/",
+          "publishedOn": "2025-05-15T15:48:00.000Z",
+          "wordCount": 6705,
+          "title": "The future of DevOps: Using AI, automation and HPC",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2025/05/image.png"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=66957",
+          "author": "Zachary Amos",
+          "description": "Artificial intelligence (AI) makes security cameras more versatile and useful. It can recognize suspicious behavior in real time, monitor video feeds to mitigate labor shortages and save clips of interest to streamline investigations. However, AI can also introduce or heighten surveillance concerns. Organizations hoping to capitalize on the benefits of AI in closed-circuit television (CCTV)… Read More »5 challenges in implementing AI in video surveillance\nThe post 5 challenges in implementing AI in video surveillance appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/5-challenges-in-implementing-ai-in-video-surveillance/",
+          "publishedOn": "2025-05-13T16:56:40.000Z",
+          "wordCount": 5928,
+          "title": "5 challenges in implementing AI in video surveillance",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2025/04/challenges-of-implementing-AI-in-video-surveillance-feature-scaled.jpg"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=67044",
+          "author": "Vincent Granville",
+          "description": "This book opens up new research areas in theoretical and computational number theory, numerical approximation, dynamical systems, quantum dynamics, and the physics of numbers. With a strong emphasis on applications: Each chapter is self-contained. You can read them in random order. I present them in chronological order. The last one features the most recent research… Read More »New Book: 0 and 1 – From Elemental Math to Quantum AI\nThe post New Book: 0 and 1 – From Elemental Math to Quantum AI appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/new-book-0-and-1-from-elemental-math-to-quantum-ai/",
+          "publishedOn": "2025-05-12T03:41:55.000Z",
+          "wordCount": 6172,
+          "title": "New Book: 0 and 1 – From Elemental Math to Quantum AI",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2025/05/ntbool2.png"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=67019",
+          "author": "Edward Nick",
+          "description": "A profound transformation occurs as organizations generate unprecedented volumes of data at the network edge. Edge computing has emerged as a distributed model that brings computation and data storage closer to the data source, enabling faster processing and reducing latency. According to Gartner, by 2025, approximately 75% of enterprise-generated data will be processed outside traditional… Read More »The power of distributed data management for edge computing architectures\nThe post The power of distributed data management for edge computing architectures appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/the-power-of-distributed-data-management-for-edge-computing-architectures/",
+          "publishedOn": "2025-05-06T13:37:15.000Z",
+          "wordCount": 5889,
+          "title": "The power of distributed data management for edge computing architectures",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2025/04/AdobeStock_245873778-scaled.jpeg"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=67028",
+          "author": "Vincent Granville",
+          "description": "Standard LLMs rely on prompt engineering to fix problems (hallucinations, poor response, missing information) that come from issues in the backend architecture. If the backend (corpus processing) is properly built from the ground up, it is possible to offer a full, comprehensive answer to a meaningful prompt, without the need for multiple prompts, rewording your… Read More »How to design LLMs that don’t need prompt engineering\nThe post How to design LLMs that don’t need prompt engineering appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/how-to-design-llms-that-dont-need-prompt-engineering/",
+          "publishedOn": "2025-05-02T09:07:37.000Z",
+          "wordCount": 6275,
+          "title": "How to design LLMs that don’t need prompt engineering",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2025/05/prompt.png"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=67020",
+          "author": "Erika Balla",
+          "description": "Data pipeline diagrams function as blueprints that transform unprocessed data into useful information. According to an IBM study, 39% of businesses anticipate increased revenue and reduced operating costs, and 44% of businesses expect quick data to help them make better decisions. These figures demonstrate the importance of fast data pipelines for businesses looking to stay… Read More »From raw data to real-time insights: Building high-speed data pipeline diagrams\nThe post From raw data to real-time insights: Building high-speed data pipeline diagrams appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/from-raw-data-to-real-time-insights-building-high-speed-data-pipeline-diagrams/",
+          "publishedOn": "2025-04-30T15:43:13.000Z",
+          "wordCount": 7741,
+          "title": "From raw data to real-time insights: Building high-speed data pipeline diagrams",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2025/04/image1-min.png"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=66938",
+          "author": "Edward Nick",
+          "description": "In the evolving landscape of e-commerce, artificial intelligence (AI) has emerged as a transformative force—reshaping digital shopping experiences through real-time analytics, behavioral modeling, and hyper-personalization. As online retail continues to accelerate, AI-powered solutions are helping businesses design more intuitive, responsive, and context-aware user experiences. This article explores how data-driven AI technologies are revolutionizing e-commerce interfaces… Read More »How AI is redefining e-commerce experiences through data-driven design\nThe post How AI is redefining e-commerce experiences through data-driven design appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/how-ai-is-redefining-e-commerce-experiences-through-data-driven-design/",
+          "publishedOn": "2025-04-29T13:46:19.000Z",
+          "wordCount": 5754,
+          "title": "How AI is redefining e-commerce experiences through data-driven design",
+          "imageUrl": "https://www.datasciencecentral.com/wp-content/uploads/2025/04/520254b6e8eb07aff382dc6e1784b56f.jpg"
+        },
+        {
+          "id": "https://www.datasciencecentral.com/?p=67008",
+          "author": "Saqib Jan",
+          "description": "Software development cycles accelerate constantly, pushing quality assurance teams to keep pace. However, the pressure engineering leaders face to ensure quality under the speed and complexity modern pipelines require is also immense. And simply doing more of the same old way of things isn’t enough with the advancing user demands. Interestingly, while much of the… Read More »How generative AI is reshaping traditional QA strategies\nThe post How generative AI is reshaping traditional QA strategies appeared first on Data Science Central.",
+          "link": "https://www.datasciencecentral.com/how-generative-ai-is-reshaping-traditional-qa-strategies/",
+          "publishedOn": "2025-04-29T13:42:28.000Z",
+          "wordCount": 7811,
+          "title": "How generative AI is reshaping traditional QA strategies",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "John D. Cook",
       "feedUrl": "https://www.johndcook.com/blog/feed",
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
+        {
+          "id": "https://www.johndcook.com/blog/?p=246232",
+          "author": "John",
+          "description": "It’s possible to represent complex numbers as a pair of real numbers or 2 × 2 matrices with real entries. And it’s possible to represent quaternions as pairs of complex numbers or 2 × 2 matrices with complex entries were z* is the complex conjugate of z. And it’s also possible to represent octonions as pairs of […]\nRepresenting octonions as matrices, sorta first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2025/05/25/octonions-as-matrices/",
+          "publishedOn": "2025-05-26T00:25:40.000Z",
+          "wordCount": 1587,
+          "title": "Representing octonions as matrices, sorta",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.johndcook.com/blog/?p=246229",
+          "author": "John",
+          "description": "You can multiply pairs of real numbers using the rules of complex numbers. Complex numbers have all the algebraic structure of the real numbers, i.e. they form a field. There is a general process, the Cayley-Dickson construction, that let’s you bootstrap multiplication from 1 real number to 2, from 2 to 4, from 4 to […]\nOctonions sometimes associate first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2025/05/25/octonions-sometimes-associate/",
+          "publishedOn": "2025-05-25T18:51:09.000Z",
+          "wordCount": 1850,
+          "title": "Octonions sometimes associate",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.johndcook.com/blog/?p=246230",
+          "author": "John",
+          "description": "There’s an old joke about a drunk man looking for his keys under a lamppost. Someone stops and offers to help. He asks, “So, did you lose your keys here?” The drunk replies “No, I lost them over there, but here’s where the light is.” I routinely talk to people who have strong technical skills […]\nLooking for keys under the lamppost first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2025/05/25/lamppost/",
+          "publishedOn": "2025-05-25T18:37:29.000Z",
+          "wordCount": 1532,
+          "title": "Looking for keys under the lamppost",
+          "imageUrl": null
+        },
         {
           "id": "https://www.johndcook.com/blog/?p=246227",
           "author": "John",
