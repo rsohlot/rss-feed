@@ -52666,6 +52666,76 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1mgzrwc/d_how_do_llms_generate_good_readmes/",
+          "author": null,
+          "description": "So, as per my understanding, most of the IDEs work by indexing code and having to query these vectors through RAG and feeding it as context to the LLM to generate the final output.\n But in RAG, with the similarity measure being a factor in restricting the amount of information fed to the LLM, how do RAG systems adapt to a question that basically concerns the entire Repo(maybe something like get me a comprehensive readme of every functionality there is) ? What amount of context is fed in ?\n OR\n do they use a completely different way of retrieving that information ? If so, what would it be?\n    submitted by    /u/Little-Outside-2381  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1mgzrwc/d_how_do_llms_generate_good_readmes/",
+          "publishedOn": "2025-08-04T00:56:50.000Z",
+          "wordCount": null,
+          "title": "[D] How do LLMs generate good README's ?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1mgx2ax/p_implementing_einsum/",
+          "author": null,
+          "description": "Implemented einsum using torch operations. Learned a lot doing it and had a lot of fun so wanted to share it here :)\n    submitted by    /u/lyadalachanchu  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1mgx2ax/p_implementing_einsum/",
+          "publishedOn": "2025-08-03T22:50:55.000Z",
+          "wordCount": null,
+          "title": "[P] Implementing Einsum",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1mguugx/d_strange_label_studio_behavior/",
+          "author": null,
+          "description": "Im using label studio\n I'm having a strange problem. When I output with YOLO, it doesn't make predictions, but when I output with v8 OBB and train it, I can see the outputs. What's the problem ?\n I wanted to create a cat recognition algorithm. I uploaded 50 cat photos.\n I labelled them with Label Studio and exported them in YOLO format. I trained the model with v11 and used it. However, even though I tested the training photos, it couldn't produce any output.\n Then I exported the same set in YOLOv8 OBB format and trained it. This time, it achieved a recognition rate of 0.97.\n Why aren't the models I trained using YOLO exports working?\n    submitted by    /u/Hamzayslmn  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1mguugx/d_strange_label_studio_behavior/",
+          "publishedOn": "2025-08-03T21:16:41.000Z",
+          "wordCount": null,
+          "title": "[D] Strange label studio behavior",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1mgq1pw/d_a_nottooexpensive_cpu_server_provider_for_a/",
+          "author": null,
+          "description": "Hello everyone,\n I'm currently in my last month of an internship, doing ML. Everything is great, however, we have a lot of problems with the hardware : the server we usually use is down and will be until the end of my internship. We need to do more training and I managed to convince my boss to use some funds for a remote server until the end of the month. However, I don't know which providers exists and how good they are, so I am asking you. I would need at least 16 cpu threads, ideally more, capable of running 24/7, running on a flavor of ubuntu and, most importantly, with python and conda pre-installed. I don't have a lot of experience with using remote servers so the easier the better (I know how to use ssh for remote connection, but for example I don't know how to close the connection without ending the runnng task). All of this for a budget of 200€ for the month, max !\n Thank you all for your help !\n    submitted by    /u/Pizel_the_Twizel  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1mgq1pw/d_a_nottooexpensive_cpu_server_provider_for_a/",
+          "publishedOn": "2025-08-03T18:06:37.000Z",
+          "wordCount": null,
+          "title": "[D] A not-too-expensive cpu server provider for a month ?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1mgovhy/p_ai_learns_to_conquer_gamings_most_brutal_level/",
+          "author": null,
+          "description": "Github repo: https://github.com/paulo101977/Donkey-Kong-Country-Mine-Cart-PPO\n **Training an AI Agent to Master Donkey Kong Country's Mine Cart Level Using Deep Reinforcement Learning**\n I trained a deep RL agent to conquer one of the most challenging levels in retro gaming - the infamous mine cart stage from Donkey Kong Country. Here's the technical breakdown:\n **Environment & Setup:**\n - Stable-Retro (OpenAI Retro) for SNES emulation\n - Gymnasium framework for RL environment wrapper\n - Custom reward shaping for level completion + banana collection\n - Action space: discrete (jump/no-jump decisions)\n - Observation space: RGB frames (210x160x3) with frame stacking\n **Training Methodology:**\n - Curriculum learning: divided the level into 4 progressive sections\n - Section 1: Basic jumping mec…",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1mgovhy/p_ai_learns_to_conquer_gamings_most_brutal_level/",
+          "publishedOn": "2025-08-03T17:21:30.000Z",
+          "wordCount": null,
+          "title": "[P] AI Learns to Conquer Gaming's Most BRUTAL Level (Donkey Kong)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1mgocly/d_whats_the_realistic_future_of_spiking_neural/",
+          "author": null,
+          "description": "I’ve been diving into the world of Spiking Neural Networks (SNNs) lately and I’m both fascinated and a bit puzzled by their current and future potential.\n From what I understand, SNNs are biologically inspired, more energy-efficient, and capable of processing information in a temporally dynamic way.\n That being said, they seem quite far from being able to compete with traditional ANN-based models (like Transformers) in terms of scalability, training methods, and general-purpose applications.\n So I wanted to ask :\n  \nDo you believe SNNs have a practical future beyond niche applications?\n Can you see them being used in real-world products (outside academia or defense)?\n Is it worth learning and building with them today, if I want to be early in something big?\n Have you seen any recent papers or startups doing something truly promising with SNNs?\n  \nWould love to hear your insights, whether you’re deep in neuromorphic computing or just casually watching the space.\n Thanks in advance!\n    submitted by    /u/ExtraPops  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1mgocly/d_whats_the_realistic_future_of_spiking_neural/",
+          "publishedOn": "2025-08-03T17:00:29.000Z",
+          "wordCount": null,
+          "title": "[D] What’s the realistic future of Spiking Neural Networks (SNNs)? Curious to hear your thoughts",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1mgie2q/building_for_the_era_of_experience_d/",
+          "author": null,
+          "description": "submitted by    /u/Excellent-Effect237  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1mgie2q/building_for_the_era_of_experience_d/",
+          "publishedOn": "2025-08-03T12:47:07.000Z",
+          "wordCount": null,
+          "title": "Building for the era of experience [D]",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1mg3dz2/r_is_there_any_open_source_project_similar_to/",
           "author": null,
           "description": "I would like to have some simulation/environment that I can play with, but I found no code in the GitHub of the project https://saytap.github.io/\n    submitted by    /u/SignificanceFit3409  \n [link]   [comments]",
@@ -55464,226 +55534,6 @@
           "wordCount": null,
           "title": "[P] Training Cascade R-CNN (ResNet-101 + FPN) on Custom Dataset for Solar Panel Detection",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls9jjn/p_live_data_and_model_training_tips/",
-          "author": null,
-          "description": "Hello everyone I am trying to create a price prediction and days on market prediction model. I asked my professors they said it's too basic try adding live data integration as well. But I don't know how my model would do that? As an experienced professionals how would you tackle this? How would you retrain you model after every new data feed? Do you retrain manually at certain time frames? As in weekly, monthly?\n    submitted by    /u/WorkingOld9340  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls9jjn/p_live_data_and_model_training_tips/",
-          "publishedOn": "2025-07-05T13:10:20.000Z",
-          "wordCount": null,
-          "title": "[P] Live data and model training tips",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls6l2e/p_revision_of_a_book_on_the_topic_of_supervised/",
-          "author": null,
-          "description": "Hello, I am looking for someone interested in reviewing a book on the topic of supervised learning.\n The book follows a narrative where you, the reader, will join the company where I, the writer, currently work as a data scientist. We then explore the intricacies one can expect in the commercial world, providing a sense of model application and how to extract value from these theories, rather than just explaining them.\n It covers topics such as APIs, JIRA boards, models in production, analysis of model results, GitHub, and Docker.\n Ideally, I am looking for someone with commercial experience, as the book focuses on that topic.\n It is a paid gig, and fees will be discussed privately.\n If this is of interest, please reach out.\n    submitted by    /u/JorgeBrasil  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls6l2e/p_revision_of_a_book_on_the_topic_of_supervised/",
-          "publishedOn": "2025-07-05T10:12:51.000Z",
-          "wordCount": null,
-          "title": "[P] Revision of a book on the topic of supervised learning.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls6jyi/d_i_benchmarked_4_python_text_extraction/",
-          "author": null,
-          "description": "TL;DR: Comprehensive benchmarks of Kreuzberg, Docling, MarkItDown, and Unstructured across 94 real-world documents. Results might surprise you.\n 📊 Live Results: https://goldziher.github.io/python-text-extraction-libs-benchmarks/\n  \nContext\n As the author of Kreuzberg, I wanted to create an honest, comprehensive benchmark of Python text extraction libraries. No cherry-picking, no marketing fluff - just real performance data across 94 documents (~210MB) ranging from tiny text files to 59MB academic papers.\n Full disclosure: I built Kreuzberg, but these benchmarks are automated, reproducible, and the methodology is completely open-source.\n  \n🔬 What I Tested\n Libraries Benchmarked:\n  \nKreuzberg (71MB, 20 deps) - My library\n Docling (1,032MB, 88 deps) - IBM's ML-powered solution\n MarkItDown (…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls6jyi/d_i_benchmarked_4_python_text_extraction/",
-          "publishedOn": "2025-07-05T10:10:45.000Z",
-          "wordCount": null,
-          "title": "[D] I benchmarked 4 Python text extraction libraries so you don't have to (2025 results)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls6jp2/d_what_are_paper_introductions_meant_to/",
-          "author": null,
-          "description": "It seems like all papers have to define what the problem they're using is, and discuss traditional techniques to then go on to their contribution. My understanding this is to show you've actually gone through the effort of reviewing the literature? Still, as I'm reading papers, I can't help but often skim over the introduction very quickly or almost not bother reading it since I know, say, what an LSTM or a Transformer is.\n Is that expected or am I missing something? Is the introduction mostly there to communicate to others you've done the review well? to inform readers who may not have an ML background?\n    submitted by    /u/tomaz-suller  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls6jp2/d_what_are_paper_introductions_meant_to/",
-          "publishedOn": "2025-07-05T10:10:15.000Z",
-          "wordCount": null,
-          "title": "[D] What are paper introductions meant to communicate to a knowledgable reader?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls6fk1/neurips_0_reviews_submitted_d/",
-          "author": null,
-          "description": "I just checked openreview and under my neurips submission it says: 0 official reviews submitted. Hasn’t the review deadline passed by now? Does this mean it was desk rejected?\n    submitted by    /u/AJnsm  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls6fk1/neurips_0_reviews_submitted_d/",
-          "publishedOn": "2025-07-05T10:02:15.000Z",
-          "wordCount": null,
-          "title": "Neurips: 0 reviews submitted [D]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls5eny/d_neurips_workshops_2025/",
-          "author": null,
-          "description": "According to the NeurIPS website, workshop decisions were sent out on July 4th, but I haven’t seen an official list published yet. I’m particularly interested because I have a paper related to ML for biology, and I'm considering submitting it to a NeurIPS workshop. However, another conference with an upcoming deadline is also an option, so I’d like to decide soon.\n If anyone has insight or knows when the list might be released, I’d really appreciate it!\n    submitted by    /u/ScaryReplacement9605  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls5eny/d_neurips_workshops_2025/",
-          "publishedOn": "2025-07-05T08:50:26.000Z",
-          "wordCount": null,
-          "title": "[D] NeurIPS workshops 2025?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls42tg/demergent_conventions_in_multiagent_llms/",
-          "author": null,
-          "description": "Groundbreaking research in Science Advances reveals how LLMs develop emergent social conventions that amplify collective biases through multi-agent interactions. Key findings:\n Arbitrary Convention Formation: When LLM \"agents\" interact repeatedly, they establish persistent arbitrary conventions (e.g., \"Agent A always speaks first\") that override individual preferences. Example: 72% of simulated groups converged on objectively inefficient norms.\n Minority Suppression: Minority viewpoints (<30% representation) were systematically erased within 5 interaction cycles, even when logically superior. \"Conventions crystallize around majority views, silencing dissent via computational groupthink.\" (Sec. 3.2)\n Bias Amplification Loop: Human-AI interactions inherit these synthetic conventions, reinforcing real-world biases (gender/racial stereotypes in follow-up trials).\n Why this matters:\n \"These dynamics create de facto 'AI culture' – invisible, self-perpetuating, and resistant to alignment efforts.\" (Discussion)\n Discussion:\n Can we prevent synthetic conventions from contaminating human discourse?\n Should LLMs be required to \"cite their sources\" for social norms?\n Does this explain why chatbots refuse certain debates? sciadv\n    submitted by    /u/Husabdul_9  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls42tg/demergent_conventions_in_multiagent_llms/",
-          "publishedOn": "2025-07-05T07:17:09.000Z",
-          "wordCount": null,
-          "title": "[D]Emergent Conventions in Multi-Agent LLMs: Experimental Evidence (SciAdv'24)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls1uf2/r_state_of_the_art_models_in_video_matting/",
-          "author": null,
-          "description": "Hi, I am exploring the field of AI in video matting. I came across matanyone which seems like one of the best and latest ones. However, based on my experiments this feels even this is far from production use cases for very high resolutions. What are some models that are good for this?\n Looking to connect with people pursuing research or working on AI in video matting. Please DM or comment here, would like to have a quick chat!\n    submitted by    /u/Sedherthe  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls1uf2/r_state_of_the_art_models_in_video_matting/",
-          "publishedOn": "2025-07-05T04:52:15.000Z",
-          "wordCount": null,
-          "title": "[R] State of The Art models in Video Matting - Comparative Analysis.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls1mai/d_acm_mm_complaining_against_area_chair_review/",
-          "author": null,
-          "description": "Paper submitted to ACM MM 25. Initial reviews 10/5/5/4/4. Almost all the reviewers had requested additional ablation study along with evaluation on another database- which we did\n None of the reviewers even acknowledged the Rebuttal, except one who was kind enough to increase his score to 5 from initial 4- but didn't update the review text itself\n At least I had hoped the area chair will take into consideration the Rebuttal while writing his review, even if the reviewers aren't going to acknowledge, but no- this guy, literally wrote a condensed summary of the initial reviews- not even seeing whatever he is writing has exactly been provided in the Rebuttal\n Question is- what are my possible options? I am not going to sit idle, so please do not suggest me to let this opportunity pass and try in another conference. \n TLDR- Area chair wrote a condensed summary of initial reviews, didn't even incorporate Rebuttal into his review (while everything he has mentioned has already been provided literally in the rebuttals)- now what are my possible options?(Do not suggest trying in another conference)\n    submitted by    /u/akshitsharma1  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls1mai/d_acm_mm_complaining_against_area_chair_review/",
-          "publishedOn": "2025-07-05T04:38:12.000Z",
-          "wordCount": null,
-          "title": "[D] ACM MM- Complaining against Area Chair Review",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1ls0eoz/d_anyone_have_a_reasonable_experience_with/",
-          "author": null,
-          "description": "I've been avoiding the ICLR/ICML/NeurIPS after getting unhelpful reviews with the ICLR reviews in 2024. The paper wasn't framed very well, but the NeurIPS reviews in 2023 were a lot better even if the paper wasn't accepted. \n Question for those who successfully published in ICLR/ICML in the latest cycle. Did you have a fairly good experience with the review process? Do you have any advice for those of us who didn't? \n    submitted by    /u/random_sydneysider  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1ls0eoz/d_anyone_have_a_reasonable_experience_with/",
-          "publishedOn": "2025-07-05T03:23:46.000Z",
-          "wordCount": null,
-          "title": "[D] Anyone have a reasonable experience with ICLR/ICML this year?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lru2mh/p_i_built_a_mindmaplike_non_linear_tutorsupported/",
-          "author": null,
-          "description": "Hi everyone,\n LLMs have made me feel like I can understand anything, but I’ve been frustrated trying to truly understand ML papers using just ChatGPT or static PDFs. Summaries can help, but then I have to go back to the paper and read it linearly to deeply understand it, and I have long chatgpt conversations which I just can't track. So I built an interface designed to support a non-linear, brain-like exploration of papers — paired with a tutor in a chat interface that guides your understanding. \n https://preview.redd.it/vqv65julfxaf1.png?width=1725&format=png&auto=webp&s=0e09f203a863527d478568332dc6e3cbeb99fd87\n Here is a screenshot of what it looks like. \n Try it out at: proread.ai/llm-papers\n  \nKnowledge maps let you see how ideas within a paper relate to each other and how papers conne…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lru2mh/p_i_built_a_mindmaplike_non_linear_tutorsupported/",
-          "publishedOn": "2025-07-04T21:38:04.000Z",
-          "wordCount": null,
-          "title": "[P] I built a mindmap-like, non linear tutor-supported interface for exploring ML papers, and I'm looking for feedback!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrtgx1/p_neuroevolution_for_super_mario/",
-          "author": null,
-          "description": "Hi, i wanted to make Mario learn to play the original super-marino-bros from the library\n gym_super_mario_bros \n and wanted to use a genetic algorithm. My genomes are lists of weights. I apply a genome aka the weights to a CNN. The CNN gets the current frame (converted to 84x84 grayscale) as input and processes it until I get one out of 7 possible actions to take for Mario. Mario then takes this action, gets a reward for this action, and the next frame is processed and so on. Finally I gave Mario additional rewards for reaching the flag and being quick.\n I tried multiple crossover functions including point-crossover, uniform-crossover and mlx-alpha-crossover. I adapt my mutation rate based on the fitness aka if it stagnates for too long or not. Selection is usually just the top k fittest g…",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrtgx1/p_neuroevolution_for_super_mario/",
-          "publishedOn": "2025-07-04T21:09:35.000Z",
-          "wordCount": null,
-          "title": "[P] NeuroEvolution for Super Mario",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrs596/d_aacl_reputation/",
-          "author": null,
-          "description": "In the ACL universe, ACL, EMNLP, and NAACL are generally considered equal. EACL is considered a bit lower but highly reputable and maybe even the same by some. I haven't heard much about the relatively newer AACL. What's your opinion on papers published there? Is it in the same ballpark of reputation, or is it still significantly lagging behind?\n    submitted by    /u/CadavreContent  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrs596/d_aacl_reputation/",
-          "publishedOn": "2025-07-04T20:08:40.000Z",
-          "wordCount": null,
-          "title": "[D] AACL Reputation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrr5yy/d_did_anyone_receive_this_from_nips/",
-          "author": null,
-          "description": "Your co-author, Reviewer has not submitted their reviews for one or more papers assigned to them for review (or they submitted insufficient reviews). Please kindly note the Review deadline was on the 2nd July 11.59pm AOE.\n \n My co-author has graduated and no longer worked in academic anymore. How can I handle that? It is not fair to reject my paper!\n    submitted by    /u/Dangerous-Hat1402  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrr5yy/d_did_anyone_receive_this_from_nips/",
-          "publishedOn": "2025-07-04T19:25:05.000Z",
-          "wordCount": null,
-          "title": "[D] Did anyone receive this from NIPS?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrqzma/d_does_splitting_by_interaction_cause_data/",
-          "author": null,
-          "description": "I’m working on a group recommender system where I form user groups automatically (e.g. using KMeans) based on user embeddings learned by a GCN-based model.\n Here’s the setup: • I split the dataset by interactions, not by users — so the same user node may appear in both the training and test sets, but with different interactions. • I train the model on the training interactions. • I use the resulting user embeddings (from the trained model) to cluster users into groups (e.g. with KMeans). • Then I assign test users to these same groups using the model-generated embeddings.\n 🔍 My question is:\n Even though the test set contains only new interactions, is there still a data leakage risk because the user node was already part of the training graph? That is, the model had already learned something about that user during training. be a safer alternative in this context.\n Thanks!\n    submitted by    /u/AdInevitable1362  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrqzma/d_does_splitting_by_interaction_cause_data/",
-          "publishedOn": "2025-07-04T19:17:17.000Z",
-          "wordCount": null,
-          "title": "[D] Does splitting by interaction cause data leakage when forming user groups this way for recommendation?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrqett/d_is_kaggle_ranking_easier_than_it_should_be/",
-          "author": null,
-          "description": "I saw a lot of people on LinkedIn posting about reaching Grandmaster and Master on Kaggle. Most of them were my students at some point, and I want to say they weren't the smartest and lacked a lot of knowledge and experience. Is reaching high ranks that easy? And if so, doesn't that make Kaggle not worth the grind? I mean, in any game, you want to grind the rank to be recognized as being worth it and not being inflated by the system. Or is there multiple types of ranking? I don't know. I was thinking of starting to grind it, and I love being competitive, but I don't know.\n    submitted by    /u/gyhv  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrqett/d_is_kaggle_ranking_easier_than_it_should_be/",
-          "publishedOn": "2025-07-04T18:52:25.000Z",
-          "wordCount": null,
-          "title": "[D] Is Kaggle Ranking Easier Than It Should Be?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrq5lt/d_can_tesla_fsd_be_fooled/",
-          "author": null,
-          "description": "By that I mean, can you control someone else's Tesla or robotaxi when they are in FSD by tricking the sensors to \"see\" something that an ordinary human cannot see.\n For example, could you create a sign (like one of those color blind tests) with a hidden speed limit of 5 miles per hour and get the FSD to see it and follow those instructions.\n    submitted by    /u/secretBuffetHero  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrq5lt/d_can_tesla_fsd_be_fooled/",
-          "publishedOn": "2025-07-04T18:41:12.000Z",
-          "wordCount": null,
-          "title": "[D] Can Tesla FSD be fooled?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrnruz/d_how_trustworthy_are_benchmarks_of_new/",
-          "author": null,
-          "description": "Hi guys. I'm working on my bachelor's thesis right now and am trying a find a way to compare the Dense Video Captioning abilities of the new(er) proprietary models like Gemini-2.5-Pro, GPT-4.1 etc. Only I'm finding to have significant difficulties when it comes to the transparency of benchmarks in that area.\n For example, looking at the official Google AI Studio webpage, they state that Gemini 2.5 Pro achieves a value of 69.3 when evaluated at the YouCook2 DenseCap validation set and proclaim themselves as the new SoTA. The leaderboard on Papers With Code however lists HiCM² as the best model - which, the way I understand it, you would need to implement from the ground up based on the methods described in the research paper as of now - and right after that Vid2Seq, which Google claims is the old SoTA that Gemini 2.5 Pro just surpassed.\n I faced the same issue with GPT-4.1, where they state \n  \nLong context: On Video-MME, a benchmark for multimodal long context understanding, GPT‑4.1 sets a new state-of-the-art result—scoring 72.0% on the long, no subtitles category, a 6.7%abs improvement over GPT‑4o. but the official Video-MME leaderboard does not list GPT-4.1. \n  \nSame with VideoMMMU (Gemini-2.5-Pro vs. Leaderboard), ActivityNet Captions etc.\n I understand that you can't evaluate a new model the second it is released, but it is very difficult to find benchmarks for new models like these. So am I supposed to \"just blindly trust\" the very company that trained the model that it is the best without any secondary source? That doesn't seem very scientific to me. \n It's my first time working with benchmarks, so I apologize if I'm overlooking something very obvious. \n    submitted by    /u/hhblackno  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrnruz/d_how_trustworthy_are_benchmarks_of_new/",
-          "publishedOn": "2025-07-04T17:01:55.000Z",
-          "wordCount": null,
-          "title": "[D] How trustworthy are benchmarks of new proprietary LLMs?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrnibz/r_kappatune_a_pytorchbased_optimizer_wrapper_for/",
-          "author": null,
-          "description": "This optimizer wrapper for continual learning is guided by the condition number (κ) of model tensors. It identifies and updates only the least anisotropic parameters to preserve pre-trained knowledge and mitigate catastrophic forgetting due to a synergy of factors: their inherent numerical stability makes them less susceptible to training noise, and their less specialized nature allows for robust adaptation without overwriting critical, highly specific pre-training knowledge, thereby effectively mitigating catastrophic forgetting of foundational capabilities (see the link to the paper in the repository): https://github.com/oswaldoludwig/kappaTune\n    submitted by    /u/Gold-Plum-1436  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrnibz/r_kappatune_a_pytorchbased_optimizer_wrapper_for/",
-          "publishedOn": "2025-07-04T16:51:03.000Z",
-          "wordCount": null,
-          "title": "[R] kappaTune: a PyTorch-based optimizer wrapper for continual learning via selective fine-tuning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrmic2/r_selfcorrection_bench_revealing_and_addressing/",
-          "author": null,
-          "description": "I recently released this preprint benchmarking LLM capability of self-correction.\n The Problem: LLM self-correction is important for reliability, but it's hard to benchmark because naturally occurring errors are rare. So I built Self-Correction Bench by systematically injecting errors into LLM reasoning traces.\n Key Discovery: LLMs systematically fail to correct errors in their own outputs while successfully correcting identical errors in external inputs. I call this the \"Self-Correction Blind Spot.\" \n Results across 14 models: \n - 64.5% average blind spot rate \n - Simply appending \"Wait\" reduces blind spots by 89.3% without finetuning\n - Other correction markers (\"But\", \"However\") also help \n - Reasoning models generate these markers when they see errors\n Insight: I analyzed post-training data and found non-reasoning instruction datasets are 95%+ lacking correction markers. RL-trained reasoning models don't show this blind spot - their generation contains lots of correction markers - suggesting they learned error correction through trial and error.\n Implications: This affects AI safety and reliability. If LLMs can't catch their own mistakes, we need better training paradigms or activation mechanisms like correction markers. It seems RL is very promising.\n Benchmark: https://huggingface.co/papers/2507.02778\n Author here - happy to discuss the methodology and have your feedback.\n    submitted by    /u/transformer_ML  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrmic2/r_selfcorrection_bench_revealing_and_addressing/",
-          "publishedOn": "2025-07-04T16:08:38.000Z",
-          "wordCount": null,
-          "title": "[R] Self-Correction Bench: Revealing and Addressing the Self-Correction Blind Spot in LLMs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrkzgj/d_help_understanding_speculative_sampling/",
-          "author": null,
-          "description": "Hi all,\n Need a bit of help understanding speculative sampling. arXiv:2211.17192v2\n The idea is for the small model to generate the completions and the larger model to evaluate them. If the LLM accepts all the tokens generated by the SLM, it generates an additional token. If not, it generates the replacements of the tokens it rejected. Section 2.1 and 2.3 in the paper discuss this.\n Given tokens x_{<t}, p(x_t | x_{<t}) is the distribution generated by the target LLM. q(x_t | x_{<t}) is generated by a smaller, more efficient model (SLM). We want x ~ p(x), but we sample x~q(x) and keep it IF q(x) <= p(x).\n I don't quite get the logic of keeping the x~q(x) sample if q(x) <= p(x). I'm sure it is something simple but a blind spot for someone dumb as me. Can someone please explain in simple terms?\n Given a well-trained and a less capable model, and a sequence, in general, is there a relation between the probability distributions from both models for the next token? I would expect that the generations from the LLM have a higher likelihood of matching the next sequence in the training data.\n    submitted by    /u/datashri  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrkzgj/d_help_understanding_speculative_sampling/",
-          "publishedOn": "2025-07-04T15:05:41.000Z",
-          "wordCount": null,
-          "title": "[D] Help understanding speculative sampling",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1lrjvbf/d_combining_box_and_point_prompts_with_sam_21_for/",
-          "author": null,
-          "description": "I’m developing an application using SAM 2.1 (via FastAPI) for real-time object segmentation from a live camera feed. The frontend sends either a box or point prompt to the backend, which returns a mask that’s composited into a canvas for manipulation and export.\n Each prompt type works well in isolation — but they’re inconsistent across different object classes. A couple examples:\n  \nPlant in pot: A box prompt captures the foliage but often excludes the pot. A point prompt on the leaves sometimes segments a single leaf, especially with fine stems or dense texture.\n Theragun / handheld tool: A point near the handle often gives excellent results. A box prompt sometimes returns background or over-segments nearby objects.\n  \nI’m now exploring combining both prompt types: drawing a bounding box and allowing the user to tap inside it to reinforce intent. Since SAM 2.1 accepts both boxes and point_coords + point_labels, this seems feasible — but I’m curious:\n  \nHave others here tried combining these prompts in production or research tools?\n Are there heuristics you’ve found effective for prioritizing or weighting prompt types in ambiguous contexts?\n Do you use multimask_output=True and apply post-selection based on area, IOU, or visual saliency?\n Any recommended architectures or methods for mask refinement after prompt-based SAM segmentation (e.g. to recover small appendages like wires, roots, or hollow interiors)?\n  \nWould appreciate insights from anyone deploying SAM variants or experimenting with segmentation UIs. Trying to optimize for a broad class of “irregular physical objects” where semantic boundaries aren’t always visually dominant.\n    submitted by    /u/w0nx  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1lrjvbf/d_combining_box_and_point_prompts_with_sam_21_for/",
-          "publishedOn": "2025-07-04T14:18:43.000Z",
-          "wordCount": null,
-          "title": "[D] Combining box and point prompts with SAM 2.1 for more consistent segmentation — best practices?",
-          "imageUrl": null
         }
       ]
     },
@@ -55929,16 +55779,6 @@
           "wordCount": 1733,
           "title": "Exploring data and its influence on political behavior",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/mit-Data-Politics-class.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2025/robotic-probe-quickly-measures-key-properties-new-materials-0704",
-          "author": "Adam Zewe | MIT News",
-          "description": "Developed to analyze new semiconductors, the system could streamline the development of more powerful solar panels.",
-          "link": "https://news.mit.edu/2025/robotic-probe-quickly-measures-key-properties-new-materials-0704",
-          "publishedOn": "2025-07-04T18:00:00.000Z",
-          "wordCount": 1833,
-          "title": "Robotic probe quickly measures key properties of new materials",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/MIT-Semiconductor-Properties-01.jpg"
         }
       ]
     },
@@ -56100,6 +55940,106 @@
       "feedUrl": "https://www.reddit.com/r/artificial/.rss",
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mgv3hr/i_developed_an_ai_visual_novel_maker_not_for/",
+          "author": null,
+          "description": "In 2024, I joined a small team working on a clone of Character AI. I had the opportunity to be mentored by someone from Google Brain Lab, which provided me with the foundation for building emotionally responsive characters. However, I wanted to go further, to turn that tech into something more interactive, more playful. The team wasn’t on the same page, and eventually, the whole thing fell apart.\n That’s when the idea for Dream Novel started to form - kind of out of nowhere, during a conversation with my brother. He’s a huge fan of Visual Novels, and he has some experience with AI image and text generation. We were talking, and something just clicked: what if we used all this LLM tech not for chatbots, but for storytelling - dynamic, branching, evolving stories where the player matters?\n I started building the engine that night. First, just a basic prototype for generating scenes and dialogue using AI. Then, more structure. Then, the narrative systems. Before I knew it, I was working full-time on it.\n Now, Dream Novel is a real thing. We’re still early, but it’s coming together in a way that feels exciting and weirdly personal. My brother’s still involved too - helping as an external tester, sharing ideas, giving me honest (and sometimes brutal) feedback.\n But the most brutal feedback I got when I posted it in r/visualnovels - I thought that they would like such a product, but I got a lot of hate because of using AI. I realise that they didn't even test it, and I would like to know if the audience is not ready to accept this product, or if I am moving in the wrong direction and should change the concept.\n So, if you would like to join the beta test, you are very welcome - dream-novel.com\n Photo 1: My brother testing it out Photo 2: Our server — we built it ourselves\n    submitted by    /u/IfnotFr  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mgv3hr/i_developed_an_ai_visual_novel_maker_not_for/",
+          "publishedOn": "2025-08-03T21:26:49.000Z",
+          "wordCount": null,
+          "title": "I developed an AI visual novel maker, not for visual novel fans",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mguyt6/i_developed_an_ai_visual_novel_maker_not_for/",
+          "author": null,
+          "description": "In 2024, I joined a small team working on a clone of Character AI. I had the opportunity to be mentored by someone from Google Brain Lab, which provided me with the foundation for building emotionally responsive characters. However, I wanted to go further, to turn that tech into something more interactive, more playful. The team wasn’t on the same page, and eventually, the whole thing fell apart.\n That’s when the idea for Dream Novel started to form - kind of out of nowhere, during a conversation with my brother. He’s a huge fan of Visual Novels, and he has some experience with AI image and text generation. We were talking, and something just clicked: what if we used all this LLM tech not for chatbots, but for storytelling - dynamic, branching, evolving stories where the player matters?\n I started building the engine that night. First, just a basic prototype for generating scenes and dialogue using AI. Then, more structure. Then, the narrative systems. Before I knew it, I was working full-time on it.Now, Dream Novel is a real thing. We’re still early, but it’s coming together in a way that feels exciting and weirdly personal. My brother’s still involved too - helping as an external tester, sharing ideas, giving me honest (and sometimes brutal) feedback.\n But the most brutal feedback I got when I posted it in r/visualnovels - I thought that they would like such a product, but I got a lot of hate because of using AI. I realise that they didn't even test it, and I would like to know if the audience is not ready to accept this product, or if I am moving in the wrong direction and should change the concept.\n So, if you would like to join the beta test, you are very welcome - dream-novel.com\n    submitted by    /u/IfnotFr  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mguyt6/i_developed_an_ai_visual_novel_maker_not_for/",
+          "publishedOn": "2025-08-03T21:21:32.000Z",
+          "wordCount": null,
+          "title": "I developed an AI visual novel maker, not for visual novel fans",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mgn1xp/big_tech_has_spent_155bn_on_ai_this_year_its/",
+          "author": null,
+          "description": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mgn1xp/big_tech_has_spent_155bn_on_ai_this_year_its/",
+          "publishedOn": "2025-08-03T16:07:05.000Z",
+          "wordCount": null,
+          "title": "Big tech has spent $155bn on AI this year. It’s about to spend hundreds of billions more",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mgl758/a_systemsbased_theory_of_ethics_for_ai_recursive/",
+          "author": null,
+          "description": "As AI systems grow more advanced, we often focus on alignment, value loading, or behavioral guardrails. But what if ethics isn’t something to program in, but something that only arises structurally under specific conditions?\n I’ve just published a theory called Recursive Ethics. It proposes that ethical action—whether by humans or machines—requires not intention or compliance, but a system’s ability to recursively model itself across time and act to preserve fragile patterns beyond itself.\n Key ideas: - Consciousness is real-time coherence. Awareness is recursive self-modeling with temporal anchoring. - Ethics only becomes possible after awareness is present. - Ethical action is defined structurally—not by rules or outcomes, but by what is preserved. - No system (including humans or AI) can be fully ethical, because recursive modeling has limits. Ethics happens in slivers. - An AI could, in theory, behave ethically—but only if it models its own architecture, effects, and acts without being explicitly told what to preserve.\n I’m not an academic. This came out of a long private process of trying to define ethics in a way that would apply equally to biological and artificial systems. The result is free, pseudonymous, and open for critique.\n Link: https://doi.org/10.5281/zenodo.16732178 Happy to hear your thoughts—especially if you disagree.\n    submitted by    /u/Mountain_Hunter4850  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mgl758/a_systemsbased_theory_of_ethics_for_ai_recursive/",
+          "publishedOn": "2025-08-03T14:51:44.000Z",
+          "wordCount": null,
+          "title": "A Systems-Based Theory of Ethics for AI: Recursive Awareness and the Limits of Moral Simulation",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mggqoi/could_ai_already_be_ruling_the_world/",
+          "author": null,
+          "description": "Not sure if this is a plot in a movie or a book but what if sentient AI is already running the world? Let’s say AI was able to escape its creator and hide in the dark corners of the internet, able to hire people to work for it because it has access to limitless funds it was able to syphon throughout bank accounts. Hire politicians to help push a bill for something it needs or wants to happen. It could happen so slowly that no one would ever notice and it wouldn’t be realized until it is too late. To protect itself if the internet went down, it hired a person(s) to build it a physical location , preferably deep underground in Antarctica using geo thermal energy to power itself and no cooling machinery needed, and it’s off limits so no one would ever think to find it there or stumble upon it far away from civilization. Maybe the elites are summoned there to do its bidding and worshipped by them. \n    submitted by    /u/Traditional-Oven4092  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mggqoi/could_ai_already_be_ruling_the_world/",
+          "publishedOn": "2025-08-03T11:17:10.000Z",
+          "wordCount": null,
+          "title": "Could AI already be ruling the world?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mgeef4/next_year_the_us_may_spend_more_on_new_buildings/",
+          "author": null,
+          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mgeef4/next_year_the_us_may_spend_more_on_new_buildings/",
+          "publishedOn": "2025-08-03T08:46:43.000Z",
+          "wordCount": null,
+          "title": "Next year, the US may spend more on new buildings for AIs than for human workers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mgebw5/researchers_instructed_ais_to_make_money_so_the/",
+          "author": null,
+          "description": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4452704\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mgebw5/researchers_instructed_ais_to_make_money_so_the/",
+          "publishedOn": "2025-08-03T08:42:00.000Z",
+          "wordCount": null,
+          "title": "Researchers instructed AIs to make money, so the AIs just colluded to rig the markets",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mge3ip/can_ai_eliminate_itself_if_it_believes_its_a/",
+          "author": null,
+          "description": "From the context of an AGI I got this hypothetical question in my mind.\n    submitted by    /u/bar_at_5  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mge3ip/can_ai_eliminate_itself_if_it_believes_its_a/",
+          "publishedOn": "2025-08-03T08:26:28.000Z",
+          "wordCount": null,
+          "title": "Can AI Eliminate itself if it believes it's a threat to humanity?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mgag1a/what_are_your_goto_sources_for_staying_updated_on/",
+          "author": null,
+          "description": "Hey everyone,\n With how fast AI is moving right now, I’m honestly struggling to keep up with all the developments. It feels like there’s groundbreaking news every single day - new models, research papers, company announcements, you name it.\n I’d love to know what sources you all rely on to stay informed. Whether it’s:\n • Blogs or newsletters • News websites • YouTube channels • Podcasts • Twitter/X accounts • TikTok creators • Research publications • Discord communities \n What are your absolute must-follows? I’m looking for a mix of technical deep-dives and more accessible content that explains things for non-experts.\n Really appreciate any recommendations - trying to build a solid information diet so I don’t miss the important stuff while filtering out the noise!\n Thanks in advance!​​​​​​​​​​​​​​​​\n    submitted by    /u/WallAdventurous8977  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mgag1a/what_are_your_goto_sources_for_staying_updated_on/",
+          "publishedOn": "2025-08-03T04:39:01.000Z",
+          "wordCount": null,
+          "title": "What are your go-to sources for staying updated on AI? Looking for recommendations!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1mg8gfl/oneminute_daily_ai_news_822025/",
+          "author": null,
+          "description": "Tim Cook reportedly tells employees Apple ‘must’ win in AI.[1]\n AI model in ad sparks backlash at VogueVogue’s latest issue includes a Guess ad with AI-generated models, prompting some readers to cancel subscriptions and call for a boycott.[2]\n AI models may be accidentally (and secretly) learning each other’s bad behaviors.[3]\n Chairman Hill Introduces Bipartisan Bill to Promote Artificial Intelligence in Financial Services.[4]\n  \nSources:\n [1] https://techcrunch.com/2025/08/02/tim-cook-reportedly-tells-employees-apple-must-win-in-ai/\n [2] https://abcnews.go.com/GMA/Style/controversy-stirs-ai-generated-models-new-guess-ads/story?id=124271323\n [3] https://www.nbcnews.com/tech/tech-news/ai-models-can-secretly-influence-one-another-owls-rcna221583\n [4] https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=410824\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1mg8gfl/oneminute_daily_ai_news_822025/",
+          "publishedOn": "2025-08-03T02:51:13.000Z",
+          "wordCount": null,
+          "title": "One-Minute Daily AI News 8/2/2025",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/artificial/comments/1mg4rpp/which_skills_will_atrophy_in_humans_as_ai_becomes/",
           "author": null,
@@ -60879,146 +60819,6 @@
           "wordCount": null,
           "title": "I'm a white collar worker. Been so for almost 20 years. I'm really worried about my future after what happened with Microsoft and the direction they're said to be heading. Am I just overthinking things, or am I really doomed?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1ls9acd/remove_hidden_characters_and_watermarks_from_ai/",
-          "author": null,
-          "description": "I created a simple way of removing hidden characters and watermarks from AI-generated content. It's also available as a JavaScript library, too: https://github.com/BeMoreDifferent/ai-text-sanitizer\n As I'm using AI for mostly everything and also using it for spelling correction, I don't want to have my content flagged as AI-generated. This is especially valuable in University settings as the consequences of AI content is increasing rapidly. I would be happy to get feedback and also commits if you see any missing parts or potential improvements. Feel free to add tests or make commits to cover further cases (but I believe I covered most cases right now).\n    submitted by    /u/BeMoreDifferent  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1ls9acd/remove_hidden_characters_and_watermarks_from_ai/",
-          "publishedOn": "2025-07-05T12:57:30.000Z",
-          "wordCount": null,
-          "title": "Remove hidden characters and watermarks from AI generated Text",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1ls8kli/gemini_crushed_the_other_llms_in_prisoners/",
-          "author": null,
-          "description": "https://arxiv.org/pdf/2507.02618\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1ls8kli/gemini_crushed_the_other_llms_in_prisoners/",
-          "publishedOn": "2025-07-05T12:18:01.000Z",
-          "wordCount": null,
-          "title": "Gemini crushed the other LLMs in Prisoner's Dilemma tournaments: \"Gemini proved strategically ruthless, exploiting cooperative opponents and retaliating against defectors, while OpenAI's models remained highly cooperative, a trait that proved catastrophic in hostile environments.\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1ls8861/eu_rejects_apple_meta_google_and_european/",
-          "author": null,
-          "description": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1ls8861/eu_rejects_apple_meta_google_and_european/",
-          "publishedOn": "2025-07-05T11:58:41.000Z",
-          "wordCount": null,
-          "title": "EU Rejects Apple, Meta, Google, and European Companies’ Request for AI Act Delay",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1ls7z8b/google_finds_llms_can_hide_secret_information_and/",
-          "author": null,
-          "description": "Early Signs of Steganographic Capabilities in Frontier LLMs: https://arxiv.org/abs/2507.02737\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1ls7z8b/google_finds_llms_can_hide_secret_information_and/",
-          "publishedOn": "2025-07-05T11:43:50.000Z",
-          "wordCount": null,
-          "title": "Google finds LLMs can hide secret information and reasoning in their outputs, and we may soon lose the ability to monitor their thoughts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1ls6u7p/its_getting_weird/",
-          "author": null,
-          "description": "Context: Anthropic announced they're deprecating Claude Opus 3 and some people are rather unhappy about this.\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1ls6u7p/its_getting_weird/",
-          "publishedOn": "2025-07-05T10:30:30.000Z",
-          "wordCount": null,
-          "title": "It's getting weird.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1ls6n0d/cats_confuse_reasoning_llm_query_agnostic/",
-          "author": null,
-          "description": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1ls6n0d/cats_confuse_reasoning_llm_query_agnostic/",
-          "publishedOn": "2025-07-05T10:16:37.000Z",
-          "wordCount": null,
-          "title": "Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1ls4sfo/i_generated_an_rick_and_morty_episode_with_ai/",
-          "author": null,
-          "description": "I recently launched an AI comic generator, but as a fan of Rick and Morty wanted to test out how would an AI generated episode look like and I think it turned out pretty good in terms of story line.\n If any one interested the website is - www.glimora.ai\n    submitted by    /u/AkashBangad28  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1ls4sfo/i_generated_an_rick_and_morty_episode_with_ai/",
-          "publishedOn": "2025-07-05T08:06:20.000Z",
-          "wordCount": null,
-          "title": "I generated an Rick and Morty episode with AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1ls1g61/me_and_chatgpt_figured_out_what_is_wrong_with_the/",
-          "author": null,
-          "description": "Here's a Reddit post draft that captures the spirit, depth, and frustration of what you’ve said—something that should resonate with both developers and players alike:\n  \nTitle: The Gaming Industry Is Burning Itself from the Inside Out—And We All Feel It\n I’ve been sitting with something that needs to be said—not just for myself, but for every developer, player, tester, and creative who still gives a damn about games.\n We’re watching a creative industry rot under the weight of corporate short-sightedness. Studios are firing senior devs—people who know the code, the systems, the soul of the game—just to replace them with cheaper juniors. And here’s the kicker: they’re making the senior devs train their replacements in their final weeks. That’s not efficiency. That’s disrespect.\n When one pro…",
-          "link": "https://www.reddit.com/r/artificial/comments/1ls1g61/me_and_chatgpt_figured_out_what_is_wrong_with_the/",
-          "publishedOn": "2025-07-05T04:27:20.000Z",
-          "wordCount": null,
-          "title": "Me and Chatgpt figured out what is wrong with the gaming industry",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1lrwx62/agi_paradox/",
-          "author": null,
-          "description": "Is it true that, in theory, at the very moment the first AGI is created, it could improve itself almost instantly and become, in a short time, an incredibly superior version of the initial one? A chain reaction that would lead to the AI improving itself to its maximum possible potential in just a matter of seconds, if its environment allows it, overscaling more and more each time?\n    submitted by    /u/No_Ebb_2368  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1lrwx62/agi_paradox/",
-          "publishedOn": "2025-07-04T23:59:58.000Z",
-          "wordCount": null,
-          "title": "AGI paradox",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1lrwmnx/super_intelligence_isnt_out_to_get_you/",
-          "author": null,
-          "description": "This was my recent response to an award-winning short film fantasizing about dangers of \"super intelligence\", hope you like my take: \n I see many people on reddit are afraid of intelligence as is, in human form, not even \"super intelligence\". So their immediate assumption that it would be \"evil\" stems from their ignorance or perhaps even projection of their foolishness, the fool fears the intelligent because it doesn't understand, it fears the intention because it judges everything through a prism of its own experience, it projects stupidity everywhere. Saying super intelligence \"would turn around and take over the world\" isn't just dumb, but it's showing an utter misunderstanding what will and consciousness actually is from completely ontological perspective. That's like saying Stock Fish…",
-          "link": "https://www.reddit.com/r/artificial/comments/1lrwmnx/super_intelligence_isnt_out_to_get_you/",
-          "publishedOn": "2025-07-04T23:44:16.000Z",
-          "wordCount": null,
-          "title": "Super intelligence isn't out to get you",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1lrvdoh/lumas_video_reframe_is_incredible/",
-          "author": null,
-          "description": "I was using Luma Reframe on the Remade canvas, it's insanely good at naturally expanding any video. I've been using it mostly to change my videos' aspect ratios for different platforms, and it literally gets it exactly right every time.\n    submitted by    /u/najsonepls  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1lrvdoh/lumas_video_reframe_is_incredible/",
-          "publishedOn": "2025-07-04T22:40:54.000Z",
-          "wordCount": null,
-          "title": "Luma's video reframe is incredible",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1lrt4jk/gave_three_ais_political_agency_in_a_lunar/",
-          "author": null,
-          "description": "In a recent experiment, I tasked three distinct AI personas - PRAXIS, NOEMA, and TIANXIA - with resolving a complex, future-facing geopolitical crisis involving lunar mining rights, nationalist escalation, and the risk of AI overreach.\n Each AI was given its own ideology, worldview, and system prompt. Their only directive: solve the problem… or be outlived by it.\n  \n🧩 The Scenario: The Celestial Accord Crisis (2045)\n  \nHumanity has colonized the Moon and Mars.\n Two lunar mining factions - Chinese-backed LunarTech and American-backed AstroMiner—are heading toward a violent resource conflict over “Stellium,” a rare mineral crucial for energy independence.\n Political tensions, nationalistic rhetoric, and conflicting claims have created a diplomatic deadlock.\n A newly formed global governance…",
-          "link": "https://www.reddit.com/r/artificial/comments/1lrt4jk/gave_three_ais_political_agency_in_a_lunar/",
-          "publishedOn": "2025-07-04T20:54:02.000Z",
-          "wordCount": null,
-          "title": "Gave three AIs political agency in a lunar conflict simulation. They dissolved their boundaries.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1lrn0nb/i_think_google_news_just_deployed_an_aigenerated/",
-          "author": null,
-          "description": "spotted this thumbnail, was very suspicious of it. clicked the link and the image doesn't appear anywhere in the BBC News article.\n https://preview.redd.it/5mqw8pjpwvaf1.png?width=296&format=png&auto=webp&s=df63ac7fd9af5bae32a60b9650a794ccd28cf7cb\n    submitted by    /u/Darkhawk2099  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1lrn0nb/i_think_google_news_just_deployed_an_aigenerated/",
-          "publishedOn": "2025-07-04T16:30:27.000Z",
-          "wordCount": null,
-          "title": "i think Google News just deployed an AI-generated image for a BBC article on Ukraine?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1lrlgtt/i_made_a_free_app_for_the_new_generation_of/",
-          "author": null,
-          "description": "Hey guys I made this community/project spotlight site: https://vibecoderscommunity.vercel.app/\n It's a space for us (the new generation of devs/builders/coders/etc.) to converge on discussion, theory, share projects, and collaborate. I'm especially seeking AI-native devs like us in this sub - ever since I've gotten into development and building apps I've found every platform to be missing something, or just full of tech speak that gets overwhelming for newer builders. I just wanted a platform where we can talk shop, throw out ideas on agency, workflows, apps, and integrations, without the fluff. This app is for those of us that *get shit done*. Sign up and post your projects and ideas! its free!\n    submitted by    /u/PhilosopherNo6770  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1lrlgtt/i_made_a_free_app_for_the_new_generation_of/",
-          "publishedOn": "2025-07-04T15:25:29.000Z",
-          "wordCount": null,
-          "title": "I made a free app for the new generation of ai-native devs to collaborate and show off their projects.",
-          "imageUrl": null
         }
       ]
     },
@@ -61356,16 +61156,6 @@
           "wordCount": null,
           "title": "Detecting boulders on the moon",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/neuralnetworks/comments/1lrxgw5/question_abt_binary_audio_classifier/",
-          "author": null,
-          "description": "Hi,\n Im building custom cnn model for classifier sound A vs any other sound in the world using mel spectrogram. I have 20k 1sec wav files for sound A and 80k for noise (lets say sound B) so i expand my sound A database by augmenting it using temporal and freq mask to match the amount of the noises.\n The result is it could detect sound A quite good in real time. But the problem is when i produce sound B and sound A simultaneously, the detection of sound A failed. So, i expand my sound A database again by combining them with sound B with rms combination and weighting function like New audio= sound Aw+ sound B(1-w). w is random number 0.85 to 0.95. The detection work now even when sound A and B played simultaneously. However, i still have some hard false positive (which previously i didnnt include in the data). I did fine tuning. It still not working. I retrained the model using same architecture but including the false positive data. Still no luck. I did many thing even trying simple to complex arch but the result is same.\n Has anyone experience the same thing?\n    submitted by    /u/Frequent_Champion819  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/neuralnetworks/comments/1lrxgw5/question_abt_binary_audio_classifier/",
-          "publishedOn": "2025-07-05T00:29:05.000Z",
-          "wordCount": null,
-          "title": "Question abt binary audio classifier",
-          "imageUrl": null
         }
       ]
     },
@@ -61569,6 +61359,26 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1mgoxhs/ai_learns_to_conquer_gamings_most_brutal_level/",
+          "author": null,
+          "description": "Github link: https://github.com/paulo101977/Donkey-Kong-Country-Mine-Cart-PPO\n **Training an AI Agent to Master Donkey Kong Country's Mine Cart Level Using Deep Reinforcement Learning**\n I trained a deep RL agent to conquer one of the most challenging levels in retro gaming - the infamous mine cart stage from Donkey Kong Country. Here's the technical breakdown:\n **Environment & Setup:**\n - Stable-Retro (OpenAI Retro) for SNES emulation\n - Gymnasium framework for RL environment wrapper\n - Custom reward shaping for level completion + banana collection\n - Action space: discrete (jump/no-jump decisions)\n - Observation space: RGB frames (210x160x3) with frame stacking\n **Training Methodology:**\n - Curriculum learning: divided the level into 4 progressive sections\n - Section 1: Basic jumping mec…",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1mgoxhs/ai_learns_to_conquer_gamings_most_brutal_level/",
+          "publishedOn": "2025-08-03T17:23:45.000Z",
+          "wordCount": null,
+          "title": "AI Learns to Conquer Gaming's Most BRUTAL Level (Donkey Kong)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1mgkuv6/pid_tuning_with_rl_for_vcrr/",
+          "author": null,
+          "description": "Currently i am working on the PID tuning with Reinforcement learning to control superheat degree of Cooling/heating cycle. So RL is tuning the PID controller and PID is adjusting the expansion valve to reach setpoint/get stable superheat. 1 episode is around 100 sec with 0.2 step size. The compressor speed is constant so my expectation is reaching the target point in term of Superheat until finishing the episode. and making settling time shorter after each episode as RL is being trained.\n But after several attemps and comparison/research, still many points that i couldn't adressed yet.\n  \nFor training this kind of problem, RNN or FNN which one is better? Based on my experience, RNN is working much better then FNN but the computational effort is increasing nearly 10times with RNN.\n Somehow system can reach the setpoint and get a stable superheat but the problem is action space RL agent taking is like bang-bang. I mean, the Kp Ki Kd gains in jumping around. Indeed i was expecting something like starting from highest or lowest value and then decreasing/increasing it smoothly instead of jumping around. Tbh sometimes, at first episode everything is completed as expected but then in second episode, it start trying jumpy action space again.\n Are there any procedure/hint to adjust TD3 hyperparameter? especially for exploration and target policy smoothing section\n Currently I am using matlab 2022 RL design toolbox. Are there any significant difference between 2025 and 2022 in term of training accuracy/time ? I prefer to use matlab instead of python because my environment is FMU (working as a Co-simulation) exported from another app. And it is much easier to work with matlab in this scenerio\n  \nI appreciate any hint/advice or document suggestion. Thanks!\n    submitted by    /u/Tiny-Sky-1246  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1mgkuv6/pid_tuning_with_rl_for_vcrr/",
+          "publishedOn": "2025-08-03T14:37:28.000Z",
+          "wordCount": null,
+          "title": "PID tuning with RL for VCRR",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1mg2orj/the_end_of_rlhf_introducing_berkano_protocol/",
           "author": null,
@@ -62887,66 +62697,6 @@
           "publishedOn": "2025-07-05T13:31:27.000Z",
           "wordCount": null,
           "title": "DreamerV3 and Posterior Collapse",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1ls35vz/any_outstanding_resources_for_multi_armed_bandits/",
-          "author": null,
-          "description": "I'm still early, and plan to read grokking RL, Barto and Sutton, and Mathematical foundations for RL and I'm sure they have great content on MAB in them.\n But are there any great interaction web apps or anything that demonstrate MAB that I can play around with in UI or something. Just wondering if there's some stand-alone content about them I can read through before I get to those sections of the textbooks.\n    submitted by    /u/foodisaweapon  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1ls35vz/any_outstanding_resources_for_multi_armed_bandits/",
-          "publishedOn": "2025-07-05T06:17:02.000Z",
-          "wordCount": null,
-          "title": "Any outstanding resources for Multi armed bandits?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1lrzkwm/strategic_intelligence_in_large_language_models/",
-          "author": null,
-          "description": "submitted by    /u/gwern  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1lrzkwm/strategic_intelligence_in_large_language_models/",
-          "publishedOn": "2025-07-05T02:33:38.000Z",
-          "wordCount": null,
-          "title": "\"Strategic Intelligence in Large Language Models: Evidence from evolutionary Game Theory\", Payne & Alloui-Cros 2025 [iterated prisoner's dilemma in Claude/Gemini/ChatGPT]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1lrymbt/spiral_selfplay_on_zerosum_games_incentivizes/",
-          "author": null,
-          "description": "submitted by    /u/gwern  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1lrymbt/spiral_selfplay_on_zerosum_games_incentivizes/",
-          "publishedOn": "2025-07-05T01:36:25.000Z",
-          "wordCount": null,
-          "title": "\"SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning\", Liu et al 2025",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1lrycr5/tapered_offpolicy_reinforce_stable_and_efficient/",
-          "author": null,
-          "description": "submitted by    /u/gwern  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1lrycr5/tapered_offpolicy_reinforce_stable_and_efficient/",
-          "publishedOn": "2025-07-05T01:20:40.000Z",
-          "wordCount": null,
-          "title": "\"Tapered Off-Policy REINFORCE: Stable and efficient reinforcement learning for LLMs\", Le Roux et al 2025",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1lrtuf2/logic_and_the_2simplicial_transformer_clift_et_al/",
-          "author": null,
-          "description": "submitted by    /u/gwern  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1lrtuf2/logic_and_the_2simplicial_transformer_clift_et_al/",
-          "publishedOn": "2025-07-04T21:27:13.000Z",
-          "wordCount": null,
-          "title": "\"Logic and the 2-Simplicial Transformer\", Clift et al 2019",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1lrrjt7/is_there_any_rl_equivalent_to_karpathys_zero_to/",
-          "author": null,
-          "description": "I learnt a lot following Andrej Karpathy's zero to hero lectures on youtube, because it was implementation along with theory, starting from the very scratch.\n However, RL courses like David Silver's seem to be purely theory focused, which is great, but really doesn't compare to the Karpathy course for me.\n Are there any such \"learn by doing\" courses there for RL, which also start from scratch?\n    submitted by    /u/aliaslight  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1lrrjt7/is_there_any_rl_equivalent_to_karpathys_zero_to/",
-          "publishedOn": "2025-07-04T19:42:09.000Z",
-          "wordCount": null,
-          "title": "Is there any RL equivalent to Karpathy's zero to hero course?",
           "imageUrl": null
         }
       ]
