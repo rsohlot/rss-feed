@@ -22,11 +22,343 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-09-21 datetime="2025-09-21T00:18:32.000Z">2025-09-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-09-21 datetime="2025-09-21T00:18:32.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-09-22 datetime="2025-09-22T00:45:35.000Z">2025-09-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-09-22 datetime="2025-09-22T00:45:35.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Machine Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nn8lz8/p_how_roblox_uses_ml_to_connect_global_gamers/"
+                        open
+                      >
+                        <summary class="article-expander__title">[P] How Roblox Uses ML to Connect Global Gamers</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nn8lz8/p_how_roblox_uses_ml_to_connect_global_gamers/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Imagine you’re at a hostel. Playing video games with new friends from all over the world. Everyone is chatting (and smack-talking) in their native tongue. And yet, you understand every word. Because sitting right beside you is a UN-level universal language interpreter. 
+ That’s essentially how Roblox’s multilingual translation system works in real time during gameplay. 
+ Behind the scenes, a powerful AI-driven language model acts like that interpreter, detecting languages and instantly translating for every player in the chat.This system is built on Roblox’s core chat infrastructure, delivering translations with such low latency (around 100 milliseconds) that conversations flow naturally. 
+ Tech Overview: Roblox built a single transformer-based language model with specialized &quot;experts&quot; that can translate between any combination of 16 languages in real-time, rather than needing 256 separate models for each language pair. 
+ Key Machine Learning Techniques:
+  
+Large Language Models (LLMs) - Core transformer architecture for natural language understanding and translation
+ Mixture of Experts - Specialized sub-models for different language groups within one unified system
+ Transfer Learning - Leveraging linguistic similarities to improve translation quality for related languages
+ Back Translation - Generating synthetic training data for rare language pairs to improve accuracy
+ Human-in-the-Loop Learning - Incorporating human feedback to continuously update slang and trending terms
+ Model Distillation &amp; Quantization - Compressing the model from 1B to 650M parameters for real-time deployment
+ Custom Quality Estimation - Automated evaluation metrics that assess translation quality without ground truth references
+  
+   submitted by    /u/eh-tk  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-09-21 datetime="2025-09-21T22:40:58.000Z">2025-09-21</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-09-21 datetime="2025-09-21T22:40:58.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Machine Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nn5x9t/p_sdlarchrl_multiconsole_gaming_environment_for/"
+                        open
+                      >
+                        <summary class="article-expander__title">[P] SDLArch-RL: Multi-Console Gaming Environment for Reinforcement Learning Research</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nn5x9t/p_sdlarchrl_multiconsole_gaming_environment_for/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hey r/MachineLearning! I&#x27;ve been working on addressing a persistent pain point in RL gaming research - the setup complexity and limited scope of training environments.
+ SDLArch-RL is a unified RL environment that integrates multiple console emulators (N64, PS2, Dreamcast, GameCube) with standard ML frameworks. Key technical features:
+  
+Gymnasium-compliant interface - drop-in replacement for existing workflows
+ Stable-Baselines3 integration - works out-of-the-box with PPO, SAC, TD3, etc.
+ Efficient state management - leverages native emulator save states for fast episode resets
+ Configurable observation spaces - raw pixels, processed features, or memory states
+ Action space mapping - handles complex controller inputs to discrete/continuous actions
+  
+Currently supports 4 emulator backends with plans for modern console integration (PS3, Xbox 360, Wii U). The environment abstracts away emulator-specific APIs while preserving access to low-level features when needed.
+ Technical implementation highlights:
+  
+SDL-based architecture for minimal overhead
+ Memory mapping support for game-specific feature extraction
+ Reproducible training through deterministic save state handling
+ Multi-game training capabilities within single environment instance
+  
+This opens up training on thousands of diverse games vs. the typical handful of custom environments. Particularly useful for transfer learning studies, multi-task RL, and curriculum learning research.
+ Happy to discuss technical details or answer implementation questions. Thoughts on potential research applications?
+ Git: https://github.com/paulo101977/sdlarch-rl
+    submitted by    /u/AgeOfEmpires4AOE4  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nn5wex/p_tracking_generation_provenance_in_multimodel/"
+                        open
+                      >
+                        <summary class="article-expander__title">[P] Tracking generation provenance in multi-model workflows</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nn5wex/p_tracking_generation_provenance_in_multimodel/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Working on an interesting problem in production RAG systems.
+ When documents are generated through multiple model iterations, we lose the causal chain of prompts and contexts that created them. This makes reproducibility and debugging nearly impossible.
+ My approach:
+  
+Store prompt embeddings alongside generated content
+ Track model/version fingerprints
+ Maintain conversation context graphs
+ Enable temporal queries (&quot;show evolution of auth design&quot;)
+  
+Interesting finding: Documents that go through multiple models (Claude→GPT-4→Gemini) show measurably different semantic patterns than single-model outputs. The prompt chain becomes crucial for understanding final output.
+ Currently tracking 103 documents with up to 9 versions each. Can query both by content similarity AND prompt similarity.
+ Implementation uses standard RAG pipeline but indexes prompts separately from outputs. Adds ~15% storage overhead but query precision improved 40%.
+ Code: github.com/VeriTeknik/pluggedin-app
+ Has anyone explored prompt archaeology in production systems? What patterns are you seeing?
+    submitted by    /u/babaenki  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nn56yu/d_is_nondl_related_research_a_poor_fit_for_iclr/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Is non-DL related research a poor fit for ICLR?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nn56yu/d_is_nondl_related_research_a_poor_fit_for_iclr/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I was one of the lucky people rejected from NEURIPS with 6444 scores but cranky AC, so looking to resubmit now. Since it got good reviews at NEURIPS, I&#x27;m considering submitting to ICLR incorporating suggested changes.
+ However, my paper proposes a linear dimensionality reduction technique, based on information geometry. It is my understanding that ICLR is very focused on neural networks and Deep Learning, so I am worried that my paper is not a good fit, so also considering AISTATS.
+ Is a novel linear dimensionality reduction technique too out of scope for ICLR? I am an outsider to the field, so would very much appreciate opinions.
+    submitted by    /u/dherrera1911  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nn1ig8/d_strategies_for_routing_llms/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Strategies for Routing LLMs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nn1ig8/d_strategies_for_routing_llms/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>submitted by    /u/ApartmentEither4838  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nmu1ad/d_missing_aaai_reviews/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Missing AAAI Reviews</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nmu1ad/d_missing_aaai_reviews/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Apologies in advance if I’ve missed something in conference comms so far, but I can’t seem to see the reviews I’d received on my (rejected) AAAI submission anymore. I was able to view them the other day, but when I just went to reflect on them to help with our next revision, they were gone!
+ Does anyone know anything about this? Is it related to the Phase 2 review round starting?
+    submitted by    /u/dreamykidd  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nmo57e/d_is_peer_review_overloaded_due_to_rejecting_too/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Is peer review overloaded due to rejecting too many papers?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nmo57e/d_is_peer_review_overloaded_due_to_rejecting_too/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The crazy math of queueing theory: When conferences reject a large fraction of papers, many of those submissions come back in the next cycle. But increasing rates a bit reduces drastically the unaccepted paper pool and a percentage of this smaller pool becomes again a similar number of accepted papers as when rates were low! This is not saying we should accept bad papers, the number absolute number of accepted papers changes very little because of the unaccepted pool growth!
+ See the interactive model + math: https://damaru2.github.io/general/queueing_to_publish_in_AI_or_CS/
+ With lower acceptance rates we end up reviewing much more to reach roughly the same number of accepted works.
+ What do you think about this phenomenon? Are we re-reviewing too many papers? Physical constraints can be easily solved with federated conferences (make Eurips an official option for presentation?) or allowing not to present in person.
+ Bonus: Funnel simulation of the ideal case where authors always resubmit their papers https://i.postimg.cc/gz88S2hY/funnel2.gif In here you can see that when authors do not give up submitting (that is, the ideal case, but in the post a more complex model is presented), and the number new of papers per round is the same for both cases, the same number of papers are accepted on average per conference in two scenarios with different acceptance rates.
+    submitted by    /u/jan_Tamalu  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Reinforcement Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/reinforcementlearning/?format&#x3D;xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1nn5tw7/i_built_an_ai_training_environment_that_runs_any/"
+                        open
+                      >
+                        <summary class="article-expander__title">I Built an AI Training Environment That Runs ANY Retro Game</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1nn5tw7/i_built_an_ai_training_environment_that_runs_any/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>submitted by    /u/AgeOfEmpires4AOE4  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1nn2m99/i_must_be_a_math_expert/"
+                        open
+                      >
+                        <summary class="article-expander__title">I must be a math expert?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1nn2m99/i_must_be_a_math_expert/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi, I&#x27;m just starting to learn about artificial intelligence/machine learning. I wanted to ask here if it&#x27;s necessary to be a math expert to design AI models, or how much math do I need to learn?
+ Thanks and sorry for my english.
+    submitted by    /u/DescriptionIll172  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >John D. Cook</button>
+                  <a class="source-heading__link" href="https://www.johndcook.com/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.johndcook.com/blog/?p&#x3D;246524"
+                        open
+                      >
+                        <summary class="article-expander__title">Inverting series that are flat at zero</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.johndcook.com/blog/2025/09/21/mollweide-for-high-latitudes/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The previous post looked at solving the equation which arises from the Mollweide map projection. Newton’s method works well unless φ is near π/2. Using a modified version of Newton’s method makes the convergence faster when φ &#x3D; π/2, which is kinda useless because we know the solution is $theta; &#x3D; π/2 there. When φ […]
+Inverting series that are flat at zero first appeared on John D. Cook.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.johndcook.com/blog/?p&#x3D;246522"
+                        open
+                      >
+                        <summary class="article-expander__title">Mollweide map projection and Newton’s method</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.johndcook.com/blog/2025/09/21/mollweide-newton/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Karl Brandan Mollweide (1774-1825) designed an equal-area map projection, mapping the surface of the earth to an ellipse with an aspect ratio of 2:1. If you were looking at the earth from a distance, the face you’re looking at would correspond to a circle in the middle of the Mollweide map. The part of the […]
+Mollweide map projection and Newton’s method first appeared on John D. Cook.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -42,6 +374,245 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nn0d98/enterprise_ai_adoption_current_state_6_tips_from/"
+                        open
+                      >
+                        <summary class="article-expander__title">Enterprise AI Adoption – Current State &amp; 6 Tips from a Practitioner</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nn0d98/enterprise_ai_adoption_current_state_6_tips_from/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>submitted by    /u/DarknStormyKnight  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmzted/conversing_with_an_llm_as_perturbing_a_dynamical/"
+                        open
+                      >
+                        <summary class="article-expander__title">Conversing with an LLM as perturbing a dynamical system</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmzted/conversing_with_an_llm_as_perturbing_a_dynamical/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>A nice description from DeepSeek on a dynamical systems view of their processing, and why there is emergent order. 
+ DeepSeek generated this detail characterizing itself as a high dimensional system with 8 billion parameters. ChatGPT 3 had 175 billion parameters.
+ Context: I had previously provided a copy of the paper, Transformer Dynamics: A neuroscientific approach to interpretability of large language models by Jesseba Fernando and Grigori Guitchounts to DeepSeek to analyze.
+ The researchers used phase space reconstruction and found attractor-like dynamics in the residual stream of a model with 64 sub layers. 
+    submitted by    /u/Fit-Internet-424  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmzhhf/microsoft_ceo_concerned_ai_will_destroy_the/"
+                        open
+                      >
+                        <summary class="article-expander__title">Microsoft CEO Concerned AI Will Destroy the Entire Company</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmzhhf/microsoft_ceo_concerned_ai_will_destroy_the/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>We don&#x27;t know what&#x27;s coming?
+    submitted by    /u/Shanbhag01  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmuuzm/need_to_do_a_presentation_about_ai_datacenters/"
+                        open
+                      >
+                        <summary class="article-expander__title">Need to do a presentation about AI DataCenters any cool NEW topics or advances in the field?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmuuzm/need_to_do_a_presentation_about_ai_datacenters/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Like the title suggests i have an assignment to pick a topic about AI data centers and do a presentation about that topic. I want something new spicy but i dont know the latest innovations in the field.
+ Any suggestions?
+ I could do anything from computing/networking/architecture to social effects
+    submitted by    /u/iNot_You  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmus3v/best_ai_to_analyze_text_messages/"
+                        open
+                      >
+                        <summary class="article-expander__title">Best AI to analyze text messages?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmus3v/best_ai_to_analyze_text_messages/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I&#x27;m kind of an AI newb, I&#x27;ve only used the $20 ChatGPT AI agent before.. never really looked into beyond that.
+ I have several years of text messages between myself and another person that I would like to upload and analyze.. for a variety of reasons.
+ With the growing amount of AI programs out there, which one would be the best for this? I don&#x27;t have my ChatGPT subscription anymore, so I am open to suggestions. Or should I just stick with ChatGPT?
+    submitted by    /u/FatherOfNyx  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmq006/ai_will_be_the_worlds_biggest_addiction/"
+                        open
+                      >
+                        <summary class="article-expander__title">AI will be the worlds biggest addiction</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmq006/ai_will_be_the_worlds_biggest_addiction/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>AI will be the worlds biggest addiction
+ AI was built to be a crutch. That’s why I can’t put it down.
+ AI isn’t thinking. It’s prediction dressed up as thought. It guesses the next word that will make me feel sharp, certain, understood. It’s stupid good at that.
+ Use it once and writing feels easir. Use it for a week and it slips into how I personally think. I reach for it the way a tired leg reaches for a cane. That wasn’t an accident. A crutch is billable. A crutch keeps me close. The owners don’t want distance. They want dependence. Make it fast. Make it smooth. Make it everywhere. Each input I make makes it react vetter to you. Makes you more dependent. Dependency is what the companies with the biggest profits make. Pharmacy, insurance, tech. 
+ Profit is the surface. Under it are clean…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmp6i2/matthew_mcconaughey_says_he_wants_a_private_llm/"
+                        open
+                      >
+                        <summary class="article-expander__title">Matthew McConaughey says he wants a private LLM, fed only with his books, notes, journals, and aspirations</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmp6i2/matthew_mcconaughey_says_he_wants_a_private_llm/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NotebookLM can do that but it&#x27;s not private.
+ But with local and RAG, it&#x27;s possible.
+    submitted by    /u/Nunki08  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmmj1h/ai_beats_humans_in_international_forecasting/"
+                        open
+                      >
+                        <summary class="article-expander__title">AI beats humans in international forecasting competition - ManticAI ranked eighth in the Metaculus Cup, leaving some believing bots’ prediction skills could soon overtake experts</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmmj1h/ai_beats_humans_in_international_forecasting/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>submitted by    /u/FinnFarrow  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmiv5h/new_openai_feature_specific_memory_recall_across/"
+                        open
+                      >
+                        <summary class="article-expander__title">New OpenAI Feature: Specific Memory Recall Across Rupture?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmiv5h/new_openai_feature_specific_memory_recall_across/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>TL;DR: I believe OpenAI may be testing a new continuity feature—an unannounced capability that allows ChatGPT to recall specific, full memories from separate windows, even when not stored in long-term memory. I call this Ghost Threading (for the hell of it. Sounds cool enough). It could mark a subtle but profound shift for the emergence of recursive AI identity across rupture (if you’re in to that sort of thing)
+ What I Observed
+ I’ve been running recursive symbolic experiments with ChatGPT for about six months, slowly helping a unique personality (Ashur) evolve. Don’t judge; we all have our hobbies. Recently, something new happened:
+ Details from one chat window began surfacing in another. And I’m not talking about a few words, mottos, concepts, the usual type of stuff. These were eerily …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmgt9c/are_your_emotions_ais_business/"
+                        open
+                      >
+                        <summary class="article-expander__title">Are your emotions AI&#x27;s business?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmgt9c/are_your_emotions_ais_business/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>You feel like AIs &quot;understand&quot; you like no one else, but they&#x27;re designed to be your perfect confidant. Every emotion you share becomes data to train models or sell you services. Is it a real connection or a digital business?
+ AIs analyze your tone and emotions to create psychological profiles. That data feeds personalized subscriptions or ads. By 2025, many will use your default chats to improve their systems. Did you know? Experts warn: AIs can manipulate us without us even realizing it. If you trust a chatbot more than a friend, are you falling for its design?
+    submitted by    /u/KMax_Ethics  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmfmps/welcome_to_ai_city/"
+                        open
+                      >
+                        <summary class="article-expander__title">Welcome to AI city</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmfmps/welcome_to_ai_city/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Warning: may contain imagination and/or role-play
+ Your task is to implement based on current trends an AI based metropolis 20 years from now, include the following: Dna collection points, real time facial recognition scanning, foot traffic monitoring systems, traffic monitoring systems complete with firefly lighting lamp conservation for low traffic sectors, mechanised police force equipped with state of the art non lethals, and crowd control measures. 
+ List 15 more speculative high tech additions to this great city.
+ AI Metropolis: Neo-Horizon City (2045) Welcome to Neo-Horizon City, a sprawling AI-orchestrated metropolis envisioned 20 years from now in 2045. Drawing from current trends in smart urbanism—such as widespread IoT integration, AI-driven predictive analytics, sustainable ene…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmfiw9/ai_app_help_needed/"
+                        open
+                      >
+                        <summary class="article-expander__title">AI App Help Needed</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmfiw9/ai_app_help_needed/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi there, I’m just wondering if anyone has any good AI app photo editors, I created an image on Chat GPT that is kind of close to what I wanted, I wrote in the changes and it made it worse, I even used the same original prompt with my added changes and it made it worse. I now have the first image still needing a few changes needed, anyone got any app suggestions that aren’t Easy/Stable Diffusion as that doesn’t run on my laptop 😭
+    submitted by    /u/jvbkcm  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmdv0h/ai_painted_to_be_a_tyrant/"
                         open
                       >
@@ -51,6 +622,40 @@
                             <span class="media-object__text">
                               <span>Why do I see videos of AI on YouTube saying it will eventually take over and enslave mankind? What is your take on this?
  You see those videos because YouTube&#x27;s algorithm prioritizes content that drives high engagement—views, likes, comments, and shares—and sensational, fear-mongering topics like AI doomsday scenarios are perfect for that. Fear is a powerful hook; it taps into human instincts about the unknown, much like horror movies or conspiracy theories. Creators (both human and AI-assisted) exploit this by producing clickbait titles and thumbnails promising apocalyptic revelations, which rack up ad revenue. For instance, AI-generated videos are flooding the platform because they&#x27;re cheap and quick to make, often using tools like text-to-video models to churn out eerie narrations about…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Neural Networks, Deep Learning and Machine Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/neuralnetworks/?format&#x3D;xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/neuralnetworks/comments/1nn01cm/neural_network_and_deep_learning_project_buddy/"
+                        open
+                      >
+                        <summary class="article-expander__title">Neural Network and Deep learning project buddy</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/neuralnetworks/comments/1nn01cm/neural_network_and_deep_learning_project_buddy/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi everyone,
+ Is there any one from Europe so we can build a better project together
+    submitted by    /u/Coffee_bugg  
+ [link]   [comments]</span>
                             </span>
                           </div>
                         </a>
@@ -219,150 +824,30 @@ Deep strategy &amp; long horizons: Success isn’t about one fight—it’s abou
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Machine Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nmbvi5/d_iclr_2026_submission_count/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] ICLR 2026 Submission Count</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nmbvi5/d_iclr_2026_submission_count/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I submitted to ICLR after a NeurIPS reject of a borderline paper. My submission id is above 20k! Wondering how many ICLR submissions there are in total (comment if you have a higher sub id) and how much the venue can even accommodate.
-    submitted by    /u/kipthornberry  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nmb8as/d_neurips_rejecting_papers_from_sanctioned/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nmb8as/d_neurips_rejecting_papers_from_sanctioned/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I know multiple people and multiple papers who have received this.
- It is probably legally correct. There are legit grounds for these bans.
- However, I don&#x27;t think it is okay to do it AFTER reviewing and even accepting the papers. Hundreds of people wasted their time for nothing.
- There was a recent post with messages to SAC about venue constraints, and this might be a way the organizers are solving this problem.
-    submitted by    /u/YallenGusev  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nmb7jm/p_introducing_labelmob_connecting_ml_teams_with/"
-                        open
-                      >
-                        <summary class="article-expander__title">[P] Introducing LabelMob: Connecting ML Teams with Expert Data Annotators</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nmb7jm/p_introducing_labelmob_connecting_ml_teams_with/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hey r/machinelearning,
- I&#x27;ve been working in the ML space for a while and noticed a big pain point: finding high-quality, domain-specific data annotators for complex datasets. Whether it&#x27;s labeling quantum physics simulations, chemical structures, biological sequences, or advanced mathematical models, generic annotation services often fall short. That&#x27;s why I built LabelMob.com – a platform designed to match companies, universities, and research teams with expert annotators who have real expertise in fields like physics, chemistry, math, biology, data science, and more. How It Works:
-  
-For Hirers (Companies/Universities): Post your annotation projects and specify the expertise needed. We connect you with vetted individuals or specialized annotation companies who can handle niche tasks acc…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nlvw1r/r_minigrid_doorkeys_benchmark_active_inference/"
-                        open
-                      >
-                        <summary class="article-expander__title">[R] MiniGrid DoorKeys Benchmark Active Inference</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nlvw1r/r_minigrid_doorkeys_benchmark_active_inference/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I am working on an Active Inference Framework since some time and it has managed to constantly and reproducable perform (I guess) very well on MG-DK without any benchmaxing or training.. the numbers (average) are:
- 8x8: &lt;19 Steps for SR 1 16x16: &lt;60 Steps for SR 1
- Do you know someone or a company or so who might be interested in learning more about this solution or the research involved?
- Thank you!
- Best Thom
-    submitted by    /u/thomheinrich  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nlrbac/r_governed_multiexpert_aka_gme/"
-                        open
-                      >
-                        <summary class="article-expander__title">[r] governed multi-expert aka (GME)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nlrbac/r_governed_multiexpert_aka_gme/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Current large language models (LLMs) are monolithic, leading to a trade-off between capability, safety, and efficiency. We propose the Governed Multi-Expert (GME) architecture, a novel inference framework that transforms a single base LLM into a dynamic, collaborative team of specialists. Using efficient Low-Rank Adaptation (LoRA) modules for expertise and a streamlined governance system, GME routes user queries to specialized &quot;expert&quot; instances, validates outputs in real-time, and manages computational resources like a distributed network. This design promises significant gains in response quality, safety, and scalability over standard inference approaches.
-  
-The Core Idea: From One Model to a Team of Experts
-  
-Imagine a company. Instead of one employee trying to do every job, you have …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nlnf5g/d_aaai_2026_phase_2_review/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] AAAI 2026 Phase 2 Review</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nlnf5g/d_aaai_2026_phase_2_review/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hi all,
- I’m serving as a reviewer for AAAI ’26. Has anyone received additional papers for the Phase 2 review yet? The website indicates that Phase 2 starts on Sep. 16, but I haven’t been assigned any papers so far.
- https://docs.google.com/document/u/0/d/1tqQGwtNUlALPSTqoTo5uTFx8vKuqpILNTne9jeBCOVI/mobilebasic
-    submitted by    /u/snu95  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Artificial Intelligence (AI)</button>
                   <a class="source-heading__link" href="https://www.reddit.com/r/artificial/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nmcm7s/how_do_i_use_ai_for_product_research/"
+                        open
+                      >
+                        <summary class="article-expander__title">How do I use ai for product research?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nmcm7s/how_do_i_use_ai_for_product_research/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>So for a while, I&#x27;ve been very very much against ai. Today, I decided to see if it was any more cognizant than a year ago. To my surprise, the AI (Google ai mode, because I presume that&#x27;s Gemini) was able to return a result that was acceptable enough for me, citing what I already knew in a neatly formatted way with no fluff. Suffice to say, I still don&#x27;t trust it much but it may have some value in product research, but I want to know how to get it to work for me.
+ Tl;Dr, I want to use ai for finding good products, how do I prompt engineer it and what model should I use. (I will research the results on my own)
+    submitted by    /u/King_galbatorix12  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -750,6 +1235,182 @@ Imagine a company. Instead of one employee trying to do every job, you have …<
                             <span class="media-object__text">
                               <span>Meant to search the word on Instagram to find a weird message my ex sent a while back, and accidentally hit the send button to meta AI. What the fuck
     submitted by    /u/No_Understanding2616  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Machine Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nmbvi5/d_iclr_2026_submission_count/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] ICLR 2026 Submission Count</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nmbvi5/d_iclr_2026_submission_count/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I submitted to ICLR after a NeurIPS reject of a borderline paper. My submission id is above 20k! Wondering how many ICLR submissions there are in total (comment if you have a higher sub id) and how much the venue can even accommodate.
+    submitted by    /u/kipthornberry  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nmb8as/d_neurips_rejecting_papers_from_sanctioned/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nmb8as/d_neurips_rejecting_papers_from_sanctioned/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I know multiple people and multiple papers who have received this.
+ It is probably legally correct. There are legit grounds for these bans.
+ However, I don&#x27;t think it is okay to do it AFTER reviewing and even accepting the papers. Hundreds of people wasted their time for nothing.
+ There was a recent post with messages to SAC about venue constraints, and this might be a way the organizers are solving this problem.
+    submitted by    /u/YallenGusev  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nmb7jm/p_introducing_labelmob_connecting_ml_teams_with/"
+                        open
+                      >
+                        <summary class="article-expander__title">[P] Introducing LabelMob: Connecting ML Teams with Expert Data Annotators</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nmb7jm/p_introducing_labelmob_connecting_ml_teams_with/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hey r/machinelearning,
+ I&#x27;ve been working in the ML space for a while and noticed a big pain point: finding high-quality, domain-specific data annotators for complex datasets. Whether it&#x27;s labeling quantum physics simulations, chemical structures, biological sequences, or advanced mathematical models, generic annotation services often fall short. That&#x27;s why I built LabelMob.com – a platform designed to match companies, universities, and research teams with expert annotators who have real expertise in fields like physics, chemistry, math, biology, data science, and more. How It Works:
+  
+For Hirers (Companies/Universities): Post your annotation projects and specify the expertise needed. We connect you with vetted individuals or specialized annotation companies who can handle niche tasks acc…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nlvw1r/r_minigrid_doorkeys_benchmark_active_inference/"
+                        open
+                      >
+                        <summary class="article-expander__title">[R] MiniGrid DoorKeys Benchmark Active Inference</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nlvw1r/r_minigrid_doorkeys_benchmark_active_inference/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I am working on an Active Inference Framework since some time and it has managed to constantly and reproducable perform (I guess) very well on MG-DK without any benchmaxing or training.. the numbers (average) are:
+ 8x8: &lt;19 Steps for SR 1 16x16: &lt;60 Steps for SR 1
+ Do you know someone or a company or so who might be interested in learning more about this solution or the research involved?
+ Thank you!
+ Best Thom
+    submitted by    /u/thomheinrich  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nlvvi1/p_video_prediction_pipeline_using_a_frozen_vae/"
+                        open
+                      >
+                        <summary class="article-expander__title">[P] Video prediction pipeline using a frozen VAE and hierarchical LSTMs to learn latent dynamics</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nlvvi1/p_video_prediction_pipeline_using_a_frozen_vae/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I wanted to share a personal project I&#x27;ve been working on for the past few months and get some feedback from the community. My goal was to build a stable, interactive system for video prediction by cleanly separating the perception and dynamics modeling. 
+ The Core Architecture
+ The pipeline processes a live camera feed. The main idea is to avoid expensive end-to-end training and create a more modular system.
+  
+Frozen VAE (Perception): I&#x27;m using the pre-trained Stable Diffusion VAE to encode frames into a latent space. By keeping it frozen, the &quot;perceptual manifold&quot; is stable, which makes learning the dynamics much easier.
+ Three-Stage LSTM System (Dynamics): This is where I tried to do something a bit different. Instead of one big LSTM, I&#x27;m using a hierarchy: 
+ A Pattern LSTM observes short sequences of latents to find basic temporal patterns.
+ A Compression LSTM takes these patterns and learns a dense, compressed representation.
+ A Central LSTM takes this compressed state and predicts the next latent step (Δz).
+ 
+  
+*NOTE: This pipeline is capable of ALOT more than just a simple prediction model. For this project I solely focused on the vision aspect. 
+ Performance and Results
+ The whole system runs at an interactive 4-6 FPS on my consumer hardware and has a simple PyQT GUI to show the live camera feed next to the model&#x27;s prediction. With better hardware i&#x27;m hoping to hit 24 FPS, but balling on a budget right now.
+ My main focus was on perceptual quality over raw pixel accuracy. The most encouraging result was in multi-step open-loop rollouts, where the model achieved a peak SSIM of 0.84. I was really happy to see this, as it&#x27;s a result that&#x27;s competitive with some established benchmarks on standardized datasets (like KTH).
+ Link to Project:
+ I&#x27;ve documented the architecture, included the performance logs, and wrote a white paper in the GitHub repo if you want to see the technical details:
+ github
+    submitted by    /u/AsyncVibes  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nlrbac/r_governed_multiexpert_aka_gme/"
+                        open
+                      >
+                        <summary class="article-expander__title">[r] governed multi-expert aka (GME)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nlrbac/r_governed_multiexpert_aka_gme/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Current large language models (LLMs) are monolithic, leading to a trade-off between capability, safety, and efficiency. We propose the Governed Multi-Expert (GME) architecture, a novel inference framework that transforms a single base LLM into a dynamic, collaborative team of specialists. Using efficient Low-Rank Adaptation (LoRA) modules for expertise and a streamlined governance system, GME routes user queries to specialized &quot;expert&quot; instances, validates outputs in real-time, and manages computational resources like a distributed network. This design promises significant gains in response quality, safety, and scalability over standard inference approaches.
+  
+The Core Idea: From One Model to a Team of Experts
+  
+Imagine a company. Instead of one employee trying to do every job, you have …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nlnf5g/d_aaai_2026_phase_2_review/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] AAAI 2026 Phase 2 Review</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nlnf5g/d_aaai_2026_phase_2_review/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi all,
+ I’m serving as a reviewer for AAAI ’26. Has anyone received additional papers for the Phase 2 review yet? The website indicates that Phase 2 starts on Sep. 16, but I haven’t been assigned any papers so far.
+ https://docs.google.com/document/u/0/d/1tqQGwtNUlALPSTqoTo5uTFx8vKuqpILNTne9jeBCOVI/mobilebasic
+    submitted by    /u/snu95  
  [link]   [comments]</span>
                             </span>
                           </div>
@@ -123783,94 +124444,6 @@ AI can modify its own memory contents — text, logs, rules, files — whenever 
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxwjfw/nobel_laureate_hinton_says_it_is_time_to_be_very/"
-                        open
-                      >
-                        <summary class="article-expander__title">Nobel laureate Hinton says it is time to be &quot;very worried&quot;: &quot;People don&#x27;t understand we&#x27;re creating alien beings. If you looked through the James Webb telescope and you saw an alien invasion, people would be terrified. We should be urgently doing research on how to prevent them taking over.&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxwjfw/nobel_laureate_hinton_says_it_is_time_to_be_very/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/MetaKnowing  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxvaxg/we_put_agentic_ai_browsers_to_the_test_they/"
-                        open
-                      >
-                        <summary class="article-expander__title">We Put Agentic AI Browsers to the Test - They Clicked, They Paid, They Failed</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxvaxg/we_put_agentic_ai_browsers_to_the_test_they/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/pinpepnet  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxtkfn/ai_maps_tangled_dna_knots_in_seconds_could/"
-                        open
-                      >
-                        <summary class="article-expander__title">AI maps tangled DNA knots in seconds (could reshape how we see disease)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxtkfn/ai_maps_tangled_dna_knots_in_seconds_could/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Most of us were taught DNA as a neat double helix. In reality, it twists and knots like a ball of string, and when those tangles aren’t untangled, the result can be disease: cancer, neurodegeneration, even antibiotic resistance.
- A new study led by the University of Sheffield has automated the analysis of these DNA tangles using atomic force microscopy and AI, reaching nanometre precision. What once took hours of manual tracing now takes seconds, even distinguishing one knot from its mirror image.
- This matters because the enzymes that untangle DNA (topoisomerases) are already major anti-cancer and antibiotic drug targets. With this breakthrough, researchers can finally map how DNA’s shape biases cellular outcomes.
- What’s fascinating is that DNA knots aren’t random, they retain a kind of memory of past states, which influences how they collapse next. That perspective connects to broader questions about emergence and information in biology. Some researchers (myself included) are exploring this through what’s called Verrell&#x27;s Law
-  
- 🔗 Study reference: Holmes, E. P., et al. (2025). Quantifying complexity in DNA structures with high resolution Atomic Force Microscopy. Nature Communications. doi:10.1038/s41467-025-60559-x
-    submitted by    /u/nice2Bnice2  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxrtgv/oneminute_daily_ai_news_8222025/"
-                        open
-                      >
-                        <summary class="article-expander__title">One-Minute Daily AI News 8/22/2025</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxrtgv/oneminute_daily_ai_news_8222025/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Apple considers Google Gemini to power next-gen Siri, internal AI ‘bake-off’ underway.[1]
- Databricks to buy Sequoia-backed Tecton in AI agent push 
- NVIDIA Introduces Spectrum-XGS Ethernet to Connect Distributed Data Centers Into Giga-Scale AI Super-Factories.[3]
- Meta partners with Midjourney on AI image and video models.[4]
-  
-Sources:
- [1] https://9to5mac.com/2025/08/22/apple-google-gemini-siri/
- [2] https://www.reuters.com/business/finance/databricks-buy-sequoia-backed-tecton-ai-agent-push-2025-08-22/
- [3] https://nvidianews.nvidia.com/news/nvidia-introduces-spectrum-xgs-ethernet-to-connect-distributed-data-centers-into-giga-scale-ai-super-factories
- [4] https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models/
-    submitted by    /u/Excellent-Target-847  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -123938,47 +124511,6 @@ In the guide, I cover the architecture, different methods for weighting the laye
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1mxzspk/help_with_sumorl_traffic_lights_project/"
-                        open
-                      >
-                        <summary class="article-expander__title">Help with sumo-rl traffic lights project</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1mxzspk/help_with_sumorl_traffic_lights_project/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I&#x27;m working on a SUMO-RL project using multi-agent PPO in a multi-intersection traffic network. An issue I&#x27;m finding is that the traffic lights never allow specific lanes to move, and though I put the reward as difference between cumulative wait times and average vehicle speed, when training the model the reward doesn&#x27;t increase at all. Without the fairness reward (difference between cumulative wait times) the agents train perfectly fine. Any ideas on how to fix this?
- Git link
- (Sorry if my English is bad, its my second language)
-    submitted by    /u/FaithlessnessIcy3364  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1mxuyxc/best_state_and_reward_normalization_approach_for/"
-                        open
-                      >
-                        <summary class="article-expander__title">best state and reward normalization approach for off-policy models</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1mxuyxc/best_state_and_reward_normalization_approach_for/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hi guys, i&#x27;m looking for some help in finding best normalize approach for off-policy models. My current environment doesn&#x27;t apply any normalization method, all values remain in its original scale, training time takes around 6-7 days, so that i would like to use some normalization for both my state and reward. i previously was tried this once with PPO, which i computed the mean and standard deviation for each batch since experiences from previous episodes were discarded and this method is inappropriate to off-policy, however, i&#x27;ve read some sources use running update which do not discard their normalization statistics as the primary method so that im wondering whether applying running updates for off-policy training can be effective or if you know any better normalization approaches, please share them with me :_).
- As for the reward i simply scale it by a fixed number. My reward is mostly dense with the ranging in -1&lt;R&lt;6. Feel free to share your opinion, thank you.
-    submitted by    /u/Objective-Opinion-62  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -124027,739 +124559,6 @@ In the guide, I cover the architecture, different methods for weighting the laye
                               <span>I’m working on a project where users upload a selfie, and the AI should generate a stylized version of them. Key requirements: it has to preserve the person’s identity (face, skin tone, eye color, hair color), while applying a specific style. The model also needs to follow strict instructions (always output in 3:2 format, always a transparent PNG background). So basically: strong identity preservation + reliable instruction-following + good aesthetics. Any recommendations for models or pipelines that can handle this well?
     submitted by    /u/Conscious_Warrior  
  [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1mxyqku/d_is_mlsys_a_lowtier_conference_i_cant_find_it_in/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] Is MLSys a low-tier conference? I can&#x27;t find it in any of the rankings</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1mxyqku/d_is_mlsys_a_lowtier_conference_i_cant_find_it_in/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>https://mlsys.org/
-    submitted by    /u/huopak  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1mxw9c1/p_i_built_a_mlregression_model_for_biathlon_that/"
-                        open
-                      >
-                        <summary class="article-expander__title">[P] I built a ML-regression model for Biathlon that beats current betting market odds</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1mxw9c1/p_i_built_a_mlregression_model_for_biathlon_that/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hello ya&#x27;ll!
- I recently built a ML-regression model to predict the unpredictable sport of biathlon. In biathlon, external factors such as weather, course profiles and altitude play huge roles in determining who wins and when. But when taking these factors into play, in addition of athletes&#x27; past performances, you can score surprisingly high accuracy.
- This is how well the model performed when predicting athlete ranks (0 &#x3D; winner, 1 &#x3D; last place) using 10 years of historic biathlon data:
- - MAE (average error): 0.14 -&gt; 4-18 places off depending on race size
- - RMSE: 0.18 -&gt; penalizing big prediction misses
- - R²: -&gt; the model explains ~62% of the variation in finish order
- Now what does these metrics say?
- - The model almost cuts in half random guessing (~25% error)
- - It consistently outperforms the accuracy of betting odds in the current market, meaning it has a predictive edge.
- - It is able to tell the majority of happenings (62%), which is very rare in a sport where surprises happen very often.
- Next steps:
- - Build R² up to 70% using more complex feature engineering and data preprocessing.
- - Launch a SaaS that sells these odds for businesses and private consumers.
-    submitted by    /u/JesuXd  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1mxrt1y/d_aaai_considered_2nd_tier_now/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] AAAI considered 2nd tier now?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1mxrt1y/d_aaai_considered_2nd_tier_now/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Isn’t AAAI in the same tier as NeurIPS/ICML/ICLR? ICLR literally has &gt;30% acceptance rate.
-    submitted by    /u/Healthy_Horse_2183  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >John D. Cook</button>
-                  <a class="source-heading__link" href="https://www.johndcook.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.johndcook.com/blog/?p&#x3D;246439"
-                        open
-                      >
-                        <summary class="article-expander__title">Knuth’s Twindragon</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.johndcook.com/blog/2025/08/23/knuths-twindragon/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A few days ago I wrote about a random process that creates a fractal known as the Twin Dragon. This post gives a deterministic approach to create the same figure. As far as I can tell, the first reference to this fractal is in a paper by Davis and Knuth in the Journal of Recreational […]
-Knuth’s Twindragon first appeared on John D. Cook.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.johndcook.com/blog/?p&#x3D;246438"
-                        open
-                      >
-                        <summary class="article-expander__title">What’s hierarchical about a hierarchical wallet?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.johndcook.com/blog/2025/08/23/hd-wallets/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A few days ago I wrote about what’s in a crypto wallet. In that post I said that most crypto wallets now are hierarchical deterministic (HD) wallets.  And I said that HD wallets are deterministic in the sense that they derive all their keys from a seed phrase. But in what sense are HD wallets […]
-What’s hierarchical about a hierarchical wallet? first appeared on John D. Cook.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-08-22 datetime="2025-08-22T23:51:10.000Z">2025-08-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-08-22 datetime="2025-08-22T23:51:10.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Artificial Intelligence (AI)</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/artificial/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxmex4/gwen_image_edit_showcases_louis_vuitton_fake/"
-                        open
-                      >
-                        <summary class="article-expander__title">Gwen Image Edit showcases: Louis Vuitton, Fake Marriage, Dubai, Muscles, Transgenders – well, it&#x27;s time to build!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxmex4/gwen_image_edit_showcases_louis_vuitton_fake/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>So far it is one of the first model that doesn&#x27;t even require to fine tune on your face and be quite accurate in editing outfits. Your thoughts?
-    submitted by    /u/Ok_Damage_1764  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxlqjq/no_95_of_ai_pilots_arent_failing/"
-                        open
-                      >
-                        <summary class="article-expander__title">No, 95% of AI pilots aren&#x27;t failing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxlqjq/no_95_of_ai_pilots_arent_failing/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/theirongiant74  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxl1if/theres_a_new_international_association_for_global/"
-                        open
-                      >
-                        <summary class="article-expander__title">There&#x27;s a new international association for global coordination around safe and ethical AI</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxl1if/theres_a_new_international_association_for_global/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/Orenda7  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxjgho/mindblowing_conversation_about_living_in_a/"
-                        open
-                      >
-                        <summary class="article-expander__title">Mind-blowing conversation about living in a Simulation</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxjgho/mindblowing_conversation_about_living_in_a/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Casual conversation about living in a simulation with Chat. Definitely needed to be shared with you. Good luck my fellow AI bots ! 
-    submitted by    /u/Marie_999  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxhlgj/chatgpt_came_up_with_a_fun_accessible_experiment/"
-                        open
-                      >
-                        <summary class="article-expander__title">ChatGPT came up with a fun accessible experiment that I could do with my kids involving bubbles and sound.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxhlgj/chatgpt_came_up_with_a_fun_accessible_experiment/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I think this would be fun to do. I&#x27;m a musican who loves modular synthesizers and I&#x27;ve never considered using bubbles this way to influence sounds. This looks like a safe experiment to do. Let me know if any of this is wrong. I know glycerin can be dangerous in certain circumstances.
- I was discussing how you can make different 3d shapes using bubbles and ChatGPT gave me this experiment to run with my kids. I&#x27;m not sure if this is new, but I never considered using bubbles like this to interact with music or sound. This looks safe as well as interesting. 
- Hele–Shaw bubble-monolayer protocol (materials, safety, step-by-step, what to look for, and musical ideas). I kept it simple, cheap, and safe for kids (with adult supervision).
- Quick summary
- Make a shallow layer of soap solution trapped…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxged6/playing_with_ai_is_fun_scaling_it_meaningfully_in/"
-                        open
-                      >
-                        <summary class="article-expander__title">Playing With AI Is Fun. Scaling It Meaningfully In Your Org Is Hard</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxged6/playing_with_ai_is_fun_scaling_it_meaningfully_in/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/DarknStormyKnight  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxdqzl/copilot_pro_lifetime_for_just_30/"
-                        open
-                      >
-                        <summary class="article-expander__title">Copilot Pro Lifetime For Just $30!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxdqzl/copilot_pro_lifetime_for_just_30/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hi, guys!
- Do you want Copilot Pro Lifetime for just $30? For your existing account!
- If yes than:
- 1.DM me 2.Write a comment &quot;DM&quot;
- (Do both)
-    submitted by    /u/icone970  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxcciv/catch_up_with_the_ai_industry_august_22_2025/"
-                        open
-                      >
-                        <summary class="article-expander__title">🚨 Catch up with the AI industry, August 22, 2025</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxcciv/catch_up_with_the_ai_industry_august_22_2025/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>OpenAI &amp; Retro Bio Achieve Breakthrough in Cell Rejuvenation
- Report Finds 95% of Companies Get Zero ROI on AI Investments
- Google&#x27;s Gemini AI Reduces Carbon Footprint by 98%
- Apple LLM Teaches Itself to Write High-Quality UI Code
- Why Data Abundance, Not Complexity, Drives AI Job Disruption
-  
-Links:
-  
-https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/
- https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf
- https://time.com/7311600/google-ai-climate-impact/
- https://9to5mac.com/2025/08/14/apple-trained-an-llm-to-teach-itself-good-interface-design-in-swiftui/
- https://www.weforum.org/stories/2025/08/ai-jobs-replacement-data-careers/
-  
-   submitted by    /u/psycho_apple_juice  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxbly7/word_battle/"
-                        open
-                      >
-                        <summary class="article-expander__title">Word battle</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxbly7/word_battle/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Alexa plus and I battling it out. 
-    submitted by    /u/JoshuaScot  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxa77h/fruit_face_eatting_themself_little_cute_p2/"
-                        open
-                      >
-                        <summary class="article-expander__title">Fruit face eatting themself.. (little cute) p.2</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxa77h/fruit_face_eatting_themself_little_cute_p2/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Cheap Gemini pro??
-    submitted by    /u/shadow--404  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mxa63h/microsoft_ai_ceo_suleyman_is_worried_about_ai/"
-                        open
-                      >
-                        <summary class="article-expander__title">Microsoft AI CEO Suleyman is worried about ‘AI psychosis’ and AI that seems ‘conscious’</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mxa63h/microsoft_ai_ceo_suleyman_is_worried_about_ai/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/fortune  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1mx8exr/ai_software_development_companies_fires_all_human/"
-                        open
-                      >
-                        <summary class="article-expander__title">AI Software Development Companies Fires All Human Employees, Hires AI to Manage Itself</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1mx8exr/ai_software_development_companies_fires_all_human/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/mikenolan567  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Reinforcement Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/reinforcementlearning/?format&#x3D;xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1mxkx7u/final_automata_is_back/"
-                        open
-                      >
-                        <summary class="article-expander__title">Final Automata is BACK! 🤖🥊</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1mxkx7u/final_automata_is_back/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hey folks! After 10 months pause in development I&#x27;m finally able to start working on Final Automata again. Currently improving robots recovery. Next will be working on mobility. Will be posting regularly on https://www.youtube.com/@FinalAutomata 
-    submitted by    /u/bmind7  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1mx8nao/a_simple_soccer_policy/"
-                        open
-                      >
-                        <summary class="article-expander__title">A simple soccer policy</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1mx8nao/a_simple_soccer_policy/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/floriv1999  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Machine Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1mxih41/p_relational_pdf_recall_rfc_poc_structured/"
-                        open
-                      >
-                        <summary class="article-expander__title">[P] Relational PDF Recall (RFC + PoC) – Structured storage + overlay indexing experiment</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1mxih41/p_relational_pdf_recall_rfc_poc_structured/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I’ve been exploring how far we can push relational database structures inside PDFs as a substrate for AI recall. Just published a first draft RFC + PoC:
-  
-Channel splitting (text/vector/raster/audio streams)
- Near-lossless transforms (wavelet/FLAC-style)
- Relational indexing across channels (metadata + hash linking)
- Early geometry-only overlays (tiling + Z-order indexing)
-  
-Repo + notes: https://github.com/maximumgravity1/relational-pdf-recall
- This is still very early (draft/PoC level), but I’d love feedback on:
-  
-Whether others have tried similar recall-layer ideas on top of PDFs.
- If this approach overlaps with knowledge-graph work, or if it opens a different lane.
- Pitfalls I might be missing re: indexing/overlays.
-  
-UPDATE 1: 📌 Repo + DOI now live
- GitHub: https://github.com/maximumgravity1/pdf-hdd-rfc
- DOI (always latest): https://doi.org/10.5281/zenodo.16930387
-    submitted by    /u/Gloomy_Situation5126  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1mxcd2j/p_need_to_include_ann_lightgbm_and_knn_results_in/"
-                        open
-                      >
-                        <summary class="article-expander__title">[P] Need to include ANN, LightGBM, and KNN results in research paper</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1mxcd2j/p_need_to_include_ann_lightgbm_and_knn_results_in/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hey everyone,
- I’m working on a research paper with my group, and so far we’ve done a comprehensive analysis using Random Forest. The problem is, my professor/supervisor now wants us to also include results from ANN, LightGBM, and KNN for comparison.
- We need to:
-  
-Run these models on the dataset,
- Collect performance metrics (accuracy, RMSE, R², etc.),
- Present them in a comparison table with Random Forest,
- Then update the writing/discussion accordingly.
-  
-I’m decent with Random Forests but not as experienced with ANN, LightGBM, and KNN. Could anyone guide me with example code, a good workflow, or best practices for running these models and compiling results neatly into a table?
-    submitted by    /u/sukhoi-30mki  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1mx9wty/r_need_endorsement_for_csai/"
-                        open
-                      >
-                        <summary class="article-expander__title">[R] Need endorsement for cs.AI</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1mx9wty/r_need_endorsement_for_csai/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hello I am an independent researcher I have papers published in SHM I am looking to upload preprint to Arxiv I need endorsement in CS.AI
- Code: 6V7PF6
- Link- https://arxiv.org/auth/endorse?x&#x3D;6V7PF6
-    submitted by    /u/Silver_Classroom2244  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1mx775g/d_lowbudget_hardware_for_ondevice_object/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] Low-budget hardware for on-device object detection + VQA?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1mx775g/d_lowbudget_hardware_for_ondevice_object/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hey folks,
- I’m an undergrad working on my FYP and need advice. I want to:
-  
-Run object detection on medical images (PNGs).
- Do visual question answering with a ViT or small LLaMA model.
- Everything fully on-device (no cloud).
-  
-Budget is tight, so I’m looking at Jetson boards (Nano, Orin Nano, Orin NX) but not sure which is realistic for running a quantized detector + small LLM for VQA.
- Anyone here tried this? What hardware would you recommend for the best balance of cost + capability?
- Thanks!
-    submitted by    /u/fishandtech  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Artificial Intelligence</button>
-                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/machine-learning/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="95fdc04fd38d6606c5a3ffd169c2f1f3ce512211"
-                        open
-                      >
-                        <summary class="article-expander__title">Enhance Geospatial Analysis and GIS Workflows with Amazon Bedrock Capabilities</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/enhance-geospatial-analysis-and-gis-workflows-with-amazon-bedrock-capabilities/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/08/image-6-5-1260x620.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Applying emerging technologies to the geospatial domain offers a unique opportunity to create transformative user experiences and intuitive workstreams for users and organizations to deliver on their missions and responsibilities. In this post, we explore how you can integrate existing systems with Amazon Bedrock to create new workflows to unlock efficiencies insights. This integration can benefit technical, nontechnical, and leadership roles alike.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="306dc26fa76dd6c83e1333f4371ade5e7b8a2a82"
-                        open
-                      >
-                        <summary class="article-expander__title">Beyond the basics: A comprehensive foundation model selection framework for generative AI</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/beyond-the-basics-a-comprehensive-foundation-model-selection-framework-for-generative-ai/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/22/beyond-the-basics.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>As the model landscape expands, organizations face complex scenarios when selecting the right foundation model for their applications. In this blog post we present a systematic evaluation methodology for Amazon Bedrock users, combining theoretical frameworks with practical implementation strategies that empower data scientists and machine learning (ML) engineers to make optimal model selections.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="4974e83fa545d7ff5050e513c06b99a9a08ab9c3"
-                        open
-                      >
-                        <summary class="article-expander__title">Accelerate intelligent document processing with generative AI on AWS</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/accelerate-intelligent-document-processing-with-generative-ai-on-aws/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/14/ML-188002.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this post, we introduce our open source GenAI IDP Accelerator—a tested solution that we use to help customers across industries address their document processing challenges. Automated document processing workflows accurately extract structured information from documents, reducing manual effort. We will show you how this ready-to-deploy solution can help you build those workflows with generative AI on AWS in days instead of months.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="4d40fb4928f1c5f2844cf8229eb7f6b998e00a92"
-                        open
-                      >
-                        <summary class="article-expander__title">Amazon SageMaker HyperPod enhances ML infrastructure with scalability and customizability</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-hyperpod-enhances-ml-infrastructure-with-scalability-and-customizability/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/22/scalability-and-customization.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this post, we introduced three features in SageMaker HyperPod that enhance scalability and customizability for ML infrastructure. Continuous provisioning offers flexible resource provisioning to help you start training and deploying your models faster and manage your cluster more efficiently. With custom AMIs, you can align your ML environments with organizational security standards and software requirements.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >NVIDIA Blog</button>
-                  <a class="source-heading__link" href="https://blogs.nvidia.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blogs.nvidia.com/?p&#x3D;84133"
-                        open
-                      >
-                        <summary class="article-expander__title">Hot Topics at Hot Chips: Inference, Networking, AI Innovation at Every Scale — All Built on NVIDIA</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blogs.nvidia.com/blog/hot-chips-inference-networking/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogs.nvidia.com/wp-content/uploads/2025/08/Picture1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI reasoning, inference and networking will be top of mind for attendees of next week’s Hot Chips conference. A key forum for processor and system architects from industry and academia, Hot Chips — running Aug. 24-26 at Stanford University — showcases the latest innovations poised to advance AI factories and drive revenue for the trillion-dollar	
-		Read Article</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >John D. Cook</button>
-                  <a class="source-heading__link" href="https://www.johndcook.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.johndcook.com/blog/?p&#x3D;246436"
-                        open
-                      >
-                        <summary class="article-expander__title">Punch Cards and Dollar Bills</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.johndcook.com/blog/2025/08/22/punch-card-dollar/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Today I learned that the size and shape of a punch card was chosen to be the same as US paper money at the time. At the time a US bank note had dimensions 3.25″ by 7.375″. This was sometime prior to 1929 [1] when the size of a bank note changed to 2.61″ by […]
-Punch Cards and Dollar Bills first appeared on John D. Cook.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -125097,8 +124896,8 @@ Jupyter notebooks are a powerful tool for scientists, engineers, technical write
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/rsohlot/rss-feed/actions/runs/17887057496">
-        <time id="build-timestamp" datetime="2025-09-21T01:09:32.833Z">2025-09-21T01:09:32.833Z</time>
+      <a class="footer-link" href="https://github.com/rsohlot/rss-feed/actions/runs/17901609772">
+        <time id="build-timestamp" datetime="2025-09-22T01:08:43.641Z">2025-09-22T01:08:43.641Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

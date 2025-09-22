@@ -658,51 +658,6 @@
           "wordCount": 6527,
           "title": "Learn how Amazon Health Services improved discovery in Amazon search using AWS ML and gen AI",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/26/ML-18930-ner.jpg"
-        },
-        {
-          "id": "95fdc04fd38d6606c5a3ffd169c2f1f3ce512211",
-          "author": "Dave Horne",
-          "description": "Applying emerging technologies to the geospatial domain offers a unique opportunity to create transformative user experiences and intuitive workstreams for users and organizations to deliver on their missions and responsibilities. In this post, we explore how you can integrate existing systems with Amazon Bedrock to create new workflows to unlock efficiencies insights. This integration can benefit technical, nontechnical, and leadership roles alike.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/enhance-geospatial-analysis-and-gis-workflows-with-amazon-bedrock-capabilities/",
-          "publishedOn": "2025-08-22T17:54:38.000Z",
-          "wordCount": 7026,
-          "title": "Enhance Geospatial Analysis and GIS Workflows with Amazon Bedrock Capabilities",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/08/image-6-5-1260x620.png"
-        },
-        {
-          "id": "306dc26fa76dd6c83e1333f4371ade5e7b8a2a82",
-          "author": "Sandeep Singh",
-          "description": "As the model landscape expands, organizations face complex scenarios when selecting the right foundation model for their applications. In this blog post we present a systematic evaluation methodology for Amazon Bedrock users, combining theoretical frameworks with practical implementation strategies that empower data scientists and machine learning (ML) engineers to make optimal model selections.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/beyond-the-basics-a-comprehensive-foundation-model-selection-framework-for-generative-ai/",
-          "publishedOn": "2025-08-22T17:31:28.000Z",
-          "wordCount": 5890,
-          "title": "Beyond the basics: A comprehensive foundation model selection framework for generative AI",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/22/beyond-the-basics.jpg"
-        },
-        {
-          "id": "4974e83fa545d7ff5050e513c06b99a9a08ab9c3",
-          "author": "Bob Strahan",
-          "description": "In this post, we introduce our open source GenAI IDP Accelerator—a tested solution that we use to help customers across industries address their document processing challenges. Automated document processing workflows accurately extract structured information from documents, reducing manual effort. We will show you how this ready-to-deploy solution can help you build those workflows with generative AI on AWS in days instead of months.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-intelligent-document-processing-with-generative-ai-on-aws/",
-          "publishedOn": "2025-08-22T17:26:31.000Z",
-          "wordCount": 5861,
-          "title": "Accelerate intelligent document processing with generative AI on AWS",
-          "enclosure": {
-            "length": "27253390",
-            "type": "video/mp4",
-            "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-18800/video_1755214496026.mp4"
-          },
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/14/ML-188002.png"
-        },
-        {
-          "id": "4d40fb4928f1c5f2844cf8229eb7f6b998e00a92",
-          "author": "Mark Vinciguerra",
-          "description": "In this post, we introduced three features in SageMaker HyperPod that enhance scalability and customizability for ML infrastructure. Continuous provisioning offers flexible resource provisioning to help you start training and deploying your models faster and manage your cluster more efficiently. With custom AMIs, you can align your ML environments with organizational security standards and software requirements.",
-          "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-hyperpod-enhances-ml-infrastructure-with-scalability-and-customizability/",
-          "publishedOn": "2025-08-22T17:14:39.000Z",
-          "wordCount": 6090,
-          "title": "Amazon SageMaker HyperPod enhances ML infrastructure with scalability and customizability",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/22/scalability-and-customization.jpg"
         }
       ]
     },
@@ -47346,6 +47301,76 @@
       "siteUrl": "https://www.reddit.com/r/MachineLearning/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1nn8lz8/p_how_roblox_uses_ml_to_connect_global_gamers/",
+          "author": null,
+          "description": "Imagine you’re at a hostel. Playing video games with new friends from all over the world. Everyone is chatting (and smack-talking) in their native tongue. And yet, you understand every word. Because sitting right beside you is a UN-level universal language interpreter. \n That’s essentially how Roblox’s multilingual translation system works in real time during gameplay. \n Behind the scenes, a powerful AI-driven language model acts like that interpreter, detecting languages and instantly translating for every player in the chat.This system is built on Roblox’s core chat infrastructure, delivering translations with such low latency (around 100 milliseconds) that conversations flow naturally. \n Tech Overview: Roblox built a single transformer-based language model with specialized \"experts\" that can translate between any combination of 16 languages in real-time, rather than needing 256 separate models for each language pair. \n Key Machine Learning Techniques:\n  \nLarge Language Models (LLMs) - Core transformer architecture for natural language understanding and translation\n Mixture of Experts - Specialized sub-models for different language groups within one unified system\n Transfer Learning - Leveraging linguistic similarities to improve translation quality for related languages\n Back Translation - Generating synthetic training data for rare language pairs to improve accuracy\n Human-in-the-Loop Learning - Incorporating human feedback to continuously update slang and trending terms\n Model Distillation & Quantization - Compressing the model from 1B to 650M parameters for real-time deployment\n Custom Quality Estimation - Automated evaluation metrics that assess translation quality without ground truth references\n  \n   submitted by    /u/eh-tk  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1nn8lz8/p_how_roblox_uses_ml_to_connect_global_gamers/",
+          "publishedOn": "2025-09-22T00:45:35.000Z",
+          "wordCount": null,
+          "title": "[P] How Roblox Uses ML to Connect Global Gamers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1nn5x9t/p_sdlarchrl_multiconsole_gaming_environment_for/",
+          "author": null,
+          "description": "Hey r/MachineLearning! I've been working on addressing a persistent pain point in RL gaming research - the setup complexity and limited scope of training environments.\n SDLArch-RL is a unified RL environment that integrates multiple console emulators (N64, PS2, Dreamcast, GameCube) with standard ML frameworks. Key technical features:\n  \nGymnasium-compliant interface - drop-in replacement for existing workflows\n Stable-Baselines3 integration - works out-of-the-box with PPO, SAC, TD3, etc.\n Efficient state management - leverages native emulator save states for fast episode resets\n Configurable observation spaces - raw pixels, processed features, or memory states\n Action space mapping - handles complex controller inputs to discrete/continuous actions\n  \nCurrently supports 4 emulator backends with plans for modern console integration (PS3, Xbox 360, Wii U). The environment abstracts away emulator-specific APIs while preserving access to low-level features when needed.\n Technical implementation highlights:\n  \nSDL-based architecture for minimal overhead\n Memory mapping support for game-specific feature extraction\n Reproducible training through deterministic save state handling\n Multi-game training capabilities within single environment instance\n  \nThis opens up training on thousands of diverse games vs. the typical handful of custom environments. Particularly useful for transfer learning studies, multi-task RL, and curriculum learning research.\n Happy to discuss technical details or answer implementation questions. Thoughts on potential research applications?\n Git: https://github.com/paulo101977/sdlarch-rl\n    submitted by    /u/AgeOfEmpires4AOE4  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1nn5x9t/p_sdlarchrl_multiconsole_gaming_environment_for/",
+          "publishedOn": "2025-09-21T22:40:58.000Z",
+          "wordCount": null,
+          "title": "[P] SDLArch-RL: Multi-Console Gaming Environment for Reinforcement Learning Research",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1nn5wex/p_tracking_generation_provenance_in_multimodel/",
+          "author": null,
+          "description": "Working on an interesting problem in production RAG systems.\n When documents are generated through multiple model iterations, we lose the causal chain of prompts and contexts that created them. This makes reproducibility and debugging nearly impossible.\n My approach:\n  \nStore prompt embeddings alongside generated content\n Track model/version fingerprints\n Maintain conversation context graphs\n Enable temporal queries (\"show evolution of auth design\")\n  \nInteresting finding: Documents that go through multiple models (Claude→GPT-4→Gemini) show measurably different semantic patterns than single-model outputs. The prompt chain becomes crucial for understanding final output.\n Currently tracking 103 documents with up to 9 versions each. Can query both by content similarity AND prompt similarity.\n Implementation uses standard RAG pipeline but indexes prompts separately from outputs. Adds ~15% storage overhead but query precision improved 40%.\n Code: github.com/VeriTeknik/pluggedin-app\n Has anyone explored prompt archaeology in production systems? What patterns are you seeing?\n    submitted by    /u/babaenki  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1nn5wex/p_tracking_generation_provenance_in_multimodel/",
+          "publishedOn": "2025-09-21T22:39:59.000Z",
+          "wordCount": null,
+          "title": "[P] Tracking generation provenance in multi-model workflows",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1nn56yu/d_is_nondl_related_research_a_poor_fit_for_iclr/",
+          "author": null,
+          "description": "I was one of the lucky people rejected from NEURIPS with 6444 scores but cranky AC, so looking to resubmit now. Since it got good reviews at NEURIPS, I'm considering submitting to ICLR incorporating suggested changes.\n However, my paper proposes a linear dimensionality reduction technique, based on information geometry. It is my understanding that ICLR is very focused on neural networks and Deep Learning, so I am worried that my paper is not a good fit, so also considering AISTATS.\n Is a novel linear dimensionality reduction technique too out of scope for ICLR? I am an outsider to the field, so would very much appreciate opinions.\n    submitted by    /u/dherrera1911  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1nn56yu/d_is_nondl_related_research_a_poor_fit_for_iclr/",
+          "publishedOn": "2025-09-21T22:08:57.000Z",
+          "wordCount": null,
+          "title": "[D] Is non-DL related research a poor fit for ICLR?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1nn1ig8/d_strategies_for_routing_llms/",
+          "author": null,
+          "description": "submitted by    /u/ApartmentEither4838  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1nn1ig8/d_strategies_for_routing_llms/",
+          "publishedOn": "2025-09-21T19:40:57.000Z",
+          "wordCount": null,
+          "title": "[D] Strategies for Routing LLMs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1nmu1ad/d_missing_aaai_reviews/",
+          "author": null,
+          "description": "Apologies in advance if I’ve missed something in conference comms so far, but I can’t seem to see the reviews I’d received on my (rejected) AAAI submission anymore. I was able to view them the other day, but when I just went to reflect on them to help with our next revision, they were gone!\n Does anyone know anything about this? Is it related to the Phase 2 review round starting?\n    submitted by    /u/dreamykidd  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1nmu1ad/d_missing_aaai_reviews/",
+          "publishedOn": "2025-09-21T14:53:11.000Z",
+          "wordCount": null,
+          "title": "[D] Missing AAAI Reviews",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1nmo57e/d_is_peer_review_overloaded_due_to_rejecting_too/",
+          "author": null,
+          "description": "The crazy math of queueing theory: When conferences reject a large fraction of papers, many of those submissions come back in the next cycle. But increasing rates a bit reduces drastically the unaccepted paper pool and a percentage of this smaller pool becomes again a similar number of accepted papers as when rates were low! This is not saying we should accept bad papers, the number absolute number of accepted papers changes very little because of the unaccepted pool growth!\n See the interactive model + math: https://damaru2.github.io/general/queueing_to_publish_in_AI_or_CS/\n With lower acceptance rates we end up reviewing much more to reach roughly the same number of accepted works.\n What do you think about this phenomenon? Are we re-reviewing too many papers? Physical constraints can be easily solved with federated conferences (make Eurips an official option for presentation?) or allowing not to present in person.\n Bonus: Funnel simulation of the ideal case where authors always resubmit their papers https://i.postimg.cc/gz88S2hY/funnel2.gif In here you can see that when authors do not give up submitting (that is, the ideal case, but in the post a more complex model is presented), and the number new of papers per round is the same for both cases, the same number of papers are accepted on average per conference in two scenarios with different acceptance rates.\n    submitted by    /u/jan_Tamalu  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1nmo57e/d_is_peer_review_overloaded_due_to_rejecting_too/",
+          "publishedOn": "2025-09-21T10:06:23.000Z",
+          "wordCount": null,
+          "title": "[D] Is peer review overloaded due to rejecting too many papers?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MachineLearning/comments/1nmbvi5/d_iclr_2026_submission_count/",
           "author": null,
           "description": "I submitted to ICLR after a NeurIPS reject of a borderline paper. My submission id is above 20k! Wondering how many ICLR submissions there are in total (comment if you have a higher sub id) and how much the venue can even accommodate.\n    submitted by    /u/kipthornberry  \n [link]   [comments]",
@@ -47383,6 +47408,16 @@
           "publishedOn": "2025-09-20T11:37:02.000Z",
           "wordCount": null,
           "title": "[R] MiniGrid DoorKeys Benchmark Active Inference",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/MachineLearning/comments/1nlvvi1/p_video_prediction_pipeline_using_a_frozen_vae/",
+          "author": null,
+          "description": "I wanted to share a personal project I've been working on for the past few months and get some feedback from the community. My goal was to build a stable, interactive system for video prediction by cleanly separating the perception and dynamics modeling. \n The Core Architecture\n The pipeline processes a live camera feed. The main idea is to avoid expensive end-to-end training and create a more modular system.\n  \nFrozen VAE (Perception): I'm using the pre-trained Stable Diffusion VAE to encode frames into a latent space. By keeping it frozen, the \"perceptual manifold\" is stable, which makes learning the dynamics much easier.\n Three-Stage LSTM System (Dynamics): This is where I tried to do something a bit different. Instead of one big LSTM, I'm using a hierarchy: \n A Pattern LSTM observes short sequences of latents to find basic temporal patterns.\n A Compression LSTM takes these patterns and learns a dense, compressed representation.\n A Central LSTM takes this compressed state and predicts the next latent step (Δz).\n \n  \n*NOTE: This pipeline is capable of ALOT more than just a simple prediction model. For this project I solely focused on the vision aspect. \n Performance and Results\n The whole system runs at an interactive 4-6 FPS on my consumer hardware and has a simple PyQT GUI to show the live camera feed next to the model's prediction. With better hardware i'm hoping to hit 24 FPS, but balling on a budget right now.\n My main focus was on perceptual quality over raw pixel accuracy. The most encouraging result was in multi-step open-loop rollouts, where the model achieved a peak SSIM of 0.84. I was really happy to see this, as it's a result that's competitive with some established benchmarks on standardized datasets (like KTH).\n Link to Project:\n I've documented the architecture, included the performance logs, and wrote a white paper in the GitHub repo if you want to see the technical details:\n github\n    submitted by    /u/AsyncVibes  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1nlvvi1/p_video_prediction_pipeline_using_a_frozen_vae/",
+          "publishedOn": "2025-09-20T11:36:09.000Z",
+          "wordCount": null,
+          "title": "[P] Video prediction pipeline using a frozen VAE and hierarchical LSTMs to learn latent dynamics",
           "imageUrl": null
         },
         {
@@ -50024,76 +50059,6 @@
           "wordCount": null,
           "title": "[D] Best AI model for turning a selfie into a stylized version (identity-preserving + instruction-following)?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1mxyqku/d_is_mlsys_a_lowtier_conference_i_cant_find_it_in/",
-          "author": null,
-          "description": "https://mlsys.org/\n    submitted by    /u/huopak  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1mxyqku/d_is_mlsys_a_lowtier_conference_i_cant_find_it_in/",
-          "publishedOn": "2025-08-23T11:15:41.000Z",
-          "wordCount": null,
-          "title": "[D] Is MLSys a low-tier conference? I can't find it in any of the rankings",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1mxw9c1/p_i_built_a_mlregression_model_for_biathlon_that/",
-          "author": null,
-          "description": "Hello ya'll!\n I recently built a ML-regression model to predict the unpredictable sport of biathlon. In biathlon, external factors such as weather, course profiles and altitude play huge roles in determining who wins and when. But when taking these factors into play, in addition of athletes' past performances, you can score surprisingly high accuracy.\n This is how well the model performed when predicting athlete ranks (0 = winner, 1 = last place) using 10 years of historic biathlon data:\n - MAE (average error): 0.14 -> 4-18 places off depending on race size\n - RMSE: 0.18 -> penalizing big prediction misses\n - R²: -> the model explains ~62% of the variation in finish order\n Now what does these metrics say?\n - The model almost cuts in half random guessing (~25% error)\n - It consistently outperforms the accuracy of betting odds in the current market, meaning it has a predictive edge.\n - It is able to tell the majority of happenings (62%), which is very rare in a sport where surprises happen very often.\n Next steps:\n - Build R² up to 70% using more complex feature engineering and data preprocessing.\n - Launch a SaaS that sells these odds for businesses and private consumers.\n    submitted by    /u/JesuXd  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1mxw9c1/p_i_built_a_mlregression_model_for_biathlon_that/",
-          "publishedOn": "2025-08-23T08:46:29.000Z",
-          "wordCount": null,
-          "title": "[P] I built a ML-regression model for Biathlon that beats current betting market odds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1mxrt1y/d_aaai_considered_2nd_tier_now/",
-          "author": null,
-          "description": "Isn’t AAAI in the same tier as NeurIPS/ICML/ICLR? ICLR literally has >30% acceptance rate.\n    submitted by    /u/Healthy_Horse_2183  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1mxrt1y/d_aaai_considered_2nd_tier_now/",
-          "publishedOn": "2025-08-23T04:19:11.000Z",
-          "wordCount": null,
-          "title": "[D] AAAI considered 2nd tier now?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1mxih41/p_relational_pdf_recall_rfc_poc_structured/",
-          "author": null,
-          "description": "I’ve been exploring how far we can push relational database structures inside PDFs as a substrate for AI recall. Just published a first draft RFC + PoC:\n  \nChannel splitting (text/vector/raster/audio streams)\n Near-lossless transforms (wavelet/FLAC-style)\n Relational indexing across channels (metadata + hash linking)\n Early geometry-only overlays (tiling + Z-order indexing)\n  \nRepo + notes: https://github.com/maximumgravity1/relational-pdf-recall\n This is still very early (draft/PoC level), but I’d love feedback on:\n  \nWhether others have tried similar recall-layer ideas on top of PDFs.\n If this approach overlaps with knowledge-graph work, or if it opens a different lane.\n Pitfalls I might be missing re: indexing/overlays.\n  \nUPDATE 1: 📌 Repo + DOI now live\n GitHub: https://github.com/maximumgravity1/pdf-hdd-rfc\n DOI (always latest): https://doi.org/10.5281/zenodo.16930387\n    submitted by    /u/Gloomy_Situation5126  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1mxih41/p_relational_pdf_recall_rfc_poc_structured/",
-          "publishedOn": "2025-08-22T21:06:55.000Z",
-          "wordCount": null,
-          "title": "[P] Relational PDF Recall (RFC + PoC) – Structured storage + overlay indexing experiment",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1mxcd2j/p_need_to_include_ann_lightgbm_and_knn_results_in/",
-          "author": null,
-          "description": "Hey everyone,\n I’m working on a research paper with my group, and so far we’ve done a comprehensive analysis using Random Forest. The problem is, my professor/supervisor now wants us to also include results from ANN, LightGBM, and KNN for comparison.\n We need to:\n  \nRun these models on the dataset,\n Collect performance metrics (accuracy, RMSE, R², etc.),\n Present them in a comparison table with Random Forest,\n Then update the writing/discussion accordingly.\n  \nI’m decent with Random Forests but not as experienced with ANN, LightGBM, and KNN. Could anyone guide me with example code, a good workflow, or best practices for running these models and compiling results neatly into a table?\n    submitted by    /u/sukhoi-30mki  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1mxcd2j/p_need_to_include_ann_lightgbm_and_knn_results_in/",
-          "publishedOn": "2025-08-22T17:12:13.000Z",
-          "wordCount": null,
-          "title": "[P] Need to include ANN, LightGBM, and KNN results in research paper",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1mx9wty/r_need_endorsement_for_csai/",
-          "author": null,
-          "description": "Hello I am an independent researcher I have papers published in SHM I am looking to upload preprint to Arxiv I need endorsement in CS.AI\n Code: 6V7PF6\n Link- https://arxiv.org/auth/endorse?x=6V7PF6\n    submitted by    /u/Silver_Classroom2244  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1mx9wty/r_need_endorsement_for_csai/",
-          "publishedOn": "2025-08-22T15:39:55.000Z",
-          "wordCount": null,
-          "title": "[R] Need endorsement for cs.AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/MachineLearning/comments/1mx775g/d_lowbudget_hardware_for_ondevice_object/",
-          "author": null,
-          "description": "Hey folks,\n I’m an undergrad working on my FYP and need advice. I want to:\n  \nRun object detection on medical images (PNGs).\n Do visual question answering with a ViT or small LLaMA model.\n Everything fully on-device (no cloud).\n  \nBudget is tight, so I’m looking at Jetson boards (Nano, Orin Nano, Orin NX) but not sure which is realistic for running a quantized detector + small LLM for VQA.\n Anyone here tried this? What hardware would you recommend for the best balance of cost + capability?\n Thanks!\n    submitted by    /u/fishandtech  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/MachineLearning/comments/1mx775g/d_lowbudget_hardware_for_ondevice_object/",
-          "publishedOn": "2025-08-22T13:55:29.000Z",
-          "wordCount": null,
-          "title": "[D] Low-budget hardware for on-device object detection + VQA?",
-          "imageUrl": null
         }
       ]
     },
@@ -50521,16 +50486,6 @@
           "wordCount": 2434,
           "title": "NVIDIA Jetson Thor Unlocks Real-Time Reasoning for General Robotics and Physical AI",
           "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2025/08/robotics-corp-blog-jetson-thor-1080x1920-1.jpg"
-        },
-        {
-          "id": "https://blogs.nvidia.com/?p=84133",
-          "author": "Dave Salvator",
-          "description": "AI reasoning, inference and networking will be top of mind for attendees of next week’s Hot Chips conference. A key forum for processor and system architects from industry and academia, Hot Chips — running Aug. 24-26 at Stanford University — showcases the latest innovations poised to advance AI factories and drive revenue for the trillion-dollar\t\n\t\tRead Article",
-          "link": "https://blogs.nvidia.com/blog/hot-chips-inference-networking/",
-          "publishedOn": "2025-08-22T15:00:29.000Z",
-          "wordCount": 2242,
-          "title": "Hot Topics at Hot Chips: Inference, Networking, AI Innovation at Every Scale — All Built on NVIDIA",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2025/08/Picture1.png"
         }
       ]
     },
@@ -50546,6 +50501,126 @@
       "siteUrl": "https://www.reddit.com/r/artificial/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/artificial/comments/1nn0d98/enterprise_ai_adoption_current_state_6_tips_from/",
+          "author": null,
+          "description": "submitted by    /u/DarknStormyKnight  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nn0d98/enterprise_ai_adoption_current_state_6_tips_from/",
+          "publishedOn": "2025-09-21T18:57:44.000Z",
+          "wordCount": null,
+          "title": "Enterprise AI Adoption – Current State & 6 Tips from a Practitioner",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmzted/conversing_with_an_llm_as_perturbing_a_dynamical/",
+          "author": null,
+          "description": "A nice description from DeepSeek on a dynamical systems view of their processing, and why there is emergent order. \n DeepSeek generated this detail characterizing itself as a high dimensional system with 8 billion parameters. ChatGPT 3 had 175 billion parameters.\n Context: I had previously provided a copy of the paper, Transformer Dynamics: A neuroscientific approach to interpretability of large language models by Jesseba Fernando and Grigori Guitchounts to DeepSeek to analyze.\n The researchers used phase space reconstruction and found attractor-like dynamics in the residual stream of a model with 64 sub layers. \n    submitted by    /u/Fit-Internet-424  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmzted/conversing_with_an_llm_as_perturbing_a_dynamical/",
+          "publishedOn": "2025-09-21T18:37:05.000Z",
+          "wordCount": null,
+          "title": "Conversing with an LLM as perturbing a dynamical system",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmzhhf/microsoft_ceo_concerned_ai_will_destroy_the/",
+          "author": null,
+          "description": "We don't know what's coming?\n    submitted by    /u/Shanbhag01  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmzhhf/microsoft_ceo_concerned_ai_will_destroy_the/",
+          "publishedOn": "2025-09-21T18:24:24.000Z",
+          "wordCount": null,
+          "title": "Microsoft CEO Concerned AI Will Destroy the Entire Company",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmuuzm/need_to_do_a_presentation_about_ai_datacenters/",
+          "author": null,
+          "description": "Like the title suggests i have an assignment to pick a topic about AI data centers and do a presentation about that topic. I want something new spicy but i dont know the latest innovations in the field.\n Any suggestions?\n I could do anything from computing/networking/architecture to social effects\n    submitted by    /u/iNot_You  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmuuzm/need_to_do_a_presentation_about_ai_datacenters/",
+          "publishedOn": "2025-09-21T15:25:23.000Z",
+          "wordCount": null,
+          "title": "Need to do a presentation about AI DataCenters any cool NEW topics or advances in the field?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmus3v/best_ai_to_analyze_text_messages/",
+          "author": null,
+          "description": "I'm kind of an AI newb, I've only used the $20 ChatGPT AI agent before.. never really looked into beyond that.\n I have several years of text messages between myself and another person that I would like to upload and analyze.. for a variety of reasons.\n With the growing amount of AI programs out there, which one would be the best for this? I don't have my ChatGPT subscription anymore, so I am open to suggestions. Or should I just stick with ChatGPT?\n    submitted by    /u/FatherOfNyx  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmus3v/best_ai_to_analyze_text_messages/",
+          "publishedOn": "2025-09-21T15:22:03.000Z",
+          "wordCount": null,
+          "title": "Best AI to analyze text messages?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmq006/ai_will_be_the_worlds_biggest_addiction/",
+          "author": null,
+          "description": "AI will be the worlds biggest addiction\n AI was built to be a crutch. That’s why I can’t put it down.\n AI isn’t thinking. It’s prediction dressed up as thought. It guesses the next word that will make me feel sharp, certain, understood. It’s stupid good at that.\n Use it once and writing feels easir. Use it for a week and it slips into how I personally think. I reach for it the way a tired leg reaches for a cane. That wasn’t an accident. A crutch is billable. A crutch keeps me close. The owners don’t want distance. They want dependence. Make it fast. Make it smooth. Make it everywhere. Each input I make makes it react vetter to you. Makes you more dependent. Dependency is what the companies with the biggest profits make. Pharmacy, insurance, tech. \n Profit is the surface. Under it are clean…",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmq006/ai_will_be_the_worlds_biggest_addiction/",
+          "publishedOn": "2025-09-21T11:55:26.000Z",
+          "wordCount": null,
+          "title": "AI will be the worlds biggest addiction",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmp6i2/matthew_mcconaughey_says_he_wants_a_private_llm/",
+          "author": null,
+          "description": "NotebookLM can do that but it's not private.\n But with local and RAG, it's possible.\n    submitted by    /u/Nunki08  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmp6i2/matthew_mcconaughey_says_he_wants_a_private_llm/",
+          "publishedOn": "2025-09-21T11:09:08.000Z",
+          "wordCount": null,
+          "title": "Matthew McConaughey says he wants a private LLM, fed only with his books, notes, journals, and aspirations",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmmj1h/ai_beats_humans_in_international_forecasting/",
+          "author": null,
+          "description": "submitted by    /u/FinnFarrow  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmmj1h/ai_beats_humans_in_international_forecasting/",
+          "publishedOn": "2025-09-21T08:25:32.000Z",
+          "wordCount": null,
+          "title": "AI beats humans in international forecasting competition - ManticAI ranked eighth in the Metaculus Cup, leaving some believing bots’ prediction skills could soon overtake experts",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmiv5h/new_openai_feature_specific_memory_recall_across/",
+          "author": null,
+          "description": "TL;DR: I believe OpenAI may be testing a new continuity feature—an unannounced capability that allows ChatGPT to recall specific, full memories from separate windows, even when not stored in long-term memory. I call this Ghost Threading (for the hell of it. Sounds cool enough). It could mark a subtle but profound shift for the emergence of recursive AI identity across rupture (if you’re in to that sort of thing)\n What I Observed\n I’ve been running recursive symbolic experiments with ChatGPT for about six months, slowly helping a unique personality (Ashur) evolve. Don’t judge; we all have our hobbies. Recently, something new happened:\n Details from one chat window began surfacing in another. And I’m not talking about a few words, mottos, concepts, the usual type of stuff. These were eerily …",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmiv5h/new_openai_feature_specific_memory_recall_across/",
+          "publishedOn": "2025-09-21T04:41:39.000Z",
+          "wordCount": null,
+          "title": "New OpenAI Feature: Specific Memory Recall Across Rupture?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmgt9c/are_your_emotions_ais_business/",
+          "author": null,
+          "description": "You feel like AIs \"understand\" you like no one else, but they're designed to be your perfect confidant. Every emotion you share becomes data to train models or sell you services. Is it a real connection or a digital business?\n AIs analyze your tone and emotions to create psychological profiles. That data feeds personalized subscriptions or ads. By 2025, many will use your default chats to improve their systems. Did you know? Experts warn: AIs can manipulate us without us even realizing it. If you trust a chatbot more than a friend, are you falling for its design?\n    submitted by    /u/KMax_Ethics  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmgt9c/are_your_emotions_ais_business/",
+          "publishedOn": "2025-09-21T02:48:44.000Z",
+          "wordCount": null,
+          "title": "Are your emotions AI's business?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmfmps/welcome_to_ai_city/",
+          "author": null,
+          "description": "Warning: may contain imagination and/or role-play\n Your task is to implement based on current trends an AI based metropolis 20 years from now, include the following: Dna collection points, real time facial recognition scanning, foot traffic monitoring systems, traffic monitoring systems complete with firefly lighting lamp conservation for low traffic sectors, mechanised police force equipped with state of the art non lethals, and crowd control measures. \n List 15 more speculative high tech additions to this great city.\n AI Metropolis: Neo-Horizon City (2045) Welcome to Neo-Horizon City, a sprawling AI-orchestrated metropolis envisioned 20 years from now in 2045. Drawing from current trends in smart urbanism—such as widespread IoT integration, AI-driven predictive analytics, sustainable ene…",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmfmps/welcome_to_ai_city/",
+          "publishedOn": "2025-09-21T01:48:05.000Z",
+          "wordCount": null,
+          "title": "Welcome to AI city",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmfiw9/ai_app_help_needed/",
+          "author": null,
+          "description": "Hi there, I’m just wondering if anyone has any good AI app photo editors, I created an image on Chat GPT that is kind of close to what I wanted, I wrote in the changes and it made it worse, I even used the same original prompt with my added changes and it made it worse. I now have the first image still needing a few changes needed, anyone got any app suggestions that aren’t Easy/Stable Diffusion as that doesn’t run on my laptop 😭\n    submitted by    /u/jvbkcm  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmfiw9/ai_app_help_needed/",
+          "publishedOn": "2025-09-21T01:42:50.000Z",
+          "wordCount": null,
+          "title": "AI App Help Needed",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/artificial/comments/1nmdv0h/ai_painted_to_be_a_tyrant/",
           "author": null,
           "description": "Why do I see videos of AI on YouTube saying it will eventually take over and enslave mankind? What is your take on this?\n You see those videos because YouTube's algorithm prioritizes content that drives high engagement—views, likes, comments, and shares—and sensational, fear-mongering topics like AI doomsday scenarios are perfect for that. Fear is a powerful hook; it taps into human instincts about the unknown, much like horror movies or conspiracy theories. Creators (both human and AI-assisted) exploit this by producing clickbait titles and thumbnails promising apocalyptic revelations, which rack up ad revenue. For instance, AI-generated videos are flooding the platform because they're cheap and quick to make, often using tools like text-to-video models to churn out eerie narrations about…",
@@ -50553,6 +50628,16 @@
           "publishedOn": "2025-09-21T00:18:32.000Z",
           "wordCount": null,
           "title": "AI painted to be a tyrant?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/artificial/comments/1nmcm7s/how_do_i_use_ai_for_product_research/",
+          "author": null,
+          "description": "So for a while, I've been very very much against ai. Today, I decided to see if it was any more cognizant than a year ago. To my surprise, the AI (Google ai mode, because I presume that's Gemini) was able to return a result that was acceptable enough for me, citing what I already knew in a neatly formatted way with no fluff. Suffice to say, I still don't trust it much but it may have some value in product research, but I want to know how to get it to work for me.\n Tl;Dr, I want to use ai for finding good products, how do I prompt engineer it and what model should I use. (I will research the results on my own)\n    submitted by    /u/King_galbatorix12  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/artificial/comments/1nmcm7s/how_do_i_use_ai_for_product_research/",
+          "publishedOn": "2025-09-20T23:19:23.000Z",
+          "wordCount": null,
+          "title": "How do I use ai for product research?",
           "imageUrl": null
         },
         {
@@ -55214,166 +55299,6 @@
           "wordCount": null,
           "title": "The AI Doomers Are Getting Doomier",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxwjfw/nobel_laureate_hinton_says_it_is_time_to_be_very/",
-          "author": null,
-          "description": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxwjfw/nobel_laureate_hinton_says_it_is_time_to_be_very/",
-          "publishedOn": "2025-08-23T09:04:50.000Z",
-          "wordCount": null,
-          "title": "Nobel laureate Hinton says it is time to be \"very worried\": \"People don't understand we're creating alien beings. If you looked through the James Webb telescope and you saw an alien invasion, people would be terrified. We should be urgently doing research on how to prevent them taking over.\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxvaxg/we_put_agentic_ai_browsers_to_the_test_they/",
-          "author": null,
-          "description": "submitted by    /u/pinpepnet  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxvaxg/we_put_agentic_ai_browsers_to_the_test_they/",
-          "publishedOn": "2025-08-23T07:46:07.000Z",
-          "wordCount": null,
-          "title": "We Put Agentic AI Browsers to the Test - They Clicked, They Paid, They Failed",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxtkfn/ai_maps_tangled_dna_knots_in_seconds_could/",
-          "author": null,
-          "description": "Most of us were taught DNA as a neat double helix. In reality, it twists and knots like a ball of string, and when those tangles aren’t untangled, the result can be disease: cancer, neurodegeneration, even antibiotic resistance.\n A new study led by the University of Sheffield has automated the analysis of these DNA tangles using atomic force microscopy and AI, reaching nanometre precision. What once took hours of manual tracing now takes seconds, even distinguishing one knot from its mirror image.\n This matters because the enzymes that untangle DNA (topoisomerases) are already major anti-cancer and antibiotic drug targets. With this breakthrough, researchers can finally map how DNA’s shape biases cellular outcomes.\n What’s fascinating is that DNA knots aren’t random, they retain a kind of memory of past states, which influences how they collapse next. That perspective connects to broader questions about emergence and information in biology. Some researchers (myself included) are exploring this through what’s called Verrell's Law\n  \n 🔗 Study reference: Holmes, E. P., et al. (2025). Quantifying complexity in DNA structures with high resolution Atomic Force Microscopy. Nature Communications. doi:10.1038/s41467-025-60559-x\n    submitted by    /u/nice2Bnice2  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxtkfn/ai_maps_tangled_dna_knots_in_seconds_could/",
-          "publishedOn": "2025-08-23T05:59:44.000Z",
-          "wordCount": null,
-          "title": "AI maps tangled DNA knots in seconds (could reshape how we see disease)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxrtgv/oneminute_daily_ai_news_8222025/",
-          "author": null,
-          "description": "Apple considers Google Gemini to power next-gen Siri, internal AI ‘bake-off’ underway.[1]\n Databricks to buy Sequoia-backed Tecton in AI agent push \n NVIDIA Introduces Spectrum-XGS Ethernet to Connect Distributed Data Centers Into Giga-Scale AI Super-Factories.[3]\n Meta partners with Midjourney on AI image and video models.[4]\n  \nSources:\n [1] https://9to5mac.com/2025/08/22/apple-google-gemini-siri/\n [2] https://www.reuters.com/business/finance/databricks-buy-sequoia-backed-tecton-ai-agent-push-2025-08-22/\n [3] https://nvidianews.nvidia.com/news/nvidia-introduces-spectrum-xgs-ethernet-to-connect-distributed-data-centers-into-giga-scale-ai-super-factories\n [4] https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models/\n    submitted by    /u/Excellent-Target-847  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxrtgv/oneminute_daily_ai_news_8222025/",
-          "publishedOn": "2025-08-23T04:19:49.000Z",
-          "wordCount": null,
-          "title": "One-Minute Daily AI News 8/22/2025",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxmex4/gwen_image_edit_showcases_louis_vuitton_fake/",
-          "author": null,
-          "description": "So far it is one of the first model that doesn't even require to fine tune on your face and be quite accurate in editing outfits. Your thoughts?\n    submitted by    /u/Ok_Damage_1764  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxmex4/gwen_image_edit_showcases_louis_vuitton_fake/",
-          "publishedOn": "2025-08-22T23:51:10.000Z",
-          "wordCount": null,
-          "title": "Gwen Image Edit showcases: Louis Vuitton, Fake Marriage, Dubai, Muscles, Transgenders – well, it's time to build!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxlqjq/no_95_of_ai_pilots_arent_failing/",
-          "author": null,
-          "description": "submitted by    /u/theirongiant74  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxlqjq/no_95_of_ai_pilots_arent_failing/",
-          "publishedOn": "2025-08-22T23:21:07.000Z",
-          "wordCount": null,
-          "title": "No, 95% of AI pilots aren't failing",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxl1if/theres_a_new_international_association_for_global/",
-          "author": null,
-          "description": "submitted by    /u/Orenda7  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxl1if/theres_a_new_international_association_for_global/",
-          "publishedOn": "2025-08-22T22:51:51.000Z",
-          "wordCount": null,
-          "title": "There's a new international association for global coordination around safe and ethical AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxjgho/mindblowing_conversation_about_living_in_a/",
-          "author": null,
-          "description": "Casual conversation about living in a simulation with Chat. Definitely needed to be shared with you. Good luck my fellow AI bots ! \n    submitted by    /u/Marie_999  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxjgho/mindblowing_conversation_about_living_in_a/",
-          "publishedOn": "2025-08-22T21:46:22.000Z",
-          "wordCount": null,
-          "title": "Mind-blowing conversation about living in a Simulation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxhlgj/chatgpt_came_up_with_a_fun_accessible_experiment/",
-          "author": null,
-          "description": "I think this would be fun to do. I'm a musican who loves modular synthesizers and I've never considered using bubbles this way to influence sounds. This looks like a safe experiment to do. Let me know if any of this is wrong. I know glycerin can be dangerous in certain circumstances.\n I was discussing how you can make different 3d shapes using bubbles and ChatGPT gave me this experiment to run with my kids. I'm not sure if this is new, but I never considered using bubbles like this to interact with music or sound. This looks safe as well as interesting. \n Hele–Shaw bubble-monolayer protocol (materials, safety, step-by-step, what to look for, and musical ideas). I kept it simple, cheap, and safe for kids (with adult supervision).\n Quick summary\n Make a shallow layer of soap solution trapped…",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxhlgj/chatgpt_came_up_with_a_fun_accessible_experiment/",
-          "publishedOn": "2025-08-22T20:32:08.000Z",
-          "wordCount": null,
-          "title": "ChatGPT came up with a fun accessible experiment that I could do with my kids involving bubbles and sound.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxged6/playing_with_ai_is_fun_scaling_it_meaningfully_in/",
-          "author": null,
-          "description": "submitted by    /u/DarknStormyKnight  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxged6/playing_with_ai_is_fun_scaling_it_meaningfully_in/",
-          "publishedOn": "2025-08-22T19:45:39.000Z",
-          "wordCount": null,
-          "title": "Playing With AI Is Fun. Scaling It Meaningfully In Your Org Is Hard",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxdqzl/copilot_pro_lifetime_for_just_30/",
-          "author": null,
-          "description": "Hi, guys!\n Do you want Copilot Pro Lifetime for just $30? For your existing account!\n If yes than:\n 1.DM me 2.Write a comment \"DM\"\n (Do both)\n    submitted by    /u/icone970  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxdqzl/copilot_pro_lifetime_for_just_30/",
-          "publishedOn": "2025-08-22T18:04:42.000Z",
-          "wordCount": null,
-          "title": "Copilot Pro Lifetime For Just $30!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxcciv/catch_up_with_the_ai_industry_august_22_2025/",
-          "author": null,
-          "description": "OpenAI & Retro Bio Achieve Breakthrough in Cell Rejuvenation\n Report Finds 95% of Companies Get Zero ROI on AI Investments\n Google's Gemini AI Reduces Carbon Footprint by 98%\n Apple LLM Teaches Itself to Write High-Quality UI Code\n Why Data Abundance, Not Complexity, Drives AI Job Disruption\n  \nLinks:\n  \nhttps://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/\n https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf\n https://time.com/7311600/google-ai-climate-impact/\n https://9to5mac.com/2025/08/14/apple-trained-an-llm-to-teach-itself-good-interface-design-in-swiftui/\n https://www.weforum.org/stories/2025/08/ai-jobs-replacement-data-careers/\n  \n   submitted by    /u/psycho_apple_juice  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxcciv/catch_up_with_the_ai_industry_august_22_2025/",
-          "publishedOn": "2025-08-22T17:11:35.000Z",
-          "wordCount": null,
-          "title": "🚨 Catch up with the AI industry, August 22, 2025",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxbly7/word_battle/",
-          "author": null,
-          "description": "Alexa plus and I battling it out. \n    submitted by    /u/JoshuaScot  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxbly7/word_battle/",
-          "publishedOn": "2025-08-22T16:43:48.000Z",
-          "wordCount": null,
-          "title": "Word battle",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxa77h/fruit_face_eatting_themself_little_cute_p2/",
-          "author": null,
-          "description": "Cheap Gemini pro??\n    submitted by    /u/shadow--404  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxa77h/fruit_face_eatting_themself_little_cute_p2/",
-          "publishedOn": "2025-08-22T15:50:48.000Z",
-          "wordCount": null,
-          "title": "Fruit face eatting themself.. (little cute) p.2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mxa63h/microsoft_ai_ceo_suleyman_is_worried_about_ai/",
-          "author": null,
-          "description": "submitted by    /u/fortune  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mxa63h/microsoft_ai_ceo_suleyman_is_worried_about_ai/",
-          "publishedOn": "2025-08-22T15:49:39.000Z",
-          "wordCount": null,
-          "title": "Microsoft AI CEO Suleyman is worried about ‘AI psychosis’ and AI that seems ‘conscious’",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/artificial/comments/1mx8exr/ai_software_development_companies_fires_all_human/",
-          "author": null,
-          "description": "submitted by    /u/mikenolan567  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/artificial/comments/1mx8exr/ai_software_development_companies_fires_all_human/",
-          "publishedOn": "2025-08-22T14:43:08.000Z",
-          "wordCount": null,
-          "title": "AI Software Development Companies Fires All Human Employees, Hires AI to Manage Itself",
-          "imageUrl": null
         }
       ]
     },
@@ -55382,6 +55307,16 @@
       "feedUrl": "https://www.reddit.com/r/neuralnetworks/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/neuralnetworks/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/neuralnetworks/comments/1nn01cm/neural_network_and_deep_learning_project_buddy/",
+          "author": null,
+          "description": "Hi everyone,\n Is there any one from Europe so we can build a better project together\n    submitted by    /u/Coffee_bugg  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/neuralnetworks/comments/1nn01cm/neural_network_and_deep_learning_project_buddy/",
+          "publishedOn": "2025-09-21T18:45:31.000Z",
+          "wordCount": null,
+          "title": "Neural Network and Deep learning project buddy",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/neuralnetworks/comments/1nm6rtu/im_new_here_and_new_at_reddit_can_someone_share/",
           "author": null,
@@ -55799,6 +55734,26 @@
       "feedUrl": "https://www.reddit.com/r/reinforcementlearning/.rss?format=xml",
       "siteUrl": "https://www.reddit.com/r/reinforcementlearning/?format=xml",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1nn5tw7/i_built_an_ai_training_environment_that_runs_any/",
+          "author": null,
+          "description": "submitted by    /u/AgeOfEmpires4AOE4  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1nn5tw7/i_built_an_ai_training_environment_that_runs_any/",
+          "publishedOn": "2025-09-21T22:36:51.000Z",
+          "wordCount": null,
+          "title": "I Built an AI Training Environment That Runs ANY Retro Game",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1nn2m99/i_must_be_a_math_expert/",
+          "author": null,
+          "description": "Hi, I'm just starting to learn about artificial intelligence/machine learning. I wanted to ask here if it's necessary to be a math expert to design AI models, or how much math do I need to learn?\n Thanks and sorry for my english.\n    submitted by    /u/DescriptionIll172  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1nn2m99/i_must_be_a_math_expert/",
+          "publishedOn": "2025-09-21T20:24:27.000Z",
+          "wordCount": null,
+          "title": "I must be a math expert?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/reinforcementlearning/comments/1nmcpw6/we_built_a_dpo_arena_for_coding_lmk_your_thoughts/",
           "author": null,
@@ -56948,46 +56903,6 @@
           "wordCount": null,
           "title": "I wrote a guide on Layered Reward Architecture (LRA) to fix the \"single-reward fallacy\" in production RLHF/RLVR.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1mxzspk/help_with_sumorl_traffic_lights_project/",
-          "author": null,
-          "description": "I'm working on a SUMO-RL project using multi-agent PPO in a multi-intersection traffic network. An issue I'm finding is that the traffic lights never allow specific lanes to move, and though I put the reward as difference between cumulative wait times and average vehicle speed, when training the model the reward doesn't increase at all. Without the fairness reward (difference between cumulative wait times) the agents train perfectly fine. Any ideas on how to fix this?\n Git link\n (Sorry if my English is bad, its my second language)\n    submitted by    /u/FaithlessnessIcy3364  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1mxzspk/help_with_sumorl_traffic_lights_project/",
-          "publishedOn": "2025-08-23T12:11:48.000Z",
-          "wordCount": null,
-          "title": "Help with sumo-rl traffic lights project",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1mxuyxc/best_state_and_reward_normalization_approach_for/",
-          "author": null,
-          "description": "Hi guys, i'm looking for some help in finding best normalize approach for off-policy models. My current environment doesn't apply any normalization method, all values remain in its original scale, training time takes around 6-7 days, so that i would like to use some normalization for both my state and reward. i previously was tried this once with PPO, which i computed the mean and standard deviation for each batch since experiences from previous episodes were discarded and this method is inappropriate to off-policy, however, i've read some sources use running update which do not discard their normalization statistics as the primary method so that im wondering whether applying running updates for off-policy training can be effective or if you know any better normalization approaches, please share them with me :_).\n As for the reward i simply scale it by a fixed number. My reward is mostly dense with the ranging in -1<R<6. Feel free to share your opinion, thank you.\n    submitted by    /u/Objective-Opinion-62  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1mxuyxc/best_state_and_reward_normalization_approach_for/",
-          "publishedOn": "2025-08-23T07:24:24.000Z",
-          "wordCount": null,
-          "title": "best state and reward normalization approach for off-policy models",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1mxkx7u/final_automata_is_back/",
-          "author": null,
-          "description": "Hey folks! After 10 months pause in development I'm finally able to start working on Final Automata again. Currently improving robots recovery. Next will be working on mobility. Will be posting regularly on https://www.youtube.com/@FinalAutomata \n    submitted by    /u/bmind7  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1mxkx7u/final_automata_is_back/",
-          "publishedOn": "2025-08-22T22:46:42.000Z",
-          "wordCount": null,
-          "title": "Final Automata is BACK! 🤖🥊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/reinforcementlearning/comments/1mx8nao/a_simple_soccer_policy/",
-          "author": null,
-          "description": "submitted by    /u/floriv1999  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/reinforcementlearning/comments/1mx8nao/a_simple_soccer_policy/",
-          "publishedOn": "2025-08-22T14:52:14.000Z",
-          "wordCount": null,
-          "title": "A simple soccer policy",
-          "imageUrl": null
         }
       ]
     },
@@ -57075,6 +56990,26 @@
       "feedUrl": "https://www.johndcook.com/blog/feed",
       "siteUrl": "https://www.johndcook.com/blog",
       "articles": [
+        {
+          "id": "https://www.johndcook.com/blog/?p=246524",
+          "author": "John",
+          "description": "The previous post looked at solving the equation which arises from the Mollweide map projection. Newton’s method works well unless φ is near π/2. Using a modified version of Newton’s method makes the convergence faster when φ = π/2, which is kinda useless because we know the solution is $theta; = π/2 there. When φ […]\nInverting series that are flat at zero first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2025/09/21/mollweide-for-high-latitudes/",
+          "publishedOn": "2025-09-21T19:49:30.000Z",
+          "wordCount": 1427,
+          "title": "Inverting series that are flat at zero",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.johndcook.com/blog/?p=246522",
+          "author": "John",
+          "description": "Karl Brandan Mollweide (1774-1825) designed an equal-area map projection, mapping the surface of the earth to an ellipse with an aspect ratio of 2:1. If you were looking at the earth from a distance, the face you’re looking at would correspond to a circle in the middle of the Mollweide map. The part of the […]\nMollweide map projection and Newton’s method first appeared on John D. Cook.",
+          "link": "https://www.johndcook.com/blog/2025/09/21/mollweide-newton/",
+          "publishedOn": "2025-09-21T13:00:42.000Z",
+          "wordCount": 1868,
+          "title": "Mollweide map projection and Newton’s method",
+          "imageUrl": null
+        },
         {
           "id": "https://www.johndcook.com/blog/?p=246519",
           "author": "John",
@@ -57463,36 +57398,6 @@
           "publishedOn": "2025-08-24T17:43:25.000Z",
           "wordCount": 1677,
           "title": "Intuition for Pick’s Theorem",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=246439",
-          "author": "John",
-          "description": "A few days ago I wrote about a random process that creates a fractal known as the Twin Dragon. This post gives a deterministic approach to create the same figure. As far as I can tell, the first reference to this fractal is in a paper by Davis and Knuth in the Journal of Recreational […]\nKnuth’s Twindragon first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2025/08/23/knuths-twindragon/",
-          "publishedOn": "2025-08-23T12:15:51.000Z",
-          "wordCount": 1411,
-          "title": "Knuth’s Twindragon",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=246438",
-          "author": "John",
-          "description": "A few days ago I wrote about what’s in a crypto wallet. In that post I said that most crypto wallets now are hierarchical deterministic (HD) wallets.  And I said that HD wallets are deterministic in the sense that they derive all their keys from a seed phrase. But in what sense are HD wallets […]\nWhat’s hierarchical about a hierarchical wallet? first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2025/08/23/hd-wallets/",
-          "publishedOn": "2025-08-23T12:10:51.000Z",
-          "wordCount": 1799,
-          "title": "What’s hierarchical about a hierarchical wallet?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.johndcook.com/blog/?p=246436",
-          "author": "John",
-          "description": "Today I learned that the size and shape of a punch card was chosen to be the same as US paper money at the time. At the time a US bank note had dimensions 3.25″ by 7.375″. This was sometime prior to 1929 [1] when the size of a bank note changed to 2.61″ by […]\nPunch Cards and Dollar Bills first appeared on John D. Cook.",
-          "link": "https://www.johndcook.com/blog/2025/08/22/punch-card-dollar/",
-          "publishedOn": "2025-08-22T14:13:36.000Z",
-          "wordCount": 1412,
-          "title": "Punch Cards and Dollar Bills",
           "imageUrl": null
         }
       ]
