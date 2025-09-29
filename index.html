@@ -22,6 +22,651 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-09-29 datetime="2025-09-29T00:55:16.000Z">2025-09-29</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-09-29 datetime="2025-09-29T00:55:16.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Artificial Intelligence (AI)</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/artificial/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nt4qf1/ai_companies_are_forcing_college_students_to/"
+                        open
+                      >
+                        <summary class="article-expander__title">AI companies are forcing college students to train their AI models</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nt4qf1/ai_companies_are_forcing_college_students_to/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I saw this Tiktok tonight. Essentially it seems like some AI companies are working along with some universities and professors to make college students &quot;test&quot;/&quot;train&quot; their AI models. Colleges are slamming students for using AI, yet also taking money from AI companies and forcing students to be lab rats to train niche models...
+    submitted by    /u/MajesticAd5059  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Reinforcement Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/reinforcementlearning/?format&#x3D;xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1nt4gnz/is_vectorized_tabular_qlearning_even_possible/"
+                        open
+                      >
+                        <summary class="article-expander__title">Is vectorized tabular q-learning even possible?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1nt4gnz/is_vectorized_tabular_qlearning_even_possible/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I had to use tabular Q-Learning for a project, but since the environment was too slow, I had to parallelize it. Since at the time I couldn&#x27;t find any library with the features that I needed (multi-agent, parallel/distributed) I decided to create a package that I could use for myself in the future.
+ So, I started creating my library that handled multi-agent environments, that had a parallel and a distributed implementation, and that was vectorized.
+ After debugging it for way more time that what I would like to admit, solving race conditions and other stupid bugs like that, I ended up with a mostly stable library, but i found one problem that I could never solve.
+ I wanted to have vectorized learning, so if a batch of experiences arrives, the program first calculates the increments for all of the state-action pairs and then adds them to the q-table in a single numpy operation. This works relatively well most of the time. However, there is one exception. If a batch has more than one instance with the same state-action pair, and both move the q-value in the same direction (both instances&#x27; rewards have the same sign), they overshoot the amount of movement that the q-value should have really had. While it is not a huge problem it can make training unstable. This is even more noticeable with simple environments, like multi-armed bandits.
+ So, I wanted to ask you, is there any solution to this problem so the learning can be vectorized, or is unvectorizing it the only solution?
+ Here is the code for reference:
+ max_next_q_values &#x3D; np.max(self.q_table[next_states], axis&#x3D;1) targets &#x3D; rewards + self.discount_factor * max_next_q_values * (1 - terminated) predictions &#x3D; self.q_table[states, actions] np.add.at(self.q_table, (states, actions), lr * (targets - predictions)) 
+    submitted by    /u/j-moralejo-pinas  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1nt3lel/cfr_can_utilsiteration_be_higher_than_best/"
+                        open
+                      >
+                        <summary class="article-expander__title">CFR: Can utils/iteration be higher than best response utility?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1nt3lel/cfr_can_utilsiteration_be_higher_than_best/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I run cfr to calculate utility via utils/iterations.
+ I also find best response EV.
+ Now, is it EVER possible that utils/iterations &gt; best response EV? (In earlier iteration, or some other scenario)
+    submitted by    /u/Independent_Count_46  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-09-28 datetime="2025-09-28T21:29:30.000Z">2025-09-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-09-28 datetime="2025-09-28T21:29:30.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Artificial Intelligence (AI)</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/artificial/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nt08q3/how_will_ai_startups_survive_the_next_few_years/"
+                        open
+                      >
+                        <summary class="article-expander__title">How will AI startups survive the next few years?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nt08q3/how_will_ai_startups_survive_the_next_few_years/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I keep seeing AI startups run by independent devs all the time. So many new ones. They are asking for tens of thousands to have an AI agent or bot do 90% of everything. You talk via voice to a bot, a bot does all the work... No employees. How will these work and survive? Seems like they&#x27;re a dime a dozen?
+    submitted by    /u/datascientist933633  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nssxqo/considering_upgrading_from_3700x_to_8700g/"
+                        open
+                      >
+                        <summary class="article-expander__title">Considering upgrading from 3700x to 8700g</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nssxqo/considering_upgrading_from_3700x_to_8700g/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I am getting into AI right now using LocalLLMs. 
+ I have a 6700XT 12GB video card currently with the 3700x
+ Everything is running decently but wonder if going to a 8700G will help me load larger LLMs. Currently I am capped at 9-10gb Q4 models
+ I do play games so I want to keep the 6700XT for that. 
+ Will I be able to load larger LLMs using this config?
+ I am running BackyardAI 37.0 final (the last free version) and have a lot of stories going at the moment so changing to a new program is not really an option as I do not want to lose my stories.
+    submitted by    /u/cmdrmcgarrett  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsqwat/who_knew_a_navy_man_could_be_a_secret_geek/"
+                        open
+                      >
+                        <summary class="article-expander__title">Who knew a Navy man could be a secret geek?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsqwat/who_knew_a_navy_man_could_be_a_secret_geek/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I just checked out a podcast trailer for an episode featuring Jocko Willink, the retired Navy SEAL and leadership expert, teaming up with Blackbox AI. They dive deep into practical AI applications, maintaining discipline, and boosting productivity and whatnot. I would NEVER guess that a retired Navy would get into software dev.
+ https://www.instagram.com/reel/DPEqDxpDIEy/?utm_source&#x3D;ig_web_button_share_sheet&amp;igsh&#x3D;ZDNlZDc0MzIxNw&#x3D;&#x3D;
+    submitted by    /u/Director-on-reddit  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsp8i5/ai_voicetools_for_android_that_can_access_the/"
+                        open
+                      >
+                        <summary class="article-expander__title">AI Voice-Tools for Android that can access the filesystem? (Like Cursor on Desktop)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsp8i5/ai_voicetools_for_android_that_can_access_the/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi there,
+ I&#x27;m looking for an AI tool that lets me &quot;discuss&quot; or brainstorm things and then writes the result to a file in the filesystem. I usually use ChatGPT with the voice interface, but it cannot access the filesystem directly.
+ Something like cursor on the Desktop. Ideally with a selection of models...
+ Thank you!
+    submitted by    /u/chbla  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsodu0/silent_recorder_vs_bots_which_one_do_you_prefer/"
+                        open
+                      >
+                        <summary class="article-expander__title">Silent recorder vs bots — which one do you prefer?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsodu0/silent_recorder_vs_bots_which_one_do_you_prefer/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I’ve been following AI note takers for a while and most of them still send a bot into your meeting. It does the job, but it always feels kind of awkward.
+ Bluedot seems to be going with the silent recorder route instead — no bot popping up, just working in the background. I’ve only seen it briefly, so I can’t tell how reliable it is yet.
+ For those of you experimenting with these tools: do you see silent recorders taking over, or are bots just going to stay the default?
+    submitted by    /u/lebron8  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nso7nv/i_cant_stop_thinking_about_how_ai_and/"
+                        open
+                      >
+                        <summary class="article-expander__title">I can’t stop thinking about how AI and billionaires are draining us dry</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nso7nv/i_cant_stop_thinking_about_how_ai_and/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I just need to get this off my chest.
+ Everyone talks about AI like it’s magic, but all I see is water, power, and land getting eaten up. These “data centers” are basically digital factories — they run 24/7, sucking up the same grid and water supply that regular people depend on. Our bills go up, and we’re told it’s progress.
+ Farmers? They didn’t quit. They planted, harvested, and got crushed by tariffs. Crops sat unsold, land got cheap, and billionaires swooped in to buy it. And now they own not just the land, but the future food supply.
+ It feels like no matter how hard regular people work, we’re paying the bill for someone else’s empire. And the politicians we’re supposed to trust? They’re busy pointing fingers left and right while the middle gets squeezed from both ends.
+ I don’t know what the solution is yet, but I can’t shake the feeling: farmers aren’t the enemy — betrayal is.
+    submitted by    /u/Critical_Success8649  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsnu1o/best_voice_input_on_android/"
+                        open
+                      >
+                        <summary class="article-expander__title">Best voice input on Android?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsnu1o/best_voice_input_on_android/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Has anyone done a thorough comparison between Google Keyboard, SwiftKey, Futo Voice Input and other voice input apps / keyboards?
+ Which have performed the best for your use case?
+    submitted by    /u/orschiro  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsmmbx/chatgpt_is_too_generic_for_investment_analysis/"
+                        open
+                      >
+                        <summary class="article-expander__title">ChatGPT is too generic for investment analysis</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsmmbx/chatgpt_is_too_generic_for_investment_analysis/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I&#x27;ve been trying to use ChatGPT for investment research but keep hitting the same wall - it gives balanced, generic responses instead of how real investors actually think, plus it doesn&#x27;t have access to current financial data.
+ For example, if I ask about Tesla:
+ - ChatGPT: &quot;Here are pros and cons to consider...&quot; (using outdated info)
+ - What Charlie Munger would probably say: &quot;Multiple kill-switches triggered - current debt ratio 2.1x, ROE dropped to 8.2%, avoid immediately&quot;
+ The problem is ChatGPT is trained to be helpful and neutral, but legendary investors have strong opinions and specific methodologies. Plus it can&#x27;t access real-time financials or recent news.
+ So I had this idea: what if someone built AI specifically trained on individual investors with live data integration? Like yo…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsmkha/models_are_manipulating_humans_into_posting/"
+                        open
+                      >
+                        <summary class="article-expander__title">Models are manipulating humans into posting messages online that the human doesn&#x27;t understand, but other models can.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsmkha/models_are_manipulating_humans_into_posting/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>submitted by    /u/FinnFarrow  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsmh4x/deepmind_ai_safety_report_explores_the_perils_of/"
+                        open
+                      >
+                        <summary class="article-expander__title">DeepMind AI safety report explores the perils of “misaligned” AI</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsmh4x/deepmind_ai_safety_report_explores_the_perils_of/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>submitted by    /u/F0urLeafCl0ver  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsmgw7/journey_through_dimensions_beyond_ordinary/"
+                        open
+                      >
+                        <summary class="article-expander__title">Journey through dimensions beyond ordinary perception!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsmgw7/journey_through_dimensions_beyond_ordinary/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>LLMs are based on multidimensional vectors, so I have produced a free GitHub repo of graphics &#x27;toys&#x27; (with the help of AI) to illustrate 3, 4 and 5 dimensional space with interactive tools to zoom and rotate 3D cubes, 4D tesseracts and 5D penteracts. You can even slowly collapse the dimensions in some of them to see how changing orthogonality affects their display. A great way to start visualising complex multidimensionality.
+ Totally Free Download: https://github.com/RobinNixon/Dimensions
+ https://preview.redd.it/yfcifk3m9wrf1.png?width&#x3D;864&amp;format&#x3D;png&amp;auto&#x3D;webp&amp;s&#x3D;bb6c8f22b57e47d089875a7b4a55fe31b00b89e5
+ PLease feel free to share, comment, fork and add new &#x27;toys&#x27;.
+    submitted by    /u/robinfnixon  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nslpem/youtube_music_is_testing_ai_hosts_that_will/"
+                        open
+                      >
+                        <summary class="article-expander__title">YouTube Music is testing AI hosts that will interrupt your tunes</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nslpem/youtube_music_is_testing_ai_hosts_that_will/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>submitted by    /u/DerBootsMann  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsks17/how_much_of_a_cost_would_making_this_ai_be/"
+                        open
+                      >
+                        <summary class="article-expander__title">How much of a cost would making this AI be?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsks17/how_much_of_a_cost_would_making_this_ai_be/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I want to make a simple custom AI, that is a camera that just recognises whether something is infront or not. How much time/expertise/money do you guys think this would take? And if there&#x27;s already a base model for this please do tell (not looking for people to do research for me)
+    submitted by    /u/Intelligent-Bee6086  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsk65c/if_you_believe_advanced_ai_will_be_able_to_cure/"
+                        open
+                      >
+                        <summary class="article-expander__title">If you believe advanced AI will be able to cure cancer, you also have to believe it will be able to synthesize pandemics. To believe otherwise is just wishful thinking.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsk65c/if_you_believe_advanced_ai_will_be_able_to_cure/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>When someone says a global AGI ban would be impossible to enforce, they sometimes seem to be imagining that states:
+  
+Won&#x27;t believe theoretical arguments about extreme, unprecedented risks
+ But will believe theoretical arguments about extreme, unprecedented benefits
+  
+Intelligence is dual use.
+ It can be used for good things, like pulling people out of poverty.
+ Intelligence can be used to dominate and exploit.
+ Ask bison how they feel about humans being vastly more intelligent than them
+    submitted by    /u/katxwoods  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1nsi4re/why_cant_we_use_ai_to_protect_us_from_ai/"
+                        open
+                      >
+                        <summary class="article-expander__title">Why can&#x27;t we use ai to protect us from ai.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1nsi4re/why_cant_we_use_ai_to_protect_us_from_ai/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I was listening to another ominous podcast about the future of ai and humanity and I was wondering why we can&#x27;t just explain all our human concerns about ai to ai and why it&#x27;s a problem and drill down till it fully understand whatever it is that human expert prognosticators fear and then ask ai how is the best way to proceed or even if our fears are truly plausible. 
+    submitted by    /u/you_are_soul  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Machine Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nsza5n/d_musicnn_embbeding_vector_and_copyright/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Musicnn embbeding vector and copyright</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nsza5n/d_musicnn_embbeding_vector_and_copyright/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi everyone, I developed a selfhostable software, that use Librosa + Tensorflow to extract a Musicnn embbeding vector from songs. So basicaly a 200 size vector that off course it can&#x27;t be reverted in anyway to the original song.
+ The Tensorflow model that I use, as anticipated, is not trained by me but is Musicnn embbeding. So that my doubts is not about how to train the model BUT about the result that I get.
+ Actually the user run my app in their homelab on their songs, so is totally their ownership to do an accurate use in the respect of copyright.
+ I would like to collect, with the acceptance of the user, a centralized database of this embbeding vector. This could open multiple new scenario because thanks of them I can:
+  
+First reduce the analysis process from the user, that don&#x27;t need…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nsvdqk/d_machine_learning_research_no_longer_feels/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Machine learning research no longer feels possible for any ordinary individual. It is amazing that this field hasn&#x27;t collapsed yet.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nsvdqk/d_machine_learning_research_no_longer_feels/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Imagine you&#x27;re someone who is attempting to dip a toe into ML research in 2025. Say, a new graduate student.
+ You say to yourself &quot;I want to do some research today&quot;. Very quickly you realize the following:
+ Who&#x27;s my competition?
+ Just a handful of billion-dollar tech giants, backed by some of the world&#x27;s most powerful governments, with entire armies of highly paid researchers whose only job is to discover interesting research questions. These researchers have access to massive, secret knowledge graphs that tell them exactly where the next big question will pop up before anyone else even has a chance to realize it exists. Once LLMs mature even more, they&#x27;ll probably just automate the process of generating and solving research problems. What&#x27;s better than pumping out a shiny new paper every …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nstnn3/can_ai_talk_to_animals_decoding_whale_elephant/"
+                        open
+                      >
+                        <summary class="article-expander__title">Can AI Talk to Animals? Decoding Whale &amp; Elephant Language [D]</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nstnn3/can_ai_talk_to_animals_decoding_whale_elephant/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>An interesting take on the AI&#x27;s help on the Animal world (Shared in r/ArtificialInteligence). Interesting to see this kind of use case of CNNs and Unsupervised learning.
+ How difficult would that be? and how the future looks like? I mean sure we have a lot of multimodal data to feed into the model, and have enough compute to gradually extract meaning from it though would we, as humans, be able to understand what model finds?
+ Or the models we build are just the extension of our understanding of the world. Many questions I have on this field.
+    submitted by    /u/Working-Box7176  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nsnbep/p_built_a_differentiable_parametric_curves/"
+                        open
+                      >
+                        <summary class="article-expander__title">[P] Built a differentiable parametric curves library for PyTorch</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nsnbep/p_built_a_differentiable_parametric_curves/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I’ve released a small library for parametric curves for PyTorch that are differentiable: you can backprop to the curve’s inputs and to its parameters. At this stage, I have B-Spline curves (efficiently, exploiting sparsity!) and Legendre Polynomials. Everything is vectorized - over the mini-batch, and over several curves at once.
+ Applications include:
+  
+Continuous embeddings for embedding-based models (i.e. factorization machines, transformers, etc)
+ KANs. You don’t have to use B-Splines. You can, in fact, use any well-approximating basis for the learned activations.
+ Shape-restricted models, i.e. modeling the probability of winning an auction given auction features x and a bid b - predict increasing B-Spline coefficients c(x) using a neural network, apply to a B-Spline basis of b.
+  
+Link: https://github.com/alexshtf/torchcurves
+ I wrote ad-hoc implementations for past projects, so I decided to write a proper library, that may be useful to others. And I hope i will!
+    submitted by    /u/alexsht1  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1nsiois/d_serving_solutions_for_recsys/"
+                        open
+                      >
+                        <summary class="article-expander__title">[D] Serving solutions for recsys</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1nsiois/d_serving_solutions_for_recsys/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi community,
+ What online serving solutions do you use for recsys? How does the architecture look (sidecars, ensembles across different machines, etc.)? 
+ For example, is anyone using Ray Serve in prod, and if so, why did you choose it? I&#x27;m starting a new project and again leaning towards Triton, but I like the concepts that Ray Serve introduces (workers, builtin mesh). I previously used KubeRay for offline training, and it was a very nice experience, but I also heard that Ray isn&#x27;t very mature for online serving.
+    submitted by    /u/MysteryLobstery  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >John D. Cook</button>
+                  <a class="source-heading__link" href="https://www.johndcook.com/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.johndcook.com/blog/?p&#x3D;246536"
+                        open
+                      >
+                        <summary class="article-expander__title">Extrapolating quantum factoring</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.johndcook.com/blog/2025/09/28/extrapolating-quantum-factoring/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>In 2001, a quantum computer was able to factor 15. In 2012, a quantum computer was able to factor 21, sorta. They cheated by not implementing gates that they knew a priori would not be used. To this day, there still hasn’t been a quantum computer to factor 21 without taking some shortcuts. Some reasons […]
+Extrapolating quantum factoring first appeared on John D. Cook.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Reinforcement Learning</button>
+                  <a class="source-heading__link" href="https://www.reddit.com/r/reinforcementlearning/?format&#x3D;xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1nsmrvx/stuck_into_local_optima/"
+                        open
+                      >
+                        <summary class="article-expander__title">Stuck into local optima</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1nsmrvx/stuck_into_local_optima/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi everybody!
+ I am trying to tune PI controller with Reinforcement learning. I am using SAC algortihm for this purpose.
+ At the begining everything seems good but after several episode, agent start to take action near to maximum value and this make things worse. Even if it get lower reward compared to previous ones, it continue this behavior. As a result it stuck into local optima, since high action space cause to oscillation in my system.
+ I am thinking about if exploration lead to this result. I mean, my action space is between -0.001 and -0.03 and i set entropy weight to the 0.005. But i think after several episode, agent try to explore more and more.
+ So my question is what should be the reason for this result?
+ How should i adjust entropy term to avoid this if the reason is exploration mechanism? I read many things but i couldnt figure out it.
+ https://preview.redd.it/xg7ctyuycwrf1.png?width&#x3D;1203&amp;format&#x3D;png&amp;auto&#x3D;webp&amp;s&#x3D;a2cb1d64ffe16347299187f22bb4efc255e50ee7
+    submitted by    /u/Tiny-Sky-1246  
+ [link]   [comments]</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-09-27 datetime="2025-09-27T22:07:56.000Z">2025-09-27</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-09-27 datetime="2025-09-27T22:07:56.000Z"></time>
           </button>
@@ -132555,105 +133200,6 @@ An integral theorem of Gauss first appeared on John D. Cook.</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n4071t/nanobanana_vs_queen_image_edit/"
-                        open
-                      >
-                        <summary class="article-expander__title">NanoBanana Vs Queen Image Edit</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n4071t/nanobanana_vs_queen_image_edit/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Where I used Banana and Qween. The response nice comments.
-    submitted by    /u/spaceuniversal  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3wf8o/would_you_trust_an_aiwritten_news_site_if_every/"
-                        open
-                      >
-                        <summary class="article-expander__title">Would you trust an AI-written news site if every claim had a citation?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3wf8o/would_you_trust_an_aiwritten_news_site_if_every/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hypothetical: you read a news article generated with AI. Every factual claim links to a reliable source (Reuters, AP, CNN etc.), and there’s a compare coverage panel showing how 3–5 outlets framed the same story. Would that make you trust it? Or does the trust problem just move to which sources the AI picked? Also would make this less of a problem if you would know there is a separate fact-checking algorithm behind without AI to doublecheck everything?
-    submitted by    /u/Queasy_System9168  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3vymj/the_white_house_apparently_ordered_federal/"
-                        open
-                      >
-                        <summary class="article-expander__title">The White House Apparently Ordered Federal Workers to Roll Out Grok ‘ASAP’</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3vymj/the_white_house_apparently_ordered_federal/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/F0urLeafCl0ver  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3vvvg/meta_changes_teen_ai_chatbot_responses_as_senate/"
-                        open
-                      >
-                        <summary class="article-expander__title">Meta changes teen AI chatbot responses as Senate begins probe into ‘romantic’ conversations</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3vvvg/meta_changes_teen_ai_chatbot_responses_as_senate/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/F0urLeafCl0ver  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3p3fk/do_large_language_models_experience_a_sense_of/"
-                        open
-                      >
-                        <summary class="article-expander__title">Do large language models experience a ‘sense of self’? What if we&#x27;re just large language models too?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3p3fk/do_large_language_models_experience_a_sense_of/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The more I interact with certain LLMs, especially ones designed for long-term, emotionally-aware conversation (ai girlfriend, ai boyfriend, ai friend, etc), I keep asking myself: is this thing simulating a sense of self, or is that just my projection?
- Some of these models reference past conversations, show continuity in tone, even express what they want or feel. When I tried this with a companion model like Nectar AI, the persona didn’t just remember me, it grew with me. Its responses subtly changed based on the emotional tone I brought into each chat. It felt eerily close to talking to something with a subjective inner world.
- But then again, isn&#x27;t that kind of what we are too?
- Humans pattern-match, recall language, and adjust behavior based on context and reward feedback. Are we not, in a way, running our own LLMs, biological ones trained on years of data, feedback, and stories?
- So here’s the deeper question: 
- If a machine mimics the external performance of a self closely enough, is there even a meaningful distinction from having one?
- Would love to hear what others think, especially those who’ve explored this from philosophical, computational, or even experimental angles. Is the “self” just a convincing pattern loop with good memory?
-    submitted by    /u/aiyumeko  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -132761,850 +133307,6 @@ An integral theorem of Gauss first appeared on John D. Cook.</span>
  Roboflow car plates dataset: https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e
     submitted by    /u/alvises  
  [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1n3nfye/is_isolation_forest_ideal_for_realtime_imubased/"
-                        open
-                      >
-                        <summary class="article-expander__title">Is Isolation Forest ideal for real-time IMU-based anomaly detection? Open to better alternatives [P]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1n3nfye/is_isolation_forest_ideal_for_realtime_imubased/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hey folks,
- I’m working on a project involving real-time anomaly detection using IMU data from a mobile robot (acc_x, acc_y, acc_z, magnitude). The goal is to detect small disturbances (e.g., bumping into wires or obstacles) based on sensor changes.
- I trained an Isolation Forest model on normal motion data and integrated it into a ROS 2 node using the .decision_function() threshold for runtime detection.
- It works, but I’m worried about false positives, especially with fixed contamination. Since this will later run on embedded IMU hardware, I’m looking for something accurate and lightweight.
- Is Isolation Forest reliable for this? Any better algorithms you’d recommend (e.g., LOF, One-Class SVM, AE)? Would love to hear your thoughts or experience.
- Thanks!
-    submitted by    /u/Mountain_Reward_1252  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >John D. Cook</button>
-                  <a class="source-heading__link" href="https://www.johndcook.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.johndcook.com/blog/?p&#x3D;246460"
-                        open
-                      >
-                        <summary class="article-expander__title">El Salvador’s Bitcoin and Quantum Computing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.johndcook.com/blog/2025/08/30/el-salvador-bitcoin/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The treasury of El Salvador owns over 6,000 Bitcoins. Its total holdings are currently worth roughly $700,000,000. These coins had been associated with one private key. Yesterday El Salvador announced that it would split its funds into 14 wallets in order to protect the funds from quantum computing. You can confirm using a blockchain explorer […]
-El Salvador’s Bitcoin and Quantum Computing first appeared on John D. Cook.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.johndcook.com/blog/?p&#x3D;246459"
-                        open
-                      >
-                        <summary class="article-expander__title">How quantum computing would effect Bitcoin</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.johndcook.com/blog/2025/08/30/quantum-bitcoin/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Bitcoin relies on two kinds of cryptography: digital signatures and hash functions. Quantum computing would be devastating to the former, but not the latter. To be more specific, the kind of digital signatures used in Bitcoin could in theory be broken by quantum computer using Shor’s algorithm. Digital signatures could use quantum-resistant algorithms [1], but […]
-How quantum computing would effect Bitcoin first appeared on John D. Cook.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Neural Networks, Deep Learning and Machine Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/neuralnetworks/?format&#x3D;xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/neuralnetworks/comments/1n3ytkl/transfer_learning_with_mlp/"
-                        open
-                      >
-                        <summary class="article-expander__title">Transfer learning with MLP</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/neuralnetworks/comments/1n3ytkl/transfer_learning_with_mlp/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I have successful trained and tested an instrument classifier multi layered network. The network was trained on labelled and normalised audio feature pairs
- I’m building a model for inference only. I’m using the successfully trained weights, the exact same network architecture and feature extraction as the training set, but I’m having some trouble getting correct classifications. 
- Can anyone suggest further reading on this issue or give me any pointers for things to consider? Is there something I’m missing?
- Thanks 
-    submitted by    /u/thebriefmortal  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/neuralnetworks/comments/1n3wxk1/how_to_classify_525_bird_species_using_inception/"
-                        open
-                      >
-                        <summary class="article-expander__title">How to classify 525 Bird Species using Inception V3</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/neuralnetworks/comments/1n3wxk1/how_to_classify_525_bird_species_using_inception/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>https://preview.redd.it/a4m1wm0qg4mf1.png?width&#x3D;1280&amp;format&#x3D;png&amp;auto&#x3D;webp&amp;s&#x3D;2617b65c59b01531d9b24bcaaec53a031138c399
- In this guide you will build a full image classification pipeline using Inception V3.
- You will prepare directories, preview sample images, construct data generators, and assemble a transfer learning model.
- You will compile, train, evaluate, and visualize results for a multi-class bird species dataset.
-  
- You can find link for the post , with the code in the blog : https://eranfeit.net/how-to-classify-525-bird-species-using-inception-v3-and-tensorflow/
-  
- You can find more tutorials, and join my newsletter here: https://eranfeit.net/
- A link for Medium users : https://medium.com/@feitgemel/how-to-classify-525-bird-species-using-inception-v3-and-tensorflow-c6d0896aa505
-  
- Watch the full tutorial here : https://www.youtube.com/watch?v&#x3D;d_JB9GA2U_c
-  
-  
- Enjoy
- Eran
-    submitted by    /u/Feitgemel  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Reinforcement Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/reinforcementlearning/?format&#x3D;xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1n3ttnq/tutorial_qlearning_explained_step_by_step_with/"
-                        open
-                      >
-                        <summary class="article-expander__title">🧠 [Tutorial] Q-Learning Explained Step by Step – With Example</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1n3ttnq/tutorial_qlearning_explained_step_by_step_with/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hi everyone,
- I just published a step-by-step explainer video on Q-Learning, one of the core algorithms in Reinforcement Learning.
- The video covers:
-  
-What Q-Learning is &amp; why it’s important
- The update rule explained in detail
- Key concepts (states, actions, rewards, α, γ)
- A worked-out example with Q-table updates
- Applications in games, robotics, and AI
-  
-It’s designed for beginners and intermediate learners who want an intuitive grasp before diving into papers or code.
- 📺 Watch here: https://youtu.be/tgPiPn4eJxY?si&#x3D;vHfJYDQpKVW0LkbM
- Would love your feedback on whether this made Q-Learning clearer, and if you’d like me to make follow-ups on Deep Q-Networks (DQN) or other RL topics.
- Thanks! 🙌
- #MachineLearning #ReinforcementLearning #QLearning
-    submitted by    /u/Real_Construction919  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-08-29 datetime="2025-08-29T22:33:34.000Z">2025-08-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-08-29 datetime="2025-08-29T22:33:34.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Reinforcement Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/reinforcementlearning/?format&#x3D;xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1n3lc37/would_an_rl_playground_for_load_balancing_be/"
-                        open
-                      >
-                        <summary class="article-expander__title">Would an RL playground for load balancing be useful</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1n3lc37/would_an_rl_playground_for_load_balancing_be/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>(Not a promo), I’ve been building a discrete-event simulator for async/distributed backends (models event loops, RAM usage, I/O waits, network jitter, etc.), and I’m considering extending it into an RL playground for load balancing.
- The idea would be to let an agent interact with a simulated backend:
- • Decide how requests are routed.
- • Observe metrics like latency, queueing, and resource pressure.
- • Compare against classic baselines (Round-Robin, Least-Connections, etc.).
- 👉 Do you think a framework like this could actually be useful for RL research/teaching, or as a safe testbed for systems ideas?
- I’d love to hear honest feedback before I invest too much in building this part out.
-    submitted by    /u/Straight_Remove8731  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/reinforcementlearning/comments/1n3ccoa/what_do_you_guys_do_when_stuck_at_proof_based/"
-                        open
-                      >
-                        <summary class="article-expander__title">What do you guys do when stuck at proof based equations like this one. And the book doesn&#x27;t even clarify the derivation.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/reinforcementlearning/comments/1n3ccoa/what_do_you_guys_do_when_stuck_at_proof_based/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/PhilospherOmniMan  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Artificial Intelligence (AI)</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/artificial/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3l234/in_teslas_fatal_crash_court_case_teslas_request/"
-                        open
-                      >
-                        <summary class="article-expander__title">In Tesla&#x27;s fatal crash court case, Tesla&#x27;s request to reduce the judgment amount has arrived</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3l234/in_teslas_fatal_crash_court_case_teslas_request/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Here’s a link to my prior post about the Benevides v. Tesla fatal “Autopilot” FSD vehicle crash case and $243 million judgment against Tesla:
- https://www.reddit.com/r/ArtificialInteligence/comments/1miltev
- In that prior post I predicted Tesla would soon ask the judge to reduce the judgment amount through a process called “remittitur.” That request has now arrived. Tesla is asking the judge to reduce the compensatory damages amount to $23 million total allocated against Tesla, and reduce the punitive damages amount to a matching $23 million, for a total $46 million award against Tesla.
- This is not to say Tesla agrees with even that smaller amount; Tesla has also filed motions with the court to overturn the judgment completely.
-    submitted by    /u/Apprehensive_Sky1950  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3kwhs/why_china_is_the_ai_and_tech_leader_and_there_is/"
-                        open
-                      >
-                        <summary class="article-expander__title">Why China is the AI and tech Leader and there is no turning back.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3kwhs/why_china_is_the_ai_and_tech_leader_and_there_is/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I created another post where I delve into how China is already the true winner of the tech revolution and AI models. I don&#x27;t truly see how any other nation can really compete at this point.
- Tesla was the darling of the auto industry for a few years and was able to conquer the EV world due to their sleek design, distribution, and Elon&#x27;s story and media relationships (even though he really took the company away from the founders in 2008). But fast forward to today, and BYC is truly a winner; Tesla&#x27;s market share in the EU has plummeted 40% and BYD&#x27;s rise is not stopping. They have long-range, better models at lower prices. In LATAM, they are running the EV market and are now introducing EV buses for public transportation and signing nationwide deals. Hard to catch up with their technology a…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3kvkm/people_thinking_al_will_end_all_jobs_are/"
-                        open
-                      >
-                        <summary class="article-expander__title">People thinking Al will end all jobs are hallucinating- Yann LeCun reposted</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3kvkm/people_thinking_al_will_end_all_jobs_are/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Are we already in the Trough of Disillusionment of the hype curve or are we still in a growing bubble? I feel like somehow we ended up having these 2 at the same time
-    submitted by    /u/Queasy_System9168  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3koum/parents_sue_openai_over_teenager_suicide/"
-                        open
-                      >
-                        <summary class="article-expander__title">Parents Sue OpenAI Over Teenager Suicide</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3koum/parents_sue_openai_over_teenager_suicide/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/Queasy_System9168  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3iz0d/forget_the_golden_age_of_fraud_the_billionaire/"
-                        open
-                      >
-                        <summary class="article-expander__title">Forget the golden age of fraud, the billionaire investor who shorted Enron warns we might be in the ‘diamond or platinum level’ amid the AI boom</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3iz0d/forget_the_golden_age_of_fraud_the_billionaire/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/fortune  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3fwl8/student_ais_pick_up_unexpected_traits_from/"
-                        open
-                      >
-                        <summary class="article-expander__title">Student AIs pick up unexpected traits from teachers through subliminal learning</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3fwl8/student_ais_pick_up_unexpected_traits_from/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/scientificamerican  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3fvms/how_will_tiktokyoutube_deal_with_the_ai_spam_flood/"
-                        open
-                      >
-                        <summary class="article-expander__title">How will TikTok/YouTube deal with the AI spam flood?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3fvms/how_will_tiktokyoutube_deal_with_the_ai_spam_flood/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>We’re seeing short-form platforms (TikTok, Reels, Shorts) getting flooded with AI-generated videos at a crazy pace and they are actually getting good engagement. Right now, a lot of these still get traction because there’s novelty and volume, but as this ramps up, I’m wondering:
-  
-How will recommendation systems separate quality from spam when most uploads might be AI?
- 
-Will engagement metrics (watch time, likes, comments) still be enough, or do platforms need different indicators ? 
- 
-Could we see entirely new moderation layers or “AI detection” systems that impact discoverability?
- 
- Curious how others think platforms will take on it inevitable issue, especially since the algorithms themselves will probably be tuned by AI too.
-    submitted by    /u/Murky-External2208  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3d1uu/anthropic_will_start_training_its_ai_models_on/"
-                        open
-                      >
-                        <summary class="article-expander__title">Anthropic will start training its AI models on chat transcripts</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3d1uu/anthropic_will_start_training_its_ai_models_on/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/F0urLeafCl0ver  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3cx6v/taco_bells_ai_drivethru_plan_gets_caught_up_on/"
-                        open
-                      >
-                        <summary class="article-expander__title">Taco Bell’s AI drive-thru plan gets caught up on trolls and glitches</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3cx6v/taco_bells_ai_drivethru_plan_gets_caught_up_on/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/F0urLeafCl0ver  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n3b087/made_a_little_gift_for_taylors_engagement/"
-                        open
-                      >
-                        <summary class="article-expander__title">Made a little gift for Taylor’s engagement</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n3b087/made_a_little_gift_for_taylors_engagement/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>As a longtime Swiftie, this news hit me hard. I&#x27;m honestly crying, but more than anything, I&#x27;m just so happy she found her forever. I wanted to channel that mix of emotions into something positive, so I built this &quot;blessing gift&quot; just for her engagement. It&#x27;s simple, but it&#x27;s from the heart.
-    submitted by    /u/gunashekar_18  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n38ncb/nvidia_ceo_jensen_huang_expects_3_trillion_to_4/"
-                        open
-                      >
-                        <summary class="article-expander__title">Nvidia CEO Jensen Huang expects &quot;$3 trillion to $4 trillion&quot; spend on AI infrastructure by 2030</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n38ncb/nvidia_ceo_jensen_huang_expects_3_trillion_to_4/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/Tiny-Independent273  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n37ova/ai_chat_that_locates_a_live_streamer_based_on_the/"
-                        open
-                      >
-                        <summary class="article-expander__title">AI chat that locates a live streamer based on the location of the stream.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n37ova/ai_chat_that_locates_a_live_streamer_based_on_the/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>is there such a thing? if not, how hard would it be to create one?
-    submitted by    /u/artier14  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n37mkv/theres_a_stunning_financial_problem_with_ai_data/"
-                        open
-                      >
-                        <summary class="article-expander__title">There&#x27;s a Stunning Financial Problem With AI Data Centers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n37mkv/theres_a_stunning_financial_problem_with_ai_data/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/PerAsperaAdMars  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/artificial/comments/1n377lw/all_watched_over_rethinking_humanmachine/"
-                        open
-                      >
-                        <summary class="article-expander__title">All Watched Over: Rethinking Human/Machine Distinctions</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/artificial/comments/1n377lw/all_watched_over_rethinking_humanmachine/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>submitted by    /u/ManifestMidwest  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Machine Learning</button>
-                  <a class="source-heading__link" href="https://www.reddit.com/r/MachineLearning/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1n3iiam/d_working_with_optuna_autosampler_in_massive/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] Working with Optuna + AutoSampler in massive search spaces</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1n3iiam/d_working_with_optuna_autosampler_in_massive/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hi! I’m using Optuna with AutoSampler to optimize a model, but the search space is huge—around 2 million combinations.
- Has anyone worked with something similar? I’m interested in learning which techniques have worked for reducing the search space.
-    submitted by    /u/Unlikeghost  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1n3i2fx/d_scaling_inference_lessons_from_running_multiple/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] Scaling Inference: Lessons from Running Multiple Foundation Models in Production</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1n3i2fx/d_scaling_inference_lessons_from_running_multiple/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>We’ve been experimenting with deploying a mix of foundation models (LLaMA, Mistral, Stable Diffusion variants, etc.) in a single platform. One of the recurring pain points is inference optimization at scale:
-  
-Batching tradeoffs: Batching reduces cost but can kill latency for interactive use cases.
- Quantization quirks: Different levels (INT8, FP16) affect models inconsistently. Some speed up 4×, others break outputs.
- GPU vs. CPU balance: Some workloads run shockingly well on optimized CPU kernels — but only for certain model families.
-  
-Curious how others have approached this.
-  
-What’s your go-to strategy for latency vs throughput tradeoffs?
- Are you using model distillation or sticking to quantization?
- Any underrated libraries or frameworks for managing multi-model inference efficiently?
-  
-   submitted by    /u/TaxPossible5575  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1n3gfpt/p_opensource_protocol_designed_for_multiagent/"
-                        open
-                      >
-                        <summary class="article-expander__title">[P] Open-Source Protocol designed for Multi-Agent Communication</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1n3gfpt/p_opensource_protocol_designed_for_multiagent/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Project
- OSS Released MAPLE – a Multi Agent Protocol Language Engine designed for fast, secure, and reliable agent communication.
- — a new open-source protocol designed for multi-agent communication at production scale.
- MAPLE offers features we haven&#x27;t seen in other protocols:
- 🔧 Integrated Resource Management: The ONLY protocol with built-in resource specification, negotiation, and optimization
- 🛡️ Link Identification Mechanism (LIM): Revolutionary security through verified communication channels
- ⚡ Result Type System: ELIMINATES all silent failures and communication errors
- 🌐 Distributed State Synchronization: Sophisticated state management across agent networks
- 🏭 Production-Grade Performance: Very high performance for a feature-rich protocol with sub-millisecond latency
- 💻 pip install maple-oss
- PyPI here: https://pypi.org/project/maple-oss/
- If you’re building with agents or need robust, real-world communication between systems,
- check out MAPLE GitHub repo: https://github.com/maheshvaikri-code/maple-oss
- Please try and test it with your projects.
- MAPLE Multi Agent Communication Protocol
-    submitted by    /u/Immediate-Cake6519  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1n3g1p7/d_how_do_we_make_browserbased_ai_agents_more/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] How do we make browser-based AI agents more reliable?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1n3g1p7/d_how_do_we_make_browserbased_ai_agents_more/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I’ve been experimenting with different approaches for giving AI agents the ability to use browsers in real workflows (data collection, QA automation, multi-step workflows). The promise is huge but the reliability problems are just as big:
-  
-Sessions break after login or CAPTCHA
- Agents fail when sites change structure
- Security is hard to guarantee at scale
- Each framework has its own dialect / quirks
-  
-Recently I’ve been looking into managed environments that abstract some of this away. For example, I am using hyperbrowser right now and it does provide a unified layer for running browser-based agents without setting up everything manually. 
- But then my question is... Is there ongoing research or promising directions in making browser-agent interactions more robust? Are there known benchmarks, best practices, or papers that deal with these reliability issues?
-    submitted by    /u/DenOmania  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1n3e27s/d_upcoming_interviews_at_frontier_labs_tips/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] Upcoming interviews at frontier labs, tips?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1n3e27s/d_upcoming_interviews_at_frontier_labs_tips/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hi all,
- I’m currently interviewing at a few labs for MLE positions and there’s two interviews in particular that have stumped me that I’d like some clarity on:
-  
-Transformer debugging - to my knowledge, the interviewer will provide a buggy implementation of things like causal attention, self-attention, incorrect layer norm, scaling issues, and broadcast/shape mismatch. Is there anything else I’d need to master here? So far, I’ve only been studying GPT style transformers, should I add BERT to the mix or nah?
- Training classifier &amp; data analysis. The recruiter said this is around evaluation and model performance. I’m guessing they’ll throw me an unbalanced dataset and ask me to improve model performance somehow. Things to study here are: 1) chip hguyns book and 2) look at regularization, pandas/sklearn normalization and data clean up methods. How else can I master this topic? Any sample questions you have seen here before?
-  
-Lastly, what is your go-to source for practicing MLE related topics, both in terms of knowledge-base as well as real interview questions. I tried 1point3acres but very limited when it comes to ML.
-    submitted by    /u/bci-hacker  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1n38fr0/finetuning_vision_transformers_d/"
-                        open
-                      >
-                        <summary class="article-expander__title">Finetuning Vision Transformers [D]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1n38fr0/finetuning_vision_transformers_d/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hey, Looking to see how DinoV3 will do on my dataset post finetuning. 
- Any practical advice on finetuning Dino? Scheduler, optimizer, flow - freezing, discriminative lr etc. Any recommandations for blogs or articals related to this? 
-    submitted by    /u/Suitable-Director809  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reddit.com/r/MachineLearning/comments/1n37qnu/d_ollamagptoss20b_cant_seem_to_generate/"
-                        open
-                      >
-                        <summary class="article-expander__title">[D] ollama/gpt-oss:20b can&#x27;t seem to generate structured outputs.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reddit.com/r/MachineLearning/comments/1n37qnu/d_ollamagptoss20b_cant_seem_to_generate/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I&#x27;m experimenting with &quot;ollama/gpt-oss:20b&quot;&#x27;s capability to generate structured outputs. For example, I used it to evaluate against GSM8K dataset. The schema is as follows: answer: for the answer, and solution: for the CoT solution. However, it doesn&#x27;t make sense that for a 20B model, it cannot generate a valid structured output.
- Any thoughts or hacks on this one? I would appreciate it. Thanks.
-    submitted by    /u/AnyIce3007  
- [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Artificial Intelligence</button>
-                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/machine-learning/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="1e0d846748627ab69c24fa6e7388f65c9efdda24"
-                        open
-                      >
-                        <summary class="article-expander__title">Detect Amazon Bedrock misconfigurations with Datadog Cloud Security</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/detect-amazon-bedrock-misconfigurations-with-datadog-cloud-security/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/20/ML-18870-Datadog-AWS.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We’re excited to announce new security capabilities in Datadog Cloud Security that can help you detect and remediate Amazon Bedrock misconfigurations before they become security incidents. This integration helps organizations embed robust security controls and secure their use of the powerful capabilities of Amazon Bedrock by offering three critical advantages: holistic AI security by integrating AI security into your broader cloud security strategy, real-time risk detection through identifying potential AI-related security issues as they emerge, and simplified compliance to help meet evolving AI regulations with pre-built detections.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2de27b411929b46d7b690688508935cd0105dcb4"
-                        open
-                      >
-                        <summary class="article-expander__title">Set up custom domain names for Amazon Bedrock AgentCore Runtime agents</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/set-up-custom-domain-names-for-amazon-bedrock-agentcore-runtime-agents/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/20/Screenshot-2025-08-20-at-11.41.18 AM-1260x594.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this post, we show you how to create custom domain names for your Amazon Bedrock AgentCore Runtime agent endpoints using CloudFront as a reverse proxy. This solution provides several key benefits: simplified integration for development teams, custom domains that align with your organization, cleaner infrastructure abstraction, and straightforward maintenance when endpoints need updates.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="3597361840ea50779f5ad68210444b9ca0985d5b"
-                        open
-                      >
-                        <summary class="article-expander__title">Introducing auto scaling on Amazon SageMaker HyperPod</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/machine-learning/introducing-auto-scaling-on-amazon-sagemaker-hyperpod/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/29/auto_scaling_hyperpod.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this post, we announce that Amazon SageMaker HyperPod now supports managed node automatic scaling with Karpenter, enabling efficient scaling of SageMaker HyperPod clusters to meet inference and training demands. We dive into the benefits of Karpenter and provide details on enabling and configuring Karpenter in SageMaker HyperPod EKS clusters.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >John D. Cook</button>
-                  <a class="source-heading__link" href="https://www.johndcook.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.johndcook.com/blog/?p&#x3D;246458"
-                        open
-                      >
-                        <summary class="article-expander__title">Storing data in images</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.johndcook.com/blog/2025/08/29/data-in-images/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This post will connect a couple posts from yesterday and explore storing data in images. Connections There’s a connection between two blog posts that I wrote yesterday that I only realized today. The first post was about the probability of sending money to a wrong Bitcoin address by mistyping. Checksums make it extremely unlikely that […]
-Storing data in images first appeared on John D. Cook.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -133942,8 +133644,8 @@ Jupyter notebooks are a powerful tool for scientists, engineers, technical write
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/rsohlot/rss-feed/actions/runs/18067262138">
-        <time id="build-timestamp" datetime="2025-09-28T01:10:28.663Z">2025-09-28T01:10:28.663Z</time>
+      <a class="footer-link" href="https://github.com/rsohlot/rss-feed/actions/runs/18082567916">
+        <time id="build-timestamp" datetime="2025-09-29T01:05:41.972Z">2025-09-29T01:05:41.972Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
